@@ -1,0 +1,151 @@
+{
+  "name": "Nethril",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "nethril",
+  "characteristics": {
+    "60": {
+      "hp": 17010,
+      "attack": 1454,
+      "defense": 991,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Blood Harvest",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%",
+      "slug": "blood-harvest",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Ghastly Horrors",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff on all enemies for 1 turn. Places a 30% [Decrease SPD] debuff for 2 turns if the target is not under a [Stun] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "ghastly-horrors",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Bat Swarm",
+      "raw_description": "Attacks all enemies. Decreases the Turn Meter by 75%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "slug": "bat-swarm",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/nethril/",
+  "image_slug": "image-champion-nethril",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Nethril is a legendary attack champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Nethril",
+      "nethril"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Nethril is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-nethril.jpg",
+        "name": "Nethril",
+        "url": "https://raid-codex.com/champions/nethril/"
+      }
+    ]
+  },
+  "default_description": "Nethril is a legendary attack champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

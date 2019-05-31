@@ -1,0 +1,149 @@
+{
+  "name": "Lugan the Steadfast",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "HP",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "lugan-the-steadfast",
+  "characteristics": {
+    "60": {
+      "hp": 20475,
+      "attack": 925,
+      "defense": 1013,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Crushing Blow",
+      "raw_description": "Attacks 1 enemy. Heals all allies except this Champion by 25% of the damage inflicted. Damage inflicted is proportional to MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "crushing-blow",
+      "effects": [],
+      "damaged_based_on": [
+        "HP"
+      ]
+    },
+    {
+      "name": "Bodyguard",
+      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 3 turns. Also places a 50% [Ally Protection] buff on all allies for 2 turns. % Ally Protection<br>Lvl. 2 Cooldown -1",
+      "slug": "bodyguard",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection",
+          "website_link": "/buff/ally-protection",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/buff/increase-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Mark of Silence",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Block Cooldown Skills] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Damage +10%",
+      "slug": "mark-of-silence",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/debuff/block-cooldown-skills",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 0,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/lugan-the-steadfast/",
+  "image_slug": "image-champion-lugan-the-steadfast",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lugan the Steadfast is a legendary hp champion from the faction Banner-Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Lugan the Steadfast",
+      "lugan-the-steadfast"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Lugan the Steadfast is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-lugan-the-steadfast.jpg",
+        "name": "Lugan the Steadfast",
+        "url": "https://raid-codex.com/champions/lugan-the-steadfast/"
+      }
+    ]
+  },
+  "default_description": "Lugan the Steadfast is a legendary hp champion from the faction Banner-Lords doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

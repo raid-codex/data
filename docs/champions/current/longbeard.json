@@ -1,0 +1,154 @@
+{
+  "name": "Longbeard",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "S",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "SS",
+    "spirit_dungeon": "S",
+    "void_dungeon": "S"
+  },
+  "slug": "longbeard",
+  "characteristics": {
+    "60": {
+      "hp": 17835,
+      "attack": 1409,
+      "defense": 980,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C. RATE in Dungeons by 23%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Unstoppable Force",
+      "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "slug": "unstoppable-force",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Brittleness Curse",
+      "raw_description": "Attacks 1 enemy. Places a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "brittleness-curse",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Horde's Fury",
+      "raw_description": "Attacks 1 enemy with 4 allies. Increases the damage inflicted by allies by 20%.<br>Lvl. 2 Cooldown -1",
+      "slug": "horde-s-fury",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Skinwalker",
+    "slug": "skinwalker",
+    "website_link": "/factions/skinwalker/",
+    "image_slug": "image-faction-skinwalker",
+    "number_of_champions": 0,
+    "default_description": "Skinwalker is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalker is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalker",
+        "skinwalker"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "skinwalker",
+  "website_link": "/champions/longbeard/",
+  "image_slug": "image-champion-longbeard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Longbeard is a legendary attack champion from the faction Skinwalker doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Longbeard",
+      "longbeard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalker"
+        },
+        "description": "Member of the faction Skinwalker, Longbeard is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-longbeard.jpg",
+        "name": "Longbeard",
+        "url": "https://raid-codex.com/champions/longbeard/"
+      }
+    ]
+  },
+  "default_description": "Longbeard is a legendary attack champion from the faction Skinwalker doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>As Skinwalkers shaman tell it, at Ghaar Khan’s birth, divine signs indicated he would consolidate the scattered Skinwalkers clans into one horde. As Ghaar grew, he the truth of the prophecy was revealed.</p><p>By defeating his enemies, forming alliances, and winning the loyalty of others, he managed to unite or subdue the several great nomadic tribes under his rule. At the Council of Elders, he was acknowledged as \"\"Khan\"\" and gifted with a mace made of the Holy Sheep's head - the Skinwalkers symbol of might and power.</p>"
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Wretch",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "wretch",
+  "characteristics": {
+    "60": {
+      "hp": 13215,
+      "attack": 1432,
+      "defense": 716,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Force Ally ATK in all Battles by 30%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Crypt Touch",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "slug": "crypt-touch",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuff/heal-reduction",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Lifeleech",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "lifeleech",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Gravefire",
+      "raw_description": "Attacks 1 enemy. Places a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "gravefire",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuff/hp-burn",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/wretch/",
+  "image_slug": "image-champion-wretch",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Wretch is a rare attack champion from the faction Undead Hordes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Wretch",
+      "wretch"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Wretch is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-wretch.jpg",
+        "name": "Wretch",
+        "url": "https://raid-codex.com/champions/wretch/"
+      }
+    ]
+  },
+  "default_description": "Wretch is a rare attack champion from the faction Undead Hordes doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>It is common practice for necromancers to raid old crypts, tombs, and sites of bloody battles in search of new minions to bind to their will. Most end up as shambling skeletons barely able to swing a sword. Sometimes, however, a capable warrior is raised in undeath. Though their soul is long gone, the body may yet hold vestiges of their waning might. Such creatures can look deceptively fragile, but underestimating them can be a deadly mistake.</p><p>Either by the will of the necromancer that awakened them, or by their own natural affinity, these undead can manifest eerie magical abilities. This particular champion, though his origins are unknown, has been able to summon mystical fire upon his master’s foes, sap away their lifeforce, and inflict wounds that defy the skills of experienced healers. But all is not lost, for such a powerful creature has to be bound to his Shard. And if one were to take possession of it, the skeletal Wretch can yet be turned against the dark powers that interrupted his eternal sleep.</p>"
+}

@@ -1,0 +1,162 @@
+{
+  "name": "Arcanist",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A"
+  },
+  "slug": "arcanist",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 936,
+      "defense": 738,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in the Arena by 25%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Paralyzing Touch",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Sleep] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Damage +10%",
+      "slug": "paralyzing-touch",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuff/sleep",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Unnatural Recovery",
+      "raw_description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "unnatural-recovery",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Vigor",
+      "raw_description": "Places a 25% [Increase ATK] buff and a 15% [Increase C. RATE] buff on all allies for 3 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "vigor",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 0,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/arcanist/",
+  "image_slug": "image-champion-arcanist",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Arcanist is a rare assist champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Arcanist",
+      "arcanist"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Arcanist is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-arcanist.jpg",
+        "name": "Arcanist",
+        "url": "https://raid-codex.com/champions/arcanist/"
+      }
+    ]
+  },
+  "default_description": "Arcanist is a rare assist champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

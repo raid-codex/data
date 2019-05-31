@@ -1,0 +1,154 @@
+{
+  "name": "Maneater",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A"
+  },
+  "slug": "maneater",
+  "characteristics": {
+    "60": {
+      "hp": 20310,
+      "attack": 837,
+      "defense": 1112,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in Dungeons by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Pummel",
+      "raw_description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff on all enemies if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "pummel",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Syphon",
+      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Fills this Champion's Turn Meter equal to the amount the target loses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
+      "slug": "syphon",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Ancient Blood",
+      "raw_description": "This Champion receives damage, then places an [Unkillable] buff and a [Block Debuffs] buff on all allies for 2 turns. Damage received is equal to 5% MAX HP for each alive ally.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "ancient-blood",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buff/block-debuffs",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/buff/unkillable",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 0,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/maneater/",
+  "image_slug": "image-champion-maneater",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Maneater is a epic attack champion from the faction Ogryn-Tribes doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Maneater",
+      "maneater"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Maneater is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-maneater.jpg",
+        "name": "Maneater",
+        "url": "https://raid-codex.com/champions/maneater/"
+      }
+    ]
+  },
+  "default_description": "Maneater is a epic hp champion from the faction Ogryn-Tribes doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

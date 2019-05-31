@@ -1,0 +1,166 @@
+{
+  "name": "Tayrel",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "slug": "tayrel",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 881,
+      "defense": 1343,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Decreases Ally DEF in all Battles by 2:",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Humble",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +15%",
+      "slug": "humble",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Singing Steel",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. If the target is under a [Decrease ATK] debuff, it will place a [Sleep] debuff for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "singing-steel",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuff/sleep",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Preemptive Strike",
+      "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 50%. If the attack fully depletes the Turn Meter, it will place a [Stun] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "preemptive-strike",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/tayrel/",
+  "image_slug": "image-champion-tayrel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Tayrel is a epic def champion from the faction High Elves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Tayrel",
+      "tayrel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Tayrel is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tayrel.jpg",
+        "name": "Tayrel",
+        "url": "https://raid-codex.com/champions/tayrel/"
+      }
+    ]
+  },
+  "default_description": "Tayrel is a epic def champion from the faction High Elves doing magic damage",
+  "recommended_builds": [],
+  "lore": ""
+}

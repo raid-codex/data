@@ -1,0 +1,154 @@
+{
+  "name": "Big'Un",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "SS",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "SS",
+    "dragon": "A",
+    "spider": "SS",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "big-un",
+  "characteristics": {
+    "60": {
+      "hp": 17505,
+      "attack": 1575,
+      "defense": 837,
+      "speed": 104,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in Dungeons by 90.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Head Splitter",
+      "raw_description": "Attacks 1 enemy. Attacks all enemies 1 time if the first attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +15%",
+      "slug": "head-splitter",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Forward Charge",
+      "raw_description": "Attacks all enemies. Has a 30% chance of placing a [Stun] debuff for 1 turn. Also has a 50% chance of placing a 50% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "slug": "forward-charge",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Molten Slag",
+      "raw_description": "Attacks all enemies 2 times. Decreases the Turn Meter by 25%. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
+      "slug": "molten-slag",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 0,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/big-un/",
+  "image_slug": "image-champion-big-un",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Big'Un is a legendary attack champion from the faction Ogryn-Tribes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Big'Un",
+      "big-un"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Big'Un is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-big-un.jpg",
+        "name": "Big'Un",
+        "url": "https://raid-codex.com/champions/big-un/"
+      }
+    ]
+  },
+  "default_description": "Big'Un is a legendary attack champion from the faction Ogryn-Tribes doing magic damage",
+  "recommended_builds": [],
+  "lore": ""
+}

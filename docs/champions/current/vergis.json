@@ -1,0 +1,162 @@
+{
+  "name": "Vergis",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Def",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "vergis",
+  "characteristics": {
+    "60": {
+      "hp": 16020,
+      "attack": 925,
+      "defense": 1310,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Cras y 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Pierce",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Decrease ACC] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "slug": "pierce",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Aegis",
+      "raw_description": "Places a 15% [Continuous Heal] buff on a target ally for 2 turns. Places a 50% [Ally Protection] buff on the target ally for 2 turns. This Champion will take 50% of the damage inflicted on the target ally.<br>Lvl. 2 Cooldown -1",
+      "slug": "aegis",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection",
+          "website_link": "/buff/ally-protection",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Second Wind",
+      "raw_description": "Places a 15% [Continuous Heal] buff on this Champion for 2 turns every time their HP drops below 50%.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "second-wind",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/vergis/",
+  "image_slug": "image-champion-vergis",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Vergis is a epic def champion from the faction High Elves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Vergis",
+      "vergis"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Vergis is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-vergis.jpg",
+        "name": "Vergis",
+        "url": "https://raid-codex.com/champions/vergis/"
+      }
+    ]
+  },
+  "default_description": "Vergis is a epic def champion from the faction High Elves doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

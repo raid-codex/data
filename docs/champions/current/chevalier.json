@@ -1,0 +1,168 @@
+{
+  "name": "Chevalier",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "chevalier",
+  "characteristics": {
+    "60": {
+      "hp": 16680,
+      "attack": 804,
+      "defense": 1112,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Hack Through",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of repeating the attack. Will ignore [Block Damage] and [Shield] buffs.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "hack-through",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Stern Rebuke",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "stern-rebuke",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Lord Protector",
+      "raw_description": "Places a 30% [Increase DEF] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
+      "slug": "lord-protector",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buff/increase-def",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 0,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/chevalier/",
+  "image_slug": "image-champion-chevalier",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Chevalier is a rare def champion from the faction Banner-Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Chevalier",
+      "chevalier"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Chevalier is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-chevalier.jpg",
+        "name": "Chevalier",
+        "url": "https://raid-codex.com/champions/chevalier/"
+      }
+    ]
+  },
+  "default_description": "Chevalier is a rare def champion from the faction Banner-Lords doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Chevaliers hail from the Northern coast of Kaerok, the name itself derived from a local title given to Knights. Mostly minor nobles, these warriors form the elite corps of the King’s army. Encased in heavy armour, armed with a shield and a variety of weapons, they can batter their way through all but the toughest opposition.</p><p>The Chevalier’s allies can be certain, that on his honour he shall protect them and strike back against those who defy the will of the Arbiter. Such is his dedication, that not even enchanted armour can save the enemy from his axe. And his knowledge of tactics allows allies to follow him into the fray in a defensive formation, less exposed to enemy strikes.</p>"
+}

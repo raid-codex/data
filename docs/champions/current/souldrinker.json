@@ -1,0 +1,178 @@
+{
+  "name": "Souldrinker",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "slug": "souldrinker",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 1299,
+      "defense": 848,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Razing Hand",
+      "raw_description": "Attacks 1 enemy. Decreases [Bomb] debuff detonation countdowns by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "razing-hand",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuff/bomb",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Raining Fire",
+      "raw_description": "Attacks 3 times at random. Decreases [Bomb] debuff detonation countdowns by 1 turn if the target has a [Poison] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "raining-fire",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuff/bomb",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Magma Blast",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "magma-blast",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuff/bomb",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Set Ablaze",
+      "raw_description": "Has an 80% chance of placing two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
+      "slug": "set-ablaze",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuff/bomb",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 0,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/souldrinker/",
+  "image_slug": "image-champion-souldrinker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Souldrinker is a epic attack champion from the faction Demonspawn doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Souldrinker",
+      "souldrinker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Souldrinker is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-souldrinker.jpg",
+        "name": "Souldrinker",
+        "url": "https://raid-codex.com/champions/souldrinker/"
+      }
+    ]
+  },
+  "default_description": "Souldrinker is a epic attack champion from the faction Demonspawn doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

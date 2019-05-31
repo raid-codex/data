@@ -1,0 +1,156 @@
+{
+  "name": "Juliana",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "SS",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "A"
+  },
+  "slug": "juliana",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1398,
+      "defense": 881,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C. RATE in the Arena by 20%.<br> <br> wu",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Battledance",
+      "raw_description": "Attacks 1 enemy 2 times. Each critical hit fills this Champion's Turn Meter by 10%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%",
+      "slug": "battledance",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Lethal Partner",
+      "raw_description": "Places a 30% [Increase C. RATE] buff on this Champion, then attacks 1 enemy 2 times. Places a 5% [Poison] debuff on the target for 3 turns if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "slug": "lethal-partner",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Fire of Purgation",
+      "raw_description": "Attacks 1 enemy. Removes 1 random buff from the target. Has a 75% chance of placing a [HP Burn] debuff for 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +5%<br>Lvl. 7 Buff/Debuff Chance +5%<br>Lvl. 8 Buff/Debuff Chance +5%",
+      "slug": "fire-of-purgation",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuff/hp-burn",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/juliana/",
+  "image_slug": "image-champion-juliana",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Juliana is a epic attack champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Juliana",
+      "juliana"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Juliana is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-juliana.jpg",
+        "name": "Juliana",
+        "url": "https://raid-codex.com/champions/juliana/"
+      }
+    ]
+  },
+  "default_description": "Juliana is a epic attack champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>But, of course, it is not just love that is marked by divine intervention or tragedy that is worthy of the minstrel’s attention. Those are merely good for the dramatic flair that those knights of the lute do so enjoy. More often than not, love overcomes obstacles that are less grand on a cosmic scale, yet no less difficult for the mortals who find themselves entwined.</p><p>The Sacred Order as a whole, while not necessarily enforcing a Vow of Chastity, does forbid its members from having families and heirs - a precaution to make certain positions of power within the Order pass on by right of virtue, not that of blood. Undue attachment is heavily frowned upon as well, outright forbidden in some of the stricter Divisions of the Order.</p><p>It is no surprise then, that the Knights Romero and Juliana had never thought of themselves falling in love. Romero, ever coolheaded and pious found himself at odds with the young and brash Juliana, whose skill with the blade and fiery zeal led her to many mortal perils that she, to the young Knight’s credit, honourably overcame. But a life full of battles does tend to make emotions run wild. In time, the two warmed up to one another’s “quirks”, learned to appreciate them even. Their eventual union, though it may never be formalized by marriage, remains true and tested. Neither did that union affect their relationship as comrades-in-arms, if anything it allowed the two Knights to fight as one. Where Romero’s natural cautiousness may lead to him losing momentum, Juliana’s brazen but no less skillful tactics ensure that their forces control the initiative. And where Juliana may begin losing herself in the heat of battle, Romero is always there to serve as an anchor of reason. To this day, they remain among the Order’s prominent warriors and are ready to bring Lumaya’s light wherever it is needed most.</p>"
+}

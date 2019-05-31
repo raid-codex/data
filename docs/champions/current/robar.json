@@ -1,0 +1,161 @@
+{
+  "name": "Robar",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "S",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "robar",
+  "characteristics": {
+    "60": {
+      "hp": 18990,
+      "attack": 1619,
+      "defense": 694,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Stunning Strength",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn. Grants an Extra Turn if this debuff is successfully placed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "stunning-strength",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Wild Swing",
+      "raw_description": "Attacks all enemies. Each hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
+      "slug": "wild-swing",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Merciless Assault",
+      "raw_description": "Attacks all enemies. Damage increases if the target is under [Sleep], [Stun] or [Freeze] debuffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%",
+      "slug": "merciless-assault",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuff/freeze",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 0,
+    "default_description": "Orcs is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/robar/",
+  "image_slug": "image-champion-robar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Robar is a legendary attack champion from the faction Orcs doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Robar",
+      "robar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Robar is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-robar.jpg",
+        "name": "Robar",
+        "url": "https://raid-codex.com/champions/robar/"
+      }
+    ]
+  },
+  "default_description": "Robar is a legendary attack champion from the faction Orcs doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Skirmisher",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "skirmisher",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1211,
+      "defense": 793,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Twin Shafts",
+      "raw_description": "Attacks 1 enemy 2 times. Inflicts 15% more damage against targets who have no active buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "twin-shafts",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Hexed Arrow",
+      "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 20% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "hexed-arrow",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Dispelling Shot",
+      "raw_description": "Attacks all enemies. Removes 1 random buff from each enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
+      "slug": "dispelling-shot",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 0,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/skirmisher/",
+  "image_slug": "image-champion-skirmisher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skirmisher is a rare attack champion from the faction Barbarians doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skirmisher",
+      "skirmisher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Skirmisher is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skirmisher.jpg",
+        "name": "Skirmisher",
+        "url": "https://raid-codex.com/champions/skirmisher/"
+      }
+    ]
+  },
+  "default_description": "Skirmisher is a rare attack champion from the faction Barbarians doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Barbarian tribes are renowned for their ability to adapt to harsh conditions, be it their inhospitable land, or unfavourable odds on the battlefield. Sometimes, the sheer rage and fury that they are associated with are not enough, and cunning tactics must be applied. Thus the use of skirmishers, armed with bows or javelins, is not uncommon. These warriors appear out of nowhere, strike at any vulnerability they can find, and disappear like ghosts.</p><p>This Champion in particular has honed her talent to take advantage of an opportunity. She knows that denying an enemy’s advantage is crucial to ensuring victory. And so she will employ any means necessary to bereave the foe of enchantments and slow them down to let her allies seize the initiative.</p>"
+}

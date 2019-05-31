@@ -1,0 +1,173 @@
+{
+  "name": "Norog",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "norog",
+  "characteristics": {
+    "60": {
+      "hp": 16845,
+      "attack": 1156,
+      "defense": 1299,
+      "speed": 106,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Dungeons by 40%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Maul",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Decrease ACC] debuff for 1 turn. This debuff cannot be resisted or blocked.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10% % ey a eee Crs ya",
+      "slug": "maul",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Ice Pillar",
+      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "slug": "ice-pillar",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuff/block-buffs",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Thick Skin",
+      "raw_description": "Immune to [Stun], [Freeze], [Sleep] debuffs. Decreases the damage taken by all allies by 15%.",
+      "slug": "thick-skin",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuff/freeze",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuff/sleep",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Skinwalker",
+    "slug": "skinwalker",
+    "website_link": "/factions/skinwalker/",
+    "image_slug": "image-faction-skinwalker",
+    "number_of_champions": 0,
+    "default_description": "Skinwalker is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalker is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalker",
+        "skinwalker"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "skinwalker",
+  "website_link": "/champions/norog/",
+  "image_slug": "image-champion-norog",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Norog is a legendary def champion from the faction Skinwalker doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Norog",
+      "norog"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalker"
+        },
+        "description": "Member of the faction Skinwalker, Norog is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-norog.jpg",
+        "name": "Norog",
+        "url": "https://raid-codex.com/champions/norog/"
+      }
+    ]
+  },
+  "default_description": "Norog is a legendary def champion from the faction Skinwalker doing magic damage",
+  "recommended_builds": [],
+  "lore": ""
+}

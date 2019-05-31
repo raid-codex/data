@@ -1,0 +1,142 @@
+{
+  "name": "Siegebreaker",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "siegebreaker",
+  "characteristics": {
+    "60": {
+      "hp": 14040,
+      "attack": 1211,
+      "defense": 881,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Pelting Blows",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%",
+      "slug": "pelting-blows",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Electrocute",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a [Block Cooldown Skills] debuff for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "electrocute",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/debuff/block-cooldown-skills",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Heavenly Roar",
+      "raw_description": "Places a 30% [Increase C. RATE] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% Chance of decreasing the Turn Meter by 30% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "heavenly-roar",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 0,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/siegebreaker/",
+  "image_slug": "image-champion-siegebreaker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Siegebreaker is a rare attack champion from the faction Ogryn-Tribes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Siegebreaker",
+      "siegebreaker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Siegebreaker is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-siegebreaker.jpg",
+        "name": "Siegebreaker",
+        "url": "https://raid-codex.com/champions/siegebreaker/"
+      }
+    ]
+  },
+  "default_description": "Siegebreaker is a rare attack champion from the faction Ogryn-Tribes doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

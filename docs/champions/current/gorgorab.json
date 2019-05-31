@@ -1,0 +1,133 @@
+{
+  "name": "Gorgorab",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "S",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "slug": "gorgorab",
+  "characteristics": {
+    "60": {
+      "hp": 17670,
+      "attack": 1057,
+      "defense": 1068,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in the Arena by 23%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Misfortune",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of removing 1 random buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "misfortune",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Resurge",
+      "raw_description": "Fills the Turn Meter of all allies by 15%. Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "resurge",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Animate",
+      "raw_description": "Revives any dead allies with 25% HP, then heals all allies by 25%.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "animate",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/gorgorab/",
+  "image_slug": "image-champion-gorgorab",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gorgorab is a epic assist champion from the faction Undead Hordes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gorgorab",
+      "gorgorab"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Gorgorab is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gorgorab.jpg",
+        "name": "Gorgorab",
+        "url": "https://raid-codex.com/champions/gorgorab/"
+      }
+    ]
+  },
+  "default_description": "Gorgorab is a epic assist champion from the faction Undead Hordes doing magic damage",
+  "recommended_builds": [],
+  "lore": ""
+}

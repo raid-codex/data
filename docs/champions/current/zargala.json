@@ -1,0 +1,147 @@
+{
+  "name": "Zargala",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "A",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "zargala",
+  "characteristics": {
+    "60": {
+      "hp": 16680,
+      "attack": 1398,
+      "defense": 793,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in all Battles by 40.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Split Apart",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "split-apart",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Devastate",
+      "raw_description": "Attacks 1 enemy. Instantly activates the Crack Armor Skill if the target is killed by this attack.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
+      "slug": "devastate",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Crack Armor",
+      "raw_description": "Attacks all enemies 3 times. After the first hit, has a 50% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "crack-armor",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 0,
+    "default_description": "Orcs is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/zargala/",
+  "image_slug": "image-champion-zargala",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Zargala is a epic attack champion from the faction Orcs doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Zargala",
+      "zargala"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Zargala is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-zargala.jpg",
+        "name": "Zargala",
+        "url": "https://raid-codex.com/champions/zargala/"
+      }
+    ]
+  },
+  "default_description": "Zargala is a epic attack champion from the faction Orcs doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

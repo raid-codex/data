@@ -1,0 +1,155 @@
+{
+  "name": "Renegade",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "renegade",
+  "characteristics": {
+    "60": {
+      "hp": 18495,
+      "attack": 1046,
+      "defense": 749,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in all Battles by 40.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Lingering Pain",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 100% [Heal Reduction] debuff for 1 turn.<br>Damage based on: [ATK] [SPD]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "slug": "lingering-pain",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuff/heal-reduction",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "SPD"
+      ]
+    },
+    {
+      "name": "Lash Out",
+      "raw_description": "Attacks at random 3 times. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns. Places a 25% [Decrease ACC] debuff for 2 turns if the target has any active buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "slug": "lash-out",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Sacrificial Ritual",
+      "raw_description": "Decreases the cooldown of all ally skills by 2 turns. This skill does not affect this Champion, or other Champions with this skill. This Champion will receive damage equal to 30% of their MAX HP. This will happen even if it kills this Champion.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "sacrificial-ritual",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 0,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/renegade/",
+  "image_slug": "image-champion-renegade",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Renegade is a rare assist champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Renegade",
+      "renegade"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Renegade is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-renegade.jpg",
+        "name": "Renegade",
+        "url": "https://raid-codex.com/champions/renegade/"
+      }
+    ]
+  },
+  "default_description": "Renegade is a rare assist champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

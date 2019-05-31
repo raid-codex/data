@@ -1,0 +1,154 @@
+{
+  "name": "Roshcard the Tower",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "roshcard-the-tower",
+  "characteristics": {
+    "60": {
+      "hp": 24780,
+      "attack": 947,
+      "defense": 980,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rebuke",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of removing 1 random buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%",
+      "slug": "rebuke",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Sanction",
+      "raw_description": "Attacks 1 enemy. Places a [Block Cooldown Skills] debuff and a [Block Buffs] debuff for 2 turns. These debuffs cannot be resisted.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "sanction",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuff/block-buffs",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/debuff/block-cooldown-skills",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ]
+    },
+    {
+      "name": "Zone of Protection",
+      "raw_description": "Places a [Block Damage] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "zone-of-protection",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/roshcard-the-tower/",
+  "image_slug": "image-champion-roshcard-the-tower",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Roshcard the Tower is a legendary hp champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Roshcard the Tower",
+      "roshcard-the-tower"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Roshcard the Tower is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-roshcard-the-tower.jpg",
+        "name": "Roshcard the Tower",
+        "url": "https://raid-codex.com/champions/roshcard-the-tower/"
+      }
+    ]
+  },
+  "default_description": "Roshcard the Tower is a legendary hp champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": ""
+}

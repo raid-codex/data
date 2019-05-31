@@ -1,0 +1,145 @@
+{
+  "name": "Septimus",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A"
+  },
+  "slug": "septimus",
+  "characteristics": {
+    "60": {
+      "hp": 13710,
+      "attack": 1674,
+      "defense": 991,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 23%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Behead",
+      "raw_description": "Attacks 1 enemy. Grants an Extra Turn and resets the cooldown on this Champion's Holy Sword Skill if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "behead",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Holy Sword",
+      "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Damage increases according to enemy MAX HP.<br>Damage based on: [ATK] [Enemy MAX HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "holy-sword",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "Enemy MAX HP"
+      ]
+    },
+    {
+      "name": "Giant Killer",
+      "raw_description": "Each attack has a 30% chance of increasing the duration of all debuffs on the target by 1 turn. Damage inflicted by each attack increases by 30% if the enemy's current HP is over 50%.",
+      "slug": "giant-killer",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 0,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/septimus/",
+  "image_slug": "image-champion-septimus",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Septimus is a legendary attack champion from the faction Banner-Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Septimus",
+      "septimus"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Septimus is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-septimus.jpg",
+        "name": "Septimus",
+        "url": "https://raid-codex.com/champions/septimus/"
+      }
+    ]
+  },
+  "default_description": "Septimus is a legendary attack champion from the faction Banner-Lords doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Raider",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "raider",
+  "characteristics": {
+    "60": {
+      "hp": 14205,
+      "attack": 1156,
+      "defense": 925,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Savagery",
+      "raw_description": "Attacks 1 enemy. Attacks 2 times if the target's HP percentage is higher than this Champion's.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "savagery",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Carnage",
+      "raw_description": "Attacks all enemies. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "carnage",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Dominate",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a [Stun] debuff for 2 turns. Also has a 60% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +20%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +20%",
+      "slug": "dominate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 0,
+    "default_description": "Orcs is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/raider/",
+  "image_slug": "image-champion-raider",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Raider is a rare attack champion from the faction Orcs doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Raider",
+      "raider"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Raider is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-raider.jpg",
+        "name": "Raider",
+        "url": "https://raid-codex.com/champions/raider/"
+      }
+    ]
+  },
+  "default_description": "Raider is a rare attack champion from the faction Orcs doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Skullcrown",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "SS",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "skullcrown",
+  "characteristics": {
+    "60": {
+      "hp": 14535,
+      "attack": 1509,
+      "defense": 826,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in the Arena by 23%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Wave of Souls",
+      "raw_description": "Attacks all enemies. Places an extra hit if the target has more than 50% HP.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "wave-of-souls",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Corrupting Touch",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "corrupting-touch",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Resilient",
+      "raw_description": "Places an [Unkillable] buff on this Champion for 1 turn every time their HP drops below 20%.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "resilient",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/buff/unkillable",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "From Beyond",
+      "raw_description": "Revives this Champion with 30% HP.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "from-beyond",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 0,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/skullcrown/",
+  "image_slug": "image-champion-skullcrown",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skullcrown is a epic attack champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skullcrown",
+      "skullcrown"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Skullcrown is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skullcrown.jpg",
+        "name": "Skullcrown",
+        "url": "https://raid-codex.com/champions/skullcrown/"
+      }
+    ]
+  },
+  "default_description": "Skullcrown is a epic attack champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

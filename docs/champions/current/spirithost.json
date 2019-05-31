@@ -1,0 +1,143 @@
+{
+  "name": "Spirithost",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "S"
+  },
+  "slug": "spirithost",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1046,
+      "defense": 958,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 10%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Reap",
+      "raw_description": "Attacks 1 enemy. Heals by 50% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "reap",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Strengthen",
+      "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "strengthen",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Dark Gift",
+      "raw_description": "Removes all debuffs on all allies. Places a [Block Debuffs] buff on all allies for 1 turn.<br>Lvl. 2 Cooldown -1",
+      "slug": "dark-gift",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buff/block-debuffs",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 0,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/spirithost/",
+  "image_slug": "image-champion-spirithost",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Spirithost is a rare assist champion from the faction Dark Elves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Spirithost",
+      "spirithost"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Spirithost is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-spirithost.jpg",
+        "name": "Spirithost",
+        "url": "https://raid-codex.com/champions/spirithost/"
+      }
+    ]
+  },
+  "default_description": "Spirithost is a rare assist champion from the faction Dark Elves doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

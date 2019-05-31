@@ -1,0 +1,164 @@
+{
+  "name": "Sir Nicholas",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "HP",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "sir-nicholas",
+  "characteristics": {
+    "60": {
+      "hp": 22800,
+      "attack": 936,
+      "defense": 1123,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Boreal Blade",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Freeze] debuff for 1 turn. This debuff cannot be resisted.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "boreal-blade",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuff/freeze",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ]
+    },
+    {
+      "name": "Polar Protection",
+      "raw_description": "Attacks all enemies. Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] is equal to 30% of the damage inflicted.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "polar-protection",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ]
+    },
+    {
+      "name": "Goodwill",
+      "raw_description": "Places an [Unkillable] buff and a 15% [Continuous Heal] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "goodwill",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/buff/unkillable",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/sir-nicholas/",
+  "image_slug": "image-champion-sir-nicholas",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sir Nicholas is a legendary hp champion from the faction Sacred Order doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sir Nicholas",
+      "sir-nicholas"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Sir Nicholas is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sir-nicholas.jpg",
+        "name": "Sir Nicholas",
+        "url": "https://raid-codex.com/champions/sir-nicholas/"
+      }
+    ]
+  },
+  "default_description": "Sir Nicholas is a legendary hp champion from the faction Sacred Order doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Ancient legends from all across Teleria speak of a mighty warrior, whose life spans years beyond counting. He took first steps upon this land when the world was yet young, he stood alone against odds insurmountable, and felled twisted creatures would devour the sun itself. It was him who ventured beyond the barren tundra and into the ancient frozen wastes of Telerian North to break an army of Ice Giants that threatened to overwhelm the infant human kingdoms. Having slain the Giant King in single combat, he took the castle cut out of a glacier for himself and made it into a fortress dedicated Lumaya.</p><p>Such is the tale of Sir Nicholas, known under different names to the people of Teleria, but ever-present in their folklore. It is said that to this day he sits upon a throne among the towers of jagged ice and gazes upon the world through a scrying crystal gifted by the Arbiter herself. By his judgement do the righteous receive great boons, and the wicked - their just punishment. Though perhaps Sir Nicholas is not as omnipotent a force as some of the old tales paint him, it cannot be denied that many powerful villains disappeared without a trace on a Winter Solstice night...</p>"
+}

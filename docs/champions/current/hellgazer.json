@@ -1,0 +1,140 @@
+{
+  "name": "Hellgazer",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "S",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A"
+  },
+  "slug": "hellgazer",
+  "characteristics": {
+    "60": {
+      "hp": 17670,
+      "attack": 1476,
+      "defense": 650,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Soul Rend",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "soul-rend",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Dark Awakening",
+      "raw_description": "Removes all debuffs from this Champion. Places a 50% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
+      "slug": "dark-awakening",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Malign Lightning",
+      "raw_description": "Attacks all enemies. On each critical hit fills this Champion's Turn Meter by 10%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "malign-lightning",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 0,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/hellgazer/",
+  "image_slug": "image-champion-hellgazer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hellgazer is a epic attack champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hellgazer",
+      "hellgazer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Hellgazer is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hellgazer.jpg",
+        "name": "Hellgazer",
+        "url": "https://raid-codex.com/champions/hellgazer/"
+      }
+    ]
+  },
+  "default_description": "Hellgazer is a epic attack champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

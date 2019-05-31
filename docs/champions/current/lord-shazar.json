@@ -1,0 +1,149 @@
+{
+  "name": "Lord Shazar",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "lord-shazar",
+  "characteristics": {
+    "60": {
+      "hp": 15690,
+      "attack": 1343,
+      "defense": 1189,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Damnation",
+      "raw_description": "Attacks 1 enemy 3 times. Damage increases by 15% for each debuff on the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "damnation",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Everlasting Fury",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns. This buff cannot be removed. Places a [Block Debuffs] buff on this Champion for 2 turns. Grants an Extra Turn. 9g Block Debuffs<br>Lvl. 2 Cooldown -1",
+      "slug": "everlasting-fury",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buff/block-debuffs",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Cruel Fate",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing 2 [Bomb] debuffs that detonate after 2 turns. Decreases the detonation countdown by 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Damage +15%<br>Lvl. 6 Cooldown -1",
+      "slug": "cruel-fate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuff/bomb",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 0,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/lord-shazar/",
+  "image_slug": "image-champion-lord-shazar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lord Shazar is a legendary hp champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Lord Shazar",
+      "lord-shazar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Lord Shazar is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-lord-shazar.jpg",
+        "name": "Lord Shazar",
+        "url": "https://raid-codex.com/champions/lord-shazar/"
+      }
+    ]
+  },
+  "default_description": "Lord Shazar is a legendary hp champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

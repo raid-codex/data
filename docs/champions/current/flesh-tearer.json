@@ -1,0 +1,120 @@
+{
+  "name": "Flesh-Tearer",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "flesh-tearer",
+  "characteristics": {
+    "60": {
+      "hp": 18495,
+      "attack": 991,
+      "defense": 1079,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Multiply Misery",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of transferring 1 random debuff from this Champion to the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
+      "slug": "multiply-misery",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Warleader",
+      "raw_description": "Heals all allies by 30% of their MAX HP. Increases the duration of all ally buffs by 1 turn.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Heal +5%",
+      "slug": "warleader",
+      "effects": [],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Lay Low",
+      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all enemy debuffs by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "lay-low",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Skinwalker",
+    "slug": "skinwalker",
+    "website_link": "/factions/skinwalker/",
+    "image_slug": "image-faction-skinwalker",
+    "number_of_champions": 0,
+    "default_description": "Skinwalker is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalker is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalker",
+        "skinwalker"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "skinwalker",
+  "website_link": "/champions/flesh-tearer/",
+  "image_slug": "image-champion-flesh-tearer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Flesh-Tearer is a epic assist champion from the faction Skinwalker doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Flesh-Tearer",
+      "flesh-tearer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalker"
+        },
+        "description": "Member of the faction Skinwalker, Flesh-Tearer is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-flesh-tearer.jpg",
+        "name": "Flesh-Tearer",
+        "url": "https://raid-codex.com/champions/flesh-tearer/"
+      }
+    ]
+  },
+  "default_description": "Flesh-Tearer is a epic assist champion from the faction Skinwalker doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>It is a common assumption among Skinwalkers that the bigger one’s horns or antlers, the stronger one is. That is, of course, a vestige of their bestial nature, one that is often proven to be untrue. The Flesh-Tearer is a very good example of this. Despite his fear-inspiring name, he is no fearsome warrior but a wise healer who can keep others alive.</p><p>The secrets of handling herbs were passed to Flesh-Tearer from his father, just like they were from his father’s father before that.</p>"
+}

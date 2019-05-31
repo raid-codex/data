@@ -1,0 +1,161 @@
+{
+  "name": "Angar",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "HP",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "slug": "angar",
+  "characteristics": {
+    "60": {
+      "hp": 21975,
+      "attack": 826,
+      "defense": 1288,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Exacerbate",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if an enemy has a [Provoke] debuff.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "slug": "exacerbate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ]
+    },
+    {
+      "name": "Infuriate",
+      "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns.<br>Damage based on: [ATK] [HP] mh Reflect Damage<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "infuriate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage",
+          "website_link": "/buff/reflect-damage",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ]
+    },
+    {
+      "name": "Bravado",
+      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 2% (up to 10% in one round).<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%",
+      "slug": "bravado",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 0,
+    "default_description": "Orcs is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/angar/",
+  "image_slug": "image-champion-angar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Angar is a legendary hp champion from the faction Orcs doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Angar",
+      "angar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Angar is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-angar.jpg",
+        "name": "Angar",
+        "url": "https://raid-codex.com/champions/angar/"
+      }
+    ]
+  },
+  "default_description": "Angar is a legendary hp champion from the faction Orcs doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>A living legend, Angar is not only a warrior of great strength and courage but is also known for his sharp tongue. Perhaps a bit uncommon for an orc, he values victory in the battle of words just as much as victory in the contest of arms.</p><p>Provoking his foes into mindless rage with barbed insults, Angar can easily make them forget about their tactics. While Angar himself prefers to keep a cool head in battle. He is known to gather grisly trophies such as skulls and bones of the slain. Some say it helps him to always remember the cost of men's folly and blind fury.</p>"
+}

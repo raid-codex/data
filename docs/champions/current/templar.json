@@ -1,0 +1,144 @@
+{
+  "name": "Templar",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "templar",
+  "characteristics": {
+    "60": {
+      "hp": 15855,
+      "attack": 881,
+      "defense": 1090,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "a<br> <br> Increases Ally RESIST in the Arena by 50.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Charge",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% |Decrease SPD] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +109<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10",
+      "slug": "charge",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Taunt",
+      "raw_description": "Attacks 4 times at random. Each hit has a 25% chance of placing a [Provoke] debuff for 1 turn. Places a [Block Damage] buff on this Champion for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10°<br>Lvl. 5 Buff/Debuff Chance +109<br>Lvl. 6 Cooldown -1",
+      "slug": "taunt",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Contempt",
+      "raw_description": "Attacks with mpion's default skill whenever a places a debuff o",
+      "slug": "contempt",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/templar/",
+  "image_slug": "image-champion-templar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Templar is a rare def champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Templar",
+      "templar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Templar is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-templar.jpg",
+        "name": "Templar",
+        "url": "https://raid-codex.com/champions/templar/"
+      }
+    ]
+  },
+  "default_description": "Templar is a rare def champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Adriel",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "adriel",
+  "characteristics": {
+    "60": {
+      "hp": 18330,
+      "attack": 1101,
+      "defense": 980,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Magic Ally SPD in all Battles by 21%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Humiliate",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +59<br>Lvl. 5 Buff/Debuff Chance +10",
+      "slug": "humiliate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Curtain of Light",
+      "raw_description": "Heals all allies by 20% of their MAX HP and places a 30% [Reflect Damage]<br>Lvl. 2 Heal +5 Lvl<br>Lvl. 4 Heal +10<br>Lvl. 5 Cooldown -1",
+      "slug": "curtain-of-light",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage",
+          "website_link": "/buff/reflect-damage",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Blinding Flash",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Has a 100% chance if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "blinding-flash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/adriel/",
+  "image_slug": "image-champion-adriel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Adriel is a epic assist champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Adriel",
+      "adriel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Adriel is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-adriel.jpg",
+        "name": "Adriel",
+        "url": "https://raid-codex.com/champions/adriel/"
+      }
+    ]
+  },
+  "default_description": "Adriel is a epic assist champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Even among the ranks of Chaplains of the Sacred Order, Adriel is known for her ardent faith and unflinching resolve. Where some priests prefer to tend to the spiritual wellbeing of their own warriors, Adriel can always be counted upon to join the vanguard. Her loud proclamations of contempt and promises of damnation have been known to demoralize many a foe, paving the way to easy victory for her allies.</p><p>But charisma is not Adriel’s only weapon. By Lumaya’s light, she can blind the enemy, sowing confusion and weakening their attacks. The same grace allows her to close wounds with but a touch and enchant her allies’ armour to reflect attacks back at those would seek to harm them.</p>"
+}

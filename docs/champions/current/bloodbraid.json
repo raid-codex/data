@@ -1,0 +1,142 @@
+{
+  "name": "Bloodbraid",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "S",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "S",
+    "void_dungeon": "B"
+  },
+  "slug": "bloodbraid",
+  "characteristics": {
+    "60": {
+      "hp": 19650,
+      "attack": 892,
+      "defense": 826,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Enraging Prowess",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Provoke] for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5)<br>Lvl. 5 Damage +15%<br>Lvl. 6 Buff/Debuff Chance +10",
+      "slug": "enraging-prowess",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Tireless Assault",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 25% chance of granting an Extra Turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Buff/Debuff Chance +10<br>Lvl. 6 Cooldown -1",
+      "slug": "tireless-assault",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Lifecurse",
+      "raw_description": "Attacks 1 enemy. Places a 100% [Heal Reduction] debuff for 2 turns. Heals this Champion by 30% of the damage dealt.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "lifecurse",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuff/heal-reduction",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 0,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/bloodbraid/",
+  "image_slug": "image-champion-bloodbraid",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Bloodbraid is a rare hp champion from the faction Barbarians doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Bloodbraid",
+      "bloodbraid"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Bloodbraid is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bloodbraid.jpg",
+        "name": "Bloodbraid",
+        "url": "https://raid-codex.com/champions/bloodbraid/"
+      }
+    ]
+  },
+  "default_description": "Bloodbraid is a rare hp champion from the faction Barbarians doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

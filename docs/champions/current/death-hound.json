@@ -1,0 +1,142 @@
+{
+  "name": "Death Hound",
+  "rarity": "Common",
+  "element": "",
+  "type": "Attack",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "slug": "death-hound",
+  "characteristics": {
+    "60": {
+      "hp": 10740,
+      "attack": 914,
+      "defense": 573,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Neck Bite",
+      "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Will Ignore DEF if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "slug": "neck-bite",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buff/block-damage",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Gnaw",
+      "raw_description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "gnaw",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/death-hound/",
+  "image_slug": "image-champion-death-hound",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Death Hound is a common attack champion from the faction Undead Hordes. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Death Hound",
+      "death-hound"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Death Hound is a champion of Common rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-death-hound.jpg",
+        "name": "Death Hound",
+        "url": "https://raid-codex.com/champions/death-hound/"
+      }
+    ]
+  },
+  "default_description": "Death Hound is a common attack champion from the faction Undead Hordes",
+  "recommended_builds": [],
+  "lore": ""
+}

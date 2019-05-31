@@ -1,0 +1,135 @@
+{
+  "name": "Thenasil",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "S",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "thenasil",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 969,
+      "defense": 1035,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in Dungeons by 70.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Spring Lullaby",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Sleep] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "spring-lullaby",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuff/sleep",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Oak-Skinned",
+      "raw_description": "Places a 60% [Increase DEF) buff on all allies for 2 turns. Heals all allies by 25% of this Champion's MAX HP.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "oak-skinned",
+      "effects": [],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Wither",
+      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "wither",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/thenasil/",
+  "image_slug": "image-champion-thenasil",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Thenasil is a epic assist champion from the faction High Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Thenasil",
+      "thenasil"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Thenasil is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-thenasil.jpg",
+        "name": "Thenasil",
+        "url": "https://raid-codex.com/champions/thenasil/"
+      }
+    ]
+  },
+  "default_description": "Thenasil is a epic assist champion from the faction High Elves doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

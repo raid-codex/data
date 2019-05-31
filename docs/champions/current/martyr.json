@@ -1,0 +1,173 @@
+{
+  "name": "Martyr",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "S",
+    "void_dungeon": "A"
+  },
+  "slug": "martyr",
+  "characteristics": {
+    "60": {
+      "hp": 20145,
+      "attack": 826,
+      "defense": 1409,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "ases Ally DEF in all Battles by 33",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rush",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Buff/Debuff Chance +159",
+      "slug": "rush",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Bastion of Faith",
+      "raw_description": "Places a 60% [Increase DEF] buff and a [Counterattack] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "bastion-of-faith",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buff/counterattack",
+          "extra": false
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/buff/increase-def",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Suppression",
+      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns. Places a [Provoke] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
+      "slug": "suppression",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/martyr/",
+  "image_slug": "image-champion-martyr",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Martyr is a legendary def champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Martyr",
+      "martyr"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Martyr is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-martyr.jpg",
+        "name": "Martyr",
+        "url": "https://raid-codex.com/champions/martyr/"
+      }
+    ]
+  },
+  "default_description": "Martyr is a legendary def champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

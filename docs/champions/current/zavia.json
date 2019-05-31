@@ -1,0 +1,176 @@
+{
+  "name": "Zavia",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "SS",
+    "arena_offense": "SS",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "SS",
+    "dragon": "A",
+    "spider": "SS",
+    "fire_knight": "SS",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "A"
+  },
+  "slug": "zavia",
+  "characteristics": {
+    "60": {
+      "hp": 18660,
+      "attack": 1586,
+      "defense": 749,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Transfix",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "slug": "transfix",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Poison Rain",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "poison-rain",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Deadly Catalyst",
+      "raw_description": "Attacks all enemies. Enemies killed by this skill cannot be revived. Deals damage from all [Poison] debuffs on the target instantly. [Poison] debuffs will only deal half of the standard damage when this Skill hits Bosses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "slug": "deadly-catalyst",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Calamitous Partner",
+      "raw_description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 4 random debuffs from the target and placing them on all enemies.<br>Damage based on: [ATK] 7 T -",
+      "slug": "calamitous-partner",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Debuff Spread",
+          "value": 0,
+          "image_slug": "image-debuff-debuff-spread",
+          "slug": "debuff-spread",
+          "website_link": "/debuff/debuff-spread",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 0,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/zavia/",
+  "image_slug": "image-champion-zavia",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Zavia is a legendary attack champion from the faction Dark Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Zavia",
+      "zavia"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Zavia is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-zavia.jpg",
+        "name": "Zavia",
+        "url": "https://raid-codex.com/champions/zavia/"
+      }
+    ]
+  },
+  "default_description": "Zavia is a legendary attack champion from the faction Dark Elves doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Hatred is a powerful thing, one that is, perhaps, as hard as death to overcome. Yet even here love finds a way, the story of Belanor and Zavia. Cruel fate had them fight on different sides of one of the many conflicts between the High Elves of Aravia and the exiles known as Dark Elves. Still, even though the bloody fog of war, through hate, and through fury, these two souls were united.</p><p>As stragglers of a battle between the warring Elven factions, they were initially forced to survive an unwelcoming orc-infested desert together. The sheer adversity and the dangers they faced allowed them to see a person behind the mask of an enemy. The passion that was sparked then survived far beyond a temporary alliance of convenience. And, in the end, both Belanor and Zavia chose to escape together rather than continue the feud. Now seen as traitors and deserters by their former allies, the two of them had no choice but to live on the run.</p><p>They faced persecution, poverty, and mortal danger together. Finally, they were captured and sentenced to death for their crimes. Yet when the first light of dawn broke and the jailors arrived to take the fugitives to the scaffold, they were taken aback. The cell was locked and secured, not a single hint at how the captives escaped. The only thing they found were two feathers on the stone floor, one black as night, the other - white as Lumaya’s light. To this day no one knows what transpired on that night, though some, as they often do, attribute the miraculous escape to the Arbiter.</p>"
+}

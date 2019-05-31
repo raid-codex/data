@@ -1,0 +1,140 @@
+{
+  "name": "Warchief",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "S",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "S",
+    "void_dungeon": "B"
+  },
+  "slug": "warchief",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 903,
+      "defense": 1520,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Freezing Cold",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 15% chance of placing a [Freeze] debuff for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "freezing-cold",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuff/freeze",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Marauder",
+      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 3 turns. Has a 75% chance of stealing 2 random buffs from the target. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF] dl Provoke<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
+      "slug": "marauder",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Standstill",
+      "raw_description": "DEF increases by 10% for each dead ally.",
+      "slug": "standstill",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Skinwalker",
+    "slug": "skinwalker",
+    "website_link": "/factions/skinwalker/",
+    "image_slug": "image-faction-skinwalker",
+    "number_of_champions": 0,
+    "default_description": "Skinwalker is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalker is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalker",
+        "skinwalker"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "skinwalker",
+  "website_link": "/champions/warchief/",
+  "image_slug": "image-champion-warchief",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Warchief is a legendary def champion from the faction Skinwalker doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Warchief",
+      "warchief"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalker"
+        },
+        "description": "Member of the faction Skinwalker, Warchief is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-warchief.jpg",
+        "name": "Warchief",
+        "url": "https://raid-codex.com/champions/warchief/"
+      }
+    ]
+  },
+  "default_description": "Warchief is a legendary def champion from the faction Skinwalker doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

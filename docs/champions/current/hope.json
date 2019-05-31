@@ -1,0 +1,140 @@
+{
+  "name": "Hope",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "hope",
+  "characteristics": {
+    "60": {
+      "hp": 21315,
+      "attack": 1079,
+      "defense": 804,
+      "speed": 104,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Sequester",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5'<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10'",
+      "slug": "sequester",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuff/block-buffs",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Hearten",
+      "raw_description": "Increases the duration of buffs on all allies by 1 turn. Places a [Shield] buff equal to 15% of this Champion's HP on all allies for 2 turns.<br>Lvl. 2 Shield +5%",
+      "slug": "hearten",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Holy Storm",
+      "raw_description": "Attacks all enemies. Has a 50% chance of removing all buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "holy-storm",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/hope/",
+  "image_slug": "image-champion-hope",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hope is a epic hp champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hope",
+      "hope"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Hope is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hope.jpg",
+        "name": "Hope",
+        "url": "https://raid-codex.com/champions/hope/"
+      }
+    ]
+  },
+  "default_description": "Hope is a epic hp champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Sister Hope does much to honour her name, both on the battlefield and by her kind deeds. A simple miller’s daughter, she was orphaned at a young age by a brutal orc raid. It was only a timely intervention by the Sacred Order outrider patrol that saved the girl from sharing the fate of her family, although starving to death was not a much better prospect. Fortunately for Hope, her plea did not go unheard and she was adopted into one of the Order’s abbeys, there to be educated and trained. Crafstmen and caterers of all sorts are always in demand, and it is to everyone’s benefit if orphans and the destitute that the Order cares for repay their debt by a life-long dedication.</p><p>But it was not a life of peace that Hope sought. Her experiences have molded the young woman and drove her to excel in the ways of war. She swore a mighty oath to Lumaya, pleading the Goddess to give her strength, so that by Hope’s hand atrocities such as what has been inflicted upon her family can be prevented.</p><p>Whether it is Lumaya’s grace indeed or the strength of Hope’s own conviction, but she has forged her path as a champion of the innocent ever since. She does not flinch in delivering ruthless justice to the unholy and the lawless, but it is her kindness and selfless devotion to her allies that make Hope a boon for any band of Champions. Her faith alone can serve as a powerful shield to those at her side, yet her wrath is terrible to behold as well. Her blade can do much more than simply break armour and rend flesh. By the power of faith, it dispells protective magic that many-an-enemy uses, exposing them to Hope’s fellow Champions.</p>"
+}

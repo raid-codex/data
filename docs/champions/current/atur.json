@@ -1,0 +1,157 @@
+{
+  "name": "Atur",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "HP",
+  "rating": {
+    "overall": "C",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "atur",
+  "characteristics": {
+    "60": {
+      "hp": 19980,
+      "attack": 826,
+      "defense": 1145,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Roaring Leap",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "slug": "roaring-leap",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Raging Bull",
+      "raw_description": "Attacks 2 times at random. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +109<br>Lvl. 5 Buff/Debuff Chance +15<br>Lvl. 6 Cooldown -1",
+      "slug": "raging-bull",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Adrenaline Rush",
+      "raw_description": "Heals this Champion by 15% of their MAX HP and places a [Counterattack] buff on this Champion for 2 turns when hit with a critical hit.<br>Lvl. 2 Cooldown -1",
+      "slug": "adrenaline-rush",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buff/counterattack",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Vigilant Partner",
+      "raw_description": "Immune to , , and debuffs.",
+      "slug": "vigilant-partner",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 0,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/atur/",
+  "image_slug": "image-champion-atur",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Atur is a epic hp champion from the faction Barbarians doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Atur",
+      "atur"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Atur is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-atur.jpg",
+        "name": "Atur",
+        "url": "https://raid-codex.com/champions/atur/"
+      }
+    ]
+  },
+  "default_description": "Atur is a epic hp champion from the faction Barbarians doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Even those that live the lives full of hardship and primal strife among the Barbarian tribes are not immune to love. Atur, one of the mightiest warriors of his tribe, has always been a vain and arrogant man. He had every right to be proud, of course, for none could face him in a battle of equals and walk away victorious. None, until he met Kallia, whose prowess and ability to fly into relentless fury are as immense as her beauty.</p><p>Neither of them truly remembers what sparked the conflict between them, both will, of course, blame their other half. Regardless of the truth of the matter, an argument went out of control, and a battle of words, in which even Atur himself admits he took a thorough thrashing, turned to fisticuffs. Here, their passion for a fight was evenly matched and soon turned to passion for each other.</p><p>Though Barbarians are not exactly sophisticated, if not outright crude, by the standards of Kaerok or Aravia, Atur’s and Kallia’s relationship still blossomed into something sweet and loving… in its own way. It is certainly as strong as the mountains that surround their home, and as wild as the sandstorms that sweep the Deadlands.</p>"
+}

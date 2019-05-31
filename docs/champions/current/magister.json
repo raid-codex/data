@@ -1,0 +1,159 @@
+{
+  "name": "Magister",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "slug": "magister",
+  "characteristics": {
+    "60": {
+      "hp": 18000,
+      "attack": 892,
+      "defense": 936,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Majestic Staff",
+      "raw_description": "Attacks 1 enemy. If the hit is critical, places a 25% [Increase ATK] buff on a random ally for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "majestic-staff",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Anoint",
+      "raw_description": "Places a 30% [Revive on Death] buff and a 30% [Reflect Damage] buff on a target ally for 2 turns. Heals all other allies by 10% of the target's HP.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Heal +10%",
+      "slug": "anoint",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage",
+          "website_link": "/buff/reflect-damage",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Revive on Death",
+          "value": 0,
+          "image_slug": "image-debuff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/debuff/revive-on-death",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Censure",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "slug": "censure",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuff/heal-reduction",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/magister/",
+  "image_slug": "image-champion-magister",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Magister is a rare assist champion from the faction High Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Magister",
+      "magister"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Magister is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-magister.jpg",
+        "name": "Magister",
+        "url": "https://raid-codex.com/champions/magister/"
+      }
+    ]
+  },
+  "default_description": "Magister is a rare assist champion from the faction High Elves doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>In the complicated and byzantine hierarchy of the High Elves, promotion to elevated rank can take centuries. One faster step on the path to greater social rank is attaining the position of Magister. Even low-born Elven warriors willing to spend 50 years in services as a practitioner of battlefield healing magic can claim rights to this title. Those who do are valued greatly by their comrades in battle.</p>"
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Doompriest",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "S",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "A",
+    "dragon": "SS",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "doompriest",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 980,
+      "defense": 1035,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Force Ally SPD in all Battles by 15%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fate Weave",
+      "raw_description": "Attacks 1 enemy. If the hit is critical, places a 15% [Increase C. RATE] buff on a random ally for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "fate-weave",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Mass Possession",
+      "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "mass-possession",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Bolster",
+      "raw_description": "Heals all allies by 7.5% of their HP and removes 1 random debuff from them at the start of this Champion's turn.",
+      "slug": "bolster",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 0,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/doompriest/",
+  "image_slug": "image-champion-doompriest",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Doompriest is a epic assist champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Doompriest",
+      "doompriest"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Doompriest is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-doompriest.jpg",
+        "name": "Doompriest",
+        "url": "https://raid-codex.com/champions/doompriest/"
+      }
+    ]
+  },
+  "default_description": "Doompriest is a epic assist champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Doompriest is a missionary of the Knights Revenant death cult. Her faith is strong, as is her command of the dark magic of K'leth. Like all priests, she dedicates much of her life to worship — but she derives her power not from prayer, but from dark ritual and sacrifice.</p><p>A lovely young girl when she first joined the cult, she now covers her face with a mask to ensure the docility of her victims. With each innocent soul sacrificed, her own bore the taint of her deepening evil and corruption. Her once beautiful visage has decayed with each step down this path, and is now a horror to behold.</p>"
+}

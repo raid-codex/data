@@ -1,0 +1,154 @@
+{
+  "name": "Ma'Shalled",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "slug": "ma-shalled",
+  "characteristics": {
+    "60": {
+      "hp": 17835,
+      "attack": 1454,
+      "defense": 936,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 34%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bloodsucker",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 30% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%",
+      "slug": "bloodsucker",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Tornado",
+      "raw_description": "Places a 30% [Increase SPD] buff and a 30% [Increase C. RATE] buff on the target for 2 turns. Grants this Champion an Extra Turn.<br>Lvl. 2 Cooldown -1",
+      "slug": "tornado",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd",
+          "website_link": "/buff/increase-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Open Wounds",
+      "raw_description": "Attacks 1 enemy. Places a 100% [Heal Reduction] debuff for 2 turns. Inflicts 50% more damage against targets under buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "slug": "open-wounds",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuff/heal-reduction",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/ma-shalled/",
+  "image_slug": "image-champion-ma-shalled",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ma'Shalled is a legendary attack champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ma'Shalled",
+      "ma-shalled"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Ma'Shalled is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ma-shalled.jpg",
+        "name": "Ma'Shalled",
+        "url": "https://raid-codex.com/champions/ma-shalled/"
+      }
+    ]
+  },
+  "default_description": "Ma'Shalled is a legendary attack champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

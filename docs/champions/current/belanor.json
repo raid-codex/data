@@ -1,0 +1,209 @@
+{
+  "name": "Belanor",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "belanor",
+  "characteristics": {
+    "60": {
+      "hp": 15195,
+      "attack": 1520,
+      "defense": 1046,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C. RATE in all Battles by 24%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Swordleader",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on all allies for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
+      "slug": "swordleader",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "insurmountable",
+      "raw_description": "Places a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns on 1 enemy, then attacks them. Places a 60% [Increase DEF] buff on this Champion for 2 turns if this attack kills an enemy.<br>Damage based on: [ATK] \"MY Decrease DEF * Weaken<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%",
+      "slug": "insurmountable",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/buff/increase-def",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Overkill",
+      "raw_description": "Attacks 1 enemy. Will heal this Champion equal to any surplus damage if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Cooldown -1",
+      "slug": "overkill",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Tactical Partner",
+      "raw_description": "Places a 5% [Poison] debuff, a 50% [Decrease ATK] debuff, a 30% [Decrease SPD] debuff, and a 50% [Decrease ACC] debuff for 2 turns. x Decrease SPD S Decrease ACC",
+      "slug": "tactical-partner",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc",
+          "website_link": "/debuff/decrease-acc",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/belanor/",
+  "image_slug": "image-champion-belanor",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Belanor is a legendary attack champion from the faction High Elves doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Belanor",
+      "belanor"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Belanor is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-belanor.jpg",
+        "name": "Belanor",
+        "url": "https://raid-codex.com/champions/belanor/"
+      }
+    ]
+  },
+  "default_description": "Belanor is a legendary attack champion from the faction High Elves doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Hatred is a powerful thing, one that is, perhaps, as hard as death to overcome. Yet even here love finds a way, the story of Belanor and Zavia. Cruel fate had them fight on different sides of one of the many conflicts between the High Elves of Aravia and the exiles known as Dark Elves. Still, even though the bloody fog of war, through hate, and through fury, these two souls were united.</p><p>As stragglers of a battle between the warring Elven factions, they were initially forced to survive an unwelcoming orc-infested desert together. The sheer adversity and the dangers they faced allowed them to see a person behind the mask of an enemy. The passion that was sparked then survived far beyond a temporary alliance of convenience. And, in the end, both Belanor and Zavia chose to escape together rather than continue the feud. Now seen as traitors and deserters by their former allies, the two of them had no choice but to live on the run.</p><p>They faced persecution, poverty, and mortal danger together. Finally, they were captured and sentenced to death for their crimes. Yet when the first light of dawn broke and the jailors arrived to take the fugitives to the scaffold, they were taken aback. The cell was locked and secured, not a single hint at how the captives escaped. The only thing they found were two feathers on the stone floor, one black as night, the other - white as Lumaya’s light. To this day no one knows what transpired on that night, though some, as they often do, attribute the miraculous escape to the Arbiter.</p>"
+}

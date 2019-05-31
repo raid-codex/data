@@ -1,0 +1,158 @@
+{
+  "name": "Lightsworn",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "lightsworn",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 738,
+      "defense": 1476,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Teardown",
+      "raw_description": "Attacks 1 enemy 3 times. Decreases the target's Turn Meter by 10%.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
+      "slug": "teardown",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Brutality",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Decrease ATK] debuff and a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "brutality",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "indomitable",
+      "raw_description": "Places a 60% [Increase DEF] buff and a [Revive on Death] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "indomitable",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/buff/increase-def",
+          "extra": true
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Revive on Death",
+          "value": 0,
+          "image_slug": "image-debuff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/debuff/revive-on-death",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/lightsworn/",
+  "image_slug": "image-champion-lightsworn",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lightsworn is a epic def champion from the faction Sacred Order doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Lightsworn",
+      "lightsworn"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Lightsworn is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-lightsworn.jpg",
+        "name": "Lightsworn",
+        "url": "https://raid-codex.com/champions/lightsworn/"
+      }
+    ]
+  },
+  "default_description": "Lightsworn is a epic def champion from the faction Sacred Order doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>The Lightsworn is a warrior of the Sacred Order who has devoted his life to defending the Order and its ideals. Armed with his heavy armor and mace, the Lightsworn puts his life on the line for both his Queen and his fellow brothers.</p>"
+}

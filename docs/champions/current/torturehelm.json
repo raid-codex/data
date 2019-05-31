@@ -1,0 +1,126 @@
+{
+  "name": "Torturehelm",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "HP",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "torturehelm",
+  "characteristics": {
+    "60": {
+      "hp": 19980,
+      "attack": 881,
+      "defense": 1090,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in Dungeons by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Pillage",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target. Damage is proportional to ATK and DEF.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "pillage",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ]
+    },
+    {
+      "name": "Bloodlust",
+      "raw_description": "Attacks 1 enemy. Damage is proportional to this Champion's MAX HP and increases according to the number of dead allies.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "slug": "bloodlust",
+      "effects": [],
+      "damaged_based_on": [
+        "HP"
+      ]
+    },
+    {
+      "name": "Unkillable",
+      "raw_description": "Has a 50% chance to revive with 50% HP when killed.",
+      "slug": "unkillable",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 0,
+    "default_description": "Orcs is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/torturehelm/",
+  "image_slug": "image-champion-torturehelm",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Torturehelm is a epic hp champion from the faction Orcs doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Torturehelm",
+      "torturehelm"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Torturehelm is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-torturehelm.jpg",
+        "name": "Torturehelm",
+        "url": "https://raid-codex.com/champions/torturehelm/"
+      }
+    ]
+  },
+  "default_description": "Torturehelm is a epic hp champion from the faction Orcs doing force damage",
+  "recommended_builds": [],
+  "lore": ""
+}

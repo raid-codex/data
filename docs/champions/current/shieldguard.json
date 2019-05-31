@@ -1,0 +1,128 @@
+{
+  "name": "Shieldguard",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Def",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "slug": "shieldguard",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 705,
+      "defense": 1024,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Uppercut",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF)<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Damage +10%",
+      "slug": "uppercut",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd",
+          "website_link": "/debuff/decrease-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Battle Stance",
+      "raw_description": "Attacks all enemies. Fills this Champion's Turn Meter by 20% on each critical hit. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
+      "slug": "battle-stance",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Mighty Soul",
+      "raw_description": "",
+      "slug": "mighty-soul",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 0,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/shieldguard/",
+  "image_slug": "image-champion-shieldguard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Shieldguard is a uncommon defense champion from the faction Barbarians. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Shieldguard",
+      "shieldguard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Shieldguard is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-shieldguard.jpg",
+        "name": "Shieldguard",
+        "url": "https://raid-codex.com/champions/shieldguard/"
+      }
+    ]
+  },
+  "default_description": "Shieldguard is a uncommon def champion from the faction Barbarians",
+  "recommended_builds": [],
+  "lore": ""
+}

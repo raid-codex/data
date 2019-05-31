@@ -1,0 +1,137 @@
+{
+  "name": "Marksman",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "S",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "slug": "marksman",
+  "characteristics": {
+    "60": {
+      "hp": 14700,
+      "attack": 1432,
+      "defense": 892,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in the Arena by 32%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Venom Arrow",
+      "raw_description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 1 turn if the attack is critical. Has a 15% chance of granting an Extra Turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "slug": "venom-arrow",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Impressive Shot",
+      "raw_description": "Attacks 1 enemy. Fills the Turn Meter of all allies by 20%. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "impressive-shot",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Thorns",
+      "raw_description": "Attacks 4 times at random. Each hit has a 25% chance to Ignore DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +15%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "thorns",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 0,
+    "default_description": "High Elves is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/marksman/",
+  "image_slug": "image-champion-marksman",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Marksman is a epic attack champion from the faction High Elves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Marksman",
+      "marksman"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Marksman is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-marksman.jpg",
+        "name": "Marksman",
+        "url": "https://raid-codex.com/champions/marksman/"
+      }
+    ]
+  },
+  "default_description": "Marksman is a epic attack champion from the faction High Elves doing spirit damage",
+  "recommended_builds": [],
+  "lore": ""
+}

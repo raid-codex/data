@@ -1,0 +1,137 @@
+{
+  "name": "Hollow",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "D",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "hollow",
+  "characteristics": {
+    "60": {
+      "hp": 13050,
+      "attack": 1299,
+      "defense": 859,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 21%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bleed Away",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a 2.5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%",
+      "slug": "bleed-away",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison",
+          "website_link": "/debuff/poison",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Creeping Dark",
+      "raw_description": "Attacks 1 enemy 4 times. Each hit decreases the target's Turn Meter and fills this Champion's Turn Meter by 5%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "creeping-dark",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Aether Strike",
+      "raw_description": "Attacks 1 enemy. Will ignore 25% of the target's DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "aether-strike",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 0,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/hollow/",
+  "image_slug": "image-champion-hollow",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hollow is a rare attack champion from the faction Undead Hordes doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hollow",
+      "hollow"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Hollow is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hollow.jpg",
+        "name": "Hollow",
+        "url": "https://raid-codex.com/champions/hollow/"
+      }
+    ]
+  },
+  "default_description": "Hollow is a rare attack champion from the faction Undead Hordes doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Siroth’s minions have brought the curse of undeath unto the world long ago, seeking to swell the ranks of their armies when the demons were sealed and imprisoned beyond Teleria’s realm. Shambling skeletons and risen corpses may not be bright, but what they lack in intelligence they make up for in sheer number. Yet, not all Undead are witless marionettes.</p><p>Some servants of Shadow consign their souls and Shards to their dark masters, and after death retain a spark of their former self. And with it, their skills and talents. Once a master hunter, the Hollow remains dangerous with his bow even as a rotting corpse, capable of finding chinks in even the toughest armour.</p>"
+}

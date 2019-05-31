@@ -1,0 +1,132 @@
+{
+  "name": "Justiciar",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "justiciar",
+  "characteristics": {
+    "60": {
+      "hp": 14700,
+      "attack": 914,
+      "defense": 1134,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Hold the Line",
+      "raw_description": "Attacks 1 enemy. Increases this Champion's DEF by 3% (up to 10 times in one round).<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%",
+      "slug": "hold-the-line",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ]
+    },
+    {
+      "name": "Contemptuous Blow",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Provoke] debuff on the target for 1 turn.<br>Damage based on: [DEF] [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +10'<br>Lvl. 6 Buff/Debuff Chance +10<br>Lvl. 7 Cooldown -1",
+      "slug": "contemptuous-blow",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuff/provoke",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ]
+    },
+    {
+      "name": "Comeback",
+      "raw_description": "When this Champion is hit with a critical hit, counterattacks using their default skill and decreases the buffs duration on the target by 1 turn.",
+      "slug": "comeback",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/justiciar/",
+  "image_slug": "image-champion-justiciar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Justiciar is a rare def champion from the faction Sacred Order doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Justiciar",
+      "justiciar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Justiciar is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-justiciar.jpg",
+        "name": "Justiciar",
+        "url": "https://raid-codex.com/champions/justiciar/"
+      }
+    ]
+  },
+  "default_description": "Justiciar is a rare def champion from the faction Sacred Order doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

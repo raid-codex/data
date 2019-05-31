@@ -1,0 +1,154 @@
+{
+  "name": "Ifrit",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "HP",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "D",
+    "void_dungeon": "C"
+  },
+  "slug": "ifrit",
+  "characteristics": {
+    "60": {
+      "hp": 18825,
+      "attack": 815,
+      "defense": 969,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 15%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Feebleness Curse",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Weaken] debuff for 1 turn.<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "feebleness-curse",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Withering Bolt",
+      "raw_description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff for 2 turns. Damage increases according to this Champion's MAX HP.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
+      "slug": "withering-bolt",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuff/decrease-atk",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ]
+    },
+    {
+      "name": "Shadow Field",
+      "raw_description": "Decreases the damage received by 50% if damage from a single hit exceeds 30% HP. Places a 30% [Decrease DEF] debuff for 2 turns on the attacker if the attack is critical.",
+      "slug": "shadow-field",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuff/decrease-def",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 0,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/ifrit/",
+  "image_slug": "image-champion-ifrit",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ifrit is a rare hp champion from the faction Demonspawn doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ifrit",
+      "ifrit"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Ifrit is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ifrit.jpg",
+        "name": "Ifrit",
+        "url": "https://raid-codex.com/champions/ifrit/"
+      }
+    ]
+  },
+  "default_description": "Ifrit is a rare hp champion from the faction Demonspawn doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Ifrits are a particular demonbreed that stands above the common foot soldiers of Siroth’s hellish hierarchy. Often compared to wasps for their somewhat insectoid appearance and frequent reliance on sting-like spears, Ifrits are usually found at the head of smaller Demonspawn cohorts.</p><p>Dark magic swirls around them like an unseen mist, allowing their unholy strikes to sap away the strength of their victims or even hex those that have the skill and courage to attack them.</p>"
+}

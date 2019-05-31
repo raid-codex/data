@@ -1,0 +1,174 @@
+{
+  "name": "Azure",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "slug": "azure",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 958,
+      "defense": 1057,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 25%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Lunge",
+      "raw_description": "Attacks 1 enemy 2 times. Places a [Stun] debuff for 1 turn if the target has an [Increase SPD] buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%",
+      "slug": "lunge",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "image_slug": "image-buff-increase-spd",
+          "slug": "increase-spd",
+          "website_link": "/buff/increase-spd",
+          "extra": false
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Aegis",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Shield] buff on this Champion equal to 40% of this Champion's MAX HP for 2 turns. This buff cannot be removed. ® Shield<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "slug": "aegis",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection",
+          "website_link": "/buff/ally-protection",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Coup de Grace",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Stun] debuff. The extra hit is always critical.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
+      "slug": "coup-de-grace",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuff/stun",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 0,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/azure/",
+  "image_slug": "image-champion-azure",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Azure is a epic hp champion from the faction Banner-Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Azure",
+      "azure"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Azure is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-azure.jpg",
+        "name": "Azure",
+        "url": "https://raid-codex.com/champions/azure/"
+      }
+    ]
+  },
+  "default_description": "Azure is a epic hp champion from the faction Banner-Lords doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

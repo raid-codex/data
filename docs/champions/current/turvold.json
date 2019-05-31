@@ -1,0 +1,158 @@
+{
+  "name": "Turvold",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "turvold",
+  "characteristics": {
+    "60": {
+      "hp": 17505,
+      "attack": 1498,
+      "defense": 914,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Crackling Blade",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +109<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10°",
+      "slug": "crackling-blade",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken",
+          "website_link": "/debuff/weaken",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    },
+    {
+      "name": "Ancestors",
+      "raw_description": "Places a 50% [Increase ATK] buff, a 30% [Increase C. RATE] buff and a 30% [Increase SPD] buff on this Champion for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
+      "slug": "ancestors",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buff/increase-atk",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate",
+          "website_link": "/buff/increase-c-rate",
+          "extra": true
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd",
+          "website_link": "/buff/increase-spd",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Juggernaut",
+      "raw_description": "Attacks 1 enemy 2 times. Damage increases according to the number of buffs on this Champion. If the target is killed, resets the cooldown of this skill.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "juggernaut",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ]
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 0,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/turvold/",
+  "image_slug": "image-champion-turvold",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Turvold is a legendary attack champion from the faction Barbarians doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Turvold",
+      "turvold"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Turvold is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-turvold.jpg",
+        "name": "Turvold",
+        "url": "https://raid-codex.com/champions/turvold/"
+      }
+    ]
+  },
+  "default_description": "Turvold is a legendary attack champion from the faction Barbarians doing void damage",
+  "recommended_builds": [],
+  "lore": ""
+}

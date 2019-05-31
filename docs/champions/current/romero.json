@@ -1,0 +1,155 @@
+{
+  "name": "Romero",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "slug": "romero",
+  "characteristics": {
+    "60": {
+      "hp": 18000,
+      "attack": 804,
+      "defense": 1299,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "name": "Bring Hope",
+      "raw_description": "Attacks 1 enemy. Places a 7.5% [Continuous Heal] on the ally with the lowest HP for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "bring-hope",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ]
+    },
+    {
+      "name": "Succor",
+      "raw_description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns. Steals 1 buff from a random enemy.<br>Lvl. 2 Cooldown -1",
+      "slug": "succor",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal",
+          "website_link": "/buff/continuous-heal",
+          "extra": true
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Divine Benefaction",
+      "raw_description": "Places a [Shield] buff on all allies equal to 25% of their MAX HP for 2 turns. Places a 30% [Increase DEF) buff on this Champion for 2 turns.<br>Lvl. 3 Shield +25%",
+      "slug": "divine-benefaction",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buff/shield",
+          "extra": false
+        }
+      ],
+      "damaged_based_on": []
+    },
+    {
+      "name": "Stalwart Partner",
+      "raw_description": "Attacks all enemies 3 times.",
+      "slug": "stalwart-partner",
+      "effects": [],
+      "damaged_based_on": []
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    }
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/romero/",
+  "image_slug": "image-champion-romero",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Romero is a epic def champion from the faction Sacred Order doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Romero",
+      "romero"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Romero is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-romero.jpg",
+        "name": "Romero",
+        "url": "https://raid-codex.com/champions/romero/"
+      }
+    ]
+  },
+  "default_description": "Romero is a epic def champion from the faction Sacred Order doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>But, of course, it is not just love that is marked by divine intervention or tragedy that is worthy of the minstrel’s attention. Those are merely good for the dramatic flair that those knights of the lute do so enjoy. More often than not, love overcomes obstacles that are less grand on a cosmic scale, yet no less difficult for the mortals who find themselves entwined.</p><p>The Sacred Order as a whole, while not necessarily enforcing a Vow of Chastity, does forbid its members from having families and heirs - a precaution to make certain positions of power within the Order pass on by right of virtue, not that of blood. Undue attachment is heavily frowned upon as well, outright forbidden in some of the stricter Divisions of the Order.</p><p>It is no surprise then, that the Knights Romero and Juliana had never thought of themselves falling in love. Romero, ever coolheaded and pious found himself at odds with the young and brash Juliana, whose skill with the blade and fiery zeal led her to many mortal perils that she, to the young Knight’s credit, honourably overcame. But a life full of battles does tend to make emotions run wild. In time, the two warmed up to one another’s “quirks”, learned to appreciate them even. Their eventual union, though it may never be formalized by marriage, remains true and tested. Neither did that union affect their relationship as comrades-in-arms, if anything it allowed the two Knights to fight as one. Where Romero’s natural cautiousness may lead to him losing momentum, Juliana’s brazen but no less skillful tactics ensure that their forces control the initiative. And where Juliana may begin losing herself in the heat of battle, Romero is always there to serve as an anchor of reason. To this day, they remain among the Order’s prominent warriors and are ready to bring Lumaya’s light wherever it is needed most.</p>"
+}
