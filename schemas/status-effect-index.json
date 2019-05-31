@@ -1,0 +1,80 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9\\-]+$"
+        },
+        "status_effect": {
+            "type": "object",
+            "required": [
+                "value",
+                "type",
+                "effect_type",
+                "website_link",
+                "image_slug",
+                "slug"
+            ],
+            "properties": {
+                "slug": {
+                    "$ref": "#/definitions/slug"
+                },
+                "image_slug": {
+                    "$ref": "#/definitions/slug"
+                },
+                "website_link": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "number"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "HP Burn",
+                        "Poison",
+                        "Decrease DEF",
+                        "Decrease ACC",
+                        "Decrease SPD",
+                        "Decrease ATK",
+                        "Weaken",
+                        "Sleep",
+                        "Provoke",
+                        "Freeze",
+                        "Block Cooldown Skills",
+                        "Bomb",
+                        "Stun",
+                        "Block Buffs",
+                        "Revive on Death",
+                        "Heal Reduction",
+                        "Leech",
+                        "Debuff Spread",
+                        "Increase C. RATE",
+                        "Shield",
+                        "Ally Protection",
+                        "Reflect Damage",
+                        "Increase DEF",
+                        "Increase SPD",
+                        "Increase ATK",
+                        "Continuous Heal",
+                        "Counterattack",
+                        "Unkillable",
+                        "Block Debuffs",
+                        "Block Damage"
+                    ]
+                },
+                "effect_type": {
+                    "type": "string",
+                    "enum": [
+                        "buff",
+                        "debuff"
+                    ]
+                }
+            }
+        }
+    },
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/status_effect"
+    }
+}
