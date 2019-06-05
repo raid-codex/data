@@ -274,7 +274,23 @@
         },
         "rating": {
             "type": "object",
-            "required": [],
+            "required": [
+                "overall",
+                "campaign",
+                "arena_offense",
+                "arena_defense",
+                "clan_boss_without_giant_slayer",
+                "clan_boss_with_giant_slayer",
+                "ice_guardian",
+                "dragon",
+                "spider",
+                "fire_knight",
+                "minotaur",
+                "force_dungeon",
+                "void_dungeon",
+                "spirit_dungeon",
+                "magic_dungeon"
+            ],
             "properties": {
                 "overall": {
                     "$ref": "#/definitions/rating_value"
@@ -322,6 +338,77 @@
                     "$ref": "#/definitions/rating_value"
                 }
             }
+        },
+        "review": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "required": [
+                "amount",
+                "campaign",
+                "arena_offense",
+                "arena_defense",
+                "clan_boss",
+                "ice_guardian",
+                "dragon",
+                "spider",
+                "fire_knight",
+                "minotaur",
+                "force_dungeon",
+                "void_dungeon",
+                "spirit_dungeon",
+                "magic_dungeon"
+            ],
+            "properties": {
+                "amount": {
+                    "type": "integer"
+                },
+                "campaign": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "arena_offense": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "arena_defense": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "clan_boss": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "ice_guardian": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "dragon": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "spider": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "fire_knight": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "minotaur": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "force_dungeon": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "magic_dungeon": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "spirit_dungeon": {
+                    "$ref": "#/definitions/review_value"
+                },
+                "void_dungeon": {
+                    "$ref": "#/definitions/review_value"
+                }
+            }
+        },
+        "review_value": {
+            "type": "number",
+            "min": 0.0,
+            "max": 5.0
         },
         "build": {
             "type": "object",
@@ -384,6 +471,9 @@
                 },
                 "rating": {
                     "$ref": "#/definitions/rating"
+                },
+                "reviews": {
+                    "$ref": "#/definitions/review"
                 },
                 "slug": {
                     "$ref": "#/definitions/slug"
