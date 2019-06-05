@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 80,
+    "campaign": 4.7,
+    "arena_offense": 4.4,
+    "arena_defense": 4,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.3,
+    "dragon": 4.6,
+    "spider": 4.6,
+    "fire_knight": 3.5,
+    "minotaur": 4.6,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.5
+  },
   "slug": "berserker",
   "characteristics": {
     "60": {
@@ -36,31 +52,40 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "All-Out Attack",
       "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 30% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "all-out-attack",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Havoc",
       "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "havoc",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Sweep",
       "raw_description": "Attacks all enemies 2 times. Will ignore 20% of each target's DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5<br>Lvl. 4 Damage +10%",
       "slug": "sweep",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -82,7 +107,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/berserker/",
@@ -118,5 +145,6 @@
   },
   "default_description": "Berserker is a rare attack champion from the faction Barbarians doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

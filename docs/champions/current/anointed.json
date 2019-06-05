@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 35,
+    "campaign": 4.3,
+    "arena_offense": 4.3,
+    "arena_defense": 4.1,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.3,
+    "dragon": 4.2,
+    "spider": 3.9,
+    "fire_knight": 4.5,
+    "minotaur": 4.4,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 4.2
+  },
   "slug": "anointed",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Mystic Chill",
       "raw_description": "Attacks 1 enemy 3 times. Has a 25% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "mystic-chill",
@@ -44,27 +61,37 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Vigor Theft",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 75% chance of stealing 1 buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5)<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10<br>Lvl. 6 Cooldown -1",
       "slug": "vigor-theft",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Chant of Violence",
       "raw_description": "Fills the Turn Meter of all allies by 25%. Places a 30% [Increase C. RATE] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "chant-of-violence",
@@ -73,14 +100,20 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -102,7 +135,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/anointed/",
@@ -138,5 +173,6 @@
   },
   "default_description": "Anointed is a rare assist champion from the faction Barbarians doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

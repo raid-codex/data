@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 42,
+    "campaign": 4.6,
+    "arena_offense": 4.4,
+    "arena_defense": 4.3,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.5,
+    "spider": 3.7,
+    "fire_knight": 4.1,
+    "minotaur": 4.7,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.5
+  },
   "slug": "guardian",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Chop",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the duration of all enemy buffs by 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +5%<br>Lvl. 7 Buff/Debuff Chance +5%",
       "slug": "chop",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Thunderclap",
       "raw_description": "Attacks 4 times at random. Each hit has a 30% chance of applying a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "thunderclap",
@@ -58,19 +78,26 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Prayer",
       "raw_description": "Places a [Block Debuffs] buff and a [Counterattack] buff on this Champion for 2 turns. Also places a 15% [Continuous Heal] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "prayer",
@@ -79,34 +106,48 @@
           "effect_type": "buff",
           "type": "Block Debuffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/buffs/block-debuffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -128,7 +169,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/guardian/",
@@ -164,5 +207,6 @@
   },
   "default_description": "Guardian is a rare hp champion from the faction Knight Revenant doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

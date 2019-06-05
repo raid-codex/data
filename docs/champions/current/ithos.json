@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 161,
+    "campaign": 4.9,
+    "arena_offense": 4.9,
+    "arena_defense": 4.8,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.9,
+    "fire_knight": 4.8,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.9,
+    "void_dungeon": 4.9
+  },
   "slug": "ithos",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Gouge",
       "raw_description": "Attacks 1 enemy. Has a 20% chance of granting an Extra Turn. Decreases enemy MAX HP by 15% of damage dealt.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
       "slug": "gouge",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Outburst",
       "raw_description": "Attacks all enemies 3 times. Places a 15% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "outburst",
@@ -58,25 +78,34 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken",
           "slug": "weaken",
           "website_link": "/debuffs/weaken",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Extinguish Life",
       "raw_description": "Attacks all enemies. This attack is always critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "extinguish-life",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -98,7 +127,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/ithos/",
@@ -134,5 +165,6 @@
   },
   "default_description": "Ithos is a legendary attack champion from the faction High Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

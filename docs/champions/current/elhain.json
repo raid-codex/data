@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 4913,
+    "campaign": 4.8,
+    "arena_offense": 4.7,
+    "arena_defense": 4.2,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.7,
+    "dragon": 4.7,
+    "spider": 4.8,
+    "fire_knight": 4.4,
+    "minotaur": 4.8,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
   "slug": "elhain",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Keen Shot",
       "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "keen-shot",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lightning Arrow",
       "raw_description": "Attacks 1 enemy, then all enemies. Has an extra 15% chance of inflicting a critical hit. Places a 30% [Increase C. RATE] buff on this Champion for 3 turns if a target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "lightning-arrow",
@@ -58,25 +78,34 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Valley of Death",
       "raw_description": "Attacks all enemies 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "valley-of-death",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -98,7 +127,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/elhain/",
@@ -134,5 +165,6 @@
   },
   "default_description": "Elhain is a rare attack champion from the faction High Elves doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

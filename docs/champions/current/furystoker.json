@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 20,
+    "campaign": 4.6,
+    "arena_offense": 3.6,
+    "arena_defense": 4.5,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.5,
+    "dragon": 4.8,
+    "spider": 4.7,
+    "fire_knight": 4.6,
+    "minotaur": 4.9,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.8
+  },
   "slug": "furystoker",
   "characteristics": {
     "60": {
@@ -36,27 +52,36 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Crush",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "crush",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Remedy",
       "raw_description": "Removes all debuffs from a target ally. Heals the target by 20%. The heal increases according to the amount of debuffs removed.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Heal +5%",
       "slug": "remedy",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Forest Kin",
       "raw_description": "Heals the ally with the lowest HP by 7.5% each turn. This heal can be critical. Will not heal this Champion.",
       "slug": "forest-kin",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -78,7 +103,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/furystoker/",
@@ -114,5 +141,6 @@
   },
   "default_description": "Furystoker is a rare assist champion from the faction Ogryn-Tribes doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

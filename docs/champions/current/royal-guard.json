@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 614,
+    "campaign": 4.4,
+    "arena_offense": 3.5,
+    "arena_defense": 3.2,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.6,
+    "fire_knight": 4.4,
+    "minotaur": 4.7,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.7
+  },
   "slug": "royal-guard",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Razor Blade",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "razor-blade",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Takedown",
       "raw_description": "Attacks all enemies. Damage increases according to enemy MAX HP.<br>Damage based on: [ATK] [Enemy MAX HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "takedown",
@@ -68,9 +92,12 @@
       "damaged_based_on": [
         "ATK",
         "Enemy MAX HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hamstring",
       "raw_description": "Attacks 4 times at random. Each hit has a 60% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 60% chance of decreasing the target's Turn Meter by 25%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "hamstring",
@@ -79,16 +106,22 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -110,7 +143,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/royal-guard/",
@@ -146,5 +181,6 @@
   },
   "default_description": "Royal Guard is a epic attack champion from the faction High Elves doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 342,
+    "campaign": 4.1,
+    "arena_offense": 4,
+    "arena_defense": 4.2,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.4,
+    "dragon": 4.6,
+    "spider": 3,
+    "fire_knight": 3.5,
+    "minotaur": 4.6,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.5
+  },
   "slug": "husk",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Burning Iron",
       "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "burning-iron",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Despair",
       "raw_description": "Attacks all enemies. Has a 35% chance of placing a [Stun] debuff for 1 turn. Damage inflicted is proportional to enemy MAX HP.<br>Damage based on: [Enemy MAX HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "despair",
@@ -69,25 +93,34 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "Enemy MAX HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Retaliate",
       "raw_description": "Attacks 1 enemy. Damage increases according to this Champion's current HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "retaliate",
       "effects": [],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/husk/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Husk is a epic hp champion from the faction Undead Hordes doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

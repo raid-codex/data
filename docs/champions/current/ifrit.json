@@ -20,6 +20,22 @@
     "spirit_dungeon": "D",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 29,
+    "campaign": 4.1,
+    "arena_offense": 4.2,
+    "arena_defense": 4,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.2,
+    "dragon": 4.4,
+    "spider": 3.2,
+    "fire_knight": 3.9,
+    "minotaur": 4.4,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.3
+  },
   "slug": "ifrit",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Feebleness Curse",
       "raw_description": "Attacks 1 enemy. Places a 15% [Weaken] debuff for 1 turn.<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "feebleness-curse",
@@ -49,16 +66,23 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken",
           "slug": "weaken",
           "website_link": "/debuffs/weaken",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Withering Bolt",
       "raw_description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff for 2 turns. Damage increases according to this Champion's MAX HP.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "withering-bolt",
@@ -67,19 +91,26 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shadow Field",
       "raw_description": "Decreases the damage received by 50% if damage from a single hit exceeds 30% HP. Places a 30% [Decrease DEF] debuff for 2 turns on the attacker if the attack is critical.",
       "slug": "shadow-field",
@@ -88,14 +119,20 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -117,7 +154,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/ifrit/",
@@ -153,5 +192,6 @@
   },
   "default_description": "Ifrit is a rare hp champion from the faction Demonspawn doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Ifrits are a particular demonbreed that stands above the common foot soldiers of Siroth’s hellish hierarchy. Often compared to wasps for their somewhat insectoid appearance and frequent reliance on sting-like spears, Ifrits are usually found at the head of smaller Demonspawn cohorts.</p><p>Dark magic swirls around them like an unseen mist, allowing their unholy strikes to sap away the strength of their victims or even hex those that have the skill and courage to attack them.</p>"
+  "lore": "<p>Ifrits are a particular demonbreed that stands above the common foot soldiers of Siroth’s hellish hierarchy. Often compared to wasps for their somewhat insectoid appearance and frequent reliance on sting-like spears, Ifrits are usually found at the head of smaller Demonspawn cohorts.</p><p>Dark magic swirls around them like an unseen mist, allowing their unholy strikes to sap away the strength of their victims or even hex those that have the skill and courage to attack them.</p>",
+  "giid": ""
 }

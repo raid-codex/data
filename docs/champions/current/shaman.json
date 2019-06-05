@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 876,
+    "campaign": 4.5,
+    "arena_offense": 4.5,
+    "arena_defense": 4.4,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.4,
+    "dragon": 4.5,
+    "spider": 3.4,
+    "fire_knight": 4.1,
+    "minotaur": 4.5,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.5
+  },
   "slug": "shaman",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Dispelling Blow",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of removing 1 random buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "dispelling-blow",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Exploit Weakness",
       "raw_description": "Attacks 1 enemy. Places a 15% [Increase C. RATE] buff on all allies for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "exploit-weakness",
@@ -53,18 +73,25 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate",
           "slug": "increase-c-rate",
           "website_link": "/buffs/increase-c-rate",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Recall",
       "raw_description": "Revives an ally with 50% of their HP. Places a [Shield] buff on the target equal to 20% of the target's HP.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "recall",
@@ -73,14 +100,20 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -102,7 +135,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/shaman/",
@@ -138,5 +173,6 @@
   },
   "default_description": "Shaman is a epic assist champion from the faction Orcs doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

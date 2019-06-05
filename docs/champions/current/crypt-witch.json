@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 57,
+    "campaign": 4.3,
+    "arena_offense": 4.4,
+    "arena_defense": 4.1,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.4,
+    "dragon": 4.4,
+    "spider": 2.9,
+    "fire_knight": 3.8,
+    "minotaur": 4.4,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.3
+  },
   "slug": "crypt-witch",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Fetid Steel",
       "raw_description": "Attacks 1 enemy. Deals 30% more damage if the target has any buffs. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "fetid-steel",
@@ -44,28 +61,39 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Dismantle",
       "raw_description": "Attacks 2 times at random. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "dismantle",
@@ -74,25 +102,34 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Not So Fast",
       "raw_description": "Attacks 1 enemy. Will ignore 50% of the target's DEF if the target is faster than this Champion.<br>Damage based on: [ATK]<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "not-so-fast",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -114,7 +151,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/crypt-witch/",
@@ -150,5 +189,6 @@
   },
   "default_description": "Crypt Witch is a epic attack champion from the faction Knight Revenant doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>A Crypt Guard is the reborn soul of a long-dead hero that has arisen from his grave and been trapped in the body of a sacrificed young adept of the K'leth cult. No matter if it was a soul of a valiant knight or a ruthless warlord, once his soul is trapped in the body of the K'leth's cult adept, it would be bound to serve evil. Some say that the barbarian tradition of burning of passed away warlords and chiefs was created in order to save their souls from this dark fate.</p>"
+  "lore": "<p>A Crypt Guard is the reborn soul of a long-dead hero that has arisen from his grave and been trapped in the body of a sacrificed young adept of the K'leth cult. No matter if it was a soul of a valiant knight or a ruthless warlord, once his soul is trapped in the body of the K'leth's cult adept, it would be bound to serve evil. Some say that the barbarian tradition of burning of passed away warlords and chiefs was created in order to save their souls from this dark fate.</p>",
+  "giid": ""
 }

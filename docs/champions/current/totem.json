@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 13,
+    "campaign": 4.5,
+    "arena_offense": 4.2,
+    "arena_defense": 3.5,
+    "clan_boss": 4.4,
+    "ice_guardian": 3.5,
+    "dragon": 4.2,
+    "spider": 3.4,
+    "fire_knight": 3.6,
+    "minotaur": 4,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 4
+  },
   "slug": "totem",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Poisonous Evocation",
       "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 2.5% [Poison] debuff on the target for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "poisonous-evocation",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Malediction",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of removing 1 random buff from the target. Places a 15% [Continuous Heal] buff on this Champion for 2 turns if a buff is removed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "malediction",
@@ -64,18 +88,25 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Manglestorm",
       "raw_description": "Attacks all enemies. Places a 30% [Decrease DEF] debuff on the target for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "manglestorm",
@@ -84,16 +115,22 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/totem/",
@@ -151,5 +190,6 @@
   },
   "default_description": "Totem is a rare assist champion from the faction Orcs doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

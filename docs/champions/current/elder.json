@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 10,
+    "campaign": 4.1,
+    "arena_offense": 4,
+    "arena_defense": 3.8,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.2,
+    "dragon": 4.2,
+    "spider": 3.8,
+    "fire_knight": 4.2,
+    "minotaur": 4.2,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.2
+  },
   "slug": "elder",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Mocking Blow",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "mocking-blow",
@@ -44,25 +61,35 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Intercede",
       "raw_description": "Places a 50% [Ally Prote on the most injured ally for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
       "slug": "intercede",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Take Vengeance",
       "raw_description": "Places a [Counterattack] buff on this Champion for 2 turns. Heals this Champion by 15%.<br>Lvl. 2 Cooldown -1",
       "slug": "take-vengeance",
@@ -71,14 +98,20 @@
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -100,7 +133,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/elder/",
@@ -136,5 +171,6 @@
   },
   "default_description": "Elder is a rare def champion from the faction Barbarians doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

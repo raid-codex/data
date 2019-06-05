@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 28,
+    "campaign": 4.7,
+    "arena_offense": 4.4,
+    "arena_defense": 4.5,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.5,
+    "dragon": 4.8,
+    "spider": 4,
+    "fire_knight": 4.7,
+    "minotaur": 4.8,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.9
+  },
   "slug": "skirmisher",
   "characteristics": {
     "60": {
@@ -36,31 +52,40 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Twin Shafts",
       "raw_description": "Attacks 1 enemy 2 times. Inflicts 15% more damage against targets who have no active buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "twin-shafts",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hexed Arrow",
       "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 20% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "hexed-arrow",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Dispelling Shot",
       "raw_description": "Attacks all enemies. Removes 1 random buff from each enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "dispelling-shot",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -82,7 +107,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/skirmisher/",
@@ -118,5 +145,6 @@
   },
   "default_description": "Skirmisher is a rare attack champion from the faction Barbarians doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Barbarian tribes are renowned for their ability to adapt to harsh conditions, be it their inhospitable land, or unfavourable odds on the battlefield. Sometimes, the sheer rage and fury that they are associated with are not enough, and cunning tactics must be applied. Thus the use of skirmishers, armed with bows or javelins, is not uncommon. These warriors appear out of nowhere, strike at any vulnerability they can find, and disappear like ghosts.</p><p>This Champion in particular has honed her talent to take advantage of an opportunity. She knows that denying an enemy’s advantage is crucial to ensuring victory. And so she will employ any means necessary to bereave the foe of enchantments and slow them down to let her allies seize the initiative.</p>"
+  "lore": "<p>Barbarian tribes are renowned for their ability to adapt to harsh conditions, be it their inhospitable land, or unfavourable odds on the battlefield. Sometimes, the sheer rage and fury that they are associated with are not enough, and cunning tactics must be applied. Thus the use of skirmishers, armed with bows or javelins, is not uncommon. These warriors appear out of nowhere, strike at any vulnerability they can find, and disappear like ghosts.</p><p>This Champion in particular has honed her talent to take advantage of an opportunity. She knows that denying an enemy’s advantage is crucial to ensuring victory. And so she will employ any means necessary to bereave the foe of enchantments and slow them down to let her allies seize the initiative.</p>",
+  "giid": ""
 }

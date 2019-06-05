@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 21,
+    "campaign": 4.3,
+    "arena_offense": 4.5,
+    "arena_defense": 3.9,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.5,
+    "dragon": 4.2,
+    "spider": 4.4,
+    "fire_knight": 4.1,
+    "minotaur": 4.2,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 4.2
+  },
   "slug": "courtier",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Outmaneuver",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "outmaneuver",
@@ -44,27 +61,37 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Denigrate",
       "raw_description": "Attacks 1 enemy 3 times. Each hit has a 30% chance of removing 1 random buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "denigrate",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Whirling Blow",
       "raw_description": "Attacks all enemies 2 times. Has a 33% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "whirling-blow",
@@ -73,16 +100,22 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/courtier/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Courtier is a rare attack champion from the faction Banner-Lords doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

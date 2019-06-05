@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "S"
   },
+  "reviews": {
+    "amount": 85,
+    "campaign": 4.4,
+    "arena_offense": 4.4,
+    "arena_defense": 4.2,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.3,
+    "dragon": 4.2,
+    "spider": 3.8,
+    "fire_knight": 3.9,
+    "minotaur": 4.3,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.2
+  },
   "slug": "raglin",
   "characteristics": {
     "60": {
@@ -41,27 +57,36 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Repent",
       "raw_description": "Attacks 1 enemy. Fills a random ally's Turn Meter by 15%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "repent",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Mercy",
       "raw_description": "Removes all debuffs on all allies, then heals them. The heal amount is proportional to this Champion's ATK.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Heal +10%",
       "slug": "mercy",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Miracle",
       "raw_description": "Revives an ally with 75% HP and a full Turn Meter.<br>Lvl. 2 Cooldown -1",
       "slug": "miracle",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -83,7 +108,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/raglin/",
@@ -119,5 +146,6 @@
   },
   "default_description": "Raglin is a legendary assist champion from the faction Banner-Lords doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

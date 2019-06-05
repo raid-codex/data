@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 231,
+    "campaign": 3.6,
+    "arena_offense": 3.7,
+    "arena_defense": 3.8,
+    "clan_boss": 3,
+    "ice_guardian": 3.3,
+    "dragon": 3.3,
+    "spider": 2.3,
+    "fire_knight": 3.7,
+    "minotaur": 3.4,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.2,
+    "void_dungeon": 3.1
+  },
   "slug": "warchief",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Freezing Cold",
       "raw_description": "Attacks 1 enemy 3 times. Has a 15% chance of placing a [Freeze] debuff for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "freezing-cold",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Marauder",
       "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 3 turns. Has a 75% chance of stealing 2 random buffs from the target. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF] dl Provoke<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
       "slug": "marauder",
@@ -64,23 +88,32 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Standstill",
       "raw_description": "DEF increases by 10% for each dead ally.",
       "slug": "standstill",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -102,7 +135,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/warchief/",
@@ -138,5 +173,6 @@
   },
   "default_description": "Warchief is a legendary def champion from the faction Skinwalker doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

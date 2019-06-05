@@ -20,6 +20,22 @@
     "spirit_dungeon": "SS",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 275,
+    "campaign": 4.8,
+    "arena_offense": 4.7,
+    "arena_defense": 4.5,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.5,
+    "fire_knight": 4.5,
+    "minotaur": 4.7,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
   "slug": "mortu-macaab",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Stigmata",
       "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +15%<br>Lvl. 6 Buff/Debuff Chance +15%",
       "slug": "stigmata",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction-2",
           "slug": "heal-reduction-2",
           "website_link": "/debuffs/heal-reduction",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Falling from Grace",
       "raw_description": "Attacks all enemies 2 times. Places a [Block Buffs] debuff for 2 turns on targets under [Heal Reduction] debuffs. Each hit has a 50% chance of placing a [Block Buffs] debuff for 2 turns against targets not under [Heal Reduction] debuffs.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Cooldown -1",
       "slug": "falling-from-grace",
@@ -69,26 +93,36 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Fiery Rage",
       "raw_description": "Has a 10% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion's Turn Meter by 25% when attacked.",
       "slug": "fiery-rage",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Peril",
       "raw_description": "Attacks 1 enemy 2 times. Will ignore [Shield] and [Block Damage] buffs as well as DEF. Enemies killed by this skill cannot be revived.<br>Damage based on: [HP]",
       "slug": "peril",
@@ -97,26 +131,36 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -138,7 +182,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/mortu-macaab/",
@@ -174,5 +220,6 @@
   },
   "default_description": "Mortu-Macaab is a legendary attack champion from the faction Demonspawn doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

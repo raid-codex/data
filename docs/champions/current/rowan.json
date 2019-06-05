@@ -20,6 +20,22 @@
     "spirit_dungeon": "SS",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 130,
+    "campaign": 4.1,
+    "arena_offense": 4.3,
+    "arena_defense": 3.6,
+    "clan_boss": 4.6,
+    "ice_guardian": 4.2,
+    "dragon": 4.3,
+    "spider": 3.2,
+    "fire_knight": 4.2,
+    "minotaur": 4.3,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.1
+  },
   "slug": "rowan",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Slash",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Damage increases according to SPD.<br>Damage based on: [ATK] [SPD]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "slash",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction-2",
           "slug": "heal-reduction-2",
           "website_link": "/debuffs/heal-reduction",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "SPD"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Scourge",
       "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "scourge",
@@ -65,18 +89,25 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Blade Surge",
       "raw_description": "Attacks 1 enemy 4 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "blade-surge",
@@ -85,16 +116,22 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -116,7 +153,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/rowan/",
@@ -152,5 +191,6 @@
   },
   "default_description": "Rowan is a epic attack champion from the faction Banner-Lords doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

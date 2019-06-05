@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 46,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 4.7,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.6,
+    "dragon": 4.5,
+    "spider": 3.2,
+    "fire_knight": 4.1,
+    "minotaur": 4.5,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.6
+  },
   "slug": "retainer",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Sundering Chop",
       "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5% Lvi. 4 Buff/Debuff Chance +10%",
       "slug": "sundering-chop",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Resolute Stance",
       "raw_description": "Heals this Champion by 40% of their MAX HP and places a [Counterattack] buff on this Champion for 2 turns.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Cooldown -1",
       "slug": "resolute-stance",
@@ -64,16 +88,23 @@
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hypnotize",
       "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 50%. If the target's Turn Meter is fully depleted, places a [Sleep] debuff on them for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "hypnotize",
@@ -82,16 +113,22 @@
           "effect_type": "debuff",
           "type": "Sleep",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-sleep",
           "slug": "sleep",
           "website_link": "/debuffs/sleep",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -113,7 +150,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/retainer/",
@@ -149,5 +188,6 @@
   },
   "default_description": "Retainer is a rare def champion from the faction Dark Elves doing void damage",
   "recommended_builds": [],
-  "lore": "<p>The Retainer is a fiercely loyal warrior in the service of one of the ancient and noble Dark Elven houses. Sworn to service until death or dismissal, he wields a blade crafted in the forges of Fire Knight's Keep, and quenched in the blood of orcs – a blade he is honor-bound to fall upon should his Lord die in battle.</p><p>Like all in service to his master’s house, his armor and hair are dyed a bold azure – a sign of the unbreakable faith in his liege. A master swordsman, the Retainer also possesses the elven gift of hypnosis.</p>"
+  "lore": "<p>The Retainer is a fiercely loyal warrior in the service of one of the ancient and noble Dark Elven houses. Sworn to service until death or dismissal, he wields a blade crafted in the forges of Fire Knight's Keep, and quenched in the blood of orcs – a blade he is honor-bound to fall upon should his Lord die in battle.</p><p>Like all in service to his master’s house, his armor and hair are dyed a bold azure – a sign of the unbreakable faith in his liege. A master swordsman, the Retainer also possesses the elven gift of hypnosis.</p>",
+  "giid": ""
 }

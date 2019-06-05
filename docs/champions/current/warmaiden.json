@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 79,
+    "campaign": 4.7,
+    "arena_offense": 4.8,
+    "arena_defense": 4.2,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.5,
+    "dragon": 4.7,
+    "spider": 4.6,
+    "fire_knight": 3.3,
+    "minotaur": 4.6,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 3.3,
+    "void_dungeon": 4.6
+  },
   "slug": "warmaiden",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Ferocious Attack",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 2.5% [Poison] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%",
       "slug": "ferocious-attack",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Opportunity Strike",
       "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion and places an extra hit if this attack is critical. The extra hit cannot be critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "opportunity-strike",
@@ -64,18 +88,25 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Crumbling Blast",
       "raw_description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10<br>Lvl. 4 Buff/Debuff Chance +159<br>Lvl. 5 Cooldown -1",
       "slug": "crumbling-blast",
@@ -84,16 +115,22 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/warmaiden/",
@@ -151,5 +190,6 @@
   },
   "default_description": "Warmaiden is a rare attack champion from the faction Barbarians doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

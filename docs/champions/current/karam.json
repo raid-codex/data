@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 154,
+    "campaign": 4.2,
+    "arena_offense": 4.1,
+    "arena_defense": 3.5,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.4,
+    "dragon": 4.6,
+    "spider": 2.8,
+    "fire_knight": 3.9,
+    "minotaur": 4.4,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 4.5
+  },
   "slug": "karam",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Bloodstained Swords",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%",
       "slug": "bloodstained-swords",
@@ -44,27 +61,37 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Fit of Rage",
       "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Damage increases according to the amount of HP this Champion has lost.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "fit-of-rage",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Rot Away",
       "raw_description": "Attacks 1 enemy. Deals damage from all [Poison] debuffs on the target instantly.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "rot-away",
@@ -73,16 +100,22 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/karam/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Karam is a epic attack champion from the faction Undead Hordes doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

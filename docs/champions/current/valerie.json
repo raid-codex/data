@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 123,
+    "campaign": 4.6,
+    "arena_offense": 4.4,
+    "arena_defense": 4.4,
+    "clan_boss": 4.3,
+    "ice_guardian": 4.4,
+    "dragon": 4.6,
+    "spider": 4,
+    "fire_knight": 4.2,
+    "minotaur": 4.5,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.5
+  },
   "slug": "valerie",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Swing",
       "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "swing",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Energizing Presence",
       "raw_description": "Increases the duration of all buffs on all allies by 1 turn. Also decreases the duration of all debuffs on all allies by 1 turn. Places a 25% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "energizing-presence",
@@ -53,16 +73,23 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk",
           "slug": "increase-atk",
           "website_link": "/buffs/increase-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Protect",
       "raw_description": "Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] depends on this Champion's Level. Heals each ally according to the number of buffs they are currently under.<br>Lvl. 2 Shield +5%<br>Lvl. 3 Shield +5%<br>Lvl. 4 Shield +5%<br>Lvl. 5 Shield +5%",
       "slug": "protect",
@@ -71,14 +98,20 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -100,7 +133,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/valerie/",
@@ -136,5 +171,6 @@
   },
   "default_description": "Valerie is a rare assist champion from the faction Banner-Lords doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

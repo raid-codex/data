@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 38,
+    "campaign": 4,
+    "arena_offense": 4,
+    "arena_defense": 3.7,
+    "clan_boss": 2.8,
+    "ice_guardian": 3.3,
+    "dragon": 3,
+    "spider": 4.5,
+    "fire_knight": 2.9,
+    "minotaur": 3.4,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 3.2,
+    "spirit_dungeon": 3.1,
+    "void_dungeon": 3.1
+  },
   "slug": "psylar",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Surge",
       "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "surge",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Toxic Cloud",
       "raw_description": "Attacks all enemies. Has an 80% chance of placing a 50% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "toxic-cloud",
@@ -53,18 +73,25 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Leaden Legs",
       "raw_description": "Places a 30% [Decrease SPD] debuff on all enemies for 2 turns. Decreases the Turn Meter of all enemies by 15%.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "leaden-legs",
@@ -73,14 +100,20 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -102,7 +135,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/psylar/",
@@ -138,5 +173,6 @@
   },
   "default_description": "Psylar is a epic assist champion from the faction Dark Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

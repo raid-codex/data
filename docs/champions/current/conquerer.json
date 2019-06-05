@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 79,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 3.8,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.8,
+    "dragon": 4.7,
+    "spider": 2.7,
+    "fire_knight": 4.2,
+    "minotaur": 4.9,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.5
+  },
   "slug": "conquerer",
   "characteristics": {
     "60": {
@@ -41,31 +57,40 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Swift Blow",
       "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "swift-blow",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Cut Down To Size",
       "raw_description": "Attacks 1 enemy. Removes 2 random buffs from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "cut-down-to-size",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Purge",
       "raw_description": "Attacks 1 enemy. Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
       "slug": "purge",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -87,7 +112,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/conquerer/",
@@ -123,5 +150,6 @@
   },
   "default_description": "Conquerer is a rare attack champion from the faction Banner-Lords doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

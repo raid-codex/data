@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "S"
   },
+  "reviews": {
+    "amount": 227,
+    "campaign": 4.5,
+    "arena_offense": 4.8,
+    "arena_defense": 4.4,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.6,
+    "dragon": 4.8,
+    "spider": 4.2,
+    "fire_knight": 4.8,
+    "minotaur": 4.8,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
   "slug": "longbeard",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Unstoppable Force",
       "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "unstoppable-force",
@@ -49,28 +66,39 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Brittleness Curse",
       "raw_description": "Attacks 1 enemy. Places a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "brittleness-curse",
@@ -79,23 +107,32 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Horde's Fury",
       "raw_description": "Attacks 1 enemy with 4 allies. Increases the damage inflicted by allies by 20%.<br>Lvl. 2 Cooldown -1",
       "slug": "horde-s-fury",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -117,7 +154,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/longbeard/",
@@ -153,5 +192,6 @@
   },
   "default_description": "Longbeard is a legendary attack champion from the faction Skinwalker doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>As Skinwalkers shaman tell it, at Ghaar Khan’s birth, divine signs indicated he would consolidate the scattered Skinwalkers clans into one horde. As Ghaar grew, he the truth of the prophecy was revealed.</p><p>By defeating his enemies, forming alliances, and winning the loyalty of others, he managed to unite or subdue the several great nomadic tribes under his rule. At the Council of Elders, he was acknowledged as \"\"Khan\"\" and gifted with a mace made of the Holy Sheep's head - the Skinwalkers symbol of might and power.</p>"
+  "lore": "<p>As Skinwalkers shaman tell it, at Ghaar Khan’s birth, divine signs indicated he would consolidate the scattered Skinwalkers clans into one horde. As Ghaar grew, he the truth of the prophecy was revealed.</p><p>By defeating his enemies, forming alliances, and winning the loyalty of others, he managed to unite or subdue the several great nomadic tribes under his rule. At the Council of Elders, he was acknowledged as \"\"Khan\"\" and gifted with a mace made of the Holy Sheep's head - the Skinwalkers symbol of might and power.</p>",
+  "giid": ""
 }

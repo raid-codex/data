@@ -20,6 +20,22 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": {
+    "amount": 268,
+    "campaign": 3.1,
+    "arena_offense": 3.3,
+    "arena_defense": 2.5,
+    "clan_boss": 2.8,
+    "ice_guardian": 2.6,
+    "dragon": 2.8,
+    "spider": 2.1,
+    "fire_knight": 2.5,
+    "minotaur": 2.7,
+    "force_dungeon": 2.7,
+    "magic_dungeon": 2.5,
+    "spirit_dungeon": 2.5,
+    "void_dungeon": 2.6
+  },
   "slug": "astralith",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Assault Leader",
       "raw_description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter by 30% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "assault-leader",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Heart Rot",
       "raw_description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "heart-rot",
@@ -58,23 +78,32 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Judgement",
       "raw_description": "Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a boss.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "judgement",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -96,7 +125,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/astralith/",
@@ -132,5 +163,6 @@
   },
   "default_description": "Astralith is a legendary attack champion from the faction Dark Elves doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

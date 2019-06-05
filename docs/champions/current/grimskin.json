@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 17,
+    "campaign": 3.9,
+    "arena_offense": 4.1,
+    "arena_defense": 3.4,
+    "clan_boss": 4,
+    "ice_guardian": 3.2,
+    "dragon": 3.7,
+    "spider": 3.4,
+    "fire_knight": 3.7,
+    "minotaur": 3.6,
+    "force_dungeon": 3.2,
+    "magic_dungeon": 3.5,
+    "spirit_dungeon": 3.5,
+    "void_dungeon": 3.6
+  },
   "slug": "grimskin",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Tarry Fist",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "tarry-fist",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Frustrating Muck",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "frustrating-muck",
@@ -64,25 +88,34 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Ichor Fling",
       "raw_description": "Attacks all enemies. Has an 80% chance of removing 1 random buff from each target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +20%<br>Lvl. 5 Cooldown -1",
       "slug": "ichor-fling",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/grimskin/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Grimskin is a epic def champion from the faction Ogryn-Tribes doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 41,
+    "campaign": 4.4,
+    "arena_offense": 4.2,
+    "arena_defense": 4.3,
+    "clan_boss": 3.9,
+    "ice_guardian": 4.1,
+    "dragon": 4.1,
+    "spider": 3.1,
+    "fire_knight": 3.6,
+    "minotaur": 3.8,
+    "force_dungeon": 4,
+    "magic_dungeon": 3.5,
+    "spirit_dungeon": 3.6,
+    "void_dungeon": 3.7
+  },
   "slug": "woad-painted",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Cross Slash",
       "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5'<br>Lvl. 5 Damage +10%",
       "slug": "cross-slash",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Undying Fury",
       "raw_description": "Removes all debuffs from this Champion, then heals this Champion by 30% HP. Places a 30% [Reflect Damage] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "undying-fury",
@@ -65,16 +89,23 @@
           "effect_type": "buff",
           "type": "Reflect Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-reflect-damage-2",
           "slug": "reflect-damage-2",
           "website_link": "/buffs/reflect-damage",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Overpower",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage inflicted is proportional to this Champion's current HP.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +59<br>Lvl. 3 Buff/Debuff Chance +10<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "overpower",
@@ -83,16 +114,22 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -114,7 +151,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/woad-painted/",
@@ -150,5 +189,6 @@
   },
   "default_description": "Woad-Painted is a epic hp champion from the faction Barbarians doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

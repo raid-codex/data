@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 65,
+    "campaign": 4.5,
+    "arena_offense": 4.2,
+    "arena_defense": 4,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.2,
+    "dragon": 4.3,
+    "spider": 4.2,
+    "fire_knight": 3.7,
+    "minotaur": 4.2,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 3.8,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 4
+  },
   "slug": "galkut",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Mangle Limbs",
       "raw_description": "Attacks 1 enemy 2 times. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "mangle-limbs",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Brutal Battering",
       "raw_description": "Attacks all enemies 1 by 1 in random order. Damage inflicted decreases by 25% after each hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1 mie",
       "slug": "brutal-battering",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Boom Barrage",
       "raw_description": "Attacks all enemies. Has a 75% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "boom-barrage",
@@ -78,16 +105,22 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/galkut/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Galkut is a epic attack champion from the faction Ogryn-Tribes doing spirit damage",
   "recommended_builds": [],
-  "lore": "<p>Few of the Ogryn or Troll tribes living in the wilds have the means or knowledge required to tame steel. Thus, many of their warriors are armed with primitive clubs, stone axes, weapons looted on the battlefields or, sometimes, purchased from the rare merchants that are willing to trade with such dangerous customers.</p><p>Galkut, on the other hand, takes a more creative approach. His arms and armour are crafted from the bones of slain enemies, serving both to offer protection and to inspire fear in the hearts of his opponents. And the best part? Each victory brings a chance to enhance Galkut’s armour, assuming there is enough “material” left to work with.</p>"
+  "lore": "<p>Few of the Ogryn or Troll tribes living in the wilds have the means or knowledge required to tame steel. Thus, many of their warriors are armed with primitive clubs, stone axes, weapons looted on the battlefields or, sometimes, purchased from the rare merchants that are willing to trade with such dangerous customers.</p><p>Galkut, on the other hand, takes a more creative approach. His arms and armour are crafted from the bones of slain enemies, serving both to offer protection and to inspire fear in the hearts of his opponents. And the best part? Each victory brings a chance to enhance Galkut’s armour, assuming there is enough “material” left to work with.</p>",
+  "giid": ""
 }

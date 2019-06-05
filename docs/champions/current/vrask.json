@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "S"
   },
+  "reviews": {
+    "amount": 323,
+    "campaign": 4.8,
+    "arena_offense": 3.6,
+    "arena_defense": 4.1,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.7,
+    "dragon": 4.7,
+    "spider": 3.6,
+    "fire_knight": 4,
+    "minotaur": 4.7,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.7
+  },
   "slug": "vrask",
   "characteristics": {
     "60": {
@@ -41,29 +57,38 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Whack",
       "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 20% if this attack is critical.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "whack",
       "effects": [],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lightning Strike",
       "raw_description": "Attacks 1 enemy.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "lightning-strike",
       "effects": [],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Cannibalism",
       "raw_description": "Heals all allies by 10% of his MAX HP when he inflicts a critical hit.",
       "slug": "cannibalism",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -85,7 +110,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/vrask/",
@@ -121,5 +148,6 @@
   },
   "default_description": "Vrask is a epic hp champion from the faction Orcs doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

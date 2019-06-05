@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 74,
+    "campaign": 4.5,
+    "arena_offense": 4.5,
+    "arena_defense": 4,
+    "clan_boss": 3.8,
+    "ice_guardian": 4.1,
+    "dragon": 4.3,
+    "spider": 3.5,
+    "fire_knight": 3.7,
+    "minotaur": 4.5,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.2
+  },
   "slug": "hexia",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Grave Rot",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Chances to place this debuff increase by 10% per each debuff placed on this Champion.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "grave-rot",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Soulreap",
       "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on this Champion for 2 turns if the target is killed. Has a 30% of granting another turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
       "slug": "soulreap",
@@ -64,25 +88,34 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Spirit Harvest",
       "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted. The heal increases by 10% for each dead enemy. Places a 15% {Increase SPD] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
       "slug": "spirit-harvest",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/hexia/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Hexia is a epic attack champion from the faction Undead Hordes doing force damage",
   "recommended_builds": [],
-  "lore": "<p>Once a beautiful noble Lady of Kaerok, Hexia is said to have feared nothing but the relentless march of time. Knowing full well that her beauty will wane and rot away with age, she sought to prolong her youth through dark and terrible rituals. Some say she used the blood of young peasant women in hopes of preserving her body, others that she sacrificed anything and anyone, casting their souls into Siroth’s embrace in exchange for sorcerous secrets and eternal youth.</p><p>Such was her cruelty, that the people of her fief arose in rebellion. The castle was stormed and taken. Hexia herself had been dragged to a forest beyond the town walls and hanged on an old oak. Legend says that in her last breath, the vile sorceress cursed her former subjects and vowed vengeance.</p><p>But even death was not the end for her, as the blood rituals Hexia performed allowed her spirit to remain, possessing her dead body once more and exacting a horrible price upon the townsfolk that dared take everything from her. Whether or not that is the case, the castle and the town surrounding it have been devastated by plague not a month after Hexia’s execution and burned to a cinder to stop the disease from spreading.</p><p>Even now, the burned-out ruins that sit upon a barren hill and are considered to be a blighted place by the locals. Some brave adventurers dare to stray into the ruined castle’s catacombs in search of the sorceress’ riches. The few that return in one piece speak in hushed whispers, warning all who would listen of a cruel banshee that jealously guards her former domain.</p>"
+  "lore": "<p>Once a beautiful noble Lady of Kaerok, Hexia is said to have feared nothing but the relentless march of time. Knowing full well that her beauty will wane and rot away with age, she sought to prolong her youth through dark and terrible rituals. Some say she used the blood of young peasant women in hopes of preserving her body, others that she sacrificed anything and anyone, casting their souls into Siroth’s embrace in exchange for sorcerous secrets and eternal youth.</p><p>Such was her cruelty, that the people of her fief arose in rebellion. The castle was stormed and taken. Hexia herself had been dragged to a forest beyond the town walls and hanged on an old oak. Legend says that in her last breath, the vile sorceress cursed her former subjects and vowed vengeance.</p><p>But even death was not the end for her, as the blood rituals Hexia performed allowed her spirit to remain, possessing her dead body once more and exacting a horrible price upon the townsfolk that dared take everything from her. Whether or not that is the case, the castle and the town surrounding it have been devastated by plague not a month after Hexia’s execution and burned to a cinder to stop the disease from spreading.</p><p>Even now, the burned-out ruins that sit upon a barren hill and are considered to be a blighted place by the locals. Some brave adventurers dare to stray into the ruined castle’s catacombs in search of the sorceress’ riches. The few that return in one piece speak in hushed whispers, warning all who would listen of a cruel banshee that jealously guards her former domain.</p>",
+  "giid": ""
 }

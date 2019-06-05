@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 236,
+    "campaign": 4.6,
+    "arena_offense": 4.3,
+    "arena_defense": 4.3,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.5,
+    "dragon": 4.4,
+    "spider": 4.2,
+    "fire_knight": 3.5,
+    "minotaur": 4.5,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.2
+  },
   "slug": "lord-champfort",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Annihilation",
       "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "annihilation",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Earthshaker",
       "raw_description": "Attacks all enemies. Places a 50% [Decrease ACC] debuff anda 50% [Decrease ATK] debuff for 2 turns. ® Decrease ACC<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
       "slug": "earthshaker",
@@ -58,26 +78,37 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Thornsphere",
       "raw_description": "Places a [Shield] buff on this Champion for 2 turns at the start of each turn. Will place a 15% [Decrease SPD] debuff for 1 turn on whichever Champion destroys the [Shield].<br>Lvl. 2 Cooldown -1",
       "slug": "thornsphere",
@@ -86,24 +117,34 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd",
           "slug": "decrease-spd",
           "website_link": "/debuffs/decrease-spd",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -125,7 +166,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/lord-champfort/",
@@ -161,5 +204,6 @@
   },
   "default_description": "Lord Champfort is a legendary hp champion from the faction Banner-Lords doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

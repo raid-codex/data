@@ -20,6 +20,22 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": {
+    "amount": 48,
+    "campaign": 4.3,
+    "arena_offense": 4.2,
+    "arena_defense": 4.3,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.1,
+    "dragon": 4.1,
+    "spider": 3.8,
+    "fire_knight": 4.5,
+    "minotaur": 4.2,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4
+  },
   "slug": "angar",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Exacerbate",
       "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if an enemy has a [Provoke] debuff.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "exacerbate",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Infuriate",
       "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns.<br>Damage based on: [ATK] [HP] mh Reflect Damage<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "infuriate",
@@ -65,29 +89,40 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Reflect Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-reflect-damage-2",
           "slug": "reflect-damage-2",
           "website_link": "/buffs/reflect-damage",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Bravado",
       "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 2% (up to 10% in one round).<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%",
       "slug": "bravado",
@@ -96,14 +131,20 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -125,7 +166,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/angar/",
@@ -161,5 +204,6 @@
   },
   "default_description": "Angar is a legendary hp champion from the faction Orcs doing void damage",
   "recommended_builds": [],
-  "lore": "<p>A living legend, Angar is not only a warrior of great strength and courage but is also known for his sharp tongue. Perhaps a bit uncommon for an orc, he values victory in the battle of words just as much as victory in the contest of arms.</p><p>Provoking his foes into mindless rage with barbed insults, Angar can easily make them forget about their tactics. While Angar himself prefers to keep a cool head in battle. He is known to gather grisly trophies such as skulls and bones of the slain. Some say it helps him to always remember the cost of men's folly and blind fury.</p>"
+  "lore": "<p>A living legend, Angar is not only a warrior of great strength and courage but is also known for his sharp tongue. Perhaps a bit uncommon for an orc, he values victory in the battle of words just as much as victory in the contest of arms.</p><p>Provoking his foes into mindless rage with barbed insults, Angar can easily make them forget about their tactics. While Angar himself prefers to keep a cool head in battle. He is known to gather grisly trophies such as skulls and bones of the slain. Some say it helps him to always remember the cost of men's folly and blind fury.</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 342,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.5,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.8,
+    "dragon": 4.9,
+    "spider": 4.6,
+    "fire_knight": 4.8,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.9
+  },
   "slug": "fu-shan",
   "characteristics": {
     "60": {
@@ -41,13 +57,17 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Howl",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing an extra hit.<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +15%",
       "slug": "howl",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Frightful Claws",
       "raw_description": "Attacks all enemies 2 times. Each hit has a 20% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "frightful-claws",
@@ -56,18 +76,25 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shred",
       "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Cooldown -1<br>Lvl. 4 Buff/Debuff Chance +25%<br>Lvl. 5 Cooldown -1",
       "slug": "shred",
@@ -76,16 +103,22 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -107,7 +140,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/fu-shan/",
@@ -143,5 +178,6 @@
   },
   "default_description": "Fu-Shan is a legendary attack champion from the faction Lizardmen doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

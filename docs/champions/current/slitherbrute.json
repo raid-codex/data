@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 11,
+    "campaign": 4.4,
+    "arena_offense": 4.6,
+    "arena_defense": 4.5,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.4,
+    "fire_knight": 4.7,
+    "minotaur": 5,
+    "force_dungeon": 5,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.6
+  },
   "slug": "slitherbrute",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Rusty Gash",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "rusty-gash",
@@ -49,34 +66,46 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Essence Snatch",
       "raw_description": "Attacks 1 enemy and steals 1 random buff from them.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "essence-snatch",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Punish Hubris",
       "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter equal to the amount of buffs on the target.<br>Damage based on: [ATK]<br>Lvl. 2 Cooldown -1",
       "slug": "punish-hubris",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -98,7 +127,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/slitherbrute/",
@@ -134,5 +165,6 @@
   },
   "default_description": "Slitherbrute is a rare attack champion from the faction Lizardmen doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Born in the sewers of Ireth, the creature now know as the Slitherbrute, had to survive on scraps in the large city. Stealing meat and fish from the stands on the market, his luck soon ran out and his arm lost to an angered butcher’s hatchet.</p><p>Doomed to die in the gutter, he has only survived due to luck and the kindness of his fellow destitutes. And in the end, life as a cripple toughened the lizardman and forged him into a relentless bute. Now grown and with his arm replaced by a crude and vicious blade, he is still said to terrorize the streets of Irith at times in search of the butcher who took his arm - but perhaps that is merely an urban legend born of the Slitherbrute’s terrifying appearance.</p>"
+  "lore": "<p>Born in the sewers of Ireth, the creature now know as the Slitherbrute, had to survive on scraps in the large city. Stealing meat and fish from the stands on the market, his luck soon ran out and his arm lost to an angered butcher’s hatchet.</p><p>Doomed to die in the gutter, he has only survived due to luck and the kindness of his fellow destitutes. And in the end, life as a cripple toughened the lizardman and forged him into a relentless bute. Now grown and with his arm replaced by a crude and vicious blade, he is still said to terrorize the streets of Irith at times in search of the butcher who took his arm - but perhaps that is merely an urban legend born of the Slitherbrute’s terrifying appearance.</p>",
+  "giid": ""
 }

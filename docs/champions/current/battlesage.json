@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 85,
+    "campaign": 4.8,
+    "arena_offense": 4.6,
+    "arena_defense": 4.5,
+    "clan_boss": 3.9,
+    "ice_guardian": 4.7,
+    "dragon": 4.7,
+    "spider": 4.8,
+    "fire_knight": 3.2,
+    "minotaur": 4.6,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.7
+  },
   "slug": "battlesage",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Lightning Slash",
       "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "lightning-slash",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Nature's Touch",
       "raw_description": "Removes all debuffs on all allies, then places a 50% [Increase ATK]<br>Lvl. 2 Cooldown -1",
       "slug": "nature-s-touch",
@@ -58,16 +78,23 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Mother's Embrace",
       "raw_description": "Places a [Revive on Death] buff on a target ally for 3 turns. The ally will instantly revive if killed.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "mother-s-embrace",
@@ -76,14 +103,20 @@
           "effect_type": "debuff",
           "type": "Revive on Death",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-revive-on-death",
           "slug": "revive-on-death",
           "website_link": "/debuffs/revive-on-death",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -105,7 +138,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/battlesage/",
@@ -141,5 +176,6 @@
   },
   "default_description": "Battlesage is a epic assist champion from the faction High Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

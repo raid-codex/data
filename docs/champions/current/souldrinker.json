@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 237,
+    "campaign": 4.7,
+    "arena_offense": 4.7,
+    "arena_defense": 4.4,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.4,
+    "fire_knight": 4.2,
+    "minotaur": 4.6,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.5
+  },
   "slug": "souldrinker",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Razing Hand",
       "raw_description": "Attacks 1 enemy. Decreases [Bomb] debuff detonation countdowns by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "razing-hand",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Raining Fire",
       "raw_description": "Attacks 3 times at random. Decreases [Bomb] debuff detonation countdowns by 1 turn if the target has a [Poison] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "raining-fire",
@@ -64,28 +88,39 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Magma Blast",
       "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "magma-blast",
@@ -94,18 +129,25 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Set Ablaze",
       "raw_description": "Has an 80% chance of placing two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
       "slug": "set-ablaze",
@@ -114,14 +156,20 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -143,7 +191,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/souldrinker/",
@@ -179,5 +229,6 @@
   },
   "default_description": "Souldrinker is a epic attack champion from the faction Demonspawn doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

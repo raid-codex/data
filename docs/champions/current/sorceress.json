@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 112,
+    "campaign": 4.4,
+    "arena_offense": 4.5,
+    "arena_defense": 4.3,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.1,
+    "fire_knight": 4.4,
+    "minotaur": 4.7,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.6
+  },
   "slug": "sorceress",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Crystal Bolt",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "crystal-bolt",
@@ -44,27 +61,37 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Magic Arrows",
       "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "magic-arrows",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Vine Trap",
       "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
       "slug": "vine-trap",
@@ -73,16 +100,22 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/sorceress/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Sorceress is a rare attack champion from the faction Undead Hordes doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

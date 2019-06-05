@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 2321,
+    "campaign": 4.8,
+    "arena_offense": 4.4,
+    "arena_defense": 4.4,
+    "clan_boss": 3.5,
+    "ice_guardian": 4.3,
+    "dragon": 4.4,
+    "spider": 3.7,
+    "fire_knight": 2.6,
+    "minotaur": 4.5,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 4.3,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.3
+  },
   "slug": "executioner",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Shield Bash",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "shield-bash",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Tumult",
       "raw_description": "Attacks all enemies. Decreases the Turn Meter by 20%. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "tumult",
@@ -69,19 +93,26 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd",
           "slug": "decrease-spd",
           "website_link": "/debuffs/decrease-spd",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Schiltron",
       "raw_description": "Places a 60% [Increase DEF] buff and a [Counterattack] buff on this Champion for 3 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "schiltron",
@@ -90,24 +121,34 @@
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def-2",
           "slug": "increase-def-2",
           "website_link": "/buffs/increase-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -129,7 +170,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/executioner/",
@@ -165,5 +208,6 @@
   },
   "default_description": "Executioner is a rare def champion from the faction Knight Revenant doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

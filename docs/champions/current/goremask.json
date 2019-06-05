@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 21,
+    "campaign": 4.6,
+    "arena_offense": 4.4,
+    "arena_defense": 4.1,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.2,
+    "dragon": 4.2,
+    "spider": 3.3,
+    "fire_knight": 4.3,
+    "minotaur": 4.3,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 3.5
+  },
   "slug": "goremask",
   "characteristics": {
     "60": {
@@ -41,24 +57,31 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Snap",
       "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%",
       "slug": "snap",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Go for the Throat",
       "raw_description": "Attacks 1 enemy. Damage increases by 20% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
       "slug": "go-for-the-throat",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Tearing Jaws",
       "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "tearing-jaws",
@@ -67,26 +90,36 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -108,7 +141,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/goremask/",
@@ -144,5 +179,6 @@
   },
   "default_description": "Goremask is a rare attack champion from the faction Orcs doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 196,
+    "campaign": 4.7,
+    "arena_offense": 4.7,
+    "arena_defense": 4.6,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.8,
+    "fire_knight": 4.5,
+    "minotaur": 4.8,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
   "slug": "war-mother",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Cry Havoc",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%",
       "slug": "cry-havoc",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Special Brew",
       "raw_description": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "special-brew",
@@ -64,18 +88,25 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Mother's Touch",
       "raw_description": "Attacks all enemies. Instantly detonates all [Bomb] debuffs if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "mother-s-touch",
@@ -84,16 +115,22 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/war-mother/",
@@ -151,5 +190,6 @@
   },
   "default_description": "War Mother is a legendary attack champion from the faction Ogryn-Tribes doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>An Aravian joke has it that the only thing tougher than an angry Ogryn would be his mother. And as the elves of Aravia had to deal with Ogryn tribes for centuries, one would have to assume they know exactly what they are talking about.</p><p>No less savage and freakishly strong than her more commonly seen male counterparts, the War Mother, as she is called, holds a position of unquestionable authority within her tribe. Though she is skilled at wielding a gigantic cleaver that can easily debilitate her foes, the War Mother’s knowledge of alchemy allows her to use crude but incredibly effective explosive casks in battle. Perhaps it was this innovative approach to combat that allowed this Ogress to become so successful.</p><p>Renowned as a great beauty among her people, she is said to have a long line of suitors coming from among the most fearsome chieftains. Some evil tongues suggest that every single one ended up as the main course of a wedding feast without an actual wedding. Thus far, no scholar from the more civilized kingdoms risked interviewing the War Mother herself to find out the truth of the matter.</p>"
+  "lore": "<p>An Aravian joke has it that the only thing tougher than an angry Ogryn would be his mother. And as the elves of Aravia had to deal with Ogryn tribes for centuries, one would have to assume they know exactly what they are talking about.</p><p>No less savage and freakishly strong than her more commonly seen male counterparts, the War Mother, as she is called, holds a position of unquestionable authority within her tribe. Though she is skilled at wielding a gigantic cleaver that can easily debilitate her foes, the War Mother’s knowledge of alchemy allows her to use crude but incredibly effective explosive casks in battle. Perhaps it was this innovative approach to combat that allowed this Ogress to become so successful.</p><p>Renowned as a great beauty among her people, she is said to have a long line of suitors coming from among the most fearsome chieftains. Some evil tongues suggest that every single one ended up as the main course of a wedding feast without an actual wedding. Thus far, no scholar from the more civilized kingdoms risked interviewing the War Mother herself to find out the truth of the matter.</p>",
+  "giid": ""
 }

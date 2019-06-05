@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 66,
+    "campaign": 4,
+    "arena_offense": 4.5,
+    "arena_defense": 4.3,
+    "clan_boss": 3.3,
+    "ice_guardian": 4.2,
+    "dragon": 4.2,
+    "spider": 3.5,
+    "fire_knight": 3.9,
+    "minotaur": 4.4,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.1
+  },
   "slug": "gurgoh-the-augur",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Icebreaker",
       "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%",
       "slug": "icebreaker",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Bonechiller",
       "raw_description": "Attacks all enemies. Removes 1 random buff from each enemy. Places a 80% [Freeze] debuff on all enemies for 1 turn. Grants an Extra Turn.<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "bonechiller",
@@ -64,16 +88,23 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Avalanche",
       "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "avalanche",
@@ -82,18 +113,25 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Frost Embrace",
       "raw_description": "Has a 50% chance of placing a [Freeze] debuff on the attacker for 1 turn if this Champion loses more than 20% of their MAX HP on one attack.",
       "slug": "frost-embrace",
@@ -102,14 +140,20 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -131,7 +175,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/gurgoh-the-augur/",
@@ -167,5 +213,6 @@
   },
   "default_description": "Gurgoh the Augur is a legendary attack champion from the faction Ogryn-Tribes doing void damage",
   "recommended_builds": [],
-  "lore": "<p>\"As the last yellow leaf falls, ogryn tremble and flee to their homes\" - Aravian proverb</p><p>As ancient ogryn legend has it, Gurgoh the Blizzard is an ogre-skinwalker half-breed rumored to haunt the Ice Golem's Peak. Awakening with the first snows of winter, he is said to roam the foothills looking for ogryn children to feed to the Ice Golem. \"\"If you don't eat your mutton, Gurgoh will come\"\", or \"\"Do you hear Gurgoh knocking? He asks why you don't want to go to bed.\"\" - Every ogre has heard these words since childhood. Many would say that Gurgoh is just a bedtime story for children, but during the darkest winters, many ogryn young in the region do inexplicably vanish – leaving behind only empty footprints in the drifts below the peak.</p><p>To this day you’d be hard-pressed to find an ogre outside their hut in heavy snows, for all know that when a blizzard starts to howl, Gurgoh is near...</p>"
+  "lore": "<p>\"As the last yellow leaf falls, ogryn tremble and flee to their homes\" - Aravian proverb</p><p>As ancient ogryn legend has it, Gurgoh the Blizzard is an ogre-skinwalker half-breed rumored to haunt the Ice Golem's Peak. Awakening with the first snows of winter, he is said to roam the foothills looking for ogryn children to feed to the Ice Golem. \"\"If you don't eat your mutton, Gurgoh will come\"\", or \"\"Do you hear Gurgoh knocking? He asks why you don't want to go to bed.\"\" - Every ogre has heard these words since childhood. Many would say that Gurgoh is just a bedtime story for children, but during the darkest winters, many ogryn young in the region do inexplicably vanish – leaving behind only empty footprints in the drifts below the peak.</p><p>To this day you’d be hard-pressed to find an ogre outside their hut in heavy snows, for all know that when a blizzard starts to howl, Gurgoh is near...</p>",
+  "giid": ""
 }

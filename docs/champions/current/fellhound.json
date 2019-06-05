@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 107,
+    "campaign": 4.9,
+    "arena_offense": 4.5,
+    "arena_defense": 4.5,
+    "clan_boss": 3.3,
+    "ice_guardian": 4.4,
+    "dragon": 4.8,
+    "spider": 4.9,
+    "fire_knight": 4.6,
+    "minotaur": 4.8,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.5
+  },
   "slug": "fellhound",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Ravage",
       "raw_description": "Attacks all enemies. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF] [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "ravage",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd",
           "slug": "decrease-spd",
           "website_link": "/debuffs/decrease-spd",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Flameborn Vigor",
       "raw_description": "Places a 7.5% [Continuous Heal] buff and a 15% [Reflect Damage] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "flameborn-vigor",
@@ -65,26 +89,37 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal",
           "slug": "continuous-heal",
           "website_link": "/buffs/continuous-heal",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Reflect Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-reflect-damage",
           "slug": "reflect-damage",
           "website_link": "/buffs/reflect-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Deflect",
       "raw_description": "Places a [Block Damage] buff on an ally for 1 turn.<br>Lvl. 2 Cooldown -1",
       "slug": "deflect",
@@ -93,14 +128,20 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -122,7 +163,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/fellhound/",
@@ -158,5 +201,6 @@
   },
   "default_description": "Fellhound is a rare def champion from the faction Demonspawn doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Fellhounds are hellish creations of Siroth, his beasts of war. As they pass, these vicious hounds leaving charred pawprints and the smell of sulphur behind. According to ancient legends, seeing one foretells the unfortunate observer’s imminent death. And, considering the sharpness of the fellhounds’ steel-like fangs, it is not hard to see why.</p><p>Yet those that somehow capture and tame the beast may take great advantage of their protective magic.</p>"
+  "lore": "<p>Fellhounds are hellish creations of Siroth, his beasts of war. As they pass, these vicious hounds leaving charred pawprints and the smell of sulphur behind. According to ancient legends, seeing one foretells the unfortunate observer’s imminent death. And, considering the sharpness of the fellhounds’ steel-like fangs, it is not hard to see why.</p><p>Yet those that somehow capture and tame the beast may take great advantage of their protective magic.</p>",
+  "giid": ""
 }

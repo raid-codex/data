@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 44,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 4.6,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.8,
+    "fire_knight": 4.1,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.9
+  },
   "slug": "marquess",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Disdainful Swipe",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
       "slug": "disdainful-swipe",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Crush the Weak",
       "raw_description": "Attacks all enemies. Has a 35% chance of placing a 15% [Weaken] debuff for 2 turns. Deals extra damage to enemies with the [Weaken] debuff.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "crush-the-weak",
@@ -64,18 +88,25 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken",
           "slug": "weaken",
           "website_link": "/debuffs/weaken",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Freeze Solid",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Damage +10%<br>Lvl. 8 Buff/Debuff Chance +10%",
       "slug": "freeze-solid",
@@ -84,16 +115,22 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/marquess/",
@@ -151,5 +190,6 @@
   },
   "default_description": "Marquess is a rare def champion from the faction Demonspawn doing spirit damage",
   "recommended_builds": [],
-  "lore": "<p>The profane hierarchy of Siroth’s legions is not unlike that of the mortal nobility in Teleria. There is protocol, a certain twisted propriety in demonic dealings, there are ranks and titles. The Marquis and Marquesses stand high in this hierarchy, serving as tacticians and commanders of the Demonspawn hosts.</p><p>Some they there were mortals once, before Siroth’s servants came to Teleria. Driven by fear or ambition, a terrible pact has been made by the nobles to retain their status, yet at a dear price - their very souls. Servants of Lumaya say that any mortal to be foolish enough to sign such a pact lives on in torment, their consciousness entrapped in suffocating, eternal darkness. Survive they will, though most will - in time - beg for the release of death.</p><p>And yet there is never a lack of those who are willing to test these tales for the promise of power.</p>"
+  "lore": "<p>The profane hierarchy of Siroth’s legions is not unlike that of the mortal nobility in Teleria. There is protocol, a certain twisted propriety in demonic dealings, there are ranks and titles. The Marquis and Marquesses stand high in this hierarchy, serving as tacticians and commanders of the Demonspawn hosts.</p><p>Some they there were mortals once, before Siroth’s servants came to Teleria. Driven by fear or ambition, a terrible pact has been made by the nobles to retain their status, yet at a dear price - their very souls. Servants of Lumaya say that any mortal to be foolish enough to sign such a pact lives on in torment, their consciousness entrapped in suffocating, eternal darkness. Survive they will, though most will - in time - beg for the release of death.</p><p>And yet there is never a lack of those who are willing to test these tales for the promise of power.</p>",
+  "giid": ""
 }

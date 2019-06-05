@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 19,
+    "campaign": 4.4,
+    "arena_offense": 4.2,
+    "arena_defense": 4,
+    "clan_boss": 3,
+    "ice_guardian": 3.6,
+    "dragon": 4.1,
+    "spider": 3.2,
+    "fire_knight": 3.2,
+    "minotaur": 3.7,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 4
+  },
   "slug": "magister",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Majestic Staff",
       "raw_description": "Attacks 1 enemy. If the hit is critical, places a 25% [Increase ATK] buff on a random ally for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "majestic-staff",
@@ -44,18 +61,25 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk",
           "slug": "increase-atk",
           "website_link": "/buffs/increase-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Anoint",
       "raw_description": "Places a 30% [Revive on Death] buff and a 30% [Reflect Damage] buff on a target ally for 2 turns. Heals all other allies by 10% of the target's HP.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Heal +10%",
       "slug": "anoint",
@@ -64,26 +88,37 @@
           "effect_type": "buff",
           "type": "Reflect Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-reflect-damage-2",
           "slug": "reflect-damage-2",
           "website_link": "/buffs/reflect-damage",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Revive on Death",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-revive-on-death",
           "slug": "revive-on-death",
           "website_link": "/debuffs/revive-on-death",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Censure",
       "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "censure",
@@ -92,16 +127,22 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction",
           "slug": "heal-reduction",
           "website_link": "/debuffs/heal-reduction",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -123,7 +164,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/magister/",
@@ -159,5 +202,6 @@
   },
   "default_description": "Magister is a rare assist champion from the faction High Elves doing force damage",
   "recommended_builds": [],
-  "lore": "<p>In the complicated and byzantine hierarchy of the High Elves, promotion to elevated rank can take centuries. One faster step on the path to greater social rank is attaining the position of Magister. Even low-born Elven warriors willing to spend 50 years in services as a practitioner of battlefield healing magic can claim rights to this title. Those who do are valued greatly by their comrades in battle.</p>"
+  "lore": "<p>In the complicated and byzantine hierarchy of the High Elves, promotion to elevated rank can take centuries. One faster step on the path to greater social rank is attaining the position of Magister. Even low-born Elven warriors willing to spend 50 years in services as a practitioner of battlefield healing magic can claim rights to this title. Those who do are valued greatly by their comrades in battle.</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 24,
+    "campaign": 4.3,
+    "arena_offense": 4.2,
+    "arena_defense": 3.6,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.2,
+    "dragon": 4.3,
+    "spider": 3.7,
+    "fire_knight": 3.9,
+    "minotaur": 4.3,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 4.2
+  },
   "slug": "avenger",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Hunt",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Damage +10%",
       "slug": "hunt",
@@ -44,34 +61,46 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lethal Vortex",
       "raw_description": "Attacks at random 2 times. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "lethal-vortex",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Fatal Blow",
       "raw_description": "Attacks 1 enemy. This Skill always inflicts a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "fatal-blow",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -93,7 +122,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/avenger/",
@@ -129,5 +160,6 @@
   },
   "default_description": "Avenger is a rare attack champion from the faction High Elves doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

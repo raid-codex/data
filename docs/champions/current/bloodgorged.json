@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 189,
+    "campaign": 4.1,
+    "arena_offense": 4.2,
+    "arena_defense": 3.5,
+    "clan_boss": 3.9,
+    "ice_guardian": 4.1,
+    "dragon": 4.1,
+    "spider": 3.4,
+    "fire_knight": 3.9,
+    "minotaur": 4.1,
+    "force_dungeon": 4,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4
+  },
   "slug": "bloodgorged",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Break Defense",
       "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%",
       "slug": "break-defense",
@@ -44,34 +61,46 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Raging Beast",
       "raw_description": "Attacks 3 times at random. Puts one of the target's Skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "raging-beast",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Decapitate",
       "raw_description": "Attacks 1 enemy. Will ignore DEF. Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "decapitate",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -93,7 +122,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/bloodgorged/",
@@ -129,5 +160,6 @@
   },
   "default_description": "Bloodgorged is a legendary attack champion from the faction Undead Hordes doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

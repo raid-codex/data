@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 61,
+    "campaign": 4.2,
+    "arena_offense": 4.3,
+    "arena_defense": 3.5,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.3,
+    "dragon": 4.5,
+    "spider": 3.5,
+    "fire_knight": 4.5,
+    "minotaur": 4.4,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.3
+  },
   "slug": "skullsworn",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Vicious Rip",
       "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Buff/Debuff Chance +5%<br>Lvl. 8 Buff/Debuff Chance +5%",
       "slug": "vicious-rip",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Cry For Blood",
       "raw_description": "Places a 30% [Increase SPD] buff on this Champion for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "cry-for-blood",
@@ -53,31 +73,44 @@
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-spd-2",
           "slug": "increase-spd-2",
           "website_link": "/buffs/increase-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Feral Hunter",
       "raw_description": "Fills this Champion's Turn Meter by 15% on critical hits. Fills this Champion's Turn Meter by 50% if this Champion kills an enemy.",
       "slug": "feral-hunter",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -99,7 +132,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/skullsworn/",
@@ -135,5 +170,6 @@
   },
   "default_description": "Skullsworn is a rare attack champion from the faction Lizardmen doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

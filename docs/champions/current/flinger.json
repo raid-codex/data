@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 20,
+    "campaign": 3.8,
+    "arena_offense": 3.8,
+    "arena_defense": 3.2,
+    "clan_boss": 3.1,
+    "ice_guardian": 3.3,
+    "dragon": 3.3,
+    "spider": 3.6,
+    "fire_knight": 2.8,
+    "minotaur": 3.4,
+    "force_dungeon": 3.5,
+    "magic_dungeon": 3.3,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 3.3
+  },
   "slug": "flinger",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Axe Throw",
       "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%",
       "slug": "axe-throw",
@@ -44,34 +61,46 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Meteor",
       "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "meteor",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Burn",
       "raw_description": "Attacks 1 enemy. This skill always inflicts a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "burn",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -93,7 +122,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/flinger/",
@@ -129,5 +160,6 @@
   },
   "default_description": "Flinger is a rare attack champion from the faction Lizardmen doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

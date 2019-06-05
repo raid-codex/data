@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 28,
+    "campaign": 4.6,
+    "arena_offense": 4.3,
+    "arena_defense": 4.3,
+    "clan_boss": 3.9,
+    "ice_guardian": 4,
+    "dragon": 4.3,
+    "spider": 3.4,
+    "fire_knight": 4,
+    "minotaur": 4.4,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.3
+  },
   "slug": "daywalker",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Grave's Grasp",
       "raw_description": "Attacks 1 enemy. Places an extra hit if the target has more HP than this Champion.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "grave-s-grasp",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Unnatural Vigor",
       "raw_description": "Places a 25% [Ally Protection] buff on all allies for 2 turns. Places a [Block Debuffs] buff on this Champion for 2 turns. Removes all debuffs from this Champion.<br>Lvl. 2 Cooldown -1",
       "slug": "unnatural-vigor",
@@ -58,33 +78,46 @@
           "effect_type": "buff",
           "type": "Ally Protection",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-ally-protection",
           "slug": "ally-protection",
           "website_link": "/buffs/ally-protection",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Block Debuffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/buffs/block-debuffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Death Denied",
       "raw_description": "Revives this Champion with 30% HP and attacks all enemies after being killed.<br>Damage based on: [ATK]",
       "slug": "death-denied",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -106,7 +139,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/daywalker/",
@@ -142,5 +177,6 @@
   },
   "default_description": "Daywalker is a rare hp champion from the faction Knight Revenant doing void damage",
   "recommended_builds": [],
-  "lore": "<p>In his past life, Daywalker was a common gravedigger in Kaerok. He lived his grim but ordinary life without complaint, until one day the corpse was brought to him of a lonely old man that had passed away in the slums abutting Kaerok Castle. The man had neither relatives nor acquaintances, nor coin to pay the Telerian priests to give the last rites.</p><p>Taking pity on the wretch, the young gravedigger took it upon himself to bury the man. Preparing the body for burial, he found a strange scroll in the man's pocket.</p><p>Upon the reading, it was a dying man’s last wish to pronounce the words of a strange ritual over his body. Struggling with the unfamiliar glyphs, he spoke. The morning after, the young man left the Kaerok, and headed towards the Hallowed Halls.</p><p>His old name forgotten, his visage fell and terrible, he struck down all he met upon his path. The soul of Daywalker had found its newest vessel.</p>"
+  "lore": "<p>In his past life, Daywalker was a common gravedigger in Kaerok. He lived his grim but ordinary life without complaint, until one day the corpse was brought to him of a lonely old man that had passed away in the slums abutting Kaerok Castle. The man had neither relatives nor acquaintances, nor coin to pay the Telerian priests to give the last rites.</p><p>Taking pity on the wretch, the young gravedigger took it upon himself to bury the man. Preparing the body for burial, he found a strange scroll in the man's pocket.</p><p>Upon the reading, it was a dying man’s last wish to pronounce the words of a strange ritual over his body. Struggling with the unfamiliar glyphs, he spoke. The morning after, the young man left the Kaerok, and headed towards the Hallowed Halls.</p><p>His old name forgotten, his visage fell and terrible, he struck down all he met upon his path. The soul of Daywalker had found its newest vessel.</p>",
+  "giid": ""
 }

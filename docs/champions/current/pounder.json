@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 7,
+    "campaign": 4.3,
+    "arena_offense": 4,
+    "arena_defense": 4.3,
+    "clan_boss": 4.2,
+    "ice_guardian": 3.9,
+    "dragon": 3.7,
+    "spider": 3.7,
+    "fire_knight": 3.7,
+    "minotaur": 3.7,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 3.7
+  },
   "slug": "pounder",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Bonebreaker",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "bonebreaker",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Spreading Ice",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Freeze] debuff for 1 turn. If the target has a [Freeze] debuff, has a 25% chance of placing it on another enemy.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "spreading-ice",
@@ -69,23 +93,32 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Tower of Power",
       "raw_description": "Increases the resistance of all allies by 15 for each active buff on this Champion.",
       "slug": "tower-of-power",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -107,7 +140,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/pounder/",
@@ -143,5 +178,6 @@
   },
   "default_description": "Pounder is a rare def champion from the faction Ogryn-Tribes doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Some ogryn tribes are deemed dangerously wild and primitive even by other ogres. Pounder is an outstanding representative of one of those extremely isolated and savage tribes found out beyond the Downward Hills.</p><p>As Pounder speaks a savage dialect unknown to most of his brethren, none know with any certainly much about his past, including even his real name - yet stories are told of a lone ogyrn matching Pounder’s description who survived a great drought in the Downward Hills by hunting and eating his fellow tribesmen. A great warrior, he’s given a healthy distance by his new ogryn companions, and an extra portion from the nightly stew each night, just in case…</p>"
+  "lore": "<p>Some ogryn tribes are deemed dangerously wild and primitive even by other ogres. Pounder is an outstanding representative of one of those extremely isolated and savage tribes found out beyond the Downward Hills.</p><p>As Pounder speaks a savage dialect unknown to most of his brethren, none know with any certainly much about his past, including even his real name - yet stories are told of a lone ogyrn matching Pounder’s description who survived a great drought in the Downward Hills by hunting and eating his fellow tribesmen. A great warrior, he’s given a healthy distance by his new ogryn companions, and an extra portion from the nightly stew each night, just in case…</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 267,
+    "campaign": 4.3,
+    "arena_offense": 3.8,
+    "arena_defense": 3.7,
+    "clan_boss": 4.5,
+    "ice_guardian": 3.8,
+    "dragon": 4,
+    "spider": 3,
+    "fire_knight": 3.5,
+    "minotaur": 4,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 3.9,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 3.9
+  },
   "slug": "sethallia",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Put to Flame",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%",
       "slug": "put-to-flame",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "HP Burn",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-hp-burn",
           "slug": "hp-burn",
           "website_link": "/debuffs/hp-burn",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lordly Embrace",
       "raw_description": "Heals a target ally by 75% of their MAX HP and places a [Block Debuffs] buff for 2 turns.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Cooldown -1",
       "slug": "lordly-embrace",
@@ -69,16 +93,23 @@
           "effect_type": "buff",
           "type": "Block Debuffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/buffs/block-debuffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Aggress",
       "raw_description": "Attacks 3 times at random. Places a 10% [Leech] debuff for 2 turns on the third hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "aggress",
@@ -87,16 +118,22 @@
           "effect_type": "debuff",
           "type": "Leech",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-leech",
           "slug": "leech",
           "website_link": "/debuffs/leech",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -118,7 +155,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/sethallia/",
@@ -154,5 +193,6 @@
   },
   "default_description": "Sethallia is a legendary assist champion from the faction Banner-Lords doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Lady Sethallia hails from the coast of the Land of Rebirth, South of the Castle of Kaerok itself. Her ancestral fief grants control of much of the province, making Sethallia a well-known face at court as well as one of King Tayba’s important vassals. Fiery-tempered and charismatic, she has earned as many enemies among the King’s bannermen as she did friends.</p><p>Her brash nature is well known even among Sethallia’s own people, although it seems her soldiers have grown to adore and respect it. A widely-quoted story tells of her bravery when a small force of Kaerok knights fell into an orc ambush. Seeing a hulking orс chief fell a dozen of her men in that battle, Sethallia cut her way through to the beast and mocked him brazenly. The orc, who is said to have dwarfed even the tallest of King Tayba’s knights, abandoned the wounded soldiers in favour of trampling the foolish noble into the dirt. Yet for all his savagery he could not match Sethallia’s skill. Finally provoked into making a mistake, the orc chief soon found his throat pierced by a spear, and his kin broke and fled the field upon witnessing their leader’s defeat. Needless to say, Lady Sethallia’s reputation as a warrior and her popularity in the King’s army blossomed after that feat.</p><p>For all her recklessness, Sethallia is a capable leader that can both guide her fury to set enemy ranks ablaze with magic or direct her allies to sap away their strength in a relentless assault. But where enemies face naught but fire and wrath, Sethallia’s care has been known to miraculously heal even the most grievous of wounds.</p>"
+  "lore": "<p>Lady Sethallia hails from the coast of the Land of Rebirth, South of the Castle of Kaerok itself. Her ancestral fief grants control of much of the province, making Sethallia a well-known face at court as well as one of King Tayba’s important vassals. Fiery-tempered and charismatic, she has earned as many enemies among the King’s bannermen as she did friends.</p><p>Her brash nature is well known even among Sethallia’s own people, although it seems her soldiers have grown to adore and respect it. A widely-quoted story tells of her bravery when a small force of Kaerok knights fell into an orc ambush. Seeing a hulking orс chief fell a dozen of her men in that battle, Sethallia cut her way through to the beast and mocked him brazenly. The orc, who is said to have dwarfed even the tallest of King Tayba’s knights, abandoned the wounded soldiers in favour of trampling the foolish noble into the dirt. Yet for all his savagery he could not match Sethallia’s skill. Finally provoked into making a mistake, the orc chief soon found his throat pierced by a spear, and his kin broke and fled the field upon witnessing their leader’s defeat. Needless to say, Lady Sethallia’s reputation as a warrior and her popularity in the King’s army blossomed after that feat.</p><p>For all her recklessness, Sethallia is a capable leader that can both guide her fury to set enemy ranks ablaze with magic or direct her allies to sap away their strength in a relentless assault. But where enemies face naught but fire and wrath, Sethallia’s care has been known to miraculously heal even the most grievous of wounds.</p>",
+  "giid": ""
 }
