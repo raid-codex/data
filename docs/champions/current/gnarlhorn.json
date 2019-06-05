@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 13,
+    "campaign": 3.3,
+    "arena_offense": 2.7,
+    "arena_defense": 2.7,
+    "clan_boss": 2,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 3.2,
+    "fire_knight": 3.4,
+    "minotaur": 3.4,
+    "force_dungeon": 3.4,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.4
+  },
   "slug": "gnarlhorn",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Ram",
       "raw_description": "Attacks 1 enemy. Damage increases according to how much HP this Champion has lost. This attack cannot be a strong, critical, or weak hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "ram",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "War Drum",
       "raw_description": "Places a [Provoke] debuff on all enemies for 1 turn. Places a 30% {Increase DEF] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "war-drum",
@@ -58,16 +78,23 @@
           "effect_type": "debuff",
           "type": "Provoke",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-provoke",
           "slug": "provoke",
           "website_link": "/debuffs/provoke",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Determined",
       "raw_description": "Places an [Unkillable] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "determined",
@@ -76,14 +103,20 @@
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -105,7 +138,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/gnarlhorn/",
@@ -141,5 +176,6 @@
   },
   "default_description": "Gnarlhorn is a rare hp champion from the faction Skinwalker doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

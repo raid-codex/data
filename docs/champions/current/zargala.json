@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 392,
+    "campaign": 4.8,
+    "arena_offense": 4.9,
+    "arena_defense": 4.5,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.6,
+    "dragon": 4.8,
+    "spider": 4.8,
+    "fire_knight": 3.3,
+    "minotaur": 4.7,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 4.6
+  },
   "slug": "zargala",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Split Apart",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "split-apart",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Devastate",
       "raw_description": "Attacks 1 enemy. Instantly activates the Crack Armor Skill if the target is killed by this attack.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
       "slug": "devastate",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Crack Armor",
       "raw_description": "Attacks all enemies 3 times. After the first hit, has a 50% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "crack-armor",
@@ -78,16 +105,22 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/zargala/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Zargala is a epic attack champion from the faction Orcs doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

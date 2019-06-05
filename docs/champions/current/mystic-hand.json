@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 58,
+    "campaign": 4.8,
+    "arena_offense": 4.3,
+    "arena_defense": 4.5,
+    "clan_boss": 3.5,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 3.2,
+    "fire_knight": 4.7,
+    "minotaur": 4.6,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.8
+  },
   "slug": "mystic-hand",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Tainted Blade",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5% Lea stl)",
       "slug": "tainted-blade",
@@ -49,32 +66,44 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Turn the Tide",
       "raw_description": "Attacks 1 enemy. Steals 2 random buffs from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "turn-the-tide",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Soul Link",
       "raw_description": "Heals the ally with the lowest HP by 25%, then equalizes the HP levels of all allies.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +10%<br>Lvl. 5 Cooldown -1",
       "slug": "soul-link",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -96,7 +125,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/mystic-hand/",
@@ -132,5 +163,6 @@
   },
   "default_description": "Mystic Hand is a rare assist champion from the faction Dark Elves doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

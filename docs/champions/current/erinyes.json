@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 56,
+    "campaign": 4.1,
+    "arena_offense": 4.2,
+    "arena_defense": 3.7,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.3,
+    "dragon": 4.4,
+    "spider": 4.3,
+    "fire_knight": 3.8,
+    "minotaur": 4.2,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.3,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.2
+  },
   "slug": "erinyes",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Razor Claws",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%",
       "slug": "razor-claws",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Almighty Curse",
       "raw_description": "Attacks all enemies. Has a 75% chance of increasing the duration of all debuffs on the target by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "almighty-curse",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Engulfing Flame",
       "raw_description": "Attacks 1 enemy. Places a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "engulfing-flame",
@@ -78,16 +105,22 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/erinyes/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Erinyes is a epic attack champion from the faction Demonspawn doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

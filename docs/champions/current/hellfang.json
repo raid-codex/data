@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 6,
+    "campaign": 3.7,
+    "arena_offense": 3.5,
+    "arena_defense": 3.2,
+    "clan_boss": 3,
+    "ice_guardian": 3.5,
+    "dragon": 3.5,
+    "spider": 4,
+    "fire_knight": 4,
+    "minotaur": 3.5,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 4,
+    "void_dungeon": 3.5
+  },
   "slug": "hellfang",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Tear",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of putting the target's skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "tear",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hunter's Mark",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +15%<br>Lvl. 7 Cooldown -1",
       "slug": "hunter-s-mark",
@@ -58,18 +78,25 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Chilling Howl",
       "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
       "slug": "chilling-howl",
@@ -78,16 +105,22 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/hellfang/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Hellfang is a rare attack champion from the faction Demonspawn doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

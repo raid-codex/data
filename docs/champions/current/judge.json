@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 81,
+    "campaign": 4.6,
+    "arena_offense": 4.2,
+    "arena_defense": 3.9,
+    "clan_boss": 4.3,
+    "ice_guardian": 4.5,
+    "dragon": 4.6,
+    "spider": 4.5,
+    "fire_knight": 4.1,
+    "minotaur": 4.6,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.6
+  },
   "slug": "judge",
   "characteristics": {
     "60": {
@@ -41,24 +57,31 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Eviscerate",
       "raw_description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target, stacking up to a maximum of 100%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "eviscerate",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Blade Dance",
       "raw_description": "Attacks all enemies 2 times. Fills the Turn Meter by 10% for each critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "blade-dance",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Chaos Armor",
       "raw_description": "Each time this Champion is hit, has a 30% chance of placing a 50% [Decrease ACC] debuff OR a 30% [Decrease SPD] debuff OR a 50% [Decrease ATK] debuff OR a 60% [Decrease DEF] debuff on the attacker for 1 turn.",
       "slug": "chaos-armor",
@@ -67,44 +90,62 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -126,7 +167,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/judge/",
@@ -162,5 +205,6 @@
   },
   "default_description": "Judge is a rare attack champion from the faction Dark Elves doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

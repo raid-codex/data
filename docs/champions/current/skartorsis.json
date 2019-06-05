@@ -20,6 +20,22 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": {
+    "amount": 154,
+    "campaign": 4.9,
+    "arena_offense": 4.6,
+    "arena_defense": 4.6,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.9,
+    "fire_knight": 4.3,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.8
+  },
   "slug": "skartorsis",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Hand of Doom",
       "raw_description": "Attacks all enemies. Has a 30% chance of stealing 1 random buff from each enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "hand-of-doom",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Command",
       "raw_description": "Places a 50% [Increase ATK] buff and a 30% [Increase C. RATE] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "command",
@@ -58,31 +78,44 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Rebirth",
       "raw_description": "Removes all debuffs from all allies, then heals all allies and fills their Turn Meters. The amount by which each ally is healed increases according to the number of debuffs removed. The amount by which each ally's Turn Meter is filled increases according to the number of debuffs removed.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "rebirth",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/skartorsis/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Skartorsis is a legendary assist champion from the faction Undead Hordes",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

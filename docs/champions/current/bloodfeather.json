@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 106,
+    "campaign": 4.5,
+    "arena_offense": 4.8,
+    "arena_defense": 3.6,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 2.6,
+    "fire_knight": 2.9,
+    "minotaur": 4.8,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.6
+  },
   "slug": "bloodfeather",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Hunt Down",
       "raw_description": "Attacks 1 enemy. Has an extra 10% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "hunt-down",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Armor Breaker",
       "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Places a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "armor-breaker",
@@ -53,18 +73,25 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Charged Shot",
       "raw_description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff for 2 turns. Decreases the target's Turn Meter by 30%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "charged-shot",
@@ -73,16 +100,22 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/bloodfeather/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Bloodfeather is a epic attack champion from the faction Orcs doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

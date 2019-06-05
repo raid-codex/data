@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 20,
+    "campaign": 4.1,
+    "arena_offense": 3.7,
+    "arena_defense": 3.8,
+    "clan_boss": 3.3,
+    "ice_guardian": 4,
+    "dragon": 3.6,
+    "spider": 4,
+    "fire_knight": 3.2,
+    "minotaur": 3.9,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 3.6,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.8
+  },
   "slug": "chaplain",
   "characteristics": {
     "60": {
@@ -36,29 +52,38 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Holy Bolt",
       "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5<br>Lvl. 4 Damage +10%",
       "slug": "holy-bolt",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Benediction",
       "raw_description": "Removes all debuffs from a target ally, then heals the target. The heal amount is proportional to this Champion's ATK.<br>Lvl. 4 Cooldown -1",
       "slug": "benediction",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Radiance",
       "raw_description": "Attacks all enemies. Heals all allies by 25% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "radiance",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -80,7 +105,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/chaplain/",
@@ -116,5 +143,6 @@
   },
   "default_description": "Chaplain is a rare assist champion from the faction Sacred Order doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

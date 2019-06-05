@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 88,
+    "campaign": 4.1,
+    "arena_offense": 4.6,
+    "arena_defense": 4.6,
+    "clan_boss": 4.1,
+    "ice_guardian": 4,
+    "dragon": 4.4,
+    "spider": 2.9,
+    "fire_knight": 4,
+    "minotaur": 4.3,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.2,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 4.1
+  },
   "slug": "oathbound",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Shatter",
       "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "shatter",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Subjugate",
       "raw_description": "Attacks 1 enemy 3 times. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Each hit has a 30% chance of decreasing the Turn Meter by 30%. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "subjugate",
@@ -65,18 +89,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Intimidate",
       "raw_description": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "intimidate",
@@ -85,16 +116,22 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -116,7 +153,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/oathbound/",
@@ -152,5 +191,6 @@
   },
   "default_description": "Oathbound is a epic def champion from the faction Banner-Lords doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

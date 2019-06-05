@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 488,
+    "campaign": 4.9,
+    "arena_offense": 4.5,
+    "arena_defense": 4.1,
+    "clan_boss": 2.3,
+    "ice_guardian": 4.5,
+    "dragon": 3.5,
+    "spider": 4.9,
+    "fire_knight": 2.1,
+    "minotaur": 4.5,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.5
+  },
   "slug": "bellower",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Frazzle",
       "raw_description": "Attacks all enemies. Has a 20% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "frazzle",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Mighty Bellow",
       "raw_description": "Attacks all enemies. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "mighty-bellow",
@@ -64,18 +88,25 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd",
           "slug": "decrease-spd",
           "website_link": "/debuffs/decrease-spd",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Bowl Over",
       "raw_description": "Attacks all enemies. Has a 75% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "bowl-over",
@@ -84,26 +115,36 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -125,7 +166,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/bellower/",
@@ -161,5 +204,6 @@
   },
   "default_description": "Bellower is a rare assist champion from the faction Ogryn-Tribes doing void damage",
   "recommended_builds": [],
-  "lore": "<p>The ordinary ogre is not a very smart creature. In his natural state, an ogre is supremely incapable of learning magic or communing with spirits.</p><p>However, once every few generations, the ogryn race is blessed with the birth of a horned shaman. Bellower may be one of the last of these living in Teleria, capable of drawing upon the power of natural spirits to give bestial strength and cunning in battles against the many enemies of his kind.</p>"
+  "lore": "<p>The ordinary ogre is not a very smart creature. In his natural state, an ogre is supremely incapable of learning magic or communing with spirits.</p><p>However, once every few generations, the ogryn race is blessed with the birth of a horned shaman. Bellower may be one of the last of these living in Teleria, capable of drawing upon the power of natural spirits to give bestial strength and cunning in battles against the many enemies of his kind.</p>",
+  "giid": ""
 }

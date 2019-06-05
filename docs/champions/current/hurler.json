@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 39,
+    "campaign": 4.1,
+    "arena_offense": 4.8,
+    "arena_defense": 4.5,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.3,
+    "dragon": 4.6,
+    "spider": 3.8,
+    "fire_knight": 4.5,
+    "minotaur": 4.7,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 4.7
+  },
   "slug": "hurler",
   "characteristics": {
     "60": {
@@ -41,31 +57,40 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Spin Throw",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 25% chance to Ignore DEF by 50%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%",
       "slug": "spin-throw",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Firebolt",
       "raw_description": "Attacks 1 enemy. Removes 1 random buff from a target. Fill this Champion's Turn Meter by 30%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%",
       "slug": "firebolt",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Pin Down",
       "raw_description": "Attacks 1 enemy. Puts the target's skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%",
       "slug": "pin-down",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -87,7 +112,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/hurler/",
@@ -123,5 +150,6 @@
   },
   "default_description": "Hurler is a rare attack champion from the faction Lizardmen doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

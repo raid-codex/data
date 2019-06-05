@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 99,
+    "campaign": 4.6,
+    "arena_offense": 4.5,
+    "arena_defense": 4.6,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 3,
+    "fire_knight": 4.8,
+    "minotaur": 4.7,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.6
+  },
   "slug": "chevalier",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Hack Through",
       "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of repeating the attack. Will ignore [Block Damage] and [Shield] buffs.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "hack-through",
@@ -44,28 +61,39 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Stern Rebuke",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "stern-rebuke",
@@ -74,18 +102,25 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lord Protector",
       "raw_description": "Places a 30% [Increase DEF] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
       "slug": "lord-protector",
@@ -94,24 +129,34 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal",
           "slug": "continuous-heal",
           "website_link": "/buffs/continuous-heal",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def",
           "slug": "increase-def",
           "website_link": "/buffs/increase-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -133,7 +178,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/chevalier/",
@@ -169,5 +216,6 @@
   },
   "default_description": "Chevalier is a rare def champion from the faction Banner-Lords doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Chevaliers hail from the Northern coast of Kaerok, the name itself derived from a local title given to Knights. Mostly minor nobles, these warriors form the elite corps of the King’s army. Encased in heavy armour, armed with a shield and a variety of weapons, they can batter their way through all but the toughest opposition.</p><p>The Chevalier’s allies can be certain, that on his honour he shall protect them and strike back against those who defy the will of the Arbiter. Such is his dedication, that not even enchanted armour can save the enemy from his axe. And his knowledge of tactics allows allies to follow him into the fray in a defensive formation, less exposed to enemy strikes.</p>"
+  "lore": "<p>Chevaliers hail from the Northern coast of Kaerok, the name itself derived from a local title given to Knights. Mostly minor nobles, these warriors form the elite corps of the King’s army. Encased in heavy armour, armed with a shield and a variety of weapons, they can batter their way through all but the toughest opposition.</p><p>The Chevalier’s allies can be certain, that on his honour he shall protect them and strike back against those who defy the will of the Arbiter. Such is his dedication, that not even enchanted armour can save the enemy from his axe. And his knowledge of tactics allows allies to follow him into the fray in a defensive formation, less exposed to enemy strikes.</p>",
+  "giid": ""
 }

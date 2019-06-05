@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 46,
+    "campaign": 4,
+    "arena_offense": 4.6,
+    "arena_defense": 4.6,
+    "clan_boss": 3.9,
+    "ice_guardian": 3.6,
+    "dragon": 4,
+    "spider": 3.1,
+    "fire_knight": 3.1,
+    "minotaur": 4.1,
+    "force_dungeon": 3.5,
+    "magic_dungeon": 3.9,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 3.5
+  },
   "slug": "maneater",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Pummel",
       "raw_description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff on all enemies if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "pummel",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Syphon",
       "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Fills this Champion's Turn Meter equal to the amount the target loses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "syphon",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Ancient Blood",
       "raw_description": "This Champion receives damage, then places an [Unkillable] buff and a [Block Debuffs] buff on all allies for 2 turns. Damage received is equal to 5% MAX HP for each alive ally.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "ancient-blood",
@@ -78,24 +105,34 @@
           "effect_type": "buff",
           "type": "Block Debuffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/buffs/block-debuffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -117,7 +154,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/maneater/",
@@ -153,5 +192,6 @@
   },
   "default_description": "Maneater is a epic hp champion from the faction Ogryn-Tribes doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

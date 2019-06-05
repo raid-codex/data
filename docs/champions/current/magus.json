@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 96,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 4.2,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.7,
+    "fire_knight": 4.4,
+    "minotaur": 4.8,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.6
+  },
   "slug": "magus",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Paralyze",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "paralyze",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Toxin",
       "raw_description": "Has a 75% chance of placing a 5% [Poison] debuff on all enemies for 2 turns.<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "toxin",
@@ -69,23 +93,32 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Vitality Theft",
       "raw_description": "Attacks all enemies, then heals this Champion. The amount by which this Champion is healed is equal to the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "vitality-theft",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -107,7 +140,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/magus/",
@@ -143,5 +178,6 @@
   },
   "default_description": "Magus is a rare attack champion from the faction Knight Revenant doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

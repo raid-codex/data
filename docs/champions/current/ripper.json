@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 37,
+    "campaign": 4.6,
+    "arena_offense": 4.3,
+    "arena_defense": 4.1,
+    "clan_boss": 4.3,
+    "ice_guardian": 4.8,
+    "dragon": 4.6,
+    "spider": 3.3,
+    "fire_knight": 4,
+    "minotaur": 4.7,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.8
+  },
   "slug": "ripper",
   "characteristics": {
     "60": {
@@ -41,31 +57,40 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Scar for Life",
       "raw_description": "Attacks 1 enemy. Decreases their MAX HP by 10% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "scar-for-life",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "No Quarter",
       "raw_description": "Attacks 1 enemy 2 times. Damage increases as the target's HP decreases.<br>Damage based on: [ATK]<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "no-quarter",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Heavy Slam",
       "raw_description": "Attacks 1 enemy. Will ignore 50% of the target's DEF. Decreases their MAX HP by 30% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%",
       "slug": "heavy-slam",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -87,7 +112,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/ripper/",
@@ -123,5 +150,6 @@
   },
   "default_description": "Ripper is a epic attack champion from the faction Skinwalker doing force damage",
   "recommended_builds": [],
-  "lore": "<p>Ripper spent several years as a paid gladiator in the City of Ireth. Killing his enemies for the joy of the screaming crowd, he gained glory and fame as one of the most ruthless and deadly warriors in Teleria – until the day that he lost his first fight in the arena.</p><p>Broken and bowed, he bared his neck for the killing blow. But the blow never came – the elf who beat him declared him a worthy foe, spared his life, and even returned his weapon to him to that he might leave the field with honor, all in the face of the jeering spectators.</p><p>Truly impressed by the valor of the elf, Ripper offered him any boon he might grant. No one knows with certainty what was asked – only that the next day Ripper departed Ireth in the direction of the Dark Ravine, and that where Wanderer appears, Ripper soon follows. Some speculate this is his task – to seek out Wanderer and bring the traitor’s head to Queen Eva to repay the elven debt of honor.</p>"
+  "lore": "<p>Ripper spent several years as a paid gladiator in the City of Ireth. Killing his enemies for the joy of the screaming crowd, he gained glory and fame as one of the most ruthless and deadly warriors in Teleria – until the day that he lost his first fight in the arena.</p><p>Broken and bowed, he bared his neck for the killing blow. But the blow never came – the elf who beat him declared him a worthy foe, spared his life, and even returned his weapon to him to that he might leave the field with honor, all in the face of the jeering spectators.</p><p>Truly impressed by the valor of the elf, Ripper offered him any boon he might grant. No one knows with certainty what was asked – only that the next day Ripper departed Ireth in the direction of the Dark Ravine, and that where Wanderer appears, Ripper soon follows. Some speculate this is his task – to seek out Wanderer and bring the traitor’s head to Queen Eva to repay the elven debt of honor.</p>",
+  "giid": ""
 }

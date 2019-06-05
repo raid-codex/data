@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 109,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.6,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.6,
+    "dragon": 4.8,
+    "spider": 3.5,
+    "fire_knight": 4.2,
+    "minotaur": 4.8,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.6
+  },
   "slug": "preserver",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Exhausting Assault",
       "raw_description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "exhausting-assault",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Recuperate",
       "raw_description": "Places a 7.5% [Continuous Heal] buff and a [Shield] buff on this Champion for 2 turns. The value of the [Shield] is proportional to this Champion's MAX HP.<br>Lvl. 2 Shield +5%<br>Lvl. 3 Shield +5%<br>Lvl. 4 Cooldown -1",
       "slug": "recuperate",
@@ -69,26 +93,37 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal",
           "slug": "continuous-heal",
           "website_link": "/buffs/continuous-heal",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Ice Blow",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Cooldown -1",
       "slug": "ice-blow",
@@ -97,16 +132,22 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -128,7 +169,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/preserver/",
@@ -164,5 +207,6 @@
   },
   "default_description": "Preserver is a rare def champion from the faction Banner-Lords doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

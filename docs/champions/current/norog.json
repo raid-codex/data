@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 143,
+    "campaign": 4.6,
+    "arena_offense": 4.5,
+    "arena_defense": 4.7,
+    "clan_boss": 4,
+    "ice_guardian": 4.6,
+    "dragon": 4.5,
+    "spider": 4.2,
+    "fire_knight": 3.5,
+    "minotaur": 4.5,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.5
+  },
   "slug": "norog",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Maul",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Decrease ACC] debuff for 1 turn. This debuff cannot be resisted or blocked.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10% % ey a eee Crs ya",
       "slug": "maul",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Ice Pillar",
       "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "ice-pillar",
@@ -69,18 +93,25 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Thick Skin",
       "raw_description": "Immune to [Stun], [Freeze], [Sleep] debuffs. Decreases the damage taken by all allies by 15%.",
       "slug": "thick-skin",
@@ -89,34 +120,48 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Sleep",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-sleep",
           "slug": "sleep",
           "website_link": "/debuffs/sleep",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -138,7 +183,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/norog/",
@@ -174,5 +221,6 @@
   },
   "default_description": "Norog is a legendary def champion from the faction Skinwalker doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

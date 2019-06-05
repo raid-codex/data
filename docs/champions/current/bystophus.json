@@ -20,6 +20,22 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": {
+    "amount": 210,
+    "campaign": 4.7,
+    "arena_offense": 4.7,
+    "arena_defense": 4,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.7,
+    "dragon": 4.7,
+    "spider": 4.5,
+    "fire_knight": 4.5,
+    "minotaur": 4.7,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.6
+  },
   "slug": "bystophus",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Horror",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +15%<br>Lvl. 4 Damage +10%",
       "slug": "horror",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shadow Strike",
       "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Damage +20%",
       "slug": "shadow-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Crumble",
       "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Each hit also has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "crumble",
@@ -78,26 +105,36 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -119,7 +156,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/bystophus/",
@@ -155,5 +194,6 @@
   },
   "default_description": "Bystophus is a legendary attack champion from the faction Knight Revenant doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

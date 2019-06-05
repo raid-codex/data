@@ -20,6 +20,22 @@
     "spirit_dungeon": "SS",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 656,
+    "campaign": 4.6,
+    "arena_offense": 4.6,
+    "arena_defense": 4.2,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.5,
+    "fire_knight": 4.3,
+    "minotaur": 4.8,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.7
+  },
   "slug": "kallia",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Superheated Hammer",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "superheated-hammer",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "HP Burn",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-hp-burn",
           "slug": "hp-burn",
           "website_link": "/debuffs/hp-burn",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Curse of Nullity",
       "raw_description": "Attacks all enemies. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +102<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "curse-of-nullity",
@@ -69,18 +93,25 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction-2",
           "slug": "heal-reduction-2",
           "website_link": "/debuffs/heal-reduction",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Flame Tempest",
       "raw_description": "Attacks 3 times at random. Each hit has a 60% chance of placing a [HP Burn] debuff for 2 turns. on the same team.]<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "flame-tempest",
@@ -89,16 +120,22 @@
           "effect_type": "debuff",
           "type": "HP Burn",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-hp-burn",
           "slug": "hp-burn",
           "website_link": "/debuffs/hp-burn",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -120,7 +157,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/kallia/",
@@ -156,5 +195,6 @@
   },
   "default_description": "Kallia is a epic attack champion from the faction Barbarians doing force damage",
   "recommended_builds": [],
-  "lore": "<p>Even those that live the lives full of hardship and primal strife among the Barbarian tribes are not immune to love. Atur, one of the mightiest warriors of his tribe, has always been a vain and arrogant man. He had every right to be proud, of course, for none could face him in a battle of equals and walk away victorious. None, until he met Kallia, whose prowess and ability to fly into relentless fury are as immense as her beauty.</p><p>Neither of them truly remembers what sparked the conflict between them, both will, of course, blame their other half. Regardless of the truth of the matter, an argument went out of control, and a battle of words, in which even Atur himself admits he took a thorough thrashing, turned to fisticuffs. Here, their passion for a fight was evenly matched and soon turned to passion for each other.</p><p>Though Barbarians are not exactly sophisticated, if not outright crude, by the standards of Kaerok or Aravia, Atur’s and Kallia’s relationship still blossomed into something sweet and loving… in its own way. It is certainly as strong as the mountains that surround their home, and as wild as the sandstorms that sweep the Deadlands.</p>"
+  "lore": "<p>Even those that live the lives full of hardship and primal strife among the Barbarian tribes are not immune to love. Atur, one of the mightiest warriors of his tribe, has always been a vain and arrogant man. He had every right to be proud, of course, for none could face him in a battle of equals and walk away victorious. None, until he met Kallia, whose prowess and ability to fly into relentless fury are as immense as her beauty.</p><p>Neither of them truly remembers what sparked the conflict between them, both will, of course, blame their other half. Regardless of the truth of the matter, an argument went out of control, and a battle of words, in which even Atur himself admits he took a thorough thrashing, turned to fisticuffs. Here, their passion for a fight was evenly matched and soon turned to passion for each other.</p><p>Though Barbarians are not exactly sophisticated, if not outright crude, by the standards of Kaerok or Aravia, Atur’s and Kallia’s relationship still blossomed into something sweet and loving… in its own way. It is certainly as strong as the mountains that surround their home, and as wild as the sandstorms that sweep the Deadlands.</p>",
+  "giid": ""
 }

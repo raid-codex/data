@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 14,
+    "campaign": 3.8,
+    "arena_offense": 4.3,
+    "arena_defense": 3.7,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.2,
+    "dragon": 4.4,
+    "spider": 4.2,
+    "fire_knight": 4.2,
+    "minotaur": 4.4,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.3,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.4
+  },
   "slug": "temptress",
   "characteristics": {
     "60": {
@@ -36,24 +52,31 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Sly Slice",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%",
       "slug": "sly-slice",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Flying Daggers",
       "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a {Leech] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "flying-daggers",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Vicious Partner",
       "raw_description": "Places a 50% [Increase ATK] and a 30% [Increase C. RATE] buff on this Champion for 2 turns. Grants an Extra Turn when Seducer is on the same team.<br>Lvl. 2 Cooldown -1",
       "slug": "vicious-partner",
@@ -62,24 +85,34 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -101,7 +134,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/temptress/",
@@ -137,5 +172,6 @@
   },
   "default_description": "Temptress is a rare attack champion from the faction Undead Hordes doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Where Lumaya brings us the purity of love, Siroth places his bets on the pure carnal desire. He tempts with excess and indulgence, pulling more and more willing servants into his net wherever he can. Such was the fate of a young noble of Kaerok, vain and greedy, he wished for nothing more than to better his position in power and lot in life. By the magic of Siroth’s necromancers, and by his own dark deeds he was granted a vampire’s “kiss”, turning into one of the undead beasts himself. But his pact with the Shadow stood firm, for the noble was allowed to retain his humanly looks that he so adored - for a time, at least.</p><p>One can only imagine this wicked Seducer’s shock and surprise when he was faced with another servant of Siroth, known as the Temptress. A child of a vampire and a mortal woman, she was as vain and self-assured as he was himself. And throughout all his attempts to gain the upper hand, the Seducer only succeeded in catching himself in his own trap. For even the darkest heart can sometimes be illuminated by Lumaya’s light, and he found himself hopelessly in love and at the whims of the woman he sought to outdo.</p><p>Still, it may not be such a horrible fate in the end, for despite their mutual viciousness and less than savoury practices, the two of them do go together as well as a werewolf and a full moon. That connection is hard to deny, and it overcomes even the deeply ingrained selfishness that both of them were so known for.</p>"
+  "lore": "<p>Where Lumaya brings us the purity of love, Siroth places his bets on the pure carnal desire. He tempts with excess and indulgence, pulling more and more willing servants into his net wherever he can. Such was the fate of a young noble of Kaerok, vain and greedy, he wished for nothing more than to better his position in power and lot in life. By the magic of Siroth’s necromancers, and by his own dark deeds he was granted a vampire’s “kiss”, turning into one of the undead beasts himself. But his pact with the Shadow stood firm, for the noble was allowed to retain his humanly looks that he so adored - for a time, at least.</p><p>One can only imagine this wicked Seducer’s shock and surprise when he was faced with another servant of Siroth, known as the Temptress. A child of a vampire and a mortal woman, she was as vain and self-assured as he was himself. And throughout all his attempts to gain the upper hand, the Seducer only succeeded in catching himself in his own trap. For even the darkest heart can sometimes be illuminated by Lumaya’s light, and he found himself hopelessly in love and at the whims of the woman he sought to outdo.</p><p>Still, it may not be such a horrible fate in the end, for despite their mutual viciousness and less than savoury practices, the two of them do go together as well as a werewolf and a full moon. That connection is hard to deny, and it overcomes even the deeply ingrained selfishness that both of them were so known for.</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 372,
+    "campaign": 4.9,
+    "arena_offense": 4.8,
+    "arena_defense": 4.3,
+    "clan_boss": 4.3,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.9,
+    "fire_knight": 4.4,
+    "minotaur": 4.8,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.9
+  },
   "slug": "big-un",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Head Splitter",
       "raw_description": "Attacks 1 enemy. Attacks all enemies 1 time if the first attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +15%",
       "slug": "head-splitter",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Forward Charge",
       "raw_description": "Attacks all enemies. Has a 30% chance of placing a [Stun] debuff for 1 turn. Also has a 50% chance of placing a 50% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "forward-charge",
@@ -58,28 +78,39 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Molten Slag",
       "raw_description": "Attacks all enemies 2 times. Decreases the Turn Meter by 25%. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "molten-slag",
@@ -88,14 +119,20 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -117,7 +154,9 @@
         "ogryn-tribes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "ogryn-tribes",
   "website_link": "/champions/big-un/",
@@ -153,5 +192,6 @@
   },
   "default_description": "Big'Un is a legendary attack champion from the faction Ogryn-Tribes doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

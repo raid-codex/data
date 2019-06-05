@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 6079,
+    "campaign": 4.8,
+    "arena_offense": 4.6,
+    "arena_defense": 4.2,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.7,
+    "dragon": 4.8,
+    "spider": 4.7,
+    "fire_knight": 4.4,
+    "minotaur": 4.8,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
   "slug": "kael",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Dark Bolt",
       "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a 2.5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Damage +10%",
       "slug": "dark-bolt",
@@ -49,27 +66,37 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Acid Rain",
       "raw_description": "Attacks all enemies. Has an extra 15% chance of inflicting a critical killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "acid-rain",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Disintegrate",
       "raw_description": "Attacks 4 times at random. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Cooldown -1",
       "slug": "disintegrate",
@@ -78,16 +105,22 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -109,7 +142,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/kael/",
@@ -145,5 +180,6 @@
   },
   "default_description": "Kael is a rare attack champion from the faction Dark Elves doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

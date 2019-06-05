@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 1856,
+    "campaign": 4.9,
+    "arena_offense": 4.4,
+    "arena_defense": 3.5,
+    "clan_boss": 3.4,
+    "ice_guardian": 4.5,
+    "dragon": 4.4,
+    "spider": 2.1,
+    "fire_knight": 2.5,
+    "minotaur": 4.4,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 4.3
+  },
   "slug": "relickeeper",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Crusade",
       "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "crusade",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Surging Strength",
       "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 4 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "surging-strength",
@@ -58,16 +78,23 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Ageless Endurance",
       "raw_description": "When hit by an enemy, places a 15% [Continuous Heal] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "ageless-endurance",
@@ -76,14 +103,20 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -105,7 +138,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/relickeeper/",
@@ -141,5 +176,6 @@
   },
   "default_description": "Relickeeper is a epic attack champion from the faction Sacred Order doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

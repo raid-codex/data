@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 13,
+    "campaign": 3.5,
+    "arena_offense": 4.2,
+    "arena_defense": 3.6,
+    "clan_boss": 3.9,
+    "ice_guardian": 3.8,
+    "dragon": 3.2,
+    "spider": 3.7,
+    "fire_knight": 4.1,
+    "minotaur": 3.8,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 3.9,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 3.7
+  },
   "slug": "muckstalker",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Pounce",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Buff/Debuff Chance +10%",
       "slug": "pounce",
@@ -44,19 +61,26 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Strangle",
       "raw_description": "Attacks 1 enemy. Places a [Sleep] debuff for 2 turns if the target has no active buffs.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "strangle",
@@ -65,19 +89,26 @@
           "effect_type": "debuff",
           "type": "Sleep",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-sleep",
           "slug": "sleep",
           "website_link": "/debuffs/sleep",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Herbal Balm",
       "raw_description": "Places a 15% [Continuous Heal] buff on this Champion for 2 turns if incoming damage exceeds 20% HP in one attack.",
       "slug": "herbal-balm",
@@ -86,14 +117,20 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/muckstalker/",
@@ -151,5 +190,6 @@
   },
   "default_description": "Muckstalker is a rare hp champion from the faction Lizardmen doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

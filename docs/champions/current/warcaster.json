@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 39,
+    "campaign": 4.4,
+    "arena_offense": 4.7,
+    "arena_defense": 4.6,
+    "clan_boss": 3.9,
+    "ice_guardian": 4.1,
+    "dragon": 4.1,
+    "spider": 4,
+    "fire_knight": 3.8,
+    "minotaur": 4.1,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.1
+  },
   "slug": "warcaster",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Tactical Ace",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of stealing 1 random buff from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "tactical-ace",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Sealing Strike",
       "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10% LvI. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "sealing-strike",
@@ -58,16 +78,22 @@
           "effect_type": "debuff",
           "type": "Block Buffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-buffs",
           "slug": "block-buffs",
           "website_link": "/debuffs/block-buffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -89,7 +115,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/warcaster/",
@@ -125,5 +153,6 @@
   },
   "default_description": "Warcaster is a epic assist champion from the faction Banner-Lords doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Claiming his place amongst the most seasoned and battle-hardened warriors in Kaerok, the Warcaster is renowned throughout the ranks of the Banner Lords for his might. Recruited as a child from humble barbarian origins somewhere in the Deadlands, he was knighted at the age of 15, and later chosen to join His Majesty King Tayba’s Royal Guard due to his fierce loyalty. Knowing his unshakeable faith in his cause and King, those who stand against the Warcaster expect little mercy once his mace is raised...</p>"
+  "lore": "<p>Claiming his place amongst the most seasoned and battle-hardened warriors in Kaerok, the Warcaster is renowned throughout the ranks of the Banner Lords for his might. Recruited as a child from humble barbarian origins somewhere in the Deadlands, he was knighted at the age of 15, and later chosen to join His Majesty King Tayba’s Royal Guard due to his fierce loyalty. Knowing his unshakeable faith in his cause and King, those who stand against the Warcaster expect little mercy once his mace is raised...</p>",
+  "giid": ""
 }

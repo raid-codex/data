@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 32,
+    "campaign": 2,
+    "arena_offense": 2.3,
+    "arena_defense": 1.7,
+    "clan_boss": 4.2,
+    "ice_guardian": 2.1,
+    "dragon": 1.8,
+    "spider": 1.7,
+    "fire_knight": 1.8,
+    "minotaur": 2.1,
+    "force_dungeon": 2,
+    "magic_dungeon": 2.1,
+    "spirit_dungeon": 2,
+    "void_dungeon": 1.8
+  },
   "slug": "taurus",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Metabolize",
       "raw_description": "Attacks 1 enemy. Heals by 20% of the damage inflicted if the target has a [Poison] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "metabolize",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Tendon Slash",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "tendon-slash",
@@ -64,18 +88,25 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Toxic Nova",
       "raw_description": "This Champion receives damage equal to 99% of their current HP. Places an [Unkillable] buff on this Champion for 2 turns. Has an 80% chance of placing three 5% [Poison] debuffs on all enemies for 2 turns.<br>Lvl. 2 Buff/Debuff Chance +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Cooldown -1",
       "slug": "toxic-nova",
@@ -84,24 +115,34 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -123,7 +164,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/taurus/",
@@ -159,5 +202,6 @@
   },
   "default_description": "Taurus is a epic attack champion from the faction Skinwalker doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Though Skinwalkers at large lack the secrets of steel or alchemy to truly challenge the powerful nations of Teleria, ancient tribal lore and knowledge of the land allow them to improvise. Thus the Taurus, in addition to his brute strength, has access to potent poisons crafted by the tribe’s shamans any venomous component they can find - be it a corrupted plant or a giant spider’s powdered mandibles.</p><p>Such concoctions can be extremely virulent, if volatile and prone to poisoning the warrior using them as well as the intended targets. Though sheer animalistic toughness allows the Taurus to withstand the worst of the effects, having means of healing on hand is never a bad idea for any Warrior wishing to employ such tactics.</p>"
+  "lore": "<p>Though Skinwalkers at large lack the secrets of steel or alchemy to truly challenge the powerful nations of Teleria, ancient tribal lore and knowledge of the land allow them to improvise. Thus the Taurus, in addition to his brute strength, has access to potent poisons crafted by the tribe’s shamans any venomous component they can find - be it a corrupted plant or a giant spider’s powdered mandibles.</p><p>Such concoctions can be extremely virulent, if volatile and prone to poisoning the warrior using them as well as the intended targets. Though sheer animalistic toughness allows the Taurus to withstand the worst of the effects, having means of healing on hand is never a bad idea for any Warrior wishing to employ such tactics.</p>",
+  "giid": ""
 }

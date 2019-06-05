@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 174,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.6,
+    "dragon": 4.7,
+    "spider": 4.3,
+    "fire_knight": 4.8,
+    "minotaur": 4.8,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.7
+  },
   "slug": "rhazin-scarhide",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Bone Sword",
       "raw_description": "Attacks 1 enemy 3 times. Has a 20% chance of removing 1 random buff from the target.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "bone-sword",
       "effects": [],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shear",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [DEF] x Weaken<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "shear",
@@ -58,35 +78,48 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Bog Down",
       "raw_description": "Attacks all enemies. Decreases the Turn Meter by 100%.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Cooldown -1",
       "slug": "bog-down",
       "effects": [],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -108,7 +141,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/rhazin-scarhide/",
@@ -144,5 +179,6 @@
   },
   "default_description": "Rhazin Scarhide is a legendary def champion from the faction Lizardmen doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

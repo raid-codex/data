@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 47,
+    "campaign": 4.2,
+    "arena_offense": 4.4,
+    "arena_defense": 3.9,
+    "clan_boss": 4,
+    "ice_guardian": 4,
+    "dragon": 4,
+    "spider": 2.4,
+    "fire_knight": 3.1,
+    "minotaur": 4.1,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 3.8,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.2
+  },
   "slug": "bushi",
   "characteristics": {
     "60": {
@@ -36,24 +52,31 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Rising Storm",
       "raw_description": "Attacks 1 enemy. Damage inflicted increases each time this skill is used. Stacks up to 4 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "rising-storm",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Deadly Edge",
       "raw_description": "Attacks 1 enemy. This attack is always critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "deadly-edge",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Unbending",
       "raw_description": "Revives this Champion with 30% HP. Places an [Unkillable] buff on this Champion for 1 turn.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "unbending",
@@ -62,14 +85,20 @@
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -91,7 +120,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/bushi/",
@@ -127,5 +158,6 @@
   },
   "default_description": "Bushi is a epic attack champion from the faction Sacred Order doing spirit damage",
   "recommended_builds": [],
-  "lore": "<p>Bushi joined the ranks of The Sacred Order in early childhood, when Rangers of The Sacred Order found him in a settlement put to the torch by Orcs. Brought back to join their number, he was enrolled in the Order’s secret academy. It was there he learned the way of the Sacred Warrior, how to weild his axe, and how to claim the heads of who deprived him of his people and his birthright those many years ago...</p>"
+  "lore": "<p>Bushi joined the ranks of The Sacred Order in early childhood, when Rangers of The Sacred Order found him in a settlement put to the torch by Orcs. Brought back to join their number, he was enrolled in the Order’s secret academy. It was there he learned the way of the Sacred Warrior, how to weild his axe, and how to claim the heads of who deprived him of his people and his birthright those many years ago...</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 207,
+    "campaign": 4.7,
+    "arena_offense": 4.1,
+    "arena_defense": 4.6,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.8,
+    "dragon": 4.7,
+    "spider": 3,
+    "fire_knight": 4.6,
+    "minotaur": 4.7,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.6
+  },
   "slug": "steelskull",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Decay",
       "raw_description": "Attacks 1 enemy 2 times. Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "decay",
@@ -44,25 +61,35 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Cleansing Spell",
       "raw_description": "Removes all debuffs from a target ally, then heals them by 40%.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Cooldown -1",
       "slug": "cleansing-spell",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Protection",
       "raw_description": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Heals all allies by 20% of their MAX HP.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Cooldown -1",
       "slug": "protection",
@@ -71,14 +98,20 @@
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def-2",
           "slug": "increase-def-2",
           "website_link": "/buffs/increase-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -100,7 +133,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/steelskull/",
@@ -136,5 +171,6 @@
   },
   "default_description": "Steelskull is a epic assist champion from the faction Skinwalker doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

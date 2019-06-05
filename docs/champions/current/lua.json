@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 165,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.4,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.6,
+    "dragon": 4.8,
+    "spider": 4.7,
+    "fire_knight": 4.2,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.7
+  },
   "slug": "lua",
   "characteristics": {
     "60": {
@@ -36,24 +52,31 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Splinter Arrow",
       "raw_description": "Attacks 1 enemy. Deals 50% of the inflicted damage to all enemies if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "splinter-arrow",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hail of Arrows",
       "raw_description": "Attacks all enemies 3 times. Each critical hit heals this Champion by 2.5% HP.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
       "slug": "hail-of-arrows",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Lucky Shot",
       "raw_description": "Attacks 1 enemy. This attack fully depletes the Turn Meter. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
       "slug": "lucky-shot",
@@ -62,26 +85,36 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -103,7 +136,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/lua/",
@@ -139,5 +174,6 @@
   },
   "default_description": "Lua is a epic attack champion from the faction Dark Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

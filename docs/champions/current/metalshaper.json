@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 21,
+    "campaign": 4.4,
+    "arena_offense": 4.1,
+    "arena_defense": 4.2,
+    "clan_boss": 4,
+    "ice_guardian": 4.4,
+    "dragon": 4,
+    "spider": 4.1,
+    "fire_knight": 3.7,
+    "minotaur": 3.8,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.1
+  },
   "slug": "metalshaper",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Transference Bolt",
       "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +5%<br>Lvl. 7 Buff/Debuff Chance +5%",
       "slug": "transference-bolt",
       "effects": [],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Fortified Steel",
       "raw_description": "Places a [Shield] buff on all allies for 2 turns. The value of [Shield] is proportional to this Champion Level.<br>Lvl. 2 Shield +5%<br>Lvl. 3 Shield +5%<br>Lvl. 4 Shield +10%<br>Lvl. 5 Cooldown -1",
       "slug": "fortified-steel",
@@ -53,16 +73,23 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Rescue",
       "raw_description": "Removes all debuffs from an ally with the lowest HP, then heals this ally by 20% of this Champion MAX HP. Places a 25% [Increase DEF] buff on the target for 3 turns.<br>Lvl. 2 Heal +10%<br>Lvl. 3 Heal +10%<br>Lvl. 4 Cooldown -1",
       "slug": "rescue",
@@ -71,14 +98,20 @@
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def",
           "slug": "increase-def",
           "website_link": "/buffs/increase-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -100,7 +133,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/metalshaper/",
@@ -136,5 +171,6 @@
   },
   "default_description": "Metalshaper is a rare assist champion from the faction Lizardmen doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

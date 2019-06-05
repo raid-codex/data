@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 15,
+    "campaign": 3.7,
+    "arena_offense": 4.1,
+    "arena_defense": 2.6,
+    "clan_boss": 3.9,
+    "ice_guardian": 3.7,
+    "dragon": 4.2,
+    "spider": 2.8,
+    "fire_knight": 2.7,
+    "minotaur": 4,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 3.9
+  },
   "slug": "harrier",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Trick Shot",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "trick-shot",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Puncture Bolts",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +55<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5<br>Lvl. 6 Buff/Debuff Chance +10",
       "slug": "puncture-bolts",
@@ -53,32 +73,44 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Deadeye's Strike",
       "raw_description": "Attacks 1 enemy. Has an extra 30% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "deadeye-s-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Skillful Partner",
       "raw_description": "Will ignore 50% of the target's DEF when this Champion inflicts a critical hit.",
       "slug": "skillful-partner",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -100,7 +132,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/harrier/",
@@ -136,5 +170,6 @@
   },
   "default_description": "Harrier is a rare attack champion from the faction Sacred Order doing void damage",
   "recommended_builds": [],
-  "lore": "<p>It is said that love often grows from compassion and mutual care, and, indeed, such is the case with Harrier and the Hospitaller. When he was wounded in battle, it was the young sister of the Hospitaller Order that saw to his wounds. Through the long recovery, they spoke to one another daily, pushing past the initial hurdles and becoming friends. Yet so was the ranger stricken by his saviour’s kindness and beauty, that he dared to seek her out even after recovering.</p><p>It was night when he arrived, sneaking through the window of the hospital in search of his flame. In hindsight, that was not a wise idea for his flame mistook the poor Harrier for a thief and knocked him out with a chair that happened to be nearby. Needless to say, the Hospitaller was less than pleased and he was subjected to quite a lecture - all while his new bruises were tended to.</p><p>Even so, despite unforeseen and rather blunt issues, the Harrier did manage to strike a chord in her heart. In time, the two started seeing one another in secret and their love blossomed, as it does still to this day. For there are no things more precious to Lumaya than two hearts united as one.</p>"
+  "lore": "<p>It is said that love often grows from compassion and mutual care, and, indeed, such is the case with Harrier and the Hospitaller. When he was wounded in battle, it was the young sister of the Hospitaller Order that saw to his wounds. Through the long recovery, they spoke to one another daily, pushing past the initial hurdles and becoming friends. Yet so was the ranger stricken by his saviour’s kindness and beauty, that he dared to seek her out even after recovering.</p><p>It was night when he arrived, sneaking through the window of the hospital in search of his flame. In hindsight, that was not a wise idea for his flame mistook the poor Harrier for a thief and knocked him out with a chair that happened to be nearby. Needless to say, the Hospitaller was less than pleased and he was subjected to quite a lecture - all while his new bruises were tended to.</p><p>Even so, despite unforeseen and rather blunt issues, the Harrier did manage to strike a chord in her heart. In time, the two started seeing one another in secret and their love blossomed, as it does still to this day. For there are no things more precious to Lumaya than two hearts united as one.</p>",
+  "giid": ""
 }

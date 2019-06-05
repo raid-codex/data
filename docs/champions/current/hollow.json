@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 18,
+    "campaign": 4,
+    "arena_offense": 4,
+    "arena_defense": 3.9,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.1,
+    "dragon": 4.2,
+    "spider": 3.5,
+    "fire_knight": 3.9,
+    "minotaur": 4,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.2
+  },
   "slug": "hollow",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Bleed Away",
       "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a 2.5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%",
       "slug": "bleed-away",
@@ -49,34 +66,46 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Creeping Dark",
       "raw_description": "Attacks 1 enemy 4 times. Each hit decreases the target's Turn Meter and fills this Champion's Turn Meter by 5%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "creeping-dark",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Aether Strike",
       "raw_description": "Attacks 1 enemy. Will ignore 25% of the target's DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "aether-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -98,7 +127,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/hollow/",
@@ -134,5 +165,6 @@
   },
   "default_description": "Hollow is a rare attack champion from the faction Undead Hordes doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Siroth’s minions have brought the curse of undeath unto the world long ago, seeking to swell the ranks of their armies when the demons were sealed and imprisoned beyond Teleria’s realm. Shambling skeletons and risen corpses may not be bright, but what they lack in intelligence they make up for in sheer number. Yet, not all Undead are witless marionettes.</p><p>Some servants of Shadow consign their souls and Shards to their dark masters, and after death retain a spark of their former self. And with it, their skills and talents. Once a master hunter, the Hollow remains dangerous with his bow even as a rotting corpse, capable of finding chinks in even the toughest armour.</p>"
+  "lore": "<p>Siroth’s minions have brought the curse of undeath unto the world long ago, seeking to swell the ranks of their armies when the demons were sealed and imprisoned beyond Teleria’s realm. Shambling skeletons and risen corpses may not be bright, but what they lack in intelligence they make up for in sheer number. Yet, not all Undead are witless marionettes.</p><p>Some servants of Shadow consign their souls and Shards to their dark masters, and after death retain a spark of their former self. And with it, their skills and talents. Once a master hunter, the Hollow remains dangerous with his bow even as a rotting corpse, capable of finding chinks in even the toughest armour.</p>",
+  "giid": ""
 }

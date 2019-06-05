@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 7,
+    "campaign": 3.4,
+    "arena_offense": 3.4,
+    "arena_defense": 3.7,
+    "clan_boss": 3.6,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 3.6,
+    "fire_knight": 3.4,
+    "minotaur": 3.4,
+    "force_dungeon": 3.4,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.4
+  },
   "slug": "bloodhorn",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Killer Crescent",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "killer-crescent",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc",
           "slug": "decrease-acc",
           "website_link": "/debuffs/decrease-acc",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Intervene",
       "raw_description": "Places a 50% [Ally Protection] buff on 2 random allies for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "intervene",
@@ -64,16 +88,23 @@
           "effect_type": "buff",
           "type": "Ally Protection",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-ally-protection-2",
           "slug": "ally-protection-2",
           "website_link": "/buffs/ally-protection",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Deep Defense",
       "raw_description": "If an ally is hit with a critical hit, places a 15% [Continuous Heal] buff on them for 1 turn.",
       "slug": "deep-defense",
@@ -82,14 +113,20 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -111,7 +148,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/bloodhorn/",
@@ -147,5 +186,6 @@
   },
   "default_description": "Bloodhorn is a rare hp champion from the faction Skinwalker doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Elven scholars have documented the sad truth that Skinwalkers have are becoming increasingly wild and feral with the march of time. Having lost almost all their magical abilities over the ages, more and more of this once glorious race have chosen the way of brute strength. Losing their human side, they are slowly becoming animals.</p><p>Bloodhorn exemplifies this trend in the latest generation of Skinwalkers. He is ruthless and brutal. He often loses his weapon on battlefields. But it doesn't bother him much – his raw animal strength carries the day, and he walks away from each battle with his enormous horns covered in fresh blood.</p>"
+  "lore": "<p>Elven scholars have documented the sad truth that Skinwalkers have are becoming increasingly wild and feral with the march of time. Having lost almost all their magical abilities over the ages, more and more of this once glorious race have chosen the way of brute strength. Losing their human side, they are slowly becoming animals.</p><p>Bloodhorn exemplifies this trend in the latest generation of Skinwalkers. He is ruthless and brutal. He often loses his weapon on battlefields. But it doesn't bother him much – his raw animal strength carries the day, and he walks away from each battle with his enormous horns covered in fresh blood.</p>",
+  "giid": ""
 }

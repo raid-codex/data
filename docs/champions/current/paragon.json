@@ -20,6 +20,22 @@
     "spirit_dungeon": "S",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 28,
+    "campaign": 4.6,
+    "arena_offense": 4.7,
+    "arena_defense": 3.6,
+    "clan_boss": 3.8,
+    "ice_guardian": 4.2,
+    "dragon": 4.3,
+    "spider": 2.5,
+    "fire_knight": 4.5,
+    "minotaur": 4.5,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.6
+  },
   "slug": "paragon",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Power Drain",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the target's Turn Meter by 10%. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "power-drain",
       "effects": [],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Damage Control",
       "raw_description": "Places an [Unkillable] buff and a 25% [Increase ATK] buff on a target ally for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "damage-control",
@@ -53,26 +73,37 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk",
           "slug": "increase-atk",
           "website_link": "/buffs/increase-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Life Shackles",
       "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff and a 50% [Decrease ATK] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "life-shackles",
@@ -81,26 +112,36 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction-2",
           "slug": "heal-reduction-2",
           "website_link": "/debuffs/heal-reduction",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -122,7 +163,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/paragon/",
@@ -158,5 +201,6 @@
   },
   "default_description": "Paragon is a rare def champion from the faction Dark Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

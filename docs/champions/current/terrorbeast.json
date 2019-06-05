@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 18,
+    "campaign": 4.1,
+    "arena_offense": 3.8,
+    "arena_defense": 4.1,
+    "clan_boss": 3.5,
+    "ice_guardian": 3.2,
+    "dragon": 3.7,
+    "spider": 3.5,
+    "fire_knight": 3.4,
+    "minotaur": 3.3,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.2,
+    "void_dungeon": 3.5
+  },
   "slug": "terrorbeast",
   "characteristics": {
     "60": {
@@ -41,31 +57,40 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Painful Bite",
       "raw_description": "Attacks 1 enemy. Has a 20% chance of increasing the cooldown of one of the target's skills by 1 turn at random.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "painful-bite",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shriek",
       "raw_description": "Attacks 2 times at random. Damage inflicted is proportional to this Champion's MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "shriek",
       "effects": [],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Flesh Feast",
       "raw_description": "Attacks 1 enemy 2 times. Fully heals this Champion if the target is killed by this attack.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "flesh-feast",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -87,7 +112,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/terrorbeast/",
@@ -123,5 +150,6 @@
   },
   "default_description": "Terrorbeast is a epic hp champion from the faction Orcs doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 155,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 3.7,
+    "fire_knight": 4.3,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.8
+  },
   "slug": "arcanist",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Paralyzing Touch",
       "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Sleep] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Damage +10%",
       "slug": "paralyzing-touch",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Sleep",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-sleep",
           "slug": "sleep",
           "website_link": "/debuffs/sleep",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Unnatural Recovery",
       "raw_description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "unnatural-recovery",
@@ -69,16 +93,23 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Vigor",
       "raw_description": "Places a 25% [Increase ATK] buff and a 15% [Increase C. RATE] buff on all allies for 3 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "vigor",
@@ -87,24 +118,34 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk",
           "slug": "increase-atk",
           "website_link": "/buffs/increase-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate",
           "slug": "increase-c-rate",
           "website_link": "/buffs/increase-c-rate",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -126,7 +167,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/arcanist/",
@@ -162,5 +205,6 @@
   },
   "default_description": "Arcanist is a rare assist champion from the faction Knight Revenant doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

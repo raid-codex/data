@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 11,
+    "campaign": 4.2,
+    "arena_offense": 4.3,
+    "arena_defense": 4.5,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.9,
+    "fire_knight": 4.9,
+    "minotaur": 4.9,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.4
+  },
   "slug": "crossbowman",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Snap Shot",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "snap-shot",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Sharp Eye",
       "raw_description": "Places a 30% [Increase C. RATE] buff on a target ally for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
       "slug": "sharp-eye",
@@ -53,16 +73,23 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate-2",
           "slug": "increase-c-rate-2",
           "website_link": "/buffs/increase-c-rate",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Blunted Arrow",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn. Also has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "blunted-arrow",
@@ -71,26 +98,36 @@
           "effect_type": "debuff",
           "type": "Decrease SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-spd-2",
           "slug": "decrease-spd-2",
           "website_link": "/debuffs/decrease-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -112,7 +149,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/crossbowman/",
@@ -148,5 +187,6 @@
   },
   "default_description": "Crossbowman is a rare attack champion from the faction Banner-Lords doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

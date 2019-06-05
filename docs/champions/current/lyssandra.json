@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 135,
+    "campaign": 4.4,
+    "arena_offense": 4.6,
+    "arena_defense": 4.6,
+    "clan_boss": 4.3,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.3,
+    "fire_knight": 4.4,
+    "minotaur": 4.6,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.6
+  },
   "slug": "lyssandra",
   "characteristics": {
     "60": {
@@ -41,24 +57,31 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Transference",
       "raw_description": "Attacks 1 enemy. Transfers all debuffs from this Champion to the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "transference",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Exhaustion",
       "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "exhaustion",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Energize",
       "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 30%. Decreases the Turn Meter of all enemies by 30%.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "energize",
@@ -67,14 +90,20 @@
           "effect_type": "buff",
           "type": "Increase SPD",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-spd-2",
           "slug": "increase-spd-2",
           "website_link": "/buffs/increase-spd",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -96,7 +125,9 @@
         "high-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "high-elves",
   "website_link": "/champions/lyssandra/",
@@ -132,5 +163,6 @@
   },
   "default_description": "Lyssandra is a legendary assist champion from the faction High Elves doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 500,
+    "campaign": 4.9,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.2,
+    "fire_knight": 4.3,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.9
+  },
   "slug": "doompriest",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Fate Weave",
       "raw_description": "Attacks 1 enemy. If the hit is critical, places a 15% [Increase C. RATE] buff on a random ally for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "fate-weave",
@@ -49,18 +66,25 @@
           "effect_type": "buff",
           "type": "Increase C. RATE",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-c-rate",
           "slug": "increase-c-rate",
           "website_link": "/buffs/increase-c-rate",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Mass Possession",
       "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "mass-possession",
@@ -69,21 +93,30 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Bolster",
       "raw_description": "Heals all allies by 7.5% of their HP and removes 1 random debuff from them at the start of this Champion's turn.",
       "slug": "bolster",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -105,7 +138,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/doompriest/",
@@ -141,5 +176,6 @@
   },
   "default_description": "Doompriest is a epic assist champion from the faction Knight Revenant doing force damage",
   "recommended_builds": [],
-  "lore": "<p>Doompriest is a missionary of the Knights Revenant death cult. Her faith is strong, as is her command of the dark magic of K'leth. Like all priests, she dedicates much of her life to worship — but she derives her power not from prayer, but from dark ritual and sacrifice.</p><p>A lovely young girl when she first joined the cult, she now covers her face with a mask to ensure the docility of her victims. With each innocent soul sacrificed, her own bore the taint of her deepening evil and corruption. Her once beautiful visage has decayed with each step down this path, and is now a horror to behold.</p>"
+  "lore": "<p>Doompriest is a missionary of the Knights Revenant death cult. Her faith is strong, as is her command of the dark magic of K'leth. Like all priests, she dedicates much of her life to worship — but she derives her power not from prayer, but from dark ritual and sacrifice.</p><p>A lovely young girl when she first joined the cult, she now covers her face with a mask to ensure the docility of her victims. With each innocent soul sacrificed, her own bore the taint of her deepening evil and corruption. Her once beautiful visage has decayed with each step down this path, and is now a horror to behold.</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 16,
+    "campaign": 4.4,
+    "arena_offense": 4.5,
+    "arena_defense": 4.5,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.5,
+    "dragon": 4.6,
+    "spider": 3.9,
+    "fire_knight": 4.1,
+    "minotaur": 4.6,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.6
+  },
   "slug": "ox",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Onrush",
       "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 10% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "onrush",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Shatter Defenses",
       "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "shatter-defenses",
@@ -53,18 +73,25 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Destroy Confidence",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10'<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "destroy-confidence",
@@ -73,16 +100,22 @@
           "effect_type": "debuff",
           "type": "Block Cooldown Skills",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-block-cooldown-skills",
           "slug": "block-cooldown-skills",
           "website_link": "/debuffs/block-cooldown-skills",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/ox/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Ox is a rare attack champion from the faction Barbarians doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Nicknamed ‘Ox’ for his bullheaded nature, this Barbarian embodies many of the traits associated with his people. Strong, fearless, rather superstitious and stubborn. He is, nonetheless, a capable warrior that will fight with far more flexibility than his brutish looks would make one believe.</p><p>Though fond of overwhelming his foes with relentless attacks, Ox knows when and where to strike to keep the enemy firmly on the defensive and unable to strike back with their full arsenal of deadly skills.</p>"
+  "lore": "<p>Nicknamed ‘Ox’ for his bullheaded nature, this Barbarian embodies many of the traits associated with his people. Strong, fearless, rather superstitious and stubborn. He is, nonetheless, a capable warrior that will fight with far more flexibility than his brutish looks would make one believe.</p><p>Though fond of overwhelming his foes with relentless attacks, Ox knows when and where to strike to keep the enemy firmly on the defensive and unable to strike back with their full arsenal of deadly skills.</p>",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "S"
   },
+  "reviews": {
+    "amount": 215,
+    "campaign": 4.4,
+    "arena_offense": 4.5,
+    "arena_defense": 4.3,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.5,
+    "dragon": 4.7,
+    "spider": 3.7,
+    "fire_knight": 3.9,
+    "minotaur": 4.5,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.5
+  },
   "slug": "spirithost",
   "characteristics": {
     "60": {
@@ -41,15 +57,19 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Reap",
       "raw_description": "Attacks 1 enemy. Heals by 50% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "reap",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Strengthen",
       "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "strengthen",
@@ -58,16 +78,23 @@
           "effect_type": "buff",
           "type": "Increase ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-atk-2",
           "slug": "increase-atk-2",
           "website_link": "/buffs/increase-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Dark Gift",
       "raw_description": "Removes all debuffs on all allies. Places a [Block Debuffs] buff on all allies for 1 turn.<br>Lvl. 2 Cooldown -1",
       "slug": "dark-gift",
@@ -76,14 +103,20 @@
           "effect_type": "buff",
           "type": "Block Debuffs",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/buffs/block-debuffs",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -105,7 +138,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/spirithost/",
@@ -141,5 +176,6 @@
   },
   "default_description": "Spirithost is a rare assist champion from the faction Dark Elves doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

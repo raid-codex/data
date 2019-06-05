@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 268,
+    "campaign": 3.5,
+    "arena_offense": 3.4,
+    "arena_defense": 2.9,
+    "clan_boss": 4.3,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 2.8,
+    "fire_knight": 3.2,
+    "minotaur": 3.3,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 3.2,
+    "spirit_dungeon": 3.3,
+    "void_dungeon": 3.2
+  },
   "slug": "dracomorph",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Seeping Pain",
       "raw_description": "Attacks 1 enemy. Will attack 1 random enemy with any surplus damage if the target is killed. Damage inflicted is equal to triple the surplus damage.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "seeping-pain",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Poison Jaws",
       "raw_description": "Attacks 3 times at random. Has a 75% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "poison-jaws",
@@ -53,18 +73,25 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Baleful Eye",
       "raw_description": "Places a 25% [Weaken] debuff and a 30% [Decrease DEF] debuff on all enemies for 2 turns. * Weaken<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "baleful-eye",
@@ -73,24 +100,34 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken-2",
           "slug": "weaken-2",
           "website_link": "/debuffs/weaken",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -112,7 +149,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/dracomorph/",
@@ -148,5 +187,6 @@
   },
   "default_description": "Dracomorph is a legendary attack champion from the faction Lizardmen doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "C",
     "void_dungeon": "C"
   },
+  "reviews": {
+    "amount": 222,
+    "campaign": 4.7,
+    "arena_offense": 4.7,
+    "arena_defense": 4.7,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 3.2,
+    "fire_knight": 4,
+    "minotaur": 4.7,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.5
+  },
   "slug": "altan",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Searing Blow",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5'<br>Lvl. 5 Buff/Debuff Chance +10'<br>Lvl. 6 Damage +10%",
       "slug": "searing-blow",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Wall of Flame",
       "raw_description": "Attacks 1 enemy. Places a 60% [Increase DEF] buff on all allies for 2 turns. Places a [Shield] buff on all allies for 2 turns equal to 20% of their MAX HP if this attack kills an enemy.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "wall-of-flame",
@@ -64,33 +88,46 @@
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def-2",
           "slug": "increase-def-2",
           "website_link": "/buffs/increase-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Fiery Rebirth",
       "raw_description": "Revives a random ally with 30% HP every time this Champion kills an enemy. Resets the cooldowns on this Champion's Skills if this Champion kills an enemy and all allies are alive.",
       "slug": "fiery-rebirth",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -112,7 +149,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/altan/",
@@ -148,5 +187,6 @@
   },
   "default_description": "Altan is a legendary def champion from the faction Barbarians doing magic damage",
   "recommended_builds": [],
-  "lore": "<p>Once a warrior of near legendary prowess among his people, Altan enjoyed a life of adventure and debauchery. Like many other Barbarians, he served as a mercenary, battled rival warriors for glory and bragging rights. Even as he grew older, Altan’s prideful nature did not abate.</p><p>And though his strength began to wane, he still craved the same renown and the elation of battle. When accused of becoming old and weak, he did not just give the offenders a good thrashing but also vowed to face the dread dragon Hellrazor alone. Without a word, he gathered his arms and departed for the Beast’s mountain.</p><p>It is unknown what transpired in the Dragon’s lair, for Altan refuses to speak of it. Some say the Arbiter herself intervened and saved him from certain death. Whatever the case may have been, it was clear that Altan did not prevail - yet he did not perish either. When he emerged, the old Barbarian warrior appeared fused with dragonflame that will burn within him forever. He swore fealty to the Arbiter and her fight against the growing Shadow and served her chosen warriors ever since.</p>"
+  "lore": "<p>Once a warrior of near legendary prowess among his people, Altan enjoyed a life of adventure and debauchery. Like many other Barbarians, he served as a mercenary, battled rival warriors for glory and bragging rights. Even as he grew older, Altan’s prideful nature did not abate.</p><p>And though his strength began to wane, he still craved the same renown and the elation of battle. When accused of becoming old and weak, he did not just give the offenders a good thrashing but also vowed to face the dread dragon Hellrazor alone. Without a word, he gathered his arms and departed for the Beast’s mountain.</p><p>It is unknown what transpired in the Dragon’s lair, for Altan refuses to speak of it. Some say the Arbiter herself intervened and saved him from certain death. Whatever the case may have been, it was clear that Altan did not prevail - yet he did not perish either. When he emerged, the old Barbarian warrior appeared fused with dragonflame that will burn within him forever. He swore fealty to the Arbiter and her fight against the growing Shadow and served her chosen warriors ever since.</p>",
+  "giid": ""
 }

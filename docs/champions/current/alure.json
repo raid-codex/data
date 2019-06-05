@@ -20,6 +20,22 @@
     "spirit_dungeon": "SS",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 209,
+    "campaign": 4.4,
+    "arena_offense": 4.7,
+    "arena_defense": 4.1,
+    "clan_boss": 4.2,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.3,
+    "fire_knight": 4.8,
+    "minotaur": 4.8,
+    "force_dungeon": 4,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.6
+  },
   "slug": "alure",
   "characteristics": {
     "60": {
@@ -36,15 +52,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Psychic Whip",
       "raw_description": "Attacks 3 times at random. Decreases the target's Turn Meter by 25% on each critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "psychic-whip",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Temptation",
       "raw_description": "Attacks all enemies 2 times. Each hit has a 30% chance of placing a 30% [Decrease DEF] debuff for 1 turn. Places a [Sleep] debuff for 1 turn on targets under [Decrease DEF] debuffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Buff/Debuff Chance +10%",
       "slug": "temptation",
@@ -53,35 +73,48 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Sleep",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-sleep",
           "slug": "sleep",
           "website_link": "/debuffs/sleep",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Hellish Blaze",
       "raw_description": "Attacks 1 enemy. Has an extra 30% chance of inflicting a critical hit. Will ignore 50% of the target's DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%",
       "slug": "hellish-blaze",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -103,7 +136,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/alure/",
@@ -139,5 +174,6 @@
   },
   "default_description": "Alure is a epic attack champion from the faction Demonspawn doing magic damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,22 @@
     "spirit_dungeon": "SS",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 974,
+    "campaign": 3.4,
+    "arena_offense": 3,
+    "arena_defense": 2.5,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.2,
+    "dragon": 4.6,
+    "spider": 4.5,
+    "fire_knight": 4.9,
+    "minotaur": 4.5,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.4
+  },
   "slug": "coldheart",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Flurry of Arrows",
       "raw_description": "Attacks 4 times at random. Each hit has a 25% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%",
       "slug": "flurry-of-arrows",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction-2",
           "slug": "heal-reduction-2",
           "website_link": "/debuffs/heal-reduction",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Art of Pain",
       "raw_description": "Attacks all enemies. Has a 30% chance of placing a 50% [Decrease ACC] debuff for 1 turn. Places a 5% [Poison] debuff for 2 turns if the target is under a [Heal Reduction] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Cooldown -1",
       "slug": "art-of-pain",
@@ -64,28 +88,39 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc-2",
           "slug": "decrease-acc-2",
           "website_link": "/debuffs/decrease-acc",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Heartseeker",
       "raw_description": "Attacks 1 enemy. Fully depletes the Turn Meter. Has an extra 30% chance of inflicting a critical hit. Damage increases according to enemy MAX HP.<br>Damage based on: [Enemy MAX HP] [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +15%<br>Lvl. 5 Cooldown -1",
       "slug": "heartseeker",
@@ -93,7 +128,9 @@
       "damaged_based_on": [
         "ATK",
         "Enemy MAX HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -115,7 +152,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/coldheart/",
@@ -151,5 +190,6 @@
   },
   "default_description": "Coldheart is a rare attack champion from the faction Dark Elves doing void damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

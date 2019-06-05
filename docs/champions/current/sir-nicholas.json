@@ -20,6 +20,22 @@
     "spirit_dungeon": "A",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 294,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.7,
+    "spider": 4.5,
+    "fire_knight": 3.6,
+    "minotaur": 4.7,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.6
+  },
   "slug": "sir-nicholas",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Boreal Blade",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Freeze] debuff for 1 turn. This debuff cannot be resisted.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "boreal-blade",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Freeze",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-freeze",
           "slug": "freeze",
           "website_link": "/debuffs/freeze",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Polar Protection",
       "raw_description": "Attacks all enemies. Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] is equal to 30% of the damage inflicted.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "polar-protection",
@@ -69,18 +93,25 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Goodwill",
       "raw_description": "Places an [Unkillable] buff and a 15% [Continuous Heal] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "goodwill",
@@ -89,24 +120,34 @@
           "effect_type": "buff",
           "type": "Continuous Heal",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-continuous-heal-2",
           "slug": "continuous-heal-2",
           "website_link": "/buffs/continuous-heal",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         },
         {
           "effect_type": "buff",
           "type": "Unkillable",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-unkillable",
           "slug": "unkillable",
           "website_link": "/buffs/unkillable",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -128,7 +169,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/sir-nicholas/",
@@ -164,5 +207,6 @@
   },
   "default_description": "Sir Nicholas is a legendary hp champion from the faction Sacred Order doing void damage",
   "recommended_builds": [],
-  "lore": "<p>Ancient legends from all across Teleria speak of a mighty warrior, whose life spans years beyond counting. He took first steps upon this land when the world was yet young, he stood alone against odds insurmountable, and felled twisted creatures would devour the sun itself. It was him who ventured beyond the barren tundra and into the ancient frozen wastes of Telerian North to break an army of Ice Giants that threatened to overwhelm the infant human kingdoms. Having slain the Giant King in single combat, he took the castle cut out of a glacier for himself and made it into a fortress dedicated Lumaya.</p><p>Such is the tale of Sir Nicholas, known under different names to the people of Teleria, but ever-present in their folklore. It is said that to this day he sits upon a throne among the towers of jagged ice and gazes upon the world through a scrying crystal gifted by the Arbiter herself. By his judgement do the righteous receive great boons, and the wicked - their just punishment. Though perhaps Sir Nicholas is not as omnipotent a force as some of the old tales paint him, it cannot be denied that many powerful villains disappeared without a trace on a Winter Solstice night...</p>"
+  "lore": "<p>Ancient legends from all across Teleria speak of a mighty warrior, whose life spans years beyond counting. He took first steps upon this land when the world was yet young, he stood alone against odds insurmountable, and felled twisted creatures would devour the sun itself. It was him who ventured beyond the barren tundra and into the ancient frozen wastes of Telerian North to break an army of Ice Giants that threatened to overwhelm the infant human kingdoms. Having slain the Giant King in single combat, he took the castle cut out of a glacier for himself and made it into a fortress dedicated Lumaya.</p><p>Such is the tale of Sir Nicholas, known under different names to the people of Teleria, but ever-present in their folklore. It is said that to this day he sits upon a throne among the towers of jagged ice and gazes upon the world through a scrying crystal gifted by the Arbiter herself. By his judgement do the righteous receive great boons, and the wicked - their just punishment. Though perhaps Sir Nicholas is not as omnipotent a force as some of the old tales paint him, it cannot be denied that many powerful villains disappeared without a trace on a Winter Solstice night...</p>",
+  "giid": ""
 }

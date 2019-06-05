@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "A"
   },
+  "reviews": {
+    "amount": 68,
+    "campaign": 4.6,
+    "arena_offense": 4.7,
+    "arena_defense": 4.4,
+    "clan_boss": 3.8,
+    "ice_guardian": 4.2,
+    "dragon": 4.5,
+    "spider": 4.4,
+    "fire_knight": 4.2,
+    "minotaur": 4.5,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.3
+  },
   "slug": "gladiator",
   "characteristics": {
     "60": {
@@ -36,6 +52,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Cleaving Axe",
       "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns if the target's Turn Meter is more than or exactly 50% full. turns if the target's Turn Meter is less than 50% full.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "cleaving-axe",
@@ -44,18 +61,25 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
           "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Capital Punishment",
       "raw_description": "Attacks 2 times at random. Has an 80% chance of placing a [Stun] debuff if the target's Turn Meter is above or equal 75%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +1%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "capital-punishment",
@@ -64,25 +88,34 @@
           "effect_type": "debuff",
           "type": "Stun",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-stun",
           "slug": "stun",
           "website_link": "/debuffs/stun",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Torture",
       "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "torture",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -104,7 +137,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/gladiator/",
@@ -140,5 +175,6 @@
   },
   "default_description": "Gladiator is a rare attack champion from the faction Knight Revenant doing force damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

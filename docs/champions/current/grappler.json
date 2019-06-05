@@ -20,6 +20,22 @@
     "spirit_dungeon": "B",
     "void_dungeon": "B"
   },
+  "reviews": {
+    "amount": 62,
+    "campaign": 4.3,
+    "arena_offense": 4.1,
+    "arena_defense": 4.2,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.3,
+    "dragon": 4.4,
+    "spider": 3.4,
+    "fire_knight": 4.6,
+    "minotaur": 4.4,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 3.9,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 4.2
+  },
   "slug": "grappler",
   "characteristics": {
     "60": {
@@ -41,6 +57,7 @@
   ],
   "skills": [
     {
+      "passive": false,
       "name": "Hoodoo",
       "raw_description": "Attacks 2 times at random. Has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "hoodoo",
@@ -49,18 +66,25 @@
           "effect_type": "debuff",
           "type": "Weaken",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-weaken",
           "slug": "weaken",
           "website_link": "/debuffs/weaken",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Soul Sizzle",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing two 2.5% [Poison] debuffs for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%<br>Lvl. 6 Cooldown -1",
       "slug": "soul-sizzle",
@@ -69,18 +93,25 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison",
           "slug": "poison",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": null
     },
     {
+      "passive": false,
       "name": "Envelop",
       "raw_description": "Places a [Shield] buff on all allies equal to 20% of their HP and a 15% {Reflect Damage] buff on all allies for 2 turns.<br>Lvl. 2 Shield +5%<br>Lvl. 3 Shield +5%<br>Lvl. 4 Shield +5%<br>Lvl. 5 Shield +5%<br>Lvl. 6 Cooldown -1",
       "slug": "envelop",
@@ -89,14 +120,20 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": ""
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": null
     }
   ],
   "faction": {
@@ -118,7 +155,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/grappler/",
@@ -154,5 +193,6 @@
   },
   "default_description": "Grappler is a rare def champion from the faction Skinwalker doing spirit damage",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }
