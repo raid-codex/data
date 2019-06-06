@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "throatcutter",
   "characteristics": {
     "60": {
@@ -36,22 +37,28 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Cleaver",
       "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Damage +10%",
       "slug": "cleaver",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Gratuitous Death",
       "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "gratuitous-death",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -73,7 +80,9 @@
         "orcs"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "orcs",
   "website_link": "/champions/throatcutter/",
@@ -109,5 +118,6 @@
   },
   "default_description": "Throatcutter is a uncommon attack champion from the faction Orcs",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

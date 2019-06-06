@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "saurus",
   "characteristics": {
     "60": {
@@ -36,15 +37,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Wind Cutter",
       "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "wind-cutter",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Fire Wave",
       "raw_description": "Attacks all enemies 2 times. Has a 10% chance of placing a 50% [Heal Reduction] debuff for 1 turn. Places a 50% [Heal Reduction] debuff if the target's current HP is less than or equal to 40%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
       "slug": "fire-wave",
@@ -53,16 +58,23 @@
           "effect_type": "debuff",
           "type": "Heal Reduction",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-heal-reduction",
           "slug": "heal-reduction",
           "website_link": "/debuffs/heal-reduction",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -84,7 +96,9 @@
         "lizardmen"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "lizardmen",
   "website_link": "/champions/saurus/",
@@ -120,5 +134,6 @@
   },
   "default_description": "Saurus is a uncommon attack champion from the faction Lizardmen",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "death-hound",
   "characteristics": {
     "60": {
@@ -36,6 +37,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Neck Bite",
       "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Will Ignore DEF if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "neck-bite",
@@ -44,28 +46,41 @@
           "effect_type": "buff",
           "type": "Block Damage",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-block-damage",
           "slug": "block-damage",
           "website_link": "/buffs/block-damage",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         },
         {
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Gnaw",
       "raw_description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "gnaw",
@@ -74,16 +89,23 @@
           "effect_type": "debuff",
           "type": "Poison",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-poison-2",
           "slug": "poison-2",
           "website_link": "/debuffs/poison",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -105,7 +127,9 @@
         "undead-hordes"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "undead-hordes",
   "website_link": "/champions/death-hound/",
@@ -141,5 +165,6 @@
   },
   "default_description": "Death Hound is a common attack champion from the faction Undead Hordes",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

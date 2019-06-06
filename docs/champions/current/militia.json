@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "militia",
   "characteristics": {
     "60": {
@@ -36,15 +37,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Headshot",
       "raw_description": "Attacks 1 enemy. If the target has less than 30% HP, this attack is always critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "headshot",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Piercing Bolt",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5<br>Lvl. 4 Buff/Debuff Chance +5?<br>Lvl. 5 Cooldown -1",
       "slug": "piercing-bolt",
@@ -53,16 +58,23 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def-2",
           "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -84,7 +96,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/militia/",
@@ -120,5 +134,6 @@
   },
   "default_description": "Militia is a uncommon attack champion from the faction Sacred Order",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

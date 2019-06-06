@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "bandit",
   "characteristics": {
     "60": {
@@ -36,6 +37,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Flaming Shot",
       "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Buff/Debuff Chance +10%",
       "slug": "flaming-shot",
@@ -44,16 +46,23 @@
           "effect_type": "debuff",
           "type": "Decrease DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-def",
           "slug": "decrease-def",
           "website_link": "/debuffs/decrease-def",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -75,7 +84,9 @@
         "banner-lords"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "banner-lords",
   "website_link": "/champions/bandit/",
@@ -111,5 +122,6 @@
   },
   "default_description": "Bandit is a common attack champion from the faction Banner-Lords",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

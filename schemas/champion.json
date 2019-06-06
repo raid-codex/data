@@ -99,9 +99,16 @@
                 "slug",
                 "name",
                 "effects",
-                "damaged_based_on"
+                "damaged_based_on",
+                "upgrades"
             ],
             "properties": {
+                "upgrades": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/skill_data"
+                    }
+                },
                 "slug": {
                     "$ref": "#/definitions/slug"
                 },
@@ -111,7 +118,7 @@
                 "raw_description": {
                     "type": "string"
                 },
-                "damage_based_on": {
+                "damaged_based_on": {
                     "type": "array",
                     "items": {
                         "type": "string",
@@ -140,9 +147,21 @@
                 "effect_type",
                 "website_link",
                 "image_slug",
-                "slug"
+                "slug",
+                "raw_description",
+                "places_if",
+                "amount"
             ],
             "properties": {
+                "amount": {
+                    "type": "number"
+                },
+                "raw_description": {
+                    "type": "string"
+                },
+                "places_if": {
+                    "type": "string"
+                },
                 "slug": {
                     "$ref": "#/definitions/slug"
                 },
@@ -187,14 +206,113 @@
                         "Counterattack",
                         "Unkillable",
                         "Block Debuffs",
-                        "Block Damage"
+                        "Block Damage",
+                        "Damage Per HP",
+                        "Remove 1 Debuff",
+                        "DMG per HP",
+                        "Heal per DMG+Dead Ally",
+                        "Decrease Skill Cooldown",
+                        "Increase DMG per Buff Removed",
+                        "Transfer DMG",
+                        "Increase DMG per Buff",
+                        "Deal ALL poison DMG",
+                        "Extra Crit Hit",
+                        "Decrease Turn Meter",
+                        "Increase All Buffs",
+                        "Unlock Peril Skill",
+                        "Equalise all HP",
+                        "Copy 1 Debuff",
+                        "Ignore Block Damage",
+                        "Increase Turn Meter",
+                        "Immune Stun",
+                        "Extra Crit Chance",
+                        "DMG per Max HP",
+                        "Decrease Buff",
+                        "Increase Debuff",
+                        "DMG per Surplus Heal",
+                        "Remove 2 Buffs",
+                        "Increase DMG per Max HP + Dead Ally",
+                        "Deal all poison DMG",
+                        "Spread 4 Debuffs",
+                        "Steal 2 Buffs",
+                        "Remove ALL Debuffs",
+                        "DMG Reduction",
+                        "Extra Crit DMG",
+                        "Stack Damage upto X7",
+                        "Stack Damage upto X9",
+                        "Repeat Attack",
+                        "Decrease Bomb",
+                        "Increase DMG per Enemy Buff",
+                        "Always Crit",
+                        "Extra Hit",
+                        "Increase DMG as Enemy HP Dec",
+                        "Block Revive",
+                        "Transfer ALL Debuffs",
+                        "Extra Turn",
+                        "Increase DMG per Enemy Max HP",
+                        "Stack Damage upto X6",
+                        "Extra DMG",
+                        "Revive",
+                        "Increase DMG",
+                        "Shield per DMG",
+                        "Steal ALL Buffs",
+                        "Decrease MAX HP",
+                        "Increase ALL Debuffs",
+                        "Increase Meter per Stolen",
+                        "Transfer 1 Debuff",
+                        "Shield per Champ Max HP",
+                        "Increase Buff",
+                        "Remove ALL Buffs",
+                        "Remove 1 Buff",
+                        "Stack Damage upto X4",
+                        "Crit Chance",
+                        "Ignore DEF",
+                        "ATK with Surplus DMG",
+                        "Unlock Skypiercer",
+                        "Stack Damage upto X5",
+                        "Rec 5% DMG per Ally Alive",
+                        "Steal 1 Buff",
+                        "Swap HP",
+                        "Increase DMG per Max HP",
+                        "Increase RES per Buff",
+                        "Reset Cooldown on Holy Sword",
+                        "Increase DMG per HP lost",
+                        "Ignore Block DMG",
+                        "Increase Debuffs",
+                        "Heal per debuff",
+                        "Decrease DMG per Hit",
+                        "ATK With 2 Allies",
+                        "Heal",
+                        "ATK all Enemies",
+                        "Decrease DMG",
+                        "Reset Juggernaut Cooldown",
+                        "Immune STUN",
+                        "Immune Freeze",
+                        "Decrease All Buffs",
+                        "Remove CC Debuffs",
+                        "Reset Skill Cooldown",
+                        "Deal Half of DMG",
+                        "Ignore Shield",
+                        "Critical Strike",
+                        "ATK",
+                        "Decrease Cooldowns",
+                        "Crack Armor Skill",
+                        "Self DMG",
+                        "Increase DMG per Debuff",
+                        "Immune Sleep",
+                        "Stack Damage upto X8",
+                        "Detonate Bombs",
+                        "Heal per DMG",
+                        "Reset ALL Cooldowns",
+                        "Increase C. DAMAGE"
                     ]
                 },
                 "effect_type": {
                     "type": "string",
                     "enum": [
                         "buff",
-                        "debuff"
+                        "debuff",
+                        "battle_enhancement"
                     ]
                 }
             }
@@ -414,6 +532,54 @@
             "type": "object",
             "required": [],
             "properties": {}
+        },
+        "skill_target": {
+            "type": "object",
+            "required": [
+                "who",
+                "targets"
+            ],
+            "properties": {
+                "who": {
+                    "type": "string"
+                },
+                "targets": {
+                    "type": "string"
+                }
+            }
+        },
+        "skill_data": {
+            "type": "object",
+            "required": [
+                "level",
+                "hits",
+                "target",
+                "effects",
+                "based_on"
+            ],
+            "properties": {
+                "level": {
+                    "type": "string"
+                },
+                "hits": {
+                    "type": "number"
+                },
+                "target": {
+                    "$ref": "#/definitions/skill_target"
+                },
+                "effects": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/status_effect"
+                    }
+                },
+                "based_on": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
         }
     },
     "type": "object",

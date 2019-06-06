@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "outlander",
   "characteristics": {
     "60": {
@@ -36,22 +37,28 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Savage Strike",
       "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "savage-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Talisman of Power",
       "raw_description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 30%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5'<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5<br>Lvl. 7 Buff/Debuff Chance +109<br>Lvl. 8 Cooldown -1",
       "slug": "talisman-of-power",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -73,7 +80,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/outlander/",
@@ -109,5 +118,6 @@
   },
   "default_description": "Outlander is a uncommon attack champion from the faction Barbarians",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

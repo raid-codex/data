@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "pilgrim",
   "characteristics": {
     "60": {
@@ -36,20 +37,26 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Thunder Strike",
       "raw_description": "Attacks 1 enemy 2 times. Each hit decreases the target's Turn Meter by 5%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%",
       "slug": "thunder-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Pilgrim's Shield",
       "raw_description": "Places a 30% buff on all allies for 2 turns.",
       "slug": "pilgrim-s-shield",
       "effects": [],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -71,7 +78,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/pilgrim/",
@@ -107,5 +116,6 @@
   },
   "default_description": "Pilgrim is a uncommon assist champion from the faction Sacred Order",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

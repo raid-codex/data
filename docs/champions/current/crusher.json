@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "crusher",
   "characteristics": {
     "60": {
@@ -36,6 +37,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Scythe",
       "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5)<br>Lvl. 5 Buff/Debuff Chance +5)",
       "slug": "scythe",
@@ -44,18 +46,26 @@
           "effect_type": "debuff",
           "type": "Decrease ATK",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-atk",
           "slug": "decrease-atk",
           "website_link": "/debuffs/decrease-atk",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Savage Swipe",
       "raw_description": "Attacks 1 enemy. Places a [Counterattack] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
       "slug": "savage-swipe",
@@ -64,16 +74,23 @@
           "effect_type": "buff",
           "type": "Counterattack",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-counterattack",
           "slug": "counterattack",
           "website_link": "/buffs/counterattack",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -95,7 +112,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/crusher/",
@@ -131,5 +150,6 @@
   },
   "default_description": "Crusher is a uncommon def champion from the faction Barbarians",
   "recommended_builds": [],
-  "lore": "<p>Hailing from the deep vine forests of the Southmost Realms, she comes from a tribe of master trackers who viciously defend their territory from trespassers with carefully placed traps and deft spear thrusts. Those caught violating the borders of their domain are ritually crippled during the Ordeal of Stone - a practice of much amusement to her Barbarian brothers and sisters in the North. After her first time demonstrating the punishment after a battle, the name “Crusher” has since stuck...</p>"
+  "lore": "<p>Hailing from the deep vine forests of the Southmost Realms, she comes from a tribe of master trackers who viciously defend their territory from trespassers with carefully placed traps and deft spear thrusts. Those caught violating the borders of their domain are ritually crippled during the Ordeal of Stone - a practice of much amusement to her Barbarian brothers and sisters in the North. After her first time demonstrating the punishment after a battle, the name “Crusher” has since stuck...</p>",
+  "giid": ""
 }

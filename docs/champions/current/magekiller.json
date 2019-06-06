@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "magekiller",
   "characteristics": {
     "60": {
@@ -36,13 +37,16 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Harry",
       "raw_description": "Attacks 1 enemy. Has a 10% chance of putting the target's skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "harry",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -64,7 +68,9 @@
         "dark-elves"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "dark-elves",
   "website_link": "/champions/magekiller/",
@@ -100,5 +106,6 @@
   },
   "default_description": "Magekiller is a common attack champion from the faction Dark Elves",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

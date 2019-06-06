@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "pit-fighter",
   "characteristics": {
     "60": {
@@ -36,22 +37,28 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "True Strike",
       "raw_description": "Attacks 1 enemy. Has an extra 25% chance of placing a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%",
       "slug": "true-strike",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Gust of Dust",
       "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 50%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "gust-of-dust",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -73,7 +80,9 @@
         "barbarians"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "barbarians",
   "website_link": "/champions/pit-fighter/",
@@ -109,5 +118,6 @@
   },
   "default_description": "Pit Fighter is a uncommon hp champion from the faction Barbarians",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }
