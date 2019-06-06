@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "admonitor",
   "characteristics": {
     "60": {
@@ -36,6 +37,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Shield Wall",
       "raw_description": "Attacks 1 enemy. Places a [Shield] buff on this Champion for 1 turn equal to the 10% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%<br>Lvl. 7 Damage +10%",
       "slug": "shield-wall",
@@ -44,18 +46,26 @@
           "effect_type": "buff",
           "type": "Shield",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-shield",
           "slug": "shield",
           "website_link": "/buffs/shield",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Cover",
       "raw_description": "Places a 50% [Ally Protection] buff on a target ally for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "cover",
@@ -64,14 +74,21 @@
           "effect_type": "buff",
           "type": "Ally Protection",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-ally-protection-2",
           "slug": "ally-protection-2",
           "website_link": "/buffs/ally-protection",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -93,7 +110,9 @@
         "knight-revenant"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/admonitor/",
@@ -129,5 +148,6 @@
   },
   "default_description": "Admonitor is a uncommon hp champion from the faction Knight Revenant",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

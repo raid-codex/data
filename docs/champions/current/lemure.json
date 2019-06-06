@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "lemure",
   "characteristics": {
     "60": {
@@ -36,15 +37,19 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Vicious Swipes",
       "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%",
       "slug": "vicious-swipes",
       "effects": [],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Dark Burst",
       "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a [Bomb] that detonates in 3 turns.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "dark-burst",
@@ -53,17 +58,24 @@
           "effect_type": "debuff",
           "type": "Bomb",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK",
         "HP"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -85,7 +97,9 @@
         "demonspawn"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "demonspawn",
   "website_link": "/champions/lemure/",
@@ -121,5 +135,6 @@
   },
   "default_description": "Lemure is a uncommon hp champion from the faction Demonspawn",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

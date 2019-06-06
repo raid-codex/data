@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "knecht",
   "characteristics": {
     "60": {
@@ -36,13 +37,16 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Stab",
       "raw_description": "Attacks 1 enemy. Has an extra 20% chance of inflicting a critical hit. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "stab",
       "effects": [],
       "damaged_based_on": [
         "DEF"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -64,7 +68,9 @@
         "sacred-order"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "sacred-order",
   "website_link": "/champions/knecht/",
@@ -100,5 +106,6 @@
   },
   "default_description": "Knecht is a common def champion from the faction Sacred Order",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }

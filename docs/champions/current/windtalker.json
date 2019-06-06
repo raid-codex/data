@@ -20,6 +20,7 @@
     "spirit_dungeon": "",
     "void_dungeon": ""
   },
+  "reviews": null,
   "slug": "windtalker",
   "characteristics": {
     "60": {
@@ -36,6 +37,7 @@
   "auras": [],
   "skills": [
     {
+      "passive": false,
       "name": "Thunder",
       "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ACC] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
       "slug": "thunder",
@@ -44,18 +46,26 @@
           "effect_type": "debuff",
           "type": "Decrease ACC",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-debuff-decrease-acc",
           "slug": "decrease-acc",
           "website_link": "/debuffs/decrease-acc",
           "extra": false,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
         "ATK"
-      ]
+      ],
+      "giid": "",
+      "upgrades": []
     },
     {
+      "passive": false,
       "name": "Spiritual Wind",
       "raw_description": "Places a 60% [Increase DEF] buff on a target ally for 2 turns. Heals the target by 20% of their MAX HP.<br>Lvl. 2 Heal +10%<br>Lvl. 3 Heal +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Heal +10%<br>Lvl. 6 Heal +10%<br>Lvl. 7 Cooldown -1",
       "slug": "spiritual-wind",
@@ -64,14 +74,21 @@
           "effect_type": "buff",
           "type": "Increase DEF",
           "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
           "image_slug": "image-buff-increase-def-2",
           "slug": "increase-def-2",
           "website_link": "/buffs/increase-def",
           "extra": true,
-          "raw_description": ""
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
-      "damaged_based_on": []
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": []
     }
   ],
   "faction": {
@@ -93,7 +110,9 @@
         "skinwalker"
       ],
       "structured_data": null
-    }
+    },
+    "giid": "",
+    "raw_description": ""
   },
   "faction_slug": "skinwalker",
   "website_link": "/champions/windtalker/",
@@ -129,5 +148,6 @@
   },
   "default_description": "Windtalker is a uncommon assist champion from the faction Skinwalker",
   "recommended_builds": [],
-  "lore": ""
+  "lore": "",
+  "giid": ""
 }
