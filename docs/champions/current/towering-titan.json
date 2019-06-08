@@ -61,7 +61,23 @@
       "name": "Shieldsplitter",
       "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "slug": "shieldsplitter",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "",
       "upgrades": [
@@ -94,7 +110,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -125,7 +143,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
@@ -156,7 +176,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
@@ -187,7 +209,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
         },
         {
           "level": "Level 5",
@@ -218,16 +242,36 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
         }
-      ]
+      ],
+      "image_slug": "",
+      "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Flailing Assault",
       "raw_description": "Attacks 4 times at random. Has a 50% chance of placing a [Provoke] debuff for 1 turn.",
       "slug": "flailing-assault",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "",
       "upgrades": [
@@ -236,7 +280,7 @@
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -260,14 +304,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -291,14 +337,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -322,14 +370,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -353,14 +403,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
         },
         {
           "level": "Level 5",
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -384,14 +436,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
         },
         {
           "level": "Level 6",
           "hits": 4,
           "target": {
             "who": "enemy",
-            "targets": "4"
+            "targets": "random"
           },
           "effects": [
             {
@@ -415,16 +469,51 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
         }
-      ]
+      ],
+      "image_slug": "",
+      "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Bullish Vitality",
-      "raw_description": "Places a 60% [increase DEF] buff on all allies for 2 turns. Places a [Shield] buff on this Champion equal to 30% of their MAX HP for 2 turns.",
+      "raw_description": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Places a [Shield] buff on this Champion equal to 30% of their MAX HP for 2 turns.",
       "slug": "bullish-vitality",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/buffs/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "",
       "upgrades": [
@@ -433,7 +522,7 @@
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -491,14 +580,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -556,14 +647,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
         },
         {
           "level": "Level 3",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -621,14 +714,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
         },
         {
           "level": "Level 4",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -686,14 +781,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +10%"
         },
         {
           "level": "Level 5",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -751,14 +848,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +10%"
         },
         {
           "level": "Level 6",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -816,14 +915,18 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
         }
-      ]
+      ],
+      "image_slug": "",
+      "skill_number": "A3"
     },
     {
       "passive": false,
       "name": "Battle Brothers (P)",
-      "raw_description": "Will transfer 50% of the damage inflicted on Cagebreaker to this Champion during battle.<br>[Only available when Cagebreaker is on the same team. If multiple Cagebreakers are on the team, this Champion will only transfer the damage from one of them.]",
+      "raw_description": "Will transfer 50% of the damage inflicted on Cagebreaker to this Champion during battle.<br>(Only available when Cagebreaker is on the same team. If multiple Cagebreakers are on the team, this Champion will only transfer the damage from one of them.)",
       "slug": "battle-brothers--",
       "effects": [],
       "damaged_based_on": [],
@@ -856,9 +959,13 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "-"
         }
-      ]
+      ],
+      "image_slug": "",
+      "skill_number": "P1"
     }
   ],
   "faction": {

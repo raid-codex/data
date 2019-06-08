@@ -107,7 +107,9 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -138,7 +140,9 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
@@ -169,7 +173,9 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
@@ -200,10 +206,13 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "A1"
     },
     {
       "passive": false,
@@ -221,7 +230,7 @@
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -245,14 +254,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -276,14 +287,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -307,14 +320,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -338,14 +353,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 5",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -369,10 +386,13 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "A2"
     },
     {
       "passive": false,
@@ -426,7 +446,9 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -455,7 +477,9 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Shield +10%"
         },
         {
           "level": "Level 3",
@@ -484,7 +508,9 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Shield +10%"
         },
         {
           "level": "Level 4",
@@ -513,10 +539,13 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Shield +10%"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "P1"
     }
   ],
   "faction": {

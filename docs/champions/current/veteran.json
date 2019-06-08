@@ -88,7 +88,7 @@
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -112,14 +112,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -143,14 +145,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -174,14 +178,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -205,14 +211,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
         },
         {
           "level": "Level 5",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -236,14 +244,16 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +15%"
         },
         {
           "level": "Level 6",
           "hits": 2,
           "target": {
             "who": "enemy",
-            "targets": "2"
+            "targets": "1"
           },
           "effects": [
             {
@@ -267,10 +277,13 @@
           ],
           "based_on": [
             "DEF"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "A1"
     },
     {
       "passive": false,
@@ -330,7 +343,9 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -362,7 +377,9 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
@@ -394,7 +411,9 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
@@ -426,7 +445,9 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 5",
@@ -458,7 +479,9 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +10%"
         },
         {
           "level": "Level 6",
@@ -490,10 +513,13 @@
           "based_on": [
             "DEF",
             "ATK"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +15%"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "A2"
     },
     {
       "passive": false,
@@ -528,7 +554,7 @@
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -553,14 +579,16 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -585,14 +613,16 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
         },
         {
           "level": "Level 3",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -617,14 +647,16 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
         },
         {
           "level": "Level 4",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -649,14 +681,16 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
         },
         {
           "level": "Level 5",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -681,14 +715,16 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
         },
         {
           "level": "Level 6",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -713,10 +749,13 @@
           "based_on": [
             "DEF",
             "HP"
-          ]
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
         }
       ],
-      "image_slug": ""
+      "image_slug": "",
+      "skill_number": "A3"
     }
   ],
   "faction": {

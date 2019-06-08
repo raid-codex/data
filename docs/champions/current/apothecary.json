@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally Def in Dungeons by 21%",
+      "raw_description": "Increases Ally DEF in Dungeons by 21%",
       "effects": []
     }
   ],
@@ -72,63 +72,169 @@
           "hits": 3,
           "target": {
             "who": "enemy",
-            "targets": "3"
+            "targets": "random"
           },
-          "effects": [],
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk",
+              "slug": "atk",
+              "website_link": "/battle_enhancements/atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            }
+          ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 3,
           "target": {
             "who": "enemy",
-            "targets": "3"
+            "targets": "random"
           },
-          "effects": [],
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk",
+              "slug": "atk",
+              "website_link": "/battle_enhancements/atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            }
+          ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
           "hits": 3,
           "target": {
             "who": "enemy",
-            "targets": "3"
+            "targets": "random"
           },
-          "effects": [],
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk",
+              "slug": "atk",
+              "website_link": "/battle_enhancements/atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            }
+          ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
           "hits": 3,
           "target": {
             "who": "enemy",
-            "targets": "3"
+            "targets": "random"
           },
-          "effects": [],
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk",
+              "slug": "atk",
+              "website_link": "/battle_enhancements/atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            }
+          ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 5",
           "hits": 3,
           "target": {
             "who": "enemy",
-            "targets": "3"
+            "targets": "random"
           },
-          "effects": [],
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk",
+              "slug": "atk",
+              "website_link": "/battle_enhancements/atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            }
+          ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
         }
       ],
-      "image_slug": "986f1cc29038c319cdd3a847dd903870"
+      "image_slug": "986f1cc29038c319cdd3a847dd903870",
+      "skill_number": "A1"
     },
     {
       "passive": false,
@@ -162,11 +268,13 @@
               "website_link": "/battle_enhancements/heal",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -191,11 +299,13 @@
               "website_link": "/battle_enhancements/heal",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Heal +5%"
         },
         {
           "level": "Level 3",
@@ -220,11 +330,13 @@
               "website_link": "/battle_enhancements/heal",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Heal +5%"
         },
         {
           "level": "Level 4",
@@ -249,11 +361,13 @@
               "website_link": "/battle_enhancements/heal",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Heal +5%"
         },
         {
           "level": "Level 5",
@@ -266,7 +380,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Heal",
-              "value": 0.35,
+              "value": 0.5,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -278,14 +392,17 @@
               "website_link": "/battle_enhancements/heal",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
         }
       ],
-      "image_slug": "73019fad48c9585da1f7cf30cf53efb0"
+      "image_slug": "73019fad48c9585da1f7cf30cf53efb0",
+      "skill_number": "A2"
     },
     {
       "passive": false,
@@ -317,7 +434,7 @@
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -335,7 +452,7 @@
               "website_link": "/battle_enhancements/increase-turn-meter",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             },
             {
@@ -357,14 +474,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -382,7 +501,7 @@
               "website_link": "/battle_enhancements/increase-turn-meter",
               "extra": false,
               "raw_description": "",
-              "places_if": "-",
+              "places_if": "",
               "amount": 1
             },
             {
@@ -404,10 +523,62 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/debuffs/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
         }
       ],
-      "image_slug": "a23e373ef52b4b93bc7241c7e6a0fe5f"
+      "image_slug": "a23e373ef52b4b93bc7241c7e6a0fe5f",
+      "skill_number": "A3"
     }
   ],
   "faction": {
