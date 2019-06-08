@@ -107,7 +107,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
@@ -138,7 +140,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
@@ -169,7 +173,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
@@ -200,7 +206,9 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 5",
@@ -231,10 +239,13 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
         }
       ],
-      "image_slug": "7856bffa648515b4e516e0d9235d9ed9"
+      "image_slug": "7856bffa648515b4e516e0d9235d9ed9",
+      "skill_number": "A1"
     },
     {
       "passive": false,
@@ -281,7 +292,7 @@
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -321,14 +332,16 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 1,
           "target": {
             "who": "ally",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -368,10 +381,13 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
         }
       ],
-      "image_slug": "ca2c86751b1db29988c329f26a04ddd0"
+      "image_slug": "ca2c86751b1db29988c329f26a04ddd0",
+      "skill_number": "A2"
     },
     {
       "passive": false,
@@ -389,7 +405,7 @@
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -413,14 +429,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
         },
         {
           "level": "Level 2",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -444,14 +462,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 3",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -475,14 +495,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 4",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -506,14 +528,16 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
         },
         {
           "level": "Level 5",
           "hits": 1,
           "target": {
             "who": "enemy",
-            "targets": "1"
+            "targets": "all"
           },
           "effects": [
             {
@@ -537,10 +561,13 @@
           ],
           "based_on": [
             "ATK"
-          ]
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
         }
       ],
-      "image_slug": "020438d73a81bd94134ebbda61a0fd5b"
+      "image_slug": "020438d73a81bd94134ebbda61a0fd5b",
+      "skill_number": "A3"
     },
     {
       "passive": true,
@@ -594,10 +621,13 @@
               "amount": 1
             }
           ],
-          "based_on": []
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "-"
         }
       ],
-      "image_slug": "05f65470b36543c7ba802ade961feab3"
+      "image_slug": "05f65470b36543c7ba802ade961feab3",
+      "skill_number": "P1"
     }
   ],
   "faction": {

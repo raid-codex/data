@@ -114,9 +114,17 @@
                 "hits",
                 "target",
                 "effects",
-                "based_on"
+                "based_on",
+                "cooldown",
+                "raw_detail"
             ],
             "properties": {
+                "cooldown": {
+                    "type": "number"
+                },
+                "raw_detail": {
+                    "type": "string"
+                },
                 "level": {
                     "type": "string"
                 },
@@ -148,9 +156,13 @@
                 "name",
                 "effects",
                 "damaged_based_on",
-                "upgrades"
+                "upgrades",
+                "skill_number"
             ],
             "properties": {
+                "skill_number": {
+                    "type": "string"
+                },
                 "upgrades": {
                     "type": "array",
                     "items": {
