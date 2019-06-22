@@ -4,7 +4,7 @@ files=$(git diff-tree --name-only --no-commit-id -r HEAD | grep "docs/champions"
 for file in $files
 do
     echo "Processing $file"
-    raid-codex-cli champions page create --champion-file $file --template-file $GOPATH/src/github.com/raid-codex/tools/templates/champion.html --data-directory $GOPATH/src/github.com/raid-codex/data
+    raid-codex-cli champions page create --champion-file $file --template-folder $GOPATH/src/github.com/raid-codex/tools/templates/champion/ --data-directory $GOPATH/src/github.com/raid-codex/data
 done
 
 files=$(git diff-tree --name-only --no-commit-id -r HEAD | grep "docs/status-effects" | grep -v index.json)

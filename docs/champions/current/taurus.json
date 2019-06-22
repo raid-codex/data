@@ -775,5 +775,18 @@
   "default_description": "Taurus is a epic attack champion from the faction Skinwalker doing magic damage",
   "recommended_builds": [],
   "lore": "<p>Though Skinwalkers at large lack the secrets of steel or alchemy to truly challenge the powerful nations of Teleria, ancient tribal lore and knowledge of the land allow them to improvise. Thus the Taurus, in addition to his brute strength, has access to potent poisons crafted by the tribe’s shamans any venomous component they can find - be it a corrupted plant or a giant spider’s powdered mandibles.</p><p>Such concoctions can be extremely virulent, if volatile and prone to poisoning the warrior using them as well as the intended targets. Though sheer animalistic toughness allows the Taurus to withstand the worst of the effects, having means of healing on hand is never a bad idea for any Warrior wishing to employ such tactics.</p>",
-  "giid": "2590"
+  "giid": "2590",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ]
 }

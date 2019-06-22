@@ -552,6 +552,41 @@
                 }
             }
         },
+        "synergy_context": {
+            "type": "object",
+            "required": [
+                "key"
+            ],
+            "properties": {
+                "key": {
+                    "$ref": "#/definitions/synergy_context_key"
+                }
+            }
+        },
+        "synergy_context_key": {
+            "type": "string",
+            "enum": [
+                "poison-counterattack"
+            ]
+        },
+        "synergy": {
+            "type": "object",
+            "required": [
+                "champions",
+                "context"
+            ],
+            "properties": {
+                "champions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/slug"
+                    }
+                },
+                "context": {
+                    "$ref": "#/definitions/synergy_context"
+                }
+            }
+        },
         "skill_data": {
             "type": "object",
             "required": [
@@ -706,6 +741,12 @@
         },
         "reviews": {
             "$ref": "#/definitions/review"
+        },
+        "synergy": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/synergy"
+            }
         }
     }
 }
