@@ -2,7 +2,7 @@
   "name": "Maneater",
   "rarity": "Epic",
   "element": "Void",
-  "type": "HP",
+  "type": "Attack",
   "rating": {
     "overall": "A",
     "campaign": "C",
@@ -837,7 +837,16 @@
         "Ogryn-Tribes",
         "ogryn-tribes"
       ],
-      "structured_data": null
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-ogryn-tribes.jpg",
+          "name": "Ogryn-Tribes",
+          "url": "https://raid-codex.com/factions/ogryn-tribes/"
+        }
+      ]
     },
     "giid": "",
     "raw_description": ""
@@ -874,7 +883,7 @@
       }
     ]
   },
-  "default_description": "Maneater is a epic hp champion from the faction Ogryn-Tribes doing void damage",
+  "default_description": "Maneater is a epic attack champion from the faction Ogryn-Tribes doing void damage",
   "recommended_builds": [],
   "lore": "",
   "giid": "1070",

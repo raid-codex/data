@@ -8,8 +8,8 @@
     "campaign": "C",
     "arena_offense": "S",
     "arena_defense": "SS",
-    "clan_boss_without_giant_slayer": "S",
-    "clan_boss_with_giant_slayer": "",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
     "ice_guardian": "A",
     "dragon": "A",
     "spider": "B",
@@ -673,7 +673,16 @@
         "Undead Hordes",
         "undead-hordes"
       ],
-      "structured_data": null
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-undead-hordes.jpg",
+          "name": "Undead Hordes",
+          "url": "https://raid-codex.com/factions/undead-hordes/"
+        }
+      ]
     },
     "giid": "",
     "raw_description": ""
