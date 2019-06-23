@@ -8,15 +8,15 @@
     "campaign": "S",
     "arena_offense": "SS",
     "arena_defense": "A",
-    "clan_boss_without_giant_slayer": "C",
-    "clan_boss_with_giant_slayer": "",
-    "ice_guardian": "SS",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
     "dragon": "S",
-    "spider": "SS",
+    "spider": "S",
     "fire_knight": "C",
     "minotaur": "S",
-    "force_dungeon": "S",
-    "magic_dungeon": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
     "spirit_dungeon": "C",
     "void_dungeon": "A"
   },
@@ -737,7 +737,16 @@
         "Dark Elves",
         "dark-elves"
       ],
-      "structured_data": null
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dark-elves.jpg",
+          "name": "Dark Elves",
+          "url": "https://raid-codex.com/factions/dark-elves/"
+        }
+      ]
     },
     "giid": "",
     "raw_description": ""

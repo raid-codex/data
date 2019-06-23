@@ -6,10 +6,10 @@
   "rating": {
     "overall": "S",
     "campaign": "SS",
-    "arena_offense": "S",
+    "arena_offense": "SS",
     "arena_defense": "S",
-    "clan_boss_without_giant_slayer": "B",
-    "clan_boss_with_giant_slayer": "",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
     "ice_guardian": "S",
     "dragon": "S",
     "spider": "S",
@@ -890,7 +890,16 @@
         "Dark Elves",
         "dark-elves"
       ],
-      "structured_data": null
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dark-elves.jpg",
+          "name": "Dark Elves",
+          "url": "https://raid-codex.com/factions/dark-elves/"
+        }
+      ]
     },
     "giid": "",
     "raw_description": ""
