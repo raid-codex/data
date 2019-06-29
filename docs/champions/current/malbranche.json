@@ -59,10 +59,12 @@
     {
       "passive": false,
       "name": "Gathering Inferno",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy.<br>Ascended Skill<br>Attacks 1 enemy. Decreses [Bomb] debuff detonation countdowns by 1 turn.<br>Damage based on: [ATK]",
       "slug": "gathering-inferno",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3070_s1",
       "upgrades": [
         {
@@ -204,10 +206,28 @@
     {
       "passive": false,
       "name": "Bident Mastery",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 2 times. Places a [Counterattack] buff on this Champion for 2 turns.<br>Damage based on: [ATK]",
       "slug": "bident-mastery",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3070_s2",
       "upgrades": [
         {
@@ -382,10 +402,28 @@
     {
       "passive": false,
       "name": "Demonic Explosives",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a [Bomb] debuff that detonates after 3 turns.<br>Damage based on: [ATK]",
       "slug": "demonic-explosives",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuffs/bomb",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3070_s3",
       "upgrades": [
         {
