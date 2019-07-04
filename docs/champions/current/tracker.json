@@ -50,7 +50,64 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hooked Arrowheads",
+      "raw_description": "Attacks 1 enemy 2 times. The second hit has a 10% chance of placing a 2.5% [Poison] debuff for 2 turns",
+      "slug": "hooked-arrowheads",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuffs/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": false,
+      "name": "Stinging Rebuke",
+      "raw_description": "Attacks 1 enemy. Has a 20M chance of placing a 30% [Decrease DEF] for 2 turns",
+      "slug": "stinging-rebuke",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    }
+  ],
   "faction": {
     "name": "Orcs",
     "slug": "orcs",

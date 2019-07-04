@@ -49,8 +49,78 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 33%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Vitality Censure",
+      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 30% of the damage inflicted",
+      "slug": "vitality-censure",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": false,
+      "name": "No Mercy",
+      "raw_description": "Attacks 1 enemy 3 times. Damage increases equal to the percentage of HP the target has lost",
+      "slug": "no-mercy",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": false,
+      "name": "Tormenting Whispers",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 10% [Leech] debuff for 2 turns",
+      "slug": "tormenting-whispers",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/debuffs/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": true,
+      "name": "Final Doom",
+      "raw_description": "Heals this Champion by 30% of their MAX HP each time they kill an enemy. Enemies killed by this Champion cannot be revided",
+      "slug": "final-doom",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    }
+  ],
   "faction": {
     "name": "Demonspawn",
     "slug": "demonspawn",
@@ -117,7 +187,7 @@
   },
   "default_description": "Inithwe Bloodtwin is a legendary attack champion from the faction Demonspawn doing void damage",
   "recommended_builds": [],
-  "lore": "",
+  "lore": "<p>It is hard to say what kind of kinship might exist between elementals, and yet Inithwe and Drexthar Bloodtwins may indeed be considered brothers. Summoned from the same realm and bound to Siroth's cause, these beings of ancient power are terrifying opponents to face on their own - more so when fighting together. But where Drexthar is fire and destruction, Inithwe is darkness, cold, ruthless, unrelenting.<br>Encased in a suit of armour similar to that of his kindred and armed with a powerful greataxe, Inithwe descends upon his foes with a fury unmatched. His very presence saps away at the life force of those who would oppose him. And while his foes wither and weaken, Inithwe himself grows stronger, feeding off their life's blood and regenerating whatever damage may have been inflicted upon his mortal form.<br>Despite this terrifying power, some scholars theorize that a Void Elemental is not evil per se - it merely follows its nature. If that is true, it would be possible to turn that nature away from the perpetual wickedness of Siroth and put it to better use serving the people of Teleria.</p>",
   "giid": "",
   "synergy": []
 }

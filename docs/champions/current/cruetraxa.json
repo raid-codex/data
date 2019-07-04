@@ -49,8 +49,82 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 24%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Dire Perforation",
+      "raw_description": "Attacks 1 enemy 4 times. Ignores 50% of enemy DEF",
+      "slug": "dire-perforation",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": false,
+      "name": "Curse of Writhing",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. Has a 50% chance of removing 2 random buffs from the target. Grants an Extra Turn",
+      "slug": "curse-of-writhing",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": true,
+      "name": "Rite of Rebirth",
+      "raw_description": "Places a [Revive on Death] buff on this Champion for 2 turns at the beginning of each round. Places [Revive on Death] buff on this Champion for 1 turn when this Champion kills an enemy. (Does not occur with Spiderlings)",
+      "slug": "rite-of-rebirth",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Revive on Death",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/debuffs/revive-on-death",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    }
+  ],
   "faction": {
     "name": "Demonspawn",
     "slug": "demonspawn",
@@ -117,7 +191,7 @@
   },
   "default_description": "Cruetraxa is a legendary attack champion from the faction Demonspawn doing void damage",
   "recommended_builds": [],
-  "lore": "",
+  "lore": "<p>Favoured by Siroth, despised and envied by her peers, Cruetraxa rightfully holds a position of great privilege in the Demonic hierarchy. She is cunning, vengeful, and, above all, skilled in the art of war. Mortal scholars believe she rules over a vast hellish plane of brimstone and fire, a legion of damned souls and lesser demons at her beck and call. Like all of her kind, Cruetraxa is a creature of vice, her arrogance and lust for power permeate everything that she is.<br>In battle, she appears clad in a terrifying armour birthed of dark magic - flesh fused with platinum and enchanted to be harder than dragonscale. Some demonologists even theorize that the armour, in truth, is fused with Cruetraxa’s body. Whatever the truth of the matter may be, delivering the killing blow to this vile warrior has proven to be a very difficult task. Even when brought low, she rises once again, her wounds healed. Worse yet, the armour appears to be siphoning the life of Cruetraxa’s victims and uses it to keep her physical form from being banished.<br>Her spear appears to have been forged in the same ritual. Its edges can effortlessly cut even through the toughest armour. And with her mastery of the dark arts, Cruetraxa can weaken her foes and dispell the magic protecting her foes.</p>",
   "giid": "",
   "synergy": []
 }
