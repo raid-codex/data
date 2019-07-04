@@ -50,7 +50,48 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Suppressive Fire",
+      "raw_description": "Attacks all enemies. Has a 15% chance of increasing the cooldown of a random Skill on each target by 1 turn",
+      "slug": "suppressive-fire",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    },
+    {
+      "passive": false,
+      "name": "Ranger's Skill",
+      "raw_description": "Places a 7.5% [Continuous Heal] buff on all allies for 1 turn",
+      "slug": "ranger-s-skill",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/buffs/continuous-heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": ""
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
