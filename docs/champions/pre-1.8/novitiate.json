@@ -1,0 +1,130 @@
+{
+  "name": "Novitiate",
+  "rarity": "Common",
+  "element": "",
+  "type": "Attack",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": null,
+  "slug": "novitiate",
+  "characteristics": {
+    "60": {
+      "hp": 10245,
+      "attack": 892,
+      "defense": 628,
+      "speed": 83,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Harrying Shot",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5?<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10<br>Lvl. 7 Damage +10%",
+      "slug": "harrying-shot",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2210_s1",
+      "upgrades": [],
+      "image_slug": "5baaba23cf35252a5b523f6ea6e6a8ee",
+      "skill_number": ""
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 0,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": ""
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/novitiate/",
+  "image_slug": "image-champion-novitiate",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Novitiate is a common attack champion from the faction Sacred Order. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Novitiate",
+      "novitiate"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Novitiate is a champion of Common rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-novitiate.jpg",
+        "name": "Novitiate",
+        "url": "https://raid-codex.com/champions/novitiate/"
+      }
+    ]
+  },
+  "default_description": "Novitiate is a common attack champion from the faction Sacred Order",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2210",
+  "synergy": []
+}
