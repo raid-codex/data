@@ -50,7 +50,60 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Binding Arrows",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a 50% [Decrease ACC] for 2 turns",
+      "slug": "binding-arrows",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Thrill of the Hunt",
+      "raw_description": "Attacks 1 enemy 2 times. Heals this Champion by 50% of the damage inflicted on each critical hit",
+      "slug": "thrill-of-the-hunt",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Big Game",
+      "raw_description": "Attacks all enemies 3 times",
+      "slug": "big-game",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dark Elves",
     "slug": "dark-elves",
