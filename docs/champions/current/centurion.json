@@ -50,7 +50,60 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Feed on Suffering",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted",
+      "slug": "feed-on-suffering",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Freakish Resiliance",
+      "raw_description": "Heals this Champion by 30% of their MAX HP and places a 30% [Increase DEF] buff on this Champion for 2 turns",
+      "slug": "freakish-resiliance",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Soul Possession",
+      "raw_description": "Exchanges remaining HP levels with a target enemy, then equalizes the HP of all allies",
+      "slug": "soul-possession",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Knight Revenant",
     "slug": "knight-revenant",
