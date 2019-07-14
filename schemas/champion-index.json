@@ -741,6 +741,15 @@
                 "lore": {
                     "type": "string",
                     "pattern": "^(<p>.+<\/p>)?$"
+                },
+                "thumbnail": {
+                    "type": "string"
+                },
+                "synergy": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/synergy"
+                    }
                 }
             }
         }
