@@ -17,13 +17,16 @@ do
     case $1 in
     "champions")
         cmd_line="--champion-file ${fullpath_file} --data-directory ${data_directory}"
+        cmd=$1
         ;;
     "status-effects")
         cmd_line="--status-effect-file ${fullpath_file}"
+        cmd="status-effect"
         ;;
     "factions")
         cmd_line="--faction-file ${fullpath_file}"
+        cmd=$1
         ;;
     esac
-    raid-codex-cli $1 sanitize $cmd_line
+    raid-codex-cli $cmd sanitize $cmd_line
 done
