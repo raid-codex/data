@@ -6,4 +6,18 @@ then
     exit 1
 fi
 
-raid-codex-cli champions rebuild-index --champions-directory "./docs/$1/current"
+case $1 in
+    "champions")
+        cmd_line="--champions-directory ./docs/$1/current"
+        cmd=$1
+        ;;
+    "status-effects")
+        cmd_line="--status-effect-directory ./docs/$1/current"
+        cmd="status-effect"
+        ;;
+    "factions")
+        cmd_line="--factions-directory ./docs/$1/current"
+        cmd=$1
+        ;;
+    esac
+    raid-codex-cli $cmd rebuild-index $cmd_line
