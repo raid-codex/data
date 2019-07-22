@@ -24,7 +24,7 @@ do
         cmd="status-effect"
         ;;
     "factions")
-        cmd_line="--faction-file ${fullpath_file}"
+        cmd_line="--faction-file ${fullpath_file} --data-directory ${data_directory}"
         cmd=$1
         ;;
     esac
