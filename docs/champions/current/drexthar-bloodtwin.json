@@ -59,9 +59,25 @@
     {
       "passive": false,
       "name": "Eldritch Flames",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 30% chance of placing an [HP Burn] for 2 turns. Heals this Champion by 20% of the damage inflicted if the target is afflicted by a [HP Burn] debuff.<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
       "slug": "eldritch-flames",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3170_s1",
       "upgrades": [
@@ -280,9 +296,25 @@
     {
       "passive": false,
       "name": "Burning Lash",
-      "raw_description": "",
+      "raw_description": "Attacks all enemies. Has a 40% chance of placing a [Provoke] debuff for 1 turn.<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "burning-lash",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3170_s2",
       "upgrades": [
@@ -491,9 +523,25 @@
     {
       "passive": false,
       "name": "Fiery Blood (P)",
-      "raw_description": "",
+      "raw_description": "Has a 55% chance of placing a [HP Burn] debuff when hit.<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%",
       "slug": "fiery-blood--",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3170_s3",
       "upgrades": [
@@ -686,5 +734,6 @@
   "lore": "<p>There are many demonic creatures in service of Siroth, some born of Teleria and its magical ether, others - in the astral planes far beyond the mortal world. Some of these planes consist of naught but eldritch flames and eternal darkness. From there, the Dark Lord summoned forth some of his most powerful minions. Fire Elementals - the personification of rage and destruction given form and will. And among them, Drexthar Bloodtwin is among the most terrifying.</p><p>A being of ancient power, Drexthar's body is little more than an ephemeral spirits created by the ever-burning hellfire. To give him form, Siroth encased the elemental into a suit of might armour and armed him with a vicious blade that feeds on Drexthar's own nature. All those who dare to stand in his way must beware, for not only this servant of Siroth a mighty and experienced warrior that has ended many would-be Champions over thousands of years, but his very being presents a mortal danger as well. Though strikes may yet break through Drexthar's armour, the flames hidden beneath are volatile, hungry, and all too eager to lash out at any creature foolish enough to try extinguishing them.</p><p>Yet Drexthar's nature is also his weakness, for fire does not only consume and destroy - it brings light and warmth as well. Heroes with a sufficiently strong will may be able to bind the elemental to it, cutting him off from his dark master and turning the raw destructive potential to serve good.</p>",
   "giid": "3170",
   "synergy": [],
-  "thumbnail": "73e5080f0f3804cb9cf470a8ce895dac"
+  "thumbnail": "73e5080f0f3804cb9cf470a8ce895dac",
+  "tags": []
 }
