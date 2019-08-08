@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Searing Blow",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5'<br>Lvl. 5 Buff/Debuff Chance +10'<br>Lvl. 6 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5'<br>Lvl. 5 Buff/Debuff Chance +10'<br>Lvl. 6 Damage +10%",
       "slug": "searing-blow",
       "effects": [
         {
@@ -90,7 +90,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.25,
+              "chance": 0.6,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -123,7 +123,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.25,
+              "chance": 0.6,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -156,7 +156,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.25,
+              "chance": 0.6,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -189,7 +189,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.3,
+              "chance": 0.65,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -222,7 +222,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.4,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -255,7 +255,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.4,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -705,5 +705,7 @@
   "giid": "2550",
   "synergy": [],
   "thumbnail": "85353d3b2f39b9c9b5ee3576578c04b7",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }

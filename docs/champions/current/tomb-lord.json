@@ -255,7 +255,7 @@
     {
       "passive": false,
       "name": "Death Burst",
-      "raw_description": "Attacks 1 enemy. Has a 70% chance of placing three 5% [Poison] debuffs on all enemies for 1 turn if the target is killed by this attack. This skill always inflicts a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Has a 70% chance of placing four 5% [Poison] debuffs on all enemies for 1 turn if the hit is critical<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "death-burst",
       "effects": [
         {
@@ -287,24 +287,6 @@
             "targets": "1(all)"
           },
           "effects": [
-            {
-              "effect_type": "battle_enhancement",
-              "type": "Always Crit",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-always-crit",
-              "slug": "always-crit",
-              "website_link": "/battle_enhancements/always-crit",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
             {
               "effect_type": "debuff",
               "type": "Poison",
@@ -339,24 +321,6 @@
           },
           "effects": [
             {
-              "effect_type": "battle_enhancement",
-              "type": "Always Crit",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-always-crit",
-              "slug": "always-crit",
-              "website_link": "/battle_enhancements/always-crit",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
@@ -389,24 +353,6 @@
             "targets": "1(all)"
           },
           "effects": [
-            {
-              "effect_type": "battle_enhancement",
-              "type": "Always Crit",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-always-crit",
-              "slug": "always-crit",
-              "website_link": "/battle_enhancements/always-crit",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
             {
               "effect_type": "debuff",
               "type": "Poison",
@@ -441,24 +387,6 @@
           },
           "effects": [
             {
-              "effect_type": "battle_enhancement",
-              "type": "Always Crit",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-always-crit",
-              "slug": "always-crit",
-              "website_link": "/battle_enhancements/always-crit",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
@@ -492,24 +420,6 @@
           },
           "effects": [
             {
-              "effect_type": "battle_enhancement",
-              "type": "Always Crit",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-always-crit",
-              "slug": "always-crit",
-              "website_link": "/battle_enhancements/always-crit",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
@@ -541,7 +451,7 @@
     {
       "passive": false,
       "name": "Blight",
-      "raw_description": "Resets the Turn Meter of all enemies with less than 50% HP. Has an 80% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has an 80% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns.<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Resets the Turn Meter of all enemies with less than 50% HP. Has an 80% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has an 80% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns.<br>Gets an Extra Turn if an enemy's Turn Meter is Reset by this skill<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
       "slug": "blight",
       "effects": [
         {
@@ -979,5 +889,7 @@
   "giid": "350",
   "synergy": [],
   "thumbnail": "9de6d14fff9806d4bcd1ef555be766cd",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }

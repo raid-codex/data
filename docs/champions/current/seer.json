@@ -381,9 +381,25 @@
     {
       "passive": false,
       "name": "Karma Burn",
-      "raw_description": "Removes all buffs from all allies and enemies, then attacks all enemies. Damage increases according to the number of buffs removed.<br>Damage based on: [ATK] [Enemy MAX HP]<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Removes all buffs from all allies and enemies, then attacks all enemies. Damage increases according to the number of buffs removed. Has a 50% chance of placing a [Sleep] debuff on all enemies for 1 turn. The chance of placing the [Sleep] debuff increases by 5% for each buff removed. Inflicts less damages to bosses<br>Damage based on: [ATK] [Enemy MAX HP]<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "karma-burn",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 1,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "-",
+          "amount": 1
+        }
+      ],
       "damaged_based_on": [
         "ATK",
         "Enemy MAX HP"
@@ -666,5 +682,7 @@
   "giid": "1330",
   "synergy": [],
   "thumbnail": "fe51510c80bfd6e5d78a164cd5b1f688",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }
