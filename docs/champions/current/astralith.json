@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ACC in the Arena by 90.",
+      "raw_description": "Increases Ally SPD in the Arena by 28%.",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Assault Leader",
-      "raw_description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter by 30% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter of all allies by 15% if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "assault-leader",
       "effects": [],
       "damaged_based_on": [
@@ -78,7 +78,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Increase Turn Meter",
-              "value": 0.3,
+              "value": 0.15,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -111,7 +111,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Increase Turn Meter",
-              "value": 0.3,
+              "value": 0.15,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -144,7 +144,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Increase Turn Meter",
-              "value": 0.3,
+              "value": 0.15,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -177,7 +177,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Increase Turn Meter",
-              "value": 0.3,
+              "value": 0.15,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -210,7 +210,7 @@
             {
               "effect_type": "battle_enhancement",
               "type": "Increase Turn Meter",
-              "value": 0.3,
+              "value": 0.15,
               "chance": 0,
               "turns": 0,
               "target": {
@@ -239,7 +239,7 @@
     {
       "passive": false,
       "name": "Heart Rot",
-      "raw_description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "heart-rot",
       "effects": [
         {
@@ -435,7 +435,7 @@
     {
       "passive": false,
       "name": "Judgement",
-      "raw_description": "Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a boss.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a boss.<br>Passive: Gains an Extra Turn and decreases the cooldown of this Skill by 3 turns if this Champion's HP drops below 20% when attacked<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "judgement",
       "effects": [],
       "damaged_based_on": [],
@@ -600,5 +600,7 @@
   "giid": "90",
   "synergy": [],
   "thumbnail": "8613985ec49eb8f757ae6439e879bb2a",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }

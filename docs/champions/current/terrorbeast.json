@@ -239,9 +239,28 @@
     {
       "passive": false,
       "name": "Shriek",
-      "raw_description": "Attacks 2 times at random. Damage inflicted is proportional to this Champion's MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 2 times at random. Places a 30% [Reflect Damage] buff on all allies for 3 turns. Damage inflicted is proportional to this Champion's MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
       "slug": "shriek",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0.3,
+          "chance": 1,
+          "turns": 3,
+          "target": {
+            "who": "all allies",
+            "targets": ""
+          },
+          "image_slug": "image-buff-reflect-damage",
+          "slug": "reflect-damage",
+          "website_link": "/buffs/reflect-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "-",
+          "amount": 1
+        }
+      ],
       "damaged_based_on": [
         "HP"
       ],
@@ -452,9 +471,25 @@
     {
       "passive": false,
       "name": "Flesh Feast",
-      "raw_description": "Attacks 1 enemy 2 times. Fully heals this Champion if the target is killed by this attack.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 2 times. Fully heals this Champion if the target is killed by this attack. Places a [Stun] debuff for 2 turns if the target survives.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
       "slug": "flesh-feast",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -691,5 +726,7 @@
   "giid": "1310",
   "synergy": [],
   "thumbnail": "535ab76633d94208236a2e829ea6d888",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }

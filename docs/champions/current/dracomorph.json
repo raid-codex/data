@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Seeping Pain",
-      "raw_description": "Attacks 1 enemy. Will attack 1 random enemy with any surplus damage if the target is killed. Damage inflicted is equal to triple the surplus damage.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage infliected is equal to 3 times the surplus damage.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "seeping-pain",
       "effects": [],
       "damaged_based_on": [
@@ -234,7 +234,7 @@
     {
       "passive": false,
       "name": "Poison Jaws",
-      "raw_description": "Attacks 3 times at random. Has a 75% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 4 times at random. Each hit places a 5% [Poison] debuff for 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "poison-jaws",
       "effects": [
         {
@@ -260,7 +260,7 @@
       "upgrades": [
         {
           "level": "Level 1",
-          "hits": 3,
+          "hits": 4,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -270,8 +270,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.75,
-              "turns": 2,
+              "chance": 1,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -293,7 +293,7 @@
         },
         {
           "level": "Level 2",
-          "hits": 3,
+          "hits": 4,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -303,8 +303,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.75,
-              "turns": 2,
+              "chance": 1,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -326,7 +326,7 @@
         },
         {
           "level": "Level 3",
-          "hits": 3,
+          "hits": 4,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -336,8 +336,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.85,
-              "turns": 2,
+              "chance": 1,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -359,7 +359,7 @@
         },
         {
           "level": "Level 4",
-          "hits": 3,
+          "hits": 4,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -370,7 +370,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 1,
-              "turns": 2,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -392,7 +392,7 @@
         },
         {
           "level": "Level 5",
-          "hits": 3,
+          "hits": 4,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -403,7 +403,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 1,
-              "turns": 2,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -430,7 +430,7 @@
     {
       "passive": false,
       "name": "Baleful Eye",
-      "raw_description": "Places a 25% [Weaken] debuff and a 30% [Decrease DEF] debuff on all enemies for 2 turns. * Weaken<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 25% [Weaken] debuff and a 36% [Decrease DEF] debuff on all enemies for 2 turns. * Weaken<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "baleful-eye",
       "effects": [
         {
@@ -440,10 +440,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def",
-          "slug": "decrease-def",
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0
@@ -478,17 +478,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
+              "value": 0.6,
               "chance": 0,
               "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -527,17 +527,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
+              "value": 0.6,
               "chance": 0,
               "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -576,17 +576,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
+              "value": 0.6,
               "chance": 0,
               "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -680,5 +680,7 @@
   "giid": "1360",
   "synergy": [],
   "thumbnail": "fb508ef074ee78a0e58c68be06d8a2eb",
-  "tags": []
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ]
 }
