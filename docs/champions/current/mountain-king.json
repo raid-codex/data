@@ -39,7 +39,7 @@
   "slug": "mountain-king",
   "characteristics": {
     "60": {
-      "hp": 15525,
+      "hp": 20145,
       "attack": 1432,
       "defense": 1112,
       "speed": 101,
@@ -54,11 +54,12 @@
     {
       "passive": false,
       "name": "Thunder Cleave",
-      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK][HP]",
       "slug": "thunder-cleave",
       "effects": [],
       "damaged_based_on": [
-        "ATK"
+        "ATK",
+        "HP"
       ],
       "giid": "4270_s1",
       "upgrades": [],
@@ -68,11 +69,12 @@
     {
       "passive": false,
       "name": "Enchanted Axe",
-      "raw_description": "Attacks 1 enemy.<br>Ignores 50% of the targer's DEF.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy.<br>Ignores 50% of the targer's DEF.<br>Damage based on: [ATK][HP]",
       "slug": "enchanted-axe",
       "effects": [],
       "damaged_based_on": [
-        "ATK"
+        "ATK",
+        "HP"
       ],
       "giid": "4270_s2",
       "upgrades": [],
@@ -82,7 +84,7 @@
     {
       "passive": false,
       "name": "Regal Force",
-      "raw_description": "Attacks 1 enemy.<br>Ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy.<br>Ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK][HP]",
       "slug": "regal-force",
       "effects": [
         {
@@ -117,7 +119,8 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "ATK",
+        "HP"
       ],
       "giid": "4270_s3",
       "upgrades": [],
@@ -127,7 +130,7 @@
     {
       "passive": true,
       "name": "Fabled Skill",
-      "raw_description": "Increases this Champion's ATK by 2°% each time this Champion kills an enemy. Stacks up to 40%. Resets each round.",
+      "raw_description": "Increases this Champion's ATK by 50% each time this Champion kills an enemy. Stacks up to 100%. Resets each round.",
       "slug": "fabled-skill",
       "effects": [],
       "damaged_based_on": [],
@@ -143,7 +146,7 @@
     "website_link": "/factions/dwarves/",
     "image_slug": "image-faction-dwarves",
     "number_of_champions": 10,
-    "default_description": "Dwarves is a faction from RAID Shadow Legends",
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 10 champions",
     "seo": {
       "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
       "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
@@ -208,6 +211,7 @@
   "synergy": [],
   "thumbnail": "39b8f721582654655a6999aabe905204",
   "tags": [
+    "CHAMPION_UPDATED_20190809",
     "NEW_CHAMPION_20190808"
   ]
 }
