@@ -9,14 +9,13 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             "name": champion.get("name"),
             "element": champion.get("element"),
             "type": champion.get("type"),
-            "faction": {
-                "slug": champion.get("faction", {}).get("slug"),
-                "name": champion.get("faction", {}).get("name"),
-            },
+            "rarity": champion.get("rarity"),
             "faction_slug": champion.get("faction_slug"),
             "rating": {
                 "overall": champion.get("rating", {}).get("overall"),
             },
+            "thumbnail": champion.get("thumbnail"),
+            "website_link": champion.get("website_link"),
             "skills": [],
             "tags": champion.get("tags", []),
         }
@@ -33,5 +32,5 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             }
             new_data.get("skills").append(s)
         data.append(new_data)
-with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/current/index-small.json", "w") as f2:
+with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/index-small.json", "w") as f2:
     f2.write(json.dumps(data))
