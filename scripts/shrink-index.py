@@ -11,9 +11,7 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             "type": champion.get("type"),
             "rarity": champion.get("rarity"),
             "faction_slug": champion.get("faction_slug"),
-            "rating": {
-                "overall": champion.get("rating", {}).get("overall"),
-            },
+            "rating": champion.get("rating"),
             "thumbnail": champion.get("thumbnail"),
             "website_link": champion.get("website_link"),
             "skills": [],
@@ -32,4 +30,4 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             new_data.get("skills").append(s)
         data.append(new_data)
 with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/index-small.json", "w") as f2:
-    f2.write(json.dumps(data))
+    f2.write(json.dumps(data, separators=(',', ':')))
