@@ -19,5 +19,9 @@ case $1 in
         cmd_line="--factions-directory ./docs/$1/current"
         cmd=$1
         ;;
+    "fusions")
+        cmd_line="--fusion-directory ./docs/$1/current"
+        cmd=$1
+        ;;
     esac
     raid-codex-cli $cmd rebuild-index $cmd_line

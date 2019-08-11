@@ -27,6 +27,10 @@ do
         cmd_line="--faction-file ${fullpath_file} --data-directory ${data_directory}"
         cmd=$1
         ;;
+    "fusions")
+        cmd_line="--fusion-file ${fullpath_file} --data-directory ${data_directory}"
+        cmd=$1
+        ;;
     esac
     raid-codex-cli $cmd sanitize $cmd_line
 done
