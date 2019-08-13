@@ -517,12 +517,41 @@
     {
       "passive": false,
       "name": "Arctic Winds",
-      "raw_description": "Places a 30% [ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 30% [Increase SPD] and a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "arctic-winds",
-      "effects": [],
-      "damaged_based_on": [
-        "ATK"
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd",
+          "website_link": "/buffs/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
       ],
+      "damaged_based_on": [],
       "giid": "3030_s3",
       "upgrades": [
         {
