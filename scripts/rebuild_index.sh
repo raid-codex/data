@@ -12,7 +12,7 @@ case $1 in
         cmd=$1
         ;;
     "status-effects")
-        cmd_line="--status-effect-directory ./docs/$1/current"
+        cmd_line="--status-effects-directory ./docs/$1/current"
         cmd="status-effect"
         ;;
     "factions")
