@@ -1,7 +1,7 @@
 {
-  "name": "Rock Breaker",
+  "name": "Rearguard Sergeant",
   "rarity": "Epic",
-  "element": "Spirit",
+  "element": "Force",
   "type": "Def",
   "rating": {
     "overall": "",
@@ -36,94 +36,128 @@
     "spirit_dungeon": 0,
     "void_dungeon": 0
   },
-  "slug": "rock-breaker",
+  "slug": "rearguard-sergeant",
   "characteristics": {
     "60": {
       "hp": 18495,
-      "attack": 716,
-      "defense": 1354,
-      "speed": 91,
+      "attack": 859,
+      "defense": 1211,
+      "speed": 97,
       "critical_rate": 0.15,
       "critical_damage": 0.5,
-      "resistance": 45,
+      "resistance": 44,
       "accuracy": 0
     }
   },
   "auras": [
     {
-      "raw_description": "Increases Ally DEF in the Arena by 30%",
+      "raw_description": "Increases Force Ally HP in all Battles by 33%",
       "effects": []
     }
   ],
   "skills": [
     {
       "passive": false,
-      "name": "Whirling Hammers",
-      "raw_description": "Attacks 1 enemy.<br>Increases this Champion's DEF by 4% each time this Skill is used. Stacks up to 20%.<br>Damage based on: [DEF]",
-      "slug": "whirling-hammers",
-      "effects": [],
-      "damaged_based_on": [
-        "DEF"
-      ],
-      "giid": "4160_s1",
-      "upgrades": [],
-      "image_slug": "4d44446fbd169e7831b9739b44b28302",
-      "skill_number": "A1"
-    },
-    {
-      "passive": false,
-      "name": "Chest Thump",
-      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn.<br>Places a [Counterattack] buff on this Champion for 2 turns",
-      "slug": "chest-thump",
+      "name": "Crushing Impact",
+      "raw_description": "Attacks 1 enemy. Has a 40% chacne of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "slug": "crushing-impact",
       "effects": [
         {
-          "effect_type": "buff",
-          "type": "Counterattack",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-counterattack",
-          "slug": "counterattack",
-          "website_link": "/buffs/counterattack",
-          "extra": false,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4210_s1",
+      "upgrades": [],
+      "image_slug": "22913cdc87bb88cefcad049ce4eda9b2",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flail Master",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Heals this Champion by 25% of the damage inflicted.<br>Damage based on: [DEF]",
+      "slug": "flail-master",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4210_s2",
+      "upgrades": [],
+      "image_slug": "fcb16d3bc034d761beef1bb95772375a",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fend Them Off",
+      "raw_description": "Places a 50% [Ally Protection] buff an a 15% [Continuous Heal] buff on all allies except this Champion for 2 turns.",
+      "slug": "fend-them-off",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/buffs/ally-protection",
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0
         },
         {
-          "effect_type": "debuff",
-          "type": "Provoke",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-provoke",
-          "slug": "provoke",
-          "website_link": "/debuffs/provoke",
-          "extra": false,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0
         }
       ],
       "damaged_based_on": [],
-      "giid": "4160_s2",
+      "giid": "4210_s3",
       "upgrades": [],
-      "image_slug": "e6358876ec9d8d0960570fe7a5709dd5",
-      "skill_number": "A2"
-    },
-    {
-      "passive": true,
-      "name": "Iron Hide",
-      "raw_description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked",
-      "slug": "iron-hide",
-      "effects": [],
-      "damaged_based_on": [],
-      "giid": "4160_s3",
-      "upgrades": [],
-      "image_slug": "edc683159fe79fd1bb26139a23354bc4",
-      "skill_number": "P1"
+      "image_slug": "17669c4cd02f5e98ba91f659e9f5e51d",
+      "skill_number": "A3"
     }
   ],
   "faction": {
@@ -159,11 +193,11 @@
     "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
   },
   "faction_slug": "dwarves",
-  "website_link": "/champions/rock-breaker/",
-  "image_slug": "image-champion-rock-breaker",
+  "website_link": "/champions/rearguard-sergeant/",
+  "image_slug": "image-champion-rearguard-sergeant",
   "seo": {
     "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
-    "description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "description": "Rearguard Sergeant is a epic def champion from the faction Dwarves doing force damage. Find out more on this Raid Shadow Legends codex.",
     "keywords": [
       "raid",
       "shadow",
@@ -171,8 +205,8 @@
       "champions",
       "tier",
       "list",
-      "Rock Breaker",
-      "rock-breaker"
+      "Rearguard Sergeant",
+      "rearguard-sergeant"
     ],
     "structured_data": [
       {
@@ -183,21 +217,21 @@
           "@type": "Organization",
           "name": "Dwarves"
         },
-        "description": "Member of the faction Dwarves, Rock Breaker is a champion of Epic rarity and of Def type",
-        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rock-breaker.jpg",
-        "name": "Rock Breaker",
-        "url": "https://raid-codex.com/champions/rock-breaker/"
+        "description": "Member of the faction Dwarves, Rearguard Sergeant is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rearguard-sergeant.jpg",
+        "name": "Rearguard Sergeant",
+        "url": "https://raid-codex.com/champions/rearguard-sergeant/"
       }
     ]
   },
-  "default_description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage",
+  "default_description": "Rearguard Sergeant is a epic def champion from the faction Dwarves doing force damage",
   "recommended_builds": [],
   "lore": "",
-  "giid": "4160",
+  "giid": "4210",
   "synergy": [],
-  "thumbnail": "f816dc0acface7498e10496222e9db10",
+  "thumbnail": "ef35613fc5fa4c4c512d552533f5e6f2",
   "tags": [
-    "NEW_CHAMPION_20190808"
+    "NEW_CHAMPION_DWARVES_20190906"
   ],
   "masteries": [],
   "fusion_data": []
