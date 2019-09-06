@@ -1,10 +1,10 @@
 {
-  "name": "Rock Breaker",
-  "rarity": "Epic",
+  "name": "Tunnel Steward",
+  "rarity": "Uncommon",
   "element": "Spirit",
-  "type": "Def",
+  "type": "Attack",
   "rating": {
-    "overall": "",
+    "overall": "D",
     "campaign": "",
     "arena_offense": "",
     "arena_defense": "",
@@ -36,94 +36,64 @@
     "spirit_dungeon": 0,
     "void_dungeon": 0
   },
-  "slug": "rock-breaker",
+  "slug": "tunnel-steward",
   "characteristics": {
     "60": {
-      "hp": 18495,
-      "attack": 716,
-      "defense": 1354,
-      "speed": 91,
+      "hp": 8925,
+      "attack": 1255,
+      "defense": 903,
+      "speed": 95,
       "critical_rate": 0.15,
       "critical_damage": 0.5,
-      "resistance": 45,
+      "resistance": 30,
       "accuracy": 0
     }
   },
-  "auras": [
-    {
-      "raw_description": "Increases Ally DEF in the Arena by 30%",
-      "effects": []
-    }
-  ],
+  "auras": [],
   "skills": [
     {
       "passive": false,
-      "name": "Whirling Hammers",
-      "raw_description": "Attacks 1 enemy.<br>Increases this Champion's DEF by 4% each time this Skill is used. Stacks up to 20%.<br>Damage based on: [DEF]",
-      "slug": "whirling-hammers",
-      "effects": [],
-      "damaged_based_on": [
-        "DEF"
-      ],
-      "giid": "4160_s1",
-      "upgrades": [],
-      "image_slug": "4d44446fbd169e7831b9739b44b28302",
-      "skill_number": "A1"
-    },
-    {
-      "passive": false,
-      "name": "Chest Thump",
-      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn.<br>Places a [Counterattack] buff on this Champion for 2 turns",
-      "slug": "chest-thump",
+      "name": "Vermin Killer",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 2.5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "vermin-killer",
       "effects": [
         {
-          "effect_type": "buff",
-          "type": "Counterattack",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-counterattack",
-          "slug": "counterattack",
-          "website_link": "/buffs/counterattack",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
           "effect_type": "debuff",
-          "type": "Provoke",
+          "type": "Poison",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-provoke",
-          "slug": "provoke",
-          "website_link": "/debuffs/provoke",
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuffs/poison",
           "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0
         }
       ],
-      "damaged_based_on": [],
-      "giid": "4160_s2",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4340_s1",
       "upgrades": [],
-      "image_slug": "e6358876ec9d8d0960570fe7a5709dd5",
-      "skill_number": "A2"
+      "image_slug": "e6fba41fdb65c90cdb09f45a217979d4",
+      "skill_number": "A1"
     },
     {
-      "passive": true,
-      "name": "Iron Hide",
-      "raw_description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked",
-      "slug": "iron-hide",
+      "passive": false,
+      "name": "Intensify",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of increasing the duration of 2 random debuffs on the target by 1 turn.<br>Damage based on: [ATK]",
+      "slug": "intensify",
       "effects": [],
-      "damaged_based_on": [],
-      "giid": "4160_s3",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4340_s2",
       "upgrades": [],
-      "image_slug": "edc683159fe79fd1bb26139a23354bc4",
-      "skill_number": "P1"
+      "image_slug": "b7d4614c72a8c9168d7c486915fa8305",
+      "skill_number": "A2"
     }
   ],
   "faction": {
@@ -159,11 +129,11 @@
     "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
   },
   "faction_slug": "dwarves",
-  "website_link": "/champions/rock-breaker/",
-  "image_slug": "image-champion-rock-breaker",
+  "website_link": "/champions/tunnel-steward/",
+  "image_slug": "image-champion-tunnel-steward",
   "seo": {
     "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
-    "description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "description": "Tunnel Steward is a uncommon attack champion from the faction Dwarves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
     "keywords": [
       "raid",
       "shadow",
@@ -171,8 +141,8 @@
       "champions",
       "tier",
       "list",
-      "Rock Breaker",
-      "rock-breaker"
+      "Tunnel Steward",
+      "tunnel-steward"
     ],
     "structured_data": [
       {
@@ -183,21 +153,33 @@
           "@type": "Organization",
           "name": "Dwarves"
         },
-        "description": "Member of the faction Dwarves, Rock Breaker is a champion of Epic rarity and of Def type",
-        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rock-breaker.jpg",
-        "name": "Rock Breaker",
-        "url": "https://raid-codex.com/champions/rock-breaker/"
+        "description": "Member of the faction Dwarves, Tunnel Steward is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tunnel-steward.jpg",
+        "name": "Tunnel Steward",
+        "url": "https://raid-codex.com/champions/tunnel-steward/"
       }
     ]
   },
-  "default_description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage",
+  "default_description": "Tunnel Steward is a uncommon attack champion from the faction Dwarves doing spirit damage",
   "recommended_builds": [],
   "lore": "",
-  "giid": "4160",
-  "synergy": [],
-  "thumbnail": "f816dc0acface7498e10496222e9db10",
+  "giid": "4340",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "61f3a6dbc9120ea78ef75544826c814e",
   "tags": [
-    "NEW_CHAMPION_20190808"
+    "NEW_CHAMPION_DWARVES_20190906"
   ],
   "masteries": [],
   "fusion_data": []
