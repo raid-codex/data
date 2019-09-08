@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 33%.",
+      "raw_description": "Increases Ally Attack in all battles by 33%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Trample",
-      "raw_description": "Attacks 1 enemy. Will attack all remaining enemies with any surplus skill, Skypiercer, for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Will attack all remaining enemies with any surplus skill, Skypiercer, for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "trample",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "380_s1",
       "upgrades": [
         {
@@ -329,7 +327,7 @@
     {
       "passive": false,
       "name": "Split Asunder",
-      "raw_description": "Attacks 1 enemy. Places a 60% [Decrease DEF] debuff for 2 turns. This debuff is guaranteed. Has a 20% chance of unlocking a secret Skill, Skypiercer, for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places a 60% [Decrease DEF] debuff for 2 turns. This debuff is guaranteed. Has a 20% chance of unlocking a secret Skill, Skypiercer, for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "split-asunder",
       "effects": [
         {
@@ -615,12 +613,10 @@
     {
       "passive": false,
       "name": "Righteous Charge",
-      "raw_description": "Attacks 1 enemy. Damage increases according to the number of buffs on this Champion. Has a 40% chance to unlock a secret skill, Skypiercer, for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Damage increases according to the number of buffs on this Champion. Has a 40% chance to unlock a secret skill, Skypiercer, for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Cooldown -1.<br>Lvl. 5 Cooldown -1.",
       "slug": "righteous-charge",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "380_s3",
       "upgrades": [
         {
@@ -885,7 +881,7 @@
     {
       "passive": false,
       "name": "Skypiercer",
-      "raw_description": "Attacks all enemies. Deals Pure Damage. Will ignore [Shield] and {Block Damage] buffs.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks all enemies. Deals Pure Damage. Will ignore [Shield] and {Block Damage] buffs. Damage based on ATK",
       "slug": "skypiercer",
       "effects": [
         {

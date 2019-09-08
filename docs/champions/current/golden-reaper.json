@@ -49,26 +49,42 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Accuracy in Faction Crypts by 40",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Harvest of Blood",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of decreasing the cooldown of one of a random ally's Skills by 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of decreasing the cooldown of one of a random ally’s Skills by 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "harvest-of-blood",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3280_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "68fb6ddc34b83f39137e7f5706f25534",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Maelstrom",
-      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Decreases the Turn Meter of each target by 20% if they are not under a [Decrease ATK] debuff.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Decreases the Turn Meter of each target by 20% if they are not under a [Decrease ATK] debuff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +10%.",
       "slug": "maelstrom",
       "effects": [
         {
@@ -91,14 +107,27 @@
         "ATK"
       ],
       "giid": "3280_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "e9f1ec848e01b3d134339a1b0a42c85e",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Alacrity",
-      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns and boosts their Turn Meter by 20%",
+      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns and boosts their Turn Meter by 20%.<br>Lvl. 2 Cooldown -1.",
       "slug": "alacrity",
       "effects": [
         {
@@ -119,7 +148,20 @@
       ],
       "damaged_based_on": [],
       "giid": "3280_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "f5ee2e7bab8dc8ef690b7cf9ffcc785b",
       "skill_number": "A3"
     }

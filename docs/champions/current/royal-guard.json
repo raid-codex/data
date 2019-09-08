@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases ally ATK in Dungeons by 35%",
+      "raw_description": "Increases Ally Attack in Dungeons by 35%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Razor Blade",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.",
       "slug": "razor-blade",
       "effects": [
         {
@@ -255,13 +255,10 @@
     {
       "passive": false,
       "name": "Takedown",
-      "raw_description": "Attacks all enemies. Damage increases according to enemy MAX HP.<br>Damage based on: [ATK] [Enemy MAX HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks all enemies. Damage increases according to enemy MAX HP. Damage based on ATK | ENEMY MAX HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "takedown",
       "effects": [],
-      "damaged_based_on": [
-        "ATK",
-        "Enemy MAX HP"
-      ],
+      "damaged_based_on": [],
       "giid": "130_s2",
       "upgrades": [
         {
@@ -441,7 +438,7 @@
     {
       "passive": false,
       "name": "Hamstring",
-      "raw_description": "Attacks 4 times at random. Each hit has a 60% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 60% chance of decreasing the target's Turn Meter by 25%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 4 times at random. Each hit has a 60% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 60% chance of decreasing the target's Turn Meter by 25%. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "hamstring",
       "effects": [
         {

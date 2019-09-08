@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Destabilize",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a 15% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a 15% [Weaken] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "destabilize",
       "effects": [
         {
@@ -77,14 +77,27 @@
         "ATK"
       ],
       "giid": "3150_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "95b7f0264912efe458dd4ffd4dbaddc1",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Accursed Scythe",
-      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a [Block Buffs] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "accursed-scythe",
       "effects": [
         {
@@ -107,21 +120,45 @@
         "ATK"
       ],
       "giid": "3150_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "e0dbf20e28f05be75208824d2e7ea8ce",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Temporal Burst",
-      "raw_description": "Attacks 1 enemy. Has a 90% chance of increasing the cooldown of one of the target's Skills by 2 turns at random.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 90% chance of increasing the cooldown of one of the target’s Skills by 2 turns at random. Damage based on ATK<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "temporal-burst",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3150_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "af3f319cde8ac86ff1a0fb033460709e",
       "skill_number": "A3"
     }

@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally DEF in Dungeons by 33%.",
+      "raw_description": "Increases Ally Defense in Dungeons by 33%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Whack",
-      "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 20% if this attack is critical.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 20% if this attack is critical. Damage based on HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "whack",
       "effects": [],
-      "damaged_based_on": [
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "1660_s1",
       "upgrades": [
         {
@@ -239,12 +237,10 @@
     {
       "passive": false,
       "name": "Lightning Strike",
-      "raw_description": "Attacks 1 enemy.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Damage based on HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "lightning-strike",
       "effects": [],
-      "damaged_based_on": [
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "1660_s2",
       "upgrades": [
         {

@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in the Arena by 30%.",
+      "raw_description": "Increases Ally Attack in Arena by 30%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Death from Above",
-      "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "death-from-above",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1350_s1",
       "upgrades": [
         {
@@ -239,12 +237,10 @@
     {
       "passive": false,
       "name": "Final Blow",
-      "raw_description": "Attacks 1 enemy. If the target has less than 30% HP, this attack is always critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. If the target has less than 30% HP, this attack is always critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "final-blow",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1350_s2",
       "upgrades": [
         {
@@ -419,7 +415,7 @@
     {
       "passive": false,
       "name": "Decimate",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff and a 50% [Decrease ACC] debuff on all enemies except the target for 2 turns if this attack is critical.<br>Damage based on: [ATK] e Decrease ACC<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff and a 50% [Decrease ACC] debuff on all enemies except the target for 2 turns if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "decimate",
       "effects": [
         {

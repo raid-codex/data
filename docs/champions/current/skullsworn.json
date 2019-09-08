@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Speed in Faction Crypts by 13%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Vicious Rip",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Buff/Debuff Chance +5%<br>Lvl. 8 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +5%.<br>Lvl. 8 Chance +5%.",
       "slug": "vicious-rip",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "890_s1",
       "upgrades": [
         {
@@ -333,7 +336,7 @@
     {
       "passive": false,
       "name": "Cry For Blood",
-      "raw_description": "Places a 30% [Increase SPD] buff on this Champion for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 30% [Increase SPD] buff on this Champion for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "cry-for-blood",
       "effects": [
         {

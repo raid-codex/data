@@ -84,7 +84,7 @@
     {
       "passive": false,
       "name": "Marauder",
-      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 3 turns. Has a 75% chance of stealing 2 random buffs from the target. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF] dl Provoke<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 3 turns. Has a 75% chance of stealing 2 random buffs from the target. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Cooldown -1.",
       "slug": "marauder",
       "effects": [
         {
@@ -472,7 +472,7 @@
     {
       "passive": true,
       "name": "Standstill",
-      "raw_description": "DEF increases by 10% for each dead ally.",
+      "raw_description": "Reflects 30% of the damage taken back to the attacker. DEF increases by 10% for each dead ally.",
       "slug": "standstill",
       "effects": [],
       "damaged_based_on": [],
@@ -534,9 +534,25 @@
     {
       "passive": false,
       "name": "Brutal Force",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 15% chance of placing a [Provoke] debuff for 1 turn. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Chance +10%.",
       "slug": "brutal-force",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "",
       "upgrades": [

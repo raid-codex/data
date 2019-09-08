@@ -49,12 +49,17 @@
       "accuracy": 10
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Hit Point in Faction Crypts by 44%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Exacerbate",
-      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if an enemy has a [Provoke] debuff.<br>Damage based on: [ATK] [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if an enemy has a [Provoke] debuff. Damage based on ATK | HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "exacerbate",
       "effects": [
         {
@@ -222,7 +227,7 @@
     {
       "passive": false,
       "name": "Infuriate",
-      "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns.<br>Damage based on: [ATK] [HP] mh Reflect Damage<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns. Damage based on ATK | HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "infuriate",
       "effects": [
         {
@@ -529,7 +534,7 @@
     {
       "passive": true,
       "name": "Bravado",
-      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 2% (up to 10% in one round).<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%",
+      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 2% (up to 10% in one round).<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Chance +5%.",
       "slug": "bravado",
       "effects": [
         {

@@ -49,18 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Defense in Faction Crypts by 33%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Denigration",
-      "raw_description": "Attacks 1 enemy 2 times. Decreases Turn Meter by 10% on each hit if the target has any buffs.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%",
+      "raw_description": "Attacks 1 enemy 2 times. Decreases Turn Meter by 10% on each hit if the target has any buffs. Damage based on ATK | DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Damage +5%.",
       "slug": "denigration",
       "effects": [],
-      "damaged_based_on": [
-        "ATK",
-        "DEF"
-      ],
+      "damaged_based_on": [],
       "giid": "2160_s1",
       "upgrades": [
         {
@@ -274,7 +276,7 @@
     {
       "passive": false,
       "name": "Stand Firm",
-      "raw_description": "Attacks all enemies. Places a [Shield] buff on all allies for 3 turns and a [Counterattack] buff on all allies for 2 turns. The value of [Shield] and the damage inflicted are proportional to this Champion's DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Shield +10%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Shield +10%<br>Lvl. 6 Damage +10%<br>Lvl. 7 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a [Shield] buff on all allies for 3 turns and a [Counterattack] buff on all allies for 2 turns. The value of [Shield] and the damage inflicted are proportional to this Champion's DEF. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Shield +10%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Shield +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Cooldown -1.",
       "slug": "stand-firm",
       "effects": [
         {

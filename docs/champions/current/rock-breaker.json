@@ -59,21 +59,32 @@
     {
       "passive": false,
       "name": "Whirling Hammers",
-      "raw_description": "Attacks 1 enemy.<br>Increases this Champion's DEF by 4% each time this Skill is used. Stacks up to 20%.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Increases this Champion’s DEF by 4% each time this Skill is used. Stacks up to 20%. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "whirling-hammers",
       "effects": [],
-      "damaged_based_on": [
-        "DEF"
-      ],
+      "damaged_based_on": [],
       "giid": "4160_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "4d44446fbd169e7831b9739b44b28302",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Chest Thump",
-      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn.<br>Places a [Counterattack] buff on this Champion for 2 turns",
+      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Places a [Counterattack] buff on this Champion for 2 turns.<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "chest-thump",
       "effects": [
         {
@@ -109,19 +120,45 @@
       ],
       "damaged_based_on": [],
       "giid": "4160_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "e6358876ec9d8d0960570fe7a5709dd5",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Iron Hide",
-      "raw_description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked",
+      "raw_description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked.<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +10%.",
       "slug": "iron-hide",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4160_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "edc683159fe79fd1bb26139a23354bc4",
       "skill_number": "P1"
     }

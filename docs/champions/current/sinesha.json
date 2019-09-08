@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Hit Point in Faction Crypts by 31%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Burning Wave",
-      "raw_description": "Attacks all enemies. Places an extra hit on enemies with less than 50% HP.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks all enemies. Places an extra hit on enemies with less than 50% HP. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "burning-wave",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "520_s1",
       "upgrades": [
         {
@@ -234,12 +237,10 @@
     {
       "passive": false,
       "name": "Vaporize",
-      "raw_description": "Attacks 1 enemy. Puts the target's skills on cooldown. Heals the ally with the lowest HP by 25%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Puts the target's skills on cooldown. Heals the ally with the lowest HP by 25%. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "vaporize",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "520_s2",
       "upgrades": [
         {
@@ -504,7 +505,7 @@
     {
       "passive": false,
       "name": "Immortality",
-      "raw_description": "Equalizes the HP of all allies. The HP levels of all alllies will be brought up to the level of the ally with the highest HP.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Heal +5%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Equalizes the HP of all allies. The HP levels of all alllies will be brought up to the level of the ally with the highest HP.<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Heal +5%.<br>Lvl. 5 Heal +5%.<br>Lvl. 6 Cooldown -1.",
       "slug": "immortality",
       "effects": [],
       "damaged_based_on": [],

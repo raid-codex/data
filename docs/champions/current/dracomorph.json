@@ -49,17 +49,20 @@
       "accuracy": 10
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Accuracy in Faction Crypts by 50",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Seeping Pain",
-      "raw_description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage infliected is equal to 3 times the surplus damage.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage inflicted is equal to triple the surplus damage. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "seeping-pain",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1360_s1",
       "upgrades": [
         {
@@ -234,7 +237,7 @@
     {
       "passive": false,
       "name": "Poison Jaws",
-      "raw_description": "Attacks 4 times at random. Each hit places a 5% [Poison] debuff for 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 4 times at random. Each hit places a 5% [Poison] debuff for 3 turns. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +15%.<br>Lvl. 5 Cooldown -1.",
       "slug": "poison-jaws",
       "effects": [
         {
@@ -430,7 +433,7 @@
     {
       "passive": false,
       "name": "Baleful Eye",
-      "raw_description": "Places a 25% [Weaken] debuff and a 36% [Decrease DEF] debuff on all enemies for 2 turns. * Weaken<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 25% [Weaken] debuff and a 30% [Decrease DEF] debuff on all enemies for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "baleful-eye",
       "effects": [
         {

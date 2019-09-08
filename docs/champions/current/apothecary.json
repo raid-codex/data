@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally DEF in Dungeons by 21%",
+      "raw_description": "Increases Ally Defense in Dungeons by 21%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Scatterbolt",
-      "raw_description": "Attacks 3 times at random.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 3 times at random. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "scatterbolt",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "21318_s1",
       "upgrades": [
         {
@@ -144,7 +142,7 @@
     {
       "passive": false,
       "name": "Soothing Chant",
-      "raw_description": "Heals a target ally by 35% HP. This Heal can be critical.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Heals a target ally by 35% HP. This Heal can be critical.<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Heal +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "soothing-chant",
       "effects": [],
       "damaged_based_on": [],
@@ -312,7 +310,7 @@
     {
       "passive": false,
       "name": "Boon of Speed",
-      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 15%.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 15%.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "boon-of-speed",
       "effects": [
         {

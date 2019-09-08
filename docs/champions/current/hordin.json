@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Speed in Faction Crypts by 20%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Relentless Strike",
-      "raw_description": "Attacks 1 enemy 2 times. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5% Lvl, 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Grants an Extra Turn if the target is killed. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "relentless-strike",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "170_s1",
       "upgrades": [
         {
@@ -234,7 +237,7 @@
     {
       "passive": false,
       "name": "Bloodletter",
-      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Heals this Champion by 10% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Heals this Champion by 10% of the damage inflicted. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.",
       "slug": "bloodletter",
       "effects": [
         {
@@ -520,7 +523,7 @@
     {
       "passive": false,
       "name": "Burning Hatred",
-      "raw_description": "Places a 50% [Increase ATK] buff, a 30% [Increase C. RATE] buff, and a 30% [Increase SPD] buff on this Champion for 2 turns. Grants J Increase SPD<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 50% [Increase ATK] buff, a 30% [Increase C. RATE] buff, and a 30% [Increase SPD] buff on this Champion for 2 turns. Grants J Increase SPD.<br>Lvl. 2 Cooldown -1.",
       "slug": "burning-hatred",
       "effects": [
         {

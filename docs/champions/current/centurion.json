@@ -54,19 +54,32 @@
     {
       "passive": false,
       "name": "Feed on Suffering",
-      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "feed-on-suffering",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3110_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "efd1a645fb2ba2cc3d36d9cf6e0ba949",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Freakish Resiliance",
-      "raw_description": "Heals this Champion by 30% of their MAX HP and places a 30% [Increase DEF] buff on this Champion for 2 turns",
+      "raw_description": "Heals this Champion by 30% of their MAX HP and places a 30% [Increase DEF] buff on this Champion for 2 turns.<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Heal +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "freakish-resiliance",
       "effects": [
         {
@@ -87,19 +100,45 @@
       ],
       "damaged_based_on": [],
       "giid": "3110_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a0d3b8ef8737d9100a53985aee6153ce",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Soul Possession",
-      "raw_description": "Exchanges remaining HP levels with a target enemy, then equalizes the HP of all allies",
+      "raw_description": "Exchanges remaining HP levels with a target enemy, then equalizes the HP of all allies.<br>Lvl. 2 Cooldown -1.",
       "slug": "soul-possession",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3110_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a042e9ddad430cc7bdba75ec499efa06",
       "skill_number": "A3"
     }

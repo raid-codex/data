@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Hit Point in Faction Crypts by 21%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Unflagging Advance",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 2 times. Fills this Champions Turn Meter by 10%. Damage based on DEF | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Damage +10%.",
       "slug": "unflagging-advance",
       "effects": [],
       "damaged_based_on": [],
@@ -271,7 +276,7 @@
     {
       "passive": false,
       "name": "Spectacular Sweep",
-      "raw_description": "",
+      "raw_description": "Attacks all enemies then heals all allies by 15% of this Champions MAX HP. Damage based on HP | ATK<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Heal +10%.<br>Lvl. 6 Heal +15%.<br>Lvl. 7 Damage +15%.<br>Lvl. 8 Cooldown -1.",
       "slug": "spectacular-sweep",
       "effects": [],
       "damaged_based_on": [],
@@ -556,7 +561,7 @@
     {
       "passive": false,
       "name": "Combat Tactics",
-      "raw_description": "",
+      "raw_description": "Decreases the cooldown of all allies skills by 1 turn.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.<br>Lvl. 4 Cooldown -1.",
       "slug": "combat-tactics",
       "effects": [],
       "damaged_based_on": [],

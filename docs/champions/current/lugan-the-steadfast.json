@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Hit Point in Faction Crypts by 38%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Crushing Blow",
-      "raw_description": "Attacks 1 enemy. Heals all allies except this Champion by 25% of the damage inflicted. Damage inflicted is proportional to MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Heals all allies except this Champion by 25% of the damage inflicted. Damage inflicted is proportional to MAX HP. Damage based on HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "crushing-blow",
       "effects": [],
-      "damaged_based_on": [
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "240_s1",
       "upgrades": [
         {
@@ -234,7 +237,7 @@
     {
       "passive": false,
       "name": "Bodyguard",
-      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 3 turns. Also places a 50% [Ally Protection] buff on all allies for 2 turns. % Ally Protection<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 3 turns. Also places a 50% [Ally Protection] buff on all allies for 2 turns. % Ally Protection.<br>Lvl. 2 Cooldown -1.",
       "slug": "bodyguard",
       "effects": [
         {
@@ -376,7 +379,7 @@
     {
       "passive": false,
       "name": "Mark of Silence",
-      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Block Cooldown Skills] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Damage +10%",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Damage +10%.",
       "slug": "mark-of-silence",
       "effects": [
         {

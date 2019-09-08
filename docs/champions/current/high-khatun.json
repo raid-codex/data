@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in all Battles by 19%",
+      "raw_description": "Increases Ally Speed in all battles by 19%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Imperial Grace",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "imperial-grace",
       "effects": [
         {
@@ -80,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4010_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5a5b8f1660a930b03baea38256eb78f8",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Rally the Horde",
-      "raw_description": "Fills the Turn Meters of all allies by 15% and places a 30% [Increase SPD] buff on all allies for 2 turns",
+      "raw_description": "Fills the Turn Meters of all allies by 15% and places a 30% [Increase SPD] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1.",
       "slug": "rally-the-horde",
       "effects": [
         {
@@ -108,19 +121,45 @@
       ],
       "damaged_based_on": [],
       "giid": "4010_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "01efd3d4ac89c108a5abaab8634d6d57",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Shamanic Lightning",
-      "raw_description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 15%",
+      "raw_description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 15%. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +15%.<br>Lvl. 6 Cooldown -1.",
       "slug": "shamanic-lightning",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4010_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "ca49d90b2763090f029474313bf085c6",
       "skill_number": "A3"
     }

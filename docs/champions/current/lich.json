@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Defense in Faction Crypts by 27%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Curse of Blindness",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ACC] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "curse-of-blindness",
       "effects": [
         {
@@ -250,7 +255,7 @@
     {
       "passive": false,
       "name": "Cocoon",
-      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 2 turns. Heals this Champion by 20% of their MAX HP.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 2 turns. Heals this Champion by 20% of their MAX HP.<br>Lvl. 2 Cooldown -1.",
       "slug": "cocoon",
       "effects": [
         {
@@ -377,7 +382,7 @@
     {
       "passive": false,
       "name": "Enervation",
-      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Places a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Places a 30% [Decrease SPD] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.<br>Lvl. 6 Cooldown -1.",
       "slug": "enervation",
       "effects": [
         {

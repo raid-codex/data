@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Defense in Arena by 30%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Massive Halberd",
-      "raw_description": "Attacks 1 enemy.<br>Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "massive-halberd",
       "effects": [
         {
@@ -77,14 +82,27 @@
         "DEF"
       ],
       "giid": "4330_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "08565b2b953b7a539fe4d27019e4d940",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Ancestral Shield",
-      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn.<br>Places a 60% [Increase DEF] buff on all allies for 2 turns",
+      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn. Places a 60% [Increase DEF] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "ancestral-shield",
       "effects": [
         {
@@ -120,14 +138,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4330_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "68ac1942db0b5e16c72532a95901a8d4",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Earthstomp",
-      "raw_description": "Attacks all enemies.<br>Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns.<br>Decreases each target's MAX HP by 30% of the damage inflicted.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Decreases each target's MAX HP by 30% of the damage inflicted. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Chance +15%.<br>Lvl. 8 Cooldown -1.",
       "slug": "earthstomp",
       "effects": [
         {
@@ -150,7 +181,20 @@
         "DEF"
       ],
       "giid": "4330_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "99ff46e0d1291e3e2e5d2e3deeb59d9a",
       "skill_number": "A3"
     }

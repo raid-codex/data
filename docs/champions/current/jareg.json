@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all Battles by 33%",
+      "raw_description": "Increases Ally Hit Point in all battles by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Rending Claws",
-      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a [Decrease ATK] debuff for 2 turns",
+      "raw_description": "Attacks 1 Enemy. Has a 35% chance of placing a 50% Decrease ATK debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +10%.",
       "slug": "rending-claws",
       "effects": [
         {
@@ -80,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "2990_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5aa066a960d3da3f159f38fd9f7bcfb7",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Pack Leader",
-      "raw_description": "Places a 50% [Ally Protection] and a 60% [Decrease DEF] buff on all allies for 2 turns",
+      "raw_description": "Places a 50% Ally Protection and a 60% Increase DEF buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1.",
       "slug": "pack-leader",
       "effects": [
         {
@@ -123,14 +136,27 @@
       ],
       "damaged_based_on": [],
       "giid": "2990_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "3be27e7d4ab1fc2d0b8ef6c885b71e38",
       "skill_number": "A2"
     },
     {
-      "passive": false,
+      "passive": true,
       "name": "Sheltering Scales",
-      "raw_description": "Places a 15% [Continuous Heal] buff on an ally for 1 turn whenever an ally loses 20% of their MAX HP in one hit",
+      "raw_description": "Places a 15% Continuous Heal buff on an ally for 1 turn whenever an ally loses 20% of their max HP in one hit.",
       "slug": "sheltering-scales",
       "effects": [
         {
@@ -151,7 +177,20 @@
       ],
       "damaged_based_on": [],
       "giid": "2990_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "653882262a664bd2942cc5ee4e3c16fb",
       "skill_number": "A3"
     }

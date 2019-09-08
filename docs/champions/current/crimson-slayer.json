@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 17%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Bring Silence",
-      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Sleep] debuff for 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Sleep] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +10%.",
       "slug": "bring-silence",
       "effects": [
         {
@@ -77,28 +82,52 @@
         "ATK"
       ],
       "giid": "3120_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "bc1d77eced3d7fb2cdec62aaeb5cb5c0",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Flowing Sword",
-      "raw_description": "Attacks 1 enemy. Has a 70% chance of decreasing the target's Turn Meter by 50%. Fills this Champion's Turn Meter equal to the amount the target loses.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 70% chance of decreasing the target’s Turn Meter by 50%. Fills this Champion’s Turn Meter equal to the amount the target loses. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +15%.",
       "slug": "flowing-sword",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3120_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "53a3059cf43d324f9b3264695ecdc389",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Copious Bleed",
-      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 50% [Heal Reduction] debuff for 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 50% [Heal Reduction] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +10%.<br>Lvl. 8 Cooldown -1.",
       "slug": "copious-bleed",
       "effects": [
         {
@@ -121,7 +150,20 @@
         "ATK"
       ],
       "giid": "3120_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a4f8981995b1a79d92c169d10a387137",
       "skill_number": "A3"
     }

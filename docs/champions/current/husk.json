@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in the Arena by 30%.",
+      "raw_description": "Increases Ally Hit Point in Arena by 30%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Burning Iron",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a [Provoke] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "burning-iron",
       "effects": [
         {
@@ -288,7 +288,7 @@
     {
       "passive": false,
       "name": "Despair",
-      "raw_description": "Attacks all enemies. Has a 35% chance of placing a [Stun] debuff for 1 turn. Damage inflicted is proportional to enemy MAX HP.<br>Damage based on: [Enemy MAX HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 35% chance of placing a [Stun] debuff for 1 turn. Damage inflicted is proportional to enemy MAX HP. Damage based on ENEMY MAX HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "despair",
       "effects": [
         {
@@ -517,12 +517,10 @@
     {
       "passive": false,
       "name": "Retaliate",
-      "raw_description": "Attacks 1 enemy. Damage increases according to this Champion's current HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Damage increases according to this Champion's current HP. Damage based on HP<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Cooldown -1.",
       "slug": "retaliate",
       "effects": [],
-      "damaged_based_on": [
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "1210_s3",
       "upgrades": [
         {

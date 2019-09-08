@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in all Battles by 24%.",
+      "raw_description": "Increases Ally Speed in all battles by 24%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Transference",
-      "raw_description": "Attacks 1 enemy. Transfers all debuffs from this Champion to the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Transfers all debuffs from this Champion to the target. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "transference",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1750_s1",
       "upgrades": [
         {
@@ -239,12 +237,10 @@
     {
       "passive": false,
       "name": "Exhaustion",
-      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "exhaustion",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1750_s2",
       "upgrades": [
         {
@@ -419,7 +415,7 @@
     {
       "passive": false,
       "name": "Energize",
-      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 30%. Decreases the Turn Meter of all enemies by 30%.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 30%. Decreases the Turn Meter of all enemies by 30%.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "energize",
       "effects": [
         {

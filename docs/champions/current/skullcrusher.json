@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Resist in Faction Crypts by 45",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Smash",
-      "raw_description": "Attacks 1 enemy. Places a 50% [Heal Reduction] debuff if the target's DEF is lower than this Champion's.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Heal Reduction] debuff if the target's DEF is lower than this Champion's. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "smash",
       "effects": [
         {
@@ -250,7 +255,7 @@
     {
       "passive": false,
       "name": "Stonewall",
-      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Counterattack] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Counterattack] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion.<br>Lvl. 2 Cooldown -1.",
       "slug": "stonewall",
       "effects": [
         {

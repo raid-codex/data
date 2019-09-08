@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in the Arena by 33%.",
+      "raw_description": "Increases Ally Hit Point in Arena by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Soul Reaper",
-      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns if the target has a [Continuous Heal] buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns if the target has a [Continuous Heal] buff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "soul-reaper",
       "effects": [
         {
@@ -270,7 +270,7 @@
     {
       "passive": false,
       "name": "Spikes",
-      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 4 times at random. The attacks will be critical if the target has a [Continuous Heal] buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 4 times at random. The attacks will be critical if the target has a [Continuous Heal] buff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.<br>Lvl. 6 Cooldown -1.",
       "slug": "spikes",
       "effects": [
         {
@@ -622,12 +622,10 @@
     {
       "passive": false,
       "name": "Bleeding Wounds",
-      "raw_description": "Attacks all enemies 2 times. Damage increases according to the amount of HP this Champion has lost. Champion has lost 50% of their HP.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks all enemies 2 times. Damage increases according to the amount of HP this Champion has lost. Champion has lost 50% of their HP. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "bleeding-wounds",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1600_s3",
       "upgrades": [
         {

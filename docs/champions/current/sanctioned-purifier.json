@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Blessed Missiles",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Buffs] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "blessed-missiles",
       "effects": [
         {
@@ -77,14 +77,27 @@
         "ATK"
       ],
       "giid": "4380_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "0009d70ca3a83a26e2edb13d7eae8232",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Whiplash",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Chance +15%.<br>Lvl. 8 Cooldown -1.",
       "slug": "whiplash",
       "effects": [
         {
@@ -107,19 +120,45 @@
         "ATK"
       ],
       "giid": "4380_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "31562cd521b19fe8ddb0676e0f087dea",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Fiend Purge",
-      "raw_description": "Attacks 1 enemy with 2 random allies.<br>Damage inflicted by this Champion and any allies joining this attack will be increased by 10% if the target is under a [Stun] debuff. Allies joining the attack use their default skills",
+      "raw_description": "Attacks 1 enemy with 2 random allies. Damage inflicted by this Champion and any allies joining this attack will be increased by 10% if the target is under a [Stun] debuff. Allies joining the attack use their default skills.<br>Lvl. 2 Cooldown -1.",
       "slug": "fiend-purge",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4380_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "6ed892ce98a924cc4d4d018927ade88f",
       "skill_number": "A3"
     }

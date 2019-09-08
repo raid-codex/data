@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Resist in all battles by 30",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Gathering Momentum",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease DEF] debuff for 1 turn if the target's DEF is lower than this Champion's.<br>Damage based on: [ATK]",
+      "raw_description": "Places a 30% [Decrease DEF] debuff for 1 turn if the target's DEF is lower than this Champion's. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "gathering-momentum",
       "effects": [
         {
@@ -77,14 +82,27 @@
         "ATK"
       ],
       "giid": "3160_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "c5f7f4606eaaa11432212be1a1f9f623",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Inescapable Wrath",
-      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 1 turn if the target is under a [Decrease DEF] debuff.<br>Damage based on: [ATK]",
+      "raw_description": "Places a [Provoke] debuff for 1 turn if the target is under a [Decrease DEF] debuff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Cooldown -1.",
       "slug": "inescapable-wrath",
       "effects": [
         {
@@ -107,19 +125,45 @@
         "ATK"
       ],
       "giid": "3160_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "f26465692bfca29d1b0e036698251a18",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Dismay the Foe",
-      "raw_description": "Decreases the duration of all buffs on the attacker when hit",
+      "raw_description": "Decreases the duration of all buffs on the attacker when hit.",
       "slug": "dismay-the-foe",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3160_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "d3c83acbb20dbf387984a87af8da62d3",
       "skill_number": "P1"
     }

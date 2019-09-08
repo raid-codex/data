@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally DEF in all Battles by 17%",
+      "raw_description": "Increases Ally Defense in all battles by 17%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Hefty Flail",
-      "raw_description": "Attacks 1 enemy 2 times.<br>Each hit has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 15% chance of placing a 15% [Weaken] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Damage +5%.<br>Lvl. 7 Chance +5%.",
       "slug": "hefty-flail",
       "effects": [
         {
@@ -82,14 +82,27 @@
         "DEF"
       ],
       "giid": "4180_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "da641d651df624ac6c3dca5b33e590c5",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Meteoric Ignition",
-      "raw_description": "Attacks 1 enemy.<br>Has a 75% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Damage +10%.<br>Lvl. 7 Chance +10%.<br>Lvl. 8 Cooldown -1.",
       "slug": "meteoric-ignition",
       "effects": [
         {
@@ -112,19 +125,45 @@
         "DEF"
       ],
       "giid": "4180_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "86d70caef67c05df5dac390fb883c37e",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Punishing Defenses",
-      "raw_description": "When attacked, has a 30% chance of extending the duration of all debuffs on the attacker by 1 turn",
+      "raw_description": "When attacked, has a 30% chance of extending the duration of all debuffs on the attacker by 1 turn.",
       "slug": "punishing-defenses",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4180_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a8d215d8f7148d7acc1e58f5274fa5c3",
       "skill_number": "P1"
     }

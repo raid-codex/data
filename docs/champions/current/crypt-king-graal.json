@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all Battles by 33%",
+      "raw_description": "Increases Ally Hit Point in all battles by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Brittleness Bane",
-      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "brittleness-bane",
       "effects": [
         {
@@ -82,14 +82,27 @@
         "ATK"
       ],
       "giid": "3190_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "66e944d3c0c3cf3c29377bd5f0b06455",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Death Fires",
-      "raw_description": "Attacks 3 times at random. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 3 times at random. Has a 50% chance of placing a [HP Burn] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +15%.<br>Lvl. 6 Cooldown -1.",
       "slug": "death-fires",
       "effects": [
         {
@@ -112,14 +125,27 @@
         "ATK"
       ],
       "giid": "3190_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "7ced3c82f9f599ec38fa6d904db80424",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Elemental Unity",
-      "raw_description": "Attacks all enemies. Places a [Freeze] debuff on each target for 1 turn if they are under a [HP Burn] debuff. Extends the duration of any [HP Burn] debuffs to 3 turns. This effect cannot be resisted",
+      "raw_description": "Attacks all enemies. Places a [Freeze] debuff on each target for 1 turn if they are under a [HP Burn] debuff. Extends the duration of any [HP Burn] debuffs to 3 turns. This effect cannot be resisted. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.",
       "slug": "elemental-unity",
       "effects": [
         {
@@ -155,7 +181,20 @@
       ],
       "damaged_based_on": [],
       "giid": "3190_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5125093fb84de0d70e5c8486e2900ab0",
       "skill_number": "A3"
     }

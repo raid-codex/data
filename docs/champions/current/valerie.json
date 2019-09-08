@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Hit Point in Faction Crypts by 22%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Swing",
-      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "swing",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "450_s1",
       "upgrades": [
         {
@@ -139,7 +142,7 @@
     {
       "passive": false,
       "name": "Energizing Presence",
-      "raw_description": "Increases the duration of all buffs on all allies by 1 turn. Also decreases the duration of all debuffs on all allies by 1 turn. Places a 25% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Increases the duration of all buffs on all allies by 1 turn. Also decreases the duration of all debuffs on all allies by 1 turn. Places a 25% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1.",
       "slug": "energizing-presence",
       "effects": [
         {
@@ -302,7 +305,7 @@
     {
       "passive": false,
       "name": "Protect",
-      "raw_description": "Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] depends on this Champion's Level. Heals each ally according to the number of buffs they are currently under.<br>Lvl. 2 Shield +5%<br>Lvl. 3 Shield +5%<br>Lvl. 4 Shield +5%<br>Lvl. 5 Shield +5%",
+      "raw_description": "Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] depends on this Champion's Level. Heals each ally according to the number of buffs they are currently under.<br>Lvl. 2 Shield +5%.<br>Lvl. 3 Shield +5%.<br>Lvl. 4 Shield +5%.<br>Lvl. 5 Shield +5%.",
       "slug": "protect",
       "effects": [
         {

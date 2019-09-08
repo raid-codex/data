@@ -54,12 +54,10 @@
     {
       "passive": false,
       "name": "Power Drain",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the target's Turn Meter by 10%. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the target's Turn Meter by 10%. Damage inflicted is proportional to DEF. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "power-drain",
       "effects": [],
-      "damaged_based_on": [
-        "DEF"
-      ],
+      "damaged_based_on": [],
       "giid": "1890_s1",
       "upgrades": [
         {
@@ -234,7 +232,7 @@
     {
       "passive": false,
       "name": "Damage Control",
-      "raw_description": "Places an [Unkillable] buff and a 25% [Increase ATK] buff on a target ally for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places an [Unkillable] buff and a 25% [Increase ATK] buff on a target ally for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "damage-control",
       "effects": [
         {
@@ -425,7 +423,7 @@
     {
       "passive": false,
       "name": "Life Shackles",
-      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff and a 50% [Decrease ATK] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff and a 50% [Decrease ATK] debuff for 2 turns. Damage inflicted is proportional to DEF. Damage based on DEF<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "life-shackles",
       "effects": [
         {

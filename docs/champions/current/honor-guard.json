@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Force Ally DEF in all Battles by 25%",
+      "raw_description": "Increases Force Ally Defense in all battles by 25%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Bell Ringer",
-      "raw_description": "Attacks 1 enemy.<br>Has a 50% chance of placing a 25% [Decrease ACC] debuff for 2 turns if the target has no active buffs.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ACC] debuff for 2 turns if the target has no active buffs. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "bell-ringer",
       "effects": [
         {
@@ -82,28 +82,52 @@
         "DEF"
       ],
       "giid": "4320_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "f1ddcb63d32ddb74cda7357086e34f70",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Fate Transfer",
-      "raw_description": "Attacks 1 enemy.<br>Has a 50% chance of stealing 2 random buffs from the target.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of stealing 2 random buffs from the target. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Chance +15%.<br>Lvl. 7 Cooldown -1.",
       "slug": "fate-transfer",
       "effects": [],
-      "damaged_based_on": [
-        "DEF"
-      ],
+      "damaged_based_on": [],
       "giid": "4320_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "17dacaaa8ab47da185ff2c69c91f9ffa",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Astral Chain",
-      "raw_description": "Attacks 1 enemy.<br>Has a 75% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Chance +15%.<br>Lvl. 8 Cooldown -1.",
       "slug": "astral-chain",
       "effects": [
         {
@@ -126,7 +150,20 @@
         "DEF"
       ],
       "giid": "4320_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a94b463ecace38782fd89458c37a7f15",
       "skill_number": "A3"
     }

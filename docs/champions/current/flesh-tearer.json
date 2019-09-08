@@ -49,17 +49,20 @@
       "accuracy": 15
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 27%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Multiply Misery",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of transferring 1 random debuff from this Champion to the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of transferring 1 random debuff from this Champion to the target. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +5%.",
       "slug": "multiply-misery",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2670_s1",
       "upgrades": [
         {
@@ -201,7 +204,7 @@
     {
       "passive": false,
       "name": "Warleader",
-      "raw_description": "Heals all allies by 30% of their MAX HP. Increases the duration of all ally buffs by 1 turn.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Heal +5%",
+      "raw_description": "Heals all allies by 30% of their MAX HP. Increases the duration of all ally buffs by 1 turn.<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Heal +5%.<br>Lvl. 5 Heal +5%.",
       "slug": "warleader",
       "effects": [],
       "damaged_based_on": [],
@@ -459,12 +462,10 @@
     {
       "passive": false,
       "name": "Lay Low",
-      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all enemy debuffs by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all enemy debuffs by 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "lay-low",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2670_s3",
       "upgrades": [
         {

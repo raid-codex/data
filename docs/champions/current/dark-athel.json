@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 20%",
+      "raw_description": "Increases Ally Attack in all battles by 20%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Profane Glaive",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.",
       "slug": "profane-glaive",
       "effects": [
         {
@@ -80,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4030_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "583e888811db155433b20345917c7765",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Blades of Blood",
-      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +15%.<br>Lvl. 6 Cooldown -1.",
       "slug": "blades-of-blood",
       "effects": [
         {
@@ -108,14 +121,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4030_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "8336a31c804accab43db2718b0d7fd69",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Harvest of Despair",
-      "raw_description": "Attacks all enemies. Places a 30% [Increase SPD] buff on this Champion for 3 turns if this attack kills 4 or more enemies. Heals this Champion by 50% of their MAX HP if this attack kills 6 or more enemies. Grants Extra Turn if this attack kills 10 or more enemies",
+      "raw_description": "Attacks all enemies. Places a 30% [Increase SPD] buff on this Champion for 3 turns if this attack kills 4 or more enemies. Heals this Champion by 50% of their MAX HP if this attack kills 6 or more enemies. Grants Extra Turn if this attack kills 10 or more enemies. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "harvest-of-despair",
       "effects": [
         {
@@ -136,7 +162,20 @@
       ],
       "damaged_based_on": [],
       "giid": "4030_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "e49b541fabe08562a7eeac7cd5a25911",
       "skill_number": "A3"
     }

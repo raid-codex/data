@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all Dungeons by 33%",
+      "raw_description": "Increases Ally Hit Point in Dungeons by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Crashing Helberd",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Stun] debuff for 1 turn",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Stun] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "crashing-helberd",
       "effects": [
         {
@@ -80,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "3210_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "0669ce615080455fd982f29f032aa085",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "In the Thick",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Provoke] debuff for 1 turn. Has a 100% chance of placing a [Provoke] debuff for 1 turn if this Champion's current HP is higher than the target's current HP",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Provoke] debuff for 1 turn. Has a 100% chance of placing a [Provoke] debuff for 1 turn if this Champion’s current HP is higher than the target’s current HP. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "in-the-thick",
       "effects": [
         {
@@ -108,14 +121,27 @@
       ],
       "damaged_based_on": [],
       "giid": "3210_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "005b859effb99b00d70cc14309fa033d",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Humble the Faithless",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Also has 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Also has 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK | HP<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "humble-the-faithless",
       "effects": [
         {
@@ -151,7 +177,20 @@
       ],
       "damaged_based_on": [],
       "giid": "3210_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5376e032ac8a9087f155174ce30c1d51",
       "skill_number": "A3"
     }

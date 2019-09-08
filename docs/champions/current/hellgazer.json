@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 27%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Soul Rend",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "soul-rend",
       "effects": [
         {
@@ -250,7 +255,7 @@
     {
       "passive": false,
       "name": "Dark Awakening",
-      "raw_description": "Removes all debuffs from this Champion. Places a 50% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Removes all debuffs from this Champion. Places a 50% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1.",
       "slug": "dark-awakening",
       "effects": [
         {
@@ -413,12 +418,10 @@
     {
       "passive": false,
       "name": "Malign Lightning",
-      "raw_description": "Attacks all enemies. On each critical hit fills this Champion's Turn Meter by 10%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. On each critical hit fills this Champion's Turn Meter by 10%. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "malign-lightning",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2340_s3",
       "upgrades": [
         {

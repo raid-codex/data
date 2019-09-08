@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 33%",
+      "raw_description": "Increases Ally Attack in all battles by 33%",
       "effects": []
     }
   ],
@@ -59,31 +59,57 @@
     {
       "passive": false,
       "name": "Vitality Censure",
-      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 30% of the damage inflicted",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 30% of the damage inflicted. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "vitality-censure",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3180_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a96a2dd8cf138dc4eeb9bc2c57d36316",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "No Mercy",
-      "raw_description": "Attacks 1 enemy 3 times. Damage increases equal to the percentage of HP the target has lost",
+      "raw_description": "Attacks 1 enemy 3 times. Damage increases equal to the percentage of HP the target has lost. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +15%.",
       "slug": "no-mercy",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3180_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "db508795cb6ff6f520b2d958ac656dd9",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Tormenting Whispers",
-      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 10% [Leech] debuff for 2 turns",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 10% [Leech] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "tormenting-whispers",
       "effects": [
         {
@@ -104,19 +130,45 @@
       ],
       "damaged_based_on": [],
       "giid": "3180_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "b6ff0a99374a6417442f3b55204da75b",
       "skill_number": "A3"
     },
     {
       "passive": true,
       "name": "Final Doom",
-      "raw_description": "Heals this Champion by 30% of their MAX HP each time they kill an enemy. Enemies killed by this Champion cannot be revided",
+      "raw_description": "Heals this Champion by 30% of their MAX HP each time they kill an enemy. Enemies killed by this Champion cannot be revived.",
       "slug": "final-doom",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3180_s4",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "ea3a1930f0163555f5ac598167f03cc2",
       "skill_number": "P1"
     }

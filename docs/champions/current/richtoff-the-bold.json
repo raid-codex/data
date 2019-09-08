@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 27%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Ruination",
-      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 10% of the damage dealt.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 10% of the damage dealt. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "ruination",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2320_s1",
       "upgrades": [
         {
@@ -234,7 +237,7 @@
     {
       "passive": false,
       "name": "Bloodletting",
-      "raw_description": "Attacks 1 enemy 3 times. Places a 5% [Poison] debuff for 2 turns. This debuff cannot be removed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 3 times. Places a 5% [Poison] debuff for 2 turns. This debuff cannot be removed. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "bloodletting",
       "effects": [
         {
@@ -430,12 +433,10 @@
     {
       "passive": false,
       "name": "Cursehold",
-      "raw_description": "Attacks 1 enemy. Copies one random debuff on the target and places it on all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Copies one random debuff on the target and places it on all enemies. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Cooldown -1.",
       "slug": "cursehold",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2320_s3",
       "upgrades": [
         {

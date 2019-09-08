@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all Battles by 15",
+      "raw_description": "Increases Ally Hit Point in all battles by 15",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Keen Shot",
-      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "keen-shot",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1490_s1",
       "upgrades": [
         {
@@ -239,7 +237,7 @@
     {
       "passive": false,
       "name": "Lightning Arrow",
-      "raw_description": "Attacks 1 enemy, then all enemies. Has an extra 15% chance of inflicting a critical hit. Places a 30% [Increase C. RATE] buff on this Champion for 3 turns if a target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy, then all enemies. Has an extra 15% chance of inflicting a critical hit. Places a 30% [Increase C. RATE] buff on this Champion for 3 turns if a target is killed. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Cooldown -1.",
       "slug": "lightning-arrow",
       "effects": [
         {
@@ -576,12 +574,10 @@
     {
       "passive": false,
       "name": "Valley of Death",
-      "raw_description": "Attacks all enemies 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks all enemies 2 times. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "valley-of-death",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1490_s3",
       "upgrades": [
         {

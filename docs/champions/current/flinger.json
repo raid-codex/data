@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Resist in Faction Crypts by 30",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Axe Throw",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Damage +10%.",
       "slug": "axe-throw",
       "effects": [
         {
@@ -283,12 +288,10 @@
     {
       "passive": false,
       "name": "Meteor",
-      "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks all enemies. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "meteor",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1130_s2",
       "upgrades": [
         {
@@ -368,12 +371,10 @@
     {
       "passive": false,
       "name": "Burn",
-      "raw_description": "Attacks 1 enemy. This skill always inflicts a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. This skill always inflicts a critical hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "burn",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1130_s3",
       "upgrades": [
         {

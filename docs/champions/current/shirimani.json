@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Defense in Faction Crypts by 33%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Bolts of Cold",
-      "raw_description": "Attacks 3 times at random. Has a 15% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks 3 times at random. Has a 15% chance of placing a [Freeze] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "bolts-of-cold",
       "effects": [
         {
@@ -217,7 +222,7 @@
     {
       "passive": false,
       "name": "Rejuvenating Wave",
-      "raw_description": "Heals 1 ally by 50% and other allies by 20% of their MAX HP. Places a 15% [Continuous Heal] buff for 2 turns on targets with full HP.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Heals 1 ally by 50% and other allies by 20% of their MAX HP. Places a 15% [Continuous Heal] buff for 2 turns on targets with full HP.<br>Lvl. 2 Cooldown -1.",
       "slug": "rejuvenating-wave",
       "effects": [
         {
@@ -344,7 +349,7 @@
     {
       "passive": false,
       "name": "Ice Storm",
-      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Freeze] debuff for 1 turn. Fills this Champion's Turn Meter by 10% for each attacked enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Buff/Debuff Chance +10%<br>Lvl. 7 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Freeze] debuff for 1 turn. Fills this Champion's Turn Meter by 10% for each attacked enemy. Damage based on ATK<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Cooldown -1.",
       "slug": "ice-storm",
       "effects": [
         {

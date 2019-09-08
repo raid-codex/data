@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Dungeons by 50%.",
+      "raw_description": "Increases Ally Hit Point in Dungeons by 50%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Annihilation",
-      "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "annihilation",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "21010_s1",
       "upgrades": [
         {
@@ -239,7 +237,7 @@
     {
       "passive": false,
       "name": "Earthshaker",
-      "raw_description": "Attacks all enemies. Places a 50% [Decrease ACC] debuff anda 50% [Decrease ATK] debuff for 2 turns. ® Decrease ACC<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a 50% [Decrease ACC] debuff anda 50% [Decrease ATK] debuff for 2 turns. ® Decrease ACC.<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "earthshaker",
       "effects": [
         {
@@ -528,7 +526,7 @@
     {
       "passive": true,
       "name": "Thornsphere",
-      "raw_description": "Places a [Shield] buff on this Champion for 2 turns at the start of each turn. Will place a 15% [Decrease SPD] debuff for 1 turn on whichever Champion destroys the [Shield].<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a [Shield] buff on this Champion for 2 turns at the start of each turn. Will place a 15% [Decrease SPD] debuff for 1 turn on whichever Champion destroys the [Shield].<br>Lvl. 2 Cooldown -1.",
       "slug": "thornsphere",
       "effects": [
         {

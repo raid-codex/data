@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Cleaving Axe",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns if the target's Turn Meter is more than or exactly 50% full. turns if the target's Turn Meter is less than 50% full.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns if the target's Turn Meter is more than or exactly 50% full. turns if the target's Turn Meter is less than 50% full. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "cleaving-axe",
       "effects": [
         {
@@ -391,7 +391,7 @@
     {
       "passive": false,
       "name": "Capital Punishment",
-      "raw_description": "Attacks 2 times at random. Has an 80% chance of placing a [Stun] debuff if the target's Turn Meter is above or equal 75%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +1%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 2 times at random. Has an 80% chance of placing a [Stun] debuff if the target's Turn Meter is above or equal 75%. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "capital-punishment",
       "effects": [
         {
@@ -587,12 +587,10 @@
     {
       "passive": false,
       "name": "Torture",
-      "raw_description": "Attacks all enemies.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "torture",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1580_s3",
       "upgrades": [
         {

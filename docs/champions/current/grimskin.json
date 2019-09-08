@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Tarry Fist",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Chance +5%.",
       "slug": "tarry-fist",
       "effects": [
         {
@@ -283,7 +283,7 @@
     {
       "passive": false,
       "name": "Frustrating Muck",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "frustrating-muck",
       "effects": [
         {
@@ -512,12 +512,10 @@
     {
       "passive": false,
       "name": "Ichor Fling",
-      "raw_description": "Attacks all enemies. Has an 80% chance of removing 1 random buff from each target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +20%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has an 80% chance of removing 1 random buff from each target. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +20%.<br>Lvl. 5 Cooldown -1.",
       "slug": "ichor-fling",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2130_s3",
       "upgrades": [
         {

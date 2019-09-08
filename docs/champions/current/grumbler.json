@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Dungeons by 25%",
+      "raw_description": "Increases Ally Hit Point in Dungeons by 25%",
       "effects": []
     }
   ],
@@ -87,7 +87,7 @@
     {
       "passive": false,
       "name": "No Coming Back",
-      "raw_description": "Attacks 1 enemy.<br>Places a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [HP][DEF]",
+      "raw_description": "Attacks 1 enemy. Places a 50% {Heal Reduction] debuff for 2 turns. Damage based on HP | DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "no-coming-back",
       "effects": [
         {
@@ -111,14 +111,27 @@
         "HP"
       ],
       "giid": "4150_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a8a53b5a4c9a29b2bbf6f0a9c418d553",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Shoulder the Weight",
-      "raw_description": "Places a 25% [Ally Protection] buff on all allies for 2 turns.<br>Places a 30% [Increase DEF] buff on this Champion for 2 turns",
+      "raw_description": "Places a 25% [Ally Protection] buff on all allies for 2 turns. Places a 30% [Increase DEF] buff on this champion for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "shoulder-the-weight",
       "effects": [
         {
@@ -154,9 +167,63 @@
       ],
       "damaged_based_on": [],
       "giid": "4150_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "03430617c18501691f9e86618f7efc07",
       "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Whirling Hammers",
+      "raw_description": "Attacks 1 Enemy. Places a [Shield] buff on this Champion equal to 10% of their MAX HP for 2 turns. Damage based on HP | DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Shield +5%.<br>Lvl. 6 Shield +5%.",
+      "slug": "whirling-hammers",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4150_s4",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "f4737d1314e2ec0c69d7fccc7b8fd318",
+      "skill_number": "A4"
     }
   ],
   "faction": {

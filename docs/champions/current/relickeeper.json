@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in Campaign Battles by 40%.",
+      "raw_description": "Increases Ally Attack in all battles by 40%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Crusade",
-      "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "crusade",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2910_s1",
       "upgrades": [
         {
@@ -239,7 +237,7 @@
     {
       "passive": false,
       "name": "Surging Strength",
-      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 4 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 4 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "surging-strength",
       "effects": [
         {
@@ -415,7 +413,7 @@
     {
       "passive": true,
       "name": "Ageless Endurance",
-      "raw_description": "When hit by an enemy, places a 15% [Continuous Heal] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "When hit by an enemy, places a 15% [Continuous Heal] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "ageless-endurance",
       "effects": [
         {

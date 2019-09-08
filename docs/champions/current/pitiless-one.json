@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C. RATE in all Battles by 19%",
+      "raw_description": "Increases Ally Critical Rate in all battles by 19%",
       "effects": []
     }
   ],
@@ -59,40 +59,75 @@
     {
       "passive": false,
       "name": "Split Arrow",
-      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl 3. Damage +5%<br>Lvl 4. Damage +5%<br>Lvl 5. Damage +5%",
+      "raw_description": "Attacks 1 enemy 2 times. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "split-arrow",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3270_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "87657a3a7c372d67b0c28fae694ac5cc",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Projectile Burst",
-      "raw_description": "Attacks all enemies. Each critical hit boosts this Champion's Turn Meter by 15%.<br>Damage based on: [ATK]<br>Lvl 2. Damage +5%<br>Lvl 3. Damage +5%<br>Lvl 4. Damage +5%<br>Lvl 5. Damage +10%<br>Lvl 6. Cooldown -1",
+      "raw_description": "Attacks all enemies. Each critical hit boosts this Champion’s Turn Meter by 15%. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "projectile-burst",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3270_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "aa3cfe44a7b4e999c90a88308aae03e4",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Agony Bonds",
-      "raw_description": "Each critical hit heals this Champion by 15% of the damage inflicted",
+      "raw_description": "Each critical hit heals this Champion by 15% of the damage inflicted.",
       "slug": "agony-bonds",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3270_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "205ccb204de1106fb350ad84aca20347",
       "skill_number": "P1"
     }

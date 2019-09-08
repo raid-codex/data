@@ -49,17 +49,20 @@
       "accuracy": 10
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Speed in Faction Crypts by 13%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Savagery",
-      "raw_description": "Attacks 1 enemy. Attacks 2 times if the target's HP percentage is higher than this Champion's.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Attacks 2 times if the target's HP percentage is higher than this Champion's. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "savagery",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "270_s1",
       "upgrades": [
         {
@@ -234,7 +237,7 @@
     {
       "passive": false,
       "name": "Carnage",
-      "raw_description": "Attacks all enemies. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks all enemies. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Chance +10%.",
       "slug": "carnage",
       "effects": [
         {
@@ -463,7 +466,7 @@
     {
       "passive": false,
       "name": "Dominate",
-      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a [Stun] debuff for 2 turns. Also has a 60% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +20%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +20%",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a [Stun] debuff for 2 turns. Also has a 60% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +20%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +20%.",
       "slug": "dominate",
       "effects": [
         {

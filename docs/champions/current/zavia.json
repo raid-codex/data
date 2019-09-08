@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 33%.",
+      "raw_description": "Increases Ally Attack in all battles by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Transfix",
-      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 5% [Poison] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "transfix",
       "effects": [
         {
@@ -222,7 +222,7 @@
     {
       "passive": false,
       "name": "Poison Rain",
-      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.",
       "slug": "poison-rain",
       "effects": [
         {
@@ -418,7 +418,7 @@
     {
       "passive": false,
       "name": "Deadly Catalyst",
-      "raw_description": "Attacks all enemies. Enemies killed by this skill cannot be revived. Deals damage from all [Poison] debuffs on the target instantly. [Poison] debuffs will only deal half of the standard damage when this Skill hits Bosses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks all enemies. Enemies killed by this skill cannot be revived. Deals damage from all [Poison] debuffs on the target instantly. [Poison] debuffs will only deal half of the standard damage when this Skill hits Bosses. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "deadly-catalyst",
       "effects": [
         {
@@ -653,12 +653,10 @@
     {
       "passive": false,
       "name": "Calamitous Partner",
-      "raw_description": "Attacks 1 enemy. Applies a Debuff Spread effect, taking 4 random debuffs from the target and placing them on all enemies.<br>Damage based on: [ATK] 7 T -",
+      "raw_description": "Attacks 1 enemy. Applies a Debuff Spread effect, taking 4 random debuffs from the target and placing them on all enemies. Damage based on ATK",
       "slug": "calamitous-partner",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3480_s4",
       "upgrades": [
         {

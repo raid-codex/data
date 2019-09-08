@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Leg Pierce",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance +5%.",
       "slug": "leg-pierce",
       "effects": [
         {
@@ -75,14 +75,27 @@
       ],
       "damaged_based_on": [],
       "giid": "3050_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "3565cb49d5a873cfa5f3b421a4c225da",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Somnolent Toxin",
-      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a [Sleep] debuff for 1 turn. Places a 15% [Weaken] debuff for 2 turns if this Skill does not place a [Sleep] debuff",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a [Sleep] debuff for 1 turn. Places a 15% [Weaken] debuff for 2 turns if this Skill does not place a [Sleep] debuff. Damage based on DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Chance +5%.<br>Lvl. 7 Cooldown -1.",
       "slug": "somnolent-toxin",
       "effects": [
         {
@@ -118,19 +131,45 @@
       ],
       "damaged_based_on": [],
       "giid": "3050_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "034ac53ba22fcddf1c996be0db29a974",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Ward Off",
-      "raw_description": "Decreases the Turn Meter of all enemies by 15%",
+      "raw_description": "Decreases the Turn Meter of all enemies by 15%.<br>Lvl. 2 Cooldown -1.",
       "slug": "ward-off",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3050_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "abf8e4ae24ce9cfa273913aab43bfde9",
       "skill_number": "A3"
     }

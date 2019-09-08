@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 20%",
+      "raw_description": "Increases Ally Attack in all battles by 20%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Virulent Cleaver",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% Poison debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +5%.",
       "slug": "virulent-cleaver",
       "effects": [
         {
@@ -80,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4020_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "b953a82cb3120671e330277858ed1e52",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Hungering Plague",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] for 2 turns",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% Poison debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Chance +10%.",
       "slug": "hungering-plague",
       "effects": [
         {
@@ -108,19 +121,45 @@
       ],
       "damaged_based_on": [],
       "giid": "4020_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "b10a97bff6dae35d1a736c1139dab551",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Rot from Within",
-      "raw_description": "Attacks 1 enemy. Damage increases by 25% against target under [Poison] debuff",
+      "raw_description": "Attacks 1 enemy. Damage increases by 25% against targets under Poison debuffs. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "rot-from-within",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4020_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5c18b15764911dd4da6e5cf739b8ee2a",
       "skill_number": "A3"
     }

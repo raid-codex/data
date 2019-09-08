@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ACC in all Battles by 70.",
+      "raw_description": "Increases Ally Accuracy in all battles by 70",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Horror",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +15%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +15%.<br>Lvl. 4 Damage +10%.",
       "slug": "horror",
       "effects": [
         {
@@ -222,12 +222,10 @@
     {
       "passive": false,
       "name": "Shadow Strike",
-      "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Damage +20%",
+      "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Cooldown -1.",
       "slug": "shadow-strike",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "21110_s2",
       "upgrades": [
         {
@@ -441,7 +439,7 @@
     {
       "passive": false,
       "name": "Crumble",
-      "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Each hit also has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Each hit also has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +15%.",
       "slug": "crumble",
       "effects": [
         {

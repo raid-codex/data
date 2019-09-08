@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Critical Rate in Faction Crypts by 20%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Hunt Down",
-      "raw_description": "Attacks 1 enemy. Has an extra 10% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has an extra 10% chance of inflicting a critical hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "hunt-down",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1870_s1",
       "upgrades": [
         {
@@ -201,7 +204,7 @@
     {
       "passive": false,
       "name": "Armor Breaker",
-      "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Places a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Places a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Cooldown -1.",
       "slug": "armor-breaker",
       "effects": [
         {
@@ -436,7 +439,7 @@
     {
       "passive": false,
       "name": "Charged Shot",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff for 2 turns. Decreases the target's Turn Meter by 30%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff for 2 turns. Decreases the target's Turn Meter by 30%. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "charged-shot",
       "effects": [
         {

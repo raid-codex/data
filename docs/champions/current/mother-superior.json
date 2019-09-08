@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in all Battles by 13%",
+      "raw_description": "Increases Ally Speed in all battles by 13%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Lightning Sanction",
-      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 PLACEHOLDER.<br>Lvl. 7 PLACEHOLDER.<br>Lvl. 8 PLACEHOLDER.",
       "slug": "lightning-sanction",
       "effects": [
         {
@@ -82,14 +82,27 @@
         "ATK"
       ],
       "giid": "4370_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "b013c14be41967128477bb3524c39bcf",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Fill With Blessing",
-      "raw_description": "Heals an ally by 30% of this Champion's MAX HP.<br>Places a [Shield] buff equal to any surplus heal for 2 turns if the target is fully healed by this Skill",
+      "raw_description": "Heals an ally by 30% of this Champion’s MAX HP. Places a [Shield] buff equal to any surplus heal for 2 turns if the target is fully healed by this Skill.<br>Lvl. 2 Heal +5%.<br>Lvl. 3 Heal +5%.<br>Lvl. 4 Heal +10%.<br>Lvl. 5 Heal +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "fill-with-blessing",
       "effects": [
         {
@@ -110,14 +123,27 @@
       ],
       "damaged_based_on": [],
       "giid": "4370_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "2a0e9d3e977f5db51b866703f9b76c4b",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Brim With Life",
-      "raw_description": "Places a 7.5% [Continuous Heal] buff on all allies for 2 turns. Places a [Shield] buff equal to 10% of the target's HP on all allies for 2 turns if an ally's HP is full",
+      "raw_description": "Places a 7.5% [Continuous Heal] buff on all allies for 2 turns. Places a [Shield] buff equal to 10% of the target’s HP on all allies for 2 turns if an ally’s HP is full.<br>Lvl. 2 Cooldown -1.",
       "slug": "brim-with-life",
       "effects": [
         {
@@ -153,7 +179,20 @@
       ],
       "damaged_based_on": [],
       "giid": "4370_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "de9bd076fd7f0ae2bd9795d04131ef5a",
       "skill_number": "A3"
     }

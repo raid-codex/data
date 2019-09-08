@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ACC in all Battles by 40",
+      "raw_description": "Increases Ally Accuracy in all battles by 40",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Isolation Cell",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 50% [Heal Reduction] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Chance +10%.",
       "slug": "isolation-cell",
       "effects": [
         {
@@ -82,35 +82,70 @@
         "ATK"
       ],
       "giid": "3260_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "5e8d94210d684337e5a60d7b4a614600",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Slowing Sanction",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the Turn Meter by 20%.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the Turn Meter by 20%. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Cooldown -1.",
       "slug": "slowing-sanction",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3260_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "c2057a53d841ed2d7cd780d9ffc0319d",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Penalize",
-      "raw_description": "Attacks 2 times at random. Has a 50% chance of increasing the cooldown of one of the target's Skills by 1 turn at random.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 2 times at random. Has a 50% chance of increasing the cooldown of one of the target’s Skills by 1 turn at random. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Chance +15%.<br>Lvl. 7 Cooldown -1.",
       "slug": "penalize",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3260_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "14d4e49400daf1bcf11514a250030eb2",
       "skill_number": "A3"
     }

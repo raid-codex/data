@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Spirit Ally ATK in all Battles by 40%",
+      "raw_description": "Increases Spirit Ally Attack in all battles by 40%",
       "effects": []
     }
   ],
@@ -59,9 +59,25 @@
     {
       "passive": false,
       "name": "Shatter Shell",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "shatter-shell",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3220_s1",
       "upgrades": [
@@ -237,9 +253,25 @@
     {
       "passive": false,
       "name": "Crunch Frenzy",
-      "raw_description": "",
+      "raw_description": "Attacks 4 times at random. Each hit has a 40% chance of placing a [Sleep] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "crunch-frenzy",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3220_s2",
       "upgrades": [
@@ -448,7 +480,7 @@
     {
       "passive": false,
       "name": "Burn Away",
-      "raw_description": "",
+      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 50% of the damage inflicted. Grants an Extra Turn if this attack kills an enemy. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "burn-away",
       "effects": [],
       "damaged_based_on": [],

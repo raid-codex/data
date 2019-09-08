@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C. RATE in all Battles by 19%",
+      "raw_description": "Increases Ally Critical Rate in all battles by 19%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Grave's Grasp",
-      "raw_description": "Attacks 2 times at random. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 2 times at random. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +5%.<br>Lvl. 6 Chance +10%.",
       "slug": "grave-s-grasp",
       "effects": [
         {
@@ -82,14 +82,27 @@
         "ATK"
       ],
       "giid": "3200_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "a75a4c05b1c0bc08a18e4627af6f9448",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Numbing Chill",
-      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns. Also has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns. Also has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "numbing-chill",
       "effects": [
         {
@@ -127,7 +140,20 @@
         "ATK"
       ],
       "giid": "3200_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "bdde25fd3217dc956d04de6cad639cc1",
       "skill_number": "A2"
     },
@@ -139,7 +165,20 @@
       "effects": [],
       "damaged_based_on": [],
       "giid": "3200_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "33e1706e6484a801936c454933268311",
       "skill_number": "P1"
     }

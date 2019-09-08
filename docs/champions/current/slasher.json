@@ -49,17 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 17%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Fearsome Slice",
-      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "fearsome-slice",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "2240_s1",
       "upgrades": [
         {
@@ -139,7 +142,7 @@
     {
       "passive": false,
       "name": "Chop Apart",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "chop-apart",
       "effects": [
         {
@@ -335,7 +338,7 @@
     {
       "passive": false,
       "name": "Killing Zeal",
-      "raw_description": "Places a 15% [Increase C. RATE] buff and a [Shield] buff on this Champion for 2 turns. The value of [Shield] is proportional to this Champion's DEF and C. DMG. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 15% [Increase C. RATE] buff and a [Shield] buff on this Champion for 2 turns. The value of [Shield] is proportional to this Champion's DEF and C. DMG. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1.",
       "slug": "killing-zeal",
       "effects": [
         {

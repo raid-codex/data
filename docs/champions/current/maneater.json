@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Dungeons by 33%.",
+      "raw_description": "Increases Ally Hit Point in Dungeons by 33%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Pummel",
-      "raw_description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff on all enemies if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Decrease ATK] debuff on all enemies if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "pummel",
       "effects": [
         {
@@ -255,12 +255,10 @@
     {
       "passive": false,
       "name": "Syphon",
-      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Fills this Champion's Turn Meter equal to the amount the target loses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Fills this Champion's Turn Meter equal to the amount the target loses. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Cooldown -1.",
       "slug": "syphon",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1070_s2",
       "upgrades": [
         {
@@ -576,7 +574,7 @@
     {
       "passive": false,
       "name": "Ancient Blood",
-      "raw_description": "This Champion receives damage, then places an [Unkillable] buff and a [Block Debuffs] buff on all allies for 2 turns. Damage received is equal to 5% MAX HP for each alive ally.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "This Champion receives damage, then places an [Unkillable] buff and a [Block Debuffs] buff on all allies for 2 turns. Damage received is equal to 5% MAX HP for each alive ally.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "ancient-blood",
       "effects": [
         {

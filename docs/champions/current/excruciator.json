@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Flicker Strike",
-      "raw_description": "Attacks 1 enemy. Damage increases by 20% while attacking under a [Veil] buff.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Damage increases by 20% while attacking under a [Veil] buff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "flicker-strike",
       "effects": [
         {
@@ -77,14 +77,27 @@
         "ATK"
       ],
       "giid": "4000_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "4c9e90d3fe41fe5a76e0074458c33f62",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Neck Snapper",
-      "raw_description": "Attacks 1 enemy. Damage increase by 35% while attacking under a [Veil] buff<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 Enemy. Damage increases by 35% while attacking under a [Veil] buff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.<br>Lvl. 6 Cooldown -1.",
       "slug": "neck-snapper",
       "effects": [
         {
@@ -107,14 +120,27 @@
         "ATK"
       ],
       "giid": "4000_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "9c424b3faf0e38ea5104d726feffb160",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Invisible Predator",
-      "raw_description": "Places a [Veil] buff on this Champion for 1 turn at the beginning of each Round<br>Places a [Veil] buff on this Champion for 1 turn each time they kill an enemy",
+      "raw_description": "Places a [Veil] buff on this Champion for 1 turn at the beginning of each Round. Places a [Veil] buff on this champion for 1 turn each time they kill and enemy.",
       "slug": "invisible-predator",
       "effects": [
         {
@@ -135,7 +161,20 @@
       ],
       "damaged_based_on": [],
       "giid": "4000_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "d761294542cda7deb5513ea5823e624d",
       "skill_number": "P1"
     }

@@ -54,37 +54,57 @@
     {
       "passive": false,
       "name": "Thunder Cleave",
-      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 enemy. Damage based on HP | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "thunder-cleave",
       "effects": [],
-      "damaged_based_on": [
-        "ATK",
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "4270_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "ef227f9bd7ee9bd44ce8dfc0b0c3352c",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Enchanted Axe",
-      "raw_description": "Attacks 1 enemy.<br>Ignores 50% of the targer's DEF.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 Enemy. Ignores 50% of the target's DEF. Damage based on HP | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "enchanted-axe",
       "effects": [],
-      "damaged_based_on": [
-        "ATK",
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "4270_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "c145172d8ccb1aad42f44f6cb646127c",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Regal Force",
-      "raw_description": "Attacks 1 enemy.<br>Ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 enemy. Ignores [Shield] & [Block Damage] buffs. Damage based on HP | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Cooldown -1.",
       "slug": "regal-force",
       "effects": [
         {
@@ -123,19 +143,45 @@
         "HP"
       ],
       "giid": "4270_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "75d2336f3a149817ca38d9dad91a5148",
       "skill_number": "A3"
     },
     {
       "passive": true,
       "name": "Fabled Skill",
-      "raw_description": "Increases this Champion's ATK by 50% each time this Champion kills an enemy. Stacks up to 100%. Resets each round.",
+      "raw_description": "Increases this Champions ATK by 50% each time this Champion kills an enemy. Stacks up to 100%. Resets each round.",
       "slug": "fabled-skill",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4270_s4",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "76d77ce2d001871fdc0b19adc7c8ee38",
       "skill_number": "P1"
     }

@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Marked for Destruction",
-      "raw_description": "Attacks 1 enemy 4 times. Has a 20% chance placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy 4 times. Has a 20% chance placing a 60% [Decrease DEF] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.",
       "slug": "marked-for-destruction",
       "effects": [
         {
@@ -217,7 +217,7 @@
     {
       "passive": false,
       "name": "Biodistruptor",
-      "raw_description": "Attacks 4 times at random. Each hit has a 35% chance placing a [Leech] debuff for 2 turns.<br<Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 4 times at random. Each hit has a 35% chance placing a [Leech] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "biodistruptor",
       "effects": [
         {
@@ -413,12 +413,10 @@
     {
       "passive": false,
       "name": "Sealed Fate",
-      "raw_description": "Attacks all enemies. Enemies under 2 or more debuffs that are killed by this attack cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks all enemies. Enemies under 2 or more debuffs that are killed by this attack cannot be revived. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Cooldown -1.",
       "slug": "sealed-fate",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "4040_s3",
       "upgrades": [
         {
@@ -560,7 +558,7 @@
     {
       "passive": false,
       "name": "Living Armor (P)",
-      "raw_description": "Heals this Champion by 20% of their MAX HP and boosts the Turn Meter by 50% whenever an enemy places a [Stun], [Freeze], [Sleep], or [Provoke] on this Champion<br>Immediately removes all [Stun], [Freeze], [Sleep], and [Provoke] debuffs from this Champion.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Heals this Champion by 20% of their MAX HP and boosts the Turn Meter by 50% whenever an enemy places a [Stun], [Freeze], [Sleep], or [Provoke] on this Champion.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
       "slug": "living-armor--",
       "effects": [
         {

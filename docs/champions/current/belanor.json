@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C. RATE in all Battles by 24%.",
+      "raw_description": "Increases Ally Critical Rate in all battles by 24%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Swordleader",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on all allies for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on all allies for 1 turn if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "swordleader",
       "effects": [
         {
@@ -255,7 +255,7 @@
     {
       "passive": false,
       "name": "insurmountable",
-      "raw_description": "Places a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns on 1 enemy, then attacks them. Places a 60% [Increase DEF] buff on this Champion for 2 turns if this attack kills an enemy.<br>Damage based on: [ATK] \"MY Decrease DEF * Weaken<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%",
+      "raw_description": "Places a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns on 1 enemy, then attacks them. Places a 60% [Increase DEF] buff on this Champion for 2 turns if this attack kills an enemy. Damage based on ATK<br>Lvl. 2 Attacks 1 Enemy<br>Lvl. 3 Attacks 1 Enemy<br>Lvl. 4 Attacks 1 Enemy",
       "slug": "insurmountable",
       "effects": [
         {
@@ -592,12 +592,10 @@
     {
       "passive": false,
       "name": "Overkill",
-      "raw_description": "Attacks 1 enemy. Will heal this Champion equal to any surplus damage if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Will heal this Champion equal to any surplus damage if the target is killed. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Cooldown -1.",
       "slug": "overkill",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "3490_s3",
       "upgrades": [
         {
@@ -706,7 +704,7 @@
     {
       "passive": false,
       "name": "Tactical Partner",
-      "raw_description": "Places a 5% [Poison] debuff, a 50% [Decrease ATK] debuff, a 30% [Decrease SPD] debuff, and a 50% [Decrease ACC] debuff for 2 turns. x Decrease SPD S Decrease ACC",
+      "raw_description": "Places a 5% [Poison] debuff, a 50% [Decrease ATK] debuff, a 30% [Decrease SPD] debuff, and a 50% [Decrease ACC] debuff for 2 turns. x Decrease SPD S Decrease ACC.",
       "slug": "tactical-partner",
       "effects": [
         {
@@ -865,7 +863,7 @@
     {
       "passive": false,
       "name": "Insurmountable",
-      "raw_description": "",
+      "raw_description": "Attacks 1 Enemy<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.",
       "slug": "insurmountable",
       "effects": [],
       "damaged_based_on": [],

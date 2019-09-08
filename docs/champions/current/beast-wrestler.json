@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C.RATE in the Arena by 16%",
+      "raw_description": "Increases Ally Critical Rate in Arena by 16%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Weighty Cleaver",
-      "raw_description": "Attacks 1 enemy 2 times.<br>Has a 20% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a [Stun] debuff for 1 turn. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +5%.",
       "slug": "weighty-cleaver",
       "effects": [
         {
@@ -82,33 +82,70 @@
         "ATK"
       ],
       "giid": "4300_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "8ae119492be7b6bfe02d3951d44b48f3",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Slaughter Prey",
-      "raw_description": "Attacks 1 enemy.<br>Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Enemies killed by this skill cannot be revived. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Cooldown -1.<br>Lvl. 7 Cooldown -1.",
       "slug": "slaughter-prey",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "4300_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "290f736d7fe3ac29541f5dc2ea4d10e2",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "First Blood",
-      "raw_description": "Increases damage inflicted by 50% for the first hit on each enemy",
+      "raw_description": "Increases damage inflicted by 50% for the first hit on each enemy.",
       "slug": "first-blood",
       "effects": [],
       "damaged_based_on": [],
       "giid": "4300_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "87d20e83e48e3b2265668f354c12e3d6",
       "skill_number": "P1"
     }

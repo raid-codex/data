@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Speed in Faction Crypts by 20%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Savage Fury",
-      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical. Damage based on DEF | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "savage-fury",
       "effects": [
         {
@@ -75,14 +80,27 @@
       ],
       "damaged_based_on": [],
       "giid": "3290_s1",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "777ed16b758de4761af051e1aa11c077",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Maximum Carnage",
-      "raw_description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns",
+      "raw_description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. Damage based on DEF | ATK<br>Lvl. 2 Chance +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Cooldown -1.",
       "slug": "maximum-carnage",
       "effects": [
         {
@@ -103,19 +121,45 @@
       ],
       "damaged_based_on": [],
       "giid": "3290_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "2d4b676dffa5e18290fb37c5d6a2a313",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Spirit Appeasement",
-      "raw_description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target",
+      "raw_description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target. Damage based on DEF | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "spirit-appeasement",
       "effects": [],
       "damaged_based_on": [],
       "giid": "3290_s3",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
       "image_slug": "20255536c28f58262e4f323250737011",
       "skill_number": "A3"
     }

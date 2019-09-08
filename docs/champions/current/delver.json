@@ -49,12 +49,17 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Faction Crypts by 27%",
+      "effects": []
+    }
+  ],
   "skills": [
     {
       "passive": false,
       "name": "Necrotic Toxin",
-      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +5%.<br>Lvl. 5 Chance +10%.",
       "slug": "necrotic-toxin",
       "effects": [
         {
@@ -250,7 +255,7 @@
     {
       "passive": false,
       "name": "Mark for Death",
-      "raw_description": "Attacks 1 enemy. Places a 25% [Weaken] debuff on the target for 3 turns if the target has a [Heal Reduction] debuff. This debuff cannot be resisted.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places a 25% [Weaken] debuff on the target for 3 turns if the target has a [Heal Reduction] debuff. This debuff cannot be resisted. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "mark-for-death",
       "effects": [
         {
@@ -446,7 +451,7 @@
     {
       "passive": false,
       "name": "Finisher",
-      "raw_description": "Attacks all enemies. Places a 50% [Increase ATK] buff on this Champion for 2 turns before attacking. If the target has a [Weaken] debuff, places a 60% [Decrease DEF] debuff on the target for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a 50% [Increase ATK] buff on this Champion for 2 turns before attacking. If the target has a [Weaken] debuff, places a 60% [Decrease DEF] debuff on the target for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "finisher",
       "effects": [
         {

@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in the Arena by 32%",
+      "raw_description": "Increases Ally Speed in Arena by 32%",
       "effects": []
     }
   ],
@@ -59,12 +59,10 @@
     {
       "passive": false,
       "name": "Damnation",
-      "raw_description": "Attacks 1 enemy 3 times. Damage increases by 15% for each debuff on the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy 3 times. Damage increases by 15% for each debuff on the target. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.",
       "slug": "damnation",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "1430_s1",
       "upgrades": [
         {
@@ -239,7 +237,7 @@
     {
       "passive": false,
       "name": "Everlasting Fury",
-      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns. This buff cannot be removed. Places a [Block Debuffs] buff on this Champion for 2 turns. Grants an Extra Turn. 9g Block Debuffs<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns. This buff cannot be removed. Places a [Block Debuffs] buff on this Champion for 2 turns. Grants an Extra Turn. 9g Block Debuffs.<br>Lvl. 2 Cooldown -1.",
       "slug": "everlasting-fury",
       "effects": [
         {
@@ -417,7 +415,7 @@
     {
       "passive": false,
       "name": "Cruel Fate",
-      "raw_description": "Attacks all enemies. Has a 75% chance of placing 2 [Bomb] debuffs that detonate after 2 turns. Decreases the detonation countdown by 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Damage +15%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing 2 [Bomb] debuffs that detonate after 2 turns. Decreases the detonation countdown by 1 turn if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +15%.<br>Lvl. 5 Damage +15%.<br>Lvl. 6 Cooldown -1.",
       "slug": "cruel-fate",
       "effects": [
         {

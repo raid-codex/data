@@ -49,8 +49,136 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally Resist in Faction Crypts by 30",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Long Shot",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing an extra hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Damage +10%.<br>Lvl. 6 Chance +10%.",
+      "slug": "long-shot",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3040_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "8b332e2f0320ad695a4cb2328c00c232",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Support Fire",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Increase DEF] buff on the ally with the lowest HP for 3 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.<br>Lvl. 6 Damage +10%.",
+      "slug": "support-fire",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3040_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "4d531694fa640b03d87f47fc34a0e9b1",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Prayer of Comfort",
+      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn. Places a [Shield] buff equal to 30% of the Champions MAX HP on all allies for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
+      "slug": "prayer-of-comfort",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buffs/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3040_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "e109e1631dd65e07005dd11eb262fa0f",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",

@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Dungeons by 33%.",
+      "raw_description": "Increases Ally Hit Point in Dungeons by 33%",
       "effects": []
     }
   ],
@@ -59,13 +59,10 @@
     {
       "passive": false,
       "name": "Pillage",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target. Damage is proportional to ATK and DEF.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target. Damage is proportional to ATK and DEF. Damage based on ATK | DEF<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.",
       "slug": "pillage",
       "effects": [],
-      "damaged_based_on": [
-        "ATK",
-        "DEF"
-      ],
+      "damaged_based_on": [],
       "giid": "630_s1",
       "upgrades": [
         {
@@ -245,12 +242,10 @@
     {
       "passive": false,
       "name": "Bloodlust",
-      "raw_description": "Attacks 1 enemy. Damage is proportional to this Champion's MAX HP and increases according to the number of dead allies.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Damage is proportional to this Champion's MAX HP and increases according to the number of dead allies. Damage based on HP<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Cooldown -1.",
       "slug": "bloodlust",
       "effects": [],
-      "damaged_based_on": [
-        "HP"
-      ],
+      "damaged_based_on": [],
       "giid": "630_s2",
       "upgrades": [
         {

@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C. RATE in all Battles by 19%.",
+      "raw_description": "Increases Ally Critical Rate in all battles by 19%",
       "effects": []
     }
   ],
@@ -59,7 +59,7 @@
     {
       "passive": false,
       "name": "Cauterize",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +15%<br>Lvl. 3 Buff/Debuff Chance +15%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Damage +20%",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +15%.<br>Lvl. 3 Chance +15%.<br>Lvl. 4 Chance +15%.<br>Lvl. 5 Damage +20%.",
       "slug": "cauterize",
       "effects": [
         {
@@ -255,12 +255,10 @@
     {
       "passive": false,
       "name": "Ancient Curse",
-      "raw_description": "Attacks 1 enemy 2 times. Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Cooldown -1<br>Lvl. 4 Damage +15%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 2 times. Enemies killed by this skill cannot be revived. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Cooldown -1.<br>Lvl. 4 Damage +15%.<br>Lvl. 5 Cooldown -1.",
       "slug": "ancient-curse",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "21060_s2",
       "upgrades": [
         {
@@ -435,12 +433,10 @@
     {
       "passive": false,
       "name": "Energy Drain",
-      "raw_description": "Attacks all enemies. Decreases the Turn Meter by 20%. Resets the cooldowns on each of this Champion's skills if any target is killed. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Decreases the Turn Meter by 20%. Resets the cooldowns on each of this Champion's skills if any target is killed. Has an extra 15% chance of inflicting a critical hit. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
       "slug": "energy-drain",
       "effects": [],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "21060_s3",
       "upgrades": [
         {
