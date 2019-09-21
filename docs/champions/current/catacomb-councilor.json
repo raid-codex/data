@@ -1,0 +1,180 @@
+{
+  "name": "Catacomb Councilor",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "catacomb-councilor",
+  "characteristics": {
+    "60": {
+      "hp": 14040,
+      "attack": 1454,
+      "defense": 914,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Grotesque Strength",
+      "raw_description": "Has a 50% chance of placing a 25% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy.<br>Damage based on: [ATK]",
+      "slug": "grotesque-strength",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3640_s1",
+      "upgrades": [],
+      "image_slug": "88a63cdbd9e588913c024ee78f178c0d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Ghoulish Feeding",
+      "raw_description": "Attacks 1 enemy 3 times. Heals this Champion by 20% of the damage inflicted.<br>Damage based on: [ATK]",
+      "slug": "ghoulish-feeding",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3640_s2",
+      "upgrades": [],
+      "image_slug": "8ed28d0e039475879475ecaa0d45b9f1",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Army of the Death",
+      "raw_description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills.",
+      "slug": "army-of-the-death",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3640_s3",
+      "upgrades": [],
+      "image_slug": "3d2d13fd7fa8dd9580050811f5fbd242",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 37,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/catacomb-councilor/",
+  "image_slug": "image-champion-catacomb-councilor",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Catacomb Councilor is a epic attack champion from the faction Undead Hordes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Catacomb Councilor",
+      "catacomb-councilor"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Catacomb Councilor is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-catacomb-councilor.jpg",
+        "name": "Catacomb Councilor",
+        "url": "https://raid-codex.com/champions/catacomb-councilor/"
+      }
+    ]
+  },
+  "default_description": "Catacomb Councilor is a epic attack champion from the faction Undead Hordes doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3640",
+  "synergy": [],
+  "thumbnail": "4f11b55f57612f06fe9638b99f6c66e6",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-maulie-tankard",
+      "fusion_type": "ingredient"
+    }
+  ]
+}
