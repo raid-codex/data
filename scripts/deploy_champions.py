@@ -2,8 +2,6 @@
 
 import ftplib
 import os
-import json
-import io
 
 base_dir = "{}/src/github.com/raid-codex/data/generated/champions/".format(
     os.getenv("GOPATH"),
@@ -14,8 +12,6 @@ def upload_file(filename, full_path, ftp):
     content = None
     with open(full_path) as f:
         content = f.read()
-    content = io.BytesIO(json.dumps(content,
-                                    separators=(',', ":")).encode("utf-8"))
     target = "www/generated/champions/{}".format(filename)
     print("should override {} with content".format(target))
     ftp.storbinary("STOR {}".format(target),
