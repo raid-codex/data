@@ -51,11 +51,15 @@
   },
   "auras": [
     {
-      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [HP]",
-      "effects": []
+      "raw_description": "ATKs 1 enemy 2 times.<br>Damage based on: [HP]",
+      "effects": [],
+      "stats": null,
+      "locations": null,
+      "value": 0,
+      "percentage": false
     },
     {
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
+      "raw_description": "ATKs 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
       "effects": [
         {
           "effect_type": "debuff",
@@ -72,7 +76,11 @@
           "places_if": "",
           "amount": 0
         }
-      ]
+      ],
+      "stats": null,
+      "locations": null,
+      "value": 0,
+      "percentage": false
     },
     {
       "raw_description": "Places a 15% [Reflect Damage] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
@@ -107,7 +115,11 @@
           "places_if": "",
           "amount": 0
         }
-      ]
+      ],
+      "stats": null,
+      "locations": null,
+      "value": 0,
+      "percentage": false
     }
   ],
   "skills": [],
