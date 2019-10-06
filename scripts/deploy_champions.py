@@ -21,12 +21,17 @@ def upload_file(filename, full_path, ftp):
     print("ok")
 
 
-with ftplib.FTP(host=os.getenv("FTP_HOST"),
-                user=os.getenv("FTP_USER"),
-                passwd=os.getenv("FTP_PASSWORD")) as ftp:
-    print("Logged in")
-    for (_, _, filenames) in os.walk(base_dir):
-        for filename in filenames:
-            upload_file(filename=filename,
-                        full_path="{}{}".format(base_dir, filename),
-                        ftp=ftp)
+print("host={}, user={}, password={}".format(os.getenv("FTP_HOST"),
+                                             os.getenv("FTP_USER"),
+                                             bool(os.getenv("FTP_PASSWORD"))))
+ftp = ftplib.FTP(host=os.getenv("FTP_HOST", ""))
+logged = ftp.login(user=os.getenv("FTP_USER", ""),
+                   passwd=os.getenv("FTP_PASSWORD", ""))
+print("logged={}".format(logged))
+print("Logged in")
+for (_, _, filenames) in os.walk(base_dir):
+    for filename in filenames:
+        upload_file(filename=filename,
+                    full_path="{}{}".format(base_dir, filename),
+                    ftp=ftp)
+ftp.quit()
