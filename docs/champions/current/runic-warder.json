@@ -49,17 +49,27 @@
       "accuracy": 0
     }
   },
-  "auras": [
+  "auras": [],
+  "skills": [
     {
-      "raw_description": "ATKs 1 enemy 2 times.<br>Damage based on: [HP]",
+      "passive": false,
+      "name": "Twin Chops",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [HP]",
+      "slug": "twin-chops",
       "effects": [],
-      "stats": null,
-      "locations": null,
-      "value": 0,
-      "percentage": false
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4170_s1",
+      "upgrades": [],
+      "image_slug": "5eb34a3308ac836abfccf7f08b3fc65c",
+      "skill_number": "A1"
     },
     {
-      "raw_description": "ATKs 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
+      "passive": false,
+      "name": "Superior Steel",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
+      "slug": "superior-steel",
       "effects": [
         {
           "effect_type": "debuff",
@@ -69,7 +79,7 @@
           "turns": 0,
           "target": null,
           "image_slug": "image-debuff-decrease-atk-2",
-          "slug": "decrease-atk",
+          "slug": "decrease-atk-2",
           "website_link": "/debuffs/decrease-atk",
           "extra": true,
           "raw_description": "",
@@ -77,13 +87,19 @@
           "amount": 0
         }
       ],
-      "stats": null,
-      "locations": null,
-      "value": 0,
-      "percentage": false
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4170_s2",
+      "upgrades": [],
+      "image_slug": "b24a96e4a37a9a78cec7f5b2ed55d6f6",
+      "skill_number": "A2"
     },
     {
+      "passive": false,
+      "name": "Rune of Outlasting",
       "raw_description": "Places a 15% [Reflect Damage] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
+      "slug": "rune-of-outlasting",
       "effects": [
         {
           "effect_type": "buff",
@@ -116,13 +132,13 @@
           "amount": 0
         }
       ],
-      "stats": null,
-      "locations": null,
-      "value": 0,
-      "percentage": false
+      "damaged_based_on": [],
+      "giid": "4170_s3",
+      "upgrades": [],
+      "image_slug": "d40cf956c07970e699fd000df4dba6f4",
+      "skill_number": "A3"
     }
   ],
-  "skills": [],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
