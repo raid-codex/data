@@ -11,8 +11,16 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Deploy API
+      env:
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        FTP_HOST: ${{ secrets.FTP_HOST }}
       run: |
         BASE_DIR=`pwd` python3 scripts/deploy_api.py
     - name: Deploy HTML
+      env:
+        FTP_USER: ${{ secrets.FTP_USER }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        FTP_HOST: ${{ secrets.FTP_HOST }}
       run: |
         BASE_DIR=`pwd` python3 scripts/deploy_champions.py
