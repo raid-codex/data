@@ -5,9 +5,9 @@ import os
 import json
 import io
 
-base_dir = "{}/src/github.com/raid-codex/data/docs/champions/current/".format(
+base_dir = os.getenv("BASE_DIR", "{}/src/github.com/raid-codex/data".format(
     os.getenv("GOPATH"),
-)
+)) + "/docs/champions/current/"
 
 
 def upload_file(filename, full_path, ftp):
