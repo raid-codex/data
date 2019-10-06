@@ -4,9 +4,9 @@ import ftplib
 import os
 import io
 
-base_dir = "{}/src/github.com/raid-codex/data/generated/champions/".format(
+base_dir = os.getenv("BASE_DIR", "{}/src/github.com/raid-codex/data".format(
     os.getenv("GOPATH"),
-)
+)) + "/generated/champions/"
 
 
 def upload_file(filename, full_path, ftp):
