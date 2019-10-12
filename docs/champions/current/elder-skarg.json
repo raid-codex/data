@@ -49,7 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in the Arena by 30%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "the-arena"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
   "skills": [
     {
       "passive": false,
@@ -172,7 +185,7 @@
     {
       "passive": true,
       "name": "Kingslayer",
-      "raw_description": "Receives 15% less damage from Legendary Champions.<br><span class=\"ez-toc-section\" id=\"Aura\">Aura </span><br>Increases Ally C. RATE in the Arena by 30%<br>(function(){var XHR = ( &#34;onload&#34; in new XMLHttpRequest() ) ? XMLHttpRequest : XDomainRequest;var xhr = new XHR();var url = &#34;https://raidshadowlegends.pro/wp-admin/admin-ajax.php?action=ajax-hits-counter-increment&amp;post_id=254&amp;t=&#34; + ( parseInt( new Date().getTime() ) ) + &#34;&amp;r=&#34; + ( parseInt( Math.random() * 100000 ) );xhr.open(&#34;GET&#34;, url, true);xhr.setRequestHeader( &#34;Cache-Control&#34;, &#34;no-cache&#34; );xhr.setRequestHeader( &#34;Content-Type&#34;, &#34;application/json&#34; );xhr.timeout = 60000;xhr.send();xhr.onreadystatechange = function(){if( this.readyState != 4 ){return;}if( this.status &amp;&amp; this.status == 200 ){if( typeof ajaxHitsCounterSuccessCallback === &#34;function&#34; ){ ajaxHitsCounterSuccessCallback( this );}}else{if( typeof ajaxHitsCounterFailedCallback === &#34;function&#34; ){ ajaxHitsCounterFailedCallback( this );}}}})();",
+      "raw_description": "Receives 15% less damage from Legendary Champions.",
       "slug": "kingslayer",
       "effects": [],
       "damaged_based_on": [],
@@ -282,7 +295,7 @@
       }
     ]
   },
-  "default_description": "Elder Skarg is a legendary attack champion from the faction Barbarians doing forces damage",
+  "default_description": "Elder Skarg is a legendary attack champion from the faction Barbarians doing force damage",
   "recommended_builds": [],
   "lore": "",
   "giid": "3860",
