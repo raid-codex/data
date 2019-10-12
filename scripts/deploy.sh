@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=$(git diff-tree --name-only --no-commit-id -r HEAD | grep "docs/champions/curr" | grep -v index.json)
+files=$(git diff-tree --name-status --no-commit-id -r HEAD | grep "docs/champions/curr" | grep M | sed 's/.*docs/docs/g')
 for file in $files
 do
     echo "Processing $file"

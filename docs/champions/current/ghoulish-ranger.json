@@ -1,0 +1,216 @@
+{
+  "name": "Ghoulish Ranger",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "ghoulish-ranger",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Numbing Arrows",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ACC] debuff for 2 turns. places an extra hit if the target is under a [Decrease ACC] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Buff/Debuff Chance +5%<br/>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "numbing-arrows",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4070_s1",
+      "upgrades": [],
+      "image_slug": "9bde9d62abb173d8f0659fda517733c2",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Foul Festering",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a [Leech] debuff for 2 turns. <br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Buff/Debuff Chance +5%<br/>Lvl. 6 Buff/Debuff Chance +10%<br/>Lvl. 7 Cooldown -1 ",
+      "slug": "foul-festering",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/debuffs/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4070_s2",
+      "upgrades": [],
+      "image_slug": "4cd36e17f11eb7f5c5ffecfbb913e845",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Cryptfire",
+      "raw_description": "Attacks 3 times at random. Has a 30% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br/>Lvl. 3 Buff/Debuff Chance +5%<br/>Lvl. 4 Buff/Debuff Chance +5%<br/>Lvl. 5 Buff/Debuff Chance +10%<br/>Lvl. 6 Cooldown -1",
+      "slug": "cryptfire",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4070_s3",
+      "upgrades": [],
+      "image_slug": "f8cc78350b9305420edcad04d50f2dc4",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 40,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/ghoulish-ranger/",
+  "image_slug": "image-champion-ghoulish-ranger",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ghoulish Ranger is a rare attack champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ghoulish Ranger",
+      "ghoulish-ranger"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Ghoulish Ranger is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ghoulish-ranger.jpg",
+        "name": "Ghoulish Ranger",
+        "url": "https://raid-codex.com/champions/ghoulish-ranger/"
+      }
+    ]
+  },
+  "default_description": "Ghoulish Ranger is a rare attack champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4070",
+  "synergy": [],
+  "thumbnail": "d01eeca8b24321cd2fe89dd85b9beb51",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-alika",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

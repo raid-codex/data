@@ -1,0 +1,165 @@
+{
+  "name": "Vilespawn",
+  "rarity": "Uncommon",
+  "element": "Spirit",
+  "type": "Assist",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "vilespawn",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hellblight",
+      "raw_description": "Attacks 1 enemy. Has a 5% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +5%<br/>Lvl. 5 Damage +5%<br/>Lvl. 6 Buff/Debuff Chance +5%<br/>Lvl. 7 Buff/Debuff Chance +10%<br/>Lvl. 8 Buff/Debuff Chance +10%",
+      "slug": "hellblight",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4350_s1",
+      "upgrades": [],
+      "image_slug": "99d0a98cce5b2861a57c1f55979bb340",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flesh Knit",
+      "raw_description": "Heals an ally by 10% of their MAX HP<br>Damage based on: [ATK]<br>Lvl. 2 Heal +5%<br/>Lvl. 3 Heal +5%<br/>Lvl. 4 Heal +5%<br/>Lvl. 5 Heal +10%<br/>Lvl. 6 Heal +10%",
+      "slug": "flesh-knit",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4350_s2",
+      "upgrades": [],
+      "image_slug": "4d729a72a3b30d0f700746dc36a2c5f2",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 29,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/vilespawn/",
+  "image_slug": "image-champion-vilespawn",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Vilespawn is a uncommon assist champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Vilespawn",
+      "vilespawn"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Vilespawn is a champion of Uncommon rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-vilespawn.jpg",
+        "name": "Vilespawn",
+        "url": "https://raid-codex.com/champions/vilespawn/"
+      }
+    ]
+  },
+  "default_description": "Vilespawn is a uncommon assist champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4350",
+  "synergy": [],
+  "thumbnail": "244edd7e85dc81602b7615cd705545f5",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}
