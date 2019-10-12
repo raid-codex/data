@@ -1,0 +1,196 @@
+{
+  "name": "Reliquary Tender",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Assist",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "reliquary-tender",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Warden Staff",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Buff/Debuff Chance +5%<br/>Lvl. 4 Damage +5%<br/>Lvl. 5 Buff/Debuff Chance +5%<br/>Lvl. 6 Damage +5%<br/>Lvl. 7 Buff/Debuff Chance +10%<br/>Lvl. 8 Damage +10%<br/>Lvl. 9 Buff/Debuff Chance +10%",
+      "slug": "warden-staff",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3620_s1",
+      "upgrades": [],
+      "image_slug": "2a9990b249c1578ef7963a13c8640299",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tender Watch",
+      "raw_description": "Removes all debuffs from all allies, then places a 15% [Continuous Heal] buff on them for 2 turns.<br>Lvl. 2 Cooldown -1<br/>Lvl. 3 Cooldown -1",
+      "slug": "tender-watch",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3620_s2",
+      "upgrades": [],
+      "image_slug": "469a104675c4a016e077f02fcb8aad08",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Call to Life",
+      "raw_description": "Reviews an ally with 30% HP and fills their Turn Meter by 30%<br>Lvl. 2 Cooldown -1",
+      "slug": "call-to-life",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3620_s3",
+      "upgrades": [],
+      "image_slug": "c178337c33d12636227eca2553618cbd",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 30,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/reliquary-tender/",
+  "image_slug": "image-champion-reliquary-tender",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Reliquary Tender is a rare assist champion from the faction High Elves doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Reliquary Tender",
+      "reliquary-tender"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Reliquary Tender is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-reliquary-tender.jpg",
+        "name": "Reliquary Tender",
+        "url": "https://raid-codex.com/champions/reliquary-tender/"
+      }
+    ]
+  },
+  "default_description": "Reliquary Tender is a rare assist champion from the faction High Elves doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3620",
+  "synergy": [],
+  "thumbnail": "4baf54f36935058bcc696fcef3f4689b",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-alika",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

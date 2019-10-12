@@ -1,0 +1,219 @@
+{
+  "name": "Perforator",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "perforator",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": true,
+      "name": "Scare Off",
+      "raw_description": "Has a 35% chance of placing a [Fear] debuff on the target for 1 turn when this champion inflicts a critical hit.<br>Lvl. 2 Cooldown -1",
+      "slug": "scare-off",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/debuffs/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4450_s1",
+      "upgrades": [],
+      "image_slug": "a37da9deb5b1e6479c18cb10719945ae",
+      "skill_number": "P1"
+    },
+    {
+      "passive": false,
+      "name": "Vermin Slayer",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 1 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Buff/Debuff Chance +5%<br/>Lvl. 5 Buff/Debuff Chance +5%<br/>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "vermin-slayer",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4450_s2",
+      "upgrades": [],
+      "image_slug": "55e4f9526338a868e916b7521692e68a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hardened Tips",
+      "raw_description": "Attacks 1 enemy. Ignores 50% of the target's DEF. Grants an Extra Turn if this attack kills an enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Cooldown -1",
+      "slug": "hardened-tips",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4450_s3",
+      "upgrades": [],
+      "image_slug": "8336e4c52da051bbe22f04c2cfa6689b",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 22,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/perforator/",
+  "image_slug": "image-champion-perforator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Perforator is a rare attack champion from the faction Dwarves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Perforator",
+      "perforator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Perforator is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-perforator.jpg",
+        "name": "Perforator",
+        "url": "https://raid-codex.com/champions/perforator/"
+      }
+    ]
+  },
+  "default_description": "Perforator is a rare attack champion from the faction Dwarves doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4450",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "7230b2b03e2da37352abf1a659545b44",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-alika",
+      "fusion_type": "ingredient"
+    }
+  ]
+}
