@@ -39,13 +39,13 @@
   "slug": "miscreated-monster",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 22965,
+      "attack": 958,
+      "defense": 815,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
       "accuracy": 0
     }
   },
@@ -284,7 +284,107 @@
     ]
   },
   "default_description": "Miscreated Monster is a epic hp champion from the faction Knight Revenant doing magic damage",
-  "recommended_builds": [],
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "life",
+        "life",
+        "life",
+        "life",
+        "retaliation"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "Helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
   "lore": "",
   "giid": "4580",
   "synergy": [],

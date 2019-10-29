@@ -39,13 +39,13 @@
   "slug": "brakus-the-shifter",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 19815,
+      "attack": 1465,
+      "defense": 793,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
       "accuracy": 0
     }
   },
@@ -114,7 +114,7 @@
       "passive": false,
       "name": "Hunter's Howl",
       "raw_description": "Places a 50% [Increase ATK] buff on all allies for 3 turns, then attacks 1 enemy 3 times.<br>Each hit has a 50% chance of placing a [True Fear] debuff for 1 turn. Hasa 50% chance of placing a [Fear] debuff on 2 random enemies for 1 turn if the [True Fear] debuff is placed.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br/>Lvl. 3 Buff/Debuff Chance +10%<br/>Lvl. 4 Buff/Debuff Chance +15%<br/>Lvl. 5 Cooldown -1",
-      "slug": "hunters-howl",
+      "slug": "hunter-s-howl",
       "effects": [
         {
           "effect_type": "debuff",
@@ -239,7 +239,104 @@
     ]
   },
   "default_description": "Brakus the Shifter is a legendary attack champion from the faction Skinwalkers doing force damage",
-  "recommended_builds": [],
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "Helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
   "lore": "",
   "giid": "4590",
   "synergy": [],
