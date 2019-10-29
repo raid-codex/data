@@ -1,0 +1,280 @@
+{
+  "name": "Madame Serris",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Assist",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "madame-serris",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": true,
+      "name": "Witch's Grace",
+      "raw_description": "Places a [Shield] buff on this Champion equal to 10% of their MAX HP at the start of each turn.<br>When attacked while under a [Shield] buff, has a 35% chance of placing a [Fear] debuff on the attacker for 1 turn.<br>",
+      "slug": "witch-s-grace",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/debuffs/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4570_s1",
+      "upgrades": [],
+      "image_slug": "76db2634120c413758070006e8292306",
+      "skill_number": "P1"
+    },
+    {
+      "passive": false,
+      "name": "Panic Spread",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Fear] debuff for 1 turn.<br>This chance increases to 30% if the target is under 1 debuff. This chance increases to 45% if the target is under 2 or more debuffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +5%<br/>Lvl. 5 Damage +5%",
+      "slug": "panic-spread",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/debuffs/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4570_s2",
+      "upgrades": [],
+      "image_slug": "3c09ce264d7ddfd394ec3cd0e1243e8f",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tricks and Treats",
+      "raw_description": "Attacks all enemies. Has a 40% chance of stealing 1 random buff from each target.<br>Places a [Block Debuffs] buff on all allies for 2 turns if any buff is stolen.<br>Places a [True Fear] debuff for 1 turn on enemies who have buffs stolen.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Buff/Debuff Chance +10%<br/>Lvl. 5 Cooldown -1",
+      "slug": "tricks-and-treats",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buffs/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/debuffs/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4570_s3",
+      "upgrades": [],
+      "image_slug": "87fef9934755884acc112be491730c8d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Midnight Ritual",
+      "raw_description": "Removes all buffs from enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 3 turns.<br>Lvl. 2 Cooldown -1<br/>Lvl. 3 Cooldown -1",
+      "slug": "midnight-ritual",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4570_s4",
+      "upgrades": [],
+      "image_slug": "f6444a834d6221485f307137a2ee630b",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 36,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/madame-serris/",
+  "image_slug": "image-champion-madame-serris",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Madame Serris is a epic assist champion from the faction Dark Elves doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Madame Serris",
+      "madame-serris"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Madame Serris is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-madame-serris.jpg",
+        "name": "Madame Serris",
+        "url": "https://raid-codex.com/champions/madame-serris/"
+      }
+    ]
+  },
+  "default_description": "Madame Serris is a epic assist champion from the faction Dark Elves doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4570",
+  "synergy": [],
+  "thumbnail": "e9dae45ec08b498f7e1af247757c9b35",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}
