@@ -49,7 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 19%.",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 19,
+      "percentage": true
+    }
+  ],
   "skills": [
     {
       "passive": false,
@@ -155,7 +168,7 @@
     {
       "passive": true,
       "name": "Ethereal Ways",
-      "raw_description": "Decreases the damage taken by all allies from AoE attacks by 25% (15% from Bosses).<br>Decreases the damage taken by all allies from AoE attacks by 40% if an ally is under a [Veil] buff (25% from Bosses).<br><span class=\"ez-toc-section\" id=\"Aura\">Aura</span><br>Increases Ally SPD in all Battles by 19%.<br>",
+      "raw_description": "Decreases the damage taken by all allies from AoE attacks by 25% (15% from Bosses).<br>Decreases the damage taken by all allies from AoE attacks by 40% if an ally is under a [Veil] buff (25% from Bosses).",
       "slug": "ethereal-ways",
       "effects": [],
       "damaged_based_on": [],

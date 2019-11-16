@@ -49,7 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 25%",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
   "skills": [
     {
       "passive": false,
@@ -141,7 +154,7 @@
     {
       "passive": true,
       "name": "Fires of Doom",
-      "raw_description": "Decreases damage inflicted by enemies under [HP Burn] debuffs by 10%.<br><span class=\"ez-toc-section\" id=\"Aura\">Aura</span><br>Increases Ally HP in all Battles by 25%<br>",
+      "raw_description": "Decreases damage inflicted by enemies under [HP Burn] debuffs by 10%.",
       "slug": "fires-of-doom",
       "effects": [],
       "damaged_based_on": [],
