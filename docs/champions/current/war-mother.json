@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Cry Havoc",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 100% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%",
       "slug": "cry-havoc",
       "effects": [
         {
@@ -103,7 +103,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.3,
+              "chance": 1,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -136,7 +136,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.3,
+              "chance": 1,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -169,7 +169,7 @@
               "effect_type": "debuff",
               "type": "Decrease ATK",
               "value": 0.5,
-              "chance": 0.3,
+              "chance": 1,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -197,7 +197,7 @@
     {
       "passive": false,
       "name": "Special Brew",
-      "raw_description": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 3 turns. Bomb damage is increased by 100% against Bosses.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "special-brew",
       "effects": [
         {

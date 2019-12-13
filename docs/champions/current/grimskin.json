@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Tarry Fist",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5%",
       "slug": "tarry-fist",
       "effects": [
         {
@@ -74,7 +74,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "DEF"
       ],
       "giid": "2130_s1",
       "upgrades": [
@@ -90,7 +90,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.4,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -106,7 +106,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "-"
@@ -123,7 +123,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.4,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -139,7 +139,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "Damage +5%"
@@ -156,7 +156,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.4,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -172,7 +172,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "Damage +5%"
@@ -189,7 +189,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.3,
+              "chance": 0.45,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -205,7 +205,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "Chance +5%"
@@ -222,7 +222,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.3,
+              "chance": 0.45,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -238,7 +238,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "Damage +10%"
@@ -255,7 +255,7 @@
               "effect_type": "debuff",
               "type": "Decrease SPD",
               "value": 0.3,
-              "chance": 0.35,
+              "chance": 0.5,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -271,7 +271,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 0,
           "raw_detail": "Chance +5%"
@@ -283,7 +283,7 @@
     {
       "passive": false,
       "name": "Frustrating Muck",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Provoke] debuff for 1 turn. Also has a 40% chance of placing a [Provoke] debuff on all enemies for 1 turn if the first [Provoke] debuff is placed.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Cooldown -1",
       "slug": "frustrating-muck",
       "effects": [
         {
@@ -303,7 +303,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "DEF"
       ],
       "giid": "2130_s2",
       "upgrades": [
@@ -335,7 +335,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "-"
@@ -368,7 +368,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "Damage +5%"
@@ -401,7 +401,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "Chance +10%"
@@ -434,7 +434,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "Damage +10%"
@@ -467,7 +467,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "Chance +10%"
@@ -500,7 +500,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 3,
           "raw_detail": "Cooldown -1"
@@ -512,11 +512,11 @@
     {
       "passive": false,
       "name": "Ichor Fling",
-      "raw_description": "Attacks all enemies. Has an 80% chance of removing 1 random buff from each target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +20%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has an 80% chance of removing 1 random buff from each target.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +20%<br>Lvl. 5 Cooldown -1",
       "slug": "ichor-fling",
       "effects": [],
       "damaged_based_on": [
-        "ATK"
+        "DEF"
       ],
       "giid": "2130_s3",
       "upgrades": [
@@ -548,7 +548,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 5,
           "raw_detail": "-"
@@ -581,7 +581,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 5,
           "raw_detail": "Damage +5%"
@@ -614,7 +614,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 5,
           "raw_detail": "Damage +5%"
@@ -647,7 +647,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 5,
           "raw_detail": "Chance +20%"
@@ -680,7 +680,7 @@
             }
           ],
           "based_on": [
-            "ATK"
+            "DEF"
           ],
           "cooldown": 4,
           "raw_detail": "Cooldown -1"

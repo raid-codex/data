@@ -549,9 +549,24 @@
     {
       "passive": false,
       "name": "Reign of Terror",
-      "raw_description": "Attacks all enemies. Increases the duration of all debuffs on the target by 1 turn. Places a [Shield] buff on this Champion for 2 turns equal to 30% of damage dealt. The damage increases by 10% per each debuff on the target.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Shield +10%<br>Lvl. 4 Shield +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a [Provoke] debuff for 1 turn. Increases the duration of all debuffs on the target by 1 turn. Places a [Shield] buff on this Champion for 2 turns equal to 30% of damage dealt. The damage increases by 10% per each debuff on the target.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Shield +10%<br>Lvl. 4 Shield +10%<br>Lvl. 5 Cooldown -1",
       "slug": "reign-of-terror",
       "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
         {
           "effect_type": "buff",
           "type": "Shield",
@@ -1085,12 +1100,12 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
+    "increase-dmg-per-debuff",
+    "shield-per-dmg",
+    "increase-debuffs",
     "stun",
     "provoke",
     "remove-1-buff",
-    "shield",
-    "increase-dmg-per-debuff",
-    "shield-per-dmg",
-    "increase-debuffs"
+    "shield"
   ]
 }
