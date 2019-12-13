@@ -1,0 +1,529 @@
+{
+  "name": "Harvest Jack",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "HP",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "harvest-jack",
+  "characteristics": {
+    "60": {
+      "hp": 26925,
+      "attack": 859,
+      "defense": 925,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 20
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": true,
+      "name": "Leering Grin",
+      "raw_description": "When attacked, decreases the duration of all buffs on the attacker by 1 turn.<br>",
+      "slug": "leering-grin",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4560_s1",
+      "upgrades": [],
+      "image_slug": "7830746b46418d2b0e6ad2744dc8efc5",
+      "skill_number": "P1"
+    },
+    {
+      "passive": false,
+      "name": "Harvest of Fear",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 25% chance of stealing 1 random buff from the target.<br>Each hit also has a 25% chance of placing a [Fear] debuff for 1 turn if the target has no active buffs.<br>This chance increases to 100% if all buffs were stolen from the target.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Buff/Debuff Chance +5% <br/>Lvl. 5 Buff/Debuff Chance +5%",
+      "slug": "harvest-of-fear",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/debuffs/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4560_s2",
+      "upgrades": [],
+      "image_slug": "5109c78db9b0cc7901e2bc45d1e63629",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Dreams to Ash",
+      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff for 2 turns on targets under [Fear] debuffs.<br>Removes any [Increase ATK] buff from the target and replaces them with a 50% [Decrease ATK] debuff for 2 turns. Removes any [Continuous Heal] buff from the target and replaces them with a 5% [Poison] debuff for 2 turns. The number of [Poison] debuffs is equal to the number of [Continuous Heal] buffs removed.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +5% <br/>Lvl. 5 Damage +5% <br/>Lvl. 6 Cooldown -1",
+      "slug": "dreams-to-ash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/buffs/continuous-heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buffs/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuffs/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4560_s3",
+      "upgrades": [],
+      "image_slug": "14a18fbc91b4fc46d9a9c27a56ab520a",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Lord of Terror",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a [True Fear] debuff for 1 turn.<br>Also places a 30% [Decrease SPD] debuff for 2 turns and decreases each target’s Turn Meter by 15% if the [True Fear] debuff is placed.<br>Has a 75% chance of placing a [Sleep] debuff for 1 turn if the [True Fear] debuff is not placed.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Buff/Debuff Chance +10%<br/>Lvl. 5 Buff/Debuff Chance +15%<br/>Lvl. 6 Cooldown -1",
+      "slug": "lord-of-terror",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/debuffs/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4560_s4",
+      "upgrades": [],
+      "image_slug": "cb08016054ab0e60f0047b2076637e9d",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 43,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 43 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/harvest-jack/",
+  "image_slug": "image-champion-harvest-jack",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Harvest Jack is a legendary hp champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Harvest Jack",
+      "harvest-jack"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Harvest Jack is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-harvest-jack.jpg",
+        "name": "Harvest Jack",
+        "url": "https://raid-codex.com/champions/harvest-jack/"
+      }
+    ]
+  },
+  "default_description": "Harvest Jack is a legendary hp champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign"
+      ],
+      "sets": [
+        "life",
+        "life",
+        "life",
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "Helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "life",
+        "lifesteal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "Helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "4560",
+  "synergy": [],
+  "thumbnail": "6b050305727cf58f619ee76f40697abf",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-harvest-jack",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-buffs",
+    "continuous-heal",
+    "decrease-spd-2",
+    "sleep",
+    "true-fear",
+    "fear",
+    "increase-atk",
+    "poison",
+    "decrease-atk-2"
+  ]
+}

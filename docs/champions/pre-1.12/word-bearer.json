@@ -1,0 +1,183 @@
+{
+  "name": "Word Bearer",
+  "rarity": "Uncommon",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "word-bearer",
+  "characteristics": {
+    "60": {
+      "hp": 14535,
+      "attack": 958,
+      "defense": 826,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Noble Authority",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ACC] debuff for 2 turns.<br><br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Buff/Debuff Chance +5%<br/>Lvl. 4 Damage +5%<br/>Lvl. 5 Buff/Debuff Chance +5%<br/>Lvl. 6 Damage +5%<br/>Lvl. 7 Buff/Debuff Chance +5%<br/>Lvl. 8 Damage +10%<br/>Lvl. 9 Buff/Debuff Chance +10%",
+      "slug": "noble-authority",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3780_s1",
+      "upgrades": [],
+      "image_slug": "2e724aad600501b5ee24c3eb219777d4",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Royal Shield",
+      "raw_description": "Places a 30% [Increase DEF] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1<br/>Lvl. 3 Cooldown -1",
+      "slug": "royal-shield",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3780_s2",
+      "upgrades": [],
+      "image_slug": "491fda671d2443509f423ad694092d25",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 39,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/word-bearer/",
+  "image_slug": "image-champion-word-bearer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Word Bearer is a uncommon assist champion from the faction Banner-Lords doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Word Bearer",
+      "word-bearer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Word Bearer is a champion of Uncommon rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-word-bearer.jpg",
+        "name": "Word Bearer",
+        "url": "https://raid-codex.com/champions/word-bearer/"
+      }
+    ]
+  },
+  "default_description": "Word Bearer is a uncommon assist champion from the faction Banner-Lords doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3780",
+  "synergy": [],
+  "thumbnail": "3569df159ec477451530c4455b2a9e86",
+  "tags": [
+    "NEW_CHAMPION_20191115"
+  ],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-acc",
+    "increase-def"
+  ]
+}

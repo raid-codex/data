@@ -1,0 +1,208 @@
+{
+  "name": "Maeve",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "maeve",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Stupefy",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Sleep] debuff for 1 turn. Has a 50% chance of granting an Extra Turn if placing a [Sleep] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +5%<br/>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "stupefy",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3690_s1",
+      "upgrades": [],
+      "image_slug": "659ba275610f1ea329216558a6a6fd99",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Slobber Knocker",
+      "raw_description": "Attacks 1 enemy. Places a [Stun] debuff on a target for 2 turns if the target is under a [Sleep] debuff.<br> Damage based on: [ATK] <br><br/>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Cooldown -1 ",
+      "slug": "slobber-knocker",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3690_s2",
+      "upgrades": [],
+      "image_slug": "c7e8d45dc4bbf9a7d15fc1e98a2563ea",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "And Stay Down",
+      "raw_description": "Attacks 1 enemy. enemies killed by this skill cannot be revived. <br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Cooldown -1<br/>Lvl. 5 Cooldown -1",
+      "slug": "and-stay-down",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3690_s3",
+      "upgrades": [],
+      "image_slug": "a5f8a7243df6457cc04b0b141c26a515",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 38,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 38 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/maeve/",
+  "image_slug": "image-champion-maeve",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Maeve is a epic attack champion from the faction Barbarians doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Maeve",
+      "maeve"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Maeve is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-maeve.jpg",
+        "name": "Maeve",
+        "url": "https://raid-codex.com/champions/maeve/"
+      }
+    ]
+  },
+  "default_description": "Maeve is a epic attack champion from the faction Barbarians doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3690",
+  "synergy": [],
+  "thumbnail": "781397bc0630d47ab531ea850bddcf63",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-harvest-jack",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-harvest-jack-maeve",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "stun",
+    "sleep"
+  ]
+}
