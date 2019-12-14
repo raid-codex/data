@@ -67,9 +67,25 @@
     {
       "passive": false,
       "name": "Crushing Blow",
-      "raw_description": "Attacks 1 enemy. Heals all allies except this Champion by 25% of the damage inflicted. Damage inflicted is proportional to MAX HP.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Heals all allies including this Champion by 25% of the damage inflicted. Damage inflicted is proportional to MAX HP.<br>Ascended: Places a [Shield] buff equal to 10% MAX HP on this Champion for 2 turns.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "crushing-blow",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "HP"
       ],
@@ -714,11 +730,12 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
+    "ally-protection",
+    "ally-protection-2",
     "block-cooldown-skills",
     "heal-per-dmg",
-    "ally-protection-2",
+    "increase-def",
     "increase-def-2",
-    "ally-protection",
-    "increase-def"
+    "shield"
   ]
 }

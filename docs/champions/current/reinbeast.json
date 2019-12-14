@@ -397,7 +397,7 @@
     {
       "passive": false,
       "name": "It Glows",
-      "raw_description": "When an ally is attacked, places a [Shield] buff equal to 35% of this Champion's MAX HP on that ally for 2 turns. Occurs once per turn.<br>Lvl. 2 Shield +10%<br>Lvl. 3 Shield +10%<br>Lvl. 4 Shield +10%",
+      "raw_description": "When an ally is attacked, places a [Shield] buff equal to 35% of this Champion's MAX HP on that ally for 2 turns. Occurs once per turn. [Shield] cannot be placed on this Champion.<br>Lvl. 2 Shield +10%<br>Lvl. 3 Shield +10%<br>Lvl. 4 Shield +10%",
       "slug": "it-glows",
       "effects": [
         {
@@ -711,10 +711,10 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
+    "continuous-heal",
+    "continuous-heal-2",
     "revive",
     "shield",
-    "shield-per-champ-max-hp",
-    "continuous-heal-2",
-    "continuous-heal"
+    "shield-per-champ-max-hp"
   ]
 }

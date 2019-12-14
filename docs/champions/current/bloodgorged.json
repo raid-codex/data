@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Break Defense",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 55% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +10%",
       "slug": "break-defense",
       "effects": [
         {
@@ -90,7 +90,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.6,
-              "chance": 0.3,
+              "chance": 0.55,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -123,7 +123,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.6,
-              "chance": 0.3,
+              "chance": 0.55,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -156,7 +156,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.6,
-              "chance": 0.4,
+              "chance": 0.65,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -189,7 +189,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.6,
-              "chance": 0.5,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -217,7 +217,7 @@
     {
       "passive": false,
       "name": "Raging Beast",
-      "raw_description": "Attacks 3 times at random. Puts one of the target's Skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks 1 time. Puts one of the target's Skills on cooldown.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "raging-beast",
       "effects": [],
       "damaged_based_on": [
@@ -227,7 +227,7 @@
       "upgrades": [
         {
           "level": "Level 1",
-          "hits": 3,
+          "hits": 1,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -260,7 +260,7 @@
         },
         {
           "level": "Level 2",
-          "hits": 3,
+          "hits": 1,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -293,7 +293,7 @@
         },
         {
           "level": "Level 3",
-          "hits": 3,
+          "hits": 1,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -326,7 +326,7 @@
         },
         {
           "level": "Level 4",
-          "hits": 3,
+          "hits": 1,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -359,7 +359,7 @@
         },
         {
           "level": "Level 5",
-          "hits": 3,
+          "hits": 1,
           "target": {
             "who": "enemy",
             "targets": "random"
@@ -930,10 +930,10 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-def-2",
-    "decrease-def",
     "block-cooldown-skills",
     "block-revive",
+    "decrease-def",
+    "decrease-def-2",
     "ignore-def"
   ]
 }

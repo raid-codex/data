@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Grave Rot",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Chances to place this debuff increase by 10% per each debuff placed on this Champion.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Chances to place this debuff increase by 10% per each debuff placed on this Champion.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "grave-rot",
       "effects": [
         {
@@ -103,7 +103,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -136,7 +136,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -169,7 +169,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -202,7 +202,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -235,7 +235,7 @@
               "effect_type": "debuff",
               "type": "Decrease DEF",
               "value": 0.3,
-              "chance": 0.25,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -263,19 +263,19 @@
     {
       "passive": false,
       "name": "Soulreap",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on this Champion for 2 turns if the target is killed. Has a 30% of granting another turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if the target is killed. Grants another turn if the target is killed.<br>Damage based on: [ATK]<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Buff/Debuff Chance +5%",
       "slug": "soulreap",
       "effects": [
         {
           "effect_type": "buff",
-          "type": "Increase C. RATE",
+          "type": "Increase ATK",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-increase-c-rate-2",
-          "slug": "increase-c-rate-2",
-          "website_link": "/buffs/increase-c-rate",
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
           "extra": true,
           "raw_description": "",
           "places_if": "",
@@ -299,7 +299,7 @@
               "effect_type": "battle_enhancement",
               "type": "Extra Turn",
               "value": 0,
-              "chance": 0.3,
+              "chance": 1,
               "turns": 0,
               "target": {
                 "who": "self",
@@ -308,24 +308,6 @@
               "image_slug": "image-battle-enhancement-extra-turn",
               "slug": "extra-turn",
               "website_link": "/battle_enhancements/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "kill",
-              "amount": 1
-            },
-            {
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/debuffs/increase-c-rate",
               "extra": false,
               "raw_description": "",
               "places_if": "kill",
@@ -350,7 +332,7 @@
               "effect_type": "battle_enhancement",
               "type": "Extra Turn",
               "value": 0,
-              "chance": 0.35,
+              "chance": 1,
               "turns": 0,
               "target": {
                 "who": "self",
@@ -359,24 +341,6 @@
               "image_slug": "image-battle-enhancement-extra-turn",
               "slug": "extra-turn",
               "website_link": "/battle_enhancements/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "kill",
-              "amount": 1
-            },
-            {
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/debuffs/increase-c-rate",
               "extra": false,
               "raw_description": "",
               "places_if": "kill",
@@ -401,7 +365,7 @@
               "effect_type": "battle_enhancement",
               "type": "Extra Turn",
               "value": 0,
-              "chance": 0.4,
+              "chance": 1,
               "turns": 0,
               "target": {
                 "who": "self",
@@ -410,24 +374,6 @@
               "image_slug": "image-battle-enhancement-extra-turn",
               "slug": "extra-turn",
               "website_link": "/battle_enhancements/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "kill",
-              "amount": 1
-            },
-            {
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/debuffs/increase-c-rate",
               "extra": false,
               "raw_description": "",
               "places_if": "kill",
@@ -452,7 +398,7 @@
               "effect_type": "battle_enhancement",
               "type": "Extra Turn",
               "value": 0,
-              "chance": 0.45,
+              "chance": 1,
               "turns": 0,
               "target": {
                 "who": "self",
@@ -461,24 +407,6 @@
               "image_slug": "image-battle-enhancement-extra-turn",
               "slug": "extra-turn",
               "website_link": "/battle_enhancements/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "kill",
-              "amount": 1
-            },
-            {
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/debuffs/increase-c-rate",
               "extra": false,
               "raw_description": "",
               "places_if": "kill",
@@ -498,9 +426,25 @@
     {
       "passive": false,
       "name": "Spirit Harvest",
-      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted. The heal increases by 10% for each dead enemy. Places a 15% {Increase SPD] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted. The heal increases by 10% for each dead enemy. Places a 30% [Increase SPD] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Cooldown -1",
       "slug": "spirit-harvest",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/buffs/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -514,24 +458,6 @@
             "targets": "1"
           },
           "effects": [
-            {
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/debuffs/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
             {
               "effect_type": "battle_enhancement",
               "type": "Heal per DMG+Dead Ally",
@@ -566,24 +492,6 @@
           },
           "effects": [
             {
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/debuffs/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
               "effect_type": "battle_enhancement",
               "type": "Heal per DMG+Dead Ally",
               "value": 0.15,
@@ -617,24 +525,6 @@
           },
           "effects": [
             {
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/debuffs/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
               "effect_type": "battle_enhancement",
               "type": "Heal per DMG+Dead Ally",
               "value": 0.15,
@@ -667,24 +557,6 @@
             "targets": "1"
           },
           "effects": [
-            {
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/debuffs/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
             {
               "effect_type": "battle_enhancement",
               "type": "Heal per DMG+Dead Ally",
@@ -781,10 +653,9 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-def",
-    "increase-c-rate-2",
     "extra-turn",
-    "increase-c-rate",
-    "increase-spd",
-    "heal-per-dmg-dead-ally"
+    "heal-per-dmg-dead-ally",
+    "increase-atk-2",
+    "increase-spd-2"
   ]
 }
