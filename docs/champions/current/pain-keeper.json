@@ -67,10 +67,13 @@
     {
       "passive": false,
       "name": "Unflagging Advance",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 2 times. Fills this Champion’s Turn Meter by 10%.<br>Damage based on: [DEF][ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +10%<br>Level 6: Damage +10%",
       "slug": "unflagging-advance",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
       "giid": "3140_s1",
       "upgrades": [
         {
@@ -284,10 +287,13 @@
     {
       "passive": false,
       "name": "Spectacular Sweep",
-      "raw_description": "",
+      "raw_description": "Attacks all enemies, then heals all allies by 15% of their MAX HP.<br>Damage based on: [HP][ATK]<br>Level 2: Heal +5%<br>Level 3: Heal +5%<br>Level 4: Damage +5%<br>Level 5: Heal +10%<br>Level 6: Heal +15%<br>Level 7: Damage +15%<br>Level 8: Cooldown -1",
       "slug": "spectacular-sweep",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
       "giid": "3140_s2",
       "upgrades": [
         {
@@ -569,7 +575,7 @@
     {
       "passive": false,
       "name": "Combat Tactics",
-      "raw_description": "",
+      "raw_description": "Decreases the cooldown of all allies skills by 1 turn.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1<br>Level 4: Cooldown -1",
       "slug": "combat-tactics",
       "effects": [],
       "damaged_based_on": [],

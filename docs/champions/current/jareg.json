@@ -95,7 +95,7 @@
     {
       "passive": false,
       "name": "Pack Leader",
-      "raw_description": "Places a 50% [Ally Protection] and a 60% [Decrease DEF] buff on all allies for 2 turns",
+      "raw_description": "Places a 50% [Ally Protection] and a 60% [Increase DEF] buff on all allies for 2 turns",
       "slug": "pack-leader",
       "effects": [
         {
@@ -106,7 +106,7 @@
           "turns": 0,
           "target": null,
           "image_slug": "image-buff-ally-protection-2",
-          "slug": "ally-protection-2",
+          "slug": "ally-protection",
           "website_link": "/buffs/ally-protection",
           "extra": true,
           "raw_description": "",
@@ -114,15 +114,15 @@
           "amount": 0
         },
         {
-          "effect_type": "debuff",
-          "type": "Decrease DEF",
+          "effect_type": "buff",
+          "type": "Increase DEF",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def-2",
-          "slug": "decrease-def-2",
-          "website_link": "/debuffs/decrease-def",
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
           "extra": true,
           "raw_description": "",
           "places_if": "",
@@ -431,9 +431,9 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "ally-protection-2",
+    "ally-protection",
     "continuous-heal-2",
     "decrease-atk",
-    "decrease-def-2"
+    "increase-def"
   ]
 }
