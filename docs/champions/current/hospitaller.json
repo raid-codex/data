@@ -51,7 +51,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in all battles by 1",
+      "raw_description": "Increases Ally SPD in all battles by 10%",
       "effects": [],
       "stats": [
         "SPD"
@@ -59,8 +59,8 @@
       "locations": [
         "all-battles"
       ],
-      "value": 1,
-      "percentage": false
+      "value": 10,
+      "percentage": true
     }
   ],
   "skills": [
@@ -384,9 +384,40 @@
     {
       "passive": false,
       "name": "Invigorating Prayers",
-      "raw_description": "Places a 15% all allies for 2 turn",
+      "raw_description": "Places a 15% [Increase SPD] and a 15% [Increase C. RATE] buff on all allies for 2 turns.<br>Level: 2 Cooldown -1",
       "slug": "invigorating-prayers",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/buffs/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd",
+          "slug": "increase-spd",
+          "website_link": "/buffs/increase-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3400_s3",
       "upgrades": [
