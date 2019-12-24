@@ -7,4 +7,5 @@ cat $1 | \
     sed "s/Skartosis/Skartorsis/g" | \
     sed "s/Support/Assist/g" | \
     sed "s/Drexthar Bloodtwin,Legendary,Force,Def/Drexthar Bloodtwin,Legendary,Force,HP/g" | \
+    sed "s/Armantine Skeleton/Amarantine Skeleton/g" | \
     sponge $1
