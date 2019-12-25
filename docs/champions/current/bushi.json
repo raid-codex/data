@@ -4,12 +4,12 @@
   "element": "Spirit",
   "type": "Attack",
   "rating": {
-    "overall": "C",
-    "campaign": "B",
+    "overall": "B",
+    "campaign": "C",
     "arena_offense": "A",
     "arena_defense": "C",
     "clan_boss_without_giant_slayer": "C",
-    "clan_boss_with_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "C",
     "ice_guardian": "C",
     "dragon": "B",
     "spider": "D",
@@ -49,7 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in the Arena by 20%.",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "the-arena"
+      ],
+      "value": 20,
+      "percentage": true
+    }
+  ],
   "skills": [
     {
       "passive": false,
@@ -482,7 +495,7 @@
             }
           ],
           "based_on": [],
-          "cooldown": 8,
+          "cooldown": 5,
           "raw_detail": "-"
         },
         {
@@ -531,7 +544,7 @@
             }
           ],
           "based_on": [],
-          "cooldown": 7,
+          "cooldown": 4,
           "raw_detail": "Cooldown -1"
         },
         {
@@ -580,7 +593,7 @@
             }
           ],
           "based_on": [],
-          "cooldown": 6,
+          "cooldown": 3,
           "raw_detail": "Cooldown -1"
         }
       ],
@@ -649,7 +662,9 @@
   "giid": "2500",
   "synergy": [],
   "thumbnail": "f7696a9b362ac5a51c3dc8f098b73923",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [

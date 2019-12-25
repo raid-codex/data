@@ -4,18 +4,18 @@
   "element": "Spirit",
   "type": "Attack",
   "rating": {
-    "overall": "B",
+    "overall": "A",
     "campaign": "B",
     "arena_offense": "S",
     "arena_defense": "B",
     "clan_boss_without_giant_slayer": "C",
-    "clan_boss_with_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "C",
     "ice_guardian": "B",
     "dragon": "B",
     "spider": "B",
     "fire_knight": "B",
     "minotaur": "B",
-    "force_dungeon": "A",
+    "force_dungeon": "C",
     "magic_dungeon": "C",
     "spirit_dungeon": "B",
     "void_dungeon": "B"
@@ -296,7 +296,7 @@
     {
       "passive": false,
       "name": "Jacked Frost",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Freeze] debuff on all enemies for 1 turn if this attack kills the enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Has a 90% chance of placing a [Freeze] debuff on all enemies for 1 turn if this attack kills the enemy.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "jacked-frost",
       "effects": [
         {
@@ -332,7 +332,7 @@
               "effect_type": "debuff",
               "type": "Freeze",
               "value": 0,
-              "chance": 0.5,
+              "chance": 0.9,
               "turns": 1,
               "target": {
                 "who": "all enemy",
@@ -365,7 +365,7 @@
               "effect_type": "debuff",
               "type": "Freeze",
               "value": 0,
-              "chance": 0.5,
+              "chance": 0.9,
               "turns": 1,
               "target": {
                 "who": "all enemy",
@@ -398,7 +398,7 @@
               "effect_type": "debuff",
               "type": "Freeze",
               "value": 0,
-              "chance": 0.55,
+              "chance": 0.95,
               "turns": 1,
               "target": {
                 "who": "all enemy",
@@ -431,7 +431,7 @@
               "effect_type": "debuff",
               "type": "Freeze",
               "value": 0,
-              "chance": 0.55,
+              "chance": 0.95,
               "turns": 1,
               "target": {
                 "who": "all enemy",
@@ -464,7 +464,7 @@
               "effect_type": "debuff",
               "type": "Freeze",
               "value": 0,
-              "chance": 0.6,
+              "chance": 1,
               "turns": 1,
               "target": {
                 "who": "all enemy",
@@ -821,7 +821,9 @@
   "giid": "3020",
   "synergy": [],
   "thumbnail": "e4a93f0332b2519177ed55741ea4e5e7",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [

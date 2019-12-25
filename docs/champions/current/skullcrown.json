@@ -4,10 +4,10 @@
   "element": "Void",
   "type": "Attack",
   "rating": {
-    "overall": "SS",
-    "campaign": "SS",
-    "arena_offense": "SS",
-    "arena_defense": "SS",
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "S",
     "clan_boss_without_giant_slayer": "C",
     "clan_boss_with_giant_slayer": "C",
     "ice_guardian": "S",
@@ -289,10 +289,10 @@
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-weaken",
-              "slug": "weaken",
+              "image_slug": "image-debuff-weaken-2",
+              "slug": "weaken-2",
               "website_link": "/debuffs/weaken",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -322,10 +322,10 @@
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-weaken",
-              "slug": "weaken",
+              "image_slug": "image-debuff-weaken-2",
+              "slug": "weaken-2",
               "website_link": "/debuffs/weaken",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -355,10 +355,10 @@
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-weaken",
-              "slug": "weaken",
+              "image_slug": "image-debuff-weaken-2",
+              "slug": "weaken-2",
               "website_link": "/debuffs/weaken",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -388,10 +388,10 @@
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-weaken",
-              "slug": "weaken",
+              "image_slug": "image-debuff-weaken-2",
+              "slug": "weaken-2",
               "website_link": "/debuffs/weaken",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -421,10 +421,10 @@
                 "who": "all enemy",
                 "targets": ""
               },
-              "image_slug": "image-debuff-weaken",
-              "slug": "weaken",
+              "image_slug": "image-debuff-weaken-2",
+              "slug": "weaken-2",
               "website_link": "/debuffs/weaken",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -565,7 +565,7 @@
     {
       "passive": true,
       "name": "From Beyond",
-      "raw_description": "Revives this Champion with 30% HP.<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Revives this Champion with 30% HP. (Only available when Sinesha is on the same team)<br>Lvl. 2 Cooldown -1<br>Lvl. 3 Cooldown -1",
       "slug": "from-beyond",
       "effects": [],
       "damaged_based_on": [],
@@ -832,7 +832,6 @@
     "extra-hit",
     "revive",
     "unkillable",
-    "weaken",
     "weaken-2"
   ]
 }

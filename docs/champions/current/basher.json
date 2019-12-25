@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Splintering Bash",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "splintering-bash",
       "effects": [
         {
@@ -103,7 +103,7 @@
               "effect_type": "debuff",
               "type": "Weaken",
               "value": 0.25,
-              "chance": 0.3,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -136,7 +136,7 @@
               "effect_type": "debuff",
               "type": "Weaken",
               "value": 0.25,
-              "chance": 0.3,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -169,7 +169,7 @@
               "effect_type": "debuff",
               "type": "Weaken",
               "value": 0.25,
-              "chance": 0.3,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -202,7 +202,7 @@
               "effect_type": "debuff",
               "type": "Weaken",
               "value": 0.25,
-              "chance": 0.3,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -235,7 +235,7 @@
               "effect_type": "debuff",
               "type": "Weaken",
               "value": 0.25,
-              "chance": 0.3,
+              "chance": 0.75,
               "turns": 2,
               "target": {
                 "who": "target",
@@ -263,25 +263,9 @@
     {
       "passive": false,
       "name": "Stinging Blast",
-      "raw_description": "Attacks all enemies. If the target has a [Block Buffs] debuff, increases the cooldown on one random target skill for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks all enemies. Increases the cooldown on one random target skill for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "stinging-blast",
-      "effects": [
-        {
-          "effect_type": "debuff",
-          "type": "Block Buffs",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-block-buffs",
-          "slug": "block-buffs",
-          "website_link": "/debuffs/block-buffs",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK"
       ],
@@ -310,7 +294,7 @@
               "website_link": "/debuffs/block-cooldown-skills",
               "extra": false,
               "raw_description": "",
-              "places_if": "Block Buffs",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -681,7 +665,9 @@
   "giid": "2660",
   "synergy": [],
   "thumbnail": "1b9812b99fe2672af746cefda86be5f9",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [
     {

@@ -4,10 +4,10 @@
   "element": "Force",
   "type": "Attack",
   "rating": {
-    "overall": "B",
+    "overall": "A",
     "campaign": "B",
     "arena_offense": "A",
-    "arena_defense": "C",
+    "arena_defense": "B",
     "clan_boss_without_giant_slayer": "S",
     "clan_boss_with_giant_slayer": "A",
     "ice_guardian": "A",
@@ -18,7 +18,7 @@
     "force_dungeon": "B",
     "magic_dungeon": "S",
     "spirit_dungeon": "C",
-    "void_dungeon": "SS"
+    "void_dungeon": "B"
   },
   "reviews": {
     "amount": 56,
@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Razor Claws",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 90% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5%<br>Lvl. 6 Damage +10%",
       "slug": "razor-claws",
       "effects": [
         {
@@ -103,8 +103,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.3,
-              "turns": 1,
+              "chance": 0.9,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -136,8 +136,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.3,
-              "turns": 1,
+              "chance": 0.9,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -169,8 +169,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.35,
-              "turns": 1,
+              "chance": 0.95,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -202,8 +202,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.35,
-              "turns": 1,
+              "chance": 0.95,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -235,8 +235,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.4,
-              "turns": 1,
+              "chance": 1,
+              "turns": 3,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -268,8 +268,8 @@
               "effect_type": "debuff",
               "type": "Poison",
               "value": 0.05,
-              "chance": 0.4,
-              "turns": 1,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -776,7 +776,9 @@
     }
   ],
   "thumbnail": "65cc2c8205a05d7379fa3a6386f710e1",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [
     {

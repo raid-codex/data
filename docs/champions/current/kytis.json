@@ -4,7 +4,7 @@
   "element": "Spirit",
   "type": "Attack",
   "rating": {
-    "overall": "A",
+    "overall": "B",
     "campaign": "C",
     "arena_offense": "A",
     "arena_defense": "C",
@@ -67,24 +67,9 @@
     {
       "passive": false,
       "name": "Soul Reaper",
-      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns if the target has a [Continuous Heal] buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Buff/Debuff Chance +10%",
       "slug": "soul-reaper",
       "effects": [
-        {
-          "effect_type": "buff",
-          "type": "Continuous Heal",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-continuous-heal",
-          "slug": "continuous-heal",
-          "website_link": "/buffs/continuous-heal",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
         {
           "effect_type": "debuff",
           "type": "Heal Reduction",
@@ -129,7 +114,7 @@
               "website_link": "/debuffs/heal-reduction",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -162,7 +147,7 @@
               "website_link": "/debuffs/heal-reduction",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -195,7 +180,7 @@
               "website_link": "/debuffs/heal-reduction",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -228,7 +213,7 @@
               "website_link": "/debuffs/heal-reduction",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -261,7 +246,7 @@
               "website_link": "/debuffs/heal-reduction",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -278,24 +263,9 @@
     {
       "passive": false,
       "name": "Spikes",
-      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 4 times at random. The attacks will be critical if the target has a [Continuous Heal] buff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 4 times at random. The attacks will be critical if the target has any buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "spikes",
       "effects": [
-        {
-          "effect_type": "buff",
-          "type": "Continuous Heal",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-continuous-heal",
-          "slug": "continuous-heal",
-          "website_link": "/buffs/continuous-heal",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
         {
           "effect_type": "buff",
           "type": "Increase ATK",
@@ -340,7 +310,7 @@
               "website_link": "/battle_enhancements/always-crit",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "any buff",
               "amount": 1
             },
             {
@@ -391,7 +361,7 @@
               "website_link": "/battle_enhancements/always-crit",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "any buff",
               "amount": 1
             },
             {
@@ -442,7 +412,7 @@
               "website_link": "/battle_enhancements/always-crit",
               "extra": false,
               "raw_description": "",
-              "places_if": "Continuous Heal",
+              "places_if": "any buff",
               "amount": 1
             },
             {
@@ -836,7 +806,9 @@
   "giid": "1600",
   "synergy": [],
   "thumbnail": "9e984c108157cea74c894b5cf34efc44",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [
     {
@@ -850,7 +822,6 @@
   ],
   "effect_slugs": [
     "always-crit",
-    "continuous-heal",
     "heal-reduction",
     "heal-reduction-2",
     "increase-atk",

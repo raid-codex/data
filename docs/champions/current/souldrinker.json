@@ -7,7 +7,7 @@
     "overall": "A",
     "campaign": "B",
     "arena_offense": "A",
-    "arena_defense": "B",
+    "arena_defense": "C",
     "clan_boss_without_giant_slayer": "A",
     "clan_boss_with_giant_slayer": "B",
     "ice_guardian": "A",
@@ -250,7 +250,7 @@
     {
       "passive": false,
       "name": "Raining Fire",
-      "raw_description": "Attacks 3 times at random. Decreases [Bomb] debuff detonation countdowns by 1 turn if the target has a [Poison] debuff.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 3 times at random. Decreases [Bomb] debuff detonation countdowns by 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "raining-fire",
       "effects": [
         {
@@ -263,21 +263,6 @@
           "image_slug": "image-debuff-bomb",
           "slug": "bomb",
           "website_link": "/debuffs/bomb",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "effect_type": "debuff",
-          "type": "Poison",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-poison",
-          "slug": "poison",
-          "website_link": "/debuffs/poison",
           "extra": false,
           "raw_description": "",
           "places_if": "",
@@ -312,7 +297,7 @@
               "website_link": "/battle_enhancements/decrease-bomb",
               "extra": false,
               "raw_description": "",
-              "places_if": "Poison",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -345,7 +330,7 @@
               "website_link": "/battle_enhancements/decrease-bomb",
               "extra": false,
               "raw_description": "",
-              "places_if": "Poison",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -378,7 +363,7 @@
               "website_link": "/battle_enhancements/decrease-bomb",
               "extra": false,
               "raw_description": "",
-              "places_if": "Poison",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -411,7 +396,7 @@
               "website_link": "/battle_enhancements/decrease-bomb",
               "extra": false,
               "raw_description": "",
-              "places_if": "Poison",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -444,7 +429,7 @@
               "website_link": "/battle_enhancements/decrease-bomb",
               "extra": false,
               "raw_description": "",
-              "places_if": "Poison",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -461,7 +446,7 @@
     {
       "passive": false,
       "name": "Magma Blast",
-      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 75% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "magma-blast",
       "effects": [
         {
@@ -497,7 +482,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.5,
+              "chance": 0.75,
               "turns": 3,
               "target": {
                 "who": "all enemy",
@@ -530,7 +515,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.5,
+              "chance": 0.75,
               "turns": 3,
               "target": {
                 "who": "all enemy",
@@ -563,7 +548,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.6,
+              "chance": 0.85,
               "turns": 3,
               "target": {
                 "who": "all enemy",
@@ -596,7 +581,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
+              "chance": 1,
               "turns": 3,
               "target": {
                 "who": "all enemy",
@@ -629,7 +614,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
+              "chance": 1,
               "turns": 3,
               "target": {
                 "who": "all enemy",
@@ -657,7 +642,7 @@
     {
       "passive": true,
       "name": "Set Ablaze",
-      "raw_description": "Has an 80% chance of placing two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
+      "raw_description": "Places two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
       "slug": "set-ablaze",
       "effects": [
         {
@@ -691,7 +676,7 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.8,
+              "chance": 1,
               "turns": 2,
               "target": {
                 "who": "all enemy",
@@ -776,12 +761,13 @@
   "giid": "1620",
   "synergy": [],
   "thumbnail": "806beafe154032a5b818e97b4420ad98",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
     "bomb",
-    "decrease-bomb",
-    "poison"
+    "decrease-bomb"
   ]
 }

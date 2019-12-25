@@ -11,7 +11,7 @@
     "clan_boss_without_giant_slayer": "D",
     "clan_boss_with_giant_slayer": "D",
     "ice_guardian": "B",
-    "dragon": "SS",
+    "dragon": "B",
     "spider": "D",
     "fire_knight": "C",
     "minotaur": "B",
@@ -433,7 +433,7 @@
     {
       "passive": true,
       "name": "Unkillable",
-      "raw_description": "Has a 50% chance to revive with 50% HP when killed.",
+      "raw_description": "Revives this Champion with 50% HP when killed.",
       "slug": "unkillable",
       "effects": [],
       "damaged_based_on": [],
@@ -451,7 +451,7 @@
               "effect_type": "buff",
               "type": "Revive on Death",
               "value": 0.5,
-              "chance": 0.5,
+              "chance": 1,
               "turns": 0,
               "target": {
                 "who": "self",
@@ -536,7 +536,9 @@
   "giid": "630",
   "synergy": [],
   "thumbnail": "9cc138f8dc04cbf16240daa92d8d50e2",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [
     {
