@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Mangle Limbs",
-      "raw_description": "Attacks 1 enemy 2 times. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +15%",
       "slug": "mangle-limbs",
       "effects": [
         {
@@ -77,10 +77,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def",
-          "slug": "decrease-def",
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
           "website_link": "/debuffs/decrease-def",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0
@@ -102,17 +102,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
-              "chance": 0.5,
+              "value": 0.6,
+              "chance": 0.25,
               "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -135,17 +135,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
-              "chance": 0.5,
+              "value": 0.6,
+              "chance": 0.25,
               "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -168,17 +168,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
-              "chance": 0.5,
+              "value": 0.6,
+              "chance": 0.25,
               "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -201,17 +201,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
-              "chance": 0.6,
+              "value": 0.6,
+              "chance": 0.35,
               "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -234,17 +234,17 @@
             {
               "effect_type": "debuff",
               "type": "Decrease DEF",
-              "value": 0.3,
-              "chance": 0.75,
+              "value": 0.6,
+              "chance": 0.5,
               "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
               },
-              "image_slug": "image-debuff-decrease-def",
-              "slug": "decrease-def",
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
               "website_link": "/debuffs/decrease-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -443,7 +443,7 @@
     {
       "passive": false,
       "name": "Boom Barrage",
-      "raw_description": "Attacks all enemies. Has a 75% chance of placing a [Bomb] that detonates after 3 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a [Bomb] that detonates after 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "boom-barrage",
       "effects": [
         {
@@ -479,8 +479,8 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
-              "turns": 3,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
@@ -512,8 +512,8 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
-              "turns": 3,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
@@ -545,8 +545,8 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
-              "turns": 3,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
@@ -578,8 +578,8 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
-              "turns": 3,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
@@ -611,8 +611,8 @@
               "effect_type": "debuff",
               "type": "Bomb",
               "value": 0,
-              "chance": 0.75,
-              "turns": 3,
+              "chance": 1,
+              "turns": 2,
               "target": {
                 "who": "all enemy",
                 "targets": ""
@@ -698,12 +698,14 @@
   "giid": "2450",
   "synergy": [],
   "thumbnail": "49d4b2faeb4b7b9e745775793141e2b2",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
     "bomb",
-    "decrease-def",
+    "decrease-def-2",
     "decrease-dmg-per-hit"
   ]
 }

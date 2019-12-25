@@ -54,7 +54,7 @@
     {
       "passive": false,
       "name": "Heavy Blow",
-      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [HP]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%",
       "slug": "heavy-blow",
       "effects": [
         {
@@ -74,7 +74,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
       "giid": "370_s1",
       "upgrades": [
@@ -250,7 +250,7 @@
     {
       "passive": false,
       "name": "Lower Visor",
-      "raw_description": "Places a 15% [Continuous Heal] buff and a 30% [Increase DEF] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "raw_description": "Places a 15% [Continuous Heal] buff and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
       "slug": "lower-visor",
       "effects": [
         {
@@ -275,10 +275,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-increase-def",
-          "slug": "increase-def",
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
           "website_link": "/buffs/increase-def",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0
@@ -298,17 +298,17 @@
             {
               "effect_type": "debuff",
               "type": "Increase DEF",
-              "value": 0.3,
+              "value": 0.6,
               "chance": 0,
               "turns": 2,
               "target": {
                 "who": "all ally",
                 "targets": ""
               },
-              "image_slug": "image-debuff-increase-def",
-              "slug": "increase-def",
+              "image_slug": "image-debuff-increase-def-2",
+              "slug": "increase-def-2",
               "website_link": "/debuffs/increase-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -347,17 +347,17 @@
             {
               "effect_type": "debuff",
               "type": "Increase DEF",
-              "value": 0.3,
+              "value": 0.6,
               "chance": 0,
               "turns": 2,
               "target": {
                 "who": "all ally",
                 "targets": ""
               },
-              "image_slug": "image-debuff-increase-def",
-              "slug": "increase-def",
+              "image_slug": "image-debuff-increase-def-2",
+              "slug": "increase-def-2",
               "website_link": "/debuffs/increase-def",
-              "extra": false,
+              "extra": true,
               "raw_description": "",
               "places_if": "-",
               "amount": 1
@@ -430,7 +430,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 6,
+          "cooldown": 4,
           "raw_detail": "-"
         },
         {
@@ -463,7 +463,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 6,
+          "cooldown": 4,
           "raw_detail": "Damage +5%"
         },
         {
@@ -496,7 +496,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 6,
+          "cooldown": 4,
           "raw_detail": "Damage +5%"
         },
         {
@@ -529,7 +529,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 6,
+          "cooldown": 4,
           "raw_detail": "Damage +5%"
         },
         {
@@ -562,7 +562,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 6,
+          "cooldown": 4,
           "raw_detail": "Damage +5%"
         }
       ],
@@ -572,7 +572,7 @@
     {
       "passive": true,
       "name": "Valorous",
-      "raw_description": "Places an [Unkillable] buff on this Champion for 1 turn if incoming damage exceeds 30% MAX HP in one attack.",
+      "raw_description": "Places an [Unkillable] buff on this Champion for 1 turn if incoming damage exceeds 15% MAX HP in one attack.",
       "slug": "valorous",
       "effects": [
         {
@@ -617,7 +617,7 @@
               "website_link": "/debuffs/unkillable",
               "extra": false,
               "raw_description": "",
-              "places_if": "30%+ ATK",
+              "places_if": "15%+ ATK",
               "amount": 1
             }
           ],
@@ -909,13 +909,15 @@
   "giid": "370",
   "synergy": [],
   "thumbnail": "d709f38ef758b5066ef31b18039b8ce5",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
     "continuous-heal",
     "continuous-heal-2",
-    "increase-def",
+    "increase-def-2",
     "increase-dmg-per-hp-lost",
     "provoke",
     "unkillable"

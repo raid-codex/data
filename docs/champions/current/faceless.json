@@ -443,40 +443,9 @@
     {
       "passive": false,
       "name": "Ice Bolt",
-      "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs as well as DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Will ignore Shield and Block Damage buffs as well as DEF.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Damage +10%",
       "slug": "ice-bolt",
-      "effects": [
-        {
-          "effect_type": "buff",
-          "type": "Block Damage",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-block-damage",
-          "slug": "block-damage",
-          "website_link": "/buffs/block-damage",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/buffs/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK"
       ],
@@ -548,7 +517,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 5,
+          "cooldown": 3,
           "raw_detail": "-"
         },
         {
@@ -617,7 +586,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 5,
+          "cooldown": 3,
           "raw_detail": "Damage +5%"
         },
         {
@@ -686,7 +655,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 5,
+          "cooldown": 3,
           "raw_detail": "Damage +5%"
         },
         {
@@ -755,7 +724,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 5,
+          "cooldown": 3,
           "raw_detail": "Damage +10%"
         },
         {
@@ -824,7 +793,7 @@
           "based_on": [
             "ATK"
           ],
-          "cooldown": 5,
+          "cooldown": 3,
           "raw_detail": "Damage +10%"
         }
       ],
@@ -894,18 +863,17 @@
   "synergy": [],
   "thumbnail": "92c8c96e4c37100777c7190b76d28233",
   "tags": [
-    "CHAMPION_UPDATED_20190808"
+    "CHAMPION_UPDATED_20190808",
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
   ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "block-damage",
     "extra-hit",
     "ignore-block-dmg",
     "ignore-def",
     "ignore-shield",
     "increase-c-rate",
-    "increase-c-rate-2",
-    "shield"
+    "increase-c-rate-2"
   ]
 }

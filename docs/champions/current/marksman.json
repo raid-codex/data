@@ -67,7 +67,7 @@
     {
       "passive": false,
       "name": "Venom Arrow",
-      "raw_description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 1 turn if the attack is critical. Has a 15% chance of granting an Extra Turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns if the attack is critical. Has a 15% chance of granting an Extra Turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Buff/Debuff Chance +5%",
       "slug": "venom-arrow",
       "effects": [
         {
@@ -122,7 +122,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 0,
-              "turns": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -173,7 +173,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 0,
-              "turns": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -224,7 +224,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 0,
-              "turns": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -275,7 +275,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 0,
-              "turns": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -326,7 +326,7 @@
               "type": "Poison",
               "value": 0.05,
               "chance": 0,
-              "turns": 1,
+              "turns": 2,
               "target": {
                 "who": "target",
                 "targets": ""
@@ -874,7 +874,9 @@
     }
   ],
   "thumbnail": "5f93f983524def3dca464469d2cf9f3e",
-  "tags": [],
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219"
+  ],
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
