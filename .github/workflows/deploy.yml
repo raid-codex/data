@@ -9,11 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Deploy API
-      env:
-        FTP_USER: ${{ secrets.FTP_USER }}
-        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        FTP_HOST: ${{ secrets.FTP_HOST }}
-      run: |
-        BASE_DIR=`pwd` python3 scripts/deploy_api.py
+    - name: git pull
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: ${{ secrets.SSH_PORT }}
+        script: cd data && git pull && cd .. && cp data/docs/champions/current/*.json api/champions/.data/ && cp data/docs/factions/current/*.json api/factions/.data/ && cp data/docs/status-effects/current/*.json api/status-effects/.data/ && cp data/docs/champions/index-small.json api/champions/.data/
