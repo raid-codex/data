@@ -49,7 +49,20 @@
       "accuracy": 0
     }
   },
-  "auras": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in the Arena by 33%.",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "the-arena"
+      ],
+      "value": 33,
+      "percentage": true
+    }
+  ],
   "skills": [
     {
       "passive": false,
@@ -187,7 +200,7 @@
     {
       "passive": true,
       "name": "Spooky Groan",
-      "raw_description": "Places a [Fear] debuff on the attacker for 1 turn whenever an ally is attacked while under an [Ally Protection] buff.<br><span class=\"ez-toc-section\" id=\"Aura\">Aura</span><br>Increases Ally HP in the Arena by 33%.<br>",
+      "raw_description": "Places a [Fear] debuff on the attacker for 1 turn whenever an ally is attacked while under an [Ally Protection] buff.",
       "slug": "spooky-groan",
       "effects": [
         {
