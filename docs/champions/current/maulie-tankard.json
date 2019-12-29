@@ -126,6 +126,21 @@
           "raw_description": "",
           "places_if": "",
           "amount": 0
+        },
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [],
@@ -139,7 +154,23 @@
       "name": "Rowdy Crowd",
       "raw_description": "Fills the Turn Meter of all allies by 15% when this Champion is hit. Fills the Turn Meter of all allies by 25% when this Champion is hit by a boss",
       "slug": "rowdy-crowd",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4520_s4",
       "upgrades": [],
@@ -325,6 +356,7 @@
   ],
   "effect_slugs": [
     "block-damage",
+    "increase-turn-meter",
     "provoke",
     "reflect-damage-2"
   ],

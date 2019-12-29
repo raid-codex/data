@@ -551,7 +551,23 @@
       "name": "Seal of Magic",
       "raw_description": "Resets the cooldowns of all ally skills. Fills the Turn Meter of all allies except this Champion by 20%.<br>Lvl. 2 Cooldown -1",
       "slug": "seal-of-magic",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "1440_s3",
       "upgrades": [

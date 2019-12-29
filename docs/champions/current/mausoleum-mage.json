@@ -144,7 +144,23 @@
       "name": "Winds of Purging",
       "raw_description": "Removes all debuffs from all allies, then heals all allies by 10% of this champion's MAX HP.<br>Heals each ally by a further 10% if 1 or more debuffs are removed from that ally. fills each ally's Turn Meter by 15% if 2 or more debuffs are removed from that ally.<br>Lvl. 2 Heal +10%<br/>Lvl. 3 Heal +10%<br/>Lvl. 4 Heal +10% <br/>Lvl. 5 Cooldown -1",
       "slug": "winds-of-purging",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4060_s3",
       "upgrades": [],
@@ -222,7 +238,8 @@
     "block-debuffs",
     "decrease-spd-2",
     "increase-c-rate-2",
-    "increase-def-2"
+    "increase-def-2",
+    "increase-turn-meter"
   ],
   "videos": []
 }

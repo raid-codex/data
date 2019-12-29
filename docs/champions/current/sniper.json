@@ -56,7 +56,23 @@
       "name": "Double Shot",
       "raw_description": "Attacks 1 enemy 2 times. Has an extra 15% chance of inflicting a critical hit. Fills this Champion's Turn Meter by 15% on each critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
       "slug": "double-shot",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -361,7 +377,8 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-spd"
+    "decrease-spd",
+    "increase-turn-meter"
   ],
   "videos": []
 }

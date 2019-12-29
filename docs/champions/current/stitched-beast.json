@@ -100,7 +100,23 @@
       "name": "Pack Tactics",
       "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Damage based on: [ATK]",
       "slug": "pack-tactics",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -184,6 +200,7 @@
     }
   ],
   "effect_slugs": [
+    "decrease-turn-meter",
     "weaken-2"
   ],
   "videos": []

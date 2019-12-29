@@ -534,7 +534,23 @@
       "name": "Fiery Rage",
       "raw_description": "Has a 10% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion's Turn Meter by 25% when attacked.",
       "slug": "fiery-rage",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "21120_s3",
       "upgrades": [

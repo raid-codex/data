@@ -601,7 +601,23 @@
       "name": "Bog Down",
       "raw_description": "Attacks all enemies. Decreases the Turn Meter by 100%.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Damage +15%<br>Lvl. 4 Cooldown -1",
       "slug": "bog-down",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "DEF"
       ],

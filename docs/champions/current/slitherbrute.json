@@ -511,7 +511,23 @@
       "name": "Punish Hubris",
       "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter equal to the amount of buffs on the target.<br>Damage based on: [ATK]<br>Lvl. 2 Cooldown -1",
       "slug": "punish-hubris",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],

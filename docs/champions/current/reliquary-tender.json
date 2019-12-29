@@ -114,7 +114,23 @@
       "name": "Call to Life",
       "raw_description": "Reviews an ally with 30% HP and fills their Turn Meter by 30%<br>Lvl. 2 Cooldown -1",
       "slug": "call-to-life",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3620_s3",
       "upgrades": [],
@@ -195,7 +211,8 @@
   ],
   "effect_slugs": [
     "continuous-heal-2",
-    "decrease-atk"
+    "decrease-atk",
+    "increase-turn-meter"
   ],
   "videos": []
 }

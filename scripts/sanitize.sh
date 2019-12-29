@@ -32,5 +32,5 @@ do
         cmd=$1
         ;;
     esac
-    raid-codex-cli $cmd sanitize $cmd_line
+    raid-codex-cli $cmd sanitize $cmd_line || echo $file
 done
