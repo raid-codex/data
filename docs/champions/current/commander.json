@@ -86,7 +86,23 @@
       "name": "Quickheal",
       "raw_description": "Heals the ally with the lowest HP by 40% of this Champion's HP. Completely fills the target's Turn Meter if the ally is fully healed. This Champion's Turn Meter cannot be filled by this Skill.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Heal +10%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
       "slug": "quickheal",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "740_s2",
       "upgrades": [],
@@ -164,6 +180,7 @@
     }
   ],
   "effect_slugs": [
+    "increase-turn-meter",
     "stun"
   ],
   "videos": []

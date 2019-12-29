@@ -127,7 +127,23 @@
       "name": "Ward Off",
       "raw_description": "Decreases the Turn Meter of all enemies by 15%",
       "slug": "ward-off",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3050_s3",
       "upgrades": [],
@@ -210,6 +226,7 @@
   ],
   "effect_slugs": [
     "decrease-spd",
+    "decrease-turn-meter",
     "sleep",
     "weaken"
   ],

@@ -86,7 +86,23 @@
       "name": "Companions of Fate",
       "raw_description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills. Fills the Turn Meters of all allies by 30%. Increases the duration of all ally buffs by 1 turn.<br>Lvl. 2 Cooldown -1",
       "slug": "companions-of-fate",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3830_s2",
       "upgrades": [],
@@ -206,7 +222,8 @@
   "effect_slugs": [
     "continuous-heal-2",
     "increase-atk-2",
-    "increase-c-rate-2"
+    "increase-c-rate-2",
+    "increase-turn-meter"
   ],
   "videos": []
 }

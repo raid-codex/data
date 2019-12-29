@@ -692,7 +692,44 @@
       "name": "Jealousy",
       "raw_description": "This Champion's Turn Meter will be increased by 10% each time an enemy Champion places a buff. Enemy Champions will have their Turn Meters decreased by 10% for each buff they receive.",
       "slug": "jealousy",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0.1,
+          "chance": 0,
+          "turns": 0,
+          "target": {
+            "who": "target",
+            "targets": ""
+          },
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "Buffs",
+          "amount": 1
+        },
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0.1,
+          "chance": 0,
+          "turns": 0,
+          "target": {
+            "who": "self",
+            "targets": ""
+          },
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "enemy places buff",
+          "amount": 1
+        }
+      ],
       "damaged_based_on": [],
       "giid": "2160_s3",
       "upgrades": [

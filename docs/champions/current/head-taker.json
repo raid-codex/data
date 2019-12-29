@@ -70,7 +70,23 @@
       "name": "Weaking",
       "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the Turn Meter by 20%<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +5%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Damage +10%<br/>Lvl. 6 Buff/Debuff Chance +10%<br/>Lvl. 7 Buff/Debuff Chance +15%",
       "slug": "weaking",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/battle_enhancements/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -146,6 +162,8 @@
   ],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-turn-meter"
+  ],
   "videos": []
 }

@@ -424,7 +424,23 @@
       "name": "Rebirth",
       "raw_description": "Removes all debuffs from all allies, then heals all allies and fills their Turn Meters. The amount by which each ally is healed increases according to the number of debuffs removed. The amount by which each ally's Turn Meter is filled increases according to the number of debuffs removed.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Heal +5%<br>Lvl. 5 Cooldown -1<br>Lvl. 6 Cooldown -1",
       "slug": "rebirth",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "410_s3",
       "upgrades": [

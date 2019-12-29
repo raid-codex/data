@@ -114,6 +114,21 @@
           "raw_description": "",
           "places_if": "",
           "amount": 0
+        },
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
@@ -129,7 +144,23 @@
       "name": "Fate Reweaved",
       "raw_description": "Revives a dead ally with 30% HP, then fills their Turn Meter by 30%.<br><br>Level 2: Cooldown -1",
       "slug": "fate-reweaved",
-      "effects": [],
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/battle_enhancements/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3550_s3",
       "upgrades": [],
@@ -226,6 +257,7 @@
   ],
   "effect_slugs": [
     "increase-spd",
+    "increase-turn-meter",
     "poison"
   ],
   "videos": []
