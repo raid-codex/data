@@ -6,6 +6,7 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
     x = json.load(f)
     for champion in x:
         new_data = {
+            "slug": champion.get("slug"),
             "name": champion.get("name"),
             "element": champion.get("element"),
             "type": champion.get("type"),
