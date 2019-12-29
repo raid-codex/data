@@ -1,6 +1,47 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {
+        "fusion_data": {
+            "type": "object",
+            "required": [
+                "fusion_slug",
+                "fusion_type"
+            ],
+            "properties": {
+                "fusion_slug": {
+                    "$ref": "#/definitions/slug"
+                },
+                "fusion_type": {
+                    "type": "string",
+                    "enum": [
+                        "fused",
+                        "ingredient"
+                    ]
+                }
+            }
+        },
+        "video": {
+            "type": "object",
+            "required": [
+                "source",
+                "id",
+                "author"
+            ],
+            "properties": {
+                "source": {
+                    "type": "string",
+                    "enum": [
+                        "youtube"
+                    ]
+                },
+                "id": {
+                    "type": "string"
+                },
+                "author": {
+                    "type": "string"
+                }
+            }
+        },
         "faction_slug": {
             "type": "string",
             "enum": [
@@ -652,7 +693,11 @@
         "image_slug",
         "seo",
         "default_description",
-        "recommended_builds"
+        "recommended_builds",
+        "tags",
+        "effect_slugs",
+        "fusion_data",
+        "videos"
     ],
     "properties": {
         "name": {
@@ -756,6 +801,30 @@
         },
         "thumbnail": {
             "type": "string"
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "effect_slugs": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/slug"
+            }
+        },
+        "fusion_data": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/fusion_data"
+            }
+        },
+        "videos": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/video"
+            }
         }
     }
 }
