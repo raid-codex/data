@@ -11,7 +11,7 @@ then
 fi
 
 file="$GOPATH/src/github.com/raid-codex/data/docs/champions/current/$1.json"
-jq ".videos += [{\"source\":\"youtube\",\"id\":\"$3\",\"author\":\"$2\"}]" $file | sponge $file
+jq ".videos[.videos | length] |= {\"source\":\"youtube\",\"id\":\"$3\",\"author\":\"$2\"}" $file | sponge $file
 echo "Rebuilding champion json"
 raid-codex-cli champions sanitize --champion-file $file --data-directory $GOPATH/src/github.com/raid-codex/data
 echo "Rebuilding champions index"

@@ -25,7 +25,8 @@
             "required": [
                 "source",
                 "id",
-                "author"
+                "author",
+                "date_added"
             ],
             "properties": {
                 "source": {
@@ -39,6 +40,10 @@
                 },
                 "author": {
                     "type": "string"
+                },
+                "date_added": {
+                    "type": "string",
+                    "format": "date-time"
                 }
             }
         },
