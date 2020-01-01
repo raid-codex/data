@@ -1,0 +1,953 @@
+{
+    "fusion_data": {
+        "type": "object",
+        "required": [
+            "fusion_slug",
+            "fusion_type"
+        ],
+        "properties": {
+            "fusion_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "fusion_type": {
+                "type": "string",
+                "enum": [
+                    "fused",
+                    "ingredient"
+                ]
+            }
+        }
+    },
+    "video": {
+        "type": "object",
+        "required": [
+            "source",
+            "id",
+            "author",
+            "date_added"
+        ],
+        "properties": {
+            "source": {
+                "type": "string",
+                "enum": [
+                    "youtube"
+                ]
+            },
+            "id": {
+                "type": "string"
+            },
+            "author": {
+                "type": "string"
+            },
+            "date_added": {
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    },
+    "faction_slug": {
+        "type": "string",
+        "enum": [
+            "banner-lords",
+            "barbarians",
+            "dark-elves",
+            "demonspawn",
+            "high-elves",
+            "knight-revenant",
+            "lizardmen",
+            "ogryn-tribes",
+            "orcs",
+            "sacred-order",
+            "skinwalkers",
+            "undead-hordes",
+            "dwarves"
+        ]
+    },
+    "faction_name": {
+        "type": "string",
+        "enum": [
+            "Banner-Lords",
+            "Barbarians",
+            "Dark Elves",
+            "Demonspawn",
+            "High Elves",
+            "Knight Revenant",
+            "Lizardmen",
+            "Ogryn-Tribes",
+            "Orcs",
+            "Sacred Order",
+            "Skinwalkers",
+            "Undead Hordes",
+            "Dwarves"
+        ]
+    },
+    "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9\\-]+$"
+    },
+    "faction": {
+        "type": "object",
+        "required": [
+            "name",
+            "slug",
+            "website_link",
+            "image_slug",
+            "number_of_champions",
+            "default_description",
+            "seo"
+        ],
+        "properties": {
+            "name": {
+                "$ref": "#/definitions/faction_name"
+            },
+            "slug": {
+                "$ref": "#/definitions/faction_slug"
+            },
+            "website_link": {
+                "type": "string"
+            },
+            "image_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "number_of_champions": {
+                "type": "integer"
+            },
+            "default_description": {
+                "type": "string"
+            },
+            "seo": {
+                "$ref": "#/definitions/seo"
+            }
+        }
+    },
+    "aura": {
+        "type": "object",
+        "required": [
+            "raw_description",
+            "effects"
+        ],
+        "properties": {
+            "raw_description": {
+                "type": "string"
+            },
+            "effects": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/status_effect"
+                }
+            }
+        }
+    },
+    "skill_target": {
+        "type": "object",
+        "required": [
+            "who",
+            "targets"
+        ],
+        "properties": {
+            "who": {
+                "type": "string"
+            },
+            "targets": {
+                "type": "string"
+            }
+        }
+    },
+    "synergy_context": {
+        "type": "object",
+        "required": [
+            "key"
+        ],
+        "properties": {
+            "key": {
+                "$ref": "#/definitions/synergy_context_key"
+            }
+        }
+    },
+    "synergy_context_key": {
+        "type": "string",
+        "enum": [
+            "poison-counterattack"
+        ]
+    },
+    "synergy": {
+        "type": "object",
+        "required": [
+            "champions",
+            "context"
+        ],
+        "properties": {
+            "champions": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            },
+            "context": {
+                "$ref": "#/definitions/synergy_context"
+            }
+        }
+    },
+    "skill_data": {
+        "type": "object",
+        "required": [
+            "level",
+            "hits",
+            "target",
+            "effects",
+            "based_on",
+            "cooldown",
+            "raw_detail"
+        ],
+        "properties": {
+            "cooldown": {
+                "type": "number"
+            },
+            "raw_detail": {
+                "type": "string"
+            },
+            "level": {
+                "type": "string"
+            },
+            "hits": {
+                "type": "number"
+            },
+            "target": {
+                "$ref": "#/definitions/skill_target"
+            },
+            "effects": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/status_effect"
+                }
+            },
+            "based_on": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "skill": {
+        "type": "object",
+        "required": [
+            "raw_description",
+            "slug",
+            "name",
+            "effects",
+            "damaged_based_on",
+            "upgrades",
+            "skill_number"
+        ],
+        "properties": {
+            "skill_number": {
+                "type": "string"
+            },
+            "upgrades": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/skill_data"
+                }
+            },
+            "slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "name": {
+                "type": "string"
+            },
+            "raw_description": {
+                "type": "string"
+            },
+            "damaged_based_on": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "enum": [
+                        "ATK",
+                        "DEF",
+                        "HP",
+                        "SPD",
+                        "Enemy MAX HP"
+                    ]
+                }
+            },
+            "effects": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/status_effect"
+                }
+            }
+        }
+    },
+    "status_effect": {
+        "type": "object",
+        "required": [
+            "value",
+            "type",
+            "effect_type",
+            "website_link",
+            "image_slug",
+            "slug",
+            "raw_description",
+            "places_if",
+            "amount"
+        ],
+        "properties": {
+            "amount": {
+                "type": "number"
+            },
+            "raw_description": {
+                "type": "string"
+            },
+            "places_if": {
+                "type": "string"
+            },
+            "slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "image_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "website_link": {
+                "type": "string"
+            },
+            "value": {
+                "type": "number"
+            },
+            "type": {
+                "type": "string",
+                "enum": [
+                    "HP Burn",
+                    "Poison",
+                    "Veil",
+                    "Perfect Veil",
+                    "Decrease DEF",
+                    "Decrease ACC",
+                    "Decrease SPD",
+                    "Decrease ATK",
+                    "Weaken",
+                    "Sleep",
+                    "Provoke",
+                    "Freeze",
+                    "Block Cooldown Skills",
+                    "Bomb",
+                    "Stun",
+                    "Block Buffs",
+                    "Revive on Death",
+                    "Heal Reduction",
+                    "Leech",
+                    "Debuff Spread",
+                    "Increase C. RATE",
+                    "Fear",
+                    "True Fear",
+                    "Shield",
+                    "Ally Protection",
+                    "Reflect Damage",
+                    "Increase DEF",
+                    "Increase SPD",
+                    "Increase ATK",
+                    "Continuous Heal",
+                    "Counterattack",
+                    "Unkillable",
+                    "Block Debuffs",
+                    "Block Damage",
+                    "Damage Per HP",
+                    "Remove 1 Debuff",
+                    "DMG per HP",
+                    "Heal per DMG+Dead Ally",
+                    "Decrease Skill Cooldown",
+                    "Increase DMG per Buff Removed",
+                    "Transfer DMG",
+                    "Increase DMG per Buff",
+                    "Deal ALL poison DMG",
+                    "Extra Crit Hit",
+                    "Decrease Turn Meter",
+                    "Increase All Buffs",
+                    "Unlock Peril Skill",
+                    "Equalise all HP",
+                    "Copy 1 Debuff",
+                    "Ignore Block Damage",
+                    "Increase Turn Meter",
+                    "Immune Stun",
+                    "Extra Crit Chance",
+                    "DMG per Max HP",
+                    "Decrease Buff",
+                    "Increase Debuff",
+                    "DMG per Surplus Heal",
+                    "Remove 2 Buffs",
+                    "Increase DMG per Max HP + Dead Ally",
+                    "Deal all poison DMG",
+                    "Spread 4 Debuffs",
+                    "Steal 2 Buffs",
+                    "Remove ALL Debuffs",
+                    "DMG Reduction",
+                    "Extra Crit DMG",
+                    "Stack Damage upto X7",
+                    "Stack Damage upto X9",
+                    "Repeat Attack",
+                    "Decrease Bomb",
+                    "Increase DMG per Enemy Buff",
+                    "Always Crit",
+                    "Extra Hit",
+                    "Increase DMG as Enemy HP Dec",
+                    "Block Revive",
+                    "Transfer ALL Debuffs",
+                    "Extra Turn",
+                    "Increase DMG per Enemy Max HP",
+                    "Stack Damage upto X6",
+                    "Extra DMG",
+                    "Revive",
+                    "Increase DMG",
+                    "Shield per DMG",
+                    "Steal ALL Buffs",
+                    "Decrease MAX HP",
+                    "Increase ALL Debuffs",
+                    "Increase Meter per Stolen",
+                    "Transfer 1 Debuff",
+                    "Shield per Champ Max HP",
+                    "Increase Buff",
+                    "Remove ALL Buffs",
+                    "Remove 1 Buff",
+                    "Stack Damage upto X4",
+                    "Crit Chance",
+                    "Ignore DEF",
+                    "ATK with Surplus DMG",
+                    "Unlock Skypiercer",
+                    "Stack Damage upto X5",
+                    "Rec 5% DMG per Ally Alive",
+                    "Steal 1 Buff",
+                    "Swap HP",
+                    "Increase DMG per Max HP",
+                    "Increase RES per Buff",
+                    "Reset Cooldown on Holy Sword",
+                    "Increase DMG per HP lost",
+                    "Ignore Block DMG",
+                    "Increase Debuffs",
+                    "Heal per debuff",
+                    "Decrease DMG per Hit",
+                    "ATK With 2 Allies",
+                    "Heal",
+                    "ATK all Enemies",
+                    "Decrease DMG",
+                    "Reset Juggernaut Cooldown",
+                    "Immune STUN",
+                    "Immune Freeze",
+                    "Decrease All Buffs",
+                    "Remove CC Debuffs",
+                    "Reset Skill Cooldown",
+                    "Deal Half of DMG",
+                    "Ignore Shield",
+                    "Critical Strike",
+                    "ATK",
+                    "Decrease Cooldowns",
+                    "Crack Armor Skill",
+                    "Self DMG",
+                    "Increase DMG per Debuff",
+                    "Immune Sleep",
+                    "Stack Damage upto X8",
+                    "Detonate Bombs",
+                    "Heal per DMG",
+                    "Reset ALL Cooldowns",
+                    "Increase C. DAMAGE"
+                ]
+            },
+            "effect_type": {
+                "type": "string",
+                "enum": [
+                    "buff",
+                    "debuff",
+                    "battle_enhancement"
+                ]
+            }
+        }
+    },
+    "seo": {
+        "type": "object",
+        "required": [
+            "title",
+            "description",
+            "keywords"
+        ],
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "keywords": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "characteristics": {
+        "type": "object",
+        "required": [
+            "hp",
+            "attack",
+            "defense",
+            "speed",
+            "critical_rate",
+            "critical_damage",
+            "resistance",
+            "accuracy"
+        ],
+        "properties": {
+            "hp": {
+                "type": "integer"
+            },
+            "attack": {
+                "type": "integer"
+            },
+            "defense": {
+                "type": "integer"
+            },
+            "speed": {
+                "type": "integer"
+            },
+            "critical_rate": {
+                "type": "number"
+            },
+            "critical_damage": {
+                "type": "number"
+            },
+            "resistance": {
+                "type": "integer"
+            },
+            "accuracy": {
+                "type": "integer"
+            }
+        }
+    },
+    "rating_value": {
+        "type": "string",
+        "enum": [
+            "",
+            "D",
+            "C",
+            "B",
+            "A",
+            "S",
+            "SS"
+        ]
+    },
+    "rating": {
+        "type": "object",
+        "required": [
+            "overall",
+            "campaign",
+            "arena_offense",
+            "arena_defense",
+            "clan_boss_without_giant_slayer",
+            "clan_boss_with_giant_slayer",
+            "ice_guardian",
+            "dragon",
+            "spider",
+            "fire_knight",
+            "minotaur",
+            "force_dungeon",
+            "void_dungeon",
+            "spirit_dungeon",
+            "magic_dungeon"
+        ],
+        "properties": {
+            "overall": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "campaign": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "arena_offense": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "arena_defense": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "clan_boss_without_giant_slayer": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "clan_boss_with_giant_slayer": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "ice_guardian": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "dragon": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "spider": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "fire_knight": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "minotaur": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "force_dungeon": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "magic_dungeon": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "spirit_dungeon": {
+                "$ref": "#/definitions/rating_value"
+            },
+            "void_dungeon": {
+                "$ref": "#/definitions/rating_value"
+            }
+        }
+    },
+    "review": {
+        "type": [
+            "object",
+            "null"
+        ],
+        "required": [
+            "amount",
+            "campaign",
+            "arena_offense",
+            "arena_defense",
+            "clan_boss",
+            "ice_guardian",
+            "dragon",
+            "spider",
+            "fire_knight",
+            "minotaur",
+            "force_dungeon",
+            "void_dungeon",
+            "spirit_dungeon",
+            "magic_dungeon"
+        ],
+        "properties": {
+            "amount": {
+                "type": "integer"
+            },
+            "campaign": {
+                "$ref": "#/definitions/review_value"
+            },
+            "arena_offense": {
+                "$ref": "#/definitions/review_value"
+            },
+            "arena_defense": {
+                "$ref": "#/definitions/review_value"
+            },
+            "clan_boss": {
+                "$ref": "#/definitions/review_value"
+            },
+            "ice_guardian": {
+                "$ref": "#/definitions/review_value"
+            },
+            "dragon": {
+                "$ref": "#/definitions/review_value"
+            },
+            "spider": {
+                "$ref": "#/definitions/review_value"
+            },
+            "fire_knight": {
+                "$ref": "#/definitions/review_value"
+            },
+            "minotaur": {
+                "$ref": "#/definitions/review_value"
+            },
+            "force_dungeon": {
+                "$ref": "#/definitions/review_value"
+            },
+            "magic_dungeon": {
+                "$ref": "#/definitions/review_value"
+            },
+            "spirit_dungeon": {
+                "$ref": "#/definitions/review_value"
+            },
+            "void_dungeon": {
+                "$ref": "#/definitions/review_value"
+            }
+        }
+    },
+    "review_value": {
+        "type": "number",
+        "min": 0.0,
+        "max": 5.0
+    },
+    "build": {
+        "type": "object",
+        "required": [],
+        "properties": {}
+    },
+    "fusion_ingredient": {
+        "type": "object",
+        "properties": {
+            "champion_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "level": {
+                "type": "integer"
+            },
+            "stars": {
+                "type": "integer"
+            },
+            "ascended_stars": {
+                "type": "integer"
+            },
+            "fusion": {
+                "oneOf": [
+                    {
+                        "type": "null"
+                    },
+                    {
+                        "$ref": "#/definitions/fusion"
+                    }
+                ]
+            },
+            "fusion_slug": {
+                "oneOf": [
+                    {
+                        "type": "null"
+                    },
+                    {
+                        "$ref": "#/definitions/slug"
+                    }
+                ]
+            }
+        },
+        "required": [
+            "champion_slug",
+            "level",
+            "stars",
+            "ascended_stars",
+            "fusion",
+            "fusion_slug"
+        ]
+    },
+    "fusion": {
+        "type": "object",
+        "properties": {
+            "date_added": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "time_start": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "format": "date-time"
+            },
+            "time_end": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "format": "date-time"
+            },
+            "active": {
+                "type": "boolean"
+            },
+            "limit": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "champion_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "name": {
+                "type": "string"
+            },
+            "slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "ingredients": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/fusion_ingredient"
+                }
+            },
+            "parent_fusion_slug": {
+                "oneOf": [
+                    {
+                        "$ref": "#/definitions/slug"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ]
+            }
+        },
+        "required": [
+            "date_added",
+            "time_start",
+            "time_end",
+            "active",
+            "limit",
+            "champion_slug",
+            "name",
+            "slug",
+            "ingredients",
+            "parent_fusion_slug"
+        ]
+    },
+    "champion": {
+        "type": "object",
+        "required": [
+            "name",
+            "rarity",
+            "element",
+            "type",
+            "rating",
+            "slug",
+            "characteristics",
+            "auras",
+            "skills",
+            "faction",
+            "faction_slug",
+            "website_link",
+            "image_slug",
+            "seo",
+            "default_description",
+            "recommended_builds",
+            "tags",
+            "effect_slugs",
+            "fusion_data",
+            "videos",
+            "date_added"
+        ],
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "rarity": {
+                "type": "string",
+                "enum": [
+                    "Common",
+                    "Uncommon",
+                    "Rare",
+                    "Epic",
+                    "Legendary"
+                ]
+            },
+            "element": {
+                "type": "string",
+                "enum": [
+                    "Magic",
+                    "Force",
+                    "Void",
+                    "Spirit",
+                    ""
+                ]
+            },
+            "type": {
+                "type": "string",
+                "enum": [
+                    "HP",
+                    "Attack",
+                    "Assist",
+                    "Def",
+                    ""
+                ]
+            },
+            "rating": {
+                "$ref": "#/definitions/rating"
+            },
+            "reviews": {
+                "$ref": "#/definitions/review"
+            },
+            "slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "characteristics": {
+                "type": "object",
+                "required": [
+                    "60"
+                ],
+                "properties": {
+                    "60": {
+                        "$ref": "#/definitions/characteristics"
+                    }
+                }
+            },
+            "auras": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/aura"
+                }
+            },
+            "skills": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/skill"
+                }
+            },
+            "faction": {
+                "$ref": "#/definitions/faction"
+            },
+            "faction_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "website_link": {
+                "type": "string"
+            },
+            "image_slug": {
+                "$ref": "#/definitions/slug"
+            },
+            "seo": {
+                "$ref": "#/definitions/seo"
+            },
+            "default_description": {
+                "type": "string"
+            },
+            "recommended_builds": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/build"
+                }
+            },
+            "lore": {
+                "type": "string",
+                "pattern": "^(<p>.+<\/p>)?$"
+            },
+            "thumbnail": {
+                "type": "string"
+            },
+            "synergy": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/synergy"
+                }
+            },
+            "tags": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "effect_slugs": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            },
+            "fusion_data": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/fusion_data"
+                }
+            },
+            "videos": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/video"
+                }
+            },
+            "date_added": {
+                "type": "string",
+                "format": "date-time"
+            }
+        }
+    }
+}
