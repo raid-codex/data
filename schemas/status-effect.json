@@ -12,7 +12,8 @@
         "effect_type",
         "website_link",
         "image_slug",
-        "slug"
+        "slug",
+        "date_added"
     ],
     "properties": {
         "slug": {
@@ -74,6 +75,10 @@
                 "debuff",
                 "battle_enhancement"
             ]
+        },
+        "date_added": {
+            "type": "string",
+            "format": "date-time"
         }
     }
 }
