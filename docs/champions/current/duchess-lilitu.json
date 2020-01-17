@@ -68,6 +68,37 @@
   "skills": [
     {
       "passive": false,
+      "name": "Abyssal Invocation",
+      "raw_description": "Attacks 1 enemy 2 times, then places a [Shield] buff equal to 10% of this Champion's MAX HP for 2 turns on this Champion and the ally with the lowest HP.<br><br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Shield +10%<br/>Lvl. 5 Shield +10%<br/>Lvl. 6 Shield +10%",
+      "slug": "abyssal-invocation",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4420_s1",
+      "upgrades": [],
+      "image_slug": "109ac269572d9fa38595fc6aac81612f",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
       "name": "Shroud of Souls",
       "raw_description": "Places a 50% [Increase ATK] buff and a [Block Debuffs] buff on all allies for 2 turns.<br>Places a [Perfect Veil] buff on all allies except this Champion for 2 turns.<br><br>Lvl. 2 Cooldown -1",
       "slug": "shroud-of-souls",
@@ -122,10 +153,10 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "4420_s1",
+      "giid": "4420_s2",
       "upgrades": [],
-      "image_slug": "109ac269572d9fa38595fc6aac81612f",
-      "skill_number": "A1"
+      "image_slug": "e2b1432a6780d8d5911ad4534a2be37d",
+      "skill_number": "A2"
     },
     {
       "passive": false,
@@ -167,10 +198,10 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "4420_s2",
+      "giid": "4420_s3",
       "upgrades": [],
-      "image_slug": "e2b1432a6780d8d5911ad4534a2be37d",
-      "skill_number": "A2"
+      "image_slug": "9e31c5341337ca3ac0947007688a058c",
+      "skill_number": "A3"
     },
     {
       "passive": true,
@@ -179,41 +210,10 @@
       "slug": "ethereal-ways",
       "effects": [],
       "damaged_based_on": [],
-      "giid": "4420_s3",
-      "upgrades": [],
-      "image_slug": "9e31c5341337ca3ac0947007688a058c",
-      "skill_number": "P1"
-    },
-    {
-      "passive": false,
-      "name": "Abyssal Invocation",
-      "raw_description": "Attacks 1 enemy 2 times, then places a [Shield] buff equal to 10% of this Champion's MAX HP for 2 turns on this Champion and the ally with the lowest HP.<br><br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Shield +10%<br/>Lvl. 5 Shield +10%<br/>Lvl. 6 Shield +10%",
-      "slug": "abyssal-invocation",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/effects/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        }
-      ],
-      "damaged_based_on": [
-        "DEF"
-      ],
       "giid": "4420_s4",
       "upgrades": [],
       "image_slug": "c3ca204cc15da2f4de4e702d2773f6b4",
-      "skill_number": "A3"
+      "skill_number": "P1"
     }
   ],
   "faction": {
@@ -274,7 +274,7 @@
   },
   "default_description": "Duchess Lilitu is a legendary assist champion from the faction Demonspawn doing spirit damage",
   "recommended_builds": [],
-  "lore": "",
+  "lore": "<p>Duchess Lilitu is one of the most powerful demons in Siroth’s legions and a lieutenant of Mortu-Macaab. Her sorcerous powers are only matched by her cunning mind and experience. Indeed, Lilitu had the benefit of existing for thousands of years, learning all there is to learn about Dark Magic and the hellish intrigues of the demonic courts.<br>In fact, she has lived long enough to personally take part in no less than three invasions of Teleria. She battled the Arbiter and survived the experience - barely, not that she would ever admit to the fact - which is an achievement in its own right.<br>One of Lilitu’s greatest strength is her wise assessment of her own talents and the lack of arrogance that is so very common among her kin. She knows that she is no warrior of legend and would be of little use in the swirling melee. Instead, she focuses her powers on empowering and protecting those who fight for her.<br>In battle, Lilitu chants incantations and spell in the dark tongue now forgotten by all but the servants of Siroth, calling upon the very fabric of the Void to shiel her allies. She does that not out of the kindness of her heart, of course, but with a cold and calculated purpose of keeping her minions alive for long enough to carry out her will. For that very reason she will expend a great deal of magical energy to seize the souls of the fallen and guide them back into their mortal vessels, healing their wounds and making them fight anew.<br>Now, as the dark will of Siroth envelops the whole of Teleria once more, Lilitu strikes out from her infernal palace, her armies at her back. It is high time the mortals pay for past insults and bend the knee at long last.</p>",
   "giid": "4420",
   "synergy": [],
   "thumbnail": "fc8fdb29501a6289b7bc8b0bdd8155df",
