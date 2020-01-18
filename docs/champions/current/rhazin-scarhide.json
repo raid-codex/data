@@ -847,28 +847,33 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
-        "lifesteal",
+        "defense",
+        "defense",
         "speed"
       ],
       "stats": {
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
-            "Defense%",
             "Speed",
             "Accuracy"
           ]
         },
-        "Helmet": {
+        "helmet": {
           "main_stat": "HP",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
-            "Defense%",
             "Speed",
             "Accuracy"
           ]
@@ -876,9 +881,9 @@
         "shield": {
           "main_stat": "Defense",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
-            "Defense%",
             "Speed",
             "Accuracy"
           ]
@@ -886,8 +891,8 @@
         "gauntlets": {
           "main_stat": "Critical Rate",
           "additional_stats": [
-            "Critical Damage",
             "Defense%",
+            "Critical Damage",
             "Speed",
             "Accuracy"
           ]
@@ -904,18 +909,18 @@
         "boots": {
           "main_stat": "Speed",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
-            "Defense%",
             "Accuracy"
           ]
         },
         "ring": {
           "main_stat": "Defense",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
-            "Defense%",
             "Speed",
             "Accuracy"
           ]
@@ -923,8 +928,8 @@
         "amulet": {
           "main_stat": "Critical Damage",
           "additional_stats": [
-            "Critical Rate",
             "Defense%",
+            "Critical Rate",
             "Speed",
             "Accuracy"
           ]
@@ -932,9 +937,108 @@
         "banner": {
           "main_stat": "Accuracy",
           "additional_stats": [
+            "Defense%",
             "Critical Rate",
             "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
             "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
             "Speed"
           ]
         }

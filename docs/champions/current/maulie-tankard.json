@@ -255,7 +255,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "speed",
         "speed",
@@ -266,85 +270,296 @@
           "main_stat": "Attack",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
-        "Helmet": {
+        "helmet": {
           "main_stat": "HP",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "shield": {
           "main_stat": "Defense",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "gauntlets": {
-          "main_stat": "Critical Rate",
+          "main_stat": "Defense% / HP%",
           "additional_stats": [
             "Defense%",
-            "Critical Damage",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stat": "Defense% / HP%",
           "additional_stats": [
-            "Critical Rate",
-            "Critical Damage",
+            "Defense%",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "boots": {
           "main_stat": "Speed",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
-            "Accuracy"
+            "HP%",
+            "Accuracy",
+            "Resist"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stat": "Defense / HP",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "amulet": {
-          "main_stat": "Critical Damage",
+          "main_stat": "Defense / HP",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
+            "HP%",
             "Speed",
-            "Accuracy"
+            "Accuracy",
+            "Resist"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "Accuracy / Resist",
           "additional_stats": [
             "Defense%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed"
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "defense",
+        "freeze"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy / Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy / Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
           ]
         }
       }

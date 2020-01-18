@@ -13,5 +13,5 @@ raid-codex-cli champions sanitize --champion-file $champion_file --data-director
 bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
 raid-codex-cli scrap raidshadowlegendspro champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-name "$1" --with-skills
 bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
-raid-codex-cli scrap ayumilove champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-name "$1" --with-stats
+raid-codex-cli scrap ayumilove champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-slug "$2" --with-stats --with-builds --with-masteries
 bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
