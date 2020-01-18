@@ -1,4 +1,57 @@
 {
+    "champion_masteries": {
+        "type": "object",
+        "required": [
+            "from",
+            "author",
+            "locations",
+            "offense",
+            "defense",
+            "support"
+        ],
+        "properties": {
+            "from": {
+                "type": "string"
+            },
+            "author": {
+                "type": "string"
+            },
+            "locations": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/raid-location"
+                }
+            },
+            "offense": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            },
+            "defense": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            },
+            "support": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            }
+        }
+    },
+    "raid-location": {
+        "type": "string",
+        "enum": [
+            "dungeon",
+            "faction-wars",
+            "campaign",
+            "arena",
+            "clan-boss"
+        ]
+    },
     "fusion_data": {
         "type": "object",
         "required": [
@@ -675,8 +728,104 @@
     },
     "build": {
         "type": "object",
-        "required": [],
-        "properties": {}
+        "required": [
+            "from",
+            "author",
+            "locations",
+            "sets",
+            "stats"
+        ],
+        "properties": {
+            "from": {
+                "type": "string"
+            },
+            "author": {
+                "type": "string"
+            },
+            "locations": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/raid-location"
+                }
+            },
+            "sets": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/item-set"
+                }
+            },
+            "stats": {
+                "$ref": "#/definitions/build_stats"
+            }
+        }
+    },
+    "item-set": {
+        "type": "string",
+        "pattern": "^[a-z0-9\\-]+$"
+    },
+    "build_stats": {
+        "type": "object",
+        "required": [
+            "weapon",
+            "helmet",
+            "shield",
+            "gauntlets",
+            "chestplate",
+            "boots",
+            "ring",
+            "amulet",
+            "banner"
+        ],
+        "properties": {
+            "weapon": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "helmet": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "shield": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "gauntlets": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "chestplate": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "boots": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "ring": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "amulet": {
+                "$ref": "#/definitions/build_stats_object"
+            },
+            "banner": {
+                "$ref": "#/definitions/build_stats_object"
+            }
+        }
+    },
+    "stat": {
+        "type": "string"
+    },
+    "build_stats_object": {
+        "type": "object",
+        "required": [
+            "main_stat",
+            "additional_stats"
+        ],
+        "properties": {
+            "main_stat": {
+                "$ref": "#/definitions/stat"
+            },
+            "additional_stats": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/stat"
+                }
+            }
+        }
     },
     "fusion_ingredient": {
         "type": "object",
@@ -815,7 +964,8 @@
             "effect_slugs",
             "fusion_data",
             "videos",
-            "date_added"
+            "date_added",
+            "masteries"
         ],
         "properties": {
             "name": {
@@ -947,6 +1097,12 @@
             "date_added": {
                 "type": "string",
                 "format": "date-time"
+            },
+            "masteries": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/champion_masteries"
+                }
             }
         }
     }
