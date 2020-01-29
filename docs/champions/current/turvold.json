@@ -328,62 +328,192 @@
     },
     {
       "passive": false,
-      "name": "Ancestors",
-      "raw_description": "Places a 50% [Increase ATK] buff, a 30% [Increase C. RATE] buff and a 30% [Increase SPD] buff on this Champion for 2 turns. Grants an Extra Turn.<br>Lvl. 2 Cooldown -1",
-      "slug": "ancestors",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase ATK",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-atk-2",
-          "slug": "increase-atk-2",
-          "website_link": "/effects/increase-atk",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase C. RATE",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-c-rate-2",
-          "slug": "increase-c-rate-2",
-          "website_link": "/effects/increase-c-rate",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase SPD",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-spd-2",
-          "slug": "increase-spd-2",
-          "website_link": "/effects/increase-spd",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        }
-      ],
+      "name": "Ancestors Power",
+      "raw_description": "",
+      "slug": "ancestors-power",
+      "effects": [],
       "damaged_based_on": [],
       "giid": "2370_s2",
-      "upgrades": [],
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/effects/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/effects/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/effects/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/effects/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
       "image_slug": "6f6077b6bc3294a1d8106eeb26831ccc",
       "skill_number": "A2"
     },
@@ -719,197 +849,6 @@
       ],
       "image_slug": "bd78206c1a8cc3f36f04e221928bb4ce",
       "skill_number": "A3"
-    },
-    {
-      "passive": false,
-      "name": "Ancestors Power",
-      "raw_description": "",
-      "slug": "ancestors-power",
-      "effects": [],
-      "damaged_based_on": [],
-      "giid": "2370_s4",
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Turn",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-turn",
-              "slug": "extra-turn",
-              "website_link": "/effects/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/effects/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/effects/increase-c-rate",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-atk",
-              "slug": "increase-atk",
-              "website_link": "/effects/increase-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Turn",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-turn",
-              "slug": "extra-turn",
-              "website_link": "/effects/extra-turn",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase SPD",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-spd",
-              "slug": "increase-spd",
-              "website_link": "/effects/increase-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase C. RATE",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-c-rate",
-              "slug": "increase-c-rate",
-              "website_link": "/effects/increase-c-rate",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Increase ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-increase-atk",
-              "slug": "increase-atk",
-              "website_link": "/effects/increase-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [],
-          "cooldown": 3,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
-      "image_slug": "15326c25a8f05bf7724c3375e849e05f",
-      "skill_number": "A2"
     }
   ],
   "faction": {
@@ -1310,12 +1249,9 @@
   "effect_slugs": [
     "extra-turn",
     "increase-atk",
-    "increase-atk-2",
     "increase-c-rate",
-    "increase-c-rate-2",
     "increase-dmg-per-buff",
     "increase-spd",
-    "increase-spd-2",
     "reset-juggernaut-cooldown",
     "weaken",
     "weaken-2"
