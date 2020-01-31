@@ -49,7 +49,8 @@
             "faction-wars",
             "campaign",
             "arena",
-            "clan-boss"
+            "clan-boss",
+            "all-battles"
         ]
     },
     "fusion_data": {
@@ -187,6 +188,18 @@
                 "type": "array",
                 "items": {
                     "$ref": "#/definitions/status_effect"
+                }
+            },
+            "locations": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/raid-location"
+                }
+            },
+            "stats": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/stat"
                 }
             }
         }
