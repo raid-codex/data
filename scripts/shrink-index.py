@@ -16,6 +16,7 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             "thumbnail": champion.get("thumbnail"),
             "website_link": champion.get("website_link"),
             "skills": [],
+            "auras": [],
             "tags": champion.get("tags", []),
         }
         for skill in champion.get("skills"):
@@ -29,6 +30,12 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
                 } for effect in effects],
             }
             new_data.get("skills").append(s)
+        for aura in champion.get("auras"):
+            a = {
+                "stats": aura.get("stats"),
+                "locations": aura.get("locations"),
+            }
+            new_data.get("auras").append(a)
         data.append(new_data)
 with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/index-small.json", "w") as f2:
     f2.write(json.dumps(data, separators=(',', ':')))
