@@ -305,7 +305,7 @@
     {
       "passive": false,
       "name": "Lordly Embrace",
-      "raw_description": "Heals a target ally by 75% of their MAX HP and places a [Block Debuffs] buff for 2 turns.<br>Ascended: If there is any surplus heal, places one of the foloowing buffs ont he target for 2 turns: a 50% [Increase ATK], a 60% [Increase DEF], a 30% [Increase SPD] or a [Revive on Death] buff.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Removes all debuffs from a target ally, then places a [Block Debuffs] buff for 2 turns and heals that ally by 75% of their MAX HP. Heals all other allies by 20% of their MAX HP and fills their Turn Meters by 15% if the target is fully healed by this Skill.<br>Lvl. 2 Heal +5%<br>Lvl. 3 Heal +5%<br>Lvl. 4 Cooldown -1",
       "slug": "lordly-embrace",
       "effects": [
         {
@@ -319,70 +319,6 @@
           "image_slug": "image-buff-block-debuffs",
           "slug": "block-debuffs",
           "website_link": "/effects/block-debuffs",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase ATK",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-atk-2",
-          "slug": "increase-atk-2",
-          "website_link": "/effects/increase-atk",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase DEF",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-def-2",
-          "slug": "increase-def-2",
-          "website_link": "/effects/increase-def",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase SPD",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-spd-2",
-          "slug": "increase-spd-2",
-          "website_link": "/effects/increase-spd",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Revive on Death",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-revive-on-death",
-          "slug": "revive-on-death",
-          "website_link": "/effects/revive-on-death",
           "extra": false,
           "raw_description": "",
           "places_if": "",
@@ -603,202 +539,12 @@
     {
       "passive": false,
       "name": "Aggress",
-      "raw_description": "Attacks 3 times at random. Each hit places a 10% [Leech] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Has 75% chance of removing all buffs from all enemies, then decreases the Turn Meters of all enemies by 10% and fills the Turn Meters of all allies by 10%. Drecreases the Turn Meters of all enemies by 2°% and fills the Turn Meters of all allies by 20% if 5 or more buffs were removed<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +10%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Cooldown -1",
       "slug": "aggress",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Leech",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-leech",
-          "slug": "leech",
-          "website_link": "/effects/leech",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0
-        }
-      ],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "effects": [],
+      "damaged_based_on": [],
       "giid": "2390_s3",
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "random"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Leech",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-leech",
-              "slug": "leech",
-              "website_link": "/effects/leech",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "random"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Leech",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-leech",
-              "slug": "leech",
-              "website_link": "/effects/leech",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "random"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Leech",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-leech",
-              "slug": "leech",
-              "website_link": "/effects/leech",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +10%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "random"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Leech",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-leech",
-              "slug": "leech",
-              "website_link": "/effects/leech",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +10%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "random"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Leech",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-leech",
-              "slug": "leech",
-              "website_link": "/effects/leech",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "0f99d0dd81a37a63e9737f4c51f96db2",
       "skill_number": "A3"
     }
@@ -1106,12 +852,7 @@
   "effect_slugs": [
     "block-debuffs",
     "heal",
-    "hp-burn",
-    "increase-atk-2",
-    "increase-def-2",
-    "increase-spd-2",
-    "leech",
-    "revive-on-death"
+    "hp-burn"
   ],
   "videos": []
 }

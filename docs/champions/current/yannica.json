@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Even the Odds",
-      "raw_description": "Attacks 1 enemy, then attacks another random enemy. Each hit has a 50% chance of placing a [Leech] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
+      "raw_description": "If Champion is under a [Veil] buff, attacks all enemies 2 times. Otherwise, attacks 1 enemy, then attacks another random enemy. Each hit has a 50% chance of placing a [Leech] debuff for 2 turns. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.",
       "slug": "even-the-odds",
       "effects": [
         {
@@ -179,7 +179,7 @@
     {
       "passive": false,
       "name": "Baffling Speed",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Perfect Veil] buff on this Champion for 2 turns if this attack is critical. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Cooldown -1.",
+      "raw_description": "Attacks 1 enemy. Places a [Perfect Veil] buff on this Champion for 3 turns if this attack is critical. Grants an extra turn. Damage based on: [ATK]<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Cooldown -1.",
       "slug": "baffling-speed",
       "effects": [
         {
@@ -221,25 +221,14 @@
     {
       "passive": false,
       "name": "Elven Judgement",
-      "raw_description": "Attacks all enemies. Decreases their MAX HP by 25% of the damage inflicted. Damage based on ATK<br>Lvl. 2 Damage +10%.<br>Lvl. 3 Damage +10%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Cooldown -1.",
+      "raw_description": "Attacks all enemies. Will ignore Shield buffs. Removes Shield buffs from targets if this Champion is under a Veil buff or Perfect Veil buff, then deals xtra damage equal to 15% of the value of the removed Shield buffs. Damage based on: [ATK]",
       "slug": "elven-judgement",
       "effects": [],
-      "damaged_based_on": [],
-      "giid": "4080_s3",
-      "upgrades": [
-        {
-          "level": "",
-          "hits": 0,
-          "target": {
-            "who": "",
-            "targets": ""
-          },
-          "effects": [],
-          "based_on": [],
-          "cooldown": 5,
-          "raw_detail": ""
-        }
+      "damaged_based_on": [
+        "ATK"
       ],
+      "giid": "4080_s3",
+      "upgrades": [],
       "image_slug": "717628aa56886e43a1b269e6c1cbd95a",
       "skill_number": "A3"
     }
