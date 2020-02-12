@@ -53,24 +53,118 @@
     }
   },
   "auras": [],
-  "skills": [{
-    "name": "Spot Quarry",
-    "raw_description":"Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%"
-  }, {
-    "name": "Huntmaster",
-    "raw_description": "Attacks all enemies. Has a 70% chance of placing a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1"
-  }, {
-    "name": "Lead the Pack",
-    "passive": true,
-    "raw_description": "Places a 50% [Increase ACC] buff on an ally for 1 turn each time the ally has a debuff resisted by an enemy."
-  }],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Spot Quarry",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "slug": "spot-quarry",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Huntmaster",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "huntmaster",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Lead the Pack",
+      "raw_description": "Places a 50% [Increase ACC] buff on an ally for 1 turn each time the ally has a debuff resisted by an enemy.",
+      "slug": "lead-the-pack",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-acc",
+          "slug": "increase-acc",
+          "website_link": "/effects/increase-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Banner-Lords",
     "slug": "banner-lords",
     "date_added": "2019-05-31T15:55:39+02:00",
     "website_link": "/factions/banner-lords/",
     "image_slug": "image-faction-banner-lords",
-    "number_of_champions": 39,
+    "number_of_champions": 40,
     "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
     "seo": {
       "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
@@ -129,6 +223,11 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-def-2",
+    "decrease-spd-2",
+    "increase-acc"
+  ],
   "videos": []
 }

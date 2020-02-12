@@ -52,19 +52,157 @@
       "accuracy": 20
     }
   },
-  "auras": [{
-    "raw_description": "Increases Ally DEF in the Arena by 30%."
-  }],
-  "skills": [{
-    "name": "Winds of Winter",
-    "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn. Places a [Perfect Veil] buff on the ally with the lowest HP for 1 turn if the [Freeze] debuff is placed.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%"
-  }, {
-    "name": "Frostbite Blast",
-    "raw_description": "Attacks all enemies. Has a 70% chance of placing a 30% [Decrease C.DMG] debuff for 2 turns. Places a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1"
-  }, {
-    "name": "Icegrave Armor",
-    "raw_description": "Places a 25% [Strengthen] buff and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1"
-  }],
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in the Arena by 30%.",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Winds of Winter",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn. Places a [Perfect Veil] buff on the ally with the lowest HP for 1 turn if the [Freeze] debuff is placed.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "winds-of-winter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Frostbite Blast",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 30% [Decrease C.DMG] debuff for 2 turns. Places a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "frostbite-blast",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-dmg",
+          "slug": "decrease-c-dmg",
+          "website_link": "/effects/decrease-c-dmg",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg",
+          "slug": "increase-c-dmg",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Icegrave Armor",
+      "raw_description": "Places a 25% [Strengthen] buff and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "icegrave-armor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen",
+          "slug": "strengthen",
+          "website_link": "/effects/strengthen",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Knight Revenant",
     "slug": "knight-revenant",
@@ -162,6 +300,13 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-c-dmg",
+    "freeze",
+    "increase-c-dmg",
+    "increase-def",
+    "perfect-veil",
+    "strengthen"
+  ],
   "videos": []
 }
