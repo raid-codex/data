@@ -1,0 +1,230 @@
+{
+  "name": "Ursine Icecrusher",
+  "date_added": "",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "ursine-icecrusher",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 738,
+      "defense": 1409,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 25%.",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Ravaging Paw",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "slug": "ravaging-paw",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Howling Gale",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease C. RATE] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "howling-gale",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-rate",
+          "slug": "decrease-c-rate",
+          "website_link": "/effects/decrease-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Shroud of Winter",
+      "raw_description": "Decreases the damage all allies receive from critical hits by 15%. Fills this Champion’s Turn Meter by 5% whenever an enemy lands a normal, strong, or weak hit. ",
+      "slug": "shroud-of-winter",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "date_added": "2019-07-22T23:18:04+02:00",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 23,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 23 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/ursine-icecrusher/",
+  "image_slug": "image-champion-ursine-icecrusher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ursine Icecrusher is a epic def champion from the faction Skinwalkers doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ursine Icecrusher",
+      "ursine-icecrusher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Ursine Icecrusher is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ursine-icecrusher.jpg",
+        "name": "Ursine Icecrusher",
+        "url": "https://raid-codex.com/champions/ursine-icecrusher/"
+      }
+    ]
+  },
+  "default_description": "Ursine Icecrusher is a epic def champion from the faction Skinwalkers doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "decrease-c-rate"
+  ],
+  "videos": []
+}
