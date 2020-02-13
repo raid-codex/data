@@ -17,7 +17,7 @@ case $1 in
     cmd=$1
     ;;
 "status-effects")
-    cmd_line="--status-effect-file"
+    cmd_line="--data-directory ${data_directory} --status-effect-file"
     cmd="status-effect"
     ;;
 "factions")

@@ -148,7 +148,8 @@
             "image_slug",
             "number_of_champions",
             "default_description",
-            "seo"
+            "seo",
+            "champion_slugs"
         ],
         "properties": {
             "name": {
@@ -171,6 +172,12 @@
             },
             "seo": {
                 "$ref": "#/definitions/seo"
+            },
+            "champion_slugs": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
             }
         }
     },
@@ -334,7 +341,8 @@
                         "DEF",
                         "HP",
                         "SPD",
-                        "Enemy MAX HP"
+                        "Enemy MAX HP",
+                        "Enemy DEF"
                     ]
                 }
             },
@@ -357,7 +365,9 @@
             "slug",
             "raw_description",
             "places_if",
-            "amount"
+            "amount",
+            "possible_values",
+            "champion_slugs"
         ],
         "properties": {
             "amount": {
@@ -531,6 +541,18 @@
                     "debuff",
                     "battle_enhancement"
                 ]
+            },
+            "champion_slugs": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            },
+            "possible_values": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
             }
         }
     },
