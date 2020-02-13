@@ -5,21 +5,21 @@
   "element": "Void",
   "type": "Def",
   "rating": {
-    "overall": "",
-    "campaign": "",
-    "arena_offense": "",
-    "arena_defense": "",
-    "clan_boss_without_giant_slayer": "",
-    "clan_boss_with_giant_slayer": "",
-    "ice_guardian": "",
-    "dragon": "",
-    "spider": "",
-    "fire_knight": "",
-    "minotaur": "",
-    "force_dungeon": "",
-    "magic_dungeon": "",
-    "spirit_dungeon": "",
-    "void_dungeon": "",
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
     "faction_wars": ""
   },
   "reviews": {
@@ -38,7 +38,30 @@
     "spirit_dungeon": 0,
     "void_dungeon": 0
   },
-  "all_ratings": [],
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
   "slug": "wurlim-frostking",
   "characteristics": {
     "60": {
@@ -70,7 +93,7 @@
     {
       "passive": false,
       "name": "Winds of Winter",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn. Places a [Perfect Veil] buff on the ally with the lowest HP for 1 turn if the [Freeze] debuff is placed.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn. Places a [Perfect Veil] buff on the ally with the lowest HP for 1 turn if the [Freeze] debuff is placed.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "winds-of-winter",
       "effects": [
         {
@@ -115,7 +138,7 @@
     {
       "passive": false,
       "name": "Frostbite Blast",
-      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 30% [Decrease C.DMG] debuff for 2 turns. Places a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 30% [Decrease C.DMG] debuff for 2 turns. Places a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
       "slug": "frostbite-blast",
       "effects": [
         {
@@ -172,7 +195,7 @@
           "turns": 0,
           "target": null,
           "image_slug": "image-buff-increase-def-2",
-          "slug": "increase-def",
+          "slug": "increase-def-2",
           "website_link": "/effects/increase-def",
           "extra": true,
           "raw_description": "",
@@ -210,7 +233,7 @@
     "website_link": "/factions/knight-revenant/",
     "image_slug": "image-faction-knight-revenant",
     "number_of_champions": 32,
-    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 31 champions",
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 32 champions",
     "seo": {
       "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
       "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
@@ -304,7 +327,7 @@
     "decrease-c-dmg",
     "freeze",
     "increase-c-dmg",
-    "increase-def",
+    "increase-def-2",
     "perfect-veil",
     "strengthen"
   ],

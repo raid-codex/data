@@ -5,21 +5,21 @@
   "element": "Spirit",
   "type": "Assist",
   "rating": {
-    "overall": "",
-    "campaign": "",
-    "arena_offense": "",
-    "arena_defense": "",
-    "clan_boss_without_giant_slayer": "",
-    "clan_boss_with_giant_slayer": "",
-    "ice_guardian": "",
-    "dragon": "",
-    "spider": "",
-    "fire_knight": "",
-    "minotaur": "",
-    "force_dungeon": "",
-    "magic_dungeon": "",
-    "spirit_dungeon": "",
-    "void_dungeon": "",
+    "overall": "SS",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "SS",
+    "dragon": "SS",
+    "spider": "SS",
+    "fire_knight": "SS",
+    "minotaur": "SS",
+    "force_dungeon": "SS",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "SS",
     "faction_wars": ""
   },
   "reviews": {
@@ -38,7 +38,30 @@
     "spirit_dungeon": 0,
     "void_dungeon": 0
   },
-  "all_ratings": [],
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "SS",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
   "slug": "stag-knight",
   "characteristics": {
     "60": {
@@ -57,7 +80,7 @@
     {
       "passive": false,
       "name": "Spot Quarry",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
       "slug": "spot-quarry",
       "effects": [
         {
@@ -129,7 +152,7 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Lead the Pack",
       "raw_description": "Places a 50% [Increase ACC] buff on an ally for 1 turn each time the ally has a debuff resisted by an enemy.",
       "slug": "lead-the-pack",
@@ -165,7 +188,7 @@
     "website_link": "/factions/banner-lords/",
     "image_slug": "image-faction-banner-lords",
     "number_of_champions": 40,
-    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 40 champions",
     "seo": {
       "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
       "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
@@ -221,7 +244,39 @@
   "synergy": [],
   "thumbnail": "",
   "tags": [],
-  "masteries": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "cycle-of-magic",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    }
+  ],
   "fusion_data": [],
   "effect_slugs": [
     "decrease-atk-2",
