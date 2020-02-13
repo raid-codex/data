@@ -110,7 +110,44 @@
           "extra": false,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Freeze"
+          ],
+          "champion_slugs": [
+            "oathbound",
+            "preserver",
+            "courtier",
+            "pikeman",
+            "anointed",
+            "rae",
+            "foli",
+            "luria",
+            "hellfang",
+            "marquess",
+            "tormin-the-cold",
+            "shirimani",
+            "exemplar",
+            "jinglehunter",
+            "luthiea",
+            "jaeger",
+            "wurlim-frostking",
+            "broadmaw",
+            "gurgoh-the-augur",
+            "flesheater",
+            "pounder",
+            "frostskin",
+            "robar",
+            "sir-nicholas",
+            "warpriest",
+            "maiden",
+            "norog",
+            "warchief",
+            "graybeard",
+            "crypt-king-graal",
+            "skullsquire",
+            "skellag"
+          ]
         },
         {
           "date_added": "",
@@ -126,10 +163,25 @@
           "extra": false,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": [
+            "seneschal",
+            "vizier-ovelis",
+            "duchess-lilitu",
+            "candraphon",
+            "infernal-baroness",
+            "yannica",
+            "wurlim-frostking",
+            "necrohunter"
+          ]
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
       "giid": "4510_s1",
       "upgrades": [],
       "image_slug": "e4c8cb62fcc2c11336b90f4b7d45a8c2",
@@ -149,13 +201,18 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-c-dmg",
-          "slug": "decrease-c-dmg",
+          "image_slug": "image-debuff-decrease-c-dmg-2",
+          "slug": "decrease-c-dmg-2",
           "website_link": "/effects/decrease-c-dmg",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Decrease C. DMG",
+            "Decrease C.DMG"
+          ],
+          "champion_slugs": []
         },
         {
           "date_added": "",
@@ -165,16 +222,23 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-increase-c-dmg",
-          "slug": "increase-c-dmg",
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
           "website_link": "/effects/increase-c-dmg",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
       "giid": "4510_s2",
       "upgrades": [],
       "image_slug": "09066e8fe1116a6024e84bddd55fdee8",
@@ -200,7 +264,40 @@
           "extra": true,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": [
+            "black-knight",
+            "lugan-the-steadfast",
+            "steadfast-marshal",
+            "cataphract",
+            "altan",
+            "elder-skarg",
+            "valla",
+            "marked",
+            "crimson-helm",
+            "tyrant-ixlimor",
+            "grizzled-jarl",
+            "belanor",
+            "wurlim-frostking",
+            "executioner",
+            "krisk-the-ageless",
+            "jareg",
+            "shamrock",
+            "towering-titan",
+            "stoneskin",
+            "martyr",
+            "lightsworn",
+            "canoness",
+            "steelskull",
+            "windtalker",
+            "mausoleum-mage",
+            "seeker",
+            "lich",
+            "doomscreech"
+          ]
         },
         {
           "date_added": "",
@@ -210,13 +307,17 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-strengthen",
-          "slug": "strengthen",
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
           "website_link": "/effects/strengthen",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
-          "amount": 0
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
         }
       ],
       "damaged_based_on": [],
@@ -232,7 +333,7 @@
     "date_added": "2019-05-31T15:55:39+02:00",
     "website_link": "/factions/knight-revenant/",
     "image_slug": "image-faction-knight-revenant",
-    "number_of_champions": 32,
+    "number_of_champions": 33,
     "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 32 champions",
     "seo": {
       "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
@@ -248,7 +349,42 @@
       "structured_data": null
     },
     "giid": "",
-    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors.",
+    "champion_slugs": [
+      "tomb-lord",
+      "hegemon",
+      "soulless",
+      "wurlim-frostking",
+      "bystophus",
+      "miscreated-monster",
+      "doompriest",
+      "golden-reaper",
+      "sinesha",
+      "skullcrown",
+      "crypt-witch",
+      "deathless",
+      "necrohunter",
+      "pitiless-one",
+      "whisper",
+      "faceless",
+      "kytis",
+      "sepulcher-sentinel",
+      "arcanist",
+      "executioner",
+      "gladiator",
+      "guardian",
+      "magus",
+      "renegade",
+      "theurgist",
+      "acolyte",
+      "centurion",
+      "crimson-slayer",
+      "daywalker",
+      "herald",
+      "admonitor",
+      "cultist",
+      "thrall"
+    ]
   },
   "faction_slug": "knight-revenant",
   "website_link": "/champions/wurlim-frostking/",
@@ -326,12 +462,12 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-c-dmg",
+    "decrease-c-dmg-2",
     "freeze",
-    "increase-c-dmg",
+    "increase-c-dmg-2",
     "increase-def-2",
     "perfect-veil",
-    "strengthen"
+    "strengthen-2"
   ],
   "videos": []
 }
