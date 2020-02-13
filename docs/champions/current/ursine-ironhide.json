@@ -73,7 +73,24 @@
       "name": "Beat Back",
       "raw_description": "Attacks 1 enemy 2 times. Each hit has a 75% chance of decreasing the Turn Meter by 5%. Decreases the Turn Meter by 10% instead if target is under a [Decrease ATK] debuff.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +15%<br>Level 5: Cooldown -1",
       "slug": "beat-back",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "DEF"
       ],
@@ -118,7 +135,24 @@
       "name": "Ursine Brutality",
       "raw_description": "Each hit has a 50% chance of decreasing the target’s Turn Meter by 7.5%. Each hit also has a 50% chance of putting one of the target’s Skills on cooldown if the target is under a [Decrease C.RATE] debuff.<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +20%",
       "slug": "ursine-brutality",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4740_s4",
       "upgrades": [],
@@ -209,7 +243,8 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-atk-2"
+    "decrease-atk-2",
+    "decrease-turn-meter"
   ],
   "videos": []
 }

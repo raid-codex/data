@@ -329,20 +329,17 @@
           "date_added": "",
           "effect_type": "buff",
           "type": "Reflect Damage",
-          "value": 0.3,
-          "chance": 1,
-          "turns": 3,
-          "target": {
-            "who": "all allies",
-            "targets": ""
-          },
-          "image_slug": "image-buff-reflect-damage",
-          "slug": "reflect-damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
           "website_link": "/effects/reflect-damage",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
-          "places_if": "-",
-          "amount": 1
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [
@@ -833,7 +830,7 @@
     "block-cooldown-skills",
     "dmg-per-max-hp",
     "heal",
-    "reflect-damage",
+    "reflect-damage-2",
     "stun"
   ],
   "videos": []

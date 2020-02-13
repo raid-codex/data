@@ -139,7 +139,24 @@
       "name": "Denigration",
       "raw_description": "Attacks 1 enemy 2 times. Decreases Turn Meter by 10% on each hit if the target has any buffs.<br>Damage based on: [ATK] [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +5%",
       "slug": "denigration",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
       "damaged_based_on": [
         "ATK",
         "DEF"
@@ -789,39 +806,33 @@
           "date_added": "",
           "effect_type": "battle_enhancement",
           "type": "Decrease Turn Meter",
-          "value": 0.1,
+          "value": 0,
           "chance": 0,
           "turns": 0,
-          "target": {
-            "who": "target",
-            "targets": ""
-          },
+          "target": null,
           "image_slug": "image-battle-enhancement-decrease-turn-meter",
           "slug": "decrease-turn-meter",
           "website_link": "/effects/decrease-turn-meter",
           "extra": false,
           "raw_description": "",
-          "places_if": "Buffs",
-          "amount": 1
+          "places_if": "",
+          "amount": 0
         },
         {
           "date_added": "",
           "effect_type": "battle_enhancement",
           "type": "Increase Turn Meter",
-          "value": 0.1,
+          "value": 0,
           "chance": 0,
           "turns": 0,
-          "target": {
-            "who": "self",
-            "targets": ""
-          },
+          "target": null,
           "image_slug": "image-battle-enhancement-increase-turn-meter",
           "slug": "increase-turn-meter",
           "website_link": "/effects/increase-turn-meter",
           "extra": false,
           "raw_description": "",
-          "places_if": "enemy places buff",
-          "amount": 1
+          "places_if": "",
+          "amount": 0
         }
       ],
       "damaged_based_on": [],
@@ -1191,7 +1202,6 @@
         "cardinal",
         "steelskull",
         "yaga-the-insatiable",
-        "taurus",
         "bloodpainter",
         "nethril",
         "karam",
