@@ -310,9 +310,25 @@
     {
       "passive": false,
       "name": "Infuriate",
-      "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 2 turns. Places a 30% [Reflect Damage] buff on all allies for 2 turns.<br>Damage based on: [ATK] [HP] mh Reflect Damage<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a [Provoke] debuff for 2 turns. Places a 30% [Reflect Damage] buff on all allies for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.<br>Damage based on: [ATK] [HP] mh Reflect Damage<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
       "slug": "infuriate",
       "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/effects/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
         {
           "date_added": "",
           "effect_type": "debuff",
@@ -359,46 +375,7 @@
             "who": "enemy",
             "targets": "random"
           },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Reflect Damage",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-reflect-damage",
-              "slug": "reflect-damage",
-              "website_link": "/effects/reflect-damage",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Provoke",
-              "value": 0,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-provoke",
-              "slug": "provoke",
-              "website_link": "/effects/provoke",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
+          "effects": [],
           "based_on": [
             "ATK",
             "HP"
@@ -413,46 +390,7 @@
             "who": "enemy",
             "targets": "random"
           },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Reflect Damage",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-reflect-damage",
-              "slug": "reflect-damage",
-              "website_link": "/effects/reflect-damage",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Provoke",
-              "value": 0,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-provoke",
-              "slug": "provoke",
-              "website_link": "/effects/provoke",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
+          "effects": [],
           "based_on": [
             "ATK",
             "HP"
@@ -467,46 +405,7 @@
             "who": "enemy",
             "targets": "random"
           },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Reflect Damage",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-reflect-damage",
-              "slug": "reflect-damage",
-              "website_link": "/effects/reflect-damage",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Provoke",
-              "value": 0,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-provoke",
-              "slug": "provoke",
-              "website_link": "/effects/provoke",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
+          "effects": [],
           "based_on": [
             "ATK",
             "HP"
@@ -521,46 +420,7 @@
             "who": "enemy",
             "targets": "random"
           },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Reflect Damage",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-reflect-damage",
-              "slug": "reflect-damage",
-              "website_link": "/effects/reflect-damage",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Provoke",
-              "value": 0,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-provoke",
-              "slug": "provoke",
-              "website_link": "/effects/provoke",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
+          "effects": [],
           "based_on": [
             "ATK",
             "HP"
@@ -575,46 +435,7 @@
             "who": "enemy",
             "targets": "random"
           },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Reflect Damage",
-              "value": 0.3,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-reflect-damage",
-              "slug": "reflect-damage",
-              "website_link": "/effects/reflect-damage",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Provoke",
-              "value": 0,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-provoke",
-              "slug": "provoke",
-              "website_link": "/effects/provoke",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1
-            }
-          ],
+          "effects": [],
           "based_on": [
             "ATK",
             "HP"
@@ -629,7 +450,7 @@
     {
       "passive": true,
       "name": "Bravado",
-      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 4% (up to 20% in one round).<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%",
+      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 5% (up to 30% in one round).<br>Lvl. 2 Buff/Debuff Chance +5%<br>Lvl. 3 Buff/Debuff Chance +5%",
       "slug": "bravado",
       "effects": [
         {
@@ -1191,10 +1012,10 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
+    "counterattack",
     "dmg-reduction",
     "extra-turn",
     "provoke",
-    "reflect-damage",
     "reflect-damage-2"
   ],
   "videos": []

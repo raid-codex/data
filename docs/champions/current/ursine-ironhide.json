@@ -1,0 +1,215 @@
+{
+  "name": "Ursine Ironhide",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "ursine-ironhide",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 793,
+      "defense": 1222,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Confounding Crush",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of increasing the cooldown of one of the target’s Skills by 1 turn at random.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "confounding-crush",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4740_s1",
+      "upgrades": [],
+      "image_slug": "6208bb38581784f2b602898e89e4a050",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Beat Back",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 75% chance of decreasing the Turn Meter by 5%. Decreases the Turn Meter by 10% instead if target is under a [Decrease ATK] debuff.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +15%<br>Level 5: Cooldown -1",
+      "slug": "beat-back",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4740_s2",
+      "upgrades": [],
+      "image_slug": "9efe97a4cc6c182dd8d7f736264b4f43",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rampaging Swipe",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "rampaging-swipe",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4740_s3",
+      "upgrades": [],
+      "image_slug": "f7715d10a5e0d935b93f85df45cab2ad",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Ursine Brutality",
+      "raw_description": "Each hit has a 50% chance of decreasing the target’s Turn Meter by 7.5%. Each hit also has a 50% chance of putting one of the target’s Skills on cooldown if the target is under a [Decrease C.RATE] debuff.<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +20%",
+      "slug": "ursine-brutality",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4740_s4",
+      "upgrades": [],
+      "image_slug": "9f91eda3a07d0e666bfb54395bc3f11d",
+      "skill_number": "A4"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "date_added": "2019-07-22T23:18:04+02:00",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 23,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 23 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/ursine-ironhide/",
+  "image_slug": "image-champion-ursine-ironhide",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ursine Ironhide is a epic def champion from the faction Skinwalkers doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ursine Ironhide",
+      "ursine-ironhide"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Ursine Ironhide is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ursine-ironhide.jpg",
+        "name": "Ursine Ironhide",
+        "url": "https://raid-codex.com/champions/ursine-ironhide/"
+      }
+    ]
+  },
+  "default_description": "Ursine Ironhide is a epic def champion from the faction Skinwalkers doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4740",
+  "synergy": [],
+  "thumbnail": "0f304eddb4ad6007a3093fd6d963a1d2",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-atk-2"
+  ],
+  "videos": []
+}

@@ -11,7 +11,7 @@ echo "{\"name\": \"$1\", \"slug\": \"$2\", \"rarity\": \"$3\", \"type\": \"$5\",
 
 raid-codex-cli champions sanitize --champion-file $champion_file --data-directory $GOPATH/src/github.com/raid-codex/data
 bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
-raid-codex-cli scrap raidshadowlegendspro champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-name "$1" --with-skills
-bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
-raid-codex-cli scrap ayumilove champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-slug "$2" --with-stats --with-builds --with-masteries
+#raid-codex-cli scrap raidshadowlegendspro champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-name "$1" --with-skills
+#bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions
+raid-codex-cli scrap ayumilove champions --data-directory $GOPATH/src/github.com/raid-codex/data --champion-slug "$2" --with-stats --with-builds --with-masteries --with-skills
 bash $GOPATH/src/github.com/raid-codex/data/scripts/rebuild_index.sh champions

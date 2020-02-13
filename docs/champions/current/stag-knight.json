@@ -1,0 +1,290 @@
+{
+  "name": "Stag Knight",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Assist",
+  "rating": {
+    "overall": "SS",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "SS",
+    "dragon": "SS",
+    "spider": "SS",
+    "fire_knight": "SS",
+    "minotaur": "SS",
+    "force_dungeon": "SS",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "SS",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "stag-knight",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Spot Quarry",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "slug": "spot-quarry",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4490_s1",
+      "upgrades": [],
+      "image_slug": "81c553f3a5876efa4fb3b37707868230",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Huntmaster",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "huntmaster",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4490_s2",
+      "upgrades": [],
+      "image_slug": "f4a62db867fca6b914ffc8e1aed75651",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Lead the Pack",
+      "raw_description": "Places a 50% [Increase ACC] buff on an ally for 1 turn each time the ally has a debuff resisted by an enemy.",
+      "slug": "lead-the-pack",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-acc-2",
+          "slug": "increase-acc",
+          "website_link": "/effects/increase-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4490_s3",
+      "upgrades": [],
+      "image_slug": "9aad6602cec4d43b1817c608f1884544",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 40,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 40 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/stag-knight/",
+  "image_slug": "image-champion-stag-knight",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stag Knight is a epic assist champion from the faction Banner-Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stag Knight",
+      "stag-knight"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Stag Knight is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stag-knight.jpg",
+        "name": "Stag Knight",
+        "url": "https://raid-codex.com/champions/stag-knight/"
+      }
+    ]
+  },
+  "default_description": "Stag Knight is a epic assist champion from the faction Banner-Lords doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4490",
+  "synergy": [],
+  "thumbnail": "46489c17893dfdcf028883202cefd6d1",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "cycle-of-magic",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-def-2",
+    "decrease-spd-2",
+    "increase-acc"
+  ],
+  "videos": []
+}

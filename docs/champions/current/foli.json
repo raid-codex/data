@@ -112,7 +112,7 @@
       "hp": 15030,
       "attack": 1476,
       "defense": 1101,
-      "speed": 99,
+      "speed": 105,
       "critical_rate": 0.15,
       "critical_damage": 0.63,
       "resistance": 30,
@@ -494,7 +494,7 @@
     {
       "passive": false,
       "name": "Sealed Fate",
-      "raw_description": "Attacks all enemies. Enemies under 2 or more debuffs that are killed by this attack cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
+      "raw_description": "Attacks all enemies, decreases their Turn Meter by 15%, then attacks the targeted enemy. Enemies killed by this attack cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Cooldown -1",
       "slug": "sealed-fate",
       "effects": [],
       "damaged_based_on": [
@@ -526,7 +526,7 @@
               "website_link": "/effects/block-revive",
               "extra": false,
               "raw_description": "",
-              "places_if": "2+ Debuffs",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -560,7 +560,7 @@
               "website_link": "/effects/block-revive",
               "extra": false,
               "raw_description": "",
-              "places_if": "2+ Debuffs",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -594,7 +594,7 @@
               "website_link": "/effects/block-revive",
               "extra": false,
               "raw_description": "",
-              "places_if": "2+ Debuffs",
+              "places_if": "",
               "amount": 1
             }
           ],
@@ -628,7 +628,7 @@
               "website_link": "/effects/block-revive",
               "extra": false,
               "raw_description": "",
-              "places_if": "2+ Debuffs",
+              "places_if": "",
               "amount": 1
             }
           ],

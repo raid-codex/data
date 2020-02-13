@@ -1,0 +1,250 @@
+{
+  "name": "Gravechill Killer",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "gravechill-killer",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 1233,
+      "defense": 892,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Freezing Toxin",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "freezing-toxin",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4730_s1",
+      "upgrades": [],
+      "image_slug": "e15e7e80ca56e4d27a13181cf1039ed5",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Blood Chill",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Has a 75% chance of placing a 60% [Decrease DEF] debuff instead if the target is under a [Poison] debuff.<br>Damage based on: [ATK]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
+      "slug": "blood-chill",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4730_s2",
+      "upgrades": [],
+      "image_slug": "662a7f9c15bc5bf851a3c53e2201de3c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Icy Veins",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit places a 2.5% [Poison] debuff for 2 turns. Places a 5% [Poison] debuff instead if the target is under a [Poison Sensitivity] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Damage +10%<br>Level 6: Cooldown -1<br>Level 7: Cooldown -1",
+      "slug": "icy-veins",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4730_s3",
+      "upgrades": [],
+      "image_slug": "d689d2809f06fad76819a7795ee7d19b",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 44,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/gravechill-killer/",
+  "image_slug": "image-champion-gravechill-killer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gravechill Killer is a rare attack champion from the faction Undead Hordes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gravechill Killer",
+      "gravechill-killer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Gravechill Killer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gravechill-killer.jpg",
+        "name": "Gravechill Killer",
+        "url": "https://raid-codex.com/champions/gravechill-killer/"
+      }
+    ]
+  },
+  "default_description": "Gravechill Killer is a rare attack champion from the faction Undead Hordes doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4730",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "13d7dc096493e1f77fb4ccf3eaf79df1",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-def-2",
+    "poison-2"
+  ],
+  "videos": []
+}

@@ -19,11 +19,12 @@ with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/cu
             "auras": [],
             "tags": champion.get("tags", []),
         }
-        for skill in champion.get("skills"):
-            effects = set([effect.get("slug")
-                           for effect in skill.get("effects")] + [effect.get("slug")
-                                                                  for upgrade in skill.get("upgrades")
-                                                                  for effect in upgrade.get("effects")])
+        for skill in champion.get("skills", []):
+            eff1 = [effect.get("slug") for effect in skill.get("effects", [])]
+            eff2 = [effect.get("slug")
+                    for upgrade in skill.get("upgrades", [])
+                    for effect in upgrade.get("effects", [])]
+            effects = set(eff1 + eff2)
             s = {
                 "effects": [{
                     "slug": effect,

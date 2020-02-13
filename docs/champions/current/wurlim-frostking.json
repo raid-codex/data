@@ -1,0 +1,339 @@
+{
+  "name": "Wurlim Frostking",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "wurlim-frostking",
+  "characteristics": {
+    "60": {
+      "hp": 19650,
+      "attack": 1035,
+      "defense": 1233,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 20
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in the Arena by 30%.",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Winds of Winter",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn. Places a [Perfect Veil] buff on the ally with the lowest HP for 1 turn if the [Freeze] debuff is placed.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "winds-of-winter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4510_s1",
+      "upgrades": [],
+      "image_slug": "e4c8cb62fcc2c11336b90f4b7d45a8c2",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Frostbite Blast",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 30% [Decrease C.DMG] debuff for 2 turns. Places a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "frostbite-blast",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-dmg-2",
+          "slug": "decrease-c-dmg",
+          "website_link": "/effects/decrease-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4510_s2",
+      "upgrades": [],
+      "image_slug": "09066e8fe1116a6024e84bddd55fdee8",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Icegrave Armor",
+      "raw_description": "Places a 25% [Strengthen] buff and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "icegrave-armor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4510_s3",
+      "upgrades": [],
+      "image_slug": "737a8a71451fa3e72bde0d3f4b20edec",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 32,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/wurlim-frostking/",
+  "image_slug": "image-champion-wurlim-frostking",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Wurlim Frostking is a legendary def champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Wurlim Frostking",
+      "wurlim-frostking"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Wurlim Frostking is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-wurlim-frostking.jpg",
+        "name": "Wurlim Frostking",
+        "url": "https://raid-codex.com/champions/wurlim-frostking/"
+      }
+    ]
+  },
+  "default_description": "Wurlim Frostking is a legendary def champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4510",
+  "synergy": [],
+  "thumbnail": "989652eef28bc49eec908063ba36a854",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "rapid-response"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-c-dmg",
+    "freeze",
+    "increase-c-dmg",
+    "increase-def",
+    "perfect-veil",
+    "strengthen"
+  ],
+  "videos": []
+}
