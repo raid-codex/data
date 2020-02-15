@@ -1,0 +1,273 @@
+{
+  "name": "Adjudicator",
+  "date_added": "2019-07-27T16:04:13+02:00",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "D",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "S",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "C",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "D",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "C",
+        "dragon": "D",
+        "spider": "D",
+        "fire_knight": "C",
+        "minotaur": "C",
+        "force_dungeon": "D",
+        "magic_dungeon": "D",
+        "spirit_dungeon": "C",
+        "void_dungeon": "D",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "C",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "adjudicator",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 1255,
+      "defense": 870,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in all battles by 40",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 40,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Isolation Cell",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "isolation-cell",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/effects/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3360_s1",
+      "upgrades": [],
+      "image_slug": "83bec4b5cdd967f71ecd4c2cbf4aeb5c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Slowing Sanction",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of decreasing the Turn Meter by 20%.<br>Damage based on: [ATK]",
+      "slug": "slowing-sanction",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3360_s2",
+      "upgrades": [],
+      "image_slug": "940313ee91656a0f148e473f4fa5fdcc",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Penalize",
+      "raw_description": "Attacks 2 times at random. Has a 50% chance of increasing the cooldown of one of the target's Skills by 1 turn at random.<br>Damage based on: [ATK]",
+      "slug": "penalize",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3360_s3",
+      "upgrades": [],
+      "image_slug": "4fcfa6de514b2509fe2f05af36681ee8",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 30,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 30 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/adjudicator/",
+  "image_slug": "image-champion-adjudicator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Adjudicator is a rare attack champion from the faction High Elves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Adjudicator",
+      "adjudicator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Adjudicator is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-adjudicator.jpg",
+        "name": "Adjudicator",
+        "url": "https://raid-codex.com/champions/adjudicator/"
+      }
+    ]
+  },
+  "default_description": "Adjudicator is a rare attack champion from the faction High Elves doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3360",
+  "synergy": [],
+  "thumbnail": "75df63609809c7a2052fdffe5c00a84e",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-harvest-jack-lady-etessa",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-maulie-tankard-mistress-of-hymns",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-turn-meter",
+    "heal-reduction"
+  ],
+  "videos": []
+}

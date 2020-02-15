@@ -1,0 +1,559 @@
+{
+  "name": "Basileus Roanas",
+  "date_added": "2019-10-12T20:59:03+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "SS",
+    "spirit_dungeon": "C",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "A",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "basileus-roanas",
+  "characteristics": {
+    "60": {
+      "hp": 15525,
+      "attack": 1542,
+      "defense": 1002,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Triple Puncture",
+      "raw_description": "Attacks 1 enemy 3 times. Ignores [Shield] and [Block Damage] buffs, as well as 50% of the target's DEF.<br> Damage based on: [ATK] <br><br/>Lvl. 2 Damage +5%<br/>Lvl. 3 Damage +10%<br/>Lvl. 4 Damage +10%<br/>",
+      "slug": "triple-puncture",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3610_s1",
+      "upgrades": [],
+      "image_slug": "09e2bc53d75a618b776f63e5be0395ca",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Majesty",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn. Decreases each target's Turn Meter by 50% if the [Stun] debuff is not placed<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br/>Lvl. 3 Buff/Debuff Chance +10%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Buff/Debuff Chance +15%",
+      "slug": "majesty",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3610_s2",
+      "upgrades": [],
+      "image_slug": "73969671b8823df0eaa269975cd1febc",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Bolts of Scorn",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of stealing 1 random buff from the target. Has an 80% chance of placing a [Block Buffs] debuff for 1 turn if the target has no active buffs.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br/>Lvl. 3 Buff/Debuff chance +10%<br/>Lvl. 4 Damage +10%<br/>Lvl. 5 Buff/Debuff chance +10%",
+      "slug": "bolts-of-scorn",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3610_s3",
+      "upgrades": [],
+      "image_slug": "ce43b910c232ea4a4565f0cf00a4d0fa",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 30,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 30 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/basileus-roanas/",
+  "image_slug": "image-champion-basileus-roanas",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Basileus Roanas is a legendary attack champion from the faction High Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Basileus Roanas",
+      "basileus-roanas"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Basileus Roanas is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-basileus-roanas.jpg",
+        "name": "Basileus Roanas",
+        "url": "https://raid-codex.com/champions/basileus-roanas/"
+      }
+    ]
+  },
+  "default_description": "Basileus Roanas is a legendary attack champion from the faction High Elves doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "3610",
+  "synergy": [],
+  "thumbnail": "f95ec3de395b4bce25b39ef6138da871",
+  "tags": [
+    "NEW_CHAMPION_20191010",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "grim-resolve",
+        "keen-strike",
+        "kill-streak",
+        "single-out",
+        "warmaster",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-buffs",
+    "block-damage",
+    "decrease-turn-meter",
+    "shield",
+    "stun"
+  ],
+  "videos": []
+}

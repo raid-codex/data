@@ -1,0 +1,827 @@
+{
+  "name": "Tormin the Cold",
+  "date_added": "2019-12-14T13:37:46+01:00",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "SS",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "B",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "SS",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "tormin-the-cold",
+  "characteristics": {
+    "60": {
+      "hp": 20145,
+      "attack": 815,
+      "defense": 1421,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 70,
+      "accuracy": 20
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all Battles by 33%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 33,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Rimefire",
+      "raw_description": "Attacks all enemies. Has a 15% chance of placing a [Freeze] debuff for 1 turn. Instantly activates this Skill whenever an enemy under both a [Freeze] and a [HP Burn] debuff takes damage from the [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%",
+      "slug": "rimefire",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4630_s1",
+      "upgrades": [],
+      "image_slug": "61939de3511e9640a925a9cddaa0fc79",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Iceberg Crush",
+      "raw_description": "Removes all buffs from a target enemy, then attacks the target 2 times. Steals all buffs instead if the target is under a [Freeze] debuff. Will ignore DEF if the target is under both a [Freeze] and a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Cooldown -1",
+      "slug": "iceberg-crush",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4630_s2",
+      "upgrades": [],
+      "image_slug": "b561befad50b072d303130c23e188c09",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blizzard Rage",
+      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff and a 100% [Heal Reduction] debuff for 2 turns on enemies under [Freeze] debuffs. Has a 60% chance of placing a [Provoke] debuff for 1 turn on enemies not under [Freeze] debuffs. Decreases the cooldown of 1 random Skill of each ally by 1 turn for every enemy attacked under both a [Freeze] and a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%",
+      "slug": "blizzard-rage",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4630_s3",
+      "upgrades": [],
+      "image_slug": "f1ac9063120ca6bb4aed18a477d55582",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Wintry Wind",
+      "raw_description": "Passive effect: Has a 15% chance of placing a [Freeze] debuff on the enemy each time they receive a buff, get healed, or have their Turn Meter filled. The 15% chance applies for each effect individually in cases where an enemy receives multiple of these effects at the same time.<br>Active Effect: Revives this Champion to 100% HP when killed and placed a [Freeze] debuff on this Champion for 1 turn.",
+      "slug": "wintry-wind",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4630_s4",
+      "upgrades": [],
+      "image_slug": "aee083e381c9d27948f5dbf8ceb4d412",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "date_added": "2019-08-08T22:31:01+02:00",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 23,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 23 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/tormin-the-cold/",
+  "image_slug": "image-champion-tormin-the-cold",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Tormin the Cold is a legendary def champion from the faction Dwarves doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Tormin the Cold",
+      "tormin-the-cold"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Tormin the Cold is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tormin-the-cold.jpg",
+        "name": "Tormin the Cold",
+        "url": "https://raid-codex.com/champions/tormin-the-cold/"
+      }
+    ]
+  },
+  "default_description": "Tormin the Cold is a legendary def champion from the faction Dwarves doing void damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "accuracy",
+        "stun"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "accuracy",
+        "taunt"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "accuracy",
+        "frost"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "defense",
+        "defense",
+        "life"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>There are many songs of Tormin the King’s Hammer, Tormin Orcsbane, Tormin the Smith. Of his deeds and his bravery, of his cunning and wit, and of his loyalty. A hero of days long gone, he had been considered a mere fancy of Dwarven folklore by some sceptical scholars – a generalized character with traits taken from several historical figures, which would explain a long list of titles. But, in truth, Tormin indeed existed, and the tales of his adventures often have a seed of truth in them. Born to a humble blacksmith – as is so very common among the Children of Stone, who revere the artistry of crafting metal – Tormin had begun learning the craft from the day he was strong enough to hold a hammer. He was talented and strong, though hot-blooded and oft found himself at odds with others. It was one such feud that led to Tormin injuring a rival smith’s apprentice and being taken by Jarl’s guards. His fate might have been bleak, were it not for frequent Orc raids that troubled the Jarl’s domain at the time. Every able-bodied warrior could be of use against the raiders, and thus Tormin found himself faced with a choice – be imprisoned for his crime or be conscripted into the militia. He had chosen the latter. The saga goes on to describe Tormin’s service to the Jarl which lasted a decade and saw him rise from a mere foot soldier to a trusted Sergeant. He is said to have defended a narrow bridge across a cavern chasm alone, turning aside scores of orcish warriors. Several orc camps were raided and razed to the ground and bandits who led the raids slain by the Dwarven scouts under his command. His bravery had been enough to get him noticed by the Jarl, and when the King gathered an army to march alongside his human allies, Tormin too was called upon. It was a stroke of luck, perhaps, that saw Tormin catch the King’s eye when he alone survived a bloody battle against the Undead and returned to the bulk of the army with a warning that would prove crucial to securing victory. Such resilience and determination were worthy of a true Dwarf, and Tormin was taken into the King’s own service. A particularly beloved tale speaks of Tormin being taken prisoner by Jotuns – a race of giants hailing from the Mountains of Despair – and using his cunning to escape. He had convinced the Jotun Chieftain that he could craft a weapon worthy of such an illustrious leader if given tools and materials to work with. The Chieftain, driven by his lust for power and well-aware of the fabled smithing talents of the Dwarves, agreed. Tormin remained true to his word and used all he had been given to craft a magic hammer of impressive power. Though rather than give it to the Jotuns, he had turned it upon them instead. The magic of Rimefire – as Tormin had dubbed his weapon – was unleashed and allowed him to fell many foes, baffling the rest and securing his escape. He was hailed a hero once more when he returned home, Rimefire in hand, and tales of his adventure inspired countless songs praising Dwarven ingenuity and mocking the greed of the Jotun Chieftain. Tormin himself went on to serve the King for decades until his sudden disappearance far in the frozen North of Teleria. No one knows what exactly he was doing there, nor what happened. Some say Tormin was betrayed. Left for dead in a pool of his own freezing blood, he swore to seek justice and traded his soul to a malefic winter spirit that dwelled in the icy peaks of the winterlands. Others maintain that Tormin hunted down a powerful Lych lord but was mortally wounded. Only the intervention of Sir Nicholas allowed the Dwarven warrior to survive, though the cost was steep. Some even deny Tormin’s survival at all, claiming he had perished in the icy wastes, far, far away from mortal eyes, and that neither his remains nor his mighty weapon may ever be recovered. Yet this old saga has been given new life recently, when scouts returned, terrified and frostbitten, from their mission beyond the Mountain King’s realm. They spoke of a terrible blizzard that enveloped their party and of a lone Dwarf who walked through that storm unharmed, silent and clad in frozen armour. He led the scouts down from the treacherous mountain and into valleys below, yet did not share a single word with them. Most importantly, the stranger wielded a mighty warhammer of silver and ice. Though he had disappeared without a trace when the task was done, this mysterious benefactor had caught the attention of the Dwarven’s monarch, and new, better-equipped parties are already being prepared to venture north and bring their long-lost brother back into the fold.</p>",
+  "giid": "4630",
+  "synergy": [],
+  "thumbnail": "067a26d87265ea39030f5bd82408ce7c",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "defiant",
+        "delay-death",
+        "deterrence",
+        "fearsome-presence",
+        "harvest-despair",
+        "improved-parry",
+        "mighty-endurance",
+        "resurgent",
+        "retribution",
+        "wisdom-of-battle"
+      ],
+      "support": [
+        "cycle-of-magic",
+        "exalt-in-death",
+        "pinpoint-accuracy",
+        "spirit-haste",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-tormin-the-cold",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-buffs",
+    "freeze",
+    "heal-reduction-2",
+    "hp-burn",
+    "provoke"
+  ],
+  "videos": []
+}

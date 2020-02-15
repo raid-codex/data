@@ -1,0 +1,442 @@
+{
+  "name": "Windtalker",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "A",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "windtalker",
+  "characteristics": {
+    "60": {
+      "hp": 13710,
+      "attack": 903,
+      "defense": 936,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Thunder",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ACC] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +10%",
+      "slug": "thunder",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/effects/decrease-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1240_s1",
+      "upgrades": [],
+      "image_slug": "8d7d959ba22c3f5154bf31b1412fa698",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Spiritual Wind",
+      "raw_description": "Places a 60% [Increase DEF] buff on a target ally for 2 turns. Heals the target by 20% of their MAX HP.<br>Lvl. 2 Heal +10%<br>Lvl. 3 Heal +10%<br>Lvl. 4 Cooldown -1<br>Lvl. 5 Heal +10%<br>Lvl. 6 Heal +10%<br>Lvl. 7 Cooldown -1",
+      "slug": "spiritual-wind",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1240_s2",
+      "upgrades": [],
+      "image_slug": "beded2a311a99d93bd2c0b4aef4e9aab",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "date_added": "2019-07-22T23:18:04+02:00",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 21,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 21 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/windtalker/",
+  "image_slug": "image-champion-windtalker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Windtalker is a uncommon assist champion from the faction Skinwalkers. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Windtalker",
+      "windtalker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Windtalker is a champion of Uncommon rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-windtalker.jpg",
+        "name": "Windtalker",
+        "url": "https://raid-codex.com/champions/windtalker/"
+      }
+    ]
+  },
+  "default_description": "Windtalker is a uncommon assist champion from the faction Skinwalkers",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "life",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy / Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy / Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "1240",
+  "synergy": [],
+  "thumbnail": "a9078e8653368c9c291ae2f8b74012e7",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-acc",
+    "increase-def-2"
+  ],
+  "videos": []
+}
