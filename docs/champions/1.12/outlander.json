@@ -1,0 +1,418 @@
+{
+  "name": "Outlander",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "outlander",
+  "characteristics": {
+    "60": {
+      "hp": 9255,
+      "attack": 1299,
+      "defense": 837,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Savage Strike",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "savage-strike",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "840_s1",
+      "upgrades": [],
+      "image_slug": "4f95f209224c536536922cb486636889",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Talisman of Power",
+      "raw_description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 30%.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Buff/Debuff Chance +5'<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Buff/Debuff Chance +5<br>Lvl. 7 Buff/Debuff Chance +109<br>Lvl. 8 Cooldown -1",
+      "slug": "talisman-of-power",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "840_s2",
+      "upgrades": [],
+      "image_slug": "89afe53c12b710eb860ea2eee74ae5b3",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 39,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 39 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/outlander/",
+  "image_slug": "image-champion-outlander",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Outlander is a uncommon attack champion from the faction Barbarians. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Outlander",
+      "outlander"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Outlander is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-outlander.jpg",
+        "name": "Outlander",
+        "url": "https://raid-codex.com/champions/outlander/"
+      }
+    ]
+  },
+  "default_description": "Outlander is a uncommon attack champion from the faction Barbarians",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "840",
+  "synergy": [],
+  "thumbnail": "fa83a11a198d5a7f0bf77a1987bcd006",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-turn-meter"
+  ],
+  "videos": []
+}

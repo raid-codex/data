@@ -1,0 +1,494 @@
+{
+  "name": "Beast Wrestler",
+  "date_added": "2019-08-08T22:31:01+02:00",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "A",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "C",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "D",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "S",
+        "dragon": "C",
+        "spider": "D",
+        "fire_knight": "D",
+        "minotaur": "B",
+        "force_dungeon": "A",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "B",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "C",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "beast-wrestler",
+  "characteristics": {
+    "60": {
+      "hp": 15525,
+      "attack": 1233,
+      "defense": 760,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in Arena by 16%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 16,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Weighty Cleaver",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Has a 20% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]",
+      "slug": "weighty-cleaver",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4300_s1",
+      "upgrades": [],
+      "image_slug": "8ae119492be7b6bfe02d3951d44b48f3",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Slaughter Prey",
+      "raw_description": "Attacks 1 enemy.<br>Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]",
+      "slug": "slaughter-prey",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4300_s2",
+      "upgrades": [],
+      "image_slug": "290f736d7fe3ac29541f5dc2ea4d10e2",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "First Blood",
+      "raw_description": "Increases damage inflicted by 50% for the first hit on each enemy",
+      "slug": "first-blood",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4300_s3",
+      "upgrades": [],
+      "image_slug": "87d20e83e48e3b2265668f354c12e3d6",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "date_added": "2019-08-08T22:31:01+02:00",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 23,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 23 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/beast-wrestler/",
+  "image_slug": "image-champion-beast-wrestler",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Beast Wrestler is a rare attack champion from the faction Dwarves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Beast Wrestler",
+      "beast-wrestler"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Beast Wrestler is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-beast-wrestler.jpg",
+        "name": "Beast Wrestler",
+        "url": "https://raid-codex.com/champions/beast-wrestler/"
+      }
+    ]
+  },
+  "default_description": "Beast Wrestler is a rare attack champion from the faction Dwarves doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "4300",
+  "synergy": [],
+  "thumbnail": "acf666483bc8723fae7feda6f6a9cb7a",
+  "tags": [
+    "NEW_CHAMPION_20190808"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "warmaster",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-harvest-jack-maeve",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-maulie-tankard-captain-temila",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "stun"
+  ],
+  "videos": []
+}

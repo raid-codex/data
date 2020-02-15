@@ -1,0 +1,1226 @@
+{
+  "name": "Queen Eva",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "SS",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "S",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 475,
+    "campaign": 4.9,
+    "arena_offense": 4.5,
+    "arena_defense": 4,
+    "clan_boss": 3.7,
+    "ice_guardian": 4.7,
+    "dragon": 4.6,
+    "spider": 5,
+    "fire_knight": 4,
+    "minotaur": 4.6,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.3,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "SS",
+        "arena_offense": "SS",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "SS",
+        "dragon": "A",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "A",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "SS",
+        "arena_offense": "SS",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "SS",
+        "dragon": "S",
+        "spider": "SS",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "queen-eva",
+  "characteristics": {
+    "60": {
+      "hp": 15690,
+      "attack": 1696,
+      "defense": 837,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in all battles by 19%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 19,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Cauterize",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +15%<br>Lvl. 3 Buff/Debuff Chance +15%<br>Lvl. 4 Buff/Debuff Chance +15%<br>Lvl. 5 Damage +20%",
+      "slug": "cauterize",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "21060_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +15%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +20%"
+        }
+      ],
+      "image_slug": "8f4de3d11c6d217a4c96f34f4c42feff",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Ancient Curse",
+      "raw_description": "Attacks 1 enemy 2 times. Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +10%<br>Lvl. 3 Cooldown -1<br>Lvl. 4 Damage +15%<br>Lvl. 5 Cooldown -1",
+      "slug": "ancient-curse",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "21060_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/effects/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/effects/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/effects/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/effects/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +15%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/effects/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "4e2d7cf079e5d3cbd4b908308b05d877",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Energy Drain",
+      "raw_description": "Attacks all enemies. Decreases the Turn Meter by 20%. Resets the cooldowns on each of this Champion's skills if any target is killed. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +10%<br>Lvl. 4 Damage +10%<br>Lvl. 5 Cooldown -1",
+      "slug": "energy-drain",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "21060_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Reset Skill Cooldown",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-reset-skill-cooldown",
+              "slug": "reset-skill-cooldown",
+              "website_link": "/effects/reset-skill-cooldown",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/effects/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Reset Skill Cooldown",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-reset-skill-cooldown",
+              "slug": "reset-skill-cooldown",
+              "website_link": "/effects/reset-skill-cooldown",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/effects/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Reset Skill Cooldown",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-reset-skill-cooldown",
+              "slug": "reset-skill-cooldown",
+              "website_link": "/effects/reset-skill-cooldown",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/effects/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Reset Skill Cooldown",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-reset-skill-cooldown",
+              "slug": "reset-skill-cooldown",
+              "website_link": "/effects/reset-skill-cooldown",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/effects/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Reset Skill Cooldown",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-reset-skill-cooldown",
+              "slug": "reset-skill-cooldown",
+              "website_link": "/effects/reset-skill-cooldown",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/effects/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "0fdf6bc42ee2797dd6c5c2bc69d88c9f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 37,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 37 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/queen-eva/",
+  "image_slug": "image-champion-queen-eva",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Queen Eva is a legendary attack champion from the faction Dark Elves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Queen Eva",
+      "queen-eva"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Queen Eva is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-queen-eva.jpg",
+        "name": "Queen Eva",
+        "url": "https://raid-codex.com/champions/queen-eva/"
+      }
+    ]
+  },
+  "default_description": "Queen Eva is a legendary attack champion from the faction Dark Elves doing spirit damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "21060",
+  "synergy": [],
+  "thumbnail": "416b9feb0ec119ee3914f27ceda31d79",
+  "tags": [
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "flawless-execution",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "shield-breaker",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "cycle-of-revenge",
+        "defiant",
+        "delay-death",
+        "improved-parry"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-revive",
+    "decrease-turn-meter",
+    "heal-reduction",
+    "heal-reduction-2",
+    "increase-c-rate",
+    "reset-skill-cooldown"
+  ],
+  "videos": []
+}

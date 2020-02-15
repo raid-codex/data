@@ -1,0 +1,499 @@
+{
+  "name": "Vanguard",
+  "date_added": "2019-07-27T16:04:13+02:00",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "C",
+    "force_dungeon": "B",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "C",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "C",
+        "dragon": "B",
+        "spider": "D",
+        "fire_knight": "D",
+        "minotaur": "C",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "B",
+        "force_dungeon": "A",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "S",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "vanguard",
+  "characteristics": {
+    "60": {
+      "hp": 14700,
+      "attack": 958,
+      "defense": 1090,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in all battles by 30",
+      "effects": [],
+      "stats": [
+        "RESIST"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 30,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gathering Momentum",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease DEF] debuff for 1 turn if the target's DEF is lower than this Champion's.<br>Damage based on: [ATK]",
+      "slug": "gathering-momentum",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3160_s1",
+      "upgrades": [],
+      "image_slug": "c5f7f4606eaaa11432212be1a1f9f623",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Inescapable Wrath",
+      "raw_description": "Attacks 1 enemy. Places a [Provoke] debuff for 1 turn if the target is under a [Decrease DEF] debuff.<br>Damage based on: [ATK]",
+      "slug": "inescapable-wrath",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3160_s2",
+      "upgrades": [],
+      "image_slug": "f26465692bfca29d1b0e036698251a18",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Dismay the Foe",
+      "raw_description": "Decreases the duration of all buffs on the attacker when hit",
+      "slug": "dismay-the-foe",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3160_s3",
+      "upgrades": [],
+      "image_slug": "d3c83acbb20dbf387984a87af8da62d3",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 39,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/vanguard/",
+  "image_slug": "image-champion-vanguard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Vanguard is a rare def champion from the faction Banner-Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Vanguard",
+      "vanguard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Vanguard is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-vanguard.jpg",
+        "name": "Vanguard",
+        "url": "https://raid-codex.com/champions/vanguard/"
+      }
+    ]
+  },
+  "default_description": "Vanguard is a rare def champion from the faction Banner-Lords doing void damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena"
+      ],
+      "sets": [
+        "defense",
+        "defense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "campaign",
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "3160",
+  "synergy": [],
+  "thumbnail": "9808ae38758804501ca3fc0697050e03",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "bloodthirst",
+        "cycle-of-revenge",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "iron-skin",
+        "rejuvenation",
+        "retribution",
+        "shadow-heal"
+      ],
+      "support": [
+        "charged-focus",
+        "evil-eye",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-tormin-the-cold-towering-titan",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-def",
+    "provoke"
+  ],
+  "videos": []
+}

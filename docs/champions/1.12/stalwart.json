@@ -1,0 +1,468 @@
+{
+  "name": "Stalwart",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "HP",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "C",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "stalwart",
+  "characteristics": {
+    "60": {
+      "hp": 18000,
+      "attack": 738,
+      "defense": 815,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Rattle",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "rattle",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2020_s1",
+      "upgrades": [],
+      "image_slug": "f8e6727cf25ff2e8c1b3478650f674a8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Headbutt",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +5%<br>Lvl. 5 Damage +10%",
+      "slug": "headbutt",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2020_s2",
+      "upgrades": [],
+      "image_slug": "a4701c890715744e239df9ba0de7cddf",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 39,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/stalwart/",
+  "image_slug": "image-champion-stalwart",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stalwart is a uncommon hp champion from the faction Banner-Lords. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stalwart",
+      "stalwart"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Stalwart is a champion of Uncommon rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stalwart.jpg",
+        "name": "Stalwart",
+        "url": "https://raid-codex.com/champions/stalwart/"
+      }
+    ]
+  },
+  "default_description": "Stalwart is a uncommon hp champion from the faction Banner-Lords",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "life",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "2020",
+  "synergy": [],
+  "thumbnail": "7b7a53e239400a13bd6be6c91c4f6c4e",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "bloodthirst",
+        "cycle-of-revenge",
+        "defiant",
+        "fearsome-presence",
+        "harvest-despair",
+        "improved-parry",
+        "rejuvenation",
+        "retribution",
+        "shadow-heal"
+      ],
+      "support": [
+        "charged-focus",
+        "evil-eye",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "stun"
+  ],
+  "videos": []
+}

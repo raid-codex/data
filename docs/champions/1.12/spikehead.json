@@ -1,0 +1,843 @@
+{
+  "name": "Spikehead",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 11,
+    "campaign": 3.3,
+    "arena_offense": 3.4,
+    "arena_defense": 2.7,
+    "clan_boss": 4.2,
+    "ice_guardian": 2.1,
+    "dragon": 2.1,
+    "spider": 2.1,
+    "fire_knight": 3.2,
+    "minotaur": 3,
+    "force_dungeon": 2.2,
+    "magic_dungeon": 2.1,
+    "spirit_dungeon": 2.1,
+    "void_dungeon": 2.8
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "D",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "D",
+        "fire_knight": "A",
+        "minotaur": "B",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "A",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "C",
+        "campaign": "C",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "C",
+        "dragon": "C",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "C",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "C",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "spikehead",
+  "characteristics": {
+    "60": {
+      "hp": 11895,
+      "attack": 1465,
+      "defense": 771,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Arena by 30%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Stomp",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Damage +10%",
+      "slug": "stomp",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1650_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "31d3fbfabd66c22a3f1a09a0cdee88bd",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Battle Cry",
+      "raw_description": "Places a 15% [Increase C. RATE] buff and a 50% [Increase ATK] buff on this Champion for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "battle-cry",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/effects/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/effects/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1650_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "fc559f308e67b8aabd1678aff66b6e78",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rip",
+      "raw_description": "Attacks 1 enemy 3 times. Has an extra 20% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%<br>Lvl. 6 Cooldown -1",
+      "slug": "rip",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1650_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Crit Chance",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-crit-chance",
+              "slug": "crit-chance",
+              "website_link": "/effects/crit-chance",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "55d38786e830ce2755dfc82091bfa272",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 30,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 30 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia."
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/spikehead/",
+  "image_slug": "image-champion-spikehead",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Spikehead is a rare attack champion from the faction Orcs doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Spikehead",
+      "spikehead"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Spikehead is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-spikehead.jpg",
+        "name": "Spikehead",
+        "url": "https://raid-codex.com/champions/spikehead/"
+      }
+    ]
+  },
+  "default_description": "Spikehead is a rare attack champion from the faction Orcs doing magic damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "campaign",
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "1650",
+  "synergy": [],
+  "thumbnail": "973a5f0ccbc4ee3524ccf035d35b284b",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rhazin-scarhide-torturehelm",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "crit-chance",
+    "increase-atk",
+    "increase-atk-2",
+    "increase-c-rate"
+  ],
+  "videos": []
+}

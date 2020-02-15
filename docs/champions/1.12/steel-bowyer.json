@@ -1,0 +1,360 @@
+{
+  "name": "Steel Bowyer",
+  "date_added": "2019-07-04T20:36:50+02:00",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "C",
+        "campaign": "C",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "C",
+        "dragon": "C",
+        "spider": "B",
+        "fire_knight": "C",
+        "minotaur": "C",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "C",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "steel-bowyer",
+  "characteristics": {
+    "60": {
+      "hp": 12720,
+      "attack": 1365,
+      "defense": 815,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Faction Crypts by 17%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "faction-wars"
+      ],
+      "value": 17,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Binding Arrows",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a 50% [Decrease ACC] for 2 turns",
+      "slug": "binding-arrows",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/effects/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3130_s1",
+      "upgrades": [],
+      "image_slug": "d98941c1c6f48419b55692fd59137b6a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Thrill of the Hunt",
+      "raw_description": "Attacks 1 enemy 2 times. Heals this Champion by 50% of the damage inflicted on each critical hit",
+      "slug": "thrill-of-the-hunt",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3130_s2",
+      "upgrades": [],
+      "image_slug": "178c42efafb3e253c5f39577ec54004f",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Big Game",
+      "raw_description": "Attacks all enemies. Damage increases according to enemy MAX HP.",
+      "slug": "big-game",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3130_s3",
+      "upgrades": [],
+      "image_slug": "8647241fcd148af0048782edcc40869d",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 37,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 37 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/steel-bowyer/",
+  "image_slug": "image-champion-steel-bowyer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Steel Bowyer is a rare attack champion from the faction Dark Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Steel Bowyer",
+      "steel-bowyer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Steel Bowyer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-steel-bowyer.jpg",
+        "name": "Steel Bowyer",
+        "url": "https://raid-codex.com/champions/steel-bowyer/"
+      }
+    ]
+  },
+  "default_description": "Steel Bowyer is a rare attack champion from the faction Dark Elves doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "3130",
+  "synergy": [],
+  "thumbnail": "c922de9e01cba8a4684f6c3471130e4c",
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "single-out",
+        "warmaster",
+        "wrath-of-the-slain"
+      ],
+      "defense": [
+        "blastproof",
+        "delay-death",
+        "deterrence",
+        "resurgent",
+        "retribution",
+        "tough-skin"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-foli-kytis",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-acc-2"
+  ],
+  "videos": []
+}

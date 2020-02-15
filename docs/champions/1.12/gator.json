@@ -1,0 +1,560 @@
+{
+  "name": "Gator",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "S",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 11,
+    "campaign": 4,
+    "arena_offense": 3.6,
+    "arena_defense": 3.6,
+    "clan_boss": 3.4,
+    "ice_guardian": 3.4,
+    "dragon": 3.7,
+    "spider": 3.4,
+    "fire_knight": 3.2,
+    "minotaur": 3.6,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 3.4
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "A",
+        "minotaur": "B",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "A",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "gator",
+  "characteristics": {
+    "60": {
+      "hp": 16515,
+      "attack": 892,
+      "defense": 1046,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in all battles by 22%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 22,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hex Smash",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%",
+      "slug": "hex-smash",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/effects/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2740_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/effects/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "200370707a95899bc96db219bb2ea797",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Radiate Frenzy",
+      "raw_description": "Places a 25% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "radiate-frenzy",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2740_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d9815f689b96aea6454a741f707ce53f",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Defy the Witch",
+      "raw_description": "Removes all debuffs from all allies.<br>Lvl. 2 Cooldown -1",
+      "slug": "defy-the-witch",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2740_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/effects/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/effects/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "4cc8f2a78c161c8efc2e63f8d8c25468",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 26,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 26 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/gator/",
+  "image_slug": "image-champion-gator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gator is a rare assist champion from the faction Lizardmen doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gator",
+      "gator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Gator is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gator.jpg",
+        "name": "Gator",
+        "url": "https://raid-codex.com/champions/gator/"
+      }
+    ]
+  },
+  "default_description": "Gator is a rare assist champion from the faction Lizardmen doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>In his childhood, Gator’s magical ability was out of control - presenting a danger to himself and others. Were it not for a travelling magi belonging to the Coven, he would have likely killed himself with one failed spell or the other. But fate saw fit to give the young lizardman another chance and provide him with tutors open-minded enough to pass their knowledge to a creature many would not see as anything beyond a beast. Such good fortune was not wasted, and when Gator returned to his people, it was a full-fledged mage, well-versed in arts that not many shamans would dare to replicate.</p>",
+  "giid": "2740",
+  "synergy": [],
+  "thumbnail": "96f2b50b5d3613adf9c27049b2a888c7",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "heal-reduction",
+    "increase-atk",
+    "remove-all-debuffs"
+  ],
+  "videos": []
+}

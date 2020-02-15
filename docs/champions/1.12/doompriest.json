@@ -1,0 +1,695 @@
+{
+  "name": "Doompriest",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 500,
+    "campaign": 4.9,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.2,
+    "fire_knight": 4.3,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.9
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "SS",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "A",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "A",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "doompriest",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 980,
+      "defense": 1035,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Force Ally SPD in all battles by 15%",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 15,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Fate Weave",
+      "raw_description": "Attacks 1 enemy. If the hit is critical, places a 15% [Increase C. RATE] buff on a random ally for 2 turns.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +10%",
+      "slug": "fate-weave",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/effects/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2800_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "random ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "random ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "random ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "random ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "random ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "11df8c76800712c5d39a261294b0e2d8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Mass Possession",
+      "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.<br>Lvl. 2 Cooldown -1",
+      "slug": "mass-possession",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/effects/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2800_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "928216dbc28743b3a309f5a9d32fca65",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Bolster",
+      "raw_description": "Heals all allies by 7.5% of their HP and removes 1 random debuff from them at the start of this Champion's turn.",
+      "slug": "bolster",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2800_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Debuff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-debuff",
+              "slug": "remove-1-debuff",
+              "website_link": "/effects/remove-1-debuff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Each Turn",
+              "amount": 1
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.075,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/effects/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Each Turn",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "36448306eab944fa8e48033c4ab49596",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 31,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 31 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/doompriest/",
+  "image_slug": "image-champion-doompriest",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Doompriest is a epic assist champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Doompriest",
+      "doompriest"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Doompriest is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-doompriest.jpg",
+        "name": "Doompriest",
+        "url": "https://raid-codex.com/champions/doompriest/"
+      }
+    ]
+  },
+  "default_description": "Doompriest is a epic assist champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "speed",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Doompriest is a missionary of the Knights Revenant death cult. Her faith is strong, as is her command of the dark magic of K'leth. Like all priests, she dedicates much of her life to worship — but she derives her power not from prayer, but from dark ritual and sacrifice.</p><p>A lovely young girl when she first joined the cult, she now covers her face with a mask to ensure the docility of her victims. With each innocent soul sacrificed, her own bore the taint of her deepening evil and corruption. Her once beautiful visage has decayed with each step down this path, and is now a horror to behold.</p>",
+  "giid": "2800",
+  "synergy": [],
+  "thumbnail": "0fc170ecbb8ff1afb2c6de48ea5343e7",
+  "tags": [
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
+        "methodical",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "cycle-of-magic",
+        "healing-savior",
+        "lasting-gifts",
+        "lay-on-hands",
+        "lore-of-steel",
+        "rapid-response",
+        "spirit-haste",
+        "steadfast"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "heal",
+    "increase-atk",
+    "increase-atk-2",
+    "increase-c-rate",
+    "remove-1-debuff"
+  ],
+  "videos": []
+}

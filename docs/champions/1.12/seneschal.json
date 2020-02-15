@@ -1,0 +1,497 @@
+{
+  "name": "Seneschal",
+  "date_added": "2019-08-28T21:14:59+02:00",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "B",
+        "minotaur": "A",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "SS",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "A",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "seneschal",
+  "characteristics": {
+    "60": {
+      "hp": 19980,
+      "attack": 705,
+      "defense": 1266,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bloodied Mace",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Leech] debuff for 2 turns. Damage based on DEF | ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +5%.<br>Lvl. 5 Chance + 10%.",
+      "slug": "bloodied-mace",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4140_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "0e13a1963997218c0bee244d60934e93",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Misdirect",
+      "raw_description": "Places a [Perfect Veil] buff and a 15% [Continuous Heal] buff on an ally for 2 turns.<br>Lvl. 2 Cooldown -1.<br>Lvl. 3 Cooldown -1.",
+      "slug": "misdirect",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4140_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "cdf1db0a8d806239761393c261b60de4",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Lordly Challenge",
+      "raw_description": "Places a [Counterattack] buff on this Champion for 2 turns. Has a 60% chance of placing a [Provoke] debuff on all enemies for 1 turn.<br>Lvl. 2 Chance +10%.<br>Lvl. 3 Chance +10%.<br>Lvl. 4 Chance +10%.<br>Lvl. 5 Chance +10%.<br>Lvl. 6 Chance +10%.<br>Lvl. 7 Cooldown -1.",
+      "slug": "lordly-challenge",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/effects/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4140_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "56512e6d59b9cb672b8527eeb2c98a0c",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 39,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 39 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/seneschal/",
+  "image_slug": "image-champion-seneschal",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Seneschal is a epic def champion from the faction Banner-Lords doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Seneschal",
+      "seneschal"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Seneschal is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-seneschal.jpg",
+        "name": "Seneschal",
+        "url": "https://raid-codex.com/champions/seneschal/"
+      }
+    ]
+  },
+  "default_description": "Seneschal is a epic def champion from the faction Banner-Lords doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "defense",
+        "defense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "4140",
+  "synergy": [],
+  "thumbnail": "4f05d4821fe9967817dea5a20c4e7b35",
+  "tags": [
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "blastproof",
+        "cycle-of-revenge",
+        "delay-death",
+        "rejuvenation",
+        "shadow-heal",
+        "tough-skin"
+      ],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "rapid-response",
+        "timely-intervention"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "counterattack",
+    "leech",
+    "perfect-veil",
+    "provoke"
+  ],
+  "videos": []
+}

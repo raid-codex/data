@@ -1,0 +1,391 @@
+{
+  "name": "Pitiless One",
+  "date_added": "2019-07-27T16:04:13+02:00",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "S",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "S",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "A",
+        "spider": "S",
+        "fire_knight": "B",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "S",
+        "fire_knight": "S",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "B",
+        "spider": "S",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "pitiless-one",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 1443,
+      "defense": 771,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in all battles by 19%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 19,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Split Arrow",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl 3. Damage +5%<br>Lvl 4. Damage +5%<br>Lvl 5. Damage +5%",
+      "slug": "split-arrow",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3270_s1",
+      "upgrades": [],
+      "image_slug": "87657a3a7c372d67b0c28fae694ac5cc",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Projectile Burst",
+      "raw_description": "Attacks all enemies. Each critical hit boosts this Champion's Turn Meter by 15%.<br>Damage based on: [ATK]<br>Lvl 2. Damage +5%<br>Lvl 3. Damage +5%<br>Lvl 4. Damage +5%<br>Lvl 5. Damage +10%<br>Lvl 6. Cooldown -1",
+      "slug": "projectile-burst",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3270_s2",
+      "upgrades": [],
+      "image_slug": "aa3cfe44a7b4e999c90a88308aae03e4",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Agony Bonds",
+      "raw_description": "Each critical hit heals this Champion by 15% of the damage inflicted",
+      "slug": "agony-bonds",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3270_s3",
+      "upgrades": [],
+      "image_slug": "205ccb204de1106fb350ad84aca20347",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 31,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 31 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/pitiless-one/",
+  "image_slug": "image-champion-pitiless-one",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Pitiless One is a epic attack champion from the faction Knight Revenant doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Pitiless One",
+      "pitiless-one"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Pitiless One is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-pitiless-one.jpg",
+        "name": "Pitiless One",
+        "url": "https://raid-codex.com/champions/pitiless-one/"
+      }
+    ]
+  },
+  "default_description": "Pitiless One is a epic attack champion from the faction Knight Revenant doing magic damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "offense",
+        "offense",
+        "offense",
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "3270",
+  "synergy": [],
+  "thumbnail": "3f7bcd0b3ea822683bba8fc530f151bd",
+  "tags": [
+    "NEW_CHAMPION_20190726",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "single-out",
+        "warmaster",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "cycle-of-revenge",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "rejuvenation",
+        "resurgent",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "increase-turn-meter"
+  ],
+  "videos": []
+}

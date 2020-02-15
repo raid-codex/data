@@ -1,0 +1,498 @@
+{
+  "name": "Occult Brawler",
+  "date_added": "2019-07-27T16:04:13+02:00",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "D",
+        "fire_knight": "B",
+        "minotaur": "B",
+        "force_dungeon": "A",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "SS",
+        "force_dungeon": "S",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "B",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "occult-brawler",
+  "characteristics": {
+    "60": {
+      "hp": 20460,
+      "attack": 1101,
+      "defense": 826,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sorcerous Razor",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "sorcerous-razor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3300_s1",
+      "upgrades": [],
+      "image_slug": "0ed64b1f99d3beb88ace41d65db6c074",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Curse Eater",
+      "raw_description": "Attacks 1 enemy. If this Champion is under 1 or more debuffs, this attack ignores 30% of enemy DEF. If this Champion is under 2 or more debuffs, enemies killed by this Skill cannot be revived. If this Champion is under 3 or more debuffs, this attack is always critical. If this Champion is under 4 or more debuffs, this Champion heals by 30% of the damage inflicted. If this Champion is under 5 or more debuffs, grants an Extra Turn. Removes all debuffs from this Champion after the attack.<br>Damage based on: [ATK]",
+      "slug": "curse-eater",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3300_s2",
+      "upgrades": [],
+      "image_slug": "679c732efb9cd1eab9566d4001e79801",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Ruination Ritual",
+      "raw_description": "Places a 2.5% [Poison] debuff on this Champion for 4 turns at the start of each turn. Has a 70% chance of placing a 5% [Poison] dbeuff on a random enemy for 4 turns at the start of each turn",
+      "slug": "ruination-ritual",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3300_s3",
+      "upgrades": [],
+      "image_slug": "c8b18d22efb29397e7defae9a6d65700",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 28,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/occult-brawler/",
+  "image_slug": "image-champion-occult-brawler",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Occult Brawler is a epic hp champion from the faction Ogryn-Tribes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Occult Brawler",
+      "occult-brawler"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Occult Brawler is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-occult-brawler.jpg",
+        "name": "Occult Brawler",
+        "url": "https://raid-codex.com/champions/occult-brawler/"
+      }
+    ]
+  },
+  "default_description": "Occult Brawler is a epic hp champion from the faction Ogryn-Tribes doing spirit damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "accuracy",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "3300",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "63bfd6e8f26d1d3537f4c5038264ef36",
+  "tags": [
+    "HELL_HADES_CBSERIES_BEST_POISON",
+    "NEW_CHAMPION_20190726",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "methodical",
+        "shield-breaker",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "cycle-of-magic",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "poison-2"
+  ],
+  "videos": []
+}
