@@ -42,18 +42,230 @@
   "slug": "sepulcher-sentinel",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 16185,
+      "attack": 903,
+      "defense": 1321,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all battles by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sword of Withering",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "slug": "sword-of-withering",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": [
+            "lord-champfort",
+            "stag-knight",
+            "hordin",
+            "oathbound",
+            "altan",
+            "sentinel",
+            "hill-nomad",
+            "vizier-ovelis",
+            "madame-serris",
+            "warden",
+            "crimson-helm",
+            "spider",
+            "judge",
+            "paragon",
+            "nazana",
+            "peydma",
+            "infernal-baroness",
+            "grizzled-jarl",
+            "rearguard-sergeant",
+            "runic-warder",
+            "belanor",
+            "tayrel",
+            "tomb-lord",
+            "hegemon",
+            "sepulcher-sentinel",
+            "gladiator",
+            "coffin-smasher",
+            "krisk-the-ageless",
+            "jarang",
+            "bogwalker",
+            "war-mother",
+            "veteran",
+            "martyr",
+            "lightsworn",
+            "adriel",
+            "khoronar",
+            "ursine-ironhide",
+            "crypt-king-graal",
+            "harvest-jack"
+          ]
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3880_s1",
+      "upgrades": [],
+      "image_slug": "314e401011ecc822d9f4609d2222778a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sepulcher Shield",
+      "raw_description": "Places a 60% [Increase DEF] buff and a [Block Debuffs] buff on all allies for 2 turns.",
+      "slug": "sepulcher-shield",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": [
+            "sethallia",
+            "minaya",
+            "cataphract",
+            "skytouched-shaman",
+            "marked",
+            "blind-seer",
+            "madame-serris",
+            "spirithost",
+            "duchess-lilitu",
+            "lord-shazar",
+            "tormentor",
+            "grizzled-jarl",
+            "painsmith",
+            "sepulcher-sentinel",
+            "guardian",
+            "daywalker",
+            "maneater",
+            "warlord",
+            "penitent",
+            "hakkorhn-smashlord",
+            "norog",
+            "khoronar",
+            "siphi-the-lost-bride",
+            "mausoleum-mage",
+            "seducer"
+          ]
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": [
+            "black-knight",
+            "lugan-the-steadfast",
+            "steadfast-marshal",
+            "cataphract",
+            "altan",
+            "elder-skarg",
+            "valla",
+            "marked",
+            "crimson-helm",
+            "tyrant-ixlimor",
+            "grizzled-jarl",
+            "belanor",
+            "wurlim-frostking",
+            "sepulcher-sentinel",
+            "executioner",
+            "krisk-the-ageless",
+            "jareg",
+            "shamrock",
+            "towering-titan",
+            "stoneskin",
+            "martyr",
+            "lightsworn",
+            "canoness",
+            "khoronar",
+            "steelskull",
+            "windtalker",
+            "siphi-the-lost-bride",
+            "mausoleum-mage",
+            "seeker",
+            "lich",
+            "doomscreech"
+          ]
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3880_s2",
+      "upgrades": [],
+      "image_slug": "9afbaedb955ff946ef9807ddfef328c5",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Untouched by Death",
+      "raw_description": "Has a 25% chance of completely blocking incoming damage when this Champion or their allies are attacked. Occurs once per turn.",
+      "slug": "untouched-by-death",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3880_s3",
+      "upgrades": [],
+      "image_slug": "be21f33fe520d2d102dea6bedd3dd56f",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Knight Revenant",
     "slug": "knight-revenant",
@@ -166,6 +378,10 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-debuffs",
+    "decrease-atk-2",
+    "increase-def-2"
+  ],
   "videos": []
 }

@@ -42,18 +42,225 @@
   "slug": "sandlashed-survivor",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 15030,
+      "attack": 936,
+      "defense": 1365,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all Battles by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Smell Weakness",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a [Provoke] debuff on the target for 1 turn if this Champion has no debuffs. Heals by 15% of the damage inflicted if this Champion is under any debuff.<br>Damage based on: [DEF]",
+      "slug": "smell-weakness",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": [
+            "black-knight",
+            "seneschal",
+            "grandmaster",
+            "steadfast-marshal",
+            "vanguard",
+            "myrmidon",
+            "atur",
+            "sentinel",
+            "bloodbraid",
+            "elder",
+            "foli",
+            "crimson-helm",
+            "drexthar-bloodtwin",
+            "umbral-enchantress",
+            "pit-cur",
+            "maulie-tankard",
+            "tormin-the-cold",
+            "rock-breaker",
+            "master-butcher",
+            "stout-axeman",
+            "line-infantry",
+            "soulless",
+            "deathless",
+            "krisk-the-ageless",
+            "jizoh",
+            "ignatius",
+            "grimskin",
+            "towering-titan",
+            "stoneskin",
+            "angar",
+            "sandlashed-survivor",
+            "warchanter",
+            "warboy",
+            "martyr",
+            "missionary",
+            "templar",
+            "justiciar",
+            "warchief",
+            "khoronar",
+            "graybeard",
+            "gnarlhorn",
+            "seeker",
+            "husk",
+            "corpulent-cadaver"
+          ]
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4090_s1",
+      "upgrades": [],
+      "image_slug": "f2a854a91c622ab338cccb1de9279881",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Endless Sands",
+      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all ally buffs by 1 turn.<br>Damage based on: [DEF]",
+      "slug": "endless-sands",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4090_s2",
+      "upgrades": [],
+      "image_slug": "c799ea7930ab67d2f5680a89681857ea",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Born Survivor",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies for 2 turns when any ally's HP drops below 50%. Also places a [Block Damage] bff on this Champion for 1 turn",
+      "slug": "born-survivor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/effects/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": [
+            "lugan-the-steadfast",
+            "azure",
+            "myrmidon",
+            "captain-temila",
+            "tyrant-ixlimor",
+            "nazana",
+            "rearguard-sergeant",
+            "miscreated-monster",
+            "admonitor",
+            "krisk-the-ageless",
+            "jareg",
+            "skullcrusher",
+            "sandlashed-survivor",
+            "canoness",
+            "bloodhorn",
+            "seducer"
+          ]
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": [
+            "septimus",
+            "warcaster",
+            "chevalier",
+            "halberdier",
+            "blind-seer",
+            "lua",
+            "crimson-helm",
+            "mortu-macaab",
+            "fellhound",
+            "hound-spawn",
+            "maulie-tankard",
+            "mountain-king",
+            "madman",
+            "basileus-roanas",
+            "crypt-witch",
+            "basilisk",
+            "broadmaw",
+            "skink",
+            "sandlashed-survivor",
+            "goremask",
+            "roshcard-the-tower",
+            "templar",
+            "hospitaller",
+            "longbeard",
+            "suzerain-katonn",
+            "rotos-the-lost-groom",
+            "seducer",
+            "death-hound"
+          ]
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4090_s3",
+      "upgrades": [],
+      "image_slug": "7330659eac06eab41ad2b6ffb6ed38d9",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Orcs",
     "slug": "orcs",
@@ -154,6 +361,10 @@
   ],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "ally-protection-2",
+    "block-damage",
+    "provoke"
+  ],
   "videos": []
 }

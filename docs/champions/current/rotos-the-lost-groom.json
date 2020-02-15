@@ -42,18 +42,237 @@
   "slug": "rotos-the-lost-groom",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 11895,
+      "attack": 1520,
+      "defense": 1266,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Terror Scourge",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Also has a 30% chance of granting an Extra Turn.<br>Damage based on: [ATK][HP]",
+      "slug": "terror-scourge",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": [
+            "baron",
+            "stag-knight",
+            "valla",
+            "aina",
+            "warmaiden",
+            "ox",
+            "ghostborn",
+            "rae",
+            "foli",
+            "luria",
+            "madame-serris",
+            "delver",
+            "spider",
+            "judge",
+            "hellgazer",
+            "hound-spawn",
+            "rearguard-sergeant",
+            "belanor",
+            "tayrel",
+            "royal-guard",
+            "tomb-lord",
+            "bystophus",
+            "miscreated-monster",
+            "crypt-witch",
+            "deathless",
+            "necrohunter",
+            "dracomorph",
+            "krisk-the-ageless",
+            "fu-shan",
+            "rhazin-scarhide",
+            "jarang",
+            "galkut",
+            "towering-titan",
+            "robar",
+            "zargala",
+            "bloodfeather",
+            "bonekeeper",
+            "galek",
+            "raider",
+            "martyr",
+            "abbess",
+            "fenax",
+            "frostbringer",
+            "militia",
+            "khoronar",
+            "fleshmonger",
+            "bloodgorged",
+            "suzerain-katonn",
+            "rotos-the-lost-groom",
+            "dark-athel",
+            "defiled-sinner",
+            "sorceress",
+            "gravechill-killer",
+            "vulpine"
+          ]
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4760_s1",
+      "upgrades": [],
+      "image_slug": "b6f9c72dfc5f740d68d5aaf36bc1917c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Vitality Plunder",
+      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 20%, then adds that HP to this Champion's own MAX HP.<br>Cannot decrease a single Champion's MAX HP by more than 60% in on Battle. Cannot increase this Champion's MAX HP by more than 60.000. Does not decrease Boss' MAX HP. This Champion's MAX HP will be increased by 15.000 when this Skill is used against Bosses.<br>Damage based on: [ATK][HP]",
+      "slug": "vitality-plunder",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4760_s2",
+      "upgrades": [],
+      "image_slug": "17cb6febc690aae4687146f18377bb8d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fated Destruction",
+      "raw_description": "Attacks 1 enemy. Will ignore 75% of the target's DEF. Will also ignore [Unkillable] and [Block Damage] buffs. Grants an Extra Turn if this attacks kill an enemy.<br>Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK][HP]",
+      "slug": "fated-destruction",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": [
+            "septimus",
+            "warcaster",
+            "chevalier",
+            "halberdier",
+            "blind-seer",
+            "lua",
+            "crimson-helm",
+            "mortu-macaab",
+            "fellhound",
+            "hound-spawn",
+            "maulie-tankard",
+            "mountain-king",
+            "madman",
+            "basileus-roanas",
+            "crypt-witch",
+            "basilisk",
+            "broadmaw",
+            "skink",
+            "sandlashed-survivor",
+            "goremask",
+            "roshcard-the-tower",
+            "templar",
+            "hospitaller",
+            "longbeard",
+            "suzerain-katonn",
+            "rotos-the-lost-groom",
+            "seducer",
+            "death-hound"
+          ]
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/effects/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Unkillable"
+          ],
+          "champion_slugs": [
+            "black-knight",
+            "fang-cleric",
+            "paragon",
+            "umbral-enchantress",
+            "hatchet-slinger",
+            "skullcrown",
+            "maneater",
+            "skullcrusher",
+            "sir-nicholas",
+            "bushi",
+            "taurus",
+            "gnarlhorn",
+            "suzerain-katonn",
+            "rotos-the-lost-groom"
+          ]
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4760_s3",
+      "upgrades": [],
+      "image_slug": "769ac2c37849e323bd04dc63c2038ed3",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Spurn Oblivion",
+      "raw_description": "Will decrease damage from a single enemy hit so that incoming damage will not exceed 50% of this CHampion's MAX HP. Can occur once per enemy attack. Grants an Extra Turn if this damage reduction occurs.<br>Does not work against Bosses.<br>Decreases the damage taken from Bosses by 15%. Decreases the damage taken from Bosses by 30% if Siphi the Lost Bride in on the same team.",
+      "slug": "spurn-oblivion",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4760_s4",
+      "upgrades": [],
+      "image_slug": "f5ca0eef37962ed5a7fedba04581dcc9",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -175,6 +394,10 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-damage",
+    "decrease-def-2",
+    "unkillable"
+  ],
   "videos": []
 }

@@ -42,18 +42,161 @@
   "slug": "hatchet-slinger",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 10575,
+      "attack": 1321,
+      "defense": 1002,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Axe Frenzy",
+      "raw_description": "Attacks 1 enemy 2 times. Has an 80% chance of ignore 15% of the target's DEF if this Champion has 50% HP or higher. Has a 10% chance of placing a [Stun] debuff for 1 turn if this CHampion has less than 50% HP.<br>Damage based on: [ATK]",
+      "slug": "axe-frenzy",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": [
+            "rowan",
+            "azure",
+            "knight-errant",
+            "chevalier",
+            "crossbowman",
+            "commander",
+            "duelist",
+            "stalwart",
+            "maeve",
+            "slayer",
+            "foli",
+            "tormentor",
+            "hound-spawn",
+            "trunda-giltmallet",
+            "beast-wrestler",
+            "hatchet-slinger",
+            "chemist",
+            "basileus-roanas",
+            "tayrel",
+            "fencer",
+            "soulless",
+            "miscreated-monster",
+            "executioner",
+            "gladiator",
+            "magus",
+            "fu-shan",
+            "jarang",
+            "basilisk",
+            "hardscale",
+            "big-un",
+            "ignatius",
+            "magmablood",
+            "robar",
+            "terrorbeast",
+            "chopper",
+            "huntress",
+            "raider",
+            "warchanter",
+            "lady-etessa",
+            "sanctioned-purifier",
+            "missionary",
+            "hakkorhn-smashlord",
+            "norog",
+            "channeler",
+            "nethril",
+            "husk"
+          ]
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4680_s1",
+      "upgrades": [],
+      "image_slug": "d58a6999375be3892c2e03057c0a71c8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Dwarven Fortitude",
+      "raw_description": "Places an [Unkillable] buff on this Champion for 2 turns",
+      "slug": "dwarven-fortitude",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/effects/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Unkillable"
+          ],
+          "champion_slugs": [
+            "black-knight",
+            "fang-cleric",
+            "paragon",
+            "umbral-enchantress",
+            "hatchet-slinger",
+            "skullcrown",
+            "maneater",
+            "skullcrusher",
+            "sir-nicholas",
+            "bushi",
+            "taurus",
+            "gnarlhorn",
+            "suzerain-katonn",
+            "rotos-the-lost-groom"
+          ]
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4680_s2",
+      "upgrades": [],
+      "image_slug": "7f9985728842e72a567fdfca32d2eb74",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Hatchets For All",
+      "raw_description": "Has a 5% chance of counterattacking when hit. Has a 25% chance of counterattacking when hit with a critical hit",
+      "slug": "hatchets-for-all",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4680_s3",
+      "upgrades": [],
+      "image_slug": "62729fd8f63663459209a3ac037e5ae5",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -162,6 +305,9 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "stun",
+    "unkillable"
+  ],
   "videos": []
 }
