@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Mangle",
-      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ATK] debuff for 1 turn.<br>Damage based on: [ATK]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Buff/Debuff Chance +5<br>Lvl. 6 Buff/Debuff Chance +5<br>Lvl. 7 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ATK] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%<br>Level 7: Damage +10%",
       "slug": "mangle",
       "effects": [
         {
@@ -138,9 +138,30 @@
     {
       "passive": false,
       "name": "Inspire",
-      "raw_description": "Places a 25% buff on all allies for 2 turns.<br>Lvl. 3 Cooldown -1",
+      "raw_description": "Places a 25% [Increase ATK] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "inspire",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "1410_s2",
       "cooldown": 4,
@@ -314,7 +335,8 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-atk"
+    "decrease-atk",
+    "increase-atk"
   ],
   "videos": []
 }
