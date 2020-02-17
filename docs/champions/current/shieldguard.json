@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Uppercut",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF)<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Buff/Debuff Chance +10%<br>Lvl. 5 Buff/Debuff Chance +10%<br>Lvl. 6 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Damage +10%",
       "slug": "uppercut",
       "effects": [
         {
@@ -126,7 +126,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
       "giid": "1850_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -136,7 +138,7 @@
     {
       "passive": false,
       "name": "Battle Stance",
-      "raw_description": "Attacks all enemies. Fills this Champion's Turn Meter by 20% on each critical hit. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Lvl. 2 Damage +5%<br>Lvl. 3 Damage +5%<br>Lvl. 4 Damage +5%<br>Lvl. 5 Damage +5%<br>Lvl. 6 Cooldown -1<br>Lvl. 7 Cooldown -1",
+      "raw_description": "Attacks all enemies. Fills this Champion’s Turn Meter by 20% on each critical hit.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Cooldown -1<br>Level 7: Cooldown -1",
       "slug": "battle-stance",
       "effects": [
         {
@@ -170,9 +172,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": false,
+      "passive": true,
       "name": "Mighty Soul",
-      "raw_description": "",
+      "raw_description": "Removes one debuff from this Champion each turn.",
       "slug": "mighty-soul",
       "effects": [],
       "damaged_based_on": [],
