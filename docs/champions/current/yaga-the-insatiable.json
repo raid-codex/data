@@ -121,23 +121,23 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all battles by 20%",
+      "raw_description": "Increases Ally ACC in all Battles by 40",
       "effects": [],
       "stats": [
-        "ATK"
+        "ACC"
       ],
       "locations": [
         "all-battles"
       ],
-      "value": 20,
-      "percentage": true
+      "value": 40,
+      "percentage": false
     }
   ],
   "skills": [
     {
       "passive": false,
       "name": "Virulent Cleaver",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
       "slug": "virulent-cleaver",
       "effects": [
         {
@@ -161,7 +161,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "4020_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -171,7 +173,7 @@
     {
       "passive": false,
       "name": "Hungering Plague",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] for 2 turns",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Buff/Debuff Chance +10%",
       "slug": "hungering-plague",
       "effects": [
         {
@@ -195,7 +197,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "4020_s2",
       "cooldown": 4,
       "upgrades": [],
@@ -204,13 +208,15 @@
     },
     {
       "passive": false,
-      "name": "Rot from Within",
-      "raw_description": "Attacks 1 enemy. Damage increases by 25% against target under [Poison] debuff",
+      "name": "Rot From Within",
+      "raw_description": "Attacks 1 enemy. Damage increases by 25% against targets under [Poison] debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Damage +10%<br>Level 6: Cooldown -1",
       "slug": "rot-from-within",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "4020_s3",
-      "cooldown": 0,
+      "cooldown": 5,
       "upgrades": [],
       "image_slug": "5c18b15764911dd4da6e5cf739b8ee2a",
       "skill_number": "A3"
