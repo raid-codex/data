@@ -20,13 +20,14 @@ function checkDirectory()
     do
         check "${1}.json" $file
     done
-    check "${1}-index.json" "${2}/index.json"
+    [ -e "${1}-index.json" ] && check "${1}-index.json" "${2}/index.json"
 }
 
 checkDirectory fusion ./docs/fusions/current
 checkDirectory champion ./docs/champions/current
 checkDirectory status-effect ./docs/status-effects/current
 checkDirectory faction ./docs/factions/current
+checkDirectory battle-pass ./docs/battle-pass
 
 
 exit $exit_code

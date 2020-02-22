@@ -1,4 +1,95 @@
 {
+    "battle_pass_season": {
+        "type": "object",
+        "required": [
+            "date_start",
+            "date_end",
+            "season",
+            "rewards",
+            "quests"
+        ],
+        "properties": {
+            "date_start": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "date_end": {
+                "type": "string",
+                "format": "date-time"
+            },
+            "season": {
+                "type": "integer"
+            },
+            "rewards": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/battle_pass_season_reward"
+                }
+            },
+            "quests": {
+                "type": "object",
+                "required": [
+                    "daily",
+                    "weekly"
+                ],
+                "properties": {
+                    "daily": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/battle_pass_season_quest"
+                        }
+                    },
+                    "weekly": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "week",
+                                "quests"
+                            ],
+                            "properties": {
+                                "week": {
+                                    "type": "integer"
+                                },
+                                "quests": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/battle_pass_season_quest"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "battle_pass_season_reward": {
+        "type": "object",
+        "required": [
+            "raw_description"
+        ],
+        "properties": {
+            "raw_description": {
+                "type": "string"
+            }
+        }
+    },
+    "battle_pass_season_quest": {
+        "type": "object",
+        "required": [
+            "raw_description",
+            "points"
+        ],
+        "properties": {
+            "raw_description": {
+                "type": "string"
+            },
+            "points": {
+                "type": "integer"
+            }
+        }
+    },
     "champion_masteries": {
         "type": "object",
         "required": [
