@@ -139,28 +139,7 @@
       "name": "Punish",
       "raw_description": "Attacks 1 enemy. Places an extra hit if the target is under an [Increase ATK] buff. Damage based on ATK<br>Lvl. 2 Damage +5%.<br>Lvl. 3 Damage +5%.<br>Lvl. 4 Damage +10%.<br>Lvl. 5 Damage +10%.",
       "slug": "punish",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase ATK",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-atk",
-          "slug": "increase-atk",
-          "website_link": "/effects/increase-atk",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Increase ATK"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [],
       "giid": "3990_s1",
       "cooldown": 0,
@@ -297,26 +276,6 @@
           "amount": 0,
           "possible_values": [
             "Perfect Veil"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Veil",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-veil",
-          "slug": "veil",
-          "website_link": "/effects/veil",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Veil"
           ],
           "champion_slugs": []
         }
@@ -644,10 +603,8 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "increase-atk",
     "increase-atk-2",
-    "perfect-veil",
-    "veil"
+    "perfect-veil"
   ],
   "videos": []
 }

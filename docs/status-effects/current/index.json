@@ -254,7 +254,6 @@
       "elder",
       "nazana",
       "grumbler",
-      "miscreated-monster",
       "daywalker",
       "skullcrusher",
       "canoness",
@@ -614,7 +613,6 @@
       "redeemer",
       "heartpiercer",
       "lord-shazar",
-      "candraphon",
       "hellgazer",
       "master-butcher",
       "cudgeler",
@@ -630,7 +628,6 @@
       "gator",
       "shatterbones",
       "flesheater",
-      "ultimate-galek",
       "ironclad",
       "huntress",
       "spikehead",
@@ -1344,7 +1341,6 @@
       "hill-nomad",
       "fang-cleric",
       "duchess-lilitu",
-      "candraphon",
       "excruciator",
       "mistress-of-hymns",
       "corpse-collector"
@@ -1615,7 +1611,6 @@
       "reliquary-tender",
       "elfguard",
       "tomb-lord",
-      "golden-reaper",
       "gladiator",
       "jarang",
       "jareg",
@@ -1683,6 +1678,7 @@
       "tayrel",
       "tomb-lord",
       "hegemon",
+      "golden-reaper",
       "sepulcher-sentinel",
       "gladiator",
       "coffin-smasher",
@@ -2010,7 +2006,6 @@
       "bellower",
       "stoneskin",
       "fortress-goon",
-      "grohak-the-bloodied",
       "bloodfeather",
       "raider",
       "treefeller",
@@ -2082,6 +2077,35 @@
       "dark-athel",
       "lich",
       "sorceress"
+    ]
+  },
+  {
+    "date_added": "2019-10-29T23:18:07+01:00",
+    "effect_type": "debuff",
+    "type": "Fear",
+    "value": 0,
+    "chance": 0,
+    "turns": 0,
+    "target": null,
+    "image_slug": "image-debuff-fear",
+    "slug": "fear",
+    "website_link": "/effects/fear",
+    "extra": false,
+    "raw_description": "When a Champion with this Debuff attempts to use a Skill, there is a 50% chance that the Skill will not activate and the Champion will lose their turn.",
+    "places_if": "",
+    "amount": 0,
+    "possible_values": [
+      "Fear"
+    ],
+    "champion_slugs": [
+      "elder-skarg",
+      "skytouched-shaman",
+      "madame-serris",
+      "perforator",
+      "miscreated-monster",
+      "brakus-the-shifter",
+      "harvest-jack",
+      "siphi-the-lost-bride"
     ]
   },
   {
@@ -2653,6 +2677,31 @@
       "nethril",
       "husk",
       "rotting-mage"
+    ]
+  },
+  {
+    "date_added": "2019-10-29T23:18:07+01:00",
+    "effect_type": "debuff",
+    "type": "True Fear",
+    "value": 0,
+    "chance": 0,
+    "turns": 0,
+    "target": null,
+    "image_slug": "image-debuff-true-fear",
+    "slug": "true-fear",
+    "website_link": "/effects/true-fear",
+    "extra": false,
+    "raw_description": "When a Champion with this Debuff attempts to use a Skill, there is a 50% chance that the Skill will not activate and the Champion will lose their turn. The Skill that they tried to use goes on cooldown.",
+    "places_if": "",
+    "amount": 0,
+    "possible_values": [
+      "True Fear"
+    ],
+    "champion_slugs": [
+      "elder-skarg",
+      "madame-serris",
+      "brakus-the-shifter",
+      "harvest-jack"
     ]
   },
   {
