@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  schedule:
+  - cron: "0 20 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      name: git pull
+    - uses: actions/setup-go@v1
+      name: "setup go"
+      with:
+        go-version: '1.9.3'
+    - name: "install raid-codex-cli"
+      run: |
+        go get github.com/raid-codex/tools
+        go install github.com/raid-codex/tools/cmd/raid-codex-cli
+    - name: "parse champions"
+      run: |
+        for slug in $(python -c 'import sys, json; r = json.load(sys.stdin); print(" ".join([d["slug"] for d in r]));' < ./docs/champions/current/index.json); do echo "doing $slug"; raid-codex-cli scrap ayumilove champions --champion-slug $slug --data-directory . --with-ratings || true; done;
+    - name: "commit changes"
+      uses: peter-evans/create-pull-request@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "feat: updated ratings from ayumilove"
+        author: Geoffrey Bauduin <geoffreybauduin@users.noreply.github.com>
+
+        title: 'Updated ratings from ayumilove'
+        base: master
+        body: |
+          Automatically generated
+        assignees: geoffreybauduin
+        reviewers: geoffreybauduin
+        
