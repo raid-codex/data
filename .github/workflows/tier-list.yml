@@ -19,7 +19,8 @@ jobs:
     - name: "hellhades"
       run: |
         go env
-        export PATH=$GOPATH/bin:$PATH
+        echo "$GOPATH/bin:$PATH"
+        export PATH="$GOPATH/bin:$PATH"
         bash ./scripts/hellhades-tier-list.sh
     - name: "ayumilove"
       run: |
