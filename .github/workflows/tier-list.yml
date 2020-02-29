@@ -18,8 +18,7 @@ jobs:
         go install github.com/raid-codex/tools/cmd/raid-codex-cli
     - name: "hellhades"
       run: |
-        echo $PATH
-        echo $GOPATH
+        go env
         export PATH=$GOPATH/bin:$PATH
         bash ./scripts/hellhades-tier-list.sh
     - name: "ayumilove"
