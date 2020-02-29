@@ -1,8 +1,6 @@
 name: tier-list
 
-on:
-  schedule:
-  - cron: "0 21 * * *"
+on: [push]
 
 jobs:
   build:
@@ -20,9 +18,11 @@ jobs:
         go install github.com/raid-codex/tools/cmd/raid-codex-cli
     - name: "hellhades"
       run: |
+        export PATH=$GOPATH/bin:$PATH
         bash ./scripts/hellhades-tier-list.sh
     - name: "ayumilove"
       run: |
+        export PATH=$GOPATH/bin:$PATH
         bash ./scripts/ayumilove-tier-list.sh
     - name: "commit changes"
       uses: peter-evans/create-pull-request@v2
