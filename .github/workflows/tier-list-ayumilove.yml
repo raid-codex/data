@@ -1,4 +1,4 @@
-name: CI
+name: tier-list ayumilove
 
 on:
   schedule:
@@ -16,13 +16,11 @@ jobs:
         go-version: '1.9.3'
     - name: "install raid-codex-cli"
       run: |
-        go get github.com/raid-codex/tools
+        go get github.com/raid-codex/tools/cmd/raid-codex-cli
         go install github.com/raid-codex/tools/cmd/raid-codex-cli
     - name: "parse champions"
       run: |
-        for slug in $(python -c 'import sys, json; r = json.load(sys.stdin); print(" ".join([d["slug"] for d in r]));' < ./docs/champions/current/index.json); do echo "doing $slug"; raid-codex-cli scrap ayumilove champions --champion-slug $slug --data-directory . --with-ratings || true; done;
-        make sanitize_champions
-        make rebuild_index_champions
+        bash ./scripts/ayumilove-tier-list.sh
     - name: "commit changes"
       uses: peter-evans/create-pull-request@v2
       with:
