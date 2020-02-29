@@ -19,12 +19,11 @@ jobs:
     - name: "hellhades"
       run: |
         go env
-        echo "$GOPATH/bin:$PATH"
-        export PATH="$GOPATH/bin:$PATH"
+        export PATH="/home/runner/go/bin:$PATH"
         bash ./scripts/hellhades-tier-list.sh
     - name: "ayumilove"
       run: |
-        export PATH=$GOPATH/bin:$PATH
+        export PATH="/home/runner/go/bin:$PATH"
         bash ./scripts/ayumilove-tier-list.sh
     - name: "commit changes"
       uses: peter-evans/create-pull-request@v2
