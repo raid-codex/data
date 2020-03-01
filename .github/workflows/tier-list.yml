@@ -23,6 +23,12 @@ jobs:
         go env
         export PATH="/home/runner/go/bin:$PATH"
         bash ./scripts/hellhades-tier-list.sh
+    - name: "refresh"
+      run: |
+        export PATH="/home/runner/go/bin:$PATH"
+        export DIRECTORY=`pwd`
+        make sanitize_champions
+        make rebuild_index_champions
     - name: "ayumilove"
       run: |
         export PATH="/home/runner/go/bin:$PATH"
