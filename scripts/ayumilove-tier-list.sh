@@ -6,5 +6,3 @@ do
     echo "doing $slug"
     raid-codex-cli scrap ayumilove champions --champion-slug $slug --data-directory . --with-ratings || true
 done
-make sanitize_champions
-make rebuild_index_champions

@@ -2,7 +2,9 @@ import os
 import json
 
 data = []
-with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/current/index.json") as f:
+dir = os.getenv("DIRECTORY", os.getenv("GOPATH") +
+                "/src/github.com/raid-codex/data")
+with open(dir+"/docs/champions/current/index.json") as f:
     x = json.load(f)
     for champion in x:
         new_data = {

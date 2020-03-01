@@ -1,8 +1,8 @@
 name: tier-list
 
-on:
-  schedule:
-    - cron: "0 9 * * *"
+on: [push]
+  #schedule:
+  #  - cron: "0 9 * * *"
 
 jobs:
   build:
@@ -27,6 +27,12 @@ jobs:
       run: |
         export PATH="/home/runner/go/bin:$PATH"
         bash ./scripts/ayumilove-tier-list.sh
+    - name: "refresh"
+      run: |
+        export PATH="/home/runner/go/bin:$PATH"
+        export DIRECTORY=`pwd`
+        make sanitize_champions
+        make rebuild_index_champions
     - name: "commit changes"
       uses: peter-evans/create-pull-request@v2
       with:

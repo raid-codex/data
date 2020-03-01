@@ -7,5 +7,3 @@ wget "https://docs.google.com/spreadsheets/d/1YjETkvBMVKZr7CPDjL_iIy_Wa6-psHob6s
 raid-codex-cli champions parse tier-list-hellhades --data-directory . --csv-file /tmp/legendaries.csv
 raid-codex-cli champions parse tier-list-hellhades --data-directory . --csv-file /tmp/epics.csv
 raid-codex-cli champions parse tier-list-hellhades --data-directory . --csv-file /tmp/rares.csv
-make sanitize_champions
-make rebuild_index_champions
