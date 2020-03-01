@@ -45,5 +45,5 @@ with open(dir+"/docs/champions/current/index.json") as f:
             }
             new_data.get("auras").append(a)
         data.append(new_data)
-with open(os.getenv("GOPATH")+"/src/github.com/raid-codex/data/docs/champions/index-small.json", "w") as f2:
+with open(dir+"/docs/champions/index-small.json", "w") as f2:
     f2.write(json.dumps(data, separators=(',', ':')))
