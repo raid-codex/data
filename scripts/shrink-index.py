@@ -2,8 +2,13 @@ import os
 import json
 
 data = []
-dir = os.getenv("DIRECTORY", os.getenv("GOPATH") +
-                "/src/github.com/raid-codex/data")
+dir = os.getenv("DIRECTORY")
+if dir is None:
+    dir = os.getenv("GOPATH")
+    if not dir:
+        raise NotImplementedError("No GOPATH and no DIRECTORY env var")
+    dir += "/src/github.com/raid-codex/data"
+
 with open(dir+"/docs/champions/current/index.json") as f:
     x = json.load(f)
     for champion in x:
