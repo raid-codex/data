@@ -30,3 +30,4 @@ case $1 in
     ;;
 esac
 parallel -j 10 raid-codex-cli $cmd sanitize $cmd_line -- `ls ./docs/$1/current/*.json | grep -v index.json`
+#for file in $(ls ./docs/$1/current/*.json | grep -v index.json); do raid-codex-cli $cmd sanitize $cmd_line $file; done;
