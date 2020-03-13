@@ -80,20 +80,22 @@
     {
       "passive": false,
       "name": "Necrotic Bolt",
-      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 30% of the damage inflicted",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 30% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "necrotic-bolt",
       "effects": [],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4990_s1",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "03c0e11f08aedafe2d02bef49022743a",
       "skill_number": "A1"
     },
     {
       "passive": false,
-      "name": "Death's Majesty",
-      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
+      "name": "Death’s Majesty",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
       "slug": "death-s-majesty",
       "effects": [
         {
@@ -137,17 +139,53 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4990_s2",
       "cooldown": 4,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "2f63548fd95f693eab0d4bfe79760b6b",
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
+      "name": "Lethal Winter",
+      "raw_description": "Fills this Champion’s Turn Meter by 25% and instantly activates the Death’s Majesty Skill whenever this Champion or an ally receives a [Freeze] debuff.",
+      "slug": "lethal-winter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4990_s3",
+      "cooldown": 1,
+      "upgrades": [],
+      "image_slug": "f15bc9daf6c559e06afb1a118a70582c",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
       "name": "Veins of Ice",
-      "raw_description": "Instantly removes any [Freeze] debuff on this Champion and replaces them with a 30% [Increase C. RATE], a 30% [Increase C. DMG] buff, and a 15% [Strengthen] buff whenever an enemy places a [Freeze] debuff on this Champion",
+      "raw_description": "Instantly removes any [Freeze] debuffs on this Champion and replaces them with a 30% [Increase C.RATE] buff, a 30% [Increase C.DMG] buff, and a 15% [Strengthen] buff whenever an enemy places a [Freeze] debuff on this Champion.",
       "slug": "veins-of-ice",
       "effects": [
         {
@@ -214,45 +252,11 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "",
+      "giid": "4990_s4",
       "cooldown": 1,
       "upgrades": [],
-      "image_slug": "",
-      "skill_number": "P1"
-    },
-    {
-      "passive": false,
-      "name": "Lethal Winter",
-      "raw_description": "Fills this Champion's Turn Meter by 25% and instantly activates the Death's Majesty skill whenever this Champion or an ally receives a [Freeze] debuff",
-      "slug": "lethal-winter",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "battle_enhancement",
-          "type": "Increase Turn Meter",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-battle-enhancement-increase-turn-meter",
-          "slug": "increase-turn-meter",
-          "website_link": "/effects/increase-turn-meter",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Increase Turn Meter"
-          ],
-          "champion_slugs": []
-        }
-      ],
-      "damaged_based_on": [],
-      "giid": "",
-      "cooldown": 1,
-      "upgrades": [],
-      "image_slug": "",
-      "skill_number": "A3"
+      "image_slug": "336918a0e54e4c2765e1265bfdc4118f",
+      "skill_number": "A4"
     }
   ],
   "faction": {
@@ -315,9 +319,9 @@
   "default_description": "Dark Elhain is a epic attack champion from the faction Undead Hordes doing magic damage",
   "recommended_builds": [],
   "lore": "",
-  "giid": "",
+  "giid": "4990",
   "synergy": [],
-  "thumbnail": "unknown",
+  "thumbnail": "1f8fe28e9283d7b5300af087a298f200",
   "tags": [],
   "masteries": [],
   "fusion_data": [],

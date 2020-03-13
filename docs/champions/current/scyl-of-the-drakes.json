@@ -79,8 +79,8 @@
   "skills": [
     {
       "passive": false,
-      "name": "Drake's Swiftness",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Also has a 30% chance of decreasing the target's Turn Meter by 15%",
+      "name": "Drake’s Swiftness",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Also has a 30% chance of decreasing the target’s Turn Meter by 15%.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "drake-s-swiftness",
       "effects": [
         {
@@ -124,18 +124,20 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5010_s1",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "ffe36b99c70d5e36f8d9e3e14a3728e6",
       "skill_number": "A1"
     },
     {
       "passive": false,
-      "name": "Wingbeat Fury",
-      "raw_description": "Attacks all enemies 2 times. Each hit has a 20% chance of placing a [Stun] debuff for 1 turn",
-      "slug": "wingbeat-fury",
+      "name": "Wingbeat Flurry",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 20% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
+      "slug": "wingbeat-flurry",
       "effects": [
         {
           "date_added": "",
@@ -158,17 +160,19 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5010_s2",
       "cooldown": 4,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "7e6c81c2d2426682568c71004ebc9025",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Phoenix Rite",
-      "raw_description": "Revives an ally with 50% HP and places a 50% [Ally Protection] buff on them for 2 turns",
+      "raw_description": "Revives an ally with 50% HP and places a 50% [Ally Protection] buff on them for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "phoenix-rite",
       "effects": [
         {
@@ -193,14 +197,14 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "",
+      "giid": "5010_s3",
       "cooldown": 6,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "cc97bd7c15b8480627fc2eb27f4c6c55",
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Boundless Life",
       "raw_description": "Heals all allies by 10% of their MAX HP at the start of each turn. Also places a 30% [Increase SPD] buff on a random ally for 2 turns.",
       "slug": "boundless-life",
@@ -227,10 +231,10 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "",
+      "giid": "5010_s4",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "2b209ce4a66967f78f71e3a27d8f7d6d",
       "skill_number": "P1"
     }
   ],
@@ -294,9 +298,9 @@
   "default_description": "Scyl of the Drakes is a legendary def champion from the faction Barbarians doing magic damage",
   "recommended_builds": [],
   "lore": "",
-  "giid": "",
+  "giid": "5010",
   "synergy": [],
-  "thumbnail": "unknown",
+  "thumbnail": "999028872cfff7ae8ee330a33cbd3874",
   "tags": [],
   "masteries": [],
   "fusion_data": [],

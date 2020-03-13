@@ -80,7 +80,7 @@
     {
       "passive": false,
       "name": "Press the Fight",
-      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target is under a 50% [Heal Reduction] debuff. Places 2 extra hits if the target is under a 100% [Heal Reduction] debuff.",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target is under a 50% [Heal Reduction] debuff. Places 2 extra hits if the target is under a 100% [Heal Reduction] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%",
       "slug": "press-the-fight",
       "effects": [
         {
@@ -104,17 +104,19 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5000_s1",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "caa0996a31954d5114baed8eaca06e5c",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Outflank",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Decreases the target's Turn Meter by 20% if the [Decrease SPD] debuff is placed.",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Decreases the target’s Turn Meter by 20% if the [Decrease SPD] debuff is placed.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%<br>Level 7: Cooldown -1",
       "slug": "outflank",
       "effects": [
         {
@@ -158,18 +160,20 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "",
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5000_s2",
       "cooldown": 4,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "a0178152cb6f29071f0ec272fb8f32d0",
       "skill_number": "A2"
     },
     {
       "passive": false,
-      "name": "Legion's Order",
-      "raw_description": "Places a 30% [Reflect Damage] buff and a 15% [Continuous Heal] buff on all allies for 2 turns",
-      "slug": "legion-s-order",
+      "name": "Legion’s Orders",
+      "raw_description": "Places a 30% [Reflect Damage] buff and a 15% [Continuous Heal] buff on all allies for 2 turns<br>Level 2: Cooldown -1",
+      "slug": "legion-s-orders",
       "effects": [
         {
           "date_added": "",
@@ -213,10 +217,10 @@
         }
       ],
       "damaged_based_on": [],
-      "giid": "",
+      "giid": "5000_s3",
       "cooldown": 5,
       "upgrades": [],
-      "image_slug": "",
+      "image_slug": "eed707ee1b23468f2d91606f90ca0a50",
       "skill_number": "A3"
     }
   ],
@@ -280,9 +284,9 @@
   "default_description": "Lordly Legionary is a epic attack champion from the faction Banner-Lords doing magic damage",
   "recommended_builds": [],
   "lore": "",
-  "giid": "",
+  "giid": "5000",
   "synergy": [],
-  "thumbnail": "unknown",
+  "thumbnail": "a35fe7f7fe8217b4369a0af4244d1fca",
   "tags": [],
   "masteries": [],
   "fusion_data": [],
