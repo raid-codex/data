@@ -77,7 +77,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all Battles by 25%",
+      "raw_description": "Increases Ally ATK in all Battles by 25%.",
       "effects": [],
       "stats": [
         "ATK"
@@ -93,7 +93,7 @@
     {
       "passive": false,
       "name": "Trip Up",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 35% chance of stealing 30% of the target's current Turn Meter.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 35% chance of stealing 30% of the target’s current Turn Meter.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%",
       "slug": "trip-up",
       "effects": [
         {
@@ -149,7 +149,7 @@
     {
       "passive": false,
       "name": "Inflict Misfortune",
-      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a [Block Cooldown Skills] debuff for 4 turns. Also has a 35% chance of placing a [Block Cooldown Skills] debuff on all other enemies for 1 turn.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a [Block Cooldown Skills] debuff for 4 turns. Also has a 35% chance of placing a [Block Cooldown Skills] debuff on all other enemies for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "inflict-misfortune",
       "effects": [
         {
@@ -177,7 +177,7 @@
         "ATK"
       ],
       "giid": "",
-      "cooldown": 0,
+      "cooldown": 4,
       "upgrades": [],
       "image_slug": "",
       "skill_number": "A2"
@@ -185,7 +185,7 @@
     {
       "passive": false,
       "name": "Head Ringer",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn. Has a 25% chance of placing the [Stun] debuff for 2 turns instead and stealing 50% of the target's current Turn Meter. Resets the cooldown of this Skill if the target is killed.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn. Has a 25% chance of placing the [Stun] debuff for 2 turns instead and stealing 50% of the target’s current Turn Meter. Resets the cooldown of this Skill if the target is killed.<br>Damage based on: [ATK]<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +15%<br>Level 4: Damage +20%<br>Level 5: Cooldown -1<br>Level 6: Cooldown -1",
       "slug": "head-ringer",
       "effects": [
         {
@@ -233,15 +233,15 @@
         "ATK"
       ],
       "giid": "",
-      "cooldown": 0,
+      "cooldown": 5,
       "upgrades": [],
       "image_slug": "",
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Charmed Life",
-      "raw_description": "Places one of the following buffs on this Champion for 2 turns at the start of each turn: a 50% [Increase ATK] buff, a 30% [Increase C. DMG] buff, a 30% [Increase ACC] buff, a 25% [Strengthen] buff or a [Block Damage] buff",
+      "raw_description": "Places one of the following buffs on this Champion for 2 turns at the start of each turn: a 50% [Increase ATK] buff, a 30% [Increase C.DMG] buff, a 30% [Increase C.RATE] buff, a 25% [Strengthen] buff, or a [Block Damage] buff.",
       "slug": "charmed-life",
       "effects": [
         {
@@ -261,26 +261,6 @@
           "amount": 0,
           "possible_values": [
             "Block Damage"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase ACC",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-acc",
-          "slug": "increase-acc",
-          "website_link": "/effects/increase-acc",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Increase ACC"
           ],
           "champion_slugs": []
         },
@@ -322,6 +302,27 @@
           "possible_values": [
             "Increase C. DMG",
             "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
           ],
           "champion_slugs": []
         },
@@ -424,9 +425,9 @@
     "block-cooldown-skills",
     "block-damage",
     "decrease-spd-2",
-    "increase-acc",
     "increase-atk-2",
     "increase-c-dmg-2",
+    "increase-c-rate-2",
     "increase-turn-meter",
     "strengthen-2",
     "stun"
