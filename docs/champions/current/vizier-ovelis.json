@@ -137,10 +137,12 @@
     {
       "passive": false,
       "name": "Accursed Blades",
-      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 35% chance of increasing the duration of all debuffs by 1 turn. Damage based on ATK<br>Level 2 Damage +5%.<br>Level 3 Chance +5%.<br>Level 4 Damage +10%.<br>Level 5 Chance +10%.",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 35% chance of increasing the duration of all debuffs by 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10",
       "slug": "accursed-blades",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3980_s1",
       "cooldown": 0,
       "upgrades": [
@@ -163,7 +165,7 @@
     {
       "passive": false,
       "name": "Master of Misery",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff, a 50% [Decrease ATK] debuff, and a 100% [Heal Reduction] debuff for 2 turns. Damage based on ATK<br>Level 2 Damage +10%.<br>Level 3 Damage +10%.<br>Level 4 Damage +10%.<br>Level 5 Chance +10%.<br>Level 6 Chance +15%.",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff, a 50% [Decrease ATK] debuff, and a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%",
       "slug": "master-of-misery",
       "effects": [
         {
@@ -227,7 +229,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3980_s2",
       "cooldown": 4,
       "upgrades": [
@@ -250,7 +254,7 @@
     {
       "passive": false,
       "name": "Vizier of Poisons",
-      "raw_description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 2 random debuffs from the target and placing them on all enemies. Places a [Perfect Veil] buff on this Champion for 3 turns if the target is under 2 or more debuffs. Damage based on ATK<br>Level 2 Damage +5%.<br>Level 3 Damage +5%.<br>Level 4 Cooldown -1.",
+      "raw_description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 2 random debuffs from the target and placing them on all enemies. Places a [Perfect Veil] buff on this Champion for 3 turns if the target is under 2 or more debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Cooldown -1",
       "slug": "vizier-of-poisons",
       "effects": [
         {
@@ -294,7 +298,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3980_s3",
       "cooldown": 5,
       "upgrades": [
