@@ -6,7 +6,16 @@ then
     exit 1
 fi
 
-md5file=$(cat ./docs/$1/current/index.json | md5)
+function get_md5 {
+    if [[ $(which md5sum) ]]
+    then
+        cat $1 | md5sum
+    else
+        cat $1 | md5
+    fi
+}
+
+md5file=$(get_md5 ./docs/$1/current/index.json)
 
 case $1 in
     "champions")
@@ -30,8 +39,8 @@ case $1 in
 
 if [[ "$1" = "champions" ]]
 then
-    newmd5=$(cat ./docs/$1/current/index.json | md5)
-    if [[ "$newmd5" != "$md5file" ]];
+    newmd5=$(get_md5 ./docs/$1/current/index.json)
+    if [[ "$newmd5" != "$md5file" ]]
     then
         python3 scripts/shrink-index.py
     fi
