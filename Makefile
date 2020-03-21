@@ -4,7 +4,6 @@ sanitize_champions:
 
 rebuild_index_champions:
 	@bash scripts/rebuild_index.sh champions
-	@python3 scripts/shrink-index.py
 
 sanitize_factions:
 	@bash scripts/sanitize.sh factions

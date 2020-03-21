@@ -6,6 +6,8 @@ then
     exit 1
 fi
 
+md5file=$(cat ./docs/$1/current/index.json | md5)
+
 case $1 in
     "champions")
         cmd_line="--champions-directory ./docs/$1/current"
@@ -25,3 +27,12 @@ case $1 in
         ;;
     esac
     raid-codex-cli $cmd rebuild-index $cmd_line
+
+if [[ "$1" = "champions" ]]
+then
+    newmd5=$(cat ./docs/$1/current/index.json | md5)
+    if [[ "$newmd5" != "$md5file" ]];
+    then
+        python3 scripts/shrink-index.py
+    fi
+fi
