@@ -175,7 +175,28 @@
       "name": "Bombard",
       "raw_description": "Attacks 1 enemy. Has a 5% chance of increasing the duration of all debuffs by 1 turn.<br><br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Buff/Debuff Chance +5%<br/>Level 4 Damage +5%<br/>Level 5 Buff/Debuff Chance +5%<br/>Level 6 Damage +10%",
       "slug": "bombard",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "debuff-extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "debuff-extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -509,6 +530,7 @@
     }
   ],
   "effect_slugs": [
+    "debuff-extend",
     "increase-spd-2",
     "poison"
   ],

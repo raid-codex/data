@@ -404,7 +404,28 @@
       "name": "Almighty Curse",
       "raw_description": "Attacks all enemies. Has a 75% chance of increasing the duration of all debuffs on the target by 1 turn.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Buff/Debuff Chance +10%<br>Level 6 Cooldown -1",
       "slug": "almighty-curse",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "debuff-extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "debuff-extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -1296,6 +1317,7 @@
   ],
   "effect_slugs": [
     "block-buffs",
+    "debuff-extend",
     "increase-debuffs",
     "poison",
     "poison-2"

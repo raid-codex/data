@@ -211,7 +211,28 @@
       "name": "Punishing Defenses",
       "raw_description": "When attacked, has a 30% chance of extending the duration of all debuffs on the attacker by 1 turn",
       "slug": "punishing-defenses",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "debuff-extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "debuff-extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4180_s3",
       "cooldown": 0,
@@ -425,6 +446,7 @@
     }
   ],
   "effect_slugs": [
+    "debuff-extend",
     "hp-burn",
     "weaken"
   ],

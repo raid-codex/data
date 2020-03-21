@@ -195,7 +195,28 @@
       "name": "Thrives on Danger",
       "raw_description": "Heals this Champion by 50% of the damage taken while under a [Reflect Damage] buff. Also has a 25% chance of increasing the duration of all attacker's debuffs by 1 turn when hit while under a [Reflect Damage] buff.",
       "slug": "thrives-on-danger",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "debuff-extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "debuff-extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4330_s3",
       "cooldown": 0,
@@ -498,6 +519,7 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
+    "debuff-extend",
     "provoke",
     "reflect-damage"
   ],
