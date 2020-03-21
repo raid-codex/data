@@ -153,7 +153,28 @@
       "name": "Endless Sands",
       "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all ally buffs by 1 turn.<br>Damage based on: [DEF]",
       "slug": "endless-sands",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Buff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-buff-extend",
+          "slug": "buff-extend",
+          "website_link": "/effects/buff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Buff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "DEF"
       ],
@@ -289,6 +310,7 @@
   "effect_slugs": [
     "ally-protection-2",
     "block-damage",
+    "buff-extend",
     "provoke"
   ],
   "videos": [
