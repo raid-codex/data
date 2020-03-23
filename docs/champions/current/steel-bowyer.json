@@ -173,7 +173,28 @@
       "name": "Thrill of the Hunt",
       "raw_description": "Attacks 1 enemy 2 times. Heals this Champion by 50% of the damage inflicted on each critical hit",
       "slug": "thrill-of-the-hunt",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3130_s2",
       "cooldown": 4,
@@ -384,7 +405,8 @@
     }
   ],
   "effect_slugs": [
-    "decrease-acc-2"
+    "decrease-acc-2",
+    "heal"
   ],
   "videos": []
 }

@@ -332,7 +332,28 @@
       "name": "Remedy",
       "raw_description": "Removes all debuffs from a target ally. Heals the target by 20%. The heal increases according to the amount of debuffs removed.<br>Level 2 Heal +5%<br>Level 3 Heal +5%<br>Level 4 Heal +5%<br>Level 5 Heal +5%",
       "slug": "remedy",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "640_s2",
       "cooldown": 3,
@@ -641,7 +662,28 @@
       "name": "Forest Kin",
       "raw_description": "Heals the ally with the lowest HP by 7.5% each turn. This heal can be critical. Will not heal this Champion.",
       "slug": "forest-kin",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "640_s3",
       "cooldown": 0,

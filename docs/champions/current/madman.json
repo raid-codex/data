@@ -141,7 +141,28 @@
       "name": "Insane Resilience",
       "raw_description": "Attacks all enemies. Heals this Champion by 10% of the damage inflicted if this Champion's current HP is below 50%.<br>Damage based on: [ATK]",
       "slug": "insane-resilience",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -508,6 +529,7 @@
   ],
   "effect_slugs": [
     "block-damage",
+    "heal",
     "shield"
   ],
   "videos": []

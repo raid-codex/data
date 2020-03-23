@@ -237,7 +237,28 @@
       "name": "Heat Exchange",
       "raw_description": "When attacked, heals all allies equal to the amount of damage taken.<br>Does not work against Bosses.",
       "slug": "heat-exchange",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4310_s3",
       "cooldown": 3,
@@ -776,6 +797,7 @@
     }
   ],
   "effect_slugs": [
+    "heal",
     "increase-atk",
     "increase-c-rate",
     "provoke"

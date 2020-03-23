@@ -785,7 +785,28 @@
       "name": "Overkill",
       "raw_description": "Attacks 1 enemy. Will heal this Champion equal to any surplus damage if the target is killed.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br>Level 3 Cooldown -1",
       "slug": "overkill",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],

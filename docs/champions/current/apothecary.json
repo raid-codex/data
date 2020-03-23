@@ -225,7 +225,28 @@
       "name": "Soothing Chant",
       "raw_description": "Heals a target ally by 35% HP. This Heal can be critical.<br>Level 2 Heal +5%<br>Level 3 Heal +5%<br>Level 4 Heal +5%<br>Level 5 Cooldown -1",
       "slug": "soothing-chant",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "21318_s2",
       "cooldown": 3,
