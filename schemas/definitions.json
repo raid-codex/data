@@ -1060,6 +1060,16 @@
                         "type": "null"
                     }
                 ]
+            },
+            "schedule": {
+                "oneOf": [
+                    {
+                        "$ref": "#/definitions/fusion_schedule"
+                    },
+                    {
+                        "type": "null"
+                    }
+                ]
             }
         },
         "required": [
@@ -1072,8 +1082,64 @@
             "name",
             "slug",
             "ingredients",
-            "parent_fusion_slug"
+            "parent_fusion_slug",
+            "schedule"
         ]
+    },
+    "fusion_schedule": {
+        "type": "object",
+        "required": [
+            "raw",
+            "daily"
+        ],
+        "properties": {
+            "raw": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/fusion_schedule_item"
+                }
+            },
+            "daily": {
+                "type": "object"
+            }
+        }
+    },
+    "fusion_schedule_item": {
+        "type": "object",
+        "required": [
+            "type",
+            "name",
+            "date_start",
+            "date_end",
+            "champion_slugs"
+        ],
+        "properties": {
+            "type": {
+                "type": "string",
+                "enum": [
+                    "event",
+                    "tournament",
+                    "campaign"
+                ]
+            },
+            "name": {
+                "type": "string"
+            },
+            "date_start": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "date_end": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "champion_slugs": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/slug"
+                }
+            }
+        }
     },
     "champion": {
         "type": "object",
