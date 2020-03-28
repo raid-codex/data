@@ -126,7 +126,28 @@
       "name": "Innocent Blood",
       "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +5%<br/>Level 5 Damage +5%",
       "slug": "innocent-blood",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -142,6 +163,26 @@
       "raw_description": "Attacks 1 enemy 6 times. Heals this Champion by 25% of the damage inflicted. Heals this Champion by 50% of the damage inflicted instead if the target is under a [Fear] or a [True Fear] debuff. After the first hit, has a 75% chance of placing a 25% [Weaken] debuff for 3 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br/>Level 3 Damage +15%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Buff/Debuff Chance +15%<br/>Level 6 Cooldown -1<br/>Level 7 Cooldown -1",
       "slug": "full-moon-rampage",
       "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
         {
           "date_added": "",
           "effect_type": "debuff",
@@ -791,6 +832,7 @@
   ],
   "effect_slugs": [
     "fear",
+    "heal",
     "increase-atk-2",
     "true-fear",
     "weaken-2"

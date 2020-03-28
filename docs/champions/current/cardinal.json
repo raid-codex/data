@@ -603,7 +603,28 @@
       "name": "Redemption",
       "raw_description": "Revives a dead ally and heals them by 25% of their MAX HP. The revived ally takes a turn.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
       "slug": "redemption",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "2000_s3",
       "cooldown": 7,

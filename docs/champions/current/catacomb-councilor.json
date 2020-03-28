@@ -162,7 +162,28 @@
       "name": "Ghoulish Feeding",
       "raw_description": "Attacks 1 enemy 3 times. Heals this Champion by 20% of the damage inflicted.<br>Damage based on: [ATK]",
       "slug": "ghoulish-feeding",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -384,6 +405,7 @@
     }
   ],
   "effect_slugs": [
+    "heal",
     "increase-atk-2"
   ],
   "videos": [

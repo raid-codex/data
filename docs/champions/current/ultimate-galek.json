@@ -314,7 +314,28 @@
       "name": "Brush It Off",
       "raw_description": "Fully heals this Champion and instantly removes any Stun debuffs whenever an enemy places a Stun debuff on this Champion.<br>Level 2: Cooldown -1",
       "slug": "brush-it-off",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "4600_s4",
       "cooldown": 4,
@@ -652,6 +673,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-turn-meter",
+    "heal",
     "hp-burn",
     "increase-atk-2",
     "increase-turn-meter"

@@ -139,7 +139,28 @@
       "name": "Dark Sphere",
       "raw_description": "Attacks all enemies. Heals this Champion and all allies by 20% of the damage inflicted.<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Heal +10%<br>Level 5 Damage +10%<br>Level 6 Heal +10%",
       "slug": "dark-sphere",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "21080_s1",
       "cooldown": 0,
@@ -399,6 +420,26 @@
           "amount": 0,
           "possible_values": [
             "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
           ],
           "champion_slugs": []
         },
@@ -1211,6 +1252,7 @@
   "effect_slugs": [
     "continuous-heal",
     "continuous-heal-2",
+    "heal",
     "heal-per-dmg",
     "increase-dmg",
     "poison",

@@ -126,7 +126,28 @@
       "name": "Feed on Suffering",
       "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted",
       "slug": "feed-on-suffering",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3110_s1",
       "cooldown": 0,
@@ -294,6 +315,7 @@
     }
   ],
   "effect_slugs": [
+    "heal",
     "increase-def"
   ],
   "videos": []

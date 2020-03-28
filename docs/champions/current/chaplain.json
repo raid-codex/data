@@ -198,7 +198,28 @@
       "name": "Benediction",
       "raw_description": "Removes all debuffs from a target ally, then heals the target. The heal amount is proportional to this Champion's ATK.<br>Level 4 Cooldown -1",
       "slug": "benediction",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "2180_s2",
       "cooldown": 4,
@@ -330,7 +351,28 @@
       "name": "Radiance",
       "raw_description": "Attacks all enemies. Heals all allies by 25% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
       "slug": "radiance",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],

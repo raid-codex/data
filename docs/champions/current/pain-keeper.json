@@ -411,7 +411,28 @@
       "name": "Spectacular Sweep",
       "raw_description": "Attacks all enemies, then heals all allies by 15% of their MAX HP.<br>Damage based on: [HP][ATK]<br>Level 2: Heal +5%<br>Level 3: Heal +5%<br>Level 4: Damage +5%<br>Level 5: Heal +10%<br>Level 6: Heal +15%<br>Level 7: Damage +15%<br>Level 8: Cooldown -1",
       "slug": "spectacular-sweep",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK",
         "HP"

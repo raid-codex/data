@@ -328,7 +328,28 @@
       "name": "Shadow Strike",
       "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br>Level 3 Damage +10%<br>Level 4 Cooldown -1<br>Level 5 Damage +20%",
       "slug": "shadow-strike",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -1252,6 +1273,7 @@
     "critical-strike",
     "decrease-def",
     "decrease-def-2",
+    "heal",
     "heal-per-dmg"
   ],
   "videos": []

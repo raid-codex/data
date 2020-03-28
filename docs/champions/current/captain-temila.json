@@ -159,6 +159,26 @@
             "Continuous Heal"
           ],
           "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
         }
       ],
       "damaged_based_on": [
@@ -175,7 +195,28 @@
       "name": "Stay in the Fight",
       "raw_description": "Heals this Champion by 15% of their MAX HP. Heals all allies by 15% of this Champion's MAX HP",
       "slug": "stay-in-the-fight",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3770_s2",
       "cooldown": 0,
@@ -430,7 +471,8 @@
   ],
   "effect_slugs": [
     "ally-protection-2",
-    "continuous-heal-2"
+    "continuous-heal-2",
+    "heal"
   ],
   "videos": []
 }

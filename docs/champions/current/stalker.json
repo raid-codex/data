@@ -104,7 +104,28 @@
       "name": "Bloody Claws",
       "raw_description": "Attacks 1 enemy. Heals this Champion by 10% of the damage dealt.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
       "slug": "bloody-claws",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -419,7 +440,8 @@
   "masteries": [],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-atk"
+    "decrease-atk",
+    "heal"
   ],
   "videos": []
 }

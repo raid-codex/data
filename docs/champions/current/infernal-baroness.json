@@ -126,7 +126,28 @@
       "name": "Life Syphon",
       "raw_description": "Attacks all enemies. Heals the ally with the lowest HP by 5% of the damage inflicted. Damage based on [ATK][DEF]<br>Level 2 Damage +5%.<br>Level 3 Damage +5%.<br>Level 4 Damage +5%.<br>Level 5 Damage +10%.",
       "slug": "life-syphon",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK",
         "DEF"
@@ -949,6 +970,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-atk-2",
+    "heal",
     "perfect-veil"
   ],
   "videos": []
