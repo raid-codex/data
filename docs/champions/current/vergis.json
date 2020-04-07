@@ -244,9 +244,29 @@
     {
       "passive": false,
       "name": "Aegis",
-      "raw_description": "Places a 15% [Continuous Heal] buff, a 15% [Increase SPD] buff, a 30% [Reflect Damage] buff on a target ally for 3 turns. This Champion will take 50% of the damage inflicted on the target ally<br>Level 2 Cooldown -1",
+      "raw_description": "Places a 15% [Continuous Heal] buff, a 15% [Increase SPD] buff, a 30% [Reflect Damage] buff on a target ally for 3 turns.<br>Also places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a 60% [Increase DEF] buff on this Champion for 2 turns.<br>Level 2: Cooldown -1",
       "slug": "aegis",
       "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/effects/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
         {
           "date_added": "",
           "effect_type": "buff",
@@ -284,6 +304,26 @@
           "amount": 0,
           "possible_values": [
             "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
           ],
           "champion_slugs": []
         },
@@ -331,87 +371,14 @@
       "damaged_based_on": [],
       "giid": "10_s2",
       "cooldown": 4,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "ally",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Continuous Heal",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-continuous-heal",
-              "slug": "continuous-heal",
-              "website_link": "/effects/continuous-heal",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Continuous Heal"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "ally",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Continuous Heal",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "target ally",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-continuous-heal",
-              "slug": "continuous-heal",
-              "website_link": "/effects/continuous-heal",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Continuous Heal"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 3,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "802aaab292b05a19fc3f63504698d3cb",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Second Wind",
-      "raw_description": "Places a 15% [Continuous Heal] buff on this Champion for 2 turns every time their HP drops below 50%.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "Passive effect<br>Places a [Shield] buff on this Champion equal to 10% of their MAX HP for 2 turns whenever this Champion loses 10% or more of their MAX HP from a single hit.<br>Active effect<br>Places a 15% [Continuous Heal] buff on this Champion for 2 turns every time their HP drops below 50%<br>Level 2 Cooldown -1<br> Level 3 Cooldown -1",
       "slug": "second-wind",
       "effects": [
         {
@@ -453,121 +420,32 @@
             "Heal"
           ],
           "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
         }
       ],
       "damaged_based_on": [],
       "giid": "10_s3",
       "cooldown": 3,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Continuous Heal",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-continuous-heal",
-              "slug": "continuous-heal",
-              "website_link": "/effects/continuous-heal",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Below 50%",
-              "amount": 1,
-              "possible_values": [
-                "Continuous Heal"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 3,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Continuous Heal",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-continuous-heal",
-              "slug": "continuous-heal",
-              "website_link": "/effects/continuous-heal",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Below 50%",
-              "amount": 1,
-              "possible_values": [
-                "Continuous Heal"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 2,
-          "raw_detail": "Cooldown -1"
-        },
-        {
-          "level": "Level 3",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Continuous Heal",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-continuous-heal",
-              "slug": "continuous-heal",
-              "website_link": "/effects/continuous-heal",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Below 50%",
-              "amount": 1,
-              "possible_values": [
-                "Continuous Heal"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 1,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "f8295a4f6504692943a119e125c823ad",
       "skill_number": "P1"
     }
@@ -879,11 +757,13 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "continuous-heal",
+    "ally-protection-2",
     "continuous-heal-2",
     "heal",
+    "increase-def-2",
     "increase-spd",
-    "reflect-damage-2"
+    "reflect-damage-2",
+    "shield"
   ],
   "videos": []
 }

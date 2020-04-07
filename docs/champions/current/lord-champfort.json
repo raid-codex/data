@@ -137,213 +137,43 @@
     {
       "passive": false,
       "name": "Annihilation",
-      "raw_description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [HP]",
       "slug": "annihilation",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
       "giid": "21010_s1",
       "cooldown": 0,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Crit Chance",
-              "value": 0,
-              "chance": 0.15,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-crit-chance",
-              "slug": "extra-crit-chance",
-              "website_link": "/effects/extra-crit-chance",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Extra Crit Chance"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Crit Chance",
-              "value": 0,
-              "chance": 0.15,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-crit-chance",
-              "slug": "extra-crit-chance",
-              "website_link": "/effects/extra-crit-chance",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Extra Crit Chance"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Crit Chance",
-              "value": 0,
-              "chance": 0.15,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-crit-chance",
-              "slug": "extra-crit-chance",
-              "website_link": "/effects/extra-crit-chance",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Extra Crit Chance"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Crit Chance",
-              "value": 0,
-              "chance": 0.15,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-crit-chance",
-              "slug": "extra-crit-chance",
-              "website_link": "/effects/extra-crit-chance",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Extra Crit Chance"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Extra Crit Chance",
-              "value": 0,
-              "chance": 0.15,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-extra-crit-chance",
-              "slug": "extra-crit-chance",
-              "website_link": "/effects/extra-crit-chance",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Extra Crit Chance"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +10%"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "9fbb6eec20fb9671eafc78cd2680624e",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Earthshaker",
-      "raw_description": "Attacks all enemies. Places a 50% [Decrease ACC] debuff anda 50% [Decrease ATK] debuff for 2 turns. ® Decrease ACC<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a 50% [Decrease ACC] debuff anda 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Cooldown -1",
       "slug": "earthshaker",
       "effects": [
         {
@@ -387,313 +217,19 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "HP"
+      ],
       "giid": "21010_s2",
       "cooldown": 4,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ACC",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-acc",
-              "slug": "decrease-acc",
-              "website_link": "/effects/decrease-acc",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ACC"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ACC",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-acc",
-              "slug": "decrease-acc",
-              "website_link": "/effects/decrease-acc",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ACC"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ACC",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-acc",
-              "slug": "decrease-acc",
-              "website_link": "/effects/decrease-acc",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ACC"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ACC",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-acc",
-              "slug": "decrease-acc",
-              "website_link": "/effects/decrease-acc",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ACC"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ACC",
-              "value": 0.5,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-acc",
-              "slug": "decrease-acc",
-              "website_link": "/effects/decrease-acc",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ACC"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 3,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "16a7201a68ae66d976629b5662858f9c",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Thornsphere",
-      "raw_description": "Places a [Shield] buff on this Champion for 2 turns at the start of each turn. Will place a 15% [Decrease SPD] debuff for 1 turn on whichever Champion destroys the [Shield].<br>Level 2 Cooldown -1",
+      "raw_description": "At the start of each turn, places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns. Will place a 15% [Decrease SPD] debuff for 1 turn on whicever enemy attacks this Champion",
       "slug": "thornsphere",
       "effects": [
         {
@@ -740,126 +276,7 @@
       "damaged_based_on": [],
       "giid": "21010_s3",
       "cooldown": 2,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "shield breaker",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-spd",
-              "slug": "decrease-spd",
-              "website_link": "/effects/decrease-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease SPD"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Shield",
-              "value": 0.2,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-shield",
-              "slug": "shield",
-              "website_link": "/effects/shield",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Each Turn",
-              "amount": 1,
-              "possible_values": [
-                "Shield"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 2,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease SPD",
-              "value": 0.15,
-              "chance": 0,
-              "turns": 1,
-              "target": {
-                "who": "shield breaker",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-spd",
-              "slug": "decrease-spd",
-              "website_link": "/effects/decrease-spd",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease SPD"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Shield",
-              "value": 0.2,
-              "chance": 0,
-              "turns": 2,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-shield",
-              "slug": "shield",
-              "website_link": "/effects/shield",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Each Turn",
-              "amount": 1,
-              "possible_values": [
-                "Shield"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 1,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "0ecb3bd0d532a6b0279b1b80f5a3eab3",
       "skill_number": "P1"
     }
@@ -1166,12 +583,10 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "decrease-acc",
     "decrease-acc-2",
-    "decrease-atk",
     "decrease-atk-2",
+    "decrease-def-2",
     "decrease-spd",
-    "extra-crit-chance",
     "shield"
   ],
   "videos": []

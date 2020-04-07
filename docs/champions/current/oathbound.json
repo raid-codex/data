@@ -112,7 +112,7 @@
       "hp": 18330,
       "attack": 782,
       "defense": 1299,
-      "speed": 88,
+      "speed": 95,
       "critical_rate": 0.15,
       "critical_damage": 0.5,
       "resistance": 40,
@@ -318,26 +318,26 @@
     {
       "passive": false,
       "name": "Subjugate",
-      "raw_description": "Attacks 1 enemy 3 times. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Each hit has a 30% chance of decreasing the Turn Meter by 30%. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks all enemies. Has a 55% chance of decreasing the Turn Meter by 20%. Has 75% chance of placing a 50% [Decrease DEF] for 2 turns.<br>Damage based on: [DEF]",
       "slug": "subjugate",
       "effects": [
         {
           "date_added": "",
           "effect_type": "debuff",
-          "type": "Decrease ATK",
+          "type": "Decrease DEF",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-atk-2",
-          "slug": "decrease-atk-2",
-          "website_link": "/effects/decrease-atk",
-          "extra": true,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Decrease ATK"
+            "Decrease DEF"
           ],
           "champion_slugs": []
         },
@@ -367,320 +367,14 @@
       ],
       "giid": "360_s2",
       "cooldown": 3,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease Turn Meter",
-              "value": 0.3,
-              "chance": 0.3,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-turn-meter",
-              "slug": "decrease-turn-meter",
-              "website_link": "/effects/decrease-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0.6,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "DEF"
-          ],
-          "cooldown": 3,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease Turn Meter",
-              "value": 0.3,
-              "chance": 0.35,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-turn-meter",
-              "slug": "decrease-turn-meter",
-              "website_link": "/effects/decrease-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0.65,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "DEF"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Chance +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease Turn Meter",
-              "value": 0.3,
-              "chance": 0.4,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-turn-meter",
-              "slug": "decrease-turn-meter",
-              "website_link": "/effects/decrease-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0.7,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "DEF"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Chance +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease Turn Meter",
-              "value": 0.3,
-              "chance": 0.4,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-turn-meter",
-              "slug": "decrease-turn-meter",
-              "website_link": "/effects/decrease-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0.7,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "DEF"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Damage +10%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease Turn Meter",
-              "value": 0.3,
-              "chance": 0.5,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-turn-meter",
-              "slug": "decrease-turn-meter",
-              "website_link": "/effects/decrease-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Decrease ATK",
-              "value": 0.5,
-              "chance": 0.8,
-              "turns": 2,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-decrease-atk",
-              "slug": "decrease-atk",
-              "website_link": "/effects/decrease-atk",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease ATK"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "DEF"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Chance +10%"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "f380afe3bf6670ca9b8e8fdde2aa06dd",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Intimidate",
-      "raw_description": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage inflicted is proportional to DEF. If the target is under a [Decrease ATK] debuff, the chance of placing [Block Cooldown Skills] increases to 100%.<br>Damage based on: [DEF]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Cooldown -1",
       "slug": "intimidate",
       "effects": [
         {
@@ -1308,8 +1002,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "block-cooldown-skills",
-    "decrease-atk",
-    "decrease-atk-2",
+    "decrease-def",
     "decrease-turn-meter",
     "freeze"
   ],
