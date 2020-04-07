@@ -1,0 +1,664 @@
+{
+  "name": "Elder Skarg",
+  "date_added": "2019-10-12T20:59:03+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "C",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "elder-skarg",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 1630,
+      "defense": 870,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in the Arena by 30%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hunt the Marked",
+      "raw_description": "Attacks 1 enemy 3 times. places an extra hit for each buff or debuff on the target. Can place up to 3 extra hits. places a [HP Burn] debuff for 2 turns and a [True Fear] debuff for 1 turn if this attack places all 3 extra hits.<br> Damage based on: [ATK] <br><br/>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damage +15%<br/>",
+      "slug": "hunt-the-marked",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "HP Burn"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3860_s1",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "eceea119b2f6af03fe8ba330cdb1f6b1",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Elser's Clarion",
+      "raw_description": "places a 60% [Increase DEF] buff on this champion for 3 turns. Places a [Fear] debuff on all enemies for 1 turn. Places a [True Fear] debuff for 1 turn on target under [Block Damage] buffs. places a 30% [Decrease SPD] debuff for 2 turns on targets under [Shield] buffs. These debuffs cannot be rsisted.<br>Level 2 Cooldown -1<br/>Level 3 Cooldown -1",
+      "slug": "elser-s-clarion",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/effects/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Fear"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3860_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "91e8f5e31bebd0c15462787d78118413",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Tide of Steel",
+      "raw_description": "Attacks 1 enemy. places a 30% [Increase SPD] buff on this Champion for 2 turns if this attack is critical. places a 30% [Increase C. Rate] buff on this Champion if this attack is not critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damage +15%<br/>",
+      "slug": "tide-of-steel",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/effects/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3860_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "760937d96256af5ec2f176a6786fd913",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Kingslayer",
+      "raw_description": "Receives 15% less damage from Legendary Champions.",
+      "slug": "kingslayer",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3860_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a1498d9c23aabc6de52b4443124bc1cc",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 42,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 42 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/elder-skarg/",
+  "image_slug": "image-champion-elder-skarg",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Elder Skarg is a legendary attack champion from the faction Barbarians doing forces damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Elder Skarg",
+      "elder-skarg"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Elder Skarg is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-elder-skarg.jpg",
+        "name": "Elder Skarg",
+        "url": "https://raid-codex.com/champions/elder-skarg/"
+      }
+    ]
+  },
+  "default_description": "Elder Skarg is a legendary attack champion from the faction Barbarians doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Long before the rise of Kaerok, many self-proclaimed kings ruled the lands, though few of them were more than tyrannical warlords and slavers. It was an age when the strong thrived and exploited the weak without mercy and with no law to stop them. Yet it was also the age when Mankind forged its own destiny in the fires of battle, and the foundations of civilisation were laid by the heroes and visionaries. Born into one of the ancient clans, Skarg had to learn the craft of battle from an early age. His kin were humble hunters, yet theirs was an inhospitable land in the north. Battling the elements, the beasts, and slavers, the clan had become strong and respected. They sought to maintain their own ancestral lands and cared little for the squabbles of others around them. Alas, that made them undesirable to the would-be rulers of the land. Skarg had barely come of age when his village was razed to the ground by the bloodthirsty berserkers of King Rakran – an upstart warlord with the ambition of building a kingdom to rival that of the Elves. With many of their kin slain or captured, the ragtag band of survivors had no choice but to retreat into the dark mountain forests. There, Skarg led them on a campaign of vengeance that lasted many months and saw Rakran’s minions diminished by constant guerilla attacks. Finally, enraged by his warriors’ inability to crush a handful of stubborn fools, Rakran took to the field himself. Unfortunately for him, this was exactly what Skarg and his band of fighters were waiting for. They ambushed Rakran, vanquished his guard, and the would-be King himself fell to Skarg’s spear. As victorious cheers died down around him, the Skarg reached to pick up the fallen King’s sword and held it aloft, vowing that no more would tyrants and fools threaten his kin. Skarg meant every word of that mighty oath and lived by it ever since, leading his ever-growing army to do battle against the warlords who sought to subjugate them. Over the years, he had slain countless men who called themselves ‘King’ and brought freedom to the tribes they enslaved. Even in his elder years, Skarg had no match in battle. The thunderous clarion call that heralded his arrival had sent entire armies into a terrified flight, and neither human nor monster could harm him. Alas, Skarg had made many enemies in his life. He would not engage in mindless slaughter of those who served the defeated kings, and many of those whose fortunes he had ruined now plotted his downfall. It was at the fortieth celebration of his victory over tyrant Rakran that they struck, poisoning Skarg and his bodyguards, then converging to finish him with daggers and short swords. With the words of curses on his lips, the Elder gave battle and laid his dastardly assassins low before dropping to one knee and staring at his own lifeblood slowly ebbing away. But the sound of footsteps forced Skarg to raise his gaze to behold a woman of unearthly beauty, clad in white and gold and walking towards him. Skarg had assumed this to be a witch’s trickery and attempted to raise his sword with what little strength still remained in his body. Yet, the stranger did not attack. Instead, she introduced herself as the Arbiter – the living avatar of Lumaya’s will – and told him in no uncertain terms that he was going to die. There was, however, another way – bind his soul to the Champion Shard and live on eternally in service of Lumaya and Her Light. Though Skarg knew little of Lumaya, he could not deny the sheer aura of power that radiated from the Goddess’ servant. After a moment of deliberation, he chose to accept. In a single blinding instant, Skarg’s wounds had been healed and the deadly poison within his veins dissipated. He was whole once more, stronger than he felt in a good decade, and filled with a new sense of purpose. The Elder bowed in reverence and pledged his sword to the Arbiter – hers to command forevermore.</p>",
+  "giid": "3860",
+  "synergy": [],
+  "thumbnail": "5a5eab21ca2a8fef4af5e35709ecca15",
+  "tags": [
+    "NEW_CHAMPION_20191010",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "warmaster",
+        "whirlwind-of-death"
+      ],
+      "defense": [],
+      "support": [
+        "charged-focus",
+        "evil-eye",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-spd-2",
+    "fear",
+    "hp-burn",
+    "increase-c-rate-2",
+    "increase-def-2",
+    "increase-spd-2",
+    "true-fear"
+  ],
+  "videos": []
+}

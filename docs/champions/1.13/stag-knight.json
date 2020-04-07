@@ -1,0 +1,334 @@
+{
+  "name": "Stag Knight",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Assist",
+  "rating": {
+    "overall": "SS",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "SS",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "S",
+    "minotaur": "SS",
+    "force_dungeon": "SS",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "SS",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "SS",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "S",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "stag-knight",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Spot Quarry",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "slug": "spot-quarry",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4490_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "81c553f3a5876efa4fb3b37707868230",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Huntmaster",
+      "raw_description": "Attacks all enemies. Has a 70% chance of placing a 60% [Decrease DEF] debuff and a 50% [Decrease ATK] debuff for 2 turns.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "huntmaster",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4490_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "f4a62db867fca6b914ffc8e1aed75651",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Lead the Pack",
+      "raw_description": "Places a 50% [Increase ACC] buff on an ally for 1 turn each time the ally has a debuff resisted by an enemy.",
+      "slug": "lead-the-pack",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-acc-2",
+          "slug": "increase-acc-2",
+          "website_link": "/effects/increase-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ACC"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4490_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9aad6602cec4d43b1817c608f1884544",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/stag-knight/",
+  "image_slug": "image-champion-stag-knight",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stag Knight is a epic assist champion from the faction Banner-Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stag Knight",
+      "stag-knight"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Stag Knight is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stag-knight.jpg",
+        "name": "Stag Knight",
+        "url": "https://raid-codex.com/champions/stag-knight/"
+      }
+    ]
+  },
+  "default_description": "Stag Knight is a epic assist champion from the faction Banner-Lords doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>The Stag Knight’s true name has long been cast aside and forgotten, just like his face always remains hidden from even the closest allies behind an ornate helm. But armour forged from the finest steel and decorated with gold and silver leaves very little room for doubt about the origins of this Champion, for such a concert of style and craftsmanship can only be found in the land of Kaerok. On its own, the revelation means little – there are countless Knights Errant forging from Kaerok to make their mark across Teleria and win glory for themselves. For them to have displayed valour and skill sufficient to catch the Arbiter’s eye is not uncommon, yet there is an air of mystery about the Stag Knight that makes an assumption such as this seem far too convenient and mundane. Whatever the case may be, the truth will only be known to the warrior himself – and to the one who gains his allegiance. Wounded honour is the reason for this secrecy, but the Stag Knight has more reason to abandon his lineage than most. Far from a mere wandering paladin, he was once the younger brother to King Guarin, known as the ‘Bloody’ to scholars of Teleria. Though his innate talent allowed the Stag Knight – the Grand Duke at the time – to master the arts of war with ease, he had little interest in following the ideals of chivalry. Spoiled by riches and sheltered from the woes of the world, he spent his youth jousting, hunting, and feasting away in the company of his peers. It was hunting that he excelled at the most, and his massive undertakings often led groups of young nobles into the forests for weeks, allowing them to pursue the most exquisite game royal lands had to offer. It was then he earned the nickname ‘Stag Knight’ from some of his closest comrades, and it was then he learned to the ropes of leadership and strategizing. But so engrossed was the young Duke in his little pleasures that the truth of his brother’s reign eluded him for years. Meanwhile, King Guarin grew increasingly paranoid and violent, his extortionate taxes bled the peasants and citizenry dry and his constant fear of a coup led to a number of influential nobles being imprisoned or even executed. Eventually, Guarin’s own uncle rose up to lead a rebellion. The Stag Knight, unaware of the truth, joined his brother as honour demanded and battled the rebels on numerous occasions. His strategic talent had proven to be instrumental in securing key victories for Guarin’s armies and saw the rebellion defeated after a year of bloody fighting. But victory was not enough for the insane King, he personally devised excruciating forms of interrogation and execution for the nobles involved in the failed uprising. Such was Guarin’s cruelty that even his brother finally started to realize just how far he had fallen. Alas, an attempt to reason with Guarin saw the Stag Knight accused of high treason and thrown into the dungeons of Kaerok Castle, there to await his own execution alongside his uncle. But the bloody spectacle Guarin planned was never to take place, for there were other forces at play. Something odd transpired in the dungeons the night before the last of the rebels were to be put to death. Every single sentry guarding the prisoner cells collapsed in an instant, still alive but trapped in deep slumber. Before the Stag Knight realized what was happening, a woman of cold unearthly beauty, clad in glimmering armour appeared before him. Knowing her to be the Arbiter – a chosen herald of Lumaya herself – the Knight fell to his knees in reverence. But the Arbiter had no use for worship, she sought a Champion to undo the evils wrought upon the Kingdom of Kaerok. She bid the Stag Knight to rise and revealed to him that his brother, King Guarin, had unwittingly served the designs of the Dark One by weakening Kaerok and allowing insidious cults to rise through the land. She promised the Stag Knight a chance to redeem himself in exchange for service as Lumaya’s Champion. Without any hesitation, the Knight accepted. In a flash of arcane energy, he was transported to Guarin’s throne room – his arms and armour returned to him by the Arbiter’s will. The bewildered royal guard fell to the Stag Knight’s halberd and, though it pained him greatly, he put Guarin out of his misery before more guards arrived to the commotion. In the days that followed, news of the King’s death spread through Kaerok like wildfire. Celebrations were held in most major settlements, the late King’s uncle was freed from prison and installed as the new monarch – his rule is said to have been the start of a new golden age for the people of Kaerok. As for the Stag Knight himself, he was not there to see Kaerok return to normal life. With his duty done, he had solemnly cast his name and former life aside and pledged himself to Lumaya’s cause. Whatever duty the Arbiter had for him remained a secret, though Norr tribes who dared to venture into the Winterlands oft spoke of a warrior clad in armour of purest white in the centuries that follow. Who this warrior was or what his purpose could be, they did not know. But the legend holds that seeing the stranger’s silver antlers and luxurious azure mantle in the blizzard was sure to be a good sign for those who are pure of purpose – and the doom of those who hold darkness in their hearts.</p>",
+  "giid": "4490",
+  "synergy": [],
+  "thumbnail": "46489c17893dfdcf028883202cefd6d1",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "cycle-of-magic",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-def-2",
+    "decrease-spd-2",
+    "increase-acc-2"
+  ],
+  "videos": []
+}

@@ -1,0 +1,302 @@
+{
+  "name": "Sepulcher Sentinel",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "S",
+    "dragon": "SS",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "SS",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "B",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "SS",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "B",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "SS",
+        "spider": "S",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "sepulcher-sentinel",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 903,
+      "defense": 1321,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all battles by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sword of Withering",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "slug": "sword-of-withering",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3880_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "314e401011ecc822d9f4609d2222778a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sepulcher Shield",
+      "raw_description": "Places a 60% [Increase DEF] buff and a [Block Debuffs] buff on all allies for 2 turns.",
+      "slug": "sepulcher-shield",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3880_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "9afbaedb955ff946ef9807ddfef328c5",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Untouched by Death",
+      "raw_description": "Has a 25% chance of completely blocking incoming damage when this Champion or their allies are attacked. Occurs once per turn.",
+      "slug": "untouched-by-death",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3880_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "be21f33fe520d2d102dea6bedd3dd56f",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 34,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 34 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors.",
+    "champion_slugs": []
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/sepulcher-sentinel/",
+  "image_slug": "image-champion-sepulcher-sentinel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sepulcher Sentinel is a epic def champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sepulcher Sentinel",
+      "sepulcher-sentinel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Sepulcher Sentinel is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sepulcher-sentinel.jpg",
+        "name": "Sepulcher Sentinel",
+        "url": "https://raid-codex.com/champions/sepulcher-sentinel/"
+      }
+    ]
+  },
+  "default_description": "Sepulcher Sentinel is a epic def champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Countless crypts and cursed mausoleums lie hidden in the Stormwind Wastelands. They lure foolish mortals in with the promise of power, wealth, or even life eternal, and those who fall into this trap often end up paying with their life or, wittingly or not, unleashing whatever evil lies within upon the world. But while the occasional warlock or renegade only presents a marginal danger, the dreaded Knights Revenant have both manpower and esoteric knowledge in abundance – the losses sustained when exploring ancient tombs are negligible to them. Many terrible secrets fell into the hands of the Knights Revenant over the centuries of their existence, but few would ever match the Sepulcher of Gorak-Kha the Serpent – a Demon Lord who led the very first invasion of Teleria. Though the Arbiter, at the peak of her power in those ancient days, had slain Gorak-Kha in personal combat and obliterated his unholy spirit, mortal cultists who would lay down the foundation for the Knight Revenants of today managed to retrieve what remained of the great demon’s body. Sworn to secrecy, they interred it in a sarcophagus of enchanted obsidian deep beneath the earth. And although millennia passed since that fateful battle, Gorak-Kha’s power still resides on the mortal plane. The Knights Revenant guard the crypt jealously, and elite Sepulcher Sentinels are charged with its defense. These dark-hearted warriors have repelled countless assaults initiated by rival cults, Undead Lords, mercenaries, and even bands of Lumayan Champions. Gorak-Kha’s power grants them unholy boons, some hardening the Sentinels’ armour so that it may turn away even the most vicious blow or spell, others allowing them to weaken the enemy with but a touch. Not only that, the Sepulcher Sentinels often carry small tokens taken from the offerings left on their Overlord’s grave, which extend Gorak-Kha’s ‘blessings’ to those fighting side-by-side with his chosen.</p>",
+  "giid": "3880",
+  "synergy": [],
+  "thumbnail": "0dd1bc593a91620daecf7723d2235624",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-sepulcher-sentinel",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-debuffs",
+    "decrease-atk-2",
+    "increase-def-2"
+  ],
+  "videos": []
+}

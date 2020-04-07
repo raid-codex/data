@@ -1,0 +1,413 @@
+{
+  "name": "Minaya",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "SS",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "SS",
+    "dragon": "S",
+    "spider": "SS",
+    "fire_knight": "A",
+    "minotaur": "SS",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "A",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "A",
+        "minotaur": "SS",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "A",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "SS",
+        "dragon": "S",
+        "spider": "SS",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "minaya",
+  "characteristics": {
+    "60": {
+      "hp": 21645,
+      "attack": 1002,
+      "defense": 1134,
+      "speed": 111,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 19%",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 19,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Graceful Guide",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on the ally with the lowest HP for 2 turns<br>Damage based on: [ATK]",
+      "slug": "graceful-guide",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4780_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a21c11547aa2e146295ec7c3fe1eea67",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Mending Ways",
+      "raw_description": "Attacks 1 enemy. Heals this Champion and the ally with the lowest HP by 10.000 HP. Has a 75% chance of placing a 100% [Heal Reduction] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "mending-ways",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4780_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "16ef71e6e7a965b23e59807261c60caf",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Beauty's Allure",
+      "raw_description": "Heals all allies by 40% of their MAX HP. Places a [Block Debuffs] buff for 2 turns on Champions under [Increase DEF] buffs.<br>If a Champion is fully healed by this Skill, also places a [Shield] buff on them for 2 turns equal to 25% of the Champion's HP",
+      "slug": "beauty-s-allure",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4780_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "619091318645c23d01b07c47f1c13625",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Lover's Sacrifice",
+      "raw_description": "Fills the Turn Meters of all allies by 20% when this Champion is killed. Revives this CHampion with 75% HP when killed if Khoronar is on the same team",
+      "slug": "lover-s-sacrifice",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4780_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "3ea23593e3d82c374fab979e0c3a7a43",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/minaya/",
+  "image_slug": "image-champion-minaya",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Minaya is a legendary assist champion from the faction Banner-Lords doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Minaya",
+      "minaya"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Minaya is a champion of Legendary rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-minaya.jpg",
+        "name": "Minaya",
+        "url": "https://raid-codex.com/champions/minaya/"
+      }
+    ]
+  },
+  "default_description": "Minaya is a legendary assist champion from the faction Banner-Lords doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Once upon a time, disaster struck the Kingdom of Kaerok. Year after year, unnatural drought reigned, crops withered and livestock fell for lack of pasture. Thousands died, tens of thousands more suffered greatly. Lords and peasants alike knew hunger and despaired. Throughout Kaerok, few lands remained untouched by famine – and the domain of Marquess Khoronar was one such haven. But the Marquess was arrogant, selfish, and unkind. One night, a malnourished old woman came to the castle and offered Khoronar a single beautiful rose in return for some food that would keep her alive. Disgusted by her pathetic and destitute appearance, the Marquess sneered and ordered the old woman thrown out of the gate. But before the guards could lay a hand on her, they were struck down by a bolt of lightning and their flesh turned to marble. The old woman’s guise shifted and swirled to reveal her true form, that of angelic beauty, stark noble features, and hair the colour of blazing flame. Recognizing the Arbiter for who she was, Khoronar tried to beg for forgiveness, but it was too late for she had seen his ugly, selfish nature hidden beneath a veneer of nobility. As punishment, the Arbiter transformed him into a hideous beast and bound his soul to a Shard so that he could never truly die. With a powerful spell placed on the castle, Khoronar was condemned to eternal life as a prisoner. Only if he were to learn to love would he ever be released for his curse. But as centuries passed the Marquess and his castle had been forgotten, lost to time in the depths of the enchanted woods. It appeared that Khoronar was doomed to an endless cycle of misery, unredeemed and unloved. It was only when a young Knight of Kaerok known as Minaya that hope was finally rekindled. Renowned for her kindness and beauty in equal measure, Minaya was widely beloved by her subjects and her peers. But there were those who grew jealous of her, and those bitter over her refusing courtship. A proud Baron whose advanced Minaya had spurned saw it as an insult that could only be washed away with blood. He sought allies among those who could not bear to see the young Knight’s virtue, and soon enough an assassin’s arrow was poised to pierce Minaya’s heart. By the grace of the Goddess, the assassin missed his mark, and Minaya escaped into the woods. For hours she wondered, and as wolves gathered at her back in hopes of easy prey, she finally came across the enchanted castle where the damned Marquess lived. At first, Khoronar intended to punish the trespasser. But seeing Minaya’s beauty and the courage she showed even when facing the horrible beast he had become, he stayed his ire. He still imprisoned Minaya, for she knew the way to the castle now, but treated her fairly. His servants, doomed to an existence of living statues, catered to Minaya’s every whim, and each night Khoronar, desperate for company after centuries of loneliness, would dine with her. Slowly, he realized, he was falling in love. Terrified by the notion, he flew into a fit of bestial fury and chased Minaya from the castle, ordering her to never return. This had almost cost the young Knight her life, for the assassins sent after her had not given up. By a stroke of misfortune, they fell on Minaya’s trail once more and would have surely been the end of her, were it not for Khoronar, remorseful of his display, following Minaya in hopes of earning her forgiveness. He came upon the assassins just as the ambush was sprung and managed to slay them all in the battle that followed. But Khoronar did not escape the fray unscathed himself, and a poisoned arrow struck his shoulder. Minaya hurried to his side and used all of her skill to treat the wound and purge the poison from her saviour’s blood. Weakened but alive, Khoronar and his companion made it back to the castle. It was then that their feelings had finally come to fruition, and Minaya too looked beyond the grisly facade to see a man repentant, and truly willing to make himself better. She did her best to guide him, to teach him that only in the love for others could Lumaya’s blessings be spread. And yet, thoughts of her people did not leave Minaya even when her own happiness was within her grasp. Though reluctant, Khoronar allowed her to visit her own domain and ensure a suitable castellan could be appointed to rule fairly in her stead while Minaya was absent. She made a promise to return in a week’s time and rode from the castle once more. Upon her arrival, Minaya found that her lands had been overtaken by the jealous Baron whose proposal she refused, and her people were bled dry and oppressed by draconian new laws. Furious over these abuses, Minaya called upon what allies she could to assist her, and the people of the land rose up to stand at their Lady’s side with whatever weapons they could afford. It was going to be a bloody siege indeed. Meanwhile, Khoronar found himself distraught – the week had passed, yet of Minaya there was no sign. He thought himself betrayed once more and nearly slipped into despair, were it not for a miracle. Though all the mirrors in his castle had long been shattered, shards of glass yet remained scattered in his chamber. One such shard came to life, glowing with arcane energy, and showed the bewildered Khoronar a terrible sight of his love dying in battle. Abandoning everything, Khoronar made haste to Minaya’s lands. He arrived whe the assault on the castle was already underway and threw himself into the fray. Awed by the arrival of such a powerful and strange ally, Minaya’s men-at-arms could do little but give way to the raging beast. But alas, it was perhaps this haste that led to the prophecy of the mirror being fulfilled. Having forced his way into the great hall of the castle, Khoronar came upon Minaya battling through the Baron’s personal guard. Seeing Minaya’s reaction, the usurper lifted his crossbow and let loose an enchanted bolt that was meant to slay Khoronar. But Minaya threw herself forth and took the strike in her beloved’s place. As her body fell to the ground, Khoronar fell into fury unlike anything he had experienced. Ignoring injury and pain, he tore into his foes and did not stop until all fell before him, and the treacherous Baron’s sword lay broken at last. Only then did Khoronar fall to his knees and wept over Minaya’s body. His grief was so strong that he did not realize he was no longer alone until a hand rested on his shoulder and his eyes were greeted by blinding light as he turned around. The Arbiter had personally descended onto the battlefield and sought Khoronar out. She revealed that she had been watching him closely, and his selfless actions were enough to earn forgiveness. What happened next is subject to interpretation and speculation in various renditions of the tale… It is known that the Arbiter used her power to bring Minaya back to life, allowing her and Khoronar to share and embrace and confess their love. Then, according to some, Khoronar’s beastly form faded away and he became a human once more. He and Minaya were wed and lived happily ever after. But there are storytellers who insist there is more to the tale. That the Arbiter did undo the curse, yet warned Khoronar that the suffering his callousness had inflicted could only be repaid with service. Unable to bear being separated from her love, Minaya too pledged her life to the Arbiter and bound her soul to a Shard of Champions willingly. And so it was, Khoronar and Minaya would spend eternity together, yet they would be called upon to fight in Lumaya’s name when need was greatest – a price they both were more than willing to pay.</p>",
+  "giid": "4780",
+  "synergy": [],
+  "thumbnail": "1e50a717c4febd75e03b348b0be851fa",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-debuffs",
+    "continuous-heal-2",
+    "heal",
+    "heal-reduction-2",
+    "increase-turn-meter",
+    "shield"
+  ],
+  "videos": []
+}

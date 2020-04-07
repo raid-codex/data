@@ -1,0 +1,345 @@
+{
+  "name": "Sandlashed Survivor",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "C",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "sandlashed-survivor",
+  "characteristics": {
+    "60": {
+      "hp": 15030,
+      "attack": 936,
+      "defense": 1365,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all Battles by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Smell Weakness",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a [Provoke] debuff on the target for 1 turn if this Champion has no debuffs. Heals by 15% of the damage inflicted if this Champion is under any debuff.<br>Damage based on: [DEF]",
+      "slug": "smell-weakness",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4090_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "f2a854a91c622ab338cccb1de9279881",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Endless Sands",
+      "raw_description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all ally buffs by 1 turn.<br>Damage based on: [DEF]",
+      "slug": "endless-sands",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Buff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-buff-extend",
+          "slug": "buff-extend",
+          "website_link": "/effects/buff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Buff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4090_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "c799ea7930ab67d2f5680a89681857ea",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Born Survivor",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies for 2 turns when any ally's HP drops below 50%. Also places a [Block Damage] bff on this Champion for 1 turn",
+      "slug": "born-survivor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/effects/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4090_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "7330659eac06eab41ad2b6ffb6ed38d9",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 31,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 31 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia.",
+    "champion_slugs": []
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/sandlashed-survivor/",
+  "image_slug": "image-champion-sandlashed-survivor",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sandlashed Survivor is a epic def champion from the faction Orcs doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sandlashed Survivor",
+      "sandlashed-survivor"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Sandlashed Survivor is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sandlashed-survivor.jpg",
+        "name": "Sandlashed Survivor",
+        "url": "https://raid-codex.com/champions/sandlashed-survivor/"
+      }
+    ]
+  },
+  "default_description": "Sandlashed Survivor is a epic def champion from the faction Orcs doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>The life of an Orc is brutal and often short, for it is a society borth warlike and demanding, placed on the very brink of extinction by the wars they had waged in ages past. Weakness is not welcome here, but even among the Orcs there are tribes that take survival of the fittest far beyond what most of their kind would consider wise. Countless bloody and painful rituals of initiation exist, and the sands of the Krokhan Desert certainly do not lack dangerous trials. The Varshnak Tribe, in particular, is well-known for their brutality. Their tradition demands that a day before coming of age every Orc is seized in the dead of night, bound, and taken far into the depths of the desert. The shamans ensure these young warriors fall into deep slumber with a mixture of herbs and spices strong enough to take an ogre down, and their elder kin only untie the unfortunates once their destination – usually a small cavern in the cliffs, an abandoned burrow, or some other quirk of terrain that can keep the juve alive until dawn – is reached. The young Orc wakes up to find nothing beyond a small waterskin and a crude knife at their sides. From there, they must find their way through the deadly dunes of Krokhan, survive countless dangers that lurk there, and find their tribe once more. Only then can one hope to become a true Varshnak. Unsurprisingly, this practice keeps the tribe’s numbers low due to the sheer mortality rate of their warriors. But those who live to see the end of their ordeal are hardened and experienced survivors, capable of thriving in the harshest condition and sneering at any sign of weakness – for it is the way of their Kin. Meeting these brutal raiders in battle is a challenge not to be underestimated.</p>",
+  "giid": "4090",
+  "synergy": [],
+  "thumbnail": "ae31ee951b4d4bfb5518e0fcdc064a83",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "ally-protection-2",
+    "block-damage",
+    "buff-extend",
+    "heal",
+    "provoke"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "Xn2mFM7DVrs",
+      "author": "Hellhades",
+      "date_added": "2020-03-09T00:11:04+01:00"
+    }
+  ]
+}
