@@ -402,7 +402,7 @@
     {
       "passive": false,
       "name": "Falling from Grace",
-      "raw_description": "Attacks all enemies 2 times. Places a [Block Buffs] debuff for 2 turns on targets under [Heal Reduction] debuffs. Each hit has a 50% chance of placing a [Block Buffs] debuff for 2 turns against targets not under [Heal Reduction] debuffs.<br>Damage based on: [ATK] [HP]<br>Level 2 Damage +10%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +5%<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks all enemies 2 times. Places a [Block Buffs] debuff for 2 turns on targets under [Heal Reduction] debuffs. Each hit has a 90% chance of placing a [Block Buffs] debuff for 2 turns. If the target is under a [Heal Reduction] debuff, [Block Buffs] cannot be resisted.<br>Damage based on: [ATK] [HP]",
       "slug": "falling-from-grace",
       "effects": [
         {
@@ -432,249 +432,14 @@
       ],
       "giid": "21120_s2",
       "cooldown": 5,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.5,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 5,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.5,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Damage +10%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.55,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Chance +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.55,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Damage +10%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.6,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Chance +5%"
-        },
-        {
-          "level": "Level 6",
-          "hits": 2,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Block Buffs",
-              "value": 0,
-              "chance": 0.6,
-              "turns": 2,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-block-buffs",
-              "slug": "block-buffs",
-              "website_link": "/effects/block-buffs",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "No Heal Red",
-              "amount": 1,
-              "possible_values": [
-                "Block Buffs"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK",
-            "HP"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "e99a5a1c8f0ae061ca8f8fbc65e47f3a",
       "skill_number": "A2"
     },
     {
       "passive": true,
       "name": "Fiery Rage",
-      "raw_description": "Has a 10% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion's Turn Meter by 25% when attacked.",
+      "raw_description": "Has a 20% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion's Turn Meter by 25% when attacked.",
       "slug": "fiery-rage",
       "effects": [
         {
@@ -701,67 +466,7 @@
       "damaged_based_on": [],
       "giid": "21120_s3",
       "cooldown": 0,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "self",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Increase Turn Meter",
-              "value": 0.25,
-              "chance": 0.2,
-              "turns": 0,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-increase-turn-meter",
-              "slug": "increase-turn-meter",
-              "website_link": "/effects/increase-turn-meter",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "Hit",
-              "amount": 1,
-              "possible_values": [
-                "Increase Turn Meter"
-              ],
-              "champion_slugs": []
-            },
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Unlock Peril Skill",
-              "value": 0,
-              "chance": 0.1,
-              "turns": 0,
-              "target": {
-                "who": "self",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-unlock-peril-skill",
-              "slug": "unlock-peril-skill",
-              "website_link": "/effects/unlock-peril-skill",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Unlock Peril Skill"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [],
-          "cooldown": 0,
-          "raw_detail": "-"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "1b984bd512627c06118cea26f9847410",
       "skill_number": "P1"
     },
@@ -1241,8 +946,7 @@
     "ignore-def",
     "ignore-shield",
     "increase-turn-meter",
-    "shield",
-    "unlock-peril-skill"
+    "shield"
   ],
   "videos": []
 }

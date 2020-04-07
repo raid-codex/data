@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Ruination",
-      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 10% of the damage dealt.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 30% of the damage dealt.<br>Damage based on: [ATK]",
       "slug": "ruination",
       "effects": [],
       "damaged_based_on": [
@@ -145,205 +145,14 @@
       ],
       "giid": "2320_s1",
       "cooldown": 0,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease MAX HP",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-max-hp",
-              "slug": "decrease-max-hp",
-              "website_link": "/effects/decrease-max-hp",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease MAX HP"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease MAX HP",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-max-hp",
-              "slug": "decrease-max-hp",
-              "website_link": "/effects/decrease-max-hp",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease MAX HP"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease MAX HP",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-max-hp",
-              "slug": "decrease-max-hp",
-              "website_link": "/effects/decrease-max-hp",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease MAX HP"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease MAX HP",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-max-hp",
-              "slug": "decrease-max-hp",
-              "website_link": "/effects/decrease-max-hp",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease MAX HP"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "all"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Decrease MAX HP",
-              "value": 0.1,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-decrease-max-hp",
-              "slug": "decrease-max-hp",
-              "website_link": "/effects/decrease-max-hp",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Decrease MAX HP"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 0,
-          "raw_detail": "Damage +5%"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "2b29f5eaea657b22150101a191a58120",
       "skill_number": "A1"
     },
     {
       "passive": false,
       "name": "Bloodletting",
-      "raw_description": "Attacks 1 enemy 3 times. Places a 5% [Poison] debuff for 2 turns. This debuff cannot be removed.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy 3 times. Places a 5% [Poison] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]",
       "slug": "bloodletting",
       "effects": [
         {
@@ -372,366 +181,43 @@
       ],
       "giid": "2320_s2",
       "cooldown": 4,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Poison",
-              "value": 0.05,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-poison",
-              "slug": "poison",
-              "website_link": "/effects/poison",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Poison"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Poison",
-              "value": 0.05,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-poison",
-              "slug": "poison",
-              "website_link": "/effects/poison",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Poison"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Poison",
-              "value": 0.05,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-poison",
-              "slug": "poison",
-              "website_link": "/effects/poison",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Poison"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Poison",
-              "value": 0.05,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-poison",
-              "slug": "poison",
-              "website_link": "/effects/poison",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Poison"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 5",
-          "hits": 3,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "debuff",
-              "type": "Poison",
-              "value": 0.05,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "target",
-                "targets": ""
-              },
-              "image_slug": "image-debuff-poison",
-              "slug": "poison",
-              "website_link": "/effects/poison",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Poison"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 3,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "54a1024c57b417f87a7b865718b0e09b",
       "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Cursehold",
-      "raw_description": "Attacks 1 enemy. Copies one random debuff on the target and places it on all enemies.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Deals an additional 20% Critical Damage for each [Poison] debuff on the target enemy (up to +100% C.DMG).<br>Damage based on: [ATK]",
       "slug": "cursehold",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
       "giid": "2320_s3",
       "cooldown": 5,
-      "upgrades": [
-        {
-          "level": "Level 1",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Copy 1 Debuff",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-copy-1-debuff",
-              "slug": "copy-1-debuff",
-              "website_link": "/effects/copy-1-debuff",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Copy 1 Debuff"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 5,
-          "raw_detail": "-"
-        },
-        {
-          "level": "Level 2",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Copy 1 Debuff",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-copy-1-debuff",
-              "slug": "copy-1-debuff",
-              "website_link": "/effects/copy-1-debuff",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Copy 1 Debuff"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 3",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Copy 1 Debuff",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-copy-1-debuff",
-              "slug": "copy-1-debuff",
-              "website_link": "/effects/copy-1-debuff",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Copy 1 Debuff"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 5,
-          "raw_detail": "Damage +5%"
-        },
-        {
-          "level": "Level 4",
-          "hits": 1,
-          "target": {
-            "who": "enemy",
-            "targets": "1"
-          },
-          "effects": [
-            {
-              "date_added": "",
-              "effect_type": "battle_enhancement",
-              "type": "Copy 1 Debuff",
-              "value": 0,
-              "chance": 0,
-              "turns": 0,
-              "target": {
-                "who": "all enemy",
-                "targets": ""
-              },
-              "image_slug": "image-battle-enhancement-copy-1-debuff",
-              "slug": "copy-1-debuff",
-              "website_link": "/effects/copy-1-debuff",
-              "extra": false,
-              "raw_description": "",
-              "places_if": "-",
-              "amount": 1,
-              "possible_values": [
-                "Copy 1 Debuff"
-              ],
-              "champion_slugs": []
-            }
-          ],
-          "based_on": [
-            "ATK"
-          ],
-          "cooldown": 4,
-          "raw_detail": "Cooldown -1"
-        }
-      ],
+      "upgrades": [],
       "image_slug": "a978285de519d5749200fc259595393d",
       "skill_number": "A3"
     }
@@ -1039,8 +525,6 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "copy-1-debuff",
-    "decrease-max-hp",
     "poison",
     "poison-2"
   ],
