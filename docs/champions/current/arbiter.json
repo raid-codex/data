@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in Arena by 30%",
+      "raw_description": "Increases Ally SPD in the Arena by 30%.",
       "effects": [],
       "stats": [
         "SPD"
@@ -137,10 +137,33 @@
     {
       "passive": false,
       "name": "Gaze of Justice",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%",
       "slug": "gaze-of-justice",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3560_s1",
       "cooldown": 0,
       "upgrades": [
@@ -303,10 +326,12 @@
     {
       "passive": false,
       "name": "Enforced Humility",
-      "raw_description": "",
+      "raw_description": "Attacks all enemies 1 time. Has a 75% chance of decreasing the duration of all enemy buffs by 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +15%",
       "slug": "enforced-humility",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3560_s2",
       "cooldown": 4,
       "upgrades": [
@@ -469,9 +494,70 @@
     {
       "passive": false,
       "name": "Mentor of Heroes",
-      "raw_description": "",
+      "raw_description": "Fills the Turn Meters of all allies by 30% and places a 50% [Increase ATK] buff on all allies for 2 turns. Heals all allies by 25% of their MAX HP if they have less than 50% HP.<br>Level 2: Cooldown -1",
       "slug": "mentor-of-heroes",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/effects/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3560_s3",
       "cooldown": 4,
@@ -646,10 +732,31 @@
     },
     {
       "passive": false,
-      "name": "Destiny's Call",
-      "raw_description": "",
+      "name": "Destiny’s Call",
+      "raw_description": "Revives all dead allies to 35% HP, then fills the Turn Meters of all allies by 20%. Grants an Extra Turn to this Champion if an ally was successfully revived.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "destiny-s-call",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "3560_s4",
       "cooldown": 7,
@@ -1555,9 +1662,11 @@
     "extra-turn",
     "heal",
     "increase-atk",
+    "increase-atk-2",
     "increase-turn-meter",
     "revive",
-    "weaken"
+    "weaken",
+    "weaken-2"
   ],
   "videos": []
 }
