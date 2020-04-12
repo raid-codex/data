@@ -124,7 +124,7 @@
     {
       "passive": false,
       "name": "Evaporation",
-      "raw_description": "Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +5%<br>Level 5 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
       "slug": "evaporation",
       "effects": [
         {
@@ -351,9 +351,30 @@
     {
       "passive": false,
       "name": "Mending Touch",
-      "raw_description": "Heals a target ally by 30% of their MAX HP.<br>Level 4 Cooldown -1",
+      "raw_description": "Heals a target ally by 30% of their MAX HP. Places a 60% [Increase DEF] buff for 2 turns.<br>Level 2: Heal +5%<br>Level 3: Heal +5%<br>Level 4: Cooldown -1",
       "slug": "mending-touch",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "2000_s2",
       "cooldown": 4,
@@ -601,7 +622,7 @@
     {
       "passive": false,
       "name": "Redemption",
-      "raw_description": "Revives a dead ally and heals them by 25% of their MAX HP. The revived ally takes a turn.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "Revives all dead allies, heals them by 25% of their MAX HP, and boosts their Turn Meter to max.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "redemption",
       "effects": [
         {
@@ -621,6 +642,26 @@
           "amount": 0,
           "possible_values": [
             "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
           ],
           "champion_slugs": []
         }
@@ -1327,6 +1368,7 @@
   "effect_slugs": [
     "heal",
     "increase-def",
+    "increase-def-2",
     "increase-turn-meter",
     "poison",
     "poison-2",
