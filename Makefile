@@ -23,6 +23,10 @@ sanitize_fusions:
 rebuild_index_fusions:
 	@bash scripts/rebuild_index.sh fusions
 
+content_creator_videos:
+	@python3 scripts/add-content-creator-videos.py
+	@make rebuild_index_champions
+
 all:
 	make sanitize_champions 
 	make rebuild_index_champions 
