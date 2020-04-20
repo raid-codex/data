@@ -11,6 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       name: git pull
+      with:
+        directory: src/github.com/raid-codex/data
     - uses: actions/setup-go@v1
       name: "setup go"
       with:
@@ -22,9 +24,12 @@ jobs:
     - name: "all"
       run: |
         export PATH="/home/runner/go/bin:$PATH"
+        export GOPATH=`pwd`
+        cd src/github.com/raid-codex/data
         make all
     - name: "commit changes"
       run: |
+        cd src/github.com/raid-codex/data
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add . --all
@@ -32,6 +37,7 @@ jobs:
     - name: "push changes"
       uses: ad-m/github-push-action@master
       with:
+        directory: src/github.com/raid-codex/data
         repository: raid-codex/data
         branch: prod
         
