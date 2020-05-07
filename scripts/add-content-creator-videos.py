@@ -20,6 +20,8 @@ for filename in os.listdir(path):
         creator = json.load(file)
         for video in creator['youtube']['videos']:
             if "champion_guide" in video:
-                os.system(f"""
-                    raid-codex-cli champions video add --source youtube --author {creator['name']} --video-id {video['id']} --data-directory {data_directory} --champion-slug {video['champion_guide']['champion_slug']}
-                """)
+                cmd = f"""
+                    raid-codex-cli champions video add --source youtube --author "{creator['name']}" --video-id "{video['id']}" --data-directory {data_directory} --champion-slug {video['champion_guide']['champion_slug']}
+                """
+                print(cmd)
+                os.system(cmd)
