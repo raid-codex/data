@@ -1,0 +1,301 @@
+{
+  "name": "Fleshmonger",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "S",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "S",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "S",
+        "minotaur": "S",
+        "force_dungeon": "B",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "S",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "fleshmonger",
+  "characteristics": {
+    "60": {
+      "hp": 13050,
+      "attack": 1288,
+      "defense": 870,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 23%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 23,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Thorough Butchery",
+      "raw_description": "Attacks 1 enemy 3 times.<br>Damage based on: [ATK]",
+      "slug": "thorough-butchery",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4690_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "93161241312207d9207f871d3779aad1",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fresh Meat",
+      "raw_description": "Places a 25% [Increase ATK] and a 15% [Increase C. RATE] buff on this Champion for 2 turns. Grants an Extra Turn",
+      "slug": "fresh-meat",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/effects/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4690_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "f03b29db3a869658bbf00f87938c8722",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Tornado Cleaver",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "tornado-cleaver",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4690_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9154265a86391f1f41641af8aeca9e01",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "date_added": "2019-07-22T23:18:04+02:00",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 25,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 25 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it",
+    "champion_slugs": []
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/fleshmonger/",
+  "image_slug": "image-champion-fleshmonger",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Fleshmonger is a rare attack champion from the faction Skinwalkers doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Fleshmonger",
+      "fleshmonger"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Fleshmonger is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-fleshmonger.jpg",
+        "name": "Fleshmonger",
+        "url": "https://raid-codex.com/champions/fleshmonger/"
+      }
+    ]
+  },
+  "default_description": "Fleshmonger is a rare attack champion from the faction Skinwalkers doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>In the civilized Kingdoms of Teleria, commoners and nobles alike fear the Skinwalkers; they are creatures of nightmares, half-men, half-beasts, bloodthirsty and vile. Many of these tales are exaggerated and overblown, for it is a natural vice of most sentient races to fear the unknown and look with suspicion upon those different from them. Alas, there are cases when even the darkest fantasies coalesce into a single despicable being. The Fleshmonger is one such tale, he is a violent monster whose taste for flesh and sadistic tendencies coupled with his strength make for a terrifying foe. Once a slave in the mines belonging to the Mage-Barons, the creature quickly learned that might makes right and that only the strongest survived. Worse yet, when the meagre rations given to slaves had proven to be too little for the great beast’s bulk, he started seeking other sources of food. At first, the bodies of his fellow slaves who had fallen to hard labour or the cruelty of their overseers sufficed. Then the murders started. By the time anyone was any wiser, the creature who was to become known as the Fleshmonger took the chance to enact a bloody escape. Where he is now no one can tell, but the wilderness between Arnoc and Narbuk has become dangerous in the past few years, with local villagers and travellers vanishing off the overgrown forest trails. Rumours abound of bloodied limbs, skeletal remains with bones gnawed and splintered by teeth, and the sightings of a massive boar-like brute, and only the foolhardy would dare to try and seek this creature out to establish the truth.</p>",
+  "giid": "4690",
+  "synergy": [],
+  "thumbnail": "5c645cc19a53ac1dfb155840d886050c",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-fang-cleric",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-def-2",
+    "increase-atk",
+    "increase-c-rate"
+  ],
+  "videos": []
+}

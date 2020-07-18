@@ -1,0 +1,703 @@
+{
+  "name": "Vizier Ovelis",
+  "date_added": "2019-08-28T21:14:59+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "C",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "S",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "B",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "SS",
+        "spider": "A",
+        "fire_knight": "S",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "A",
+        "arena_offense": "B",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "SS",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "C",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "S",
+        "fire_knight": "SS",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "vizier-ovelis",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 1476,
+      "defense": 1013,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 34%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 34,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Accursed Blades",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 35% chance of increasing the duration of all debuffs by 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10",
+      "slug": "accursed-blades",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Debuff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Debuff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3980_s1",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 3,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "ca76ecb25c4e289300a7d17a1f054cb6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Master of Misery",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff, a 50% [Decrease ATK] debuff, and a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%",
+      "slug": "master-of-misery",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3980_s2",
+      "cooldown": 4,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 2,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "5ab7e72b5145c86d033fd61ba9aef7bc",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Vizier of Poisons",
+      "raw_description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 2 random debuffs from the target and placing them on all enemies. Places a [Perfect Veil] buff on this Champion for 3 turns if the target is under 2 or more debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Cooldown -1",
+      "slug": "vizier-of-poisons",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Debuff Spread",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-spread",
+          "slug": "debuff-spread",
+          "website_link": "/effects/debuff-spread",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Debuff Spread"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3980_s3",
+      "cooldown": 5,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 1,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "0d1f11b3ac720c1251f2b98002dbe75b",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Unseen Assassin",
+      "raw_description": "Places a [Perfect Veil] buff on this champion for 2 turns at the start of each round.",
+      "slug": "unseen-assassin",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3980_s4",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "59673613009ba2aac063baf1f88bc424",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 38,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 38 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay.",
+    "champion_slugs": []
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/vizier-ovelis/",
+  "image_slug": "image-champion-vizier-ovelis",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Vizier Ovelis is a legendary attack champion from the faction Dark Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Vizier Ovelis",
+      "vizier-ovelis"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Vizier Ovelis is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-vizier-ovelis.jpg",
+        "name": "Vizier Ovelis",
+        "url": "https://raid-codex.com/champions/vizier-ovelis/"
+      }
+    ]
+  },
+  "default_description": "Vizier Ovelis is a legendary attack champion from the faction Dark Elves doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Even in a society of scheming dark mages and ruthless assassins, Vizier Ovelis stands out as a man to be truly feared. A legend among his kin and a peer to no one, he is a blade in the dark that strikes wherever it wills. Indeed, though he had been granted a title of respect and integrated into the Dark Elven nobility, Ovelis has no master but himself. Even as a young warrior, Ovelis was ambitious and harboured dreams of reaching far above his humble station. To that end, he ventured far beyond the domain of his people. For years he searched for tutors and foes to learn from. For years he obsessively gathered folklore and snippets of information that could lead him to items of power. After all, Teleria is a land steeped in ancient magic, where wonders and artifacts of old exist just within the grasp of those who are bold enough to reach out. Eventually, fate smiled upon Ovelis and a map came into his possession. It detailed the location of the tomb of Mairenn – a legendary assassin, whose deeds could be traced back to the Schism that separated the once-united Elven race. Through guile, through grit, and through sheer ruthless determination, Ovelis managed to breach the hidden basilica and brave its numerous traps. The ‘allies’ accompanying him to this venture perished to the last, but that suited the future Vizier just fine. He needed not share in the glory that way, nor have a rival claimant to Mairenn’s scimitars that rested in her sarcophagus at the very heart of the complex. Though the magic that was used to forge these blades was as volatile as their late Mistress was said to have been, they remained just as formidable. When Ovelis returned, he did so triumphantly. With skill, experience, and mighty weapons at his side, he forged a bloody path to the height of Dark Elven society. Many would-be rivals were found dead in their seemingly impenetrable estates, killed by poison or by blade. Few accounts exist of these feuds, though a single terrified slave maintained that his master was slain by a formless shadow that moved unheard and dissipated into nothing when the deed was done. Whether just delusions of a hapless wretch or some powerful magic conjured by the blades in Ovelis’ care is left up to rumour and speculation.</p>",
+  "giid": "3980",
+  "synergy": [],
+  "thumbnail": "9425be43ba92c2b4454ca7bf602efad8",
+  "tags": [
+    "HELL_HADES_CBSERIES_BEST_DECREASE_ATK",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "giant-slayer",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-buffs",
+    "debuff-extend",
+    "debuff-spread",
+    "decrease-atk-2",
+    "heal-reduction-2",
+    "perfect-veil"
+  ],
+  "videos": []
+}

@@ -1,0 +1,751 @@
+{
+  "name": "Mistress of Hymns",
+  "date_added": "2019-08-28T21:14:59+02:00",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "mistress-of-hymns",
+  "characteristics": {
+    "60": {
+      "hp": 18990,
+      "attack": 1024,
+      "defense": 1013,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all battles by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bolstering Blow",
+      "raw_description": "Attacks 1 enemy. Heals the ally with the lowest HP by 15% of the damage inflicted. Damage based on ATK<br>Level 2 Damage +5%.<br>Level 3 Damage +5%.<br>Level 4 Damage +5%.<br>Level 5 Damage +5%.",
+      "slug": "bolstering-blow",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4380_s1",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "0009d70ca3a83a26e2edb13d7eae8232",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Song of Triumph",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on the 2 allies with the lowest HP for 2 turns if this attack is critical. Damage based on ATK<br>Level 2 Damage +5%.<br>Level 3 Damage +5%.<br>Level 4 Damage +5%.<br>Level 5 Damage +5%.<br>Level 6 Cooldown -1.",
+      "slug": "song-of-triumph",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4380_s2",
+      "cooldown": 4,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "31562cd521b19fe8ddb0676e0f087dea",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Hymn of Rebirth",
+      "raw_description": "Revives 2 random allies with 50% HP and places a [Veil] buff on them for 1 turn.<br>Level 2 Cooldown -1.",
+      "slug": "hymn-of-rebirth",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/effects/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4380_s3",
+      "cooldown": 6,
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "6ed892ce98a924cc4d4d018927ade88f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Sacred Order",
+    "slug": "sacred-order",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 53,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 53 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Sacred Order",
+        "sacred-order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel.",
+    "champion_slugs": []
+  },
+  "faction_slug": "sacred-order",
+  "website_link": "/champions/mistress-of-hymns/",
+  "image_slug": "image-champion-mistress-of-hymns",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Mistress of Hymns is a epic assist champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Mistress of Hymns",
+      "mistress-of-hymns"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Mistress of Hymns is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-mistress-of-hymns.jpg",
+        "name": "Mistress of Hymns",
+        "url": "https://raid-codex.com/champions/mistress-of-hymns/"
+      }
+    ]
+  },
+  "default_description": "Mistress of Hymns is a epic assist champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "speed",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>A Sacred Order Commandery marching to war is always a grandiose affair. Rows upon rows of Knights and soldiery kneel beneath the fluttering banners, chanting mighty vows of obedience and valour in the Old Tongue. Oftentimes, a liturgy is held to praise the Goddess of Light and ask for Her protection. Such ceremonies require a choir, as it is well-known the harmony of music is pleasing to Lumaya. The lead singer must always be female – in honour of the Goddess – and her duties do not end with conducting peaceful prayer alone. Not even the clamour of battle is enough to silence the Word of Lumaya, and it is the Mistress of Hymns who bolsters the faithful by example and by song. Such is the power of her voice and the purity of her faith, that Champions find their resolve strengthened and their wounds fading away under Lumaya’s gaze. Not even death is enough to extinguish the flames of hope. When all seems lost and need is greatest, the Hymn of Rebirth booms across the battlefield, calling the fallen back to life. Shielded from the enemy’s eyes by blinding light, they may recover and join the fray once more.</p>",
+  "giid": "3970",
+  "synergy": [],
+  "thumbnail": "11bcd3c1d43688891ed23f5677a174ea",
+  "tags": [
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "cycle-of-revenge",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "rejuvenation",
+        "resurgent",
+        "retribution",
+        "shadow-heal"
+      ],
+      "support": [
+        "evil-eye",
+        "lay-on-hands",
+        "lore-of-steel",
+        "rapid-response",
+        "spirit-haste",
+        "steadfast",
+        "timely-intervention"
+      ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "methodical",
+        "shield-breaker",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "evil-eye",
+        "healing-savior",
+        "lasting-gifts",
+        "lay-on-hands",
+        "lore-of-steel",
+        "rapid-response",
+        "spirit-haste",
+        "steadfast"
+      ]
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-maulie-tankard",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-maulie-tankard-mistress-of-hymns",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "heal",
+    "veil"
+  ],
+  "videos": []
+}

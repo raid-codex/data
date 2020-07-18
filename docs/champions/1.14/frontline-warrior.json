@@ -1,0 +1,411 @@
+{
+  "name": "Frontline Warrior",
+  "date_added": "2019-11-16T22:59:28+01:00",
+  "rarity": "Uncommon",
+  "element": "Spirit",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 2
+    }
+  ],
+  "slug": "frontline-warrior",
+  "characteristics": {
+    "60": {
+      "hp": 12885,
+      "attack": 595,
+      "defense": 1299,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Wrath Hew",
+      "raw_description": "Attacks all enemies.<br><br>Damage based on: [DEF]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +5%",
+      "slug": "wrath-hew",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3810_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "3a302ff0a0de4900f3486564a751214e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Comrades in Arms",
+      "raw_description": "Places a 25% [Ally Protection] buff on the ally with the lowest HP for 2 turns. Grants an Extra Turn.<br>Damage based on: [DEF]<br>Level 2 Cooldown -1",
+      "slug": "comrades-in-arms",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection",
+          "slug": "ally-protection",
+          "website_link": "/effects/ally-protection",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3810_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "c0d669cb4895ce091b63ccd91467b587",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/frontline-warrior/",
+  "image_slug": "image-champion-frontline-warrior",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Frontline Warrior is a uncommon def champion from the faction Banner-Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Frontline Warrior",
+      "frontline-warrior"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Frontline Warrior is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-frontline-warrior.jpg",
+        "name": "Frontline Warrior",
+        "url": "https://raid-codex.com/champions/frontline-warrior/"
+      }
+    ]
+  },
+  "default_description": "Frontline Warrior is a uncommon def champion from the faction Banner-Lords doing spirit damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "defense",
+        "defense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Knights and feudal militia make up the bulk of the armies of Kaerok, though professional soldiers do exist. These are usually particularly talented or lucky commoners who had proven themselves in the eyes of their liege, justifying additional expenses sustained to outfit and arm them. They will never quite match the quality of armour or weapons that the Knights wield, but they are equipped well enough to hold the front against many foes and are often utilized as the first line of defense by the Banner Lords.</p>",
+  "giid": "3810",
+  "synergy": [],
+  "thumbnail": "02ae6a786bbf135d3d223cbc0e770b6e",
+  "tags": [
+    "NEW_CHAMPION_20191115"
+  ],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "ally-protection"
+  ],
+  "videos": []
+}

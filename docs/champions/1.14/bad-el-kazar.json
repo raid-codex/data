@@ -1,0 +1,1243 @@
+{
+  "name": "Bad-el-Kazar",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "SS",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "S",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "A",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 567,
+    "campaign": 4.9,
+    "arena_offense": 4.7,
+    "arena_defense": 4.7,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.9,
+    "fire_knight": 4.2,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.8
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "SS",
+        "campaign": "SS",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "S",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "S",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "SS",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "SS",
+        "dragon": "SS",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "bad-el-kazar",
+  "characteristics": {
+    "60": {
+      "hp": 20145,
+      "attack": 1079,
+      "defense": 1156,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 20
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in all battles by 25%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Dark Sphere",
+      "raw_description": "Attacks all enemies. Heals this Champion and all allies by 20% of the damage inflicted.<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Heal +10%<br>Level 5 Damage +10%<br>Level 6 Heal +10%",
+      "slug": "dark-sphere",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "21080_s1",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Heal +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.4,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/effects/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Heal per DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Heal +10%"
+        }
+      ],
+      "image_slug": "9d9957bf8aeb9eb0bfc2462f5da5b7f7",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Malice",
+      "raw_description": "Removes all debuffs from all allies. Places two 15% [Continuous Heal] buffs on all allies for 2 turns. Places two 5% [Poison] debuffs on all enemies for 2 turns.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1 Se",
+      "slug": "malice",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "21080_s2",
+      "cooldown": 5,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/effects/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Poison"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/effects/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Remove ALL Debuffs"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/effects/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Poison"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/effects/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Remove ALL Debuffs"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/effects/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Poison"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/effects/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Remove ALL Debuffs"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "210e0dd839509aea845fb78258bc41a6",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Prey Upon",
+      "raw_description": "All allies inflict 15% more damage against targets under [Poison]",
+      "slug": "prey-upon",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "21080_s3",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/effects/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "poison",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "88d0f07f5ee0a7135c3c75318bc34ff2",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 48,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 48 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time.",
+    "champion_slugs": []
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/bad-el-kazar/",
+  "image_slug": "image-champion-bad-el-kazar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Bad-el-Kazar is a legendary assist champion from the faction Undead Hordes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Bad-el-Kazar",
+      "bad-el-kazar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Bad-el-Kazar is a champion of Legendary rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bad-el-kazar.jpg",
+        "name": "Bad-el-Kazar",
+        "url": "https://raid-codex.com/champions/bad-el-kazar/"
+      }
+    ]
+  },
+  "default_description": "Bad-el-Kazar is a legendary assist champion from the faction Undead Hordes doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "speed",
+        "stun"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "life",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "life",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Tales of a powerful necromancer known as Bad-el-Kazar have long been whispered across Teleria. He is a shadowy figure, a mastermind who prefers to act through pawns and unwitting servants rather than engage his foes in person. Even when forced to take to the field directly, he stays behind the lines of his “allies” and brings the power of terrible magic to bear. Bad-el-Kazar’s origins are shrouded in mystery and much had been lost due to his own efforts. The necromancer prefers it that way, for the less his foes know, the easier it is to baffle and mislead them. But there is reason enough to believe that he had once been a White Mage, serving Lumaya and the Sacred Order. Over the years, the lure of forbidden knowledge had driven Kazar further and further down a dark path, and his thirst for power proved to be his undoing. Surely enough, when Kazar sought to unravel the mysteries of life and death, it was the vile art of Necromancy that he turned to. He collected a wealth of dark artifacts in secret, learning from them until his soul was as twisted and withered as the pages of his spellbooks. Alas, his intellect and power remained as keen as ever, and the Dark Lord Siroth did not waste an opportunity to gain such a powerful follower. His minions whispered into Kazar’s dreams, guiding him towards ever greater depths of damnation. In the end, Bad-el-Kazar disappeared, wiping out as many traces of his past life as he could. Guided by visions, he travelled to the Brimstone Path where a great portal had laid forgotten for centuries. It would be part of Kazar’s grand role to ensure the portal would be reopened to allow the dread armies of Demonspawn into Teleria. In exchange, he would be granted life eternal and power beyond his dreams. Kazar accepted the terms of the deal and set out into the mortal kingdoms, a herald of Siroth’s evil. But who can tell if the necromancer is truly a puppet of powers far beyond his reckoning, or if his cunning and ambition are directed at bringing his own nefarious schemes to fruition…﻿</p>",
+  "giid": "21080",
+  "synergy": [],
+  "thumbnail": "96b6715edb4b085b70f0cff47d43a1ed",
+  "tags": [
+    "HELL_HADES_CBSERIES_BEST_POISON",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
+        "methodical",
+        "single-out",
+        "warmaster",
+        "wrath-of-the-slain"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "rapid-response"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal",
+    "continuous-heal-2",
+    "heal",
+    "heal-per-dmg",
+    "increase-dmg",
+    "poison",
+    "poison-2",
+    "remove-all-debuffs"
+  ],
+  "videos": []
+}

@@ -1,0 +1,393 @@
+{
+  "name": "Skytouched Shaman",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "A",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "skytouched-shaman",
+  "characteristics": {
+    "60": {
+      "hp": 18330,
+      "attack": 958,
+      "defense": 1123,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 25%",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Talon Knives",
+      "raw_description": "Attacks all enemies. Heals by 15% of the damage inflicted if this Champion has less than 50% HP. Boosts this Champion's Turn Meter by 20% instead if this Champion has 50% HP or higher.<br>Damage based on: [ATK]",
+      "slug": "talon-knives",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4530_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "1d286d16f6dd3681f463c0499c6feb16",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Immortal Skies",
+      "raw_description": "Removes all debuffs from all allies, then places a [Revive on Death] buff and a [Block Debuffs] buff on all allies for 2 turns",
+      "slug": "immortal-skies",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Revive on Death",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/effects/revive-on-death",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Revive on Death"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4530_s2",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "baba3fb3e5eb36bd645d936094640bbd",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Bloodstain Ritual",
+      "raw_description": "Damages this Champion by 10% of their MAX HP at the start of each turn. Heals all allies except this Champion equal to half of the lost HP. Places a 30% [Decrease SPD] debuff on this Champion for 1 turn at the start of each turn. Also has a 50% chance of placing a [Fear] debuff on this Champion for 1 turn.",
+      "slug": "bloodstain-ritual",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/effects/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Fear"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4530_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "806d21f4172c8fb733369d706c19f55a",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 43,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 43 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/skytouched-shaman/",
+  "image_slug": "image-champion-skytouched-shaman",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skytouched Shaman is a epic assist champion from the faction Barbarians doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skytouched Shaman",
+      "skytouched-shaman"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Skytouched Shaman is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skytouched-shaman.jpg",
+        "name": "Skytouched Shaman",
+        "url": "https://raid-codex.com/champions/skytouched-shaman/"
+      }
+    ]
+  },
+  "default_description": "Skytouched Shaman is a epic assist champion from the faction Barbarians doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>The religious traditions of the Barbarian tribes in the Deadlands are rich and varied, drawn from different cultures and often intermixed with one another. Some worship the ‘old gods’ – often these are powerful spirits, demons, fae, or other mystical creatures taking advantage of the primitive societies – while others gravitate towards revering the Ancestors or even the forces of nature. The latter are often represented as living beings in their own right or spirits that reside in particular elements. It is no wonder that the spirits are depicted with familiar imagery, such as the Goddess of the Wind well-known among the tribes of Eastern Krokhan is often said to take the form of a giant vulture. The priesthood dedicated to her is exclusively female, usually young orphan girls taken in by the elder Shamans and taught the ways of the Goddess. They adorn their bodies with gold jewellery and wrap themselves in cloaks of vulture feathers, their faces covered with intricate tattoos and concealed by masks of bird skulls. Upon initiation, the Skytouched are granted daggers fashioned to resemble talons of ivory and steel. These are the most important tools a Shaman can wield, for her Goddess is cruel and demanding. She, above all, craves mortal blood, and it is the Skytouched Shaman’s duty to deliver that sacrifice. Thus one of the most important rituals they perform involved bloodletting – one carried out by the Shaman herself – it is a painful and gruelling process that can leave the Skytouched drained, but her cruel patron’s favour ensures that her allies are revitalized and ready to take on the foe, even if the Shaman herself has to pay the ultimate price.</p>",
+  "giid": "4530",
+  "synergy": [],
+  "thumbnail": "983a33a9a86796df362c1108e00f54a6",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-skytouched-shaman",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-debuffs",
+    "decrease-spd-2",
+    "fear",
+    "heal",
+    "increase-turn-meter",
+    "revive-on-death"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "1G1cuvelUSo",
+      "author": "MurderInc",
+      "date_added": "2020-03-05T04:46:28.000Z"
+    }
+  ]
+}

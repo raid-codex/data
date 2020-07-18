@@ -1,0 +1,426 @@
+{
+  "name": "Gurptuk Moss-Beard",
+  "date_added": "2020-05-12T12:00:00Z",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "S",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "C",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "C",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "SS",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "gurptuk-moss-beard",
+  "characteristics": {
+    "60": {
+      "hp": 18825,
+      "attack": 1079,
+      "defense": 1244,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in all Battles by 50.",
+      "effects": [],
+      "stats": [
+        "RESIST"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 50,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Biotic Staff",
+      "raw_description": "Attacks 1 enemy 2 times. Places a 15% [Continuous Heal] buff for 1 turn on all allies under [Poison] debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%",
+      "slug": "biotic-staff",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4640_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "e9635f258542d67cb040a39ea6e3937a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Druidic Boon",
+      "raw_description": "Removes all debuffs from an ally, then heals them by 30% of their MAX HP and places a lShielol] buff on the target equal to 20% of their MAX HP for 2 turns.<br>Level 2: Heal +5%<br>Level 3: Shield +5%<br>Level 4: Heal +10%<br>Level 5: Shield +10%<br>Level 6: Cooldown -1",
+      "slug": "druidic-boon",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4640_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "cc15cb54337b30784cc0a2984b19a1a1",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Cloud of Spores",
+      "raw_description": "Places three 5% [Poison] debuffs on all allies for 3 turns. These debuffs cannot be resisted or blocked. Also has an 80% chance of placing a [Block Buffs] debuff on all enemies for 2 turns.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
+      "slug": "cloud-of-spores",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4640_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "ad6ddd23a9f110ba74a3278b8bf32581",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Symbiotes",
+      "raw_description": "Allies under [Poison] debuffs inflict 7.5% more damage for each [Poison] debuff on them, stacking up to a maximum of 30%. This damage increase applies to all of their skills. Also increases each ally’s RES by 15 for each [Poison] debuff on them.",
+      "slug": "symbiotes",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4640_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "cd560eb777465e45bb4f636af2c30942",
+      "skill_number": "A4"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 29,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia.",
+    "champion_slugs": []
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/gurptuk-moss-beard/",
+  "image_slug": "image-champion-gurptuk-moss-beard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gurptuk Moss-Beard is a legendary assist champion from the faction Ogryn-Tribes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gurptuk Moss-Beard",
+      "gurptuk-moss-beard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Gurptuk Moss-Beard is a champion of Legendary rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gurptuk-moss-beard.jpg",
+        "name": "Gurptuk Moss-Beard",
+        "url": "https://raid-codex.com/champions/gurptuk-moss-beard/"
+      }
+    ]
+  },
+  "default_description": "Gurptuk Moss-Beard is a legendary assist champion from the faction Ogryn-Tribes doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Many old mysteries lie buried amid the trees of the Durham Forest. Some wondrous and beautiful to behold, others dangerous, deadly, and best left forgotten. Beasts, brigands, ruthless Dark Elves all prey on the unwary, and only the mightiest adventurers can hope to survive if they stray from the beaten forest paths. Curiously, there is someone brave (or maybe insane) enough to make his home at the very heart of Durham. Some say he is a spirit of nature, a benevolent guardian of the woods whose hut is always open to the lost and the weary. Others swear he is a monster – hunger and malice given form, ever craving the blood of innocents. One thing is clear. Whoever this creature is, his power is immense. So beware, o summoner, for only the bold can hope to unravel this mystery and recruit a new Champion to their cause.</p>",
+  "giid": "4640",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "cycle-of-revenge",
+        "delay-death",
+        "improved-parry",
+        "mighty-endurance",
+        "resurgent",
+        "tough-skin"
+      ],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "master-hexer",
+        "rapid-response",
+        "steadfast",
+        "timely-intervention"
+      ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "master-hexer",
+        "rapid-response",
+        "steadfast"
+      ]
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-buffs",
+    "continuous-heal-2",
+    "heal",
+    "poison",
+    "poison-2"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "K4Zv1RTRJi4",
+      "author": "MurderInc",
+      "date_added": "2020-05-12T17:19:49Z"
+    },
+    {
+      "source": "youtube",
+      "id": "Jwpl4xs1eqg",
+      "author": "Hellhades",
+      "date_added": "2020-05-13T10:32:48Z"
+    }
+  ]
+}

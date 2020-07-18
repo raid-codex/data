@@ -1,0 +1,273 @@
+{
+  "name": "Coffin Smasher",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "S",
+    "minotaur": "S",
+    "force_dungeon": "C",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "S",
+        "minotaur": "S",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "SS",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "coffin-smasher",
+  "characteristics": {
+    "60": {
+      "hp": 21135,
+      "attack": 683,
+      "defense": 936,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Mallet Crescendo",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 15% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
+      "slug": "mallet-crescendo",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4470_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "393cbf7d1cce7eed23f872d6466e4169",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tombfire",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [HP]",
+      "slug": "tombfire",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "HP Burn"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4470_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ab991b9a350949a2e2a68d967f002b5e",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Gloom Mist",
+      "raw_description": "Decreases the damage enemies inflict with AoE attacks by 5%",
+      "slug": "gloom-mist",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4470_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9b712ab3ad679da89e80ad1fb3faabb1",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 34,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 34 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors.",
+    "champion_slugs": []
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/coffin-smasher/",
+  "image_slug": "image-champion-coffin-smasher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Coffin Smasher is a rare hp champion from the faction Knight Revenant doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Coffin Smasher",
+      "coffin-smasher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Coffin Smasher is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-coffin-smasher.jpg",
+        "name": "Coffin Smasher",
+        "url": "https://raid-codex.com/champions/coffin-smasher/"
+      }
+    ]
+  },
+  "default_description": "Coffin Smasher is a rare hp champion from the faction Knight Revenant doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Disturbing ancient crypts is a dangerous quest indeed, and doubly so when the would-be tomb raiders approach their craft without due subtlety. Most perish, be it by the traps set in untold multitudes across the tombs, by ancient hexes, by the hand of their rivals, or by other equally gruesome means. Perhaps death is a mercy, if one were to consider the alternatives… Coffin Smashers are thralls to the Knights Revenant, tasked with the most dangerous of tasks and lacking individuality beyond the bare rudiments required for them to be slightly more useful than an Undead puppet. They are set upon various crypts and tasked with ploughing through the defenses so that their Masters need not risk the lives that actually matter. As a result, many of the Smashers perish, countless others come under effect of powerful curses and are malformed into hideous monstrosities and shambling aberrant abominations. But that too often becomes useful to the Cult, and Knights Revenant do not shy away from employing these twisted slaves in their wars.</p>",
+  "giid": "4470",
+  "synergy": [],
+  "thumbnail": "a3ab4ff8fa4deed2e3bae3a5077675f0",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-skytouched-shaman",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "hp-burn"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "wcI169dW9vI",
+      "author": "Hellhades",
+      "date_added": "2020-03-12T00:02:37+01:00"
+    }
+  ]
+}

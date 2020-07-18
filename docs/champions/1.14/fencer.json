@@ -1,0 +1,328 @@
+{
+  "name": "Fencer",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "S",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "S",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "S",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "fencer",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1211,
+      "defense": 793,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 23%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 23,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Enchanted Rapier",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 15% chance of placing a 15% [Decrease SPD] debuff for 2 turns<br>Damage based on: [ATK]",
+      "slug": "enchanted-rapier",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/effects/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4700_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "91b551e63cfe48550119492bfae1a316",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Pommel Strike",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn. Steals 20% of the target's Turn Meter if the [Stun] debuff if not placed.<br>Damage based on: [ATK]",
+      "slug": "pommel-strike",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4700_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a569d1a031365d082b25ad796e9a4b6e",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blade Flourish",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "blade-flourish",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4700_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "e57f0dd79841eaa6d63cea90cf2355f7",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 31,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 31 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east.",
+    "champion_slugs": []
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/fencer/",
+  "image_slug": "image-champion-fencer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Fencer is a rare attack champion from the faction High Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Fencer",
+      "fencer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Fencer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-fencer.jpg",
+        "name": "Fencer",
+        "url": "https://raid-codex.com/champions/fencer/"
+      }
+    ]
+  },
+  "default_description": "Fencer is a rare attack champion from the faction High Elves doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>With pride, elegance, and subtlety being the driving virtues of their culture, High Elves often look down on the human tradition of knightly tournaments. The flair of jousting, the crude clash of lances and swords do not appeal to their sense of honour as much as a true test of finesse and skill that is embodied in a fencing duel. Many Aravian nobles prefer slim-bladed weapons such as rapiers and sabers to the heftier swords of their human allies. They are often tutored in dance-like arts of Elven Sword Schools, where a single precise thrust to the heart is valued far above swinging an oversized greatsword about and taking heads off the shoulders of multiple opponents at once. The Masters of these schools are the epitome of High Elven martial skill – they dress in garish finery, decorated with gold, silver, and gems, they carry perfectly balanced enchanted rapiers, and they are absolutely deadly in battle. Their motions are like flowing water, their bodies twist and turn with seamless grace as Elven fencers avoid the brutish swings of their foes, and their blades strike like lightning, true and unstoppable. To have one such Fencer on their side would benefit any Summoner. Fortunately, there is no lack of brush young nobles seeking adventure in Aravia.</p>",
+  "giid": "4700",
+  "synergy": [],
+  "thumbnail": "c4414e538a5475ec0244673b7f2f7dbb",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-catacomb-councilor",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-skytouched-shaman",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-def",
+    "decrease-spd",
+    "increase-turn-meter",
+    "stun"
+  ],
+  "videos": []
+}

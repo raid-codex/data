@@ -1,0 +1,1120 @@
+{
+  "name": "Black Knight",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "HP",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 170,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 4.5,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.5,
+    "dragon": 4.5,
+    "spider": 3.4,
+    "fire_knight": 3.6,
+    "minotaur": 4.6,
+    "force_dungeon": 4.4,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 4.3
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "B",
+        "arena_offense": "A",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "C",
+        "minotaur": "A",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "C",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "SS",
+        "clan_boss_with_giant_slayer": "SS",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "SS",
+        "force_dungeon": "A",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "S",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "S",
+        "clan_boss_with_giant_slayer": "S",
+        "ice_guardian": "S",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "black-knight",
+  "characteristics": {
+    "60": {
+      "hp": 22470,
+      "attack": 914,
+      "defense": 1167,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 50,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Heavy Blow",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [HP]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "slug": "heavy-blow",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "370_s1",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/effects/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1,
+              "possible_values": [
+                "Provoke"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/effects/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1,
+              "possible_values": [
+                "Provoke"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/effects/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1,
+              "possible_values": [
+                "Provoke"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/effects/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1,
+              "possible_values": [
+                "Provoke"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/effects/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1,
+              "possible_values": [
+                "Provoke"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "7856bffa648515b4e516e0d9235d9ed9",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Lower Visor",
+      "raw_description": "Places a 15% [Continuous Heal] buff and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2 Cooldown -1",
+      "slug": "lower-visor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "370_s2",
+      "cooldown": 3,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def-2",
+              "slug": "increase-def-2",
+              "website_link": "/effects/increase-def",
+              "extra": true,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DEF"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def-2",
+              "slug": "increase-def-2",
+              "website_link": "/effects/increase-def",
+              "extra": true,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DEF"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "ca2c86751b1db29988c329f26a04ddd0",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Last Breath",
+      "raw_description": "Attacks all enemies. Damage increases according to the amount of HP this Champion has lost.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "slug": "last-breath",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "370_s3",
+      "cooldown": 4,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/effects/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG per HP lost"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/effects/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG per HP lost"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/effects/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG per HP lost"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/effects/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG per HP lost"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/effects/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase DMG per HP lost"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "020438d73a81bd94134ebbda61a0fd5b",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Valorous",
+      "raw_description": "Places an [Unkillable] buff on this Champion for 1 turn if incoming damage exceeds 15% MAX HP in one attack.",
+      "slug": "valorous",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/effects/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Unkillable"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "370_s4",
+      "cooldown": 2,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/effects/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "15%+ ATK",
+              "amount": 1,
+              "possible_values": [
+                "Unkillable"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "05f65470b36543c7ba802ade961feab3",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/black-knight/",
+  "image_slug": "image-champion-black-knight",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Black Knight is a legendary hp champion from the faction Banner-Lords doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Black Knight",
+      "black-knight"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Black Knight is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-black-knight.jpg",
+        "name": "Black Knight",
+        "url": "https://raid-codex.com/champions/black-knight/"
+      }
+    ]
+  },
+  "default_description": "Black Knight is a legendary hp champion from the faction Banner-Lords doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "frost",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "life",
+        "life",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "370",
+  "synergy": [],
+  "thumbnail": "d709f38ef758b5066ef31b18039b8ce5",
+  "tags": [
+    "CHAMPION_REWORKED_PATCH_1_12_20191219",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "offense": [
+        "cycle-of-violence",
+        "deadly-precision",
+        "flawless-execution",
+        "grim-resolve",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "ruthless-ambush",
+        "stoked-to-fury",
+        "wrath-of-the-slain"
+      ],
+      "defense": [],
+      "support": [
+        "exalt-in-death",
+        "lore-of-steel",
+        "pinpoint-accuracy",
+        "rapid-response",
+        "spirit-haste"
+      ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "warmaster",
+        "wrath-of-the-slain"
+      ],
+      "defense": [
+        "defiant",
+        "delay-death",
+        "deterrence",
+        "improved-parry",
+        "rejuvenation",
+        "resurgent",
+        "retribution",
+        "shadow-heal"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal",
+    "continuous-heal-2",
+    "increase-def-2",
+    "increase-dmg-per-hp-lost",
+    "provoke",
+    "unkillable"
+  ],
+  "videos": []
+}

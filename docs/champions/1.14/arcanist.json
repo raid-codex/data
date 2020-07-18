@@ -1,0 +1,922 @@
+{
+  "name": "Arcanist",
+  "date_added": "2019-05-31T12:34:56+02:00",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 155,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 3.7,
+    "fire_knight": 4.3,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.8
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "A",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "A",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "arcanist",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 936,
+      "defense": 738,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Arena by 25%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Paralyzing Touch",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Sleep] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +5%<br>Level 5 Damage +10%<br>Level 6 Buff/Debuff Chance +10%<br>Level 7 Damage +10%",
+      "slug": "paralyzing-touch",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/effects/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Sleep"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "250_s1",
+      "cooldown": 0,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/effects/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Sleep"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "4fb83b6c9612a0bfaf5e8e148beb0ac6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Unnatural Recovery",
+      "raw_description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns.<br>Level 2 Cooldown -1",
+      "slug": "unnatural-recovery",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "250_s2",
+      "cooldown": 4,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/effects/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Continuous Heal"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1b032b23ba54ff1d9ed727202f86c598",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Vigor",
+      "raw_description": "Places a 25% [Increase ATK] buff and a 15% [Increase C. RATE] buff on all allies for 3 turns.<br>Level 2 Cooldown -1",
+      "slug": "vigor",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/effects/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "250_s3",
+      "cooldown": 5,
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase C. RATE",
+                "Increase C.RATE"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase ATK"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/effects/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase C. RATE",
+                "Increase C.RATE"
+              ],
+              "champion_slugs": []
+            },
+            {
+              "date_added": "",
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/effects/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1,
+              "possible_values": [
+                "Increase ATK"
+              ],
+              "champion_slugs": []
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "9b675093787ecce285e076f3c19d8c42",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 34,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 34 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors.",
+    "champion_slugs": []
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/arcanist/",
+  "image_slug": "image-champion-arcanist",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Arcanist is a rare assist champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Arcanist",
+      "arcanist"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Arcanist is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-arcanist.jpg",
+        "name": "Arcanist",
+        "url": "https://raid-codex.com/champions/arcanist/"
+      }
+    ]
+  },
+  "default_description": "Arcanist is a rare assist champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "speed",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "HP%/Defense%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%/Defense%",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP/Defense",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "HP/Defense",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Resist",
+          "additional_stats": [
+            "HP%",
+            "Defense%",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "250",
+  "synergy": [],
+  "thumbnail": "6c9882bbac1c7093bd25041881277658",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
+        "methodical",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "cycle-of-magic",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "rapid-response",
+        "spirit-haste",
+        "steadfast"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal",
+    "continuous-heal-2",
+    "increase-atk",
+    "increase-c-rate",
+    "sleep"
+  ],
+  "videos": []
+}

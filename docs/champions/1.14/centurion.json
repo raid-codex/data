@@ -1,0 +1,322 @@
+{
+  "name": "Centurion",
+  "date_added": "2019-07-04T20:36:50+02:00",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "C",
+        "campaign": "B",
+        "arena_offense": "C",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "C",
+        "dragon": "B",
+        "spider": "D",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "C",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "centurion",
+  "characteristics": {
+    "60": {
+      "hp": 15690,
+      "attack": 793,
+      "defense": 1189,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Feed on Suffering",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted",
+      "slug": "feed-on-suffering",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3110_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "efd1a645fb2ba2cc3d36d9cf6e0ba949",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Freakish Resiliance",
+      "raw_description": "Heals this Champion by 30% of their MAX HP and places a 30% [Increase DEF] buff on this Champion for 2 turns",
+      "slug": "freakish-resiliance",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/effects/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3110_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a0d3b8ef8737d9100a53985aee6153ce",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Soul Possession",
+      "raw_description": "Exchanges remaining HP levels with a target enemy, then equalizes the HP of all allies",
+      "slug": "soul-possession",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3110_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "a042e9ddad430cc7bdba75ec499efa06",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 34,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 34 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors.",
+    "champion_slugs": []
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/centurion/",
+  "image_slug": "image-champion-centurion",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Centurion is a rare def champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Centurion",
+      "centurion"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Centurion is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-centurion.jpg",
+        "name": "Centurion",
+        "url": "https://raid-codex.com/champions/centurion/"
+      }
+    ]
+  },
+  "default_description": "Centurion is a rare def champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3110",
+  "synergy": [],
+  "thumbnail": "e9fb2eda3d9c55a0d89c98d6c54b5b3e",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena"
+      ],
+      "offense": [],
+      "defense": [],
+      "support": []
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "offense": [
+        "blood-shield",
+        "deadly-precision",
+        "flawless-execution",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "wrath-of-the-slain"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "rejuvenation",
+        "retribution",
+        "shadow-heal",
+        "stubborness"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-foli-missionary",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-tormin-the-cold-towering-titan",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "heal",
+    "increase-def"
+  ],
+  "videos": []
+}

@@ -1,0 +1,320 @@
+{
+  "name": "Twinclaw Disciple",
+  "date_added": "2019-11-16T22:59:28+01:00",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "C",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "B",
+        "dragon": "B",
+        "spider": "B",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "B",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "twinclaw-disciple",
+  "characteristics": {
+    "60": {
+      "hp": 11565,
+      "attack": 1365,
+      "defense": 892,
+      "speed": 85,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Disfigure",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br><br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +5%<br/>Level 5 Damage +5%<br/>Level 6 Buff/Debuff Chance +10%",
+      "slug": "disfigure",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4400_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "bae709f9575ba918ff164aef38b99373",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tendon Carve",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 15% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff Chance +10%<br/>Level 6 Buff/Debuff Chance +15%<br/>Level 7 Cooldown -1",
+      "slug": "tendon-carve",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/effects/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4400_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "3783b595290fbf0c6063fb74b1add643",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Tear to Shreds",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. The chance increases to 100% if the target is under a [Heal Reduction] debuff.<br><br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Cooldown -1",
+      "slug": "tear-to-shreds",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4400_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "8ff5e08cbde264d02ca7ce82a4cffe2c",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 31,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 31 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia.",
+    "champion_slugs": []
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/twinclaw-disciple/",
+  "image_slug": "image-champion-twinclaw-disciple",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Twinclaw Disciple is a rare attack champion from the faction Orcs doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Twinclaw Disciple",
+      "twinclaw-disciple"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Twinclaw Disciple is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-twinclaw-disciple.jpg",
+        "name": "Twinclaw Disciple",
+        "url": "https://raid-codex.com/champions/twinclaw-disciple/"
+      }
+    ]
+  },
+  "default_description": "Twinclaw Disciple is a rare attack champion from the faction Orcs doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Twinclaw Cult is a dangerous, extremely violent twist on ancient Orcish beliefs. It glorifies personal strength and savagery in combat, urging its followers to abandon reason and moderation in favour of battle frenzy. The disciples of the cult are often armed with wicked metal claws, sharpened and fashioned to be held in the wielder’s hands. It is not an elegant weapon, but it does suit the cult’s philosophy perfectly. Armed thus, the Orcs of the Twinclaw fight like beasts possessed, hacking and slashing at anything that has the misfortune of being in their way. The wounds they leave are incredibly messy and difficult to heal, and with claws like that, they can deliver debilitating strikes to the foe with surprising efficiency.</p>",
+  "giid": "4400",
+  "synergy": [],
+  "thumbnail": "3ce3bd7d63a2c9c81983cc8e9bd02ae5",
+  "tags": [
+    "NEW_CHAMPION_20191115"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-brakus-the-shifter-defiled-sinner",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-cillian-the-lucky-corpse-collector",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-fang-cleric",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "heal-reduction-2",
+    "weaken"
+  ],
+  "videos": []
+}

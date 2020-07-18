@@ -1,0 +1,389 @@
+{
+  "name": "Skull Lord Var-Gall",
+  "date_added": "2020-04-07T12:00:00Z",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "SS",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    }
+  ],
+  "slug": "skull-lord-var-gall",
+  "characteristics": {
+    "60": {
+      "hp": 27420,
+      "attack": 1112,
+      "defense": 1310,
+      "speed": 107,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 90,
+      "accuracy": 70
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gleeful Ripping",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit fills this Champion's Turn Meter by 5%.<br>Has a 30% chance to repeat this skill. Places a 100% [Heal Reduction] dbeuff on the target for 2 turns if this skill is repeated.<br>Damage based on: [DEF]",
+      "slug": "gleeful-ripping",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5020_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "25d604384e32fbbd44193186c9cc5267",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Skull Claim",
+      "raw_description": "Places a 25% [Strengthen] buff on this Champion for 2 turns. Has a 75% chanc of placing a [Provoke] debuff on a target enemy for 1 turn",
+      "slug": "skull-claim",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5020_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "1d2cf7bdfad89b85e1164e9fd20438f6",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Abyssal Clutch",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "slug": "abyssal-clutch",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5020_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "c527d77c989ab65210d94cc13a1cbfe0",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Horrific Foe",
+      "raw_description": "When attacked, decreases the attacker's MAX HP by 5%. Cannot decrease a single enemy's MAX HP by more than 50%. Occurs once per enemy attack. Does not work against bosses.<br>Has a 50% chance of placing a [True Fear] debuff on targets whose MAX HP has been decreased by 20% or more",
+      "slug": "horrific-foe",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5020_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "e5627521c1615f71ea20884de2a65a49",
+      "skill_number": "P1"
+    },
+    {
+      "passive": true,
+      "name": "Skull Brood",
+      "raw_description": "Revives Skullsworn with 50% HP and 50% Turn Meter at the start of each turn. If there are multiple Skullsworn in the team, only one of them will be revived",
+      "slug": "skull-brood",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "5020_s5",
+      "cooldown": 1,
+      "upgrades": [],
+      "image_slug": "400833dab383dfd505bc5f2693ef82df",
+      "skill_number": "P2"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 27,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives.",
+    "champion_slugs": []
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/skull-lord-var-gall/",
+  "image_slug": "image-champion-skull-lord-var-gall",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skull Lord Var-Gall is a legendary def champion from the faction Lizardmen doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skull Lord Var-Gall",
+      "skull-lord-var-gall"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Skull Lord Var-Gall is a champion of Legendary rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skull-lord-var-gall.jpg",
+        "name": "Skull Lord Var-Gall",
+        "url": "https://raid-codex.com/champions/skull-lord-var-gall/"
+      }
+    ]
+  },
+  "default_description": "Skull Lord Var-Gall is a legendary def champion from the faction Lizardmen doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Aeons ago, before the rise of Humans and Elves, Lizardmen – or Dragonkin, as they were known at the time – were an empire unto themselves. Their domain stretched far and wide, and none could challenge them… But all that now lies in the past. Today, the tribes of Lizardmen are but a shadow of their former selves. Most have reverted to barbarism, many embraced their bestial nature. But there is still a vestige of greatness, a memory of that mighty empire remains. Amid the lakes that were once sacred to their ancestors, a tribe known as the Skullsworn yet dwells. The name comes from their custom of fashioning the skulls of their dead and the enemies they slay into helms to be worn by warriors – a sign of respect and a chance for the departed to fight in the name of the Great Dragon once more. Alas, their glory had waned with the ages, and the tribe lost ground to rivals and foreign invaders. Finally, the scions of the Dark One threatened the very heart of the Skullsworn domain. It was then the tribe performed a ritual of bloody sacrifice to awaken their ancient defender, one whose tread would shake the earth and before whom all foes would scatter. It was a desperate plea for help, their last hope – and their Progenitor answered. Skull Lord Var-Gall, once a mighty warrior in service of the Dragonkin Priesthood awakened, called forth by the blood of his descendants. His heart filled with rage when he realized how low the once-feared tribe had fallen and how vile invaders now sought to defile the very waters of the lakes under his protection. With a blood-chilling below he surged forth, calling upon the primordial magic that resided in his blood to raise his fallen kin from the dead. With the newly-resurrected warriors bolstering their ranks and the revered Var-Gall leading them, the Skullsworn fell upon Siroth’s demons, driving them back with tooth and claw. More of them perished, laid low by unholy blades in that battle, only to be risen once more by the magic of their ancestors and help turn the tide in favour of the Lizardmen. At the height of the battle, Var-Gall smashed his way through the Demonspawn vanguard and deep into the heart of their army. Many demons lay slain in his wake, but the Skull Lord’s fury would not be sated until the land itself drowned in the tainted blood of the interlopers. He cleaved and slashed through ranks upon ranks of spawn until their leader, a mighty Demon Baron stood before him. This was an equal battle, for the leader of Siroth’s minions was every bit as massive and brutal as the Skull Lord himself. He charged Var-Gall, effortlessly sweeping aside all the Skullsworn warriors who dared stand before him, and crashed into their Champion with enough force to utterly destroy a lesser mortal fighter. But Var-Gall would not be defeated so easily. Ignoring injury and pain, the Skull Lord rose to his feet once more and bellowed his challenge for all to hear. And so the two leaders clashed once more amidst the carnage of battle, each ripping into the other with claw and blade, not giving a single step of ground. The Demon Baron was a mighty foe in his own right, but Var-Gall had the strength of Ancestors empowering his every strike. This was no duel of skill and wit, both combatants fought like beasts, and Var-Gall proved to be the more vicious of the two. When he rose again, covered in terrible wounds but victorious, and raised the Demon Baron’s head for all to see, the outcome of the battle was decided. Shattered by the loss of their leader, the Demonspawn withdrew in disarray. The Skullsworn pursued them without mercy and claimed many trophies that day. Var-Gall himself had the skull of the Demon Baron fashioned into a new ceremonial helm that marked his tribe’s victory in the sight of the Great Dragon. But rather than return to his ageless slumber, the Skull Lord had chosen to remain and tread Teleria once more. He would not let his warriors fade into obscurity again, and all those who dared invade the ancestral lands of the Lizardmen would know his wrath.</p>",
+  "giid": "5020",
+  "synergy": [],
+  "thumbnail": "b28d7c6b6aec04f5525b453411ff4336",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-skull-lord-var-gall",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "heal-reduction-2",
+    "increase-turn-meter",
+    "provoke",
+    "strengthen-2",
+    "true-fear"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "FsmTjv-l5c4",
+      "author": "MurderInc",
+      "date_added": "2020-04-08T06:27:17.000Z"
+    },
+    {
+      "source": "youtube",
+      "id": "G6Cv6Qy_Qig",
+      "author": "Hellhades",
+      "date_added": "2020-04-09T09:37:56.000Z"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "name": "Lordly Legionary",
+  "date_added": "2020-03-11T12:00:00Z",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "SS",
+    "minotaur": "SS",
+    "force_dungeon": "C",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "S",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "S",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "C",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "SS",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "lordly-legionary",
+  "characteristics": {
+    "60": {
+      "hp": 15030,
+      "attack": 1354,
+      "defense": 947,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Press the Fight",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target is under a 50% [Heal Reduction] debuff. Places 2 extra hits if the target is under a 100% [Heal Reduction] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%",
+      "slug": "press-the-fight",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5000_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "caa0996a31954d5114baed8eaca06e5c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Outflank",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Decreases the target’s Turn Meter by 20% if the [Decrease SPD] debuff is placed.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%<br>Level 7: Cooldown -1",
+      "slug": "outflank",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/effects/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5000_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "a0178152cb6f29071f0ec272fb8f32d0",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Legion’s Orders",
+      "raw_description": "Places a 30% [Reflect Damage] buff and a 15% [Continuous Heal] buff on all allies for 2 turns<br>Level 2: Cooldown -1",
+      "slug": "legion-s-orders",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
+          "website_link": "/effects/reflect-damage",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Reflect Damage"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5000_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "eed707ee1b23468f2d91606f90ca0a50",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/lordly-legionary/",
+  "image_slug": "image-champion-lordly-legionary",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lordly Legionary is a epic attack champion from the faction Banner-Lords doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Lordly Legionary",
+      "lordly-legionary"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Lordly Legionary is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-lordly-legionary.jpg",
+        "name": "Lordly Legionary",
+        "url": "https://raid-codex.com/champions/lordly-legionary/"
+      }
+    ]
+  },
+  "default_description": "Lordly Legionary is a epic attack champion from the faction Banner-Lords doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>It is said the Banner Lords of the Kingdom of Kaerok are very fond of creating societies and fraternities among their number; it allows the nobles to distinguish themselves in the eyes of their peers, raises their social status – if the ‘secret’ society garners enough influence and prestige – and keeps bored Knights entertained. However, some of these groups are gathered for genuine and honourable purposes, such as protecting the vast lands of Kaerok from various foes that threaten the King’s realm. Much like Sacred Order that had in ages past been formed from Kaerokan Knights, the Legion is an Order of warriors dedicated to the service of Lumaya. Unlike the Templars and other servants of the Sacred Order, however, they do not forsake the vows of feudal fealty and continue serving the King of Kaerok. Still, Legionaries draw on the lore and traditions of old and seek to live a life of humble piety. Even lowborn commoners are accepted into their ranks – a scandalous decision that significantly damaged the Legion’s popularity and reputation among the Banner Lords themselves. The nobility that does join often comprises young Knights who have nothing to their name, or those whose family’s fortune had long been lost. However, there are those who willingly forsake grand estates and untold riches in the name of Lumaya. These individuals make up some of the most determined and righteous warriors of the Legion, and their military expertise would benefit any Summoner who manages to recruit one such warrior.</p>",
+  "giid": "5000",
+  "synergy": [],
+  "thumbnail": "a35fe7f7fe8217b4369a0af4244d1fca",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "decrease-spd",
+    "decrease-turn-meter",
+    "heal-reduction-2",
+    "reflect-damage-2"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "NS6DNw9ummQ",
+      "author": "Hellhades",
+      "date_added": "2020-05-05T10:07:35Z"
+    }
+  ]
+}

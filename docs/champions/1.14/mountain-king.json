@@ -1,0 +1,563 @@
+{
+  "name": "Mountain King",
+  "date_added": "2019-08-08T22:31:01+02:00",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "C",
+        "arena_offense": "SS",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "C",
+        "fire_knight": "A",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "C",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "A",
+        "clan_boss_with_giant_slayer": "A",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "mountain-king",
+  "characteristics": {
+    "60": {
+      "hp": 31050,
+      "attack": 1432,
+      "defense": 1112,
+      "speed": 85,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 90,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Thunder Cleave",
+      "raw_description": "Attacks 1 enemy.<br>Damage based on: [ATK][HP]",
+      "slug": "thunder-cleave",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4270_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ef227f9bd7ee9bd44ce8dfc0b0c3352c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Enchanted Axe",
+      "raw_description": "Attacks 1 enemy.<br>Ignores 50% of the targer's DEF.<br>Damage based on: [ATK][HP]",
+      "slug": "enchanted-axe",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4270_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "c145172d8ccb1aad42f44f6cb646127c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Regal Force",
+      "raw_description": "Attacks 1 enemy.<br>Ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK][HP]",
+      "slug": "regal-force",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "4270_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "75d2336f3a149817ca38d9dad91a5148",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Fabled Skill",
+      "raw_description": "Increases this Champion's ATK by 50% each time this Champion kills an enemy. Stacks up to 100%. Resets each round.",
+      "slug": "fabled-skill",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4270_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "76d77ce2d001871fdc0b19adc7c8ee38",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "date_added": "2019-08-08T22:31:01+02:00",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 25,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 25 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe.",
+    "champion_slugs": []
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/mountain-king/",
+  "image_slug": "image-champion-mountain-king",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Mountain King is a legendary attack champion from the faction Dwarves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Mountain King",
+      "mountain-king"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Mountain King is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-mountain-king.jpg",
+        "name": "Mountain King",
+        "url": "https://raid-codex.com/champions/mountain-king/"
+      }
+    ]
+  },
+  "default_description": "Mountain King is a legendary attack champion from the faction Dwarves doing force damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "life",
+        "life",
+        "life"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "defense",
+        "defense",
+        "defense"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "HP%",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Speed",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Resist",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>There are few sights as magnificent and terrifying as the Mountain King at the head of a Dwarven Army. By right of birth and by right of might, he is the sovereign of all Dwarvenkind, the undisputed ruler of all that lies beneath Mountains of Despair. His warlike bellow leads his kin to ever-greater feats of valour, and his skill is rightly feared by Ogryn and Demon alike. Still a young Prince, he had fought and slain a would-be king of the bloodthirsty Ogryns that sought to carve their domain from the outlying – and defenseless, as they imagined in their hubris – lands of the Dwarves. Later, he rallied his kindred against the forces of Siroth and personally defeated countless foes and the foul Demon that led the invasion. Now, he marches forth with the vanguard of the Dwarves for it is the King’s duty to assure his people remain safe and all who dare threaten them are thwarted. Armed with an axe that is said to have belonged to the progenitor of all the Dwarves, the Mountain King scatters his foes left and right with the fury of an awakened volcano. No armour can be enough to stop his fearsome weapon, not even powerful protective magic can turn it aside. To win the King’s respect and assistance is difficult, as is always the case with Dwarves, but his strength would be an undeniable asset to the Champions of Lumaya.</p>",
+  "giid": "4270",
+  "synergy": [],
+  "thumbnail": "39b8f721582654655a6999aabe905204",
+  "tags": [
+    "CHAMPION_UPDATED_20190809",
+    "NEW_CHAMPION_20190808",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "cycle-of-violence",
+        "deadly-precision",
+        "flawless-execution",
+        "keen-strike",
+        "ruthless-ambush",
+        "shield-breaker",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "cycle-of-revenge",
+        "defiant",
+        "delay-death",
+        "deterrence",
+        "improved-parry",
+        "stubborness"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-damage",
+    "shield"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "_yO32VSYfHc",
+      "author": "MurderInc",
+      "date_added": "2020-03-01T08:16:29.000Z"
+    }
+  ]
+}

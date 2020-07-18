@@ -1,0 +1,262 @@
+{
+  "name": "Ogryn Jailer",
+  "date_added": "2019-10-12T20:59:03+02:00",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "C",
+    "force_dungeon": "A",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "C",
+        "campaign": "B",
+        "arena_offense": "B",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "D",
+        "clan_boss_with_giant_slayer": "D",
+        "ice_guardian": "C",
+        "dragon": "C",
+        "spider": "D",
+        "fire_knight": "D",
+        "minotaur": "C",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "B",
+        "void_dungeon": "C",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "C",
+        "dragon": "B",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "C",
+        "force_dungeon": "S",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "ogryn-jailer",
+  "characteristics": {
+    "60": {
+      "hp": 11235,
+      "attack": 1299,
+      "defense": 980,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in Dungeons by 20",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 20,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Lockdown",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of removing 1 random buff from the target.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Buff/Debuff Chance +10%",
+      "slug": "lockdown",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4050_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a811e2530e2935b4308ee17faeb77f59",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Confiscate",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of stealing 2 random buffs from the target. places an extra hit if any buff is stolen.<br>Damage Based on: [ATK]<br>Level 2 Damage +10%<br/>Level 3 Damage +10%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Buff/Debuff Chance +10%<br/>Level 6 Buff/Debuff Chance +15%<br/>Level 7 Cooldown -1 ",
+      "slug": "confiscate",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4050_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "99bda95dba1c5130ff1ba0e478a695b6",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Reprisal",
+      "raw_description": "Attacks 1 enemy. Damage increases by 20% if the target has no active buffs.<br>Damage Based on:[ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damagel +15% <br/>Level 5 Cooldown -1",
+      "slug": "reprisal",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4050_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "1cad2ce28ccaedc8e3b8c3542ef2e590",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn-Tribes",
+    "slug": "ogryn-tribes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/ogryn-tribes/",
+    "image_slug": "image-faction-ogryn-tribes",
+    "number_of_champions": 29,
+    "default_description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn-Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn-Tribes",
+        "ogryn-tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia.",
+    "champion_slugs": []
+  },
+  "faction_slug": "ogryn-tribes",
+  "website_link": "/champions/ogryn-jailer/",
+  "image_slug": "image-champion-ogryn-jailer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ogryn Jailer is a rare attack champion from the faction Ogryn-Tribes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ogryn Jailer",
+      "ogryn-jailer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn-Tribes"
+        },
+        "description": "Member of the faction Ogryn-Tribes, Ogryn Jailer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ogryn-jailer.jpg",
+        "name": "Ogryn Jailer",
+        "url": "https://raid-codex.com/champions/ogryn-jailer/"
+      }
+    ]
+  },
+  "default_description": "Ogryn Jailer is a rare attack champion from the faction Ogryn-Tribes doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Ogryns are often not the smartest creatures, but there are many tasks and duties where brawn matters more than brains. Arguably, the position of a jailer does require some intellect – lest some dashing rogue tricks them into handing over the keys – but no one can deny the gravity of the intimidation factor that a warden of this sort (and size!) brings to the table. As if that was not enough, this particular Ogryn had been given the means of handling prisoners who either have a talent for magic or are in possession of magical artifacts. The runes carved into his flesh are terrible to behold, but they let this morose creature syphon the magic from his charges. And, sometimes, even turn it to strengthen himself.</p>",
+  "giid": "4050",
+  "synergy": [],
+  "thumbnail": "385822e359afa26d52b5b286226f2cea",
+  "tags": [
+    "NEW_CHAMPION_20191010"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-alika",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-cillian-the-lucky-necrohunter",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [],
+  "videos": []
+}

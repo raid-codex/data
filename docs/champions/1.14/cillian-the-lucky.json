@@ -1,0 +1,476 @@
+{
+  "name": "Cillian the Lucky",
+  "date_added": "2020-03-11T12:00:00Z",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "S",
+    "minotaur": "SS",
+    "force_dungeon": "C",
+    "magic_dungeon": "SS",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "B",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "SS",
+        "dragon": "A",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "C",
+        "magic_dungeon": "SS",
+        "spirit_dungeon": "SS",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "S",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "cillian-the-lucky",
+  "characteristics": {
+    "60": {
+      "hp": 13215,
+      "attack": 1432,
+      "defense": 1266,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 25%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Trip Up",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 35% chance of stealing 30% of the target’s current Turn Meter.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%",
+      "slug": "trip-up",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4970_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "f114bc485924411f95b4572898405a4e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Inflict Misfortune",
+      "raw_description": "Attacks 1 enemy. Has an 85% chance of placing a [Block Cooldown Skills] debuff for 4 turns. Also has a 35% chance of placing a [Block Cooldown Skills] debuff on all other enemies for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
+      "slug": "inflict-misfortune",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4970_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "5bfb9d8748b4f0d09e0b62933acedb64",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Head Ringer",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn. Has a 25% chance of placing the [Stun] debuff for 2 turns instead and stealing 50% of the target’s current Turn Meter. Resets the cooldown of this Skill if the target is killed.<br>Damage based on: [ATK]<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +15%<br>Level 4: Damage +20%<br>Level 5: Cooldown -1<br>Level 6: Cooldown -1",
+      "slug": "head-ringer",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4970_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "420ebd165bee72f485ead5e14f087374",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Charmed Life",
+      "raw_description": "Places one of the following buffs on this Champion for 2 turns at the start of each turn: a 50% [Increase ATK] buff, a 30% [Increase C.DMG] buff, a 30% [Increase C.RATE] buff, a 25% [Strengthen] buff, or a [Block Damage] buff.",
+      "slug": "charmed-life",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/effects/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4970_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "8ba6c711ddb2b8386540d93072602266",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Banner-Lords",
+    "slug": "banner-lords",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/banner-lords/",
+    "image_slug": "image-faction-banner-lords",
+    "number_of_champions": 44,
+    "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 44 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner-Lords",
+        "banner-lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll.",
+    "champion_slugs": []
+  },
+  "faction_slug": "banner-lords",
+  "website_link": "/champions/cillian-the-lucky/",
+  "image_slug": "image-champion-cillian-the-lucky",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cillian the Lucky is a legendary attack champion from the faction Banner-Lords doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cillian the Lucky",
+      "cillian-the-lucky"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner-Lords"
+        },
+        "description": "Member of the faction Banner-Lords, Cillian the Lucky is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cillian-the-lucky.jpg",
+        "name": "Cillian the Lucky",
+        "url": "https://raid-codex.com/champions/cillian-the-lucky/"
+      }
+    ]
+  },
+  "default_description": "Cillian the Lucky is a legendary attack champion from the faction Banner-Lords doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>The lands of Teleria are never short of Champions, albeit not all of them fit the idealized tales of stalwart heroes or dreaded villains. Just like some warriors forge their legends in battle with peerless talent, so too some stumble into the spotlight through sheer dumb luck. This is one such tale. Sir Cillian was never blessed with an impressive stature or any particular grace. He ever was, as he is now, portly and cheerful, far more interested in attending the next feast than winning glory on the field of battle. As a page in the service of Sir Fadrique – an exalted Knight of Kaerok – Cillian was the least talented student of all arts martial. He was awkward and clumsy with the sword, could not hit a target with a bow if it was set more than ten paces away from him, and could barely ride a horse without falling over his head. He was ridiculed by his peers and mercilessly berated by his tutors, though no amount of beating could awaken the talents that were simply not there. One fateful day, Cillian’s impressive display of ineptitude made him the target of the Lord’s ire and he was forced to flee the castle. He sought to hide in the woods that surrounded Fadrique’s ancestral estate and, true to his nature, lost his way mere minutes after entering the forest thicket. Hapless, he roamed the overgrown paths for hours upon hours until finally coming across a hidden glade. There were voices coming from the glade, pure and clear, elated as they sang the songs of joy. Mesmerized by the beautiful music, Cillian made his way to the glade, and what he saw there would change his life forever. Dancing ‘round a mighty oak that grew in the very middle of the glade and clad in clothes of bright colours were the forest faes, their voices joining together to praise the rebirth of nature that spring brought. Cillian was dumbfounded and froze on the spot, observing the jubilant spirits for what seemed like an eternity before a drowse overtook him and he fell into a deep slumber. When he woke up, the faes were gone as if they never existed and, at first, Cillian assumed he had dreamt it all up. But, as he got up to his feet, something slipped off his chest and onto the ground beneath. The young page leaned over to find a four-leaf clover of such a vibrant green it stood out immediately in the fresh grass that covered the forest floor. Not one to let a bit of luck go to waste, he gathered the leaf and hurried away from the glade. From that day onward, Cillian’s every undertaking was blessed with uncanny fortune. He found his way back home without stumbling off the correct path even once, and in the days that followed he somehow managed to pass every single test he had failed before. His opponents would stumble and fall, his arrows would find their mark no matter how laughable his technique was, and he eventually lucked his way to Knighthood. As a Knight of Kaerok, Sir Cillian won many a joust when the horses of his rivals veered off course or rose to their haunches inexplicably a second before his lance dislodged their rider to the cheerful applause of the observing crowds. So too did many foes find their end in the most undignified way, such as Xensor the Grim – an infamous necromancer – tripping over his own cloak and stumbling off the edge of his tower moments before unleashing a deadly spell upon Sir Cillian. Or the Orc chieftain Arzhak the Bloodthirsty, whose band of raiders terrorized an entire Duchy for years, falling victim to a swarm of angry hornets when Sir Cillian accidentally dislodged their nest upon Arzhak’s head. Of course, the commoners care little what force ensures their hero’s success, and over the years Cillian’s tale grew and spread far and wide. To this day he remains a beloved and famed Knight, whose deeds are eclipsed only by his love for ale and song.</p>",
+  "giid": "4970",
+  "synergy": [],
+  "thumbnail": "f1ea154c843f7cf3677db7ce922a2d17",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-cillian-the-lucky",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "block-damage",
+    "decrease-spd-2",
+    "increase-atk-2",
+    "increase-c-dmg-2",
+    "increase-c-rate-2",
+    "increase-turn-meter",
+    "strengthen-2",
+    "stun"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "0_TAdhbTSIk",
+      "author": "MurderInc",
+      "date_added": "2020-03-13T11:34:54.000Z"
+    },
+    {
+      "source": "youtube",
+      "id": "pfxAdrLfvw0",
+      "author": "Hellhades",
+      "date_added": "2020-03-14T13:29:35.000Z"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "name": "Umbral Enchantress",
+  "date_added": "2019-11-16T22:59:28+01:00",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Def",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "S",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "S",
+    "void_dungeon": "S",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "D",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "SS",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "S",
+        "minotaur": "S",
+        "force_dungeon": "S",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "SS",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "umbral-enchantress",
+  "characteristics": {
+    "60": {
+      "hp": 20640,
+      "attack": 870,
+      "defense": 1057,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Essence Scepter",
+      "raw_description": "Attacks 1 enemy. Damage is proportional to this Champion's current HP.<br><br>Damage based on: [DEF]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +5%<br/>Level 5 Damage +5%",
+      "slug": "essence-scepter",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3520_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "36a235a9658db50622457777842efecd",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Immolate",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Block Buffs] debuff for 3 turns.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff Chance +10%<br/>Level 6 Buff/Debuff Chance +10%",
+      "slug": "immolate",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3520_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "e94eff3afbeb467b052a45511eacd8f3",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Undying Evil",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a [Provoke] debuff for 2 turns. Places an [Unkillable] buff on this Champion for 2 turns. Places a [Block Cooldown Skills] debuff on this Champion for 5 turns. The [Block Cooldown Skills] debuff cannot be resisted or blocked and cannot be removed.<br>Damage based on: [DEF]<br><br>Level 2 Damage +10%<br/>Level 3 Damage +10%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Buff/Debuff Chance +10%",
+      "slug": "undying-evil",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/effects/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Unkillable"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3520_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "53f039b37cbadb1ab4472e0b74fc04db",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 32,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal",
+    "champion_slugs": []
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/umbral-enchantress/",
+  "image_slug": "image-champion-umbral-enchantress",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Umbral Enchantress is a epic def champion from the faction Demonspawn doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Umbral Enchantress",
+      "umbral-enchantress"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Umbral Enchantress is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-umbral-enchantress.jpg",
+        "name": "Umbral Enchantress",
+        "url": "https://raid-codex.com/champions/umbral-enchantress/"
+      }
+    ]
+  },
+  "default_description": "Umbral Enchantress is a epic def champion from the faction Demonspawn doing void damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "accuracy",
+        "life",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Defense%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy",
+            "Resist"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Defense%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Resist"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>A creature of eerie beauty and inexhaustible malice, the Umbral Enchantress is a cunning foe to face. She is a Countess of Siroth’s legions and has a well over a hundred lesser demons at her beck and call, but she does not often hide behind the backs of her minions either. Those bold enough to face the Enchantress find themselves under her vile spell, unable to receive the boons and blessings their artifacts or allies might provide. Their wits fail them as well, clouded by the Enchantress’ guile. It is said that the Umbral Enchantress had a mighty rival among her dark kin, a Baron who believed himself unmatched as a warrior and craved to advance through the demonic hierarchy. His mistake was believing the Enchantress weak and unworthy of her position. When tempers boiled and challenges turned to open battle, that arrogant champion found himself powerless and enthralled, consumed by his rage and hacking away at the Enchantress without finesse or strategy. She had slain the Baron easily and fashioned his skull into a decoration for her shield, there to remind everyone of the folly of challenging her.</p>",
+  "giid": "3520",
+  "synergy": [],
+  "thumbnail": "6c0958d82a830a02c0718147b1b565c1",
+  "tags": [
+    "NEW_CHAMPION_20191115"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "single-out"
+      ],
+      "defense": [],
+      "support": [
+        "charged-focus",
+        "eagle-eye",
+        "evil-eye",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-brakus-the-shifter",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-umbral-enchantress",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "block-buffs",
+    "block-cooldown-skills",
+    "provoke",
+    "unkillable"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "JpSLzJtjCkI",
+      "author": "Hellhades",
+      "date_added": "2020-01-01T17:20:24+01:00"
+    }
+  ]
+}

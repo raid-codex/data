@@ -1,0 +1,302 @@
+{
+  "name": "Cudgeler",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "A",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "A",
+        "minotaur": "B",
+        "force_dungeon": "C",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "A",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "",
+        "campaign": "",
+        "arena_offense": "",
+        "arena_defense": "",
+        "clan_boss_without_giant_slayer": "",
+        "clan_boss_with_giant_slayer": "",
+        "ice_guardian": "",
+        "dragon": "",
+        "spider": "",
+        "fire_knight": "",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "cudgeler",
+  "characteristics": {
+    "60": {
+      "hp": 14205,
+      "attack": 1178,
+      "defense": 903,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "The Harder They Fall",
+      "raw_description": "Attacks 1 enemy 2 times. Has an additional 30% chance of incliting a critical hit if the target is under a [Decrease DEF] debuff.<br>Damage based on: [ATK]",
+      "slug": "the-harder-they-fall",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4670_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "2efc37810e7b2fe688fddfe787690bc1",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Soften Them Up",
+      "raw_description": "Places a [Counterattack] and a 25% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn",
+      "slug": "soften-them-up",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/effects/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Counterattack"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4670_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "c9bbe7e4cac178f89884cbf4430c7b28",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Furious Defense",
+      "raw_description": "Has a 20% chance of placing a 30% [Decrease DEF] debuff for 2 turns when attacking targets with higher DEF than this Champion. Has a 20% chance of decreasing the damage taken by 20% when attacked by enemies with higher ATK than this Champion",
+      "slug": "furious-defense",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4670_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "7682f61373104f842118ceb923aecaf2",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "date_added": "2019-08-08T22:31:01+02:00",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 25,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 25 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe.",
+    "champion_slugs": []
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/cudgeler/",
+  "image_slug": "image-champion-cudgeler",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cudgeler is a rare attack champion from the faction Dwarves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cudgeler",
+      "cudgeler"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Cudgeler is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cudgeler.jpg",
+        "name": "Cudgeler",
+        "url": "https://raid-codex.com/champions/cudgeler/"
+      }
+    ]
+  },
+  "default_description": "Cudgeler is a rare attack champion from the faction Dwarves doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>The Cudgelers are a small but unique warrior guild that has carved its niche in the Dwarven society. They eschew heavy armour so beloved by their kin and fashion their hair in a style that is clearly influenced by foreign traditions – something that is almost unthinkable for a proper Dwarf. Their weapon of choice is also unusual – a double-handed staff with two mace-like crowns. This they wield with expert precision, deflecting and counterattacking in a frightening flurry of swings and swipes. Legend has it that the founder of the guild – an adventurer whose name had long been lost to history – travelled far and wide, learning what he could of various cultures and their ways of war. None, however, captured his heart quite like the martial arts of the Mysterious East – a land said to lie far beyond the accursed Brimstone Pass and the roiling seas that separate continents. Upon his return, the bold adventurer wished for nothing more than to share his knowledge so that his kin be strengthened by it. And while the isolationist tendencies of the Dwarves made it difficult, he eventually founded a warrior guild – one that would carry his teachings on through the centuries.</p>",
+  "giid": "4670",
+  "synergy": [],
+  "thumbnail": "d6a2be6d87d35c6d161fde16f21a5864",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-cillian-the-lucky-jinglehunter",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-fang-cleric",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-azure",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "counterattack",
+    "decrease-def",
+    "increase-atk"
+  ],
+  "videos": []
+}

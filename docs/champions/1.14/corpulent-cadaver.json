@@ -1,0 +1,304 @@
+{
+  "name": "Corpulent Cadaver",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "S",
+        "force_dungeon": "A",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "C",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "A",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "corpulent-cadaver",
+  "characteristics": {
+    "60": {
+      "hp": 20640,
+      "attack": 617,
+      "defense": 1035,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all Battles by 15%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 15,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Crushing Mass",
+      "raw_description": "Attacks 1 enemy. Inflicts additional damage if this Champion is under a [Shield] buff. The damage is equal to 30% of the value of the [Shield].<br>Damage based on: [HP]",
+      "slug": "crushing-mass",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4410_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "144184558351755a3d65273ae378954e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Disgusting Display",
+      "raw_description": "Places a [Shield] buff on this Champion equal to 20% of their MAX HP for 3 turns. Grants an Extra Turn",
+      "slug": "disgusting-display",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4410_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9771560cb686c241f22168839b03b842",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Baleful Tenacity",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a [Provoke] debuff for 2 turns.<br>Damage based on: [HP]",
+      "slug": "baleful-tenacity",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4410_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "16d9b08a36d9c387f8b0acf4d7d0ce59",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 48,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 48 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time.",
+    "champion_slugs": []
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/corpulent-cadaver/",
+  "image_slug": "image-champion-corpulent-cadaver",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Corpulent Cadaver is a rare attack champion from the faction Undead Hordes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Corpulent Cadaver",
+      "corpulent-cadaver"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Corpulent Cadaver is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-corpulent-cadaver.jpg",
+        "name": "Corpulent Cadaver",
+        "url": "https://raid-codex.com/champions/corpulent-cadaver/"
+      }
+    ]
+  },
+  "default_description": "Corpulent Cadaver is a rare attack champion from the faction Undead Hordes doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>The Mage-Barons of Narbuk are known to indulge in a variety of vile practices, some even daring to dabble in necromancy and other Dark Arts. Though such indulgences are never meant to be flaunted in public, the unfortunate truth is that their power and wealth will more often than not protect the nobility from any repercussions. And the benefits of employing some of the exotic and potent magic are impossible to deny. Early in King Tayba’s rule, a particular fancy seemed to have overtaken the city. Many of the Barons sought to employ Undead minions to guard their treasuries and vaults, but not just any Undead minions – those would be too trivial and cliche – they wished to see hulking reanimated Ogryn cadavers, empowered by alchemy and adorned with decorative armour that contrasted so well with their hideous appearance. No one can say for certain who started the fad, but it spread swiftly, and soon enough almost every Mage-Baron worth their salt had a small cohort of these monstrosities obeying their every whim. Of course, the creatures are not without their flaws. Much like live Ogryn, their new reanimated iteration are well-known for the rancid smell and the lack of grace. But what they lack in appearance, these Corpulent Cadavers make up for with their sheer unfaltering fortitude. If killing an Ogryn is hard, one can only imagine how much harder it is to kill an Ogryn who is already dead.</p>",
+  "giid": "4410",
+  "synergy": [],
+  "thumbnail": "ea96efc03b9a050d895110db8c4af057",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-seneschal",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-fang-cleric",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "provoke",
+    "shield"
+  ],
+  "videos": []
+}

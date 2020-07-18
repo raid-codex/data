@@ -1,0 +1,268 @@
+{
+  "name": "Soulbond Bowyer",
+  "date_added": "2020-02-13T13:00:00Z",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "SS",
+    "minotaur": "SS",
+    "force_dungeon": "SS",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "S",
+    "void_dungeon": "SS",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "S",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "A",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "SS",
+        "dragon": "S",
+        "spider": "A",
+        "fire_knight": "SS",
+        "minotaur": "SS",
+        "force_dungeon": "SS",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "S",
+        "void_dungeon": "SS",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "SS",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "S",
+        "dragon": "A",
+        "spider": "SS",
+        "fire_knight": "SS",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "soulbond-bowyer",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 1255,
+      "defense": 870,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C.RATE in all Battles by 12%",
+      "effects": [],
+      "stats": [
+        "C.RATE"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 12,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Ancestral Guidance",
+      "raw_description": "Attacks all enemies. Has an additional 25% chance of inflicting a critical hit.<br>Damage based on: [ATK]",
+      "slug": "ancestral-guidance",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4440_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "d31de204f12538df55165229f13d090e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Infused Arrow",
+      "raw_description": "Attacks 1 enemy. Has an additional 25% chance of inflicting a critical hit. Will ignore 75% of the target's DEF<br>Damage based on: [ATK]",
+      "slug": "infused-arrow",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4440_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "29b638e42ac5d5ace38bfe347c21cc0d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Soulbound Shot",
+      "raw_description": "Attacks 1 enemy. Has an additional 25% chance of inflicting a critical hit. Also has 75% chance of fully depleting the target's Turn Meter",
+      "slug": "soulbound-shot",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4440_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "2108a1b0b97ff20e59f7a737271d70cd",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 43,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 43 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/soulbond-bowyer/",
+  "image_slug": "image-champion-soulbond-bowyer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Soulbond Bowyer is a rare attack champion from the faction Barbarians doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Soulbond Bowyer",
+      "soulbond-bowyer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Soulbond Bowyer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-soulbond-bowyer.jpg",
+        "name": "Soulbond Bowyer",
+        "url": "https://raid-codex.com/champions/soulbond-bowyer/"
+      }
+    ]
+  },
+  "default_description": "Soulbond Bowyer is a rare attack champion from the faction Barbarians doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>With the Krokhan Desert becoming a true melting pot of cultures, it is no wonder that various traditions and rituals are passed from one Barbarian tribe or clan to another, mixing with superstition that had existed for hundreds of years or being changed to new unrecognizable forms. One such curious ritual is called Soul Binding, and it comes from the lands far beyond the Southern seas. It is dangerous and often misinterpreted by inexperienced shamans, but when properly completed it has the potential to make a single warrior much deadlier. First, however, that warrior must survive an intense concoction of narcotic herbs and poison that puts them into a trance while the shamans chant and call upon the spirits of the dead. Should they be successful, the warrior’s Ancestors are called into being and can provide him or her with blessing and protection. But disturbing the dead is a delicate matter, it is entirely possible to summon malevolent beings from beyond the grave – spectres of hatred and hunger, wishing nothing more than to devour the hapless Barbarians who dared disturb their slumber. Still, warriors who have successfully undergone Soul Binding are noted for their almost unnatural luck. Their spears and arrows find even the smallest chinks in heavy armour with contemptuous ease, their attacks cripple and wrongfoot the foe, and even their allies seem to benefit from this good fortune as long as the fight by the Soulbond’s side.</p>",
+  "giid": "4440",
+  "synergy": [],
+  "thumbnail": "7f2be1b45d278ac18804b79207a24c53",
+  "tags": [
+    "20200213_NEW_CHAMPION"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-gurptuk-moss-beard-catacomb-councilor",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-rotos-the-lost-groom-sepulcher-sentinel",
+      "fusion_type": "ingredient"
+    }
+  ],
+  "effect_slugs": [
+    "decrease-turn-meter"
+  ],
+  "videos": [
+    {
+      "source": "youtube",
+      "id": "352-0W6hVoA",
+      "author": "Hellhades",
+      "date_added": "2020-03-18T11:29:34.000Z"
+    }
+  ]
+}

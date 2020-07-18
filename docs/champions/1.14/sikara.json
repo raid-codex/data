@@ -1,0 +1,436 @@
+{
+  "name": "Sikara",
+  "date_added": "2019-07-27T16:04:13+02:00",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "C",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "xentago-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "A",
+        "fire_knight": "C",
+        "minotaur": "B",
+        "force_dungeon": "B",
+        "magic_dungeon": "B",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 1
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "A",
+        "campaign": "S",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "S",
+        "dragon": "S",
+        "spider": "S",
+        "fire_knight": "B",
+        "minotaur": "S",
+        "force_dungeon": "C",
+        "magic_dungeon": "S",
+        "spirit_dungeon": "S",
+        "void_dungeon": "S",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "A",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "B",
+        "clan_boss_with_giant_slayer": "B",
+        "ice_guardian": "A",
+        "dragon": "S",
+        "spider": "B",
+        "fire_knight": "B",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "sikara",
+  "characteristics": {
+    "60": {
+      "hp": 19485,
+      "attack": 804,
+      "defense": 1200,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Followup Volley",
+      "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 25% if this attack is critical.<br>Damage based on: [ATK]",
+      "slug": "followup-volley",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "5e8d94210d684337e5a60d7b4a614600",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Aura Puncture",
+      "raw_description": "Attacks all enemies 3 times. Each hit has a 40% chance of removing 1 random buff from the target.<br>Damage based on: [ATK]",
+      "slug": "aura-puncture",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "c2057a53d841ed2d7cd780d9ffc0319d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Enfeebing Tips",
+      "raw_description": "Attacks all enemies. Has a 60% chance of placing a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "enfeebing-tips",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "14d4e49400daf1bcf11514a250030eb2",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Devoted Sister",
+      "raw_description": "Revives this Champion with 75% HP when killed. Only available when Alika is on the same team",
+      "slug": "devoted-sister",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3260_s4",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "7a0234d88b2d66411bee23ecf5194bfb",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 43,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 43 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/sikara/",
+  "image_slug": "image-champion-sikara",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sikara is a epic assist champion from the faction Barbarians doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sikara",
+      "sikara"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Sikara is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sikara.jpg",
+        "name": "Sikara",
+        "url": "https://raid-codex.com/champions/sikara/"
+      }
+    ]
+  },
+  "default_description": "Sikara is a epic assist champion from the faction Barbarians doing magic damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [],
+      "sets": [
+        "offense",
+        "offense",
+        "offense",
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Critical Rate",
+          "additional_stats": [
+            "Attack%",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Attack%",
+          "additional_stats": [
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Accuracy"
+          ]
+        },
+        "ring": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Critical Damage",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Speed",
+            "Accuracy"
+          ]
+        },
+        "banner": {
+          "main_stat": "Accuracy",
+          "additional_stats": [
+            "Attack%",
+            "Critical Rate",
+            "Critical Damage",
+            "Speed"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "<p>Blood is stronger than steel. So say the Barbarian tribes that roam the scorched wastes of the Krokhan Desert. For while the steel of invading armies may have triumphed and forced them off their lands, it was never able to scatter the tight-knit tribes or make them forsake who they are. And one would struggle to find a finer representation of that maxim than the two sisters – Alika and Sikara. Born to a fairly privileged life of their Clan’s nobility, these two were still required and very eager to walk the path of the warrior. Trained from a young age to wield a bow and stalk the dunes unseen, they were well on their way to join the ranks of the most feared archers in Teleria. And it was their first real skirmish that would define their shared fate. What was meant to be a simple scouting foray into the desert turned into a desperate last stand when the small Barbarian force ran into a full detachment of the dreaded Knights Revenant, led by a necromancer. The sisters, who were barely regarded above children, have shown their mettle from the first moments of the battle. Though outnumbered and forced to retreat into a ruined fort, they struck down foe after foe with their arrows, each shot coordinated with precision that belied their years and put their peers to shame. But the dark magic of their foe was not easy to overcome. Slain enemies rose again and again, their bodies serving the necromancer’s will despite every attack being broken against the brave handful. With a runner sent back to the Clan to warn them of the impending attack, there was little left for the nomadic warriors but stand and fight. And so they did, holding through the night and into the first lights of dawn. Their fate was sealed from the start and the reinforcements that hurried to the site of battle hoped for nothing more than bloody vengeance. And yet, to their bafflement, they have found their kin victorious. Most have fallen heroically, but Alika and Sikara still drew breath despite grievous injuries. Undead littered the sands all around them, the body piles growing around the wounded sisters. And the necromancer that led the bold invasion was there among his minions – with two arrows piercing his black heart. Soon passed into the care of the Clan’s best shamans and healers, both Alika and Sikara survived, their bond stronger than ever before. From now on, the two have become inseparable on the battlefield. Indeed, few foes can survive their joint arrow volleys, fewer still can hope to bring the sisters low when they are fighting for one another.</p>",
+  "giid": "3260",
+  "synergy": [],
+  "thumbnail": "d54ce9de9df77c579775a7b6b1a4bdc0",
+  "tags": [
+    "NEW_CHAMPION_20190726",
+    "OBTAINABLE_SACRED_SHARD"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "warmaster",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-sikara",
+      "fusion_type": "fused"
+    }
+  ],
+  "effect_slugs": [
+    "increase-turn-meter",
+    "weaken-2"
+  ],
+  "videos": []
+}

@@ -1,0 +1,312 @@
+{
+  "name": "Ursine Icecrusher",
+  "date_added": "2020-02-12T12:00:00+01:00",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "C",
+    "void_dungeon": "A",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "A",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "A",
+        "force_dungeon": "A",
+        "magic_dungeon": "A",
+        "spirit_dungeon": "C",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    },
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "B",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "B",
+        "dragon": "A",
+        "spider": "C",
+        "fire_knight": "C",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": ""
+      },
+      "weight": 5
+    }
+  ],
+  "slug": "ursine-icecrusher",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 738,
+      "defense": 1409,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 25%.",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Ravaging Paw",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
+      "slug": "ravaging-paw",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4480_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "0e5592721dc4f002a634dc2a37fa19ee",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Howling Gale",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease C. RATE] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "howling-gale",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-rate-2",
+          "slug": "decrease-c-rate-2",
+          "website_link": "/effects/decrease-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease C. RATE",
+            "Decrease C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4480_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "f7c2a84ccfb847b56d2a975d33330f2d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Shroud of Winter",
+      "raw_description": "Decreases the damage all allies receive from critical hits by 15%. Fills this Champion’s Turn Meter by 5% whenever an enemy lands a normal, strong, or weak hit. ",
+      "slug": "shroud-of-winter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4480_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "44882720421d511b4b8b4c9a53cf6e79",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "date_added": "2019-07-22T23:18:04+02:00",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 25,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 25 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it",
+    "champion_slugs": []
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/ursine-icecrusher/",
+  "image_slug": "image-champion-ursine-icecrusher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Ursine Icecrusher is a epic def champion from the faction Skinwalkers doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Ursine Icecrusher",
+      "ursine-icecrusher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Ursine Icecrusher is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-ursine-icecrusher.jpg",
+        "name": "Ursine Icecrusher",
+        "url": "https://raid-codex.com/champions/ursine-icecrusher/"
+      }
+    ]
+  },
+  "default_description": "Ursine Icecrusher is a epic def champion from the faction Skinwalkers doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Of the savage Norr warriors, there are many tales. Their reckless bravery and disregard for death are legendary even now when most of the Clans have long assimilated into the greater Telerian Kingdoms or were exiled to the arid eastern lands across the Valdemar Strait. But many still survive in the arctic tundra that covers the shores of the Great Northern Sea. And these hardy folk have countless heroes of their own. Centuries ago, when the Norr still ruled over vast swathes of northern lands, two brothers were born to a remote Clan. Arne and Ulf they were named by their father, who hoped it would bestow the virtues of the eagle and the wolf upon the boys. Though he was not wealthy by any measure, the father was a man of war and had taught the brothers everything he knew of battle. As years of hardship and tutelage passed, Arne and Ulf grew up to be mighty warriors in their own right. But, as it so often happens in legends, tragedy struck when it was least expected. At first, a few hunters disappeared when ranging far beyond the Clan’s village. Then old men, women, and even children who ventured outside started vanishing as well. At least two dozen people were lost in the span of a year, and the Clan became desperate. Hunting parties returned with nothing, or did not return at all. Worst of all, many of the disappearances were accompanied by sightings of a strange beast and massive paw prints on the forest trails that surrounded the village. At a glance, the tracks appeared to have belonged to a bear – but the sheer size of them made the beast appear truly gigantic. The Clan’s venerable shaman disappeared for days, communing with the spirits through means known only to him and his apprentice. When he returned, the old man announced that a terrible curse had befallen the village – a mighty beast, corrupted by the power of evil, roamed the forests in search of human flesh. He claimed that no mortal hand could slay such a foe, yet the Clan’s hot-blooded young warriors disagreed. Arne and Ulf rose to the fore of that ambitious group. Inspired by the sagas of great heroes, they would hear no more of the shaman’s warnings – their own legend was there, just waiting to be forged, and their Clan would not survive if the monster were to be left unchecked. And so the youth set out into the forests, arming themselves with every weapon they could find in the village. For a fortnight the warriors hunted, but their quarry had proven to be a cunning one. The monstrous bear avoided a direct confrontation with the would-be slayers. Instead, it attacked those warriors who strayed from their kin, dragged some away in the dead of night, and led the Norr on a deadly chase through the thickest forest. It seemed like the hunt was doomed, the survivors fortunate if they even got out of the forest alive. But the brothers were not daunted by adversity or by the horrors their foe inflicted on their group. They pressed onwards, using every ounce of the hunter’s skill their father had taught them, to track down the beast to its lair. Eventually, they found it at the very center of the forest, where the trees were gnarled and twisted by dark magic – it was there the bear made its den. Cornered at last, it attacked the Norr hunters with all its fury, and slew several in the first brutal moments of the battle. But the brave warriors weathered this assault and attacked the beast with spear and bow. Though many more fell soon after, the dread bear too suffered. At long last, only Ulf and Arne were left standing, bleeding from countless injuries wrought by tooth and claw, but defiant. As one, they attacked the beast, and while Ulf distracted it, Arne drove his spear through the bear’s black heart. With a final roar of fury, it collapsed on the ground, dead. It was then the two brothers finally allowed their wounds to get the better of them and rested their backs against a mighty old oak. They knew that with their kin dead and their lifeblood ebbing away they too would not survive long. Neither Arne nor Ulf cried out against this fate, for with the monster slain their Clan was safe. They were about to commend their souls to the Ancestors when a woman dressed in the purest white and gold appeared before them, her arrival heralded by blinding light. The Arbiter, as the stranger called herself, revealed a terrible truth. While the brothers thought they had laid down their own lives to slay the beast, the wounds inflicted upon them were worse than mortal. The beast’s curse flowed through their veins and in barely a day’s time they would awaken as little more than bloodthirsty monsters themselves. The Arbiter claimed she could not stop the transformation, albeit it was within her power to save the brothers’ minds and souls – in exchange for their service. Though furious and suspicious at first, Arne and Ulf had no choice but to listen and learn that this woman was the servant of Lumaya – the Goddess of Light, the Mother of all Teleria. It was Her that the brothers were to serve, for their skill and willingness to sacrifice their lives for others marked them as worthy Champions. For them, the Arbiter had a very special task in mind, for the Winterlands to the north were under attack by Undead legions and sorely required stalwart defenders…</p>",
+  "giid": "4480",
+  "synergy": [],
+  "thumbnail": "34f9a343f945196b66f807e0eb6249fd",
+  "tags": [
+    "BATTLE_PASS_SEASON_1"
+  ],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "decrease-c-rate-2",
+    "increase-turn-meter"
+  ],
+  "videos": []
+}
