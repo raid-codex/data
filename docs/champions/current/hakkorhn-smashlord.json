@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Dungeons by 33%",
+      "raw_description": "Increases Ally HP in Dungeons by 33%.",
       "effects": [],
       "stats": [
         "HP"
@@ -137,10 +137,33 @@
     {
       "passive": false,
       "name": "Inhuman Force",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "inhuman-force",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
       "giid": "2720_s1",
       "cooldown": 0,
       "upgrades": [
@@ -341,9 +364,50 @@
     {
       "passive": false,
       "name": "Rallying Bellow",
-      "raw_description": "",
+      "raw_description": "Removes all debuffs from all allies, then places a [Block Debuffs] buff on all allies for 2 turns. Heals all allies by 15% of this Champion’s HP. Heals each ally by an extra 10% of this Champion’s MAX HP for each debuff removed from them.<br>Level 2: Heal +5%<br>Level 3: Heal +5%<br>Level 4: Heal +5%<br>Level 5: Heal +5%",
       "slug": "rallying-bellow",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
       "giid": "2720_s2",
       "cooldown": 4,
@@ -650,7 +714,7 @@
     {
       "passive": false,
       "name": "Blood Offering",
-      "raw_description": "",
+      "raw_description": "Sacrifices HP equal to 25% of this Champion’s MAX HP, then attacks all enemies. Damage inflicted is equal to 50% of this Champion’s MAX HP. This attack is always a normal hit. The HP sacrifice will happen even if it kills this Champion.<br>Level 2: Cooldown -1",
       "slug": "blood-offering",
       "effects": [],
       "damaged_based_on": [],

@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in Faction Crypts by 20%",
+      "raw_description": "Increases Ally SPD in Faction Crypts by 20%.",
       "effects": [],
       "stats": [
         "SPD"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Savage Fury",
-      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical.<br>Damage based on: [DEF] [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Damage +10%",
       "slug": "savage-fury",
       "effects": [
         {
@@ -161,7 +161,10 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
       "giid": "3290_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -171,7 +174,7 @@
     {
       "passive": false,
       "name": "Maximum Carnage",
-      "raw_description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns",
+      "raw_description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. The chance of placing the [Weaken] debuff increases to 100% on critical hits.<br>Damage based on: [DEF] [ATK]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "maximum-carnage",
       "effects": [
         {
@@ -182,10 +185,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-weaken-2",
-          "slug": "weaken-2",
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
           "website_link": "/effects/weaken",
-          "extra": true,
+          "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -195,7 +198,10 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
       "giid": "3290_s2",
       "cooldown": 4,
       "upgrades": [],
@@ -205,12 +211,15 @@
     {
       "passive": false,
       "name": "Spirit Appeasement",
-      "raw_description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target",
+      "raw_description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target. Only available when an ally is dead.<br>Damage based on: [DEF] [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%",
       "slug": "spirit-appeasement",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
       "giid": "3290_s3",
-      "cooldown": 0,
+      "cooldown": 3,
       "upgrades": [],
       "image_slug": "20255536c28f58262e4f323250737011",
       "skill_number": "A3"
@@ -542,7 +551,7 @@
   ],
   "effect_slugs": [
     "increase-atk-2",
-    "weaken-2"
+    "weaken"
   ],
   "videos": []
 }

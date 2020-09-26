@@ -249,7 +249,7 @@
     {
       "passive": false,
       "name": "Blizzard Rage",
-      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff and a 100% [Heal Reduction] debuff for 2 turns on enemies under [Freeze] debuffs. Has a 60% chance of placing a [Provoke] debuff for 1 turn on enemies not under [Freeze] debuffs. Decreases the cooldown of 1 random Skill of each ally by 1 turn for every enemy attacked under both a [Freeze] and a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%",
+      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff and a 100% [Heal Reduction] debuff for 2 turns on enemies under [Freeze] debuffs. Has a 60% chance of placing a [Provoke] debuff for 1 turn on enemies not under [Freeze] debuffs. Decreases the cooldown of 1 random Skill of each ally by 1 turn for every enemy attacked under both a [Freeze] and a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +10%",
       "slug": "blizzard-rage",
       "effects": [
         {
@@ -363,9 +363,9 @@
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Wintry Wind",
-      "raw_description": "Passive effect: Has a 15% chance of placing a [Freeze] debuff on the enemy each time they receive a buff, get healed, or have their Turn Meter filled. The 15% chance applies for each effect individually in cases where an enemy receives multiple of these effects at the same time.<br>Active Effect: Revives this Champion to 100% HP when killed and placed a [Freeze] debuff on this Champion for 1 turn.",
+      "raw_description": "(Passive Effect) Has a 20% chance of placing a [Freeze] debuff on the enemy each time they receive a buff or have their Turn Meter filled. The 20% chance applies up to twice per enemy turn (once for buffs, once for Turn Meter fills) in cases where an enemy receives multiple of these effects at the same time. Does not work with effects from Artifact Sets, Turn Meter filling effects from Masteries, healing, or those buffs or effects that take place at the start of a Round. (Active Effect) Revives this Champion to 100% HP when killed and places a [Freeze] debuff on this Champion for 1 turn.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
       "slug": "wintry-wind",
       "effects": [
         {

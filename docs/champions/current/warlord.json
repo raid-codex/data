@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally RESIST in all battles by 50",
+      "raw_description": "Increases Ally RESIST in all Battles by 80.",
       "effects": [],
       "stats": [
         "RESIST"
@@ -129,7 +129,7 @@
       "locations": [
         "all-battles"
       ],
-      "value": 50,
+      "value": 80,
       "percentage": false
     }
   ],
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Bludgeon",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of increasing the duration of all debuffs on the target by 1 turn<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +5%<br>Level 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of increasing the duration of all debuffs on the target by 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff chance +5%<br>Level 5: Buff/Debuff chance +10%",
       "slug": "bludgeon",
       "effects": [
         {
@@ -364,7 +364,7 @@
     {
       "passive": false,
       "name": "Protection of Gods",
-      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn. Places a [Shield] buff equal to 30% of this Champion's MAX HP on all allies for 2 turns. Restores all allies‘ HP by 25%.<bLevell. 2 Cooldown -1",
+      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn, then places a [Shield] buff on all allies for equal to 30% of this Champion’s MAX HP for 2 turns. Heals all allies by 25% of their MAX HP.<br>Level 2: Cooldown -1",
       "slug": "protection-of-gods",
       "effects": [
         {
@@ -384,6 +384,26 @@
           "amount": 0,
           "possible_values": [
             "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
           ],
           "champion_slugs": []
         },
@@ -583,7 +603,7 @@
     {
       "passive": false,
       "name": "Orcish Rituals",
-      "raw_description": "Attacks all enemies. Has a 70% chance to put each target's Skills on cooldown. Has a 30% chance to fully deplete each target's Turn Meter.<br>Damage based on: [ATK]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Buff/Debuff Chance +10%<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 70% chance to put each target’s Skills on cooldown. Has a 30% chance to fully deplete each target’s Turn Meter.<br>Damage based on: [ATK]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "orcish-rituals",
       "effects": [
         {
@@ -611,7 +631,7 @@
         "ATK"
       ],
       "giid": "660_s3",
-      "cooldown": 6,
+      "cooldown": 5,
       "upgrades": [
         {
           "level": "Level 1",

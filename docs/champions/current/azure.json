@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all battles by 25%",
+      "raw_description": "Increases Ally HP in all Battles by 25%.",
       "effects": [],
       "stats": [
         "HP"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Lunge",
-      "raw_description": "Attacks 1 enemy 2 times. Places a [Stun] debuff for 1 turn if the target has an [Increase SPD] buff.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +10%<br>Level 6 Damage +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a [Stun] debuff for 1 turn. This chance increases to 100% if the target has an [Increase SPD] buff.<br>Damage based on: [ATK]<br>Level: 2 Damage +5%<br>Level: 3 Damage +5%<br>Level: 4 Damage +5%<br>Level: 5 Damage +10%<br>Level: 6 Damage +10%",
       "slug": "lunge",
       "effects": [
         {
@@ -422,7 +422,7 @@
     {
       "passive": false,
       "name": "Aegis",
-      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Shield] buff on this Champion equal to 40% of this Champion's MAX HP for 2 turns. This buff cannot be removed. ® Shield<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Shield] buff on this Champion equal to 40% of this Champion’s MAX HP for 2 turns. This buff cannot be removed.<br>Level: 2 Cooldown -1<br>Level: 3 Cooldown -1",
       "slug": "aegis",
       "effects": [
         {
@@ -654,9 +654,30 @@
     {
       "passive": false,
       "name": "Coup de Grace",
-      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Stun] debuff. The extra hit is always critical.<br>Damage based on: [ATK] [HP]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Cooldown -1<br>Level 5 Damage +10%<br>Level 6 Damage +10%<br>Level 7 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Stun] debuff. The extra hit is always critical. Steals 50% of the target’s Turn Meter if they are not under a [Stun] debuff.<br>Damage based on: [ATK] [HP]<br>Level: 2 Damage +5%<br>Level: 3 Damage +5%<br>Level: 4 Cooldown -1<br>Level: 5 Damage +10%<br>Level: 6 Damage +10%<br>Level: 7 Cooldown -1",
       "slug": "coup-de-grace",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK",
         "HP"
@@ -1238,6 +1259,7 @@
     "ally-protection-2",
     "extra-hit",
     "increase-spd",
+    "increase-turn-meter",
     "shield",
     "stun"
   ],

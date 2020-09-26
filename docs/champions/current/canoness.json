@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in Faction Crypts by 20%",
+      "raw_description": "Increases Ally SPD in Faction Crypts by 20%.",
       "effects": [],
       "stats": [
         "SPD"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Lead the Charge",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Increase ATK] buff on a random ally for 2 turns.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +5%<br>Level 5 Damage +10%<br>Level 6 Buff/Debuff Chance +5",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Increase ATK] buff on a random ally for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Damage +10%<br>Level 6: Buff/Debuff Chance +5%",
       "slug": "lead-the-charge",
       "effects": [
         {
@@ -402,7 +402,7 @@
     {
       "passive": false,
       "name": "Blinding Assault",
-      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a 50% [Decrease ACC] debuff on the target for 2 turns.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br>Level 3 Damage +10%<br>Level 4 Buff/Debuff Chance +109<br>Level 5 Buff/Debuff Chance +109<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a 50% [Decrease ACC] debuff and a [Leech] debuff on the target for 2 turns. This attack is always critical.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "blinding-assault",
       "effects": [
         {
@@ -422,6 +422,26 @@
           "amount": 0,
           "possible_values": [
             "Decrease ACC"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Leech"
           ],
           "champion_slugs": []
         }
@@ -667,7 +687,7 @@
     {
       "passive": false,
       "name": "Stalwart Guardian",
-      "raw_description": "Places a 50% [Ally Protection] buff and a 60% [Increase DEF] the target for 2 turns. Also places a 15% [Continuous Heal] on this Champion for 2 turns.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "Places a 50% [Ally Protection] buff and a 60% [Increase DEF] buff on the target for 2 turns. Also places a 15% [Continuous Heal] buff on this Champion for 1 turn.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "stalwart-guardian",
       "effects": [
         {
@@ -1297,7 +1317,8 @@
     "increase-atk",
     "increase-atk-2",
     "increase-def",
-    "increase-def-2"
+    "increase-def-2",
+    "leech"
   ],
   "videos": []
 }

@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C.RATE in all battles by 24%",
+      "raw_description": "Increases Ally C.RATE in all Battles by 24%.",
       "effects": [],
       "stats": [
         "C.RATE"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Swordleader",
-      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C. RATE] buff on all allies for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%<br>Level 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Increase C.RATE] buff on all allies for 1 turn if this attack is critical.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Damage +10%",
       "slug": "swordleader",
       "effects": [
         {
@@ -369,8 +369,8 @@
     },
     {
       "passive": false,
-      "name": "insurmountable",
-      "raw_description": "Places a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns on 1 enemy, then attacks them. Places a 60% [Increase DEF] buff on this Champion for 2 turns if this attack kills an enemy.<br>Damage based on: [ATK] \"MY Decrease DEF * Weaken<br>Level 2 Damage +5%<br>Level 3 Damage +10%<br>Level 4 Damage +10%",
+      "name": "Insurmountable",
+      "raw_description": "Places a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns on 1 enemy, then attacks them. Places a [Perfect Veil] buff on this Champion for 2 turns after attacking.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%",
       "slug": "insurmountable",
       "effects": [
         {
@@ -396,20 +396,20 @@
         {
           "date_added": "",
           "effect_type": "buff",
-          "type": "Increase DEF",
+          "type": "Perfect Veil",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-increase-def-2",
-          "slug": "increase-def-2",
-          "website_link": "/effects/increase-def",
-          "extra": true,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Increase DEF"
+            "Perfect Veil"
           ],
           "champion_slugs": []
         },
@@ -438,7 +438,7 @@
         "ATK"
       ],
       "giid": "3490_s2",
-      "cooldown": 0,
+      "cooldown": 3,
       "upgrades": [
         {
           "level": "Level 1",
@@ -783,30 +783,9 @@
     {
       "passive": false,
       "name": "Overkill",
-      "raw_description": "Attacks 1 enemy. Will heal this Champion equal to any surplus damage if the target is killed.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br>Level 3 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Will attack the enemy with the lowest HP with any surplus damage if this attack kills an enemy. The surplus damage cannot be critical.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Cooldown -1",
       "slug": "overkill",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "battle_enhancement",
-          "type": "Heal",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-battle-enhancement-heal",
-          "slug": "heal",
-          "website_link": "/effects/heal",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Heal"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK"
       ],
@@ -934,90 +913,9 @@
     {
       "passive": false,
       "name": "Tactical Partner",
-      "raw_description": "Places a 5% [Poison] debuff, a 50% [Decrease ATK] debuff, a 30% [Decrease SPD] debuff, and a 50% [Decrease ACC] debuff for 2 turns. x Decrease SPD S Decrease ACC",
+      "raw_description": "Activates this Champion’s Swordleader skill. Also activates Zavia’s Poison Rain Skill when Zavia is on the same team.",
       "slug": "tactical-partner",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Decrease ACC",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-decrease-acc-2",
-          "slug": "decrease-acc-2",
-          "website_link": "/effects/decrease-acc",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Decrease ACC"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Decrease ATK",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-decrease-atk-2",
-          "slug": "decrease-atk-2",
-          "website_link": "/effects/decrease-atk",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Decrease ATK"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Decrease SPD",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-decrease-spd-2",
-          "slug": "decrease-spd-2",
-          "website_link": "/effects/decrease-spd",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Decrease SPD"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Poison",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-poison-2",
-          "slug": "poison-2",
-          "website_link": "/effects/poison",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Poison"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [],
       "giid": "3490_s4",
       "cooldown": 4,
@@ -1427,20 +1325,16 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-acc",
-    "decrease-acc-2",
     "decrease-atk",
-    "decrease-atk-2",
     "decrease-def",
     "decrease-def-2",
     "decrease-spd",
-    "decrease-spd-2",
     "heal",
     "increase-c-rate",
     "increase-c-rate-2",
     "increase-def",
-    "increase-def-2",
+    "perfect-veil",
     "poison",
-    "poison-2",
     "weaken",
     "weaken-2"
   ],

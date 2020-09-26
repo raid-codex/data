@@ -124,7 +124,7 @@
     {
       "passive": false,
       "name": "Batter",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +10%<br>Level 6 Buff/Debuff Chance +10% ‘S",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%",
       "slug": "batter",
       "effects": [
         {
@@ -389,7 +389,7 @@
     {
       "passive": false,
       "name": "Precision Strike",
-      "raw_description": "Attacks 1 enemy. This attack deals 35% extra C. DMG.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +10%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. This attack deals 50% extra C.DMG.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "precision-strike",
       "effects": [],
       "damaged_based_on": [
@@ -595,9 +595,30 @@
     {
       "passive": false,
       "name": "Killing Haze",
-      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical. Fills the Turn Meters of all allies by 15% if this attack kills an enemy.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "killing-haze",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -1111,7 +1132,8 @@
     "decrease-def",
     "decrease-def-2",
     "extra-crit-dmg",
-    "extra-hit"
+    "extra-hit",
+    "increase-turn-meter"
   ],
   "videos": []
 }

@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in Faction Crypts by 29%",
+      "raw_description": "Increases Ally HP in Faction Crypts by 29%.",
       "effects": [],
       "stats": [
         "HP"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Brute Strength",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +5'<br>Level 5 Buff/Debuff Chance +5",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
       "slug": "brute-strength",
       "effects": [
         {
@@ -162,7 +162,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
       "giid": "2580_s1",
       "cooldown": 0,
@@ -364,7 +364,7 @@
     {
       "passive": false,
       "name": "Burning Blade",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff for 4 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +109<br>Level 5 Buff/Debuff Chance +15<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff for 4 turns.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
       "slug": "burning-blade",
       "effects": [
         {
@@ -389,7 +389,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
       "giid": "2580_s2",
       "cooldown": 4,
@@ -629,11 +629,11 @@
     {
       "passive": false,
       "name": "Sear Away",
-      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 30% of the damage dealt.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 30% of the damage inflicted. Damage increases by 50% if the target is under a [HP Burn] debuff.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "sear-away",
       "effects": [],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
       "giid": "2580_s3",
       "cooldown": 6,

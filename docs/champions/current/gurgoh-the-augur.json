@@ -112,7 +112,7 @@
       "hp": 16020,
       "attack": 1465,
       "defense": 1046,
-      "speed": 92,
+      "speed": 98,
       "critical_rate": 0.15,
       "critical_damage": 0.63,
       "resistance": 30,
@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in Faction Crypts by 44%",
+      "raw_description": "Increases Ally ATK in Faction Crypts by 44%.",
       "effects": [],
       "stats": [
         "ATK"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Icebreaker",
-      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%",
       "slug": "icebreaker",
       "effects": [],
       "damaged_based_on": [
@@ -305,7 +305,7 @@
     {
       "passive": false,
       "name": "Bonechiller",
-      "raw_description": "Attacks all enemies. Removes 1 random buff from each enemy. Places a 80% [Freeze] debuff on all enemies for 1 turn. Grants an Extra Turn.<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Removes 2 random buff from each enemy. Has a 80% chance of placing a [Freeze] debuff on all enemies for 1 turn. Grants an Extra Turn.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
       "slug": "bonechiller",
       "effects": [
         {
@@ -331,7 +331,7 @@
       ],
       "damaged_based_on": [],
       "giid": "2920_s2",
-      "cooldown": 6,
+      "cooldown": 5,
       "upgrades": [
         {
           "level": "Level 1",
@@ -750,7 +750,7 @@
     {
       "passive": false,
       "name": "Avalanche",
-      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has a [Freeze] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "avalanche",
       "effects": [],
       "damaged_based_on": [
@@ -956,7 +956,7 @@
     {
       "passive": false,
       "name": "Frost Embrace",
-      "raw_description": "Has a 50% chance of placing a [Freeze] debuff on the attacker for 1 turn if this Champion loses more than 20% of their MAX HP on one attack.",
+      "raw_description": "Has a 50% chance of placing a [Freeze] debuff on the attacker for 1 turn if this champion loses more than 20% of their MAX HP on one attack.",
       "slug": "frost-embrace",
       "effects": [
         {

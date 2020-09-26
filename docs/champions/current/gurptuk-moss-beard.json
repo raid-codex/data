@@ -151,7 +151,7 @@
     {
       "passive": false,
       "name": "Druidic Boon",
-      "raw_description": "Removes all debuffs from an ally, then heals them by 30% of their MAX HP and places a lShielol] buff on the target equal to 20% of their MAX HP for 2 turns.<br>Level 2: Heal +5%<br>Level 3: Shield +5%<br>Level 4: Heal +10%<br>Level 5: Shield +10%<br>Level 6: Cooldown -1",
+      "raw_description": "Removes all debuffs except [Poison] debuffs from an ally, then heals them by 30% of their MAX HP and places a [Shield] buff on the target equal to 20% of their MAX HP for 2 turns.<br>Level 2: Heal +5%<br>Level 3: Shield +5%<br>Level 4: Heal +10%<br>Level 5: Shield +10%<br>Level 6: Cooldown -1",
       "slug": "druidic-boon",
       "effects": [
         {
@@ -173,6 +173,26 @@
             "Heal"
           ],
           "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
         }
       ],
       "damaged_based_on": [],
@@ -185,7 +205,7 @@
     {
       "passive": false,
       "name": "Cloud of Spores",
-      "raw_description": "Places three 5% [Poison] debuffs on all allies for 3 turns. These debuffs cannot be resisted or blocked. Also has an 80% chance of placing a [Block Buffs] debuff on all enemies for 2 turns.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
+      "raw_description": "Places three 2.5% [Poison] debuffs on all allies for 3 turns. These debuffs cannot be resisted or blocked. Also has an 80% chance of placing a [Block Buffs] debuff on all enemies for 2 turns.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
       "slug": "cloud-of-spores",
       "effects": [
         {
@@ -216,10 +236,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-poison-2",
-          "slug": "poison-2",
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
           "website_link": "/effects/poison",
-          "extra": true,
+          "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -237,7 +257,7 @@
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Symbiotes",
       "raw_description": "Allies under [Poison] debuffs inflict 7.5% more damage for each [Poison] debuff on them, stacking up to a maximum of 30%. This damage increase applies to all of their skills. Also increases each ally’s RES by 15 for each [Poison] debuff on them.",
       "slug": "symbiotes",
@@ -407,7 +427,7 @@
     "continuous-heal-2",
     "heal",
     "poison",
-    "poison-2"
+    "shield"
   ],
   "videos": [
     {

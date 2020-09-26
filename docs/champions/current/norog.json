@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally DEF in Dungeons by 40%",
+      "raw_description": "Increases Ally DEF in Dungeons by 40%.",
       "effects": [],
       "stats": [
         "DEF"
@@ -137,33 +137,32 @@
     {
       "passive": false,
       "name": "Maul",
-      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Decrease ACC] debuff for 1 turn. This debuff cannot be resisted or blocked.<br>Damage based on: [ATK][Enemy DEF]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +10%",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "maul",
       "effects": [
         {
           "date_added": "",
           "effect_type": "debuff",
-          "type": "Decrease ACC",
+          "type": "Block Cooldown Skills",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-acc-2",
-          "slug": "decrease-acc-2",
-          "website_link": "/effects/decrease-acc",
-          "extra": true,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Decrease ACC"
+            "Block Cooldown Skills"
           ],
           "champion_slugs": []
         }
       ],
       "damaged_based_on": [
-        "ATK",
-        "Enemy DEF"
+        "DEF"
       ],
       "giid": "1790_s1",
       "cooldown": 0,
@@ -174,7 +173,7 @@
     {
       "passive": false,
       "name": "Ice Pillar",
-      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK][Enemy DEF]<br>Level 2 Damage +10%<br>Level 3 Damage +10%<br>Level 4 Cooldown -1",
+      "raw_description": "Attacks all enemies. Places a [Block Buffs] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Cooldown -1",
       "slug": "ice-pillar",
       "effects": [
         {
@@ -199,8 +198,7 @@
         }
       ],
       "damaged_based_on": [
-        "ATK",
-        "Enemy DEF"
+        "DEF"
       ],
       "giid": "1790_s2",
       "cooldown": 4,
@@ -209,9 +207,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Thick Skin",
-      "raw_description": "Immune to [Stun], [Freeze], [Sleep] debuffs. Decreases the damage taken by all allies by 15%.",
+      "raw_description": "Immune to [Stun], [Freeze], [Sleep] debuffs. Decreases the damage taken by all alies that are under 1 or more buffs by 15%. Decreases the damage taken by all allies that are under no active buffs by 25%.",
       "slug": "thick-skin",
       "effects": [
         {
@@ -712,7 +710,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "block-buffs",
-    "decrease-acc-2",
+    "block-cooldown-skills",
     "freeze",
     "sleep",
     "stun"

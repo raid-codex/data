@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Rising Storm",
-      "raw_description": "Attacks 1 enemy. Damage inflicted increases each time this skill is used. Stacks up to 4 times.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Damage inflicted increases each time this skill is used. Stacks up to 4 times.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "rising-storm",
       "effects": [],
       "damaged_based_on": [
@@ -343,9 +343,51 @@
     {
       "passive": false,
       "name": "Deadly Edge",
-      "raw_description": "Attacks 1 enemy. This attack is always critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +10%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. This attack is always critical. Places a 30% [Increase C.RATE] buff and a 15% [Increase SPD] buff on this Champion for 3 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "deadly-edge",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd",
+          "slug": "increase-spd",
+          "website_link": "/effects/increase-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -549,7 +591,7 @@
     {
       "passive": false,
       "name": "Unbending",
-      "raw_description": "Revives this Champion with 30% HP. Places an [Unkillable] buff on this Champion for 1 turn.<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "Revives this Champion with 30% HP. Places an [Unkillable] buff on this Champion for 1 turn.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "unbending",
       "effects": [
         {
@@ -757,6 +799,19 @@
       ],
       "image_slug": "2d3480032eaedac09377b8c2936b82b5",
       "skill_number": "P1"
+    },
+    {
+      "passive": false,
+      "name": "Arena",
+      "raw_description": "Increases Ally SPD in the Arena by 20 %.",
+      "slug": "arena",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2500_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "91b1a6c1b97415e586ca3f7e916977b1",
+      "skill_number": "A4"
     }
   ],
   "faction": {
@@ -1148,6 +1203,8 @@
   ],
   "effect_slugs": [
     "always-crit",
+    "increase-c-rate-2",
+    "increase-spd",
     "revive",
     "stack-damage-upto-x4",
     "stack-damage-upto-x5",

@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in Arena by 28%",
+      "raw_description": "Increases Ally SPD in the Arena by 28%",
       "effects": [],
       "stats": [
         "SPD"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Assault Leader",
-      "raw_description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter of all allies by 15% if this attack is critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter of all allies by a further 15% if this attack is critical.<br>Damage based on: [ATK]<br>Level: 2 Damage +5%<br>Level: 3 Damage +5%<br>Level: 4 Damage +5%<br>Level: 5 Damage +10%",
       "slug": "assault-leader",
       "effects": [
         {
@@ -364,7 +364,7 @@
     {
       "passive": false,
       "name": "Heart Rot",
-      "raw_description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 1 turn.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +10%<br>Level 4 Damage +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 1 turns. This debuff cannot be resisted.<br>Damage based on: [ATK]<br>Level: 2 Damage +5%<br>Level: 3 Damage +10%<br>Level: 4 Damage +10%<br>Level: 5 Cooldown -1",
       "slug": "heart-rot",
       "effects": [
         {
@@ -591,7 +591,7 @@
     {
       "passive": false,
       "name": "Judgement",
-      "raw_description": "Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a boss.<br>Passive: Gains an Extra Turn and decreases the cooldown of this Skill by 3 turns if this Champion's HP drops below 20% when attacked<br>Level 2 Cooldown -1<br>Level 3 Cooldown -1",
+      "raw_description": "(Active Effect) Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a Boss. (Passive Effect) Gains an Extra Turn and decreases the cooldown of this Skill by 3 turns if this Champion’s HP drops below 20% when attacked.<br>Level: 2 Cooldown -1<br>Level: 3 Cooldown -1",
       "slug": "judgement",
       "effects": [],
       "damaged_based_on": [],

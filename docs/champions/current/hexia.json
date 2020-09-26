@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in Faction Crypts by 27%",
+      "raw_description": "Increases Ally ATK in Faction Crypts by 27%.",
       "effects": [],
       "stats": [
         "ATK"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Grave Rot",
-      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Chances to place this debuff increase by 10% per each debuff placed on this Champion.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns. This chance increases by 20% for each debuff placed on this Champion.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "grave-rot",
       "effects": [
         {
@@ -148,10 +148,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def",
-          "slug": "decrease-def",
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
           "website_link": "/effects/decrease-def",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -364,7 +364,7 @@
     {
       "passive": false,
       "name": "Soulreap",
-      "raw_description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if the target is killed. Grants another turn if the target is killed.<br>Damage based on: [ATK]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +5%",
+      "raw_description": "Attacks 1 enemy. Grants an Extra Turn and places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack kills an enemy. Damage increases by 7.5% for each debuff on this Champion. Stacks up to 30%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%",
       "slug": "soulreap",
       "effects": [
         {
@@ -553,7 +553,7 @@
     {
       "passive": false,
       "name": "Spirit Harvest",
-      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted. The heal increases by 10% for each dead enemy. Places a 30% [Increase SPD] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Cooldown -1",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted. The heal increases by 10% for each debuff on this Champion. Places a 30% [Increase SPD] buff on this Champion for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Cooldown -1",
       "slug": "spirit-harvest",
       "effects": [
         {
@@ -1163,6 +1163,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-def",
+    "decrease-def-2",
     "extra-turn",
     "heal",
     "heal-per-dmg-dead-ally",

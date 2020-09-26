@@ -94,7 +94,7 @@
       "critical_rate": 0.15,
       "critical_damage": 0.57,
       "resistance": 50,
-      "accuracy": 0
+      "accuracy": 10
     }
   },
   "auras": [],
@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Flourish of Slaughter",
-      "raw_description": "Attacks all enemies. Has a 5°% chance of decreasing each target's Turn Meter by 10%.<br>Attacks all enemies 2 times instead of 1 and the chance of decreasing each target's Turn Meter increases to 100% if Minaya is on the same team. The damage of each hit will be decreased by 50%<br>Damage based on: [HP]",
+      "raw_description": "Attacks all enemies. Has a 50% chance of decreasing each target’s Turn Meter by 5%. Attacks all enemies 2 times instead of 1 and the chance of decreasing each target’s Turn Meter increases to 100% if Minaya is on the same team. The damage of each hit will be decreased by 50%.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "flourish-of-slaughter",
       "effects": [
         {
@@ -138,7 +138,7 @@
     {
       "passive": false,
       "name": "Beastly Bellow",
-      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns.<br>Removes all debuffs from this CHampion before placing the [Block Debuffs] and [Increase DEF] buffs if Minaya is on the same team",
+      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns. Removes all debuffs from this Champion before placing the [Block Debuffs] and [Increase DEF] buffs if Minaya is on the team.<br>Level 2: Buff/Debuff Chance +10%<br>Level 3: Buff/Debuff Chance +15%<br>Level 4: Cooldown -1",
       "slug": "beastly-bellow",
       "effects": [
         {
@@ -212,7 +212,7 @@
     {
       "passive": false,
       "name": "Battle Waltz",
-      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff on all enemies for 2 turns. Places a 60% [Decrease DEF] debuff on targets under [Decrease ATK] debuffs.<br>Damage based on: [HP]",
+      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff on all enemies for 2 turns. Places a 60% [Decrease DEF] debuff on targets under [Decrease ATK] debuffs.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1 ",
       "slug": "battle-waltz",
       "effects": [
         {
@@ -266,9 +266,9 @@
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Ferocious Guard",
-      "raw_description": "Counterattacks when hit by enemies under [Decrease ATK], [Decrease DEF] or [Decrease SPD] debuffs.<br>Always counterattacks when hit if Minaya is on the same team",
+      "raw_description": "Counterattacks when hit by enemies under [Decrease ATK], [Decrease DEF], or [Decrease SPD] debuffs. Always counterattacks when hit if Minaya is on the same team.",
       "slug": "ferocious-guard",
       "effects": [
         {
@@ -320,9 +320,9 @@
       "skill_number": "P1"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Spectacle",
-      "raw_description": "Places a 60% [Increase DEF] buff on all allies for 2 turns if this Champion kills an enemy",
+      "raw_description": "Places a 60% [Increase DEF] buff on all allies for 2 turns if this Champion kills an enemy.",
       "slug": "spectacle",
       "effects": [
         {

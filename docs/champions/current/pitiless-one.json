@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C.RATE in all battles by 19%",
+      "raw_description": "Increases Ally C.RATE in all Battles by 19%",
       "effects": [],
       "stats": [
         "C.RATE"
@@ -137,9 +137,30 @@
     {
       "passive": false,
       "name": "Split Arrow",
-      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level3. Damage +5%<br>Level4. Damage +5%<br>Level5. Damage +5%",
+      "raw_description": "Attacks 1 enemy 2 times. Each critical hit fills this Champion’s Turn Meter by 5%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "split-arrow",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "ATK"
       ],
@@ -152,7 +173,7 @@
     {
       "passive": false,
       "name": "Projectile Burst",
-      "raw_description": "Attacks all enemies. Each critical hit boosts this Champion's Turn Meter by 15%.<br>Damage based on: [ATK]<br>Level2. Damage +5%<br>Level3. Damage +5%<br>Level4. Damage +5%<br>Level5. Damage +10%<br>Level6. Cooldown -1",
+      "raw_description": "Attacks all enemies. Each critical hit boosts this Champion’s Turn Meter by 15%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +10%<br>Level 6: Cooldown -1",
       "slug": "projectile-burst",
       "effects": [
         {
@@ -186,9 +207,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Agony Bonds",
-      "raw_description": "Each critical hit heals this Champion by 15% of the damage inflicted",
+      "raw_description": "Each critical hit heals this Champion by 15% of the damage inflicted.",
       "slug": "agony-bonds",
       "effects": [
         {

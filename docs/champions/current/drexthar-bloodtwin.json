@@ -112,7 +112,7 @@
       "hp": 18990,
       "attack": 914,
       "defense": 1398,
-      "speed": 97,
+      "speed": 100,
       "critical_rate": 0.15,
       "critical_damage": 0.5,
       "resistance": 50,
@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ACC in all battles by 70",
+      "raw_description": "Increases Ally ACC in all Battles by 70.",
       "effects": [],
       "stats": [
         "ACC"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Eldritch Flames",
-      "raw_description": "Attacks 1 enemy 3 times. Has a 30% chance of placing an [HP Burn] for 2 turns. Heals this Champion by 20% of the damage inflicted if the target is afflicted by a [HP Burn] debuff.<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 30% chance of placing an [HP Burn] for 2 turns. Heals this Champion by 20% of the damage inflicted if the target is afflicted by a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Damage Multiplier: 1*DEF",
       "slug": "eldritch-flames",
       "effects": [
         {
@@ -181,7 +181,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
       "giid": "3170_s1",
       "cooldown": 0,
       "upgrades": [
@@ -440,7 +442,7 @@
     {
       "passive": false,
       "name": "Burning Lash",
-      "raw_description": "Attacks all enemies. Has a 40% chance of placing a [Provoke] debuff for 1 turn.<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +10%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +10%<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 40% chance of placing a [Provoke] debuff for 1 turn. This chance increases to 100% if the target is under a [HP Burn] debuff. Also places places a 50% Decrease<br>Damage based on: [DEF]<br>ATK] debuff for 2 turns if the [Provoke] debuff is placed.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1<br>Damage Multiplier: 4.5*DEF",
       "slug": "burning-lash",
       "effects": [
         {
@@ -464,7 +466,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
       "giid": "3170_s2",
       "cooldown": 5,
       "upgrades": [
@@ -701,9 +705,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Fiery Blood",
-      "raw_description": "Has a 55% chance of placing a [HP Burn] debuff when hit.<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%",
+      "raw_description": "Has a 55% chance of placing a [HP Burn] debuff for 2 turns on the attacker when hit. This Champion’s RES increases by 10 for every enemy under a [HP Burn] debuff. Stacks up to 50.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%",
       "slug": "fiery-blood",
       "effects": [
         {

@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ACC in all battles by 70",
+      "raw_description": "Increases Ally ACC in all Battles by 70.",
       "effects": [],
       "stats": [
         "ACC"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Horror",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br>Level 3 Buff/Debuff Chance +15%<br>Level 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn. Has a 35% chance of placing a [True Fear] debuff for 1 turn on targets under [Block Cooldown Skills] debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +15%<br>Level 4: Damage +10%",
       "slug": "horror",
       "effects": [
         {
@@ -157,6 +157,26 @@
           "amount": 0,
           "possible_values": [
             "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
           ],
           "champion_slugs": []
         }
@@ -326,7 +346,7 @@
     {
       "passive": false,
       "name": "Shadow Strike",
-      "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br>Level 3 Damage +10%<br>Level 4 Cooldown -1<br>Level 5 Damage +20%",
+      "raw_description": "Attacks all enemies. Inflicts a critical hit against targets under [Block Cooldown Skills] debuffs. Heals by 20% of the damage inflicted.<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Cooldown -1<br>Level 5: Damage +20%",
       "slug": "shadow-strike",
       "effects": [
         {
@@ -350,9 +370,7 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [
-        "ATK"
-      ],
+      "damaged_based_on": [],
       "giid": "410_s2",
       "cooldown": 4,
       "upgrades": [
@@ -607,7 +625,7 @@
     {
       "passive": false,
       "name": "Crumble",
-      "raw_description": "Attacks 4 times at random. Each hit has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Each hit also has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +10%<br>Level 4 Damage +10%<br>Level 5 Buff/Debuff Chance +15%",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Also has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +15%",
       "slug": "crumble",
       "effects": [
         {
@@ -1274,7 +1292,8 @@
     "decrease-def",
     "decrease-def-2",
     "heal",
-    "heal-per-dmg"
+    "heal-per-dmg",
+    "true-fear"
   ],
   "videos": [
     {
