@@ -65,18 +65,232 @@
   "slug": "vergumkaar",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 22140,
+      "attack": 914,
+      "defense": 1189,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in all Battles by 55",
+      "effects": [],
+      "stats": [
+        "RESIST"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 55,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bejeweled Bulk",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a [Stun] debuff for 1 turn. The chance increases by 15% for each buff on the target.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "bejeweled-bulk",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5320_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "24cca80c2925eea6ae38741afbc4c722",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Honored Ancient",
+      "raw_description": "Removes all [Provoke] debuffs and 1 random debuff from all allies. Places a 60% [Increase DEF] buff for 2 turns on allies who have debuffs removed. Also places a [Shield] buff on all allies equal to 20% of this Champion’s MAX HP for 2 turns.<br>Level 2: Shield +5%<br>Level 3: Shield +5%<br>Level 4: Shield +10%<br>Level 5: Cooldown -1",
+      "slug": "honored-ancient",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5320_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "6b81e2997646406c3d202fa1ed89ef51",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Crushing Trample",
+      "raw_description": "Attacks all enemies. Removes 1 random buff from each enemy. Has a 75% chance of removing 2 random buffs from each enemy. Places a 100% [Heal Reduction] debuff for 3 turns on enemies who have 1 or more buffs removed. Also places a 60% [Decrease DEF] debuff for 2 turns on enemies who have 2 buffs removed.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1<br>Level 6: Cooldown -1",
+      "slug": "crushing-trample",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5320_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "d5d3326b9c7eb512b0222b99427e2022",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Saurian Stoic",
+      "raw_description": "Immune to [Provoke] debuffs. Fills this Champion’s Tum Meter by 20% each time an enemy attempts to place a [Provoke] debuff on this Champion.",
+      "slug": "saurian-stoic",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5320_s4",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "556067c8be2b9e6cf5532469e6b0c50b",
+      "skill_number": "A4"
+    }
+  ],
   "faction": {
     "name": "Lizardmen",
     "slug": "lizardmen",
@@ -143,6 +357,13 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-def-2",
+    "heal-reduction-2",
+    "increase-def-2",
+    "provoke",
+    "shield",
+    "stun"
+  ],
   "videos": []
 }
