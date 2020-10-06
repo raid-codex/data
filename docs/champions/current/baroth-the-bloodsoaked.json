@@ -76,7 +76,196 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gilded Weapons",
+      "raw_description": "Attacks 1 enemy 2 times. The first hit has a 20% chance of filling this Champion’s Turn Meter by 10%. The second hit has a 20% chance of decreasing the target’s Tum Meter by 10%.<br>Damage based on: [HP]",
+      "slug": "gilded-weapons",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5310_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ec4ecc9cdc47012dc44992ac5c187ff1",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Splattering Hacks",
+      "raw_description": "Attacks 1 enemy 2 times. The first hit places a [Shield] equal to 25% of the damage inflicted on all allies for 2 turns. The second hit heals all allies by 10% of the damage inflicted.<br>Damage based on: [HP]",
+      "slug": "splattering-hacks",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5310_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "4c364c04a0e239cef22e6f1d980a3371",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Serpent Axes",
+      "raw_description": "Attacks 1 enemy 2 times. The first hit has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns and a 75% chance of removing any [Increase ATK] buffs from the target. The second hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns and a 75% chance of removing any [Increase DEF] buffs from the target.<br>Damage based on: [HP]",
+      "slug": "serpent-axes",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/effects/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/effects/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5310_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "f3541899fc67c104dbac840884e69e4e",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
@@ -143,6 +332,14 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-def-2",
+    "heal",
+    "increase-atk",
+    "increase-def",
+    "increase-turn-meter",
+    "shield"
+  ],
   "videos": []
 }

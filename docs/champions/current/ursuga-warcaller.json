@@ -75,8 +75,168 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all battles by 33%.",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 33,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gigantic Cudgel",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [HP]",
+      "slug": "gigantic-cudgel",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Barrel Through",
+      "raw_description": "Attacks all enemies. Places a 30% [Decrease C.DMG] debuff and a 50% [Decrease ATK] debuff for 2 turns on targets whose ATK is higher than their DEF. Places a 30% [Decrease SPD] debuff and a 60% [Decrease DEF] debuff for 2 turns on targets whose ATK is equal to or lower than their DEF.<br>Damage based on: [HP]",
+      "slug": "barrel-through",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-dmg-2",
+          "slug": "decrease-c-dmg-2",
+          "website_link": "/effects/decrease-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease C. DMG",
+            "Decrease C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Bottoms Up",
+      "raw_description": "Decreases the damage all allies receive from critical hits by 30%. This Champion will receive that damage instead.",
+      "slug": "bottoms-up",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
@@ -143,6 +303,12 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "decrease-atk-2",
+    "decrease-c-dmg-2",
+    "decrease-def-2",
+    "decrease-spd-2"
+  ],
   "videos": []
 }
