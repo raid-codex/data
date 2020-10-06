@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in all battles by 24%",
+      "raw_description": "Increases Ally ATK in all Battles by 24%",
       "effects": [],
       "stats": [
         "ATK"
@@ -137,10 +137,12 @@
     {
       "passive": false,
       "name": "Dire Perforation",
-      "raw_description": "Attacks 1 enemy 4 times. Ignores 50% of enemy DEF",
+      "raw_description": "Attacks 1 enemy 4 times. Ignores 50% of enemy DEF.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +10%",
       "slug": "dire-perforation",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "2950_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -150,7 +152,7 @@
     {
       "passive": false,
       "name": "Curse of Writhing",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. Has a 50% chance of removing 2 random buffs from the target. Grants an Extra Turn",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns. Has a 75% chance of removing 2 random buffs from the target. Grants an Extra Turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "curse-of-writhing",
       "effects": [
         {
@@ -174,7 +176,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "2950_s2",
       "cooldown": 4,
       "upgrades": [],
@@ -182,9 +186,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Rite of Rebirth",
-      "raw_description": "Places a [Revive on Death] buff on this Champion for 2 turns at the beginning of each round. Places [Revive on Death] buff on this Champion for 1 turn when this Champion kills an enemy. (Does not occur with Spiderlings)",
+      "raw_description": "Places a [Revive on Death] buff on this Champion for 2 turns at the beginning of each round. Places [Revive on Death] buff on this Champion for 1 turn when this Champion kills an enemy. (Does not occur with Spiderlings).",
       "slug": "rite-of-rebirth",
       "effects": [
         {

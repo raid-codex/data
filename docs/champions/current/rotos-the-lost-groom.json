@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Terror Scourge",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Also has a 30% chance of granting an Extra Turn.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Also has a 25% chance of granting an Extra Turn.<br>Damage based on: [ATK] [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "terror-scourge",
       "effects": [
         {
@@ -139,7 +139,7 @@
     {
       "passive": false,
       "name": "Vitality Plunder",
-      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 20%, then adds that HP to this Champion's own MAX HP.<br>Cannot decrease a single Champion's MAX HP by more than 60% in on Battle. Cannot increase this Champion's MAX HP by more than 60.000. Does not decrease Boss' MAX HP. This Champion's MAX HP will be increased by 15.000 when this Skill is used against Bosses.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 20%, then adds that HP to this Champion’s own MAX HP. (Cannot decrease a single Champion’s MAX HP by more than 60% in one Battle. Cannot increase this Champion’s MAX HP by more than 60,000. Does not decrease Boss’ MAX HP. This Champion’s MAX HP will be increased by 15,000 when this Skill is used against Bosses)<br>Damage based on: [ATK] [HP]<br>Note: The MAX HP gained in a battle will be reset upon entering the next round! (e.g. After each Dungeon/Campaign rounds, Rotos MAX HP resets to the original MAX HP)<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1",
       "slug": "vitality-plunder",
       "effects": [],
       "damaged_based_on": [
@@ -155,7 +155,7 @@
     {
       "passive": false,
       "name": "Fated Destruction",
-      "raw_description": "Attacks 1 enemy. Will ignore 75% of the target's DEF. Will also ignore [Unkillable] and [Block Damage] buffs. Grants an Extra Turn if this attacks kill an enemy.<br>Enemies killed by this skill cannot be revived.<br>Damage based on: [ATK][HP]",
+      "raw_description": "Attacks 1 enemy. Will ignore 60% of the target’s DEF. Will also ignore [Unkillable] and [Block Damage] buffs. Enemies killed by this skill cannot be revived if this Champion has gained maximum amount of HP from the Vitality Plunder skill. Grants an Extra Turn if this skill kills an enemy.<br>Damage based on: [ATK] [HP]<br>Note: Block Revive will not occur unless Rotos has gained a total of 60K HP from Vitality Plunder, which will take at least 3 hits against a 100K HP enemy!<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Damage +10%<br>Level 5: Damage +10%<br>Level 6: Cooldown -1",
       "slug": "fated-destruction",
       "effects": [
         {
@@ -210,9 +210,9 @@
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Spurn Oblivion",
-      "raw_description": "Will decrease damage from a single enemy hit so that incoming damage will not exceed 50% of this CHampion's MAX HP. Can occur once per enemy attack. Grants an Extra Turn if this damage reduction occurs.<br>Does not work against Bosses.<br>Decreases the damage taken from Bosses by 15%. Decreases the damage taken from Bosses by 30% if Siphi the Lost Bride in on the same team.",
+      "raw_description": "Will decrease damage from a single enemy hit so that incoming damage will not exceed 50% of this Champion’s MAX HP from that hit. Can occur once per enemy attack. Grants an Extra Turn if this damage reduction occurs. (Does not work against Bosses) Decreases the damage taken from Bosses by 15%. Decreases the damage taken from Bosses by 30% if Siphi the Lost Bride is on the same team.",
       "slug": "spurn-oblivion",
       "effects": [],
       "damaged_based_on": [],

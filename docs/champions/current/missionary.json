@@ -136,9 +136,9 @@
   "skills": [
     {
       "passive": false,
-      "name": "Crashing Helberd",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Stun] debuff for 1 turn",
-      "slug": "crashing-helberd",
+      "name": "Crashing Halberd",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "crashing-halberd",
       "effects": [
         {
           "date_added": "",
@@ -161,7 +161,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3210_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -171,7 +173,7 @@
     {
       "passive": false,
       "name": "In the Thick",
-      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Provoke] debuff for 1 turn. Has a 100% chance of placing a [Provoke] debuff for 1 turn if this Champion's current HP is higher than the target's current HP",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Provoke] debuff for 1 turn. Has a 100% chance of placing a [Provoke] debuff for 1 turn if this Champion’s current HP is higher than the target’s current HP.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Cooldown -1",
       "slug": "in-the-thick",
       "effects": [
         {
@@ -195,7 +197,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3210_s2",
       "cooldown": 4,
       "upgrades": [],
@@ -205,7 +209,7 @@
     {
       "passive": false,
       "name": "Humble the Faithless",
-      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Also has 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Also has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK] [HP]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "humble-the-faithless",
       "effects": [
         {
@@ -249,7 +253,10 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
       "giid": "3210_s3",
       "cooldown": 4,
       "upgrades": [],

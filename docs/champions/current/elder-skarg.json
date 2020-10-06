@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C.RATE in the Arena by 30%",
+      "raw_description": "Increases Ally C.RATE in the Arena by 30%.",
       "effects": [],
       "stats": [
         "C.RATE"
@@ -136,8 +136,65 @@
   "skills": [
     {
       "passive": false,
+      "name": "Tide of Steel",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Increase SPD] buff on this Champion for 2 turns if this attack is critical. Places a 30% [Increase C.RATE] buff on this Champion if this attack is not critical.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +15%",
+      "slug": "tide-of-steel",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/effects/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3860_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "760937d96256af5ec2f176a6786fd913",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
       "name": "Hunt the Marked",
-      "raw_description": "Attacks 1 enemy 3 times. places an extra hit for each buff or debuff on the target. Can place up to 3 extra hits. places a [HP Burn] debuff for 2 turns and a [True Fear] debuff for 1 turn if this attack places all 3 extra hits.<br> Damage based on: [ATK] <br><br/>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damage +15%<br/>",
+      "raw_description": "Attacks 1 enemy 3 times. Places an extra hit for each buff or debuff on the target. Can place up to 3 extra hits. Places a [HP Burn] debuff for 2 turns and a [True Fear] debuff for 1 turn if this attack places all 3 extra hits. Steals all the buffs from the target after the attack.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +15%",
       "slug": "hunt-the-marked",
       "effects": [
         {
@@ -188,13 +245,13 @@
       "cooldown": 3,
       "upgrades": [],
       "image_slug": "eceea119b2f6af03fe8ba330cdb1f6b1",
-      "skill_number": "A1"
+      "skill_number": "A2"
     },
     {
       "passive": false,
-      "name": "Elser's Clarion",
-      "raw_description": "places a 60% [Increase DEF] buff on this champion for 3 turns. Places a [Fear] debuff on all enemies for 1 turn. Places a [True Fear] debuff for 1 turn on target under [Block Damage] buffs. places a 30% [Decrease SPD] debuff for 2 turns on targets under [Shield] buffs. These debuffs cannot be rsisted.<br>Level 2 Cooldown -1<br/>Level 3 Cooldown -1",
-      "slug": "elser-s-clarion",
+      "name": "Elder’s Clarion",
+      "raw_description": "Places a 60% [Increase DEF] buff on this Champion for 3 turns. Places a [Fear] debuff on all enemies for 1 turn. Places a [True Fear] debuff for 1 turn on targets under [Block Damage] buffs. Places a 30% [Decrease SPD] debuff for 2 turns on targets under [Shield] buffs. These debuffs cannot be resisted. Also places a [Provoke] debuff on Legendary Champions for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "elder-s-clarion",
       "effects": [
         {
           "date_added": "",
@@ -259,6 +316,26 @@
         {
           "date_added": "",
           "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
           "type": "True Fear",
           "value": 0,
           "chance": 0,
@@ -277,74 +354,19 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
-      "giid": "3860_s2",
-      "cooldown": 0,
-      "upgrades": [],
-      "image_slug": "91e8f5e31bebd0c15462787d78118413",
-      "skill_number": "A2"
-    },
-    {
-      "passive": false,
-      "name": "Tide of Steel",
-      "raw_description": "Attacks 1 enemy. places a 30% [Increase SPD] buff on this Champion for 2 turns if this attack is critical. places a 30% [Increase C. Rate] buff on this Champion if this attack is not critical.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damage +15%<br/>",
-      "slug": "tide-of-steel",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase C. RATE",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-c-rate-2",
-          "slug": "increase-c-rate-2",
-          "website_link": "/effects/increase-c-rate",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Increase C. RATE",
-            "Increase C.RATE"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Increase SPD",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-increase-spd-2",
-          "slug": "increase-spd-2",
-          "website_link": "/effects/increase-spd",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Increase SPD"
-          ],
-          "champion_slugs": []
-        }
-      ],
       "damaged_based_on": [
         "ATK"
       ],
-      "giid": "3860_s3",
-      "cooldown": 0,
+      "giid": "3860_s2",
+      "cooldown": 5,
       "upgrades": [],
-      "image_slug": "760937d96256af5ec2f176a6786fd913",
+      "image_slug": "91e8f5e31bebd0c15462787d78118413",
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Kingslayer",
-      "raw_description": "Receives 15% less damage from Legendary Champions.",
+      "raw_description": "Receives 15% less damage from Legendary Champions. Inflicts damage equal to this Champion’s ATK when attacked by Legendary Champions.",
       "slug": "kingslayer",
       "effects": [],
       "damaged_based_on": [],
@@ -658,6 +680,7 @@
     "increase-c-rate-2",
     "increase-def-2",
     "increase-spd-2",
+    "provoke",
     "true-fear"
   ],
   "videos": [

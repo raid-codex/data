@@ -122,63 +122,9 @@
   "auras": [],
   "skills": [
     {
-      "passive": true,
-      "name": "Witch's Grace",
-      "raw_description": "Places a [Shield] buff on this Champion equal to 10% of their MAX HP at the start of each turn.<br>When attacked while under a [Shield] buff, has a 35% chance of placing a [Fear] debuff on the attacker for 1 turn.<br>",
-      "slug": "witch-s-grace",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Fear",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-fear",
-          "slug": "fear",
-          "website_link": "/effects/fear",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Fear"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/effects/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Shield"
-          ],
-          "champion_slugs": []
-        }
-      ],
-      "damaged_based_on": [],
-      "giid": "4570_s1",
-      "cooldown": 0,
-      "upgrades": [],
-      "image_slug": "76db2634120c413758070006e8292306",
-      "skill_number": "P1"
-    },
-    {
       "passive": false,
       "name": "Panic Spread",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Fear] debuff for 1 turn.<br>This chance increases to 30% if the target is under 1 debuff. This chance increases to 45% if the target is under 2 or more debuffs.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +5%<br/>Level 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Fear] debuff for 1 turn. This chance increases to 30% if the target is under 1 debuff. This chance increases to 45% if the target is under 2 or more debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "panic-spread",
       "effects": [
         {
@@ -214,7 +160,7 @@
     {
       "passive": false,
       "name": "Tricks and Treats",
-      "raw_description": "Attacks all enemies. Has a 40% chance of stealing 1 random buff from each target.<br>Places a [Block Debuffs] buff on all allies for 2 turns if any buff is stolen.<br>Places a [True Fear] debuff for 1 turn on enemies who have buffs stolen.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 40% chance of stealing 1 random buff from each target. Places a [Block Debuffs] buff on all allies for 2 turns if any buff is stolen. Places a [True Fear] debuff for 1 turn on enemies who have buffs stolen.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
       "slug": "tricks-and-treats",
       "effects": [
         {
@@ -270,7 +216,7 @@
     {
       "passive": false,
       "name": "Midnight Ritual",
-      "raw_description": "Removes all buffs from enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 3 turns.<br>Level 2 Cooldown -1<br/>Level 3 Cooldown -1",
+      "raw_description": "Removes all buffs from enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 2 turns.<br>Level 1: Cooldown -1<br>Level 2: Cooldown -1",
       "slug": "midnight-ritual",
       "effects": [
         {
@@ -320,6 +266,60 @@
       "upgrades": [],
       "image_slug": "f6444a834d6221485f307137a2ee630b",
       "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Witch’s Grace",
+      "raw_description": "Places a [Shield] buff on this Champion equal to 10% of their MAX HP at the start of each turn. When attacked while under a [Shield] buff, has a 35% chance of placing a [Fear] debuff on the attacker for 1 turn.",
+      "slug": "witch-s-grace",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/effects/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Fear"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4570_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "76db2634120c413758070006e8292306",
+      "skill_number": "P1"
     }
   ],
   "faction": {
