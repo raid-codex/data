@@ -87,18 +87,125 @@
   "slug": "kaiden",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 16350,
+      "attack": 837,
+      "defense": 1376,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Halberd’s Fall",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Provoke] debuff for turn.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "halberd-s-fall",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5290_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "0e8710245b2817afe5da08b539f4f16c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Shatter Sweep",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "shatter-sweep",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5290_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "224eb95cacccff02cd1a198eed2f2a7c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Favor of the Chamber",
+      "raw_description": "Revives 2 random allies with 50% HP and places a 60% [Increase DEF] buff on them for 1 turn.<br>Level 1: Cooldown -1<br>Level 2: Cooldown -1",
+      "slug": "favor-of-the-chamber",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5290_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "dab2e2053b8ce5af98a61079def503eb",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dark Elves",
     "slug": "dark-elves",
@@ -165,6 +272,10 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "increase-def-2",
+    "provoke"
+  ],
   "videos": []
 }
