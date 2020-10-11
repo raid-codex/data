@@ -33,6 +33,12 @@ jobs:
       run: |
         export PATH="/home/runner/go/bin:$PATH"
         bash ./scripts/ayumilove-tier-list.sh
+    - name: "content creator videos"
+      run: |
+        git clone https://github.com/raid-codex/content-creators.git
+        export DATA_DIRECTORY=`pwd`
+        export CONTENT_CREATOR_DIRECTORY=`pwd`/content-creators
+        python3 scripts/add-content-creator-videos.py
     - name: "refresh"
       run: |
         export PATH="/home/runner/go/bin:$PATH"
