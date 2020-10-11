@@ -49,10 +49,10 @@ jobs:
       uses: peter-evans/create-pull-request@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "feat: updated ratings from sources"
+        commit-message: "feat: updated ratings & videos from sources"
         author: Geoffrey Bauduin <geoffreybauduin@users.noreply.github.com>
 
-        title: 'Updated ratings from sources'
+        title: 'Updated ratings & videos from sources'
         base: master
         body: |
           Automatically generated
