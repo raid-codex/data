@@ -124,7 +124,7 @@
     {
       "passive": false,
       "name": "Massive Halberd",
-      "raw_description": "Attacks 1 enemy.<br>Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "massive-halberd",
       "effects": [
         {
@@ -160,7 +160,7 @@
     {
       "passive": false,
       "name": "Ancestral Shield",
-      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turn.<br>Places a 60% [Increase DEF] buff on all allies for 2 turns",
+      "raw_description": "Places a [Block Debuffs] buff on all allies for 1 turns. Places a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
       "slug": "ancestral-shield",
       "effects": [
         {
@@ -214,7 +214,7 @@
     {
       "passive": false,
       "name": "Earthstomp",
-      "raw_description": "Attacks all enemies.<br>Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns.<br>Decreases each target's MAX HP by 30% of the damage inflicted.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Decreases each target’s MAX HP by 30% of the damage inflicted.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Buff/Debuff Chance +15%<br>Level 8: Cooldown -1",
       "slug": "earthstomp",
       "effects": [
         {
@@ -655,6 +655,34 @@
         "pinpoint-accuracy",
         "rapid-response"
       ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "single-out",
+        "stoked-to-fury",
+        "warmaster"
+      ],
+      "defense": [
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "rejuvenation",
+        "resurgent",
+        "retribution"
+      ],
+      "support": []
     }
   ],
   "fusion_data": [],
