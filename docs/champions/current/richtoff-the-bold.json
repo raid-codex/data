@@ -114,7 +114,7 @@
       "defense": 925,
       "speed": 95,
       "critical_rate": 0.15,
-      "critical_damage": 0.43,
+      "critical_damage": 0.63,
       "resistance": 30,
       "accuracy": 0
     }
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Ruination",
-      "raw_description": "Attacks all enemies. Decreases each target's MAX HP by 30% of the damage dealt.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks all enemies. Decreases each target’s MAX HP by 30% of the damage dealt.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "ruination",
       "effects": [],
       "damaged_based_on": [
@@ -152,7 +152,7 @@
     {
       "passive": false,
       "name": "Bloodletting",
-      "raw_description": "Attacks 1 enemy 3 times. Places a 5% [Poison] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit places a 5% [Poison] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Cooldown -1",
       "slug": "bloodletting",
       "effects": [
         {
@@ -188,30 +188,9 @@
     {
       "passive": false,
       "name": "Cursehold",
-      "raw_description": "Attacks 1 enemy. Deals an additional 20% Critical Damage for each [Poison] debuff on the target enemy (up to +100% C.DMG).<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Critical damage increases by 20% for each Poison debuff on the target. Stacks up to 100%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Cooldown -1",
       "slug": "cursehold",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Poison",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-poison",
-          "slug": "poison",
-          "website_link": "/effects/poison",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Poison"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK"
       ],
@@ -296,88 +275,294 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "Attack",
+          "main_stat": "ATK",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "gauntlets": {
-          "main_stat": "Critical Rate",
+          "main_stat": "C.RATE",
           "additional_stats": [
-            "Attack%",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "Attack%",
+          "main_stat": "ATK% / HP%",
           "additional_stats": [
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Attack",
+          "main_stat": "ATK / DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "amulet": {
-          "main_stat": "Critical Damage",
+          "main_stat": "C.DMG / DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "ATK",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "C.RATE",
+          "additional_stats": [
+            "ATK%",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "ATK% / HP%",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "ATK / DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stat": "C.DMG / DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "lifesteal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "ATK",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "C.RATE",
+          "additional_stats": [
+            "ATK%",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "ATK% / HP%",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "ATK / DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stat": "C.DMG / DEF",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
           ]
         }
       }
@@ -395,88 +580,90 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "Attack",
+          "main_stat": "ATK",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "gauntlets": {
-          "main_stat": "Critical Rate",
+          "main_stat": "C.RATE",
           "additional_stats": [
-            "Attack%",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "Attack%",
+          "main_stat": "ATK% / HP%",
           "additional_stats": [
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Attack",
+          "main_stat": "ATK / DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "amulet": {
-          "main_stat": "Critical Damage",
+          "main_stat": "C.DMG / DEF",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Speed",
-            "Accuracy"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed"
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
           ]
         }
       }
@@ -525,7 +712,6 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "poison",
     "poison-2"
   ],
   "videos": [
