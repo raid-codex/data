@@ -76,7 +76,95 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Cleansing Light",
+      "raw_description": "Attacks one enemy. Has a 30% chance of removing one random buff from the target.<br>Damage based on: [ATK]",
+      "slug": "cleansing-light",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5190_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "c72db56b741fba1ecfb123b42d95fe6a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Solar Shield",
+      "raw_description": "Attacks one enemy. Places a [Shield] buff on this champion equal to 20% of the damage inflicted for 2 turns.<br>Damage based on: [ATK]",
+      "slug": "solar-shield",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5190_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "8e6895311c939e860f0ebee2fd74e691",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blinding Bash",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for one turn.<br>Damage based on: [ATK]",
+      "slug": "blinding-bash",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5190_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ef67669aed6e8f6ab4f1f5478f801e39",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -143,6 +231,9 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "shield",
+    "stun"
+  ],
   "videos": []
 }
