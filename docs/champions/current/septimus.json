@@ -460,48 +460,7 @@
       "name": "Holy Sword",
       "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Damage increases according to enemy MAX HP.<br>Damage based on: [ATK] [Enemy MAX HP]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +10%",
       "slug": "holy-sword",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Block Damage",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-block-damage",
-          "slug": "block-damage",
-          "website_link": "/effects/block-damage",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Block Damage"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/effects/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Shield"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK",
         "Enemy MAX HP"
@@ -1220,15 +1179,13 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "block-damage",
     "debuff-extend",
     "extra-turn",
     "ignore-block-dmg",
     "ignore-shield",
     "increase-debuffs",
     "increase-dmg",
-    "reset-cooldown-on-holy-sword",
-    "shield"
+    "reset-cooldown-on-holy-sword"
   ],
   "videos": [
     {

@@ -475,48 +475,7 @@
       "name": "Peril",
       "raw_description": "Attacks 1 enemy 2 times. Will ignore [Shield] and [Block Damage] buffs as well as DEF. Enemies killed by this skill cannot be revived.<br>Damage based on: [HP]",
       "slug": "peril",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Block Damage",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-block-damage",
-          "slug": "block-damage",
-          "website_link": "/effects/block-damage",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Block Damage"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/effects/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Shield"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "HP"
       ],
@@ -938,15 +897,13 @@
   "fusion_data": [],
   "effect_slugs": [
     "block-buffs",
-    "block-damage",
     "block-revive",
     "heal-reduction",
     "heal-reduction-2",
     "ignore-block-dmg",
     "ignore-def",
     "ignore-shield",
-    "increase-turn-meter",
-    "shield"
+    "increase-turn-meter"
   ],
   "videos": []
 }
