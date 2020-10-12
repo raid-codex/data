@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally SPD in Faction Crypts by 20%",
+      "raw_description": "Increases Ally SPD in Faction Crypts by 20%.",
       "effects": [],
       "stats": [
         "SPD"
@@ -137,50 +137,9 @@
     {
       "passive": false,
       "name": "Fetid Steel",
-      "raw_description": "Attacks 1 enemy. Deals 30% more damage if the target has any buffs. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "raw_description": "Attacks 1 enemy. Deals 30% more damage if the target has any buffs. Will ignore [Shield] and [Block Damage] buffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "fetid-steel",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Block Damage",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-block-damage",
-          "slug": "block-damage",
-          "website_link": "/effects/block-damage",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Block Damage"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "buff",
-          "type": "Shield",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-buff-shield",
-          "slug": "shield",
-          "website_link": "/effects/shield",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Shield"
-          ],
-          "champion_slugs": []
-        }
-      ],
+      "effects": [],
       "damaged_based_on": [
         "ATK"
       ],
@@ -614,7 +573,7 @@
     {
       "passive": false,
       "name": "Dismantle",
-      "raw_description": "Attacks 2 times at random. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Buff/Debuff Chance +15%<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks 2 times at random. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
       "slug": "dismantle",
       "effects": [
         {
@@ -879,7 +838,7 @@
     {
       "passive": false,
       "name": "Not So Fast",
-      "raw_description": "Attacks 1 enemy. Will ignore 50% of the target's DEF if the target is faster than this Champion.<br>Damage based on: [ATK]<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Will ignore 50% of the target’s DEF if the target is faster than this Champion.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +10%",
       "slug": "not-so-fast",
       "effects": [],
       "damaged_based_on": [
@@ -1485,14 +1444,12 @@
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "block-damage",
     "decrease-def",
     "decrease-def-2",
     "ignore-block-dmg",
     "ignore-def",
     "ignore-shield",
-    "increase-dmg",
-    "shield"
+    "increase-dmg"
   ],
   "videos": []
 }
