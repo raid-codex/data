@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally RESIST in Arena by 50",
+      "raw_description": "Increases Ally RESIST in the Arena by 50.",
       "effects": [],
       "stats": [
         "RESIST"
@@ -137,9 +137,30 @@
     {
       "passive": false,
       "name": "Charge",
-      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% |Decrease SPD] debuff for 2 turns. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Buff/Debuff Chance +109<br>Level 5 Damage +10%<br>Level 6 Buff/Debuff Chance +10",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Damage +10%<br>Level 6: Buff/Debuff Chance +10%",
       "slug": "charge",
-      "effects": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [
         "DEF"
       ],
@@ -381,7 +402,7 @@
     {
       "passive": false,
       "name": "Taunt",
-      "raw_description": "Attacks 4 times at random. Each hit has a 25% chance of placing a [Provoke] debuff for 1 turn. Places a [Block Damage] buff on this Champion for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10°<br>Level 5 Buff/Debuff Chance +109<br>Level 6 Cooldown -1",
+      "raw_description": "Attacks 4 times at random. Each hit has a 25% chance of placing a [Provoke] debuff for 1 turn. Places a [Block Damage] buff on this Champion for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "taunt",
       "effects": [
         {
@@ -802,9 +823,9 @@
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Contempt",
-      "raw_description": "Attacks with mpion's default skill whenever a places a debuff o",
+      "raw_description": "Attacks with this Champion’s default skill whenever an enemy places a debuff on this Champion.<br>This passive skill is not triggered when an enemy counter attacks Templar’s attack, while applying debuff simultaneously.",
       "slug": "contempt",
       "effects": [],
       "damaged_based_on": [],
@@ -1258,6 +1279,7 @@
     "atk",
     "block-damage",
     "decrease-spd",
+    "decrease-spd-2",
     "provoke"
   ],
   "videos": []
