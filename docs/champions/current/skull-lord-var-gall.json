@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Gleeful Ripping",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit fills this Champion's Turn Meter by 5%.<br>Has a 30% chance to repeat this skill. Places a 100% [Heal Reduction] dbeuff on the target for 2 turns if this skill is repeated.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit fills this Champion’s Turn Meter by 5%. Has a 30% chance to repeat this skill. Places a 100% [Heal Reduction] debuff on the target for 2 turns if this skill is repeated.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%",
       "slug": "gleeful-ripping",
       "effects": [
         {
@@ -158,7 +158,7 @@
     {
       "passive": false,
       "name": "Skull Claim",
-      "raw_description": "Places a 25% [Strengthen] buff on this Champion for 2 turns. Has a 75% chanc of placing a [Provoke] debuff on a target enemy for 1 turn",
+      "raw_description": "Places a 25% [Strengthen] buff on this Champion for 2 turns. Has a 75% chance of placing a [Provoke] debuff on a target for 1 turn.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
       "slug": "skull-claim",
       "effects": [
         {
@@ -212,7 +212,7 @@
     {
       "passive": false,
       "name": "Abyssal Clutch",
-      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
       "slug": "abyssal-clutch",
       "effects": [
         {
@@ -248,7 +248,7 @@
     {
       "passive": true,
       "name": "Horrific Foe",
-      "raw_description": "When attacked, decreases the attacker's MAX HP by 5%. Cannot decrease a single enemy's MAX HP by more than 50%. Occurs once per enemy attack. Does not work against bosses.<br>Has a 50% chance of placing a [True Fear] debuff on targets whose MAX HP has been decreased by 20% or more",
+      "raw_description": "When attacked, decreases the attacker’s MAX HP by 5%. Cannot decrease a single enemy’s MAX HP by more than 50%. Occurs once per enemy attack. Does not work against bosses. Has a 50% chance of placing a [True Fear] debuff on targets whose MAX HP has been decreased by 20% or more.",
       "slug": "horrific-foe",
       "effects": [
         {
@@ -282,7 +282,7 @@
     {
       "passive": true,
       "name": "Skull Brood",
-      "raw_description": "Revives Skullsworn with 50% HP and 50% Turn Meter at the start of each turn. If there are multiple Skullsworn in the team, only one of them will be revived",
+      "raw_description": "Revives Skullsworn with 50% HP and 50% Turn Meter at the start of each turn. If there are multiple Skullsworns on the team, only one of them will be revived.",
       "slug": "skull-brood",
       "effects": [],
       "damaged_based_on": [],
@@ -351,13 +351,240 @@
     ]
   },
   "default_description": "Skull Lord Var-Gall is a legendary def champion from the faction Lizardmen doing force damage",
-  "recommended_builds": [],
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "defense",
+        "defense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "ATK",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "C.RATE",
+          "additional_stats": [
+            "DEF%",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF%",
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stat": "C.DMG",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "lifesteal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "ATK",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF% / HP% / ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    }
+  ],
   "lore": "<p>Aeons ago, before the rise of Humans and Elves, Lizardmen – or Dragonkin, as they were known at the time – were an empire unto themselves. Their domain stretched far and wide, and none could challenge them… But all that now lies in the past. Today, the tribes of Lizardmen are but a shadow of their former selves. Most have reverted to barbarism, many embraced their bestial nature. But there is still a vestige of greatness, a memory of that mighty empire remains. Amid the lakes that were once sacred to their ancestors, a tribe known as the Skullsworn yet dwells. The name comes from their custom of fashioning the skulls of their dead and the enemies they slay into helms to be worn by warriors – a sign of respect and a chance for the departed to fight in the name of the Great Dragon once more. Alas, their glory had waned with the ages, and the tribe lost ground to rivals and foreign invaders. Finally, the scions of the Dark One threatened the very heart of the Skullsworn domain. It was then the tribe performed a ritual of bloody sacrifice to awaken their ancient defender, one whose tread would shake the earth and before whom all foes would scatter. It was a desperate plea for help, their last hope – and their Progenitor answered. Skull Lord Var-Gall, once a mighty warrior in service of the Dragonkin Priesthood awakened, called forth by the blood of his descendants. His heart filled with rage when he realized how low the once-feared tribe had fallen and how vile invaders now sought to defile the very waters of the lakes under his protection. With a blood-chilling below he surged forth, calling upon the primordial magic that resided in his blood to raise his fallen kin from the dead. With the newly-resurrected warriors bolstering their ranks and the revered Var-Gall leading them, the Skullsworn fell upon Siroth’s demons, driving them back with tooth and claw. More of them perished, laid low by unholy blades in that battle, only to be risen once more by the magic of their ancestors and help turn the tide in favour of the Lizardmen. At the height of the battle, Var-Gall smashed his way through the Demonspawn vanguard and deep into the heart of their army. Many demons lay slain in his wake, but the Skull Lord’s fury would not be sated until the land itself drowned in the tainted blood of the interlopers. He cleaved and slashed through ranks upon ranks of spawn until their leader, a mighty Demon Baron stood before him. This was an equal battle, for the leader of Siroth’s minions was every bit as massive and brutal as the Skull Lord himself. He charged Var-Gall, effortlessly sweeping aside all the Skullsworn warriors who dared stand before him, and crashed into their Champion with enough force to utterly destroy a lesser mortal fighter. But Var-Gall would not be defeated so easily. Ignoring injury and pain, the Skull Lord rose to his feet once more and bellowed his challenge for all to hear. And so the two leaders clashed once more amidst the carnage of battle, each ripping into the other with claw and blade, not giving a single step of ground. The Demon Baron was a mighty foe in his own right, but Var-Gall had the strength of Ancestors empowering his every strike. This was no duel of skill and wit, both combatants fought like beasts, and Var-Gall proved to be the more vicious of the two. When he rose again, covered in terrible wounds but victorious, and raised the Demon Baron’s head for all to see, the outcome of the battle was decided. Shattered by the loss of their leader, the Demonspawn withdrew in disarray. The Skullsworn pursued them without mercy and claimed many trophies that day. Var-Gall himself had the skull of the Demon Baron fashioned into a new ceremonial helm that marked his tribe’s victory in the sight of the Great Dragon. But rather than return to his ageless slumber, the Skull Lord had chosen to remain and tread Teleria once more. He would not let his warriors fade into obscurity again, and all those who dared invade the ancestral lands of the Lizardmen would know his wrath.</p>",
   "giid": "5020",
   "synergy": [],
   "thumbnail": "b28d7c6b6aec04f5525b453411ff4336",
   "tags": [],
-  "masteries": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "giant-slayer",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
   "fusion_data": [
     {
       "fusion_slug": "fusion-skull-lord-var-gall",
