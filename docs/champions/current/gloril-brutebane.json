@@ -75,8 +75,110 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases ally RESIST in all battles by 30.",
+      "effects": [],
+      "stats": [
+        "RESIST"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 30,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Scale Hacker",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 30% [Decrease DEF] debuff for turns.<br>Damage based on: [ATK]",
+      "slug": "scale-hacker",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5130_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "962e8f0087ef43694b9e39d3f2d18e83",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Prey Acquired",
+      "raw_description": "Attacks 1 enemy. Damage increases by 5% for each debuff on the target.<br>Damage based on: [ATK]",
+      "slug": "prey-acquired",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5130_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "6dfb2e1ba2a662726b90a0cf812fe513",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Heroic Company",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Increase C. RATE] buff on all allies for 2 turns if this attack is critical.<br>Damage based on: [ATK]",
+      "slug": "heroic-company",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/effects/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5130_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "176a22f78d3216489ba8270785b854cd",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -152,6 +254,9 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-def",
+    "increase-c-rate"
+  ],
   "videos": []
 }
