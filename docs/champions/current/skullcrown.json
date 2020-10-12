@@ -895,15 +895,15 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
-        "lifesteal",
         "offense",
         "offense",
-        "offense",
-        "speed",
-        "speed",
-        "stun"
+        "speed"
       ],
       "stats": {
         "weapon": {
@@ -922,7 +922,6 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK",
             "ATK%",
             "C.RATE",
             "C.DMG",
@@ -934,7 +933,6 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK",
             "ATK%",
             "C.RATE",
             "C.DMG",
@@ -943,12 +941,11 @@
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
-            "ATK",
             "ATK%",
-            "C.DMG",
             "SPD"
           ]
         },
@@ -957,7 +954,6 @@
             "ATK%"
           ],
           "additional_stats": [
-            "ATK",
             "C.RATE",
             "C.DMG",
             "SPD"
@@ -965,11 +961,10 @@
         },
         "boots": {
           "main_stats": [
-            "SPD"
+            "SPD",
+            "ATK%"
           ],
           "additional_stats": [
-            "ATK",
-            "ATK%",
             "C.RATE",
             "C.DMG"
           ]
@@ -990,7 +985,6 @@
             "C.DMG"
           ],
           "additional_stats": [
-            "ATK",
             "ATK%",
             "C.RATE",
             "SPD"
@@ -998,7 +992,781 @@
         },
         "banner": {
           "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "speed",
+        "stun"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
             "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "critical-damage",
+        "offense"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "cruel",
+        "savage"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "lifesteal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "critical-damage",
+        "offense"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "cruel",
+        "savage"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD",
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ATK",
+            "ACC"
           ],
           "additional_stats": [
             "ATK%",
@@ -1056,20 +1824,20 @@
         "bring-it-down",
         "cycle-of-violence",
         "deadly-precision",
+        "grim-resolve",
         "keen-strike",
         "kill-streak",
-        "shield-breaker",
+        "methodical",
+        "ruthless-ambush",
         "single-out",
-        "warmaster",
-        "whirlwind-of-death"
+        "warmaster"
       ],
       "defense": [
-        "defiant",
+        "bloodthirst",
         "delay-death",
-        "deterrence",
-        "mighty-endurance",
-        "resurgent",
-        "retribution"
+        "rejuvenation",
+        "retribution",
+        "tough-skin"
       ],
       "support": []
     }

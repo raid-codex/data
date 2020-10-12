@@ -1139,8 +1139,8 @@
         "dungeon"
       ],
       "sets": [
-        "lifesteal",
-        "speed"
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
@@ -1149,8 +1149,7 @@
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1161,8 +1160,7 @@
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1173,32 +1171,29 @@
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "DEF%",
+            "HP%"
           ],
           "additional_stats": [
-            "DEF%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "DEF%"
+            "DEF%",
+            "HP%",
+            "ACC"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
+            "SPD"
           ]
         },
         "boots": {
@@ -1207,30 +1202,30 @@
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1241,8 +1236,7 @@
           ],
           "additional_stats": [
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD"
           ]
         }
@@ -1275,14 +1269,41 @@
         "giant-slayer",
         "keen-strike",
         "kill-streak",
-        "life-drinker",
+        "shield-breaker",
+        "single-out",
         "whirlwind-of-death"
       ],
       "defense": [
         "bloodthirst",
+        "defiant",
         "delay-death",
         "improved-parry",
-        "mighty-endurance",
+        "retribution"
+      ],
+      "support": []
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss"
+      ],
+      "offense": [
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "giant-slayer",
+        "heart-of-glory",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "methodical",
+        "single-out"
+      ],
+      "defense": [
+        "blastproof",
+        "delay-death",
+        "resurgent",
         "retribution",
         "tough-skin"
       ],

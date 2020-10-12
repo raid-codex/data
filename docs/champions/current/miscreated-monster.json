@@ -397,7 +397,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "life",
         "life",
@@ -409,12 +413,11 @@
             "ATK"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "helmet": {
@@ -422,12 +425,11 @@
             "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "shield": {
@@ -435,36 +437,33 @@
             "DEF"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "DEF%",
+            "HP%"
           ],
           "additional_stats": [
-            "HP%",
-            "DEF%",
-            "C.DMG",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "chestplate": {
           "main_stats": [
+            "DEF%",
             "HP%"
           ],
           "additional_stats": [
-            "DEF%",
-            "C.RATE",
-            "C.DMG",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "boots": {
@@ -472,11 +471,10 @@
             "SPD"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
-            "ACC"
+            "HP%",
+            "ACC",
+            "RES"
           ]
         },
         "ring": {
@@ -485,35 +483,34 @@
             "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
+            "HP%",
             "SPD",
-            "ACC"
+            "ACC",
+            "RES"
           ]
         },
         "banner": {
           "main_stats": [
-            "ACC"
+            "ACC",
+            "RES"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
-            "C.RATE",
-            "C.DMG",
+            "HP%",
             "SPD"
           ]
         }
@@ -522,10 +519,14 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
       "sets": [
         "life",
-        "retaliation"
+        "life",
+        "life"
       ],
       "stats": {
         "weapon": {
@@ -533,10 +534,9 @@
             "ATK"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -546,10 +546,9 @@
             "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -559,34 +558,31 @@
             "DEF"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
+            "DEF%",
+            "HP%",
             "C.RATE"
           ],
           "additional_stats": [
-            "HP%",
-            "DEF%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
+            "DEF%",
             "HP%"
           ],
           "additional_stats": [
-            "DEF%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -596,10 +592,9 @@
             "SPD"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "ACC"
           ]
         },
@@ -609,21 +604,21 @@
             "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
             "SPD",
             "ACC"
@@ -634,10 +629,9 @@
             "ACC"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD"
           ]
         }
@@ -667,6 +661,7 @@
         "delay-death",
         "fearsome-presence",
         "rejuvenation",
+        "retribution",
         "shadow-heal"
       ],
       "support": [
@@ -675,7 +670,6 @@
         "cycle-of-magic",
         "lasting-gifts",
         "lore-of-steel",
-        "master-hexer",
         "pinpoint-accuracy",
         "rapid-response",
         "shieldbearer"
@@ -689,24 +683,24 @@
         "dungeon"
       ],
       "offense": [
-        "cycle-of-violence",
+        "bring-it-down",
         "deadly-precision",
         "keen-strike",
         "kill-streak",
-        "shield-breaker",
-        "warmaster",
-        "whirlwind-of-death"
+        "methodical",
+        "single-out",
+        "warmaster"
       ],
       "defense": [],
       "support": [
         "arcane-celerity",
+        "charged-focus",
         "cycle-of-magic",
         "lasting-gifts",
         "lore-of-steel",
-        "master-hexer",
         "pinpoint-accuracy",
-        "shieldbearer",
-        "swarm-smiter"
+        "rapid-response",
+        "shieldbearer"
       ]
     }
   ],

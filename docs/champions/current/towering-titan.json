@@ -1282,13 +1282,14 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
-        "life",
-        "life",
-        "life",
-        "speed",
-        "taunt"
+        "frost",
+        "speed"
       ],
       "stats": {
         "weapon": {
@@ -1296,8 +1297,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1307,8 +1308,8 @@
             "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1318,28 +1319,28 @@
             "DEF"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
+            "DEF%",
             "HP%"
           ],
           "additional_stats": [
-            "DEF%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
+            "DEF%",
             "HP%"
           ],
           "additional_stats": [
-            "DEF%",
             "SPD",
             "ACC"
           ]
@@ -1349,29 +1350,31 @@
             "SPD"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "DEF"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1381,8 +1384,344 @@
             "ACC"
           ],
           "additional_stats": [
-            "HP%",
             "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "life",
+        "taunt"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "offense",
+        "offense",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
             "SPD"
           ]
         }

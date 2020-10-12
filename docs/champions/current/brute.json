@@ -219,6 +219,8 @@
         "faction-wars"
       ],
       "sets": [
+        "offense",
+        "offense",
         "speed"
       ],
       "stats": {
@@ -257,11 +259,11 @@
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
             "ATK%",
-            "C.DMG",
             "SPD"
           ]
         },
@@ -327,8 +329,8 @@
         "dungeon"
       ],
       "sets": [
-        "lifesteal",
-        "speed"
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
@@ -336,10 +338,11 @@
             "ATK"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
           ]
         },
         "helmet": {
@@ -347,10 +350,11 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
           ]
         },
         "shield": {
@@ -358,29 +362,32 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
+            "DEF%",
+            "HP%",
             "C.RATE"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.DMG",
-            "SPD"
+            "SPD",
+            "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "DEF%",
+            "HP%",
+            "ACC"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
             "SPD"
           ]
         },
@@ -389,30 +396,36 @@
             "SPD"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG"
+            "DEF%",
+            "HP%",
+            "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "ATK"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "SPD"
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
           ]
         },
         "banner": {
@@ -420,9 +433,9 @@
             "ACC"
           ],
           "additional_stats": [
-            "ATK%",
             "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD"
           ]
         }

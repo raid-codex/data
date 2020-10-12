@@ -500,11 +500,11 @@
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
             "ATK%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -575,8 +575,8 @@
         "dungeon"
       ],
       "sets": [
-        "lifesteal",
-        "speed"
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
@@ -584,9 +584,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -596,9 +595,8 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -608,33 +606,30 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "DEF%",
+            "HP%"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "DEF%",
+            "HP%",
+            "ACC"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
+            "SPD"
           ]
         },
         "boots": {
@@ -642,31 +637,31 @@
             "SPD"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "ATK"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "DEF",
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -676,9 +671,119 @@
             "ACC"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
             "SPD"
           ]
         }
@@ -700,8 +805,6 @@
       "locations": [
         "arena",
         "campaign",
-        "clan-boss",
-        "dungeon",
         "faction-wars"
       ],
       "offense": [
@@ -724,6 +827,34 @@
         "retribution"
       ],
       "support": []
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "giant-slayer",
+        "heart-of-glory",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "methodical",
+        "single-out"
+      ],
+      "defense": [],
+      "support": [
+        "charged-focus",
+        "cycle-of-magic",
+        "lore-of-steel",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
     }
   ],
   "fusion_data": [],

@@ -1062,18 +1062,19 @@
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
             "ATK%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "ATK%",
+            "HP%"
           ],
           "additional_stats": [
             "C.RATE",
@@ -1107,6 +1108,7 @@
         },
         "amulet": {
           "main_stats": [
+            "DEF",
             "C.DMG"
           ],
           "additional_stats": [
@@ -1133,11 +1135,13 @@
       "from": "ayumilove.net",
       "author": "ayumilove",
       "locations": [
-        "clan-boss",
-        "dungeon"
+        "arena",
+        "campaign",
+        "faction-wars"
       ],
       "sets": [
-        "lifesteal",
+        "accuracy",
+        "accuracy",
         "speed"
       ],
       "stats": {
@@ -1179,18 +1183,19 @@
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
             "ATK%",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "ATK%",
+            "HP%"
           ],
           "additional_stats": [
             "C.RATE",
@@ -1224,6 +1229,7 @@
         },
         "amulet": {
           "main_stats": [
+            "DEF",
             "C.DMG"
           ],
           "additional_stats": [
@@ -1254,7 +1260,8 @@
         "dungeon"
       ],
       "sets": [
-        "speed"
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
@@ -1262,9 +1269,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1274,9 +1280,8 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1286,31 +1291,31 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE"
+            "C.RATE",
+            "C.DMG"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "ATK%",
+            "HP%"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
             "SPD",
             "ACC"
           ]
@@ -1320,31 +1325,30 @@
             "SPD"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "ATK"
+            "DEF"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
+            "DEF",
             "C.DMG"
           ],
           "additional_stats": [
-            "ATK%",
-            "C.RATE",
+            "DEF%",
+            "HP%",
             "SPD",
             "ACC"
           ]
@@ -1354,9 +1358,122 @@
             "ACC"
           ],
           "additional_stats": [
-            "ATK%",
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "accuracy",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
             "C.RATE",
-            "C.DMG",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
             "SPD"
           ]
         }

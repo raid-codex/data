@@ -762,118 +762,6 @@
         "faction-wars"
       ],
       "sets": [
-        "speed",
-        "taunt"
-      ],
-      "stats": {
-        "weapon": {
-          "main_stats": [
-            "ATK"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "helmet": {
-          "main_stats": [
-            "HP"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "shield": {
-          "main_stats": [
-            "DEF"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "gauntlets": {
-          "main_stats": [
-            "DEF%",
-            "HP%"
-          ],
-          "additional_stats": [
-            "SPD",
-            "ACC"
-          ]
-        },
-        "chestplate": {
-          "main_stats": [
-            "DEF%",
-            "HP%"
-          ],
-          "additional_stats": [
-            "SPD",
-            "ACC"
-          ]
-        },
-        "boots": {
-          "main_stats": [
-            "SPD"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "ACC"
-          ]
-        },
-        "ring": {
-          "main_stats": [
-            "DEF",
-            "HP"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "amulet": {
-          "main_stats": [
-            "DEF",
-            "HP"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "banner": {
-          "main_stats": [
-            "ACC"
-          ],
-          "additional_stats": [
-            "DEF%",
-            "HP%",
-            "SPD"
-          ]
-        }
-      }
-    },
-    {
-      "from": "ayumilove.net",
-      "author": "ayumilove",
-      "locations": [
-        "arena",
-        "campaign",
-        "faction-wars"
-      ],
-      "sets": [
         "retaliation",
         "speed"
       ],
@@ -885,6 +773,8 @@
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -896,6 +786,8 @@
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -907,6 +799,8 @@
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -914,9 +808,11 @@
         "gauntlets": {
           "main_stats": [
             "DEF%",
-            "HP%"
+            "C.RATE"
           ],
           "additional_stats": [
+            "HP%",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -927,6 +823,8 @@
             "HP%"
           ],
           "additional_stats": [
+            "C.RATE",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -938,17 +836,20 @@
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF",
-            "HP"
+            "DEF"
           ],
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -956,11 +857,12 @@
         "amulet": {
           "main_stats": [
             "DEF",
-            "HP"
+            "C.DMG"
           ],
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -972,6 +874,136 @@
           "additional_stats": [
             "DEF%",
             "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "frost",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
             "SPD"
           ]
         }
@@ -989,6 +1021,133 @@
         "defense",
         "defense",
         "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
@@ -1107,25 +1266,25 @@
         "dungeon",
         "faction-wars"
       ],
-      "offense": [],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "kill-streak",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "single-out",
+        "warmaster"
+      ],
       "defense": [
         "bloodthirst",
-        "bulwark",
         "cycle-of-revenge",
         "defiant",
         "delay-death",
-        "improved-parry",
-        "retribution"
+        "improved-parry"
       ],
-      "support": [
-        "arcane-celerity",
-        "cycle-of-magic",
-        "evil-eye",
-        "exalt-in-death",
-        "lasting-gifts",
-        "pinpoint-accuracy",
-        "rapid-response"
-      ]
+      "support": []
     }
   ],
   "fusion_data": [],
