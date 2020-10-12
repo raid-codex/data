@@ -121,10 +121,10 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally RESIST in the Arena by 45",
+      "raw_description": "Increases Ally RES in the Arena by 45",
       "effects": [],
       "stats": [
-        "RESIST"
+        "RES"
       ],
       "locations": [
         "arena"
@@ -341,97 +341,124 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "Attack",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "gauntlets": {
-          "main_stat": "Critical Rate",
+          "main_stats": [
+            "C.RATE"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stats": [
+            "DEF%"
+          ],
           "additional_stats": [
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "ACC",
+            "RES"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "amulet": {
-          "main_stat": "Critical Damage",
+          "main_stats": [
+            "C.DMG"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Speed",
-            "Accuracy/Resist"
+            "C.RATE",
+            "SPD",
+            "ACC",
+            "RES"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy/Resist",
+          "main_stats": [
+            "ACC",
+            "RES"
+          ],
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed"
+            "C.RATE",
+            "C.DMG",
+            "SPD"
           ]
         }
       }

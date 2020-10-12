@@ -121,10 +121,10 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally RESIST in all Battles by 35.",
+      "raw_description": "Increases Ally RES in all Battles by 35.",
       "effects": [],
       "stats": [
-        "RESIST"
+        "RES"
       ],
       "locations": [
         "all-battles"
@@ -336,7 +336,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -346,7 +348,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -356,7 +360,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -366,27 +372,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -395,7 +405,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -405,7 +418,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -415,7 +432,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -440,7 +459,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -450,7 +471,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -460,7 +483,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -470,27 +495,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -499,7 +528,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -509,7 +541,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -519,7 +555,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -542,7 +580,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -552,7 +592,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -562,7 +604,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -572,27 +616,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -601,7 +649,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -611,7 +662,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -621,7 +676,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -644,7 +701,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -654,7 +713,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -664,7 +725,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -674,27 +737,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -703,7 +770,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -713,7 +783,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -723,7 +797,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -747,7 +823,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -757,7 +835,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -767,7 +847,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -777,27 +859,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -806,7 +892,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -816,7 +905,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -826,7 +919,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -850,7 +945,9 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "ATK",
+          "main_stats": [
+            "ATK"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -860,7 +957,9 @@
           ]
         },
         "helmet": {
-          "main_stat": "HP",
+          "main_stats": [
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -870,7 +969,9 @@
           ]
         },
         "shield": {
-          "main_stat": "DEF",
+          "main_stats": [
+            "DEF"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -880,27 +981,31 @@
           ]
         },
         "gauntlets": {
-          "main_stat": "C.RATE / DEF% / HP%",
-          "additional_stats": [
-            "DEF%",
-            "HP%",
+          "main_stats": [
             "C.RATE",
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "DEF% / HP%",
-          "additional_stats": [
+          "main_stats": [
             "DEF%",
-            "HP%",
+            "HP%"
+          ],
+          "additional_stats": [
             "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "boots": {
-          "main_stat": "SPD",
+          "main_stats": [
+            "SPD"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -909,7 +1014,10 @@
           ]
         },
         "ring": {
-          "main_stat": "DEF / HP",
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -919,7 +1027,11 @@
           ]
         },
         "amulet": {
-          "main_stat": "DEF / HP / C.DMG",
+          "main_stats": [
+            "DEF",
+            "HP",
+            "C.DMG"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",
@@ -929,7 +1041,9 @@
           ]
         },
         "banner": {
-          "main_stat": "ACC",
+          "main_stats": [
+            "ACC"
+          ],
           "additional_stats": [
             "DEF%",
             "HP%",

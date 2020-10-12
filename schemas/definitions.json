@@ -941,17 +941,34 @@
         }
     },
     "stat": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+            "SPD",
+            "ACC",
+            "C.DMG",
+            "C.RATE",
+            "ATK",
+            "DEF",
+            "HP",
+            "ATK%",
+            "DEF%",
+            "HP%",
+            "RES",
+            "N/A"
+        ]
     },
     "build_stats_object": {
         "type": "object",
         "required": [
-            "main_stat",
+            "main_stats",
             "additional_stats"
         ],
         "properties": {
-            "main_stat": {
-                "$ref": "#/definitions/stat"
+            "main_stats": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/stat"
+                }
             },
             "additional_stats": {
                 "type": "array",
