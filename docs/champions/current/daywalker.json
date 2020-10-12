@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally C.RATE in Arena by 21%",
+      "raw_description": "Increases Ally C.RATE in the Arena by 21%.",
       "effects": [],
       "stats": [
         "C.RATE"
@@ -136,8 +136,8 @@
   "skills": [
     {
       "passive": false,
-      "name": "Grave's Grasp",
-      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has more HP than this Champion.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +5%<br>Level 5 Damage +5%",
+      "name": "Grave’s Grasp",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if the target has more HP than this Champion.<br>Damage based on: [ATK]<br>Level: 2 Damage +5%<br>Level: 3 Damage +5%<br>Level: 4 Damage +5%<br>Level: 5 Damage +5%",
       "slug": "grave-s-grasp",
       "effects": [],
       "damaged_based_on": [
@@ -343,7 +343,7 @@
     {
       "passive": false,
       "name": "Unnatural Vigor",
-      "raw_description": "Places a 25% [Ally Protection] buff on all allies for 2 turns. Places a [Block Debuffs] buff on this Champion for 2 turns. Removes all debuffs from this Champion.<br>Level 2 Cooldown -1",
+      "raw_description": "Places a 25% [Ally Protection] buff on all allies for 2 turns. Places a [Block Debuffs] buff on this Champion for 2 turns. Removes all debuffs from this Champion.<br>Level: 2 Cooldown -1",
       "slug": "unnatural-vigor",
       "effects": [
         {
@@ -676,97 +676,342 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "life",
-        "life",
-        "lifesteal",
         "taunt"
       ],
       "stats": {
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
             "Speed"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
             "Speed"
           ]
         },
         "shield": {
           "main_stat": "Defense",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
             "Speed"
           ]
         },
         "gauntlets": {
-          "main_stat": "Critical Rate",
+          "main_stat": "Defense% / HP%",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Damage",
             "Speed"
           ]
         },
         "chestplate": {
-          "main_stat": "HP%",
+          "main_stat": "Defense% / HP%",
           "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
+            "Defense%",
+            "HP%",
             "Speed"
           ]
         },
         "boots": {
           "main_stat": "Speed",
           "additional_stats": [
-            "Attack%",
-            "HP%",
-            "Critical Rate",
-            "Critical Damage"
+            "Defense%",
+            "HP%"
           ]
         },
         "ring": {
-          "main_stat": "Attack",
+          "main_stat": "Defense / HP",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
             "Speed"
           ]
         },
         "amulet": {
-          "main_stat": "Critical Damage",
+          "main_stat": "Defense / HP",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
             "Speed"
           ]
         },
         "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "retaliation",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Attack%",
+            "Defense%",
             "HP%",
-            "Critical Rate",
-            "Critical Damage",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "life",
+        "life",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "lifesteal",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "shield": {
+          "main_stat": "Defense",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "Defense% / HP%",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "boots": {
+          "main_stat": "Speed",
+          "additional_stats": [
+            "Defense%",
+            "HP%"
+          ]
+        },
+        "ring": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "amulet": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
+            "Speed"
+          ]
+        },
+        "banner": {
+          "main_stat": "Defense / HP",
+          "additional_stats": [
+            "Defense%",
+            "HP%",
             "Speed"
           ]
         }
