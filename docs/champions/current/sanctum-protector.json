@@ -65,18 +65,127 @@
   "slug": "sanctum-protector",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 15360,
+      "attack": 804,
+      "defense": 1200,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Repel Intruders",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "repel-intruders",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5260_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "2da32e4b1906647fa5fac367e97a43b8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hallowed Ground",
+      "raw_description": "Attacks all enemies, then places a 30% [Increase DEF] buff on all allies for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Cooldown -1",
+      "slug": "hallowed-ground",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/effects/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5260_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "23aa93177eeec87904b045e3e2e0e944",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "False Bravado",
+      "raw_description": "Attacks 1 enemy. Has a 70% chance of placing a [Provoke] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Cooldown -1",
+      "slug": "false-bravado",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5260_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "135a6326a5f54ede072cd7689dd18a37",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -143,6 +252,10 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "increase-def",
+    "provoke",
+    "stun"
+  ],
   "videos": []
 }

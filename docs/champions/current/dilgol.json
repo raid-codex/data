@@ -65,18 +65,106 @@
   "slug": "dilgol",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 15525,
+      "attack": 1046,
+      "defense": 947,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Crippler Round",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 2: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1 ",
+      "slug": "crippler-round",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5120_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "288b1bfd9cdcb6cfdaaa293a0915f875",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Shot Spray",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 50% [Decrease ACC] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "shot-spray",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/effects/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ACC"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5120_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "8f7eedbadc54382cedd7d16260dabf15",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Big Game Hunter",
+      "raw_description": "Level 2: Damage +5%<br>Damage based on: [ATK]<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "big-game-hunter",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5120_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "b3a6f0980e645e2fb199fbffd51e1a1d",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -152,6 +240,9 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-acc-2",
+    "decrease-def-2"
+  ],
   "videos": []
 }
