@@ -102,7 +102,7 @@
     {
       "passive": false,
       "name": "Mallet Crescendo",
-      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 15% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 15% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +5%<br>Level 7: Buff/Debuff Chance +5%",
       "slug": "mallet-crescendo",
       "effects": [
         {
@@ -138,7 +138,7 @@
     {
       "passive": false,
       "name": "Tombfire",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [HP]",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +5%<br>Level 7: Buff/Debuff Chance +5%<br>Level 8: Damage +10%<br>Level 9: Buff/Debuff Chance +10%",
       "slug": "tombfire",
       "effects": [
         {
@@ -166,15 +166,15 @@
         "HP"
       ],
       "giid": "4470_s2",
-      "cooldown": 0,
+      "cooldown": 4,
       "upgrades": [],
       "image_slug": "ab991b9a350949a2e2a68d967f002b5e",
       "skill_number": "A2"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Gloom Mist",
-      "raw_description": "Decreases the damage enemies inflict with AoE attacks by 5%",
+      "raw_description": "Decreases the damage enemies inflict with AoE attacks by 5%.",
       "slug": "gloom-mist",
       "effects": [],
       "damaged_based_on": [],
