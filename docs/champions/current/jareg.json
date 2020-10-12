@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all battles by 33%",
+      "raw_description": "Increases Ally HP in all battles by 33%.",
       "effects": [],
       "stats": [
         "HP"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Rending Claws",
-      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a [Decrease ATK] debuff for 2 turns",
+      "raw_description": "Attacks 1 enemy. Has an 35% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%",
       "slug": "rending-claws",
       "effects": [
         {
@@ -148,10 +148,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-atk",
-          "slug": "decrease-atk",
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
           "website_link": "/effects/decrease-atk",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -161,7 +161,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "2990_s1",
       "cooldown": 0,
       "upgrades": [],
@@ -171,7 +173,7 @@
     {
       "passive": false,
       "name": "Pack Leader",
-      "raw_description": "Places a 50% [Ally Protection] and a 60% [Increase DEF] buff on all allies for 2 turns",
+      "raw_description": "Places a 50% [Ally Protection] and a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1",
       "slug": "pack-leader",
       "effects": [
         {
@@ -225,7 +227,7 @@
     {
       "passive": false,
       "name": "Sheltering Scales",
-      "raw_description": "Places a 15% [Continuous Heal] buff on an ally for 1 turn whenever an ally loses 20% of their MAX HP in one hit",
+      "raw_description": "Places a 15% [Continuous Heal] buff on an ally for 1 turn whenever an ally loses 20% of their MAX HP in one hit.",
       "slug": "sheltering-scales",
       "effects": [
         {
@@ -453,7 +455,7 @@
   "effect_slugs": [
     "ally-protection-2",
     "continuous-heal-2",
-    "decrease-atk",
+    "decrease-atk-2",
     "increase-def-2"
   ],
   "videos": [
