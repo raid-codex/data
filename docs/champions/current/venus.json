@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all battles by 33%",
+      "raw_description": "Increases Ally HP in all Battles by 33%.",
       "effects": [],
       "stats": [
         "HP"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Pining",
-      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Damage +5%<br>Level 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%",
       "slug": "pining",
       "effects": [
         {
@@ -325,8 +325,8 @@
     },
     {
       "passive": false,
-      "name": "Blind With Infatuation",
-      "raw_description": "Attacks all enemies. Has a 75% chance of placing a [Decrease DEF] and a [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Damage +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Buff/Debuff Chance +10%",
+      "name": "Blind with Infatuation",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%",
       "slug": "blind-with-infatuation",
       "effects": [
         {
@@ -337,10 +337,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def",
-          "slug": "decrease-def",
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
           "website_link": "/effects/decrease-def",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -357,10 +357,10 @@
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-weaken",
-          "slug": "weaken",
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
           "website_link": "/effects/weaken",
-          "extra": false,
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
@@ -688,7 +688,7 @@
     {
       "passive": false,
       "name": "Burning Passion",
-      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +10%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1",
       "slug": "burning-passion",
       "effects": [
         {
@@ -915,7 +915,7 @@
     {
       "passive": false,
       "name": "Pure Partner",
-      "raw_description": "Removes all buffs from all enemies. Has a 50% of granting an Extra Turn.",
+      "raw_description": "Removes all buffs from all enemies. Has a 50% chance of granting an Extra Turn.<br>(Only available when Cupidus is on the same team)",
       "slug": "pure-partner",
       "effects": [],
       "damaged_based_on": [],
@@ -1044,107 +1044,7 @@
     ]
   },
   "default_description": "Venus is a legendary assist champion from the faction Sacred Order doing void damage",
-  "recommended_builds": [
-    {
-      "from": "ayumilove.net",
-      "author": "ayumilove",
-      "locations": [
-        "clan-boss",
-        "dungeon"
-      ],
-      "sets": [
-        "lifesteal",
-        "speed"
-      ],
-      "stats": {
-        "weapon": {
-          "main_stat": "Attack",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "helmet": {
-          "main_stat": "HP",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "shield": {
-          "main_stat": "Defense",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "gauntlets": {
-          "main_stat": "Critical Rate",
-          "additional_stats": [
-            "Attack%",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "chestplate": {
-          "main_stat": "Attack%",
-          "additional_stats": [
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "boots": {
-          "main_stat": "Speed",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Accuracy"
-          ]
-        },
-        "ring": {
-          "main_stat": "Attack",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "amulet": {
-          "main_stat": "Critical Damage",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Speed",
-            "Accuracy"
-          ]
-        },
-        "banner": {
-          "main_stat": "Accuracy",
-          "additional_stats": [
-            "Attack%",
-            "Critical Rate",
-            "Critical Damage",
-            "Speed"
-          ]
-        }
-      }
-    }
-  ],
+  "recommended_builds": [],
   "lore": "<p>Bards and minstrels have spun many tales about love so pure, it overcomes death itself. While it is, indeed, the stuff of many a ballad (too many, perhaps) the Realm of Teleria had seen these wondrous tales come to life. One particular legend speaks of a maiden so fair she caught a jealous eye of an evil Sorcerer, a servant of Siroth’s dark will. The spells he weaved allowed him to entrance the maiden and entrap her in a distant stronghold. Fortunately, her faith allowed the maiden to break free and regain her will before the sorcerer’s vile designs could be realized, yet she remained a prisoner under threat of imminent death were she not to accept the Sorcerer’s advances. But all was not lost, for her promised one, a noble Knight of great renown, rose up to the challenge. He fought his way through untold dangers and enemies uncountable before forcing the great gates of the dark keep open. There, the entire might of the Sorceror’s magic was unleashed upon him. The Knight cut down hordes of Siroth’s servants, ignoring his own wounds and striking the villain down with a single blow of his blessed sword. Though life ebbed away from his body by the moment, he chose to expend the last of his strength on proclaiming his love for the Maiden who was finally free. I was at that moment the Arbiter herself interfered. Though Lumaya may never guide the affairs of mortals, her faithful herald would not let a heroic deed driven by love as pure as that turn into tragedy. She used her power to save the dying Knight, yet such divine assistance did come with a price. Unable to live on without her beloved, the Maiden did not hesitate to swear her own soul to Lumaya’s cause. In turn, both she and her Knight were granted with life immortal. There are many recountings of their adventures afterward, some contradicting each other, some – the stuff of fairy tales. Even their true names are lost to history, as is any proof that their origins are anything more than legend. Yet one thing is certain – wherever the mysterious lovers known as Venus and Cupidus appear, no darkness may stand before the fires of their passion. With her magic, and his trusty blade, the pair has saved lives beyond counting. Any warrior that gains the loyalty of both of these divine servants will find their force strengthened with the kind of purity only love that transcends mortal boundaries can bring.</p>",
   "giid": "3500",
   "synergy": [
@@ -1179,10 +1079,37 @@
         "bring-it-down",
         "deadly-precision",
         "keen-strike",
+        "methodical",
+        "shield-breaker",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "evil-eye",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
         "life-drinker",
         "methodical",
-        "ruthless-ambush",
-        "shield-breaker",
+        "single-out",
         "warmaster"
       ],
       "defense": [],
@@ -1200,12 +1127,14 @@
   "fusion_data": [],
   "effect_slugs": [
     "decrease-def",
+    "decrease-def-2",
     "extra-turn",
     "hp-burn",
     "poison",
     "poison-2",
     "remove-all-buffs",
-    "weaken"
+    "weaken",
+    "weaken-2"
   ],
   "videos": []
 }
