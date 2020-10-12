@@ -123,8 +123,44 @@
   "skills": [
     {
       "passive": false,
+      "name": "Bolts of Scorn",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of stealing 1 random buff from the target. Has an 80% chance of placing a [Block Buffs] debuff for 1 turn if the target has no active buffs.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "bolts-of-scorn",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3610_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "09e2bc53d75a618b776f63e5be0395ca",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
       "name": "Triple Puncture",
-      "raw_description": "Attacks 1 enemy 3 times. Ignores [Shield] and [Block Damage] buffs, as well as 50% of the target's DEF.<br> Damage based on: [ATK] <br><br/>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Damage +10%<br/>",
+      "raw_description": "Attacks 1 enemy 3 times. Ignores [Shield] and [Block Damage] buffs, as well as 50% of the target’s DEF.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Damage +10%",
       "slug": "triple-puncture",
       "effects": [
         {
@@ -171,16 +207,16 @@
       "damaged_based_on": [
         "ATK"
       ],
-      "giid": "3610_s1",
+      "giid": "3610_s2",
       "cooldown": 3,
       "upgrades": [],
-      "image_slug": "09e2bc53d75a618b776f63e5be0395ca",
-      "skill_number": "A1"
+      "image_slug": "73969671b8823df0eaa269975cd1febc",
+      "skill_number": "A2"
     },
     {
       "passive": false,
       "name": "Majesty",
-      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn. Decreases each target's Turn Meter by 50% if the [Stun] debuff is not placed<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br/>Level 3 Buff/Debuff Chance +10%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff Chance +15%",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn. Decreases each target’s Turn Meter by 50% if the [Stun] debuff is not placed.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +15%",
       "slug": "majesty",
       "effects": [
         {
@@ -227,44 +263,8 @@
       "damaged_based_on": [
         "ATK"
       ],
-      "giid": "3610_s2",
-      "cooldown": 4,
-      "upgrades": [],
-      "image_slug": "73969671b8823df0eaa269975cd1febc",
-      "skill_number": "A2"
-    },
-    {
-      "passive": false,
-      "name": "Bolts of Scorn",
-      "raw_description": "Attacks 1 enemy. Has an 80% chance of stealing 1 random buff from the target. Has an 80% chance of placing a [Block Buffs] debuff for 1 turn if the target has no active buffs.<br>Damage based on: [ATK]<br>Level 2 Damage +10%<br/>Level 3 Buff/Debuff chance +10%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff chance +10%",
-      "slug": "bolts-of-scorn",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Block Buffs",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-block-buffs",
-          "slug": "block-buffs",
-          "website_link": "/effects/block-buffs",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Block Buffs"
-          ],
-          "champion_slugs": []
-        }
-      ],
-      "damaged_based_on": [
-        "ATK"
-      ],
       "giid": "3610_s3",
-      "cooldown": 0,
+      "cooldown": 4,
       "upgrades": [],
       "image_slug": "ce43b910c232ea4a4565f0cf00a4d0fa",
       "skill_number": "A3"
