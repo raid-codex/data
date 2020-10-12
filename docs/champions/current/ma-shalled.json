@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally ATK in Dungeons by 34%",
+      "raw_description": "Increases Ally ATK in Dungeons by 34%.",
       "effects": [],
       "stats": [
         "ATK"
@@ -137,7 +137,7 @@
     {
       "passive": false,
       "name": "Bloodsucker",
-      "raw_description": "Attacks 1 enemy. Heals this Champion by 30% of the damage inflicted. Will then attack enemies under [Leech] debuffs.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 30% of the damage inflicted. Will then attack enemies under [Leech] debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Damage +10%<br>Level 6: Damage +10%",
       "slug": "bloodsucker",
       "effects": [
         {
@@ -173,27 +173,27 @@
     {
       "passive": false,
       "name": "Tornado",
-      "raw_description": "Places a 30% [Increase SPD] buff and a 30% [Increase C. RATE] buff on the target for 2 turns. Places a [True Fear] and a [Leech] debuff on all enemies for 2 turns.<br>Grants an Extra Turn",
+      "raw_description": "Places a 30% [Increase SPD] buff and a 30% [Increase C.DMG] buff on all allies for 2 turns. Places a [True Fear] and [Leech] debuffs on all enemies for 2 turns. Grants this Champion an Extra Turn.<br>Level 2: Cooldown -1",
       "slug": "tornado",
       "effects": [
         {
           "date_added": "",
           "effect_type": "buff",
-          "type": "Increase C. RATE",
+          "type": "Increase C. DMG",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-buff-increase-c-rate-2",
-          "slug": "increase-c-rate-2",
-          "website_link": "/effects/increase-c-rate",
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
           "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Increase C. RATE",
-            "Increase C.RATE"
+            "Increase C. DMG",
+            "Increase C.DMG"
           ],
           "champion_slugs": []
         },
@@ -268,7 +268,7 @@
     {
       "passive": false,
       "name": "Open Wounds",
-      "raw_description": "Attacks 1 enemy. Has an 80% chance of stealing all buffs from the target before attacking.<br>Places a 100% [Heal Reduction] debuff for 2 turns.<br>Also places two 15% [Continuous Heal] buffs on this Champion for 3 turns.<br>Damage increases by 50% against targets that have no buffs.<br>Damage based on: [ATK]",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of stealing all buffs from the target before attacking. Places a 100% [Heal Reduction] debuff for 2 turns. Also places two 15% [Continuous Heal] buffs on this Champion for 3 turns. Damage increases by 50% against targets that have no buffs.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Cooldown -1",
       "slug": "open-wounds",
       "effects": [
         {
@@ -614,7 +614,7 @@
     "continuous-heal-2",
     "heal",
     "heal-reduction-2",
-    "increase-c-rate-2",
+    "increase-c-dmg-2",
     "increase-spd-2",
     "leech",
     "true-fear"
