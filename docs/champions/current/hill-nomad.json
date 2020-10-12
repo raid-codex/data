@@ -123,9 +123,9 @@
   "skills": [
     {
       "passive": false,
-      "name": "Sandstorm",
-      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Damage based on ATK<br>Level 2 Damage +5%.<br>Level 3 Damage +5%.<br>Level 4 Damage +5%.<br>Level 5 Damage +5%.",
-      "slug": "sandstorm",
+      "name": "Sandstorm Blade",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
+      "slug": "sandstorm-blade",
       "effects": [
         {
           "date_added": "",
@@ -148,7 +148,9 @@
           "champion_slugs": []
         }
       ],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3940_s1",
       "cooldown": 0,
       "upgrades": [
@@ -170,8 +172,8 @@
     },
     {
       "passive": false,
-      "name": "Nomad's Endurance",
-      "raw_description": "Places a 7.5% [Continuous Heal] buff on an ally for 2 turns.<br>Level 2 Cooldown -1.",
+      "name": "Nomad’s Endurance",
+      "raw_description": "Places a 7.5% [Continuous Heal] buff on an ally for 2 turns.<br>Level 2: Cooldown -1",
       "slug": "nomad-s-endurance",
       "effects": [
         {
@@ -218,7 +220,7 @@
     {
       "passive": false,
       "name": "Ambush Tactics",
-      "raw_description": "Places a [Veil] buff on an ally for 1 turn and a 25% [Increase ATK] buff for 2 turns. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns. Damage based on 1<br>Level 2 Shield +5%.<br>Level 3 Shield +5%.<br>Level 4 Shield +5%.<br>Level 5 Shield +5%.<br>Level 6 Cooldown -1.",
+      "raw_description": "Places a [Veil] buff on an ally for 1 turn and a 25% [Increase ATK] buff for 2 turns. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns.<br>Level 2: Shield +5%<br>Level 3: Shield +5%<br>Level 4: Shield +5%<br>Level 5: Shield +5%<br>Level 6: Cooldown -1",
       "slug": "ambush-tactics",
       "effects": [
         {
@@ -744,7 +746,39 @@
   "synergy": [],
   "thumbnail": "3fa146219c48a4393aace23e8f353125",
   "tags": [],
-  "masteries": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "cycle-of-violence",
+        "deadly-precision",
+        "flawless-execution",
+        "keen-strike",
+        "kill-streak",
+        "ruthless-ambush",
+        "shield-breaker",
+        "whirlwind-of-death"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "evil-eye",
+        "exalt-in-death",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy"
+      ]
+    }
+  ],
   "fusion_data": [
     {
       "fusion_slug": "fusion-maulie-tankard-basher",
