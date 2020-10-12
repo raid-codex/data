@@ -121,7 +121,7 @@
   },
   "auras": [
     {
-      "raw_description": "Increases Ally HP in all Battles by 25%",
+      "raw_description": "Increases Ally HP in all Battles by 25 %.",
       "effects": [],
       "stats": [
         "HP"
@@ -130,14 +130,14 @@
         "all-battles"
       ],
       "value": 25,
-      "percentage": true
+      "percentage": false
     }
   ],
   "skills": [
     {
       "passive": false,
       "name": "Feast of Flame",
-      "raw_description": "Attacks 1 enemy. Heals this Champion by 25% of the damage inflicted. Heals this Champion by 50% of the damage inflicted instead if the target is under a [HP Burn] debuff.<br><br>Damage based on: [DEF]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 25% of the damage inflicted. Heals this Champion by 50% of the damage inflicted instead if the target is under a [HP Burn] debuff.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%",
       "slug": "feast-of-flame",
       "effects": [
         {
@@ -173,7 +173,7 @@
     {
       "passive": false,
       "name": "Hellfire Torrent",
-      "raw_description": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff on all enemies for 3 turns.<br>Damage based on: [DEF]<br>Level 2 Damage +5%<br/>Level 3 Damage +10%<br/>Level 4 Buff/Debuff Chance +10%<br/>Level 5 Buff/Debuff Chance +15%<br/>Level 6 Cooldown -1",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff on all enemies for 3 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
       "slug": "hellfire-torrent",
       "effects": [
         {
@@ -209,7 +209,7 @@
     {
       "passive": false,
       "name": "Infernal Minions",
-      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a 60% [Increase DEF] buff on all allies for 2 turns.<br><br>Level 2 Cooldown -1",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a 60% [Increase DEF] buff on all allies for 2 turns.<br>Level 2: Cooldown -1",
       "slug": "infernal-minions",
       "effects": [
         {
@@ -261,7 +261,7 @@
       "skill_number": "A3"
     },
     {
-      "passive": true,
+      "passive": false,
       "name": "Fires of Doom",
       "raw_description": "Decreases damage inflicted by enemies under [HP Burn] debuffs by 10%.",
       "slug": "fires-of-doom",
@@ -348,82 +348,82 @@
       ],
       "stats": {
         "weapon": {
-          "main_stat": "Attack",
+          "main_stat": "ATK",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense% / HP%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense% / HP%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense / HP",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "amulet": {
-          "main_stat": "Defense / HP",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
           ]
         }
       }
@@ -436,87 +436,87 @@
         "dungeon"
       ],
       "sets": [
-        "lifesteal",
-        "speed"
+        "accuracy",
+        "lifesteal"
       ],
       "stats": {
         "weapon": {
-          "main_stat": "Attack",
+          "main_stat": "ATK",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense% / HP%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense% / HP%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense / HP",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "amulet": {
-          "main_stat": "Defense / HP",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed",
-            "Accuracy"
+            "SPD",
+            "ACC"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
           ]
         }
       }
