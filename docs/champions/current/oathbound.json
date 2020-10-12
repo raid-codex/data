@@ -124,7 +124,7 @@
     {
       "passive": false,
       "name": "Shatter",
-      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff for 1 turn. Damage inflicted is proportional to DEF.<br>Damage based on: [ATK] [DEF]<br>Level 2 Damage +10%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Buff/Debuff Chance +15%",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff for 1 turn.<br>Damage based on: [DEF]<br>Level: 2 Damage +10%<br>Level: 3 Buff/Debuff Chance +5%<br>Level: 4 Buff/Debuff Chance +10%<br>Level: 5 Buff/Debuff Chance +15%",
       "slug": "shatter",
       "effects": [
         {
@@ -149,7 +149,6 @@
         }
       ],
       "damaged_based_on": [
-        "ATK",
         "DEF"
       ],
       "giid": "360_s1",
@@ -318,26 +317,26 @@
     {
       "passive": false,
       "name": "Subjugate",
-      "raw_description": "Attacks all enemies. Has a 55% chance of decreasing the Turn Meter by 20%. Has 75% chance of placing a 50% [Decrease DEF] for 2 turns.<br>Damage based on: [DEF]",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has a 55% chance of decreasing each target’s Turn Meter by 20%.<br>Damage based on: [DEF]<br>Level: 2 Buff/Debuff Chance +5%<br>Level: 3 Buff/Debuff Chance +5%<br>Level: 4 Damage +10%<br>Level: 5 Buff/Debuff Chance +10%",
       "slug": "subjugate",
       "effects": [
         {
           "date_added": "",
           "effect_type": "debuff",
-          "type": "Decrease DEF",
+          "type": "Decrease ATK",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-def",
-          "slug": "decrease-def",
-          "website_link": "/effects/decrease-def",
-          "extra": false,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Decrease DEF"
+            "Decrease ATK"
           ],
           "champion_slugs": []
         },
@@ -374,7 +373,7 @@
     {
       "passive": false,
       "name": "Intimidate",
-      "raw_description": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Damage inflicted is proportional to DEF. If the target is under a [Decrease ATK] debuff, the chance of placing [Block Cooldown Skills] increases to 100%.<br>Damage based on: [DEF]<br>Level 2 Buff/Debuff Chance +5%<br>Level 3 Buff/Debuff Chance +5%<br>Level 4 Buff/Debuff Chance +10%<br>Level 5 Cooldown -1",
+      "raw_description": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. The chance of the [Block Cooldown Skills] debuff increases to 100% if the target is under a [Decrease ATK] debuff.<br>Damage based on: [DEF]<br>Level: 2 Buff/Debuff Chance +5%<br>Level: 3 Buff/Debuff Chance +5%<br>Level: 4 Buff/Debuff Chance +10%<br>Level: 5 Cooldown -1",
       "slug": "intimidate",
       "effects": [
         {
@@ -1002,7 +1001,7 @@
   "fusion_data": [],
   "effect_slugs": [
     "block-cooldown-skills",
-    "decrease-def",
+    "decrease-atk-2",
     "decrease-turn-meter",
     "freeze"
   ],
