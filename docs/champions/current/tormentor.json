@@ -124,10 +124,12 @@
     {
       "passive": false,
       "name": "Endless Agonies",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical. The extra hit is always a normal hit.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "endless-agonies",
       "effects": [],
-      "damaged_based_on": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3350_s1",
       "cooldown": 0,
       "upgrades": [
@@ -328,10 +330,33 @@
     {
       "passive": false,
       "name": "Infernal Miasma",
-      "raw_description": "",
+      "raw_description": "Attacks 2 times at random. Each hit has a 50% chance of placing a 25% [Decrease ACC] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
       "slug": "infernal-miasma",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/effects/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ACC"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3350_s2",
       "cooldown": 4,
       "upgrades": [
@@ -608,10 +633,53 @@
     {
       "passive": false,
       "name": "Creeping Doom",
-      "raw_description": "",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff for 2 turns. Places a [Stun] debuff for 1 turn if the target is under a [Block Buffs] debuff.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
       "slug": "creeping-doom",
-      "effects": [],
-      "damaged_based_on": [],
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
       "giid": "3350_s3",
       "cooldown": 4,
       "upgrades": [
@@ -991,8 +1059,10 @@
     }
   ],
   "effect_slugs": [
+    "block-buffs",
     "block-debuffs",
     "decrease-acc",
+    "decrease-acc-2",
     "extra-hit",
     "stun"
   ],
