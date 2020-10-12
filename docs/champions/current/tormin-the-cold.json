@@ -363,7 +363,7 @@
       "skill_number": "A3"
     },
     {
-      "passive": false,
+      "passive": true,
       "name": "Wintry Wind",
       "raw_description": "(Passive Effect) Has a 20% chance of placing a [Freeze] debuff on the enemy each time they receive a buff or have their Turn Meter filled. The 20% chance applies up to twice per enemy turn (once for buffs, once for Turn Meter fills) in cases where an enemy receives multiple of these effects at the same time. Does not work with effects from Artifact Sets, Turn Meter filling effects from Masteries, healing, or those buffs or effects that take place at the start of a Round. (Active Effect) Revives this Champion to 100% HP when killed and places a [Freeze] debuff on this Champion for 1 turn.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
       "slug": "wintry-wind",
@@ -488,7 +488,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "accuracy",
         "stun"
@@ -497,78 +501,80 @@
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "amulet": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
           ]
         }
       }
@@ -576,7 +582,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "accuracy",
         "taunt"
@@ -585,78 +595,80 @@
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "amulet": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
           ]
         }
       }
@@ -664,7 +676,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "accuracy",
         "frost"
@@ -673,78 +689,80 @@
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "amulet": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
           ]
         }
       }
@@ -752,7 +770,11 @@
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
-      "locations": [],
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
       "sets": [
         "defense",
         "defense",
@@ -762,84 +784,459 @@
         "weapon": {
           "main_stat": "Attack",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "helmet": {
           "main_stat": "HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "shield": {
-          "main_stat": "Defense",
+          "main_stat": "DEF",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "gauntlets": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "chestplate": {
-          "main_stat": "Defense%",
+          "main_stat": "DEF% / HP%",
           "additional_stats": [
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "boots": {
-          "main_stat": "Speed",
+          "main_stat": "SPD",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy"
+            "ACC"
           ]
         },
         "ring": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "amulet": {
-          "main_stat": "Defense",
+          "main_stat": "DEF / HP",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Accuracy",
-            "Speed"
+            "ACC",
+            "SPD"
           ]
         },
         "banner": {
-          "main_stat": "Accuracy",
+          "main_stat": "ACC",
           "additional_stats": [
-            "Defense%",
+            "DEF%",
             "HP%",
-            "Speed"
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "stun"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "taunt"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "frost"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "defense",
+        "defense",
+        "life"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stat": "Attack",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "helmet": {
+          "main_stat": "HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "shield": {
+          "main_stat": "DEF",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "gauntlets": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stat": "DEF% / HP%",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stat": "SPD",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "amulet": {
+          "main_stat": "DEF / HP",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "ACC",
+            "SPD"
+          ]
+        },
+        "banner": {
+          "main_stat": "ACC",
+          "additional_stats": [
+            "DEF%",
+            "HP%",
+            "SPD"
           ]
         }
       }
     }
   ],
-  "lore": "There are many songs of Tormin the King’s Hammer, Tormin Orcsbane, Tormin the Smith. Of his deeds and his bravery, of his cunning and wit, and of his loyalty. A hero of days long gone, he had been considered a mere fancy of Dwarven folklore by some sceptical scholars – a generalized character with traits taken from several historical figures, which would explain a long list of titles. But, in truth, Tormin indeed existed, and the tales of his adventures often have a seed of truth in them. Born to a humble blacksmith – as is so very common among the Children of Stone, who revere the artistry of crafting metal – Tormin had begun learning the craft from the day he was strong enough to hold a hammer. He was talented and strong, though hot-blooded and oft found himself at odds with others. It was one such feud that led to Tormin injuring a rival smith’s apprentice and being taken by Jarl’s guards. His fate might have been bleak, were it not for frequent Orc raids that troubled the Jarl’s domain at the time. Every able-bodied warrior could be of use against the raiders, and thus Tormin found himself faced with a choice – be imprisoned for his crime or be conscripted into the militia. He had chosen the latter. The saga goes on to describe Tormin’s service to the Jarl which lasted a decade and saw him rise from a mere foot soldier to a trusted Sergeant. He is said to have defended a narrow bridge across a cavern chasm alone, turning aside scores of orcish warriors. Several orc camps were raided and razed to the ground and bandits who led the raids slain by the Dwarven scouts under his command. His bravery had been enough to get him noticed by the Jarl, and when the King gathered an army to march alongside his human allies, Tormin too was called upon. It was a stroke of luck, perhaps, that saw Tormin catch the King’s eye when he alone survived a bloody battle against the Undead and returned to the bulk of the army with a warning that would prove crucial to securing victory. Such resilience and determination were worthy of a true Dwarf, and Tormin was taken into the King’s own service. A particularly beloved tale speaks of Tormin being taken prisoner by Jotuns – a race of giants hailing from the Mountains of Despair – and using his cunning to escape. He had convinced the Jotun Chieftain that he could craft a weapon worthy of such an illustrious leader if given tools and materials to work with. The Chieftain, driven by his lust for power and well-aware of the fabled smithing talents of the Dwarves, agreed. Tormin remained true to his word and used all he had been given to craft a magic hammer of impressive power. Though rather than give it to the Jotuns, he had turned it upon them instead. The magic of Rimefire – as Tormin had dubbed his weapon – was unleashed and allowed him to fell many foes, baffling the rest and securing his escape. He was hailed a hero once more when he returned home, Rimefire in hand, and tales of his adventure inspired countless songs praising Dwarven ingenuity and mocking the greed of the Jotun Chieftain. Tormin himself went on to serve the King for decades until his sudden disappearance far in the frozen North of Teleria. No one knows what exactly he was doing there, nor what happened. Some say Tormin was betrayed. Left for dead in a pool of his own freezing blood, he swore to seek justice and traded his soul to a malefic winter spirit that dwelled in the icy peaks of the winterlands. Others maintain that Tormin hunted down a powerful Lych lord but was mortally wounded. Only the intervention of Sir Nicholas allowed the Dwarven warrior to survive, though the cost was steep. Some even deny Tormin’s survival at all, claiming he had perished in the icy wastes, far, far away from mortal eyes, and that neither his remains nor his mighty weapon may ever be recovered. Yet this old saga has been given new life recently, when scouts returned, terrified and frostbitten, from their mission beyond the Mountain King’s realm. They spoke of a terrible blizzard that enveloped their party and of a lone Dwarf who walked through that storm unharmed, silent and clad in frozen armour. He led the scouts down from the treacherous mountain and into valleys below, yet did not share a single word with them. Most importantly, the stranger wielded a mighty warhammer of silver and ice. Though he had disappeared without a trace when the task was done, this mysterious benefactor had caught the attention of the Dwarven’s monarch, and new, better-equipped parties are already being prepared to venture north and bring their long-lost brother back into the fold.",
+  "lore": "Even among the great Dwarves of yore, whose sagas have echoed across the carven underground halls for centuries, Tormin, son of Bonur, is a name oft hailed above others. A scion of a humble smith, he had risen through service to his Jarl and stood among the King’s own champions. His adventures were many, his deeds mighty, and no bard can retell them in a single night. But there is one tale that always makes the eyes of young adventurers gleam with wonder. Once, having lost his way in the Mountains of Despair, Tormin was captured by a vicious tribe of Jotuns and forced into labour. Though his strength was great, not even such a renowned warrior would stand a chance alone, so Tormin had to rely on his wit and cunning. He promised to craft a weapon of great power for the chieftain of the giants – if they brought him ingots of silver from the depth of the mountain and the blocks of frozen Aether, only found on the summits of the tallest peaks. Enthralled by the promise of such bounty, the Jotun chief agreed and ordered his tribesmen to deliver everything and anything that his prisoner requested. And so for a fortnight Tormin carved and forged the mythical elements, using every ounce of his skill and experience. Then, after weeks of backbreaking work, he finally held aloft a mighty hammer, its haft as cold as the touch of the Void itself. Yet it burned with arcane power, and Tormin had dubbed it appropriately – Rimefire. When the Jotun chief stepped forth to claim his prize, Tormin seized his chance and struck out against his captors! Such was the power of his hammer that it felled a dozen giants at once and turned a dozen more into statues of ice. Before the rest of the tribe’s warriors were upon him, Tormin struck the mountainside and brought down a great avalanche as he made his escape. It is said that when Tormin disappeared amongst the craggy peaks of the Mountains of Despair to the far North decades later, Rimefire too had been lost. Ever since that day, countless adventurers dared the deadly mountain ranges in hopes of finding this weapon of legend. Until now, none have succeeded and many lost their lives. But the promise of glory yet calls to brave souls across Teleria…",
   "giid": "4630",
   "synergy": [],
   "thumbnail": "067a26d87265ea39030f5bd82408ce7c",
