@@ -136,62 +136,6 @@
   "skills": [
     {
       "passive": false,
-      "name": "Life Worm",
-      "raw_description": "Attacks all enemies. Has an 85% chance of placing a [Leech] debuff and a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff Chance +15%<br/>Level 6 Cooldown -1",
-      "slug": "life-worm",
-      "effects": [
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Heal Reduction",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-heal-reduction-2",
-          "slug": "heal-reduction-2",
-          "website_link": "/effects/heal-reduction",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Heal Reduction"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Leech",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-leech",
-          "slug": "leech",
-          "website_link": "/effects/leech",
-          "extra": false,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Leech"
-          ],
-          "champion_slugs": []
-        }
-      ],
-      "damaged_based_on": [
-        "HP"
-      ],
-      "giid": "4110_s1",
-      "cooldown": 5,
-      "upgrades": [],
-      "image_slug": "514bf0f2a45c7b8ca2636ba7d28148a8",
-      "skill_number": "A1"
-    },
-    {
-      "passive": false,
       "name": "Hexdrinker Scimitar",
       "raw_description": "Attacks 1 enemy. Steals 1 random buff from the target.<br>Damage based on: [HP]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%<br/>Level 5 Damage +10%",
       "slug": "hexdrinker-scimitar",
@@ -199,11 +143,11 @@
       "damaged_based_on": [
         "HP"
       ],
-      "giid": "4110_s2",
+      "giid": "4110_s1",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "87322c25451d4473e627280116841f96",
-      "skill_number": "A2"
+      "image_slug": "514bf0f2a45c7b8ca2636ba7d28148a8",
+      "skill_number": "A1"
     },
     {
       "passive": false,
@@ -255,8 +199,64 @@
       "damaged_based_on": [
         "HP"
       ],
-      "giid": "4110_s3",
+      "giid": "4110_s2",
       "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "87322c25451d4473e627280116841f96",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Life Worm",
+      "raw_description": "Attacks all enemies. Has an 85% chance of placing a [Leech] debuff and a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2 Damage +5%<br/>Level 3 Damage +5%<br/>Level 4 Damage +10%<br/>Level 5 Buff/Debuff Chance +15%<br/>Level 6 Cooldown -1",
+      "slug": "life-worm",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Leech"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4110_s3",
+      "cooldown": 5,
       "upgrades": [],
       "image_slug": "20f6bdf05193993798296aa8b7ff3842",
       "skill_number": "A3"
