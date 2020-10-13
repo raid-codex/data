@@ -39,6 +39,7 @@ jobs:
         export DATA_DIRECTORY=`pwd`
         export CONTENT_CREATOR_DIRECTORY=`pwd`/content-creators
         python3 scripts/add-content-creator-videos.py
+        rm -rf content-creators
     - name: "refresh"
       run: |
         export PATH="/home/runner/go/bin:$PATH"
