@@ -16,4 +16,4 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
-        script: cd data && git pull && cd .. && cp data/docs/champions/current/*.json api/champions/.data/ && cp data/docs/factions/current/*.json api/factions/.data/ && cp data/docs/status-effects/current/*.json api/status-effects/.data/ && cp data/docs/champions/index-small.json api/champions/.data/
+        script: cd raid-codex-data && git pull
