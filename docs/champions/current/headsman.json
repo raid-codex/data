@@ -65,18 +65,104 @@
   "slug": "headsman",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 10740,
+      "attack": 1354,
+      "defense": 958,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Public Execution",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 10% chance of placing a [Fear] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%",
+      "slug": "public-execution",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/effects/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5220_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "a6a1c8fd23f1a760ca54b7e403e9caf3",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Headman’s Due",
+      "raw_description": "Attacks all enemies. Has a 30% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%",
+      "slug": "headman-s-due",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5220_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "f56bfcfba2797ffe32b4eaa716de5a0f",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Judged Guilty",
+      "raw_description": "Inflicts 15% more damage to targets under [Heal Reduction] debuffs.",
+      "slug": "judged-guilty",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "5220_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "22206ccc12888bcd2d78c894a80b1e47",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -148,6 +234,9 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "fear",
+    "heal-reduction-2"
+  ],
   "videos": []
 }

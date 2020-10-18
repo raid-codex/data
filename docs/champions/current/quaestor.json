@@ -65,18 +65,86 @@
   "slug": "quaestor",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 13215,
+      "attack": 1288,
+      "defense": 859,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Undaunted Assault",
+      "raw_description": "Attacks 1 enemy. Inflicts 30% extra C.DMG if this Champion has less than 50% HP.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
+      "slug": "undaunted-assault",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5240_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "49157841ec0358f4f41ba2ff6f629fdb",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Guiding Example",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Increase C.DMG] buff on all allies for 2 turns if this attack is critical.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Cooldown -1",
+      "slug": "guiding-example",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg",
+          "slug": "increase-c-dmg",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5240_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "982147ff300b6ed486045cb558712d13",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Depletion",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of removing 2 random buffs from the target.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +15%<br>Level 7: Cooldown -1<br>Level 8: Cooldown -1",
+      "slug": "depletion",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5240_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "da374bb86806bc43efb4dd92c1d8c13f",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Banner-Lords",
     "slug": "banner-lords",
@@ -148,6 +216,8 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "increase-c-dmg"
+  ],
   "videos": []
 }

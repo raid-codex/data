@@ -65,18 +65,64 @@
   "slug": "purgator",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 13380,
+      "attack": 1409,
+      "defense": 727,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Doom lnescapable",
+      "raw_description": "Attacks 1 enemy 2 times. Will ignore [Shield] buffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
+      "slug": "doom-lnescapable",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5210_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "890e93e5b6e9df90b3b1419f7e6429c4",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Great Purge",
+      "raw_description": "Attacks all enemies. Inflicts 10% extra C.DMG for each debuff on this Champion. Stacks up to 50%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Cooldown -1",
+      "slug": "great-purge",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5210_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "8b6142938c3eef8ecca972678738d3d0",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Humble the Heathen",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 20% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Damage +5%<br>Level 7: Cooldown -1",
+      "slug": "humble-the-heathen",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5210_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "55ac4baffa79dd1ce70546a832756daf",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",

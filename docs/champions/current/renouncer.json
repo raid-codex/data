@@ -65,18 +65,106 @@
   "slug": "renouncer",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 12855,
+      "attack": 1255,
+      "defense": 914,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 10
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Redoubled Effort",
+      "raw_description": "Attacks 1 enemy 2 times.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
+      "slug": "redoubled-effort",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5230_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "e0a8aa1132ad541c58e3527e858d331a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Shining Sword",
+      "raw_description": "Removes one random debuff from this Champion, then attacks 1 enemy. Heals this Champion by 25% of the damage inflicted.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Level 6: Damage +5%<br>Level 7: Cooldown -1",
+      "slug": "shining-sword",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5230_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "a13d5e02c219c5d39d68aade56d9285a",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Batlefield Grace",
+      "raw_description": "Attacks 1 enemy. Places a 15% [Increase SPD] buff on all allies for 2 turns if this attack kills an enemy.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +10%<br>Level 5: Cooldown -1<br>Level 6: Cooldown -1",
+      "slug": "batlefield-grace",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd",
+          "slug": "increase-spd",
+          "website_link": "/effects/increase-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5230_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "10e398845aeb16e4f493288477df010c",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -148,6 +236,9 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "heal",
+    "increase-spd"
+  ],
   "videos": []
 }

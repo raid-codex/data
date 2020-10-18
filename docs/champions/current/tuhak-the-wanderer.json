@@ -87,18 +87,192 @@
   "slug": "tuhak-the-wanderer",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 16020,
+      "attack": 1365,
+      "defense": 870,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all battles by 22%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 22,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Unfair Fight",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of increasing the cooldown of one of the target’s Skills by 1 turn at random. Increases the cooldowns of all of the target’s Skills by 1 turn instead ifthis Champion has less than 50% HP when attacking on each hit.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%",
+      "slug": "unfair-fight",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3660_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "2e50aabd8415db9a3c9f59ec32ded362",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Whirl of Battle",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Also places a 30% [Increase SPD] buff on this Champion for 2 turns. Heals this Champion by 15% of the damage inflicted if they have less than 50% HP when attacking.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "whirl-of-battle",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/effects/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3660_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "3b01e4d1cfc104beff40604d2d8da20f",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Clever Brutality",
+      "raw_description": "Attacks 1 enemy. Steals 50% of the target’s current Turn Meter. Has a 75% chance of placing a [Stun] debuff for 2 turns. Steals 100% of the target’s Turn Meter if this Champion has less than 50% HP when attacking.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "clever-brutality",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3660_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "7569375ac42248a3508998ee7b05c4f6",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Iron heart",
+      "raw_description": "Decreases the damage taken by this Champion by 20% when their HP drops below 60%.",
+      "slug": "iron-heart",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3660_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "1c661738f2b028f643069f74d5df3f90",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Orcs",
     "slug": "orcs",
@@ -174,7 +348,13 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-spd-2",
+    "heal",
+    "increase-spd-2",
+    "increase-turn-meter",
+    "stun"
+  ],
   "videos": [
     {
       "source": "youtube",
