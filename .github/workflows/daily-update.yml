@@ -1,4 +1,4 @@
-name: tier-list
+name: Daily update
 
 on:
   schedule:
@@ -44,6 +44,8 @@ jobs:
       run: |
         export PATH="/home/runner/go/bin:$PATH"
         export DIRECTORY=`pwd`
+        make sanitize_fusions
+        make rebuild_index_fusions
         make sanitize_champions
         make rebuild_index_champions
     - name: "commit changes"
