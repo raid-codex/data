@@ -65,18 +65,137 @@
   "slug": "dolor-lorekeeper",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 16845,
+      "attack": 1035,
+      "defense": 870,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 15%",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 15,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Banisher Axe",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +5%<br>Level 7: Buff/Debuff Chance +5%<br>Level 8: Buff/Debuff Chance +5%",
+      "slug": "banisher-axe",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/effects/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Cooldown Skills"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5150_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "0c97e05ce29fb66503c46ffd382a9a6c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Stern Punishment",
+      "raw_description": "Level 2: Damage +5%<br>Damage based on: [ATK]<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "stern-punishment",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5150_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "178e7397d3edae29beda9a671abada2d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Forebear’s Boon",
+      "raw_description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns. Also places a [Block Debuffs] buff on the target ally for 1 turn if they have less than 100% HP.<br>Level 2: Cooldown -1",
+      "slug": "forebear-s-boon",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5150_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "0a6d137eb028b4427f6ee2d584b9cf8f",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -157,6 +276,10 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-cooldown-skills",
+    "block-debuffs",
+    "continuous-heal-2"
+  ],
   "videos": []
 }

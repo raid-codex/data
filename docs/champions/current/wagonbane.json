@@ -65,18 +65,165 @@
   "slug": "wagonbane",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 16680,
+      "attack": 881,
+      "defense": 1035,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Flask of Vitreol",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%",
+      "slug": "flask-of-vitreol",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5170_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "7d1359dda49bacdd710ba9ae34e0f9ca",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Corroding Catalyst",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Also places a 15% [Decrease SPD] debuff for 1 turn on targets under [Poison] debuffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%<br>Level 7: Buff/Debuff Chance +20%<br>Level 8: Cooldown -1",
+      "slug": "corroding-catalyst",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/effects/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5170_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "8bae96e799183ccd24549911364a07e6",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Vitalizing Potions",
+      "raw_description": "Fills the Turn Meters of all allies by 15% and heals all allies by 15% of this Champion’s MAX HP.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "vitalizing-potions",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5170_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "8c70516f925221e2a026cd2f7b0bcb6e",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Ogryn-Tribes",
     "slug": "ogryn-tribes",
@@ -138,7 +285,19 @@
   "recommended_builds": [],
   "lore": "",
   "giid": "5170",
-  "synergy": [],
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
   "thumbnail": "1f5069142727648138a54524b5beeb58",
   "tags": [],
   "masteries": [],
@@ -148,6 +307,12 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-spd",
+    "heal",
+    "increase-turn-meter",
+    "poison-2"
+  ],
   "videos": []
 }

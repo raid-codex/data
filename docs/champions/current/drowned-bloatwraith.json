@@ -65,18 +65,122 @@
   "slug": "drowned-bloatwraith",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 13545,
+      "attack": 1387,
+      "defense": 738,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Anchor Hook",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn. The chance of placing the [Stun] debuff increases by 5% for each debuff on the target.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%",
+      "slug": "anchor-hook",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Wretched Stench",
+      "raw_description": "Attacks all enemies. Has an 85% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Also has a 25% chance of placing a [Fear] debuff for 1 turn on enemies under [Decrease DEF] debuffs.<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 5: Cooldown -1<br>Level 6: Cooldown -1",
+      "slug": "wretched-stench",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-fear",
+          "slug": "fear",
+          "website_link": "/effects/fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Death Feast",
+      "raw_description": "Heals this Champion by 15% of their MAX HP everyt time this Champion or an aly kills an enemy.",
+      "slug": "death-feast",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -148,6 +252,10 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-def",
+    "fear",
+    "stun"
+  ],
   "videos": []
 }
