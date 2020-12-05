@@ -1,25 +1,25 @@
 {
-  "name": "Hegemon",
-  "date_added": "2019-07-27T16:04:13+02:00",
-  "rarity": "Legendary",
-  "element": "Void",
-  "type": "Attack",
+  "name": "Bergoth the Malformed",
+  "date_added": "2020-11-28T09:00:00Z",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "HP",
   "rating": {
-    "overall": "A",
-    "campaign": "A",
-    "arena_offense": "SS",
-    "arena_defense": "S",
-    "clan_boss_without_giant_slayer": "C",
-    "clan_boss_with_giant_slayer": "C",
-    "ice_guardian": "B",
-    "dragon": "A",
-    "spider": "C",
-    "fire_knight": "B",
-    "minotaur": "A",
-    "force_dungeon": "A",
-    "magic_dungeon": "A",
-    "spirit_dungeon": "A",
-    "void_dungeon": "A",
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
     "faction_wars": ""
   },
   "reviews": {
@@ -38,205 +38,126 @@
     "spirit_dungeon": 0,
     "void_dungeon": 0
   },
-  "all_ratings": [
-    {
-      "source": "xentago-tier-list",
-      "rating": {
-        "overall": "A",
-        "campaign": "A",
-        "arena_offense": "SS",
-        "arena_defense": "S",
-        "clan_boss_without_giant_slayer": "C",
-        "clan_boss_with_giant_slayer": "B",
-        "ice_guardian": "B",
-        "dragon": "A",
-        "spider": "C",
-        "fire_knight": "B",
-        "minotaur": "A",
-        "force_dungeon": "B",
-        "magic_dungeon": "B",
-        "spirit_dungeon": "B",
-        "void_dungeon": "A",
-        "faction_wars": ""
-      },
-      "weight": 1
-    },
-    {
-      "source": "ayumilove",
-      "rating": {
-        "overall": "A",
-        "campaign": "A",
-        "arena_offense": "SS",
-        "arena_defense": "SS",
-        "clan_boss_without_giant_slayer": "C",
-        "clan_boss_with_giant_slayer": "C",
-        "ice_guardian": "A",
-        "dragon": "A",
-        "spider": "C",
-        "fire_knight": "A",
-        "minotaur": "S",
-        "force_dungeon": "S",
-        "magic_dungeon": "S",
-        "spirit_dungeon": "S",
-        "void_dungeon": "S",
-        "faction_wars": ""
-      },
-      "weight": 2
-    },
-    {
-      "source": "hellhades-tier-list",
-      "rating": {
-        "overall": "A",
-        "campaign": "",
-        "arena_offense": "SS",
-        "arena_defense": "",
-        "clan_boss_without_giant_slayer": "B",
-        "clan_boss_with_giant_slayer": "B",
-        "ice_guardian": "B",
-        "dragon": "A",
-        "spider": "B",
-        "fire_knight": "A",
-        "minotaur": "",
-        "force_dungeon": "",
-        "magic_dungeon": "",
-        "spirit_dungeon": "",
-        "void_dungeon": "",
-        "faction_wars": ""
-      },
-      "weight": 5
-    }
-  ],
-  "slug": "hegemon",
+  "all_ratings": [],
+  "slug": "bergoth-the-malformed",
   "characteristics": {
     "60": {
-      "hp": 19155,
-      "attack": 1487,
-      "defense": 815,
-      "speed": 96,
+      "hp": 21810,
+      "attack": 716,
+      "defense": 1134,
+      "speed": 95,
       "critical_rate": 0.15,
-      "critical_damage": 0.63,
-      "resistance": 30,
-      "accuracy": 10
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
     }
   },
-  "auras": [
-    {
-      "raw_description": "Increases Ally C.RATE in all battles by 19%",
-      "effects": [],
-      "stats": [
-        "C.RATE"
-      ],
-      "locations": [
-        "all-battles"
-      ],
-      "value": 19,
-      "percentage": true
-    }
-  ],
+  "auras": [],
   "skills": [
     {
       "passive": false,
-      "name": "Grave's Grasp",
-      "raw_description": "Attacks 2 times at random. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br>Damage based on: [ATK]",
-      "slug": "grave-s-grasp",
+      "name": "Nightmare Juggernaut",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing 15% [Continuous Heal] buff on this Champion for 1 turn if this attack is Critical.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +5%<br>Damage Multiplier: 0.2*HP",
+      "slug": "nightmare-juggernaut",
       "effects": [
         {
           "date_added": "",
-          "effect_type": "debuff",
-          "type": "Decrease SPD",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-decrease-spd-2",
-          "slug": "decrease-spd-2",
-          "website_link": "/effects/decrease-spd",
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
           "extra": true,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Decrease SPD"
+            "Continuous Heal"
           ],
           "champion_slugs": []
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
-      "giid": "3200_s1",
+      "giid": "4120_s1",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "a75a4c05b1c0bc08a18e4627af6f9448",
+      "image_slug": "2110daa3abaffd24cdf1b848d6a7c890",
       "skill_number": "A1"
     },
     {
       "passive": false,
-      "name": "Numbing Chill",
-      "raw_description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns. Also has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns.<br>Damage based on: [ATK]",
-      "slug": "numbing-chill",
+      "name": "Chemical Stench",
+      "raw_description": "Attacks all enemies. Has a 30% chance of placing a [Provoke] debuff for 2 turns.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +15%<br>Level 7: Cooldown -1<br>Damage Multiplier: 0.2*HP",
+      "slug": "chemical-stench",
       "effects": [
         {
           "date_added": "",
           "effect_type": "debuff",
-          "type": "Block Cooldown Skills",
+          "type": "Provoke",
           "value": 0,
           "chance": 0,
           "turns": 0,
           "target": null,
-          "image_slug": "image-debuff-block-cooldown-skills",
-          "slug": "block-cooldown-skills",
-          "website_link": "/effects/block-cooldown-skills",
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
           "extra": false,
           "raw_description": "",
           "places_if": "",
           "amount": 0,
           "possible_values": [
-            "Block Cooldown Skills"
-          ],
-          "champion_slugs": []
-        },
-        {
-          "date_added": "",
-          "effect_type": "debuff",
-          "type": "Decrease ATK",
-          "value": 0,
-          "chance": 0,
-          "turns": 0,
-          "target": null,
-          "image_slug": "image-debuff-decrease-atk-2",
-          "slug": "decrease-atk-2",
-          "website_link": "/effects/decrease-atk",
-          "extra": true,
-          "raw_description": "",
-          "places_if": "",
-          "amount": 0,
-          "possible_values": [
-            "Decrease ATK"
+            "Provoke"
           ],
           "champion_slugs": []
         }
       ],
       "damaged_based_on": [
-        "ATK"
+        "HP"
       ],
-      "giid": "3200_s2",
-      "cooldown": 4,
+      "giid": "4120_s2",
+      "cooldown": 5,
       "upgrades": [],
-      "image_slug": "bdde25fd3217dc956d04de6cad639cc1",
+      "image_slug": "3e17300298e03f31655a6882d7070f31",
       "skill_number": "A2"
     },
     {
       "passive": true,
-      "name": "Fateful Arrival",
-      "raw_description": "Always goes first each Round. If multiple Hegemons are in the battle, the Hegemon with the highest SPD will move first, followed by the next highest, and so on.",
-      "slug": "fateful-arrival",
-      "effects": [],
+      "name": "Canister",
+      "raw_description": "Whenever this Champion is attacked, heals all allies except this Champion by 20% of the damage received.",
+      "slug": "canister",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
       "damaged_based_on": [],
-      "giid": "3200_s3",
+      "giid": "4120_s3",
       "cooldown": 0,
       "upgrades": [],
-      "image_slug": "33e1706e6484a801936c454933268311",
+      "image_slug": "2e8a38eb937cc5f448590e612ff01730",
       "skill_number": "P1"
     }
   ],
@@ -266,11 +187,11 @@
     "champion_slugs": []
   },
   "faction_slug": "knight-revenant",
-  "website_link": "/champions/hegemon/",
-  "image_slug": "image-champion-hegemon",
+  "website_link": "/champions/bergoth-the-malformed/",
+  "image_slug": "image-champion-bergoth-the-malformed",
   "seo": {
     "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
-    "description": "Hegemon is a legendary attack champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "description": "Bergoth the Malformed is a epic hp champion from the faction Knight Revenant doing spirit damage. Find out more on this Raid Shadow Legends codex.",
     "keywords": [
       "raid",
       "shadow",
@@ -278,8 +199,8 @@
       "champions",
       "tier",
       "list",
-      "Hegemon",
-      "hegemon"
+      "Bergoth the Malformed",
+      "bergoth-the-malformed"
     ],
     "structured_data": [
       {
@@ -290,14 +211,14 @@
           "@type": "Organization",
           "name": "Knight Revenant"
         },
-        "description": "Member of the faction Knight Revenant, Hegemon is a champion of Legendary rarity and of Attack type",
-        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hegemon.jpg",
-        "name": "Hegemon",
-        "url": "https://raid-codex.com/champions/hegemon/"
+        "description": "Member of the faction Knight Revenant, Bergoth the Malformed is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bergoth-the-malformed.jpg",
+        "name": "Bergoth the Malformed",
+        "url": "https://raid-codex.com/champions/bergoth-the-malformed/"
       }
     ]
   },
-  "default_description": "Hegemon is a legendary attack champion from the faction Knight Revenant doing void damage",
+  "default_description": "Bergoth the Malformed is a epic hp champion from the faction Knight Revenant doing spirit damage",
   "recommended_builds": [
     {
       "from": "ayumilove.net",
@@ -309,8 +230,8 @@
       ],
       "sets": [
         "accuracy",
-        "accuracy",
-        "offense"
+        "life",
+        "life"
       ],
       "stats": {
         "weapon": {
@@ -318,9 +239,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -330,9 +250,8 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -342,31 +261,28 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE",
-            "C.DMG"
+            "C.RATE"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "HP%"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -376,30 +292,28 @@
             "SPD"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "ATK"
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
             "SPD",
             "ACC"
@@ -410,9 +324,8 @@
             "ACC"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD"
           ]
         }
@@ -427,7 +340,336 @@
         "faction-wars"
       ],
       "sets": [
-        "accuracy",
+        "immortal",
+        "immortal",
+        "perception"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "accuracy"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "immortal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "immortal",
         "taunt"
       ],
       "stats": {
@@ -436,9 +678,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -448,9 +689,8 @@
             "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -460,31 +700,28 @@
             "DEF"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE",
-            "C.DMG"
+            "C.RATE"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ATK%"
+            "HP%"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
@@ -494,30 +731,28 @@
             "SPD"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "ATK"
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG"
+            "HP"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
             "SPD",
             "ACC"
@@ -528,245 +763,8 @@
             "ACC"
           ],
           "additional_stats": [
-            "ATK%",
+            "HP%",
             "C.RATE",
-            "C.DMG",
-            "SPD"
-          ]
-        }
-      }
-    },
-    {
-      "from": "ayumilove.net",
-      "author": "ayumilove",
-      "locations": [
-        "arena",
-        "campaign",
-        "faction-wars"
-      ],
-      "sets": [
-        "accuracy",
-        "stun"
-      ],
-      "stats": {
-        "weapon": {
-          "main_stats": [
-            "ATK"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "helmet": {
-          "main_stats": [
-            "HP"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "shield": {
-          "main_stats": [
-            "DEF"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "gauntlets": {
-          "main_stats": [
-            "C.RATE",
-            "C.DMG"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "chestplate": {
-          "main_stats": [
-            "ATK%"
-          ],
-          "additional_stats": [
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "boots": {
-          "main_stats": [
-            "SPD"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "ACC"
-          ]
-        },
-        "ring": {
-          "main_stats": [
-            "ATK"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "amulet": {
-          "main_stats": [
-            "C.DMG"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "banner": {
-          "main_stats": [
-            "ACC"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD"
-          ]
-        }
-      }
-    },
-    {
-      "from": "ayumilove.net",
-      "author": "ayumilove",
-      "locations": [
-        "arena",
-        "campaign",
-        "faction-wars"
-      ],
-      "sets": [
-        "savage",
-        "speed"
-      ],
-      "stats": {
-        "weapon": {
-          "main_stats": [
-            "ATK"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "helmet": {
-          "main_stats": [
-            "HP"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "shield": {
-          "main_stats": [
-            "DEF"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "gauntlets": {
-          "main_stats": [
-            "C.RATE",
-            "C.DMG"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "chestplate": {
-          "main_stats": [
-            "ATK%"
-          ],
-          "additional_stats": [
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "boots": {
-          "main_stats": [
-            "SPD"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "ACC"
-          ]
-        },
-        "ring": {
-          "main_stats": [
-            "ATK"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "amulet": {
-          "main_stats": [
-            "C.DMG"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "SPD",
-            "ACC"
-          ]
-        },
-        "banner": {
-          "main_stats": [
-            "ACC"
-          ],
-          "additional_stats": [
-            "ATK%",
-            "C.RATE",
-            "C.DMG",
             "SPD"
           ]
         }
@@ -781,8 +779,8 @@
       ],
       "sets": [
         "accuracy",
-        "accuracy",
-        "offense"
+        "life",
+        "life"
       ],
       "stats": {
         "weapon": {
@@ -790,9 +788,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -802,9 +799,8 @@
             "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -814,33 +810,30 @@
             "DEF"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE",
-            "HP%"
+            "C.RATE"
           ],
           "additional_stats": [
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ACC",
             "HP%"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
@@ -848,32 +841,29 @@
             "SPD"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG",
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -883,9 +873,8 @@
             "ACC"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD"
           ]
         }
@@ -899,8 +888,9 @@
         "dungeon"
       ],
       "sets": [
-        "accuracy",
-        "taunt"
+        "immortal",
+        "immortal",
+        "perception"
       ],
       "stats": {
         "weapon": {
@@ -908,9 +898,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -920,9 +909,8 @@
             "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -932,33 +920,30 @@
             "DEF"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE",
-            "HP%"
+            "C.RATE"
           ],
           "additional_stats": [
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ACC",
             "HP%"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
@@ -966,32 +951,29 @@
             "SPD"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG",
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -1001,9 +983,8 @@
             "ACC"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD"
           ]
         }
@@ -1017,8 +998,7 @@
         "dungeon"
       ],
       "sets": [
-        "accuracy",
-        "stun"
+        "accuracy"
       ],
       "stats": {
         "weapon": {
@@ -1026,9 +1006,8 @@
             "ATK"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -1038,9 +1017,8 @@
             "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -1050,33 +1028,30 @@
             "DEF"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "gauntlets": {
           "main_stats": [
-            "C.RATE",
-            "HP%"
+            "C.RATE"
           ],
           "additional_stats": [
-            "C.DMG",
+            "HP%",
             "SPD",
             "ACC"
           ]
         },
         "chestplate": {
           "main_stats": [
-            "ACC",
             "HP%"
           ],
           "additional_stats": [
             "C.RATE",
-            "C.DMG",
-            "SPD"
+            "SPD",
+            "ACC"
           ]
         },
         "boots": {
@@ -1084,32 +1059,29 @@
             "SPD"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "ACC"
           ]
         },
         "ring": {
           "main_stats": [
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
         },
         "amulet": {
           "main_stats": [
-            "C.DMG",
-            "DEF"
+            "HP"
           ],
           "additional_stats": [
-            "C.RATE",
             "HP%",
+            "C.RATE",
             "SPD",
             "ACC"
           ]
@@ -1119,23 +1091,157 @@
             "ACC"
           ],
           "additional_stats": [
-            "C.RATE",
-            "C.DMG",
             "HP%",
+            "C.RATE",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "immortal"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE"
+          ],
+          "additional_stats": [
+            "HP%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "HP%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "HP%",
+            "C.RATE",
             "SPD"
           ]
         }
       }
     }
   ],
-  "lore": "There are countless tales of valour and skill that the Champions of Lumaya have displayed over the millennia. Brave knights, whose skill with the sword is unmatched, wise mages, by whose word alone mountains crumble, daring rogues, and stalwart soldiers. Yet those who follow the dark path should not be underestimated either. The Hegemon is a commanding presence on any battlefield, his mastery of the blade only matched by his ability to direct his minions’ attacks. He is said to have been a noble Champion of his people once and the bane of evildoers. He had defeated many foes in that past life, brought victory to many a-battle. But such skill comes with pride more often than not, and with pride – the seed of arrogance that brought so many heroes low. Assured of his superiority and wisdom, the Champion had renounced his liege, casting aside his vows and loyalties. Henceforth, he was known as the Hegemon, the one deserving ruler whose right was won by blood and by sword. Many of the soldiers under his command, swayed by the Hegemon’s charisma, joined in his rebellion and marched upon the lands of his rivals. It took many months of bloody warfare and the joint efforts of Kaerok and Aravian border Lords, as well as a Mission of the Sacred Order to finally stop the Hegemon’s campaign and defeat his army. Though the rebellious Champion himself fled after single-handedly slaying the men-at-arms sent after him. His fall now complete, he swore bloody vengeance upon the people of Teleria and consigned his soul to Siroth and his mortal minions. One day, when his rivals among the renegade Knights Revenant are defeated, the Hegemon will gather a new army and march upon Kaerok. Their Champions shall fall to his blade, their people shall bow or face the consequences of denying his ambition.",
-  "giid": "3200",
+  "lore": "",
+  "giid": "4120",
   "synergy": [],
-  "thumbnail": "731ae30af8750c2d28720ea3c1f8c2b1",
-  "tags": [
-    "NEW_CHAMPION_20190726"
-  ],
+  "thumbnail": "b986700c627db479a4d9460b75de7222",
+  "tags": [],
   "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "cycle-of-revenge",
+        "defiant",
+        "fearsome-presence",
+        "harvest-despair",
+        "rejuvenation",
+        "resurgent",
+        "retribution",
+        "shadow-heal"
+      ],
+      "support": [
+        "cycle-of-magic",
+        "exalt-in-death",
+        "healing-savior",
+        "lasting-gifts",
+        "lay-on-hands",
+        "merciful-aid",
+        "steadfast"
+      ]
+    },
     {
       "from": "ayumilove.net",
       "author": "ayumilove",
@@ -1147,45 +1253,32 @@
         "faction-wars"
       ],
       "offense": [
+        "bring-it-down",
         "deadly-precision",
-        "flawless-execution",
         "keen-strike",
-        "opportunist",
-        "ruthless-ambush",
-        "shield-breaker",
-        "stoked-to-fury"
+        "methodical",
+        "single-out",
+        "warmaster"
       ],
       "defense": [],
       "support": [
         "arcane-celerity",
-        "charged-focus",
-        "evil-eye",
+        "exalt-in-death",
+        "healing-savior",
+        "lasting-gifts",
+        "lay-on-hands",
         "lore-of-steel",
-        "master-hexer",
-        "pinpoint-accuracy",
-        "sniper",
-        "swarm-smiter"
+        "merciful-aid",
+        "spirit-haste",
+        "steadfast"
       ]
     }
   ],
   "fusion_data": [],
   "effect_slugs": [
-    "block-cooldown-skills",
-    "decrease-atk-2",
-    "decrease-spd-2"
+    "continuous-heal-2",
+    "heal",
+    "provoke"
   ],
-  "videos": [
-    {
-      "source": "youtube",
-      "id": "4aSa8DZtc_U",
-      "author": "MurderInc",
-      "date_added": "2020-03-18T15:11:37.000Z"
-    },
-    {
-      "source": "youtube",
-      "id": "qW4hP0sjVKE",
-      "author": "Stewgaming",
-      "date_added": "2020-07-08T11:47:08Z"
-    }
-  ]
+  "videos": []
 }
