@@ -1,0 +1,1081 @@
+{
+  "name": "Pyxniel",
+  "date_added": "2020-12-14T09:30:00Z",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Assist",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "pyxniel",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RES in all Battles by 80.",
+      "effects": [],
+      "stats": [
+        "RES"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 80,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Mistress of Glamours",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Veil] buff on a random ally for 1 turn. Cannot place the [Veil] buff on this Champion.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%<br>Damage Multiplier: 3 ATK",
+      "slug": "mistress-of-glamours",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/effects/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Grip of Winter",
+      "raw_description": "Places a 60% [Increase DEF] buff and a 15% [Continuous Heal] buff on all allies for 2 turns, then attacks all enemies under [Freeze] debuff. Places a 25% [Weaken] debuff for 2 turns on all enemies under [Freeze] debuff.<br>Damage based on: [ATK]<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1<br>Damage Multiplier: 4.3 ATK",
+      "slug": "grip-of-winter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Icicle Barrage",
+      "raw_description": "Attacks 5 times at random. Each hit has a 30% chance of placing a [Freeze] debuff for 1 turn. Hasa 100% chance of placing a [Freeze] debuff on enemies that receive 2 hits.<br>Level 2: Damage +5%<br>Level 3: Buff/Debuf Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuf Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuf Chance +10%<br>Level 8: Cooldown -1<br>Damage Multiplier: 2 ATK",
+      "slug": "icicle-barrage",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Freeze"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Frostweaver",
+      "raw_description": "Whenever an enemy places a [Freeze] debuff on an ally, has a 20% chance of stealing the [Freeze] debuff and placing it on this Champion instead. Has a 25% chance of filling this Champion’s Turn Meter by 25% every time they receive a [Freeze] debuff. Has a 35% chance of removing any [Freeze] debuff from this Champion at the start of every turn. If there are multiple Champions in the team with this Skill, only one will activate.<br>Level 2: Buff/Debuf Chance +5%<br>Level 3: Buff/Debuf Chance +5%<br>Level 4: Buff/Debuf Chance +5%",
+      "slug": "frostweaver",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Freeze"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 32,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east.",
+    "champion_slugs": []
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/pyxniel/",
+  "image_slug": "image-champion-pyxniel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Pyxniel is a legendary support champion from the faction High Elves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Pyxniel",
+      "pyxniel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Pyxniel is a champion of Legendary rarity and of Support type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-pyxniel.jpg",
+        "name": "Pyxniel",
+        "url": "https://raid-codex.com/champions/pyxniel/"
+      }
+    ]
+  },
+  "default_description": "Pyxniel is a legendary assist champion from the faction High Elves doing magic damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "speed",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "perception",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "accuracy",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "speed",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "perception",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "speed",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "DEF%",
+            "HP%"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ACC",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "DEF",
+            "HP"
+          ],
+          "additional_stats": [
+            "ACC",
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "SPD",
+            "HP%",
+            "DEF%"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "offense": [],
+      "defense": [
+        "cycle-of-revenge",
+        "defiant",
+        "harvest-despair",
+        "improved-parry",
+        "mighty-endurance",
+        "retribution",
+        "wisdom-of-battle"
+      ],
+      "support": [
+        "evil-eye",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "pinpoint-accuracy",
+        "rapid-response",
+        "spirit-haste",
+        "swarm-smiter",
+        "timely-intervention"
+      ]
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "methodical",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "arcane-celerity",
+        "charged-focus",
+        "evil-eye",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "pinpoint-accuracy",
+        "rapid-response",
+        "spirit-haste"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "freeze",
+    "increase-def-2",
+    "increase-turn-meter",
+    "veil",
+    "weaken-2"
+  ],
+  "videos": []
+}

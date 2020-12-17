@@ -1,0 +1,1094 @@
+{
+  "name": "Yakarl the Scourge",
+  "date_added": "2020-12-14T09:30:00Z",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "yakarl-the-scourge",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Doom Tower by 43%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "doom-tower"
+      ],
+      "value": 43,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Axe of Allwinter",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 20% chance of placing a [Freeze] debuff for 1 turn. Will ignore [Shield] buff if there are 1 or more enemies under [Freeze] debuff. Will also ignore [Block Damage] buff if there are 2 or more enemies under [Freeze] debuff. Will also ignore 30% of the target’s DEF if there are 3 or more enemies under [Freeze] debuff.<br>Damage based on: [ATK]<br>Damage Multiplier: ? ATK",
+      "slug": "axe-of-allwinter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Freeze"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Blizzard Rider",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 3 turns and a 75% chance of placing a [Freeze] debuff for 1 turn. Also steals 100% of the target’s Turn Meter and places a 30% [Increase SPD] buff on this Champion for 3 turns.<br>Damage based on: [ATK]<br>Damage Mutliplier: ? ATK",
+      "slug": "blizzard-rider",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/effects/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Freeze"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/effects/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Glaciate",
+      "raw_description": "Attacks 1 enemy 3 times. If the target is under a [Freeze] debuff, removes the debuff after attacking and places it on all enemies except the initial target. Will also attacks all enemies except the initial target after the third hit.<br>Damage based on: [ATK]",
+      "slug": "glaciate",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Lord of Ice",
+      "raw_description": "(Passive Effect) Decreases the damage this Champion receives by 10% and increases the damage this Champion inflicts by 10% if there are 1 or more enemies under [Freeze] debuff. Increases this Champion’s SPD by 15 and RES by 50 if there are 2 or more enemies under [Freeze] debuff.<br>(Active Effect) Places an [Unkillable] buff on this Champion for 2 turns whenever there are 3 enemies under [Freeze] debuff.",
+      "slug": "lord-of-ice",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/effects/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Unkillable"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 50,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 50 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/yakarl-the-scourge/",
+  "image_slug": "image-champion-yakarl-the-scourge",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Yakarl the Scourge is a legendary attack champion from the faction Barbarians doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Yakarl the Scourge",
+      "yakarl-the-scourge"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Yakarl the Scourge is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-yakarl-the-scourge.jpg",
+        "name": "Yakarl the Scourge",
+        "url": "https://raid-codex.com/champions/yakarl-the-scourge/"
+      }
+    ]
+  },
+  "default_description": "Yakarl the Scourge is a legendary attack champion from the faction Barbarians doing void damage",
+  "recommended_builds": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "cruel",
+        "savage"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "perception",
+        "perception",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "faction-wars"
+      ],
+      "sets": [
+        "accuracy",
+        "accuracy",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "cruel",
+        "savage"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "perception",
+        "perception",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    },
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "clan-boss",
+        "dungeon"
+      ],
+      "sets": [
+        "accuracy",
+        "accuracy",
+        "speed"
+      ],
+      "stats": {
+        "weapon": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "helmet": {
+          "main_stats": [
+            "HP"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "shield": {
+          "main_stats": [
+            "DEF"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "gauntlets": {
+          "main_stats": [
+            "C.RATE",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "chestplate": {
+          "main_stats": [
+            "ATK%"
+          ],
+          "additional_stats": [
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "boots": {
+          "main_stats": [
+            "SPD"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "ACC"
+          ]
+        },
+        "ring": {
+          "main_stats": [
+            "ATK"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "amulet": {
+          "main_stats": [
+            "ATK",
+            "C.DMG"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "SPD",
+            "ACC"
+          ]
+        },
+        "banner": {
+          "main_stats": [
+            "ACC"
+          ],
+          "additional_stats": [
+            "ATK%",
+            "C.RATE",
+            "C.DMG",
+            "SPD"
+          ]
+        }
+      }
+    }
+  ],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "shield-breaker",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "evil-eye",
+        "exalt-in-death",
+        "lasting-gifts",
+        "lore-of-steel",
+        "pinpoint-accuracy",
+        "rapid-response",
+        "spirit-haste",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "block-damage",
+    "decrease-spd-2",
+    "freeze",
+    "increase-spd-2",
+    "increase-turn-meter",
+    "unkillable"
+  ],
+  "videos": []
+}
