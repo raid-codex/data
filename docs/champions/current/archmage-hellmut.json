@@ -75,8 +75,203 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increase Ally SPD in the Arena by 17%",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "arena"
+      ],
+      "value": 17,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Arcane Dynamo",
+      "raw_description": "Attacks 1 enemy. Fills this Champion’s Turn Meter by 10%. Fills the Turn Meter by 20% if this attack is critical.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Damage +5%<br>Level 5: Damage +10%<br>Damage Multiplier: 4.8 ATK",
+      "slug": "arcane-dynamo",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5050_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "3af328ae04b611d19f4c5af53e0a4d57",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Timeslip",
+      "raw_description": "Attacks 1 enemy. Also attack all other enemies if the first attack is critical. Each hit has a 50% chance of placing a [Stun] debuff for 1 turn. After attacking, decreases the Turn Meters of each enemy without a [Stun] debuff by 20%.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +15%<br>Level 8: Cooldown -1<br>Damage Multiplier: 6 ATK (Target) , 3.5 ATK (AoE)",
+      "slug": "timeslip",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5050_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "8fbb79aaf9f868cb75e6e7dac6286de5",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Psychic Guidance",
+      "raw_description": "Places a 30% [Increase SPD] buff, a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on all allies for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "psychic-guidance",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/effects/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5050_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "5182e90bcc51b2708d2b9181a2150619",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Chrono Isolation",
+      "raw_description": "Immune to Turn Meter decreasing effects.",
+      "slug": "chrono-isolation",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "5050_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ae0b29f898999f42b080ace0a2c33197",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Banner-Lords",
     "slug": "banner-lords",
@@ -839,6 +1034,13 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-turn-meter",
+    "increase-c-dmg-2",
+    "increase-c-rate-2",
+    "increase-spd-2",
+    "increase-turn-meter",
+    "stun"
+  ],
   "videos": []
 }

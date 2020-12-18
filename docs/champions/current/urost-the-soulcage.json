@@ -65,18 +65,279 @@
   "slug": "urost-the-soulcage",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 24450,
+      "attack": 782,
+      "defense": 1167,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Jagged Knuckles",
+      "raw_description": "Attacks 1 enemy. Places a [Shield] buff on this Champion equal to 10% of this Champion’s MAX HP. The [Shield]’s value increases by 1% for each [Poison] debuff on the target.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Shield +5%<br>Level 4: Damage +10%<br>Level 5: Shield +10%<br>Damage Multiplier: 0.22 HP",
+      "slug": "jagged-knuckles",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5080_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "df72d1e87a54ed17055bbc42ae3eb29b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fetid Eruption",
+      "raw_description": "Attacks all enemies. Has a 75% chance of decreasing the Turn Meters by 15% of enemies under 1 or more [Poison] debuffs. Also has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns on enemies under 2 or more [Poison] debuffs. Has a 75% chance of placing a [Stun] debuff for 1 turn on enemies under 3 or more [Poison] debuffs. Instantly activates this skill when this Champion is revived by Rian the Conjurer.<br>Damage based on: [HP]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1<br>Damage Multiplier: 0.24 HP",
+      "slug": "fetid-eruption",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5080_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "4e5d8b48cd291a794391ecc775840458",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Soul Bounty",
+      "raw_description": "Places a 25% [Strengthen] buff on all allies for 2 turns and a 50% [Ally Protection] buff on all allies except this Champion for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "soul-bounty",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/effects/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5080_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "c3d55baeb6e8a7f0f683a8c09066fbf7",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Call of the Cage",
+      "raw_description": "When attacked, has a 50% chance of placing a 5% [Poison] debuff on the attacker for 2 turns. Whenever an ally is attacked while under a [Strengthen] buff, has a 50% chance of placing a [Provoke] debuff on the attacker for 1 turn. Increases this Champion’s MAX HP by 5% whenever an enemy receives damage from a [Poison] debuff placed by this Champion. Whenever an enemy receives damage from a [Poison] debuff placed by this Champion, also decreases their MAX HP by 5%. (Cannot decrease a single Champion’s MAX HP by more than 25% in one Battle. Will not decrease Bosses MAX HP. Cannot increase this Champion’s MAX HP by more than 50%.)<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +10%",
+      "slug": "call-of-the-cage",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5080_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "b87aa311dae47cd47096558fcbb22dea",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -1148,7 +1409,19 @@
   ],
   "lore": "",
   "giid": "5080",
-  "synergy": [],
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
   "thumbnail": "d3f06eef2ffac7faadbe3055a70682ac",
   "tags": [],
   "masteries": [
@@ -1185,6 +1458,15 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "ally-protection-2",
+    "decrease-spd-2",
+    "decrease-turn-meter",
+    "poison",
+    "provoke",
+    "shield",
+    "strengthen-2",
+    "stun"
+  ],
   "videos": []
 }

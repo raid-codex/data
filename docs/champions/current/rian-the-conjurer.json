@@ -75,8 +75,126 @@
       "accuracy": 15
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in all Battles by 40.",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 40,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Magma Ball",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Buffs] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Damage +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Damage +10%<br>Level 7: Buff/Debuff Chance +10%<br>Damage Multiplier: 4.6 ATK",
+      "slug": "magma-ball",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/effects/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Buffs"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5060_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9409e193c36205e390c41edd04739e77",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sweeping Dismissal",
+      "raw_description": "Has a 75% chance of removing all buffs from all enemies. Also has a 75% chance of placing a 25% [Weaken] debuff on all enemies for 2 turns.<br>Level 2: Buff/Debuff Chance +5%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
+      "slug": "sweeping-dismissal",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5060_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "b498a15f307f575ea823edf592f98fab",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Master of Summons",
+      "raw_description": "Revives a dead ally with 50% HP and 50% Turn Meter, then places a [Block Debuffs] buff on them for 2 turns. Will also revive Akoth the Seared or Urost the Soulcage with 30% HP and 30% Turn Meter if they are on the same team and not the target of the skill. If either Akoth the Seared or Urost the Soulcage are the target of the skill, that Champion will be revived with 50% HP and 50% Turn Meter, and a [Block Debuffs] buff for 2 turns.<br>Level 2: Cooldown -1<br>Level 3: Cooldown -1",
+      "slug": "master-of-summons",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5060_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "7cf52bdd97c078d6dd774c8378e18646",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dark Elves",
     "slug": "dark-elves",
@@ -815,6 +933,10 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-buffs",
+    "block-debuffs",
+    "weaken-2"
+  ],
   "videos": []
 }

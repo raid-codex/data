@@ -42,18 +42,263 @@
   "slug": "nekhret-the-great",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 21480,
+      "attack": 793,
+      "defense": 1354,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally RES in all Battles by 60.",
+      "effects": [],
+      "stats": [
+        "RES"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 60,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Tomb Glaive",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 20% chance of placing a 50% [Decrease ATK] debuff for 1 turn. This effect cannot be resisted.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%<br>Damage Multiplier: ?",
+      "slug": "tomb-glaive",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4800_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "fcbffdcc92d505e0130c7ce977bf83e5",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Legion of the Damned",
+      "raw_description": "Teams up with allies to attack 1 enemy. All allies under [Ally Protection] buffs placed by this Champion will join the attack. Allies joining the attack will use their default skills. Grants an Extra Turn if this attack does not kill the target.<br>Level: 2 Cooldown -1",
+      "slug": "legion-of-the-damned",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4800_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "3bb41c3cc10824d903e8324853d8d794",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Disturbing Infusion",
+      "raw_description": "Places a [Block Debuffs] buff, a 50% [Ally Protection] buff, and a 25% [Strengthen] buff on an ally for 3 turns. The [Ally Protection] buff cannot be removed.<br>Level 2: Cooldown -1",
+      "slug": "disturbing-infusion",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection",
+          "slug": "ally-protection",
+          "website_link": "/effects/ally-protection",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4800_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "d2bf672b8dd5887d2e7227444c245867",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Unsleeping Aegis",
+      "raw_description": "Whenever an ally is attacked while under an [Ally Protection] buff placed by this Champion, places a [Shield] buff on the ally equal to 30% of this Champion’s MAX HP for 2 turns. Occurs only if the ally does not already have a [Shield] buff placed by this Champion. Also decreases the cooldown of this Champion’s Legion of the Damned Skill by 2 turns if the [Shield] buff is placed.",
+      "slug": "unsleeping-aegis",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4800_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "bdb38909a1194a3ee8a0ac58a9930e4a",
+      "skill_number": "P1"
+    },
+    {
+      "passive": true,
+      "name": "Arise My Minions",
+      "raw_description": "Places a [Block Debuffs] buff and a 25% [Strengthen] buff for 3 turns on the ally with the lowest MAX HP at the start of each Round. Also places a 50% [Ally Protection] buff on them for 6 turns. The [Ally Protection] buff cannot be removed.",
+      "slug": "arise-my-minions",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection",
+          "slug": "ally-protection",
+          "website_link": "/effects/ally-protection",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen-2",
+          "slug": "strengthen-2",
+          "website_link": "/effects/strengthen",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4800_s5",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "4f3406b3542d09bc768e605402c856ee",
+      "skill_number": "P2"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -120,6 +365,12 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "ally-protection",
+    "block-debuffs",
+    "decrease-atk-2",
+    "shield",
+    "strengthen-2"
+  ],
   "videos": []
 }

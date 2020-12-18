@@ -65,18 +65,117 @@
   "slug": "thea-the-tomb-angel",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 16020,
+      "attack": 1542,
+      "defense": 969,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
       "accuracy": 0
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Befoulment",
+      "raw_description": "Attacks 2 times at random. Has a 75% chance of placing a (Hex) debuff for 5 turns. This debuff cannot be resisted. Each critical hit decreases the cooldown of the (Not Of This World) skill by 1 turn.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Damage Multiplier: 2 ATK",
+      "slug": "befoulment",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4430_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ea62dafbb4f130bf6865daec5c68cbef",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hexreaper",
+      "raw_description": "Attacks all enemies. Damage increases by 50% for each (Hex) debuff on the enemy team. Stacks up to 300% Removes all (Hex) debuff from all enemies after attacking.<br>Damage based on: [ATK]<br>Level 2: Cooldown -1<br>Damage Multiplier: 3.5 ATK",
+      "slug": "hexreaper",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4430_s2",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "0b4d661f66b7ab49379ac88f26b4fb42",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Not of This World",
+      "raw_description": "Places a [Perfect Veil] buff on this Champion for 3 turns. Grants an Extra Turn.",
+      "slug": "not-of-this-world",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4430_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "7e35195443a81860db911e0973ed6eb1",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Cruel Angel",
+      "raw_description": "Has a 50% chance of placing a [True Fear] debuff on all enemies for 1 turn when an enemy loses 30% or more of their MAX HP in a single hit.",
+      "slug": "cruel-angel",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4430_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "724fbb6d280b134579271b371489461e",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Knight Revenant",
     "slug": "knight-revenant",
@@ -415,6 +514,9 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "perfect-veil",
+    "true-fear"
+  ],
   "videos": []
 }
