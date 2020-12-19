@@ -42,18 +42,174 @@
   "slug": "balthus-drauglord",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 18000,
+      "attack": 848,
+      "defense": 1255,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Faction Crypts by 30%",
+      "effects": [],
+      "stats": [
+        "DEF"
+      ],
+      "locations": [
+        "faction-wars"
+      ],
+      "value": 30,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Shield Strike",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "shield-strike",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5490_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "ed701e7dd740402f8ed9c9b4ce4cda1a",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Doomwheels",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease C. RATE] debuff for 2 turns.<br>Damage based on: [DEF]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "doomwheels",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-rate-2",
+          "slug": "decrease-c-rate-2",
+          "website_link": "/effects/decrease-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease C. RATE",
+            "Decrease C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5490_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "bd49f965c4698d86f258016ab629ca78",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Driven to Slaughter",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Provoke] debuff for 2 turns. Also heals this Champion by 20% of their MAX HP.<br>Damage based on: [DEF]<br>Level 2: Damage +10%<br>Level 3: Buff/Debuff Chance +5%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Cooldown -1",
+      "slug": "driven-to-slaughter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "5490_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "d2cb5f8acb528b21115657ea44895607",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Enchanted Shields",
+      "raw_description": "Reflects 30% of the damage this Champion receives back to the attacker.",
+      "slug": "enchanted-shields",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "5490_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9fb9e3a781be0cb9223e400b50f6a1a1",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -129,6 +285,11 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-atk-2",
+    "decrease-c-rate-2",
+    "heal",
+    "provoke"
+  ],
   "videos": []
 }

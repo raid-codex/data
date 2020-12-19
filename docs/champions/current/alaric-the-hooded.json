@@ -42,18 +42,139 @@
   "slug": "alaric-the-hooded",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 15855,
+      "attack": 1454,
+      "defense": 793,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Faction Crypts by 29%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "faction-wars"
+      ],
+      "value": 29,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Red Fury",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of decreasing the target’s Turn Meter by 7.5%. Decreases the Turn Meter by a further 3% for each buff on the target.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%<br>Level 6: Buff/Debuff Chance +10%",
+      "slug": "red-fury",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5480_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "3f6ffe1a0b8db8a76852542641da7cec",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Demand Chivalry",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of removing 2 random buffs from the target before attacking. Has a 75% chance of stealing 2 random buffs instead if the target has 4 or more buffs.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +10%<br>Level 5: Buff/Debuff Chance +15%<br>Level 6: Cooldown -1",
+      "slug": "demand-chivalry",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5480_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "f6c8c6e52c46ab8a583e07df91f79d56",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Crimson Warlord",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff and a 50% [Decrease ACC] debuff on all enemies for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +15%<br>Level 3: Buff/Debuff Chance +10%<br>Level 4: Buff/Debuff Chance +15%<br>Level 5: Cooldown -1",
+      "slug": "crimson-warlord",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/effects/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ACC"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5480_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "07581f59e0a7520747286131bc518187",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Banner-Lords",
     "slug": "banner-lords",
@@ -129,6 +250,10 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-acc-2",
+    "decrease-atk-2",
+    "decrease-turn-meter"
+  ],
   "videos": []
 }

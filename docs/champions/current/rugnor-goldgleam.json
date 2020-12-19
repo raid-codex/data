@@ -42,18 +42,254 @@
   "slug": "rugnor-goldgleam",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
+      "hp": 16680,
+      "attack": 1409,
+      "defense": 782,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Doom Tower battles by 35%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "doom-tower-battles"
+      ],
+      "value": 35,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Thirsty Axe",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Leech] debuff for 2 turns.<br>Damage based on: [ATK]<br>Level 2: Damage +5%<br>Level 3: Damage +5%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +5%",
+      "slug": "thirsty-axe",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Leech"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5430_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "00e427dabd31b88e5bd5755429f400e6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Gold",
+      "raw_description": "Sacrifices HP equal to 15% of this Champion’s MAX HP, then fills this Champion’s Turn Meter by 75% and places a [Shield] buff on this Champion equal to 20% of their MAX HP for 3 turns. The<br>Damage based on: [ATK]<br>[Shield] buff cannot be removed. The HP sacrifice will happen even if it kills this Champion, and will ignore [Shield] and [Block Damage] buffs.<br>Level 2: Cooldown —1",
+      "slug": "gold",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/effects/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Damage"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5430_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "437c85d83ef6e433c679e27f769b0a47",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Gleam of Avarice",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff on the target for 2 turns. Also has a 75% chance of placing a 60% [Decrease DEF] debuff on the target for 2 turns before attacking.<br>Damage based on: [ATK]<br>Level 2: Damage +10%<br>Level 3: Damage +10%<br>Level 4: Buff/Debuff Chance +5%<br>Level 5: Buff/Debuff Chance +10%<br>Level 6: Buff/Debuff Chance +10%<br>Level 7: Cooldown -1",
+      "slug": "gleam-of-avarice",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/effects/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5430_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "5b97e949a6ac5263aa52f38253afe3e4",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Dire Grudge",
+      "raw_description": "Decreases the cooldown of this Champion’s (Gleam of Avarice) Skill by 1 turn every time this Champion loses 15% HP. The HP loss is accumulated and tracked over multiple turns, attacks, or hits, and is not affected by healing or other HP increases.",
+      "slug": "dire-grudge",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5430_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "adda61a2cd8c7888f7a9d63b0f7c6915",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -138,6 +374,15 @@
       "fusion_type": "fused"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-damage",
+    "decrease-def-2",
+    "heal",
+    "increase-atk-2",
+    "increase-turn-meter",
+    "leech",
+    "shield",
+    "weaken-2"
+  ],
   "videos": []
 }
