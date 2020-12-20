@@ -29,10 +29,6 @@ jobs:
         export DIRECTORY=`pwd`
         make sanitize_champions
         make rebuild_index_champions
-    - name: "ayumilove"
-      run: |
-        export PATH="/home/runner/go/bin:$PATH"
-        bash ./scripts/ayumilove-tier-list.sh
     - name: "content creator videos"
       run: |
         git clone https://github.com/raid-codex/content-creators.git
