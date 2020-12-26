@@ -52,8 +52,203 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in Doom Tower battles by 60.",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "doom-tower-battles"
+      ],
+      "value": 60,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Feathered Staff",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 10% chance of placing a 5% [Poison] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +10%<br> Level 6: Buff/Debuff Chance +10%<br> Damage Multiplier: 2.1 ATK<br>Damage based on: [ATK]",
+      "slug": "feathered-staff",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4820_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "303137d065f342cb9ab51883eb10b17c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Lore of Restoration",
+      "raw_description": "Attacks 1 enemy. Heals all allies by 10% of their MAX HP. Heals each ally by an extra 2.5% for each debuff on the target.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Heal +10%<br> Level 6: Cooldown -1<br> Damage Multiplier: 5.7 ATK<br>Damage based on: [ATK]",
+      "slug": "lore-of-restoration",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4820_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "12ffe159ac4ba39487e5e8aff47821d8",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Weight of Aeons",
+      "raw_description": "Places a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has a 75% chance of decreasing each enemy’s Turn Meter by 20%. Places a 30% [Decrease C. RATE] debuff on the target for 2 turns if they have 50% or more Turn Meter after the Turn Meter decreases.<br> Level 2: Buff/Debuff Chance  +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +10%<br> Level 6: Cooldown -1",
+      "slug": "weight-of-aeons",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-c-rate-2",
+          "slug": "decrease-c-rate-2",
+          "website_link": "/effects/decrease-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease C. RATE",
+            "Decrease C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4820_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "abc58e4906ce3dfae8dea3d1922d8612",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Steward of Time",
+      "raw_description": "Increases the duration of 2 random debuffs on the attacker by 1 turn when attacked. Occurs once per hit.",
+      "slug": "steward-of-time",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Debuff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Debuff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4820_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "9eb608b0a4620cad4729b425ea80b3bc",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Lizardmen",
     "slug": "lizardmen",
@@ -115,11 +310,30 @@
   "recommended_builds": [],
   "lore": "",
   "giid": "4820",
-  "synergy": [],
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
   "thumbnail": "79cc30c73507cfc25d20fe7f7bcfd91b",
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "debuff-extend",
+    "decrease-atk-2",
+    "decrease-c-rate-2",
+    "decrease-turn-meter",
+    "heal",
+    "poison-2"
+  ],
   "videos": []
 }

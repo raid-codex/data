@@ -53,7 +53,53 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Round Up",
+      "raw_description": "Attacks all enemies.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +53%<br> Damage Multiplier: 3 ATK<br>Damage based on: [ATK]",
+      "slug": "round-up",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3920_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "904e2c62e8b019ef84d771515b359301",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tender Meat",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 15% of the damage inflicted.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Damage +10%<br> Damage Multiplier: 4.8 ATK<br>Damage based on: [ATK]",
+      "slug": "tender-meat",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3920_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "4ce0f9012a771c870d3c64cd450f5229",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Slobbering Rush",
+      "raw_description": "Attacks 1 enemy. Will ignore 50% of the target’s DEF. Has a 50% chance of granting an Extra Turn if this attack is critical.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Cooldcwn -1<br> Damage Multiplier: 3.1 ATK<br>Damage based on: [ATK]",
+      "slug": "slobbering-rush",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3920_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "fd3ff3b39ede03f68b262eb47417b67d",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Ogryn-Tribes",
     "slug": "ogryn-tribes",

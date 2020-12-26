@@ -53,7 +53,136 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bushwhack",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical. The extra hit places a 30% [Decrease SPD] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Damage +10%<br> Damage Multiplier: 2 ATK<br>Damage based on: [ATK]",
+      "slug": "bushwhack",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5440_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "635c5bbca6a8faa19eefcd57330303b3",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flailing Pick",
+      "raw_description": "Attacks all enemies. Each critical hit fills this Champion’s Turn Meter by 7.5%.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Damage +10%<br> Damage Multiplier: 3.3 ATK<br>Damage based on: [ATK]",
+      "slug": "flailing-pick",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5440_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "3ba9ea1d15316e9ea3a8ae0b4f752240",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Deep Ambush",
+      "raw_description": "Places a 50% [Increase ACC] buff on all allies for 2 turns, then attacks all enemies. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Damage +5%<br> Level 8: Damage +10%<br> Level 9: Buff/Debuff Chance +10%<br> Damage Multiplier: 3 ATK<br>Damage based on: [ATK]",
+      "slug": "deep-ambush",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/effects/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-acc-2",
+          "slug": "increase-acc-2",
+          "website_link": "/effects/increase-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ACC"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5440_s3",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "56394e96199f43504095a7756d99e6a8",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -134,6 +263,11 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-def",
+    "decrease-spd-2",
+    "increase-acc-2",
+    "increase-turn-meter"
+  ],
   "videos": []
 }

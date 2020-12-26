@@ -52,8 +52,88 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Doom Tower battles by 21%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "doom-tower-battles"
+      ],
+      "value": 21,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Vile Substance",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Heal Reduction] debuff for 2 turns.<br> Level 2: Damage +10%<br> Level 3: Damage +10%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +10%<br> Level 6: Buff/Debuff Chance +10%<br> Damage Multiplier: 3.5 ATK<br>Damage based on: [ATK]",
+      "slug": "vile-substance",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/effects/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4100_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "c8b07e518aba39fe4ae8b81300992214",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Heartless Curse",
+      "raw_description": "Attacks 1 enemy. Decreases the target’s MAX HP by 20% of the damage inflicted.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 5.8 ATK<br>Damage based on: [ATK]",
+      "slug": "heartless-curse",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4100_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "3099f2104b3fadcb1c71bd5e4f983d10",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Septic Spearhead",
+      "raw_description": "Attacks 1 enemy 2 times. Decreases the target’s MAX HP by 30% of the damage inflicted.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 3 ATK<br>Damage based on: [ATK]",
+      "slug": "septic-spearhead",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4100_s3",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "ec71a7d2010b1cf44e91a5efa5daeb13",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Orcs",
     "slug": "orcs",
@@ -137,6 +217,8 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "heal-reduction"
+  ],
   "videos": []
 }

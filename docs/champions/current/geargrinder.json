@@ -52,8 +52,105 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in Faction Crypts by 25%.",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "faction-wars"
+      ],
+      "value": 25,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gears of Gore",
+      "raw_description": "Attacks 1 enemy. Places a 7.5% [Continuous Heal] buff on this Champion for 1 turn if this attack is critical.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Damage +10%<br> Damage Multiplier: ?<br>Damage based on: [HP]",
+      "slug": "gears-of-gore",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/effects/continuous-heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5400_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "85f78f60de571d883711f129a3cc0b54",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Healing Splatter",
+      "raw_description": "Heals all allies by 15% of their MAX HP.<br> Level 2: Heal +5%<br> Level 3: Heal +5%<br> Level 4: Heal +5%<br> Level 5: Heal +5%<br> Level 6: Cooldown -1<br> Level 7: Cooldown -1",
+      "slug": "healing-splatter",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5400_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "f6eb70c3bb4bad42a013478d14f78ecb",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Necrocogs",
+      "raw_description": "Revives a dead ally with 50% HP and 50% Turn Meter.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1",
+      "slug": "necrocogs",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "5400_s3",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "abe20f18bf00a9bc0f56176c22dd7004",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Ogryn-Tribes",
     "slug": "ogryn-tribes",
@@ -125,6 +222,9 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "continuous-heal",
+    "heal"
+  ],
   "videos": []
 }

@@ -53,7 +53,59 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Frosty Pick",
+      "raw_description": "Attacks 1 enemy.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Damage Multiplier: 4.8 ATK<br>Damage based on: [ATK]",
+      "slug": "frosty-pick",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4910_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "58939269d73b6a98ef55a5f58ad25a93",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Noggin Knocker",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.<br> Level 2: Damage +5%<br> Level 3: Damage +10%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Cooldown -1<br> Damage Multiplier: 7.8 ATK<br>Damage based on: [ATK]",
+      "slug": "noggin-knocker",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4910_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "11f356609a7cb993c903e66c0cf68b62",
+      "skill_number": "A2"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -129,6 +181,8 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "stun"
+  ],
   "videos": []
 }

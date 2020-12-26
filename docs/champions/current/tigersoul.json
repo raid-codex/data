@@ -53,7 +53,134 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Scorpion Tips",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Damage +5%<br> Level 7: Buff/Debuff Chance +5%<br> Level 8: Damage +5%<br> Level 9: Buff/Debuff Chance +5%<br> Damage Multiplier: 2.77 ATK<br>Damage based on: [ATK]",
+      "slug": "scorpion-tips",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5380_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "459dd287a7b692c1c9dfcafe9b06894c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Wearying Tactics",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 15% [Weaken] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Damage +10%<br> Level 8: Buff/Debuff Chance +10%<br> Level 9: Damage +10%<br> Damage Multiplier: 4.5 ATK<br>Damage based on: [ATK]",
+      "slug": "wearying-tactics",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/effects/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5380_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "83dfda95d68aa1512dee34580badc39b",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Tiger’s Strength",
+      "raw_description": "Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns.<br> Level 2: Cooldown -1<br> Level 8: Cooldown -1<br> Level 4: Cooldown -1",
+      "slug": "tiger-s-strength",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/effects/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5380_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "f6172e8bd4ff0cb9ad2fbd75f30f36e8",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
@@ -115,7 +242,19 @@
   "recommended_builds": [],
   "lore": "",
   "giid": "5380",
-  "synergy": [],
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
   "thumbnail": "b3dd760eb02d2e669c604f6b2f1e803f",
   "tags": [],
   "masteries": [],
@@ -137,6 +276,11 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-debuffs",
+    "increase-def-2",
+    "poison-2",
+    "weaken"
+  ],
   "videos": []
 }

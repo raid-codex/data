@@ -53,7 +53,98 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Inscribed Axes",
+      "raw_description": "Attack 1 enemy. Heals this Champion by 10% of damage inflicted.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Damage Multiplier: 3.6 ATK<br>Damage based on: [ATK]",
+      "slug": "inscribed-axes",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4360_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "4486fb5b987c82466c7ff38192c67bce",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Spirit’s Verdict",
+      "raw_description": "Sacrifices HP equal to 10% of this Champion’s MAX HP, then heals a target ally by 10% of their MAX HP. Also has a 40% chance of placing a 7.5% [Continuous Heal] buff on that ally for 1 turn. The HP sacrifice will happen even if it kills this champion.<br> Level 2: Buff/Debuff chance +5%<br> Level 3: Buff/Debuff chance +5%<br> Level 4: Cooldown -1<br> Level 5: Cooldown -1<br> Damage Multiplier: 0.1 HP",
+      "slug": "spirit-s-verdict",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/effects/continuous-heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4360_s2",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "1034183931db2a3738a3b4a918248f79",
+      "skill_number": "A2"
+    }
+  ],
   "faction": {
     "name": "Orcs",
     "slug": "orcs",
@@ -120,6 +211,9 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "continuous-heal",
+    "heal"
+  ],
   "videos": []
 }

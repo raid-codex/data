@@ -53,7 +53,59 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Let Fly",
+      "raw_description": "Attacks 1 enemy.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6 Damage +5%<br> Damage Multiplier: 3.7 ATK<br>Damage based on: [ATK]",
+      "slug": "let-fly",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3840_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "57f689efddbe950806d4bc6057af21dc",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Veinfire Venom",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Damage +5%<br> Level 7: Buff/Debuff Chance +5%<br> Level 8: Damage +10%<br> Damage Multiplier: 3.2 ATK<br>Damage based on: [ATK]",
+      "slug": "veinfire-venom",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/effects/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3840_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "d360f7d6e3bdaf0b12a6703e112d706f",
+      "skill_number": "A2"
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
@@ -120,6 +172,8 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "weaken"
+  ],
   "videos": []
 }

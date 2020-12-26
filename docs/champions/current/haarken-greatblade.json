@@ -52,8 +52,88 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Doom Tower battles by 32%.",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "doom-tower-battles"
+      ],
+      "value": 32,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Blooded Steel",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +10%<br> Damage Multiplier: 3.3 ATK<br>Damage based on: [ATK]",
+      "slug": "blooded-steel",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3700_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "fb6506e4a66562aa738973ce13b3cfc6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fearsome Iron Slab",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a 25% Weaken debuff on the target for 2 turns before attacking.<br> Level 2: Buff/Debuff Chance +5%<br> Level 3: Damage 10%<br> Level 4: Buff/Debuff Chance +10%<br> Level 5: Buff/Debuff Chance +10%<br> Damage Multiplier: 6.2 ATK<br>Damage based on: [ATK]",
+      "slug": "fearsome-iron-slab",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3700_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "e21adb5a631ab559243e35ccd7cf3f6c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Infectious Panic",
+      "raw_description": "Attacks 1 enemy. Applies a Debuff Spread effect, taking 2 random debuffs from the target and placing them on all enemies. Also extends the duration of those debuffs by 2 turns. Will not extend the duration of debuffs on the initial target.<br> Level 2: Damage +5%<br> Level 3: Damage +10%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 5.5 ATK<br>Damage based on: [ATK]",
+      "slug": "infectious-panic",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Debuff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Debuff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3700_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "4fcc1a8114f369f9d861f4f050cb1a92",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Barbarians",
     "slug": "barbarians",
@@ -120,6 +200,8 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "debuff-extend"
+  ],
   "videos": []
 }

@@ -52,8 +52,148 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in Dungeons by 40.",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 40,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Claws Upon Claws",
+      "raw_description": "Attacks 1 enemy 3 times. Each critical hit has a 50% chance of decreasing the target’s Turn Meter by 3%.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Damage +5%<br> Level 8: Damage +10%<br> Level 9: Buff/Debuff Chance +10%<br> Damage Multiplier: 0.9 ATK<br>Damage based on: [ATK]",
+      "slug": "claws-upon-claws",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5420_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "7a32eeb7dcd7c26cc3a4ec9711f2bb26",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Devitalize",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Damage +5%<br> Level 7: Buff/Debuff Chance +5%<br> Damage Multiplier: 3.7 ATK<br>Damage based on: [ATK]",
+      "slug": "devitalize",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "5420_s2",
+      "cooldown": 3,
+      "upgrades": [],
+      "image_slug": "5e1bc65fb89dc2332c3508542decb6b2",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Vanish to Shadows",
+      "raw_description": "Places a [Perfect Veil] buff and a 30% [Reflect Damage] buff on this Champion for 2 turns.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1<br> Level 4: Cooldown -1",
+      "slug": "vanish-to-shadows",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
+          "website_link": "/effects/reflect-damage",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Reflect Damage"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5420_s3",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "6a68fb0d685abace3c195a0bda6d0cfb",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Skinwalkers",
     "slug": "skinwalkers",
@@ -125,6 +265,11 @@
       "fusion_type": "ingredient"
     }
   ],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "decrease-turn-meter",
+    "heal-reduction-2",
+    "perfect-veil",
+    "reflect-damage-2"
+  ],
   "videos": []
 }
