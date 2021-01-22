@@ -1,0 +1,325 @@
+{
+  "name": "Fahrakin the Fat",
+  "date_added": "2021-01-14T09:30:00Z",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "fahrakin-the-fat",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 1244,
+      "defense": 1090,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sizzling Strike",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Damage Multiplier: 4.3 ATK<br>Damage based on: [ATK]",
+      "slug": "sizzling-strike",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Brand of Shame",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff and two 5% [Poison] debuffs for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +10%<br> Level 6: Buff/Debuff Chance +10%<br> Level 7: Cooldown -1<br> Damage Multiplier: 7.3 ATK<br>Damage based on: [ATK]",
+      "slug": "brand-of-shame",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "HP Burn"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/effects/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Beatdown",
+      "raw_description": "Places a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on all allies except this champion for 3 turns. Then, all allies except this champion will attack 1 target enemy.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1",
+      "slug": "beatdown",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Body Block",
+      "raw_description": "Deflect 20% of all incoming damage this champion receives onto all allies. The damage will be spread equally across all allies.",
+      "slug": "body-block",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 52,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands.",
+    "champion_slugs": []
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/fahrakin-the-fat/",
+  "image_slug": "image-champion-fahrakin-the-fat",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Fahrakin the Fat is a epic attack champion from the faction Barbarians doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Fahrakin the Fat",
+      "fahrakin-the-fat"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Fahrakin the Fat is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-fahrakin-the-fat.jpg",
+        "name": "Fahrakin the Fat",
+        "url": "https://raid-codex.com/champions/fahrakin-the-fat/"
+      }
+    ]
+  },
+  "default_description": "Fahrakin the Fat is a epic attack champion from the faction Barbarians doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "bring-it-down",
+        "deadly-precision",
+        "heart-of-glory",
+        "keen-strike",
+        "life-drinker",
+        "methodical",
+        "single-out",
+        "warmaster"
+      ],
+      "defense": [],
+      "support": [
+        "charged-focus",
+        "evil-eye",
+        "lore-of-steel",
+        "master-hexer",
+        "pinpoint-accuracy",
+        "sniper",
+        "swarm-smiter"
+      ]
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-def-2",
+    "hp-burn",
+    "increase-c-dmg-2",
+    "increase-c-rate-2",
+    "poison-2"
+  ],
+  "videos": []
+}
