@@ -52,8 +52,127 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 15%",
+      "effects": [],
+      "stats": [
+        "HP"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 15,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Inspiring Violence",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of removing 1 random debuff from a random ally. Cannot remove a debuff from this Champion.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Damage +5%<br> Level 8: Damage +10%<br> Level 9: Buff/Debuff Chance +10%<br> Damage Multiplier: 0.15 HP<br>Damage based on: [HP]",
+      "slug": "inspiring-violence",
+      "effects": [],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5390_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "b3d17cdd68627a50658919ff377c11eb",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sheer Grit",
+      "raw_description": "Place a [Shield] buff on all allies equal to 20% of this Champion’s MAX HP for 2 turns. Also places a 15% [Continuous Heal] buff on all allies for 2 turns.<br> Level 2: Shield 5%<br> Level 3: Shield 5%<br> Level 4: Shield 5%<br> Level 5: Shield 5%<br> Level 6: Cooldown -1<br>Damage based on: [HP]",
+      "slug": "sheer-grit",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "5390_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "39d99d7e2456959e0d0b792e4bfa3d07",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Glorious Return",
+      "raw_description": "Revives 2 Random allies with 20% HP and 20% Turn Meter. Also places a [Shield] buff on the revived allies for 2 turns equal to 30% of their max HP.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1",
+      "slug": "glorious-return",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "5390_s3",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "cd4079f88cf299e2ab123913c5cf8588",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Dwarves",
     "slug": "dwarves",
@@ -187,6 +306,9 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "shield"
+  ],
   "videos": []
 }

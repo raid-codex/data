@@ -53,7 +53,168 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Horrendous Strength",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 30% chance of increasing the duration of 1 random debuff on the target by 1 turn.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Damage Multiplier: 0.07 HP<br>Damage based on: [HP]",
+      "slug": "horrendous-strength",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Debuff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-extend",
+          "slug": "debuff-extend",
+          "website_link": "/effects/debuff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Debuff extend"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4960_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "1b226ab495fc8eaaf76ceaf6b46244e7",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Wave of Revulsion",
+      "raw_description": "Attacks all enemies. Has a 60% chance of placing a [Provoke] debuff on all enemies for 1 turn. Also has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns on targets who receive [Provoke] debuff from this skill.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Cooldown -1<br> Damage Multiplier: 0.2 HP<br>Damage based on: [HP]",
+      "slug": "wave-of-revulsion",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/effects/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease ATK"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/effects/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Provoke"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "4960_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "4b6886b0cb1ec698fa434a53cf6b9df9",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Festering Dynamo",
+      "raw_description": "Whenever this Champion is attacked, heals all allies by 50% of the damage received. (Only heals by 25% of the damage received from boss attacks. This champion only receives half of the heal that all other allies receive.)",
+      "slug": "festering-dynamo",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4960_s3",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "e239ff21fd0818c7fb8434b01168b6cb",
+      "skill_number": "P1"
+    },
+    {
+      "passive": true,
+      "name": "Eerie Presence",
+      "raw_description": "When attacked, places a [Leech] debuff on the attacker for 2 turns. If the attacker is under a [Provoke] debuff placed by this Champion, also has a 70% chance of increasing the cooldown of a random skill on the attacker by 2 turns. Occurs once per attack.<br> Level 2: Buff/Debuff Chance +10%<br> Level 3: Buff/Debuff Chance +10%<br> Level 4: Buff/Debuff Chance +10%",
+      "slug": "eerie-presence",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Leech"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4960_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "72ba821f6a9c4833f155b06ab05cf86c",
+      "skill_number": "P2"
+    }
+  ],
   "faction": {
     "name": "Undead Hordes",
     "slug": "undead-hordes",
@@ -178,6 +339,12 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "debuff-extend",
+    "decrease-atk-2",
+    "heal",
+    "leech",
+    "provoke"
+  ],
   "videos": []
 }
