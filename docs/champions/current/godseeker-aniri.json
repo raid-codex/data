@@ -53,7 +53,188 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Blade of Blessings",
+      "raw_description": "Attacks 1 enemy. Heal the ally with the lowest HP by 5% of their MAX HP. Cannot heal this champion.<br> Level 2: Damage 5%<br> Level 3: Heal 5%<br> Level: Damage +5%<br> Level 5: Heal +5%<br> Level 6: Damage +5%<br> Level 7: Heal +5%<br> Damage Multiplier: 3.6 DEF<br>Damage based on: [DEF]",
+      "slug": "blade-of-blessings",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Quest for Meaning",
+      "raw_description": "Attacks all enemies. Heal all allies by 15% of their MAX HP, then decreases the duration of all buffs on all enemies by 1 turn and increases the duration of all buffs on all allies by 1 turn.<br> Level 2: Heal +5%<br> Level 3: Heal +5%<br> Level 4: Heal +5%<br> Level 5: Heal +5%<br> Level 6: Cooldown -1<br> Damage Multiplier: 3 DEF<br>Damage based on: [DEF]",
+      "slug": "quest-for-meaning",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Buff extend",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-buff-extend",
+          "slug": "buff-extend",
+          "website_link": "/effects/buff-extend",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Buff extend"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rise of Glory",
+      "raw_description": "Revives a dead ally with 50% HP, then fills their Turn Meter by 50% and resets the cooldowns of all their skills<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1<br> Level 4: Cooldown -1",
+      "slug": "rise-of-glory",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Guardian Angel",
+      "raw_description": "Passive Effect: Increases the amount of healing allies receive by 10%.<br> Active Effect: If an ally is about to get killed by a fatal hit, preempts that hit and instantly places a [Revive on Death] buff on them for 1 turn before the damage is taken.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1<br> Level 4: Cooldown -1",
+      "slug": "guardian-angel",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Revive on Death",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/effects/revive-on-death",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Revive on Death"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -120,6 +301,11 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "buff-extend",
+    "heal",
+    "increase-turn-meter",
+    "revive-on-death"
+  ],
   "videos": []
 }

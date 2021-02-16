@@ -53,7 +53,250 @@
     }
   },
   "auras": [],
-  "skills": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hellbinder",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will team up and join the attack is they are in the same team. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will use their default skill. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will not team up on this attack if the skill is used when counterattacking or when teaming up to attack with another Champion.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +10%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +10%<br> Damage Multiplier: 1.7 ATK<br>Damage based on: [ATK]",
+      "slug": "hellbinder",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Divine Immanence",
+      "raw_description": "Attacks 1 enemy. Will ignore [Increase DEF], [Strengthen] and [Ally Protection] buffs. Revives a random ally with 40% HP and places a [Shield] buff on them equal to 20% of their MAX HP for 2 turns if this attack kills an enemy. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns if this attack kills and enemy.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 5.8 ATK<br>Damage based on: [ATK]",
+      "slug": "divine-immanence",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection",
+          "slug": "ally-protection",
+          "website_link": "/effects/ally-protection",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Ally Protection"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/effects/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Shield"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Strengthen",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-strengthen",
+          "slug": "strengthen",
+          "website_link": "/effects/strengthen",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Strengthen"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Light of Sanctity",
+      "raw_description": "Remove all buffs from targets under [Veil] or [Perfect Veil] buffs, then places a 25% [Weaken] debuff on enemies who have [Veil] or [Perfect Veil] buffs removes, then attacks all enemies. Also has a 75% chance of placing a [Stun] debuff on all enemies for 1 turn.<br> Level 2: Damage +10%<br> Level 3: Damage +10%<br> Level 4: Buff/Debuff Chance +10%<br> Level 5: Buff/Debuff Chance +15%<br> Level 6: Cooldown -1<br> Damage Multiplier: 4 ATK<br>Damage based on: [ATK]",
+      "slug": "light-of-sanctity",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/effects/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Stun"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/effects/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Veil"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/effects/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Weaken"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Emissary",
+      "raw_description": "Fills this champions turn meter by 3% every time an ally is hit. Decreases incoming damage by 25% if the attack’s ATK is lower than this Champion’s.",
+      "slug": "emissary",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -120,6 +363,16 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "ally-protection",
+    "decrease-def-2",
+    "increase-turn-meter",
+    "perfect-veil",
+    "shield",
+    "strengthen",
+    "stun",
+    "veil",
+    "weaken-2"
+  ],
   "videos": []
 }

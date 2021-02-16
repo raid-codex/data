@@ -52,8 +52,201 @@
       "accuracy": 0
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 19%",
+      "effects": [],
+      "stats": [
+        "SPD"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 19,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Cow the Wicked",
+      "raw_description": "Attacks 1 enemy. Heals all allies by 7.5% of their MAX HP. Also places a [True Fear] debuff for 1 turn if the target is a champion from the Demonspawn, Undead Hordes or Knight Revenant factions.<br> Level 2: Damage +5%<br> Level 3: Heal +5%<br> Level 4: Damage +5%<br> Level 5: Heal +5%<br> Level 6: Damage +10%<br> Level 7: Heal +10%<br> Damage Multiplier: 4 ATK<br>Damage based on: [ATK]",
+      "slug": "cow-the-wicked",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "True Fear",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-true-fear",
+          "slug": "true-fear",
+          "website_link": "/effects/true-fear",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "True Fear"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Angelsong",
+      "raw_description": "Removes all debuffs from all allies, then places a [Block Debuffs] buff and a [Revive on Death] buff on all allies for 2 turns. The [Revive on Death] buff cannot be removed.<br> Level 2: Cooldown -1",
+      "slug": "angelsong",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/effects/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Block Debuffs"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Revive on Death",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/effects/revive-on-death",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Revive on Death"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Heavenly Host",
+      "raw_description": "Places a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on all allies for 2 turns, then teams up will all allies to attack a target enemy. Decreases the cooldown of this skill by 1 turn if an enemy is killed from this attack.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1",
+      "slug": "heavenly-host",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 6,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Fiend Warden",
+      "raw_description": "Allies receive 20% less damage from Champions from the Demonspawn, Undead Hordes or Knight Revenant Factions. Whenever an ally attacks, has a 15% chance to team up with them and join their attack. This champion will attack with their default skill. Always joins <a href=\"//ayumilove.net/raid-shadow-legends-sicia-flametongue-skill-mastery-equip-guide/\">Sicia Flametongue’s</a> attacks if they are in the same team. Can only join ally’s attack once per turn. Cardiel will not team up on ally attacks when they counterattack or when team up to attack with other champions.<br> Level 2: Buff/Debuff Chance 5%<br> Level 3: Buff/Debuff Chance 5%<br> Level 4: Buff/Debuff Chance 5%",
+      "slug": "fiend-warden",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
   "faction": {
     "name": "Sacred Order",
     "slug": "sacred-order",
@@ -178,6 +371,13 @@
     }
   ],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "block-debuffs",
+    "heal",
+    "increase-c-dmg-2",
+    "increase-c-rate-2",
+    "revive-on-death",
+    "true-fear"
+  ],
   "videos": []
 }
