@@ -1,0 +1,317 @@
+{
+  "name": "Nogdar the Headhunter",
+  "date_added": "2021-02-12T09:00:00Z",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "C",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A",
+    "faction_wars": "S"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [
+    {
+      "source": "hellhades-tier-list",
+      "rating": {
+        "overall": "A",
+        "campaign": "",
+        "arena_offense": "S",
+        "arena_defense": "S",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "B",
+        "spider": "A",
+        "fire_knight": "A",
+        "minotaur": "",
+        "force_dungeon": "",
+        "magic_dungeon": "",
+        "spirit_dungeon": "",
+        "void_dungeon": "",
+        "faction_wars": "S"
+      },
+      "weight": 5
+    },
+    {
+      "source": "ayumilove",
+      "rating": {
+        "overall": "B",
+        "campaign": "S",
+        "arena_offense": "SS",
+        "arena_defense": "B",
+        "clan_boss_without_giant_slayer": "C",
+        "clan_boss_with_giant_slayer": "C",
+        "ice_guardian": "A",
+        "dragon": "C",
+        "spider": "C",
+        "fire_knight": "A",
+        "minotaur": "A",
+        "force_dungeon": "B",
+        "magic_dungeon": "C",
+        "spirit_dungeon": "B",
+        "void_dungeon": "A",
+        "faction_wars": ""
+      },
+      "weight": 2
+    }
+  ],
+  "slug": "nogdar-the-headhunter",
+  "characteristics": {
+    "60": {
+      "hp": 12060,
+      "attack": 1696,
+      "defense": 1079,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases ally ATK in all Battles by 33%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "all-battles"
+      ],
+      "value": 33,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Brutal Verdict",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 10% of their MAX HP. Grants an Extra Turn if this attack kills an enemy.<br> Level 2: Damage +10%<br> Level 3: Damage +10%<br> Level 4: Damage +10%<br> Level 5: Damage +10%<br> Damage Multiplier: 3.3 ATK<br>Damage based on: [ATK]",
+      "slug": "brutal-verdict",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "781111031009711432116104101327210197100104117110116101114_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "39980a9f78424f2f6d9c6fa55888ac10",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Gore Feast",
+      "raw_description": "Attacks all enemies. After attacking, this champion sacrifices HP equal to 50% of their MAX HP, then place two 15% [Continuous Heal] buffs on this Champion for 2 turns. The HP sacrifice will happen even if it kills this Champion.<br> Level 2: Damage +10%<br> Level 3: Damage +10%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 3.2 ATK<br>Damage based on: [ATK]",
+      "slug": "gore-feast",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/effects/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Continuous Heal"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "781111031009711432116104101327210197100104117110116101114_s2",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "1e23bf7d30526cabe9bc0b803f46707e",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Last Rites",
+      "raw_description": "Sacrifices HP equal to 50% of this Champion’s MAX HP, then equalises HP levels with the target enemy. The HP levels of both this champion and the target enemy will be brought down to the level of the one with the lowest HP. (Does not work against bosses. This champion cannot be killed by this skill)<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1<br> Damage Multiplier: 0.5 HP",
+      "slug": "last-rites",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "781111031009711432116104101327210197100104117110116101114_s3",
+      "cooldown": 7,
+      "upgrades": [],
+      "image_slug": "75450b1e3ebc57c9c826d7e248c78ad5",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Headsman’s Return",
+      "raw_description": "Revives this Champion with 50% HP and 50% Turn Meter when killed if all other allies are alive. (Does not work if there are multiple Nogdars on the team or if there are 3 or fewer champions on the team.)",
+      "slug": "headsman-s-return",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "781111031009711432116104101327210197100104117110116101114_s4",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "173f147c9b1b75396c6085c0074f370a",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "date_added": "2019-05-31T15:55:39+02:00",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 43,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 43 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia.",
+    "champion_slugs": []
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/nogdar-the-headhunter/",
+  "image_slug": "image-champion-nogdar-the-headhunter",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Nodgar the Headhunter is a legendary attack champion from the faction Orcs doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Nogdar the Headhunter",
+      "nogdar-the-headhunter"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Nodgar the Headhunter is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-nogdar-the-headhunter.jpg",
+        "name": "Nodgar the Headhunter",
+        "url": "https://raid-codex.com/champions/nogdar-the-headhunter/"
+      }
+    ]
+  },
+  "default_description": "Nogdar the Headhunter is a legendary attack champion from the faction Orcs doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "781111031009711432116104101327210197100104117110116101114",
+  "synergy": [],
+  "thumbnail": "45474b1d4b6290c13fd8c0e0c1139145",
+  "tags": [],
+  "masteries": [
+    {
+      "from": "ayumilove.net",
+      "author": "ayumilove",
+      "locations": [
+        "arena",
+        "campaign",
+        "clan-boss",
+        "dungeon",
+        "faction-wars"
+      ],
+      "offense": [
+        "blood-shield",
+        "bring-it-down",
+        "cycle-of-violence",
+        "deadly-precision",
+        "helmsmasher",
+        "keen-strike",
+        "kill-streak",
+        "shield-breaker",
+        "single-out",
+        "whirlwind-of-death"
+      ],
+      "defense": [
+        "bloodthirst",
+        "defiant",
+        "delay-death",
+        "improved-parry",
+        "retribution"
+      ],
+      "support": []
+    }
+  ],
+  "fusion_data": [],
+  "effect_slugs": [
+    "continuous-heal-2",
+    "heal"
+  ],
+  "videos": []
+}
