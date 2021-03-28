@@ -1,0 +1,188 @@
+{
+  "name": "Infiltrator",
+  "date_added": "2021-03-15T09:30:00Z",
+  "rarity": "Uncommon",
+  "element": "Force",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "infiltrator",
+  "characteristics": {
+    "60": {
+      "hp": 13875,
+      "attack": 1123,
+      "defense": 705,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Shank",
+      "raw_description": "Attacks 1 enemy<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Damage +5%<br> Damage Multiplier: 3.9 ATK<br>Damage based on: [ATK]",
+      "slug": "shank",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Throwing Knives",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Level 6: Cooldown -1<br> Level 7: Cooldown -1<br> Damage Multiplier: 3.4 ATK<br>Damage based on: [ATK]",
+      "slug": "throwing-knives",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/effects/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Poison"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Shadowkin",
+    "slug": "shadowkin",
+    "date_added": "2021-03-15T09:30:00+01:00",
+    "website_link": "/factions/shadowkin/",
+    "image_slug": "image-faction-shadowkin",
+    "number_of_champions": 12,
+    "default_description": "Shadowkin is a faction from RAID Shadow Legends composed of 12 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Shadowkin is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Shadowkin",
+        "shadowkin"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-shadowkin.jpg",
+          "name": "Shadowkin",
+          "url": "https://raid-codex.com/factions/shadowkin/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+    "champion_slugs": []
+  },
+  "faction_slug": "shadowkin",
+  "website_link": "/champions/infiltrator/",
+  "image_slug": "image-champion-infiltrator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Infiltrator is a uncommon attack champion from the faction Shadowkin doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Infiltrator",
+      "infiltrator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Shadowkin"
+        },
+        "description": "Member of the faction Shadowkin, Infiltrator is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-infiltrator.jpg",
+        "name": "Infiltrator",
+        "url": "https://raid-codex.com/champions/infiltrator/"
+      }
+    ]
+  },
+  "default_description": "Infiltrator is a uncommon attack champion from the faction Shadowkin doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "poison"
+  ],
+  "videos": []
+}

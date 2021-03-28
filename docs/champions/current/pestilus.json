@@ -87,18 +87,195 @@
   "slug": "pestilus",
   "characteristics": {
     "60": {
-      "hp": 0,
-      "attack": 0,
-      "defense": 0,
-      "speed": 0,
-      "critical_rate": 0,
-      "critical_damage": 0,
-      "resistance": 0,
-      "accuracy": 0
+      "hp": 20145,
+      "attack": 848,
+      "defense": 1112,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
     }
   },
-  "auras": [],
-  "skills": [],
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in the Doom Tower by 50",
+      "effects": [],
+      "stats": [
+        "ACC"
+      ],
+      "locations": [
+        "doom-tower"
+      ],
+      "value": 50,
+      "percentage": false
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Blood Call",
+      "raw_description": "Attacks 2 times at random. Has a 30% chance of placing a [Leech] Debuff for 2 turns.<br> Level 2: Damage 5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Damage +5%<br> Level 7: Buff/Debuff Chance +10%<br> Damage Multiplier: 1.8 ATK",
+      "slug": "blood-call",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/effects/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Leech"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "80101115116105108117115_s1",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "42db8df48332c96e91f1bf741c7eb103",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flames Within",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns. Heals all allies by 15% of their MAX HP if the [HP Burn] debuff is placed. Fills the Turn Meters of all allies by 15% if the [HP Burn] debuff is not placed.<br> Level 2: Damage +5%<br> Level 3: Buff/Debuff Chance +5%<br> Level 4: Damage +5%<br> Level 5: Buff/Debuff Chance +10%<br> Level 6: Damage +5%<br> Level 7: Buff/Debuff Chance +10%<br> Level 8: Cooldown -1<br> Damage Multiplier: 5 ATK",
+      "slug": "flames-within",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-heal",
+          "slug": "heal",
+          "website_link": "/effects/heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/effects/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "HP Burn"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "80101115116105108117115_s2",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "c0238cdaca79ccacfd1f29d64b2b03a3",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Battle Weirding",
+      "raw_description": "Places a 50% [Increase ACC] buff and a 30% [Increase C.DMG] buff on all allies for 2 turns.<br> Level 2: Cooldown -1<br> Level 3: Cooldown -1",
+      "slug": "battle-weirding",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-acc-2",
+          "slug": "increase-acc-2",
+          "website_link": "/effects/increase-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase ACC"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "80101115116105108117115_s3",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "f7850544d8a44f554c59f0ae56ada74f",
+      "skill_number": "A3"
+    }
+  ],
   "faction": {
     "name": "Knight Revenant",
     "slug": "knight-revenant",
@@ -165,6 +342,13 @@
   "tags": [],
   "masteries": [],
   "fusion_data": [],
-  "effect_slugs": [],
+  "effect_slugs": [
+    "heal",
+    "hp-burn",
+    "increase-acc-2",
+    "increase-c-dmg-2",
+    "increase-turn-meter",
+    "leech"
+  ],
   "videos": []
 }

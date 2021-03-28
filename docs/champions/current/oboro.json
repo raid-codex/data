@@ -1,0 +1,377 @@
+{
+  "name": "Oboro",
+  "date_added": "2021-03-15T09:30:00Z",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "oboro",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1454,
+      "defense": 826,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 33%",
+      "effects": [],
+      "stats": [
+        "ATK"
+      ],
+      "locations": [
+        "dungeon"
+      ],
+      "value": 33,
+      "percentage": true
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Spreading Chaos",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Will Attack all enemies instead if the target is under 4 or more debuffs.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Damage Multiplier: 4.2 ATK (Single Target), 2.6 ATK (AoE)<br>Damage based on: [ATK]",
+      "slug": "spreading-chaos",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Mystic Smoke",
+      "raw_description": "Attacks 1 enemy 2 times. The second hit has a 75% chance of transferring all debuffs from this champion to the target. The first hit has a 75% chance of stealing all the buffs from the target when attacking under a [Veil] or [Perfect Veil] buff.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +10%<br> Level 5: Buff/Debuff Chance +15%<br> Level 6: Cooldown -1<br> Damage Multiplier: 3.15 ATK<br>Damage based on: [ATK]",
+      "slug": "mystic-smoke",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Ninja Arts",
+      "raw_description": "Places a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on this champion for 2 turns, then attacks 1 enemy. Places a [Perfect Veil] buff on this champion for 2 turns if this attack is critical.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +10%<br> Level 6: Cooldown -1<br> Level 7: Cooldown -1<br> Damage Multiplier: 5.6 ATK",
+      "slug": "ninja-arts",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. DMG",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-dmg-2",
+          "slug": "increase-c-dmg-2",
+          "website_link": "/effects/increase-c-dmg",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. DMG",
+            "Increase C.DMG"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/effects/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase C. RATE",
+            "Increase C.RATE"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 5,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Vanish",
+      "raw_description": "Places a [Revive on Death] buff on this champion for 3 turns whenever they receive a [Veil] or [Perfect Veil] buff.",
+      "slug": "vanish",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/effects/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Perfect Veil"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Revive on Death",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-revive-on-death",
+          "slug": "revive-on-death",
+          "website_link": "/effects/revive-on-death",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Revive on Death"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/effects/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Shadowkin",
+    "slug": "shadowkin",
+    "date_added": "2021-03-15T09:30:00+01:00",
+    "website_link": "/factions/shadowkin/",
+    "image_slug": "image-faction-shadowkin",
+    "number_of_champions": 12,
+    "default_description": "Shadowkin is a faction from RAID Shadow Legends composed of 12 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Shadowkin is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Shadowkin",
+        "shadowkin"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-shadowkin.jpg",
+          "name": "Shadowkin",
+          "url": "https://raid-codex.com/factions/shadowkin/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+    "champion_slugs": []
+  },
+  "faction_slug": "shadowkin",
+  "website_link": "/champions/oboro/",
+  "image_slug": "image-champion-oboro",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Oboro is a epic attack champion from the faction Shadowkin doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Oboro",
+      "oboro"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Shadowkin"
+        },
+        "description": "Member of the faction Shadowkin, Oboro is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-oboro.jpg",
+        "name": "Oboro",
+        "url": "https://raid-codex.com/champions/oboro/"
+      }
+    ]
+  },
+  "default_description": "Oboro is a epic attack champion from the faction Shadowkin doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-def-2",
+    "increase-c-dmg-2",
+    "increase-c-rate-2",
+    "perfect-veil",
+    "revive-on-death",
+    "veil"
+  ],
+  "videos": []
+}

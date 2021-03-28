@@ -1,0 +1,287 @@
+{
+  "name": "Lifetaker",
+  "date_added": "2021-03-15T09:30:00Z",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "lifetaker",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bleeding Serum",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Damage Multiplier: 2 ATK<br>Damage based on: [ATK]",
+      "slug": "bleeding-serum",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/effects/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Heal Reduction"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Leg Bind",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 50% chance of decreasing the target’s Turn Meter by 10%. The third hit has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Buff/Debuff Chance +5%<br> Level 5: Buff/Debuff Chance +5%<br> Level 6: Buff/Debuff Chance +5%<br> Level 7: Buff/Debuff Chance +10%<br> Level 8: Cooldown -1<br> Damage Multiplier: 2.3 ATK<br>Damage based on: [ATK]",
+      "slug": "leg-bind",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/effects/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease SPD"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Decrease Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-decrease-turn-meter",
+          "slug": "decrease-turn-meter",
+          "website_link": "/effects/decrease-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Diamond Body",
+      "raw_description": "Places a [Veil] buff on this Champion for 1 turn and a 30% [Reflect Damage] buff on this Champion for 2 turns<br> Level 2: Cooldown -1",
+      "slug": "diamond-body",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
+          "website_link": "/effects/reflect-damage",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Reflect Damage"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/effects/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Veil"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Shadowkin",
+    "slug": "shadowkin",
+    "date_added": "2021-03-15T09:30:00+01:00",
+    "website_link": "/factions/shadowkin/",
+    "image_slug": "image-faction-shadowkin",
+    "number_of_champions": 12,
+    "default_description": "Shadowkin is a faction from RAID Shadow Legends composed of 12 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Shadowkin is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Shadowkin",
+        "shadowkin"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-shadowkin.jpg",
+          "name": "Shadowkin",
+          "url": "https://raid-codex.com/factions/shadowkin/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+    "champion_slugs": []
+  },
+  "faction_slug": "shadowkin",
+  "website_link": "/champions/lifetaker/",
+  "image_slug": "image-champion-lifetaker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lifetaker is a rare attack champion from the faction Shadowkin doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Lifetaker",
+      "lifetaker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Shadowkin"
+        },
+        "description": "Member of the faction Shadowkin, Lifetaker is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-lifetaker.jpg",
+        "name": "Lifetaker",
+        "url": "https://raid-codex.com/champions/lifetaker/"
+      }
+    ]
+  },
+  "default_description": "Lifetaker is a rare attack champion from the faction Shadowkin doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-spd-2",
+    "decrease-turn-meter",
+    "heal-reduction-2",
+    "reflect-damage-2",
+    "veil"
+  ],
+  "videos": []
+}

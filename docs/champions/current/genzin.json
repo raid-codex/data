@@ -1,0 +1,279 @@
+{
+  "name": "Genzin",
+  "date_added": "2021-03-15T09:30:00Z",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": "",
+    "faction_wars": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "all_ratings": [],
+  "slug": "genzin",
+  "characteristics": {
+    "60": {
+      "hp": 17505,
+      "attack": 1553,
+      "defense": 859,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Flowing Cuts",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit fills this Champion’s Turn Meter by 6%.<br> Level 2: Damage +5%<br> Level 3: Damage +5%<br> Level 4: Damage +5%<br> Level 5: Damage +5%<br> Damage Multiplier: 1.3 ATK<br>Damage based on: [ATK]",
+      "slug": "flowing-cuts",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Steel Parting",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Each critical hit fills this Champion’s Turn Meter by 10%.<br> Level 2: Damage +5%<br> Level 3: Damage +10%<br> Level 4: Buff/Debuff Chance +10%<br> Level 5: Buff/Debuff Chance +15%<br> Level 6: Cooldown -1<br> Damage Multiplier: 3.8 ATK<br>Damage based on: [ATK]",
+      "slug": "steel-parting",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/effects/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Decrease DEF"
+          ],
+          "champion_slugs": []
+        },
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fated Vengeance",
+      "raw_description": "Attacks 1 enemy. Will ignore Unkillable buffs and Shield Buffs. Fills this champions turn meter by 30%. Fills these champions turn meter by 60% instead if the target has 50% HP or less after this attack. Also decreases the cooldown of Steel Parting and Fated Vengeance skills by 1 turn if this attack kills an enemy.<br> Level 2: Damage +5%<br> Level 3: Damage +10%<br> Level 4: Damage +10%<br> Level 5: Cooldown -1<br> Damage Multiplier: 5.5 ATK<br>Damage based on: [ATK]",
+      "slug": "fated-vengeance",
+      "effects": [
+        {
+          "date_added": "",
+          "effect_type": "battle_enhancement",
+          "type": "Increase Turn Meter",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-increase-turn-meter",
+          "slug": "increase-turn-meter",
+          "website_link": "/effects/increase-turn-meter",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0,
+          "possible_values": [
+            "Increase Turn Meter"
+          ],
+          "champion_slugs": []
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "cooldown": 4,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Bushido",
+      "raw_description": "Increases this champions SPD by 10 and RES by 50 if there are fewer champions on this champions team than the number of enemies on the enemy team. This effect always works when fighting bosses.",
+      "slug": "bushido",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "",
+      "cooldown": 0,
+      "upgrades": [],
+      "image_slug": "",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Shadowkin",
+    "slug": "shadowkin",
+    "date_added": "2021-03-15T09:30:00+01:00",
+    "website_link": "/factions/shadowkin/",
+    "image_slug": "image-faction-shadowkin",
+    "number_of_champions": 12,
+    "default_description": "Shadowkin is a faction from RAID Shadow Legends composed of 12 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Shadowkin is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Shadowkin",
+        "shadowkin"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-shadowkin.jpg",
+          "name": "Shadowkin",
+          "url": "https://raid-codex.com/factions/shadowkin/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "The Shadowkin hail from the far reaches of the Eastern Continent, beyond the Brimstone Path. Under the brutal heel of the Demonspawn for the past fives centuries, only recently have they cast off Siroth's yoke and rejoined the larger world. Years bent to evil purpose have left a darkness about them, and their fight to regain their lost honor has only just begun.",
+    "champion_slugs": []
+  },
+  "faction_slug": "shadowkin",
+  "website_link": "/champions/genzin/",
+  "image_slug": "image-champion-genzin",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Genzin is a legendary attack champion from the faction Shadowkin doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Genzin",
+      "genzin"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Shadowkin"
+        },
+        "description": "Member of the faction Shadowkin, Genzin is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-genzin.jpg",
+        "name": "Genzin",
+        "url": "https://raid-codex.com/champions/genzin/"
+      }
+    ]
+  },
+  "default_description": "Genzin is a legendary attack champion from the faction Shadowkin doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "unknown",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [],
+  "effect_slugs": [
+    "decrease-def-2",
+    "increase-turn-meter"
+  ],
+  "videos": []
+}
